@@ -29,81 +29,146 @@ export function Waitlist() {
   return (
     <section id="waitlist" className="px-6 py-24 md:py-32 bg-primary text-primary-foreground">
       <style jsx global>{`
-        /* Kit form custom styling to match existing design */
-        [data-uid="93062a6d88"] {
-          max-width: 28rem !important;
+        /* Reset Kit form container */
+        [data-uid="93062a6d88"],
+        .formkit-form[data-uid="93062a6d88"] {
+          width: 100% !important;
+          max-width: 32rem !important;
           margin: 0 auto !important;
+          background: transparent !important;
+          border: none !important;
+          box-shadow: none !important;
+          padding: 0 !important;
         }
         
-        [data-uid="93062a6d88"] form {
+        /* Hide any image/card layouts from Kit */
+        .formkit-form[data-uid="93062a6d88"] .formkit-background,
+        .formkit-form[data-uid="93062a6d88"] .formkit-image,
+        .formkit-form[data-uid="93062a6d88"] [data-element="header"],
+        .formkit-form[data-uid="93062a6d88"] .formkit-header,
+        .formkit-form[data-uid="93062a6d88"] .formkit-subheader,
+        .formkit-form[data-uid="93062a6d88"] .formkit-guarantee,
+        .formkit-form[data-uid="93062a6d88"] .formkit-powered-by-convertkit-container {
+          display: none !important;
+        }
+        
+        /* Form layout - horizontal on desktop */
+        .formkit-form[data-uid="93062a6d88"] .formkit-fields,
+        .formkit-form[data-uid="93062a6d88"] form {
           display: flex !important;
           flex-direction: column !important;
           gap: 0.75rem !important;
+          background: transparent !important;
+          padding: 0 !important;
         }
         
         @media (min-width: 640px) {
-          [data-uid="93062a6d88"] form {
+          .formkit-form[data-uid="93062a6d88"] .formkit-fields,
+          .formkit-form[data-uid="93062a6d88"] form {
             flex-direction: row !important;
+            align-items: stretch !important;
           }
         }
         
-        [data-uid="93062a6d88"] input[type="email"],
-        [data-uid="93062a6d88"] input[type="text"] {
+        /* Field container */
+        .formkit-form[data-uid="93062a6d88"] .formkit-field {
           flex: 1 !important;
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+        
+        /* Email input styling */
+        .formkit-form[data-uid="93062a6d88"] input[type="email"],
+        .formkit-form[data-uid="93062a6d88"] input[type="text"],
+        .formkit-form[data-uid="93062a6d88"] .formkit-input {
+          width: 100% !important;
+          height: auto !important;
           padding: 1rem 1.5rem !important;
           background: rgba(255, 255, 255, 0.1) !important;
           border: 1px solid rgba(255, 255, 255, 0.2) !important;
           border-radius: 9999px !important;
-          color: hsl(var(--primary-foreground)) !important;
+          color: #fff !important;
           font-size: 1rem !important;
+          font-family: inherit !important;
+          line-height: 1.5 !important;
+          box-sizing: border-box !important;
         }
         
-        [data-uid="93062a6d88"] input[type="email"]::placeholder,
-        [data-uid="93062a6d88"] input[type="text"]::placeholder {
+        .formkit-form[data-uid="93062a6d88"] input::placeholder,
+        .formkit-form[data-uid="93062a6d88"] .formkit-input::placeholder {
           color: rgba(255, 255, 255, 0.5) !important;
         }
         
-        [data-uid="93062a6d88"] input[type="email"]:focus,
-        [data-uid="93062a6d88"] input[type="text"]:focus {
+        .formkit-form[data-uid="93062a6d88"] input:focus,
+        .formkit-form[data-uid="93062a6d88"] .formkit-input:focus {
           outline: none !important;
-          box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3) !important;
+          border-color: rgba(255, 255, 255, 0.4) !important;
+          box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.15) !important;
         }
         
-        [data-uid="93062a6d88"] button[type="submit"],
-        [data-uid="93062a6d88"] input[type="submit"] {
+        /* Submit button styling */
+        .formkit-form[data-uid="93062a6d88"] button[type="submit"],
+        .formkit-form[data-uid="93062a6d88"] .formkit-submit,
+        .formkit-form[data-uid="93062a6d88"] .formkit-submit button {
           display: inline-flex !important;
           align-items: center !important;
           justify-content: center !important;
-          gap: 0.5rem !important;
+          white-space: nowrap !important;
           padding: 1rem 2rem !important;
-          background: hsl(var(--primary-foreground)) !important;
-          color: hsl(var(--primary)) !important;
+          background: #faf9f6 !important;
+          color: #2d4a3e !important;
           font-weight: 500 !important;
+          font-size: 1rem !important;
+          font-family: inherit !important;
           border-radius: 9999px !important;
           border: none !important;
           cursor: pointer !important;
-          transition: all 0.2s !important;
+          transition: all 0.2s ease !important;
+          line-height: 1.5 !important;
+          box-shadow: none !important;
+        }
+        
+        .formkit-form[data-uid="93062a6d88"] button[type="submit"]:hover,
+        .formkit-form[data-uid="93062a6d88"] .formkit-submit:hover,
+        .formkit-form[data-uid="93062a6d88"] .formkit-submit button:hover {
+          background: #fff !important;
+          box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.25) !important;
+          transform: translateY(-1px) !important;
+        }
+        
+        /* Success message styling */
+        .formkit-form[data-uid="93062a6d88"] .formkit-alert,
+        .formkit-form[data-uid="93062a6d88"] [data-element="alert"] {
+          background: rgba(255, 255, 255, 0.1) !important;
+          border: 1px solid rgba(255, 255, 255, 0.2) !important;
+          border-radius: 9999px !important;
+          color: #fff !important;
+          padding: 1rem 1.5rem !important;
+          text-align: center !important;
           font-size: 1rem !important;
         }
         
-        [data-uid="93062a6d88"] button[type="submit"]:hover,
-        [data-uid="93062a6d88"] input[type="submit"]:hover {
-          box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2) !important;
-        }
-        
-        [data-uid="93062a6d88"] label {
-          color: hsl(var(--primary-foreground)) !important;
-        }
-        
-        [data-uid="93062a6d88"] p,
-        [data-uid="93062a6d88"] span {
-          color: hsl(var(--primary-foreground)) !important;
-        }
-        
-        /* Hide Kit branding if present */
-        [data-uid="93062a6d88"] a[href*="kit.com"],
-        [data-uid="93062a6d88"] a[href*="convertkit"] {
+        /* Hide any labels */
+        .formkit-form[data-uid="93062a6d88"] label:not(.formkit-alert) {
           display: none !important;
+        }
+        
+        /* Hide Kit branding */
+        .formkit-form[data-uid="93062a6d88"] a[href*="kit.com"],
+        .formkit-form[data-uid="93062a6d88"] a[href*="convertkit"],
+        .formkit-form[data-uid="93062a6d88"] .formkit-powered-by {
+          display: none !important;
+        }
+        
+        /* Error message styling */
+        .formkit-form[data-uid="93062a6d88"] .formkit-alert-error {
+          background: rgba(220, 38, 38, 0.2) !important;
+          border-color: rgba(220, 38, 38, 0.4) !important;
+        }
+        
+        /* Success state */
+        .formkit-form[data-uid="93062a6d88"] .formkit-alert-success {
+          background: rgba(255, 255, 255, 0.15) !important;
         }
       `}</style>
       
