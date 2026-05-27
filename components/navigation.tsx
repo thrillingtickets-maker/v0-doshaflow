@@ -52,7 +52,7 @@ export function Navigation() {
               </a>
             ))}
             <a
-              href="#waitlist"
+              href="https://doshaflow.kit.com/93062a6d88"
               className="px-5 py-2.5 bg-primary text-primary-foreground text-sm font-medium rounded-full hover:shadow-lg hover:shadow-primary/20 transition-all"
             >
               Join Waitlist
@@ -89,7 +89,7 @@ export function Navigation() {
                 </a>
               ))}
               <a
-                href="#waitlist"
+                href="https://doshaflow.kit.com/93062a6d88"
                 onClick={() => setIsOpen(false)}
                 className="w-full py-3 bg-primary text-primary-foreground text-center font-medium rounded-full"
               >

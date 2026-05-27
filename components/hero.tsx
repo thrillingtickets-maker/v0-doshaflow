@@ -48,7 +48,7 @@ export function Hero() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
-            href="#waitlist"
+            href="https://doshaflow.kit.com/93062a6d88"
             className="group inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-primary/20"
           >
             Join the Waitlist
