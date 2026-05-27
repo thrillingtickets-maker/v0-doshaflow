@@ -1,26 +1,112 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect } from "react"
 import { motion } from "framer-motion"
-import { ArrowRight, Check } from "lucide-react"
+import Script from "next/script"
 
 export function Waitlist() {
-  const [email, setEmail] = useState("")
-  const [status, setStatus] = useState<"idle" | "loading" | "success">("idle")
+  useEffect(() => {
+    // Style the Kit form after it loads to match our design
+    const styleKitForm = () => {
+      const formContainer = document.querySelector('[data-uid="93062a6d88"]')
+      if (formContainer) {
+        // The Kit form will be styled via CSS below
+      }
+    }
+    
+    // Check periodically until the form loads
+    const interval = setInterval(() => {
+      const form = document.querySelector('[data-uid="93062a6d88"]')
+      if (form) {
+        styleKitForm()
+        clearInterval(interval)
+      }
+    }, 100)
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    if (!email) return
-
-    setStatus("loading")
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1000))
-    setStatus("success")
-    setEmail("")
-  }
+    return () => clearInterval(interval)
+  }, [])
 
   return (
     <section id="waitlist" className="px-6 py-24 md:py-32 bg-primary text-primary-foreground">
+      <style jsx global>{`
+        /* Kit form custom styling to match existing design */
+        [data-uid="93062a6d88"] {
+          max-width: 28rem !important;
+          margin: 0 auto !important;
+        }
+        
+        [data-uid="93062a6d88"] form {
+          display: flex !important;
+          flex-direction: column !important;
+          gap: 0.75rem !important;
+        }
+        
+        @media (min-width: 640px) {
+          [data-uid="93062a6d88"] form {
+            flex-direction: row !important;
+          }
+        }
+        
+        [data-uid="93062a6d88"] input[type="email"],
+        [data-uid="93062a6d88"] input[type="text"] {
+          flex: 1 !important;
+          padding: 1rem 1.5rem !important;
+          background: rgba(255, 255, 255, 0.1) !important;
+          border: 1px solid rgba(255, 255, 255, 0.2) !important;
+          border-radius: 9999px !important;
+          color: hsl(var(--primary-foreground)) !important;
+          font-size: 1rem !important;
+        }
+        
+        [data-uid="93062a6d88"] input[type="email"]::placeholder,
+        [data-uid="93062a6d88"] input[type="text"]::placeholder {
+          color: rgba(255, 255, 255, 0.5) !important;
+        }
+        
+        [data-uid="93062a6d88"] input[type="email"]:focus,
+        [data-uid="93062a6d88"] input[type="text"]:focus {
+          outline: none !important;
+          box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3) !important;
+        }
+        
+        [data-uid="93062a6d88"] button[type="submit"],
+        [data-uid="93062a6d88"] input[type="submit"] {
+          display: inline-flex !important;
+          align-items: center !important;
+          justify-content: center !important;
+          gap: 0.5rem !important;
+          padding: 1rem 2rem !important;
+          background: hsl(var(--primary-foreground)) !important;
+          color: hsl(var(--primary)) !important;
+          font-weight: 500 !important;
+          border-radius: 9999px !important;
+          border: none !important;
+          cursor: pointer !important;
+          transition: all 0.2s !important;
+          font-size: 1rem !important;
+        }
+        
+        [data-uid="93062a6d88"] button[type="submit"]:hover,
+        [data-uid="93062a6d88"] input[type="submit"]:hover {
+          box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2) !important;
+        }
+        
+        [data-uid="93062a6d88"] label {
+          color: hsl(var(--primary-foreground)) !important;
+        }
+        
+        [data-uid="93062a6d88"] p,
+        [data-uid="93062a6d88"] span {
+          color: hsl(var(--primary-foreground)) !important;
+        }
+        
+        /* Hide Kit branding if present */
+        [data-uid="93062a6d88"] a[href*="kit.com"],
+        [data-uid="93062a6d88"] a[href*="convertkit"] {
+          display: none !important;
+        }
+      `}</style>
+      
       <div className="max-w-4xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -39,52 +125,20 @@ export function Waitlist() {
           </p>
         </motion.div>
 
-        <motion.form
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          onSubmit={handleSubmit}
           className="max-w-md mx-auto"
         >
-          {status === "success" ? (
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              className="flex items-center justify-center gap-3 p-4 bg-primary-foreground/10 rounded-full"
-            >
-              <span className="w-8 h-8 flex items-center justify-center bg-primary-foreground rounded-full">
-                <Check className="w-4 h-4 text-primary" />
-              </span>
-              <span className="font-medium">You&apos;re on the list! Check your inbox.</span>
-            </motion.div>
-          ) : (
-            <div className="flex flex-col sm:flex-row gap-3">
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Enter your email"
-                className="flex-1 px-6 py-4 bg-primary-foreground/10 border border-primary-foreground/20 rounded-full text-primary-foreground placeholder:text-primary-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary-foreground/30"
-                required
-              />
-              <button
-                type="submit"
-                disabled={status === "loading"}
-                className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-foreground text-primary font-medium rounded-full transition-all hover:shadow-lg disabled:opacity-70"
-              >
-                {status === "loading" ? (
-                  "Joining..."
-                ) : (
-                  <>
-                    Join Waitlist
-                    <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                  </>
-                )}
-              </button>
-            </div>
-          )}
-        </motion.form>
+          <Script 
+            async 
+            data-uid="93062a6d88" 
+            src="https://doshaflow.kit.com/93062a6d88/index.js"
+            strategy="lazyOnload"
+          />
+        </motion.div>
 
         <motion.p
           initial={{ opacity: 0 }}
