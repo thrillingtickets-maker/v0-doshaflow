@@ -33,7 +33,7 @@ export function Waitlist() {
         [data-uid="93062a6d88"],
         .formkit-form[data-uid="93062a6d88"] {
           width: 100% !important;
-          max-width: 32rem !important;
+          max-width: 28rem !important;
           margin: 0 auto !important;
           background: transparent !important;
           border: none !important;
@@ -52,7 +52,7 @@ export function Waitlist() {
           display: none !important;
         }
         
-        /* Form layout - horizontal on desktop */
+        /* Form layout - horizontal on desktop, centered */
         .formkit-form[data-uid="93062a6d88"] .formkit-fields,
         .formkit-form[data-uid="93062a6d88"] form {
           display: flex !important;
@@ -60,13 +60,15 @@ export function Waitlist() {
           gap: 0.75rem !important;
           background: transparent !important;
           padding: 0 !important;
+          align-items: center !important;
+          justify-content: center !important;
         }
         
         @media (min-width: 640px) {
           .formkit-form[data-uid="93062a6d88"] .formkit-fields,
           .formkit-form[data-uid="93062a6d88"] form {
             flex-direction: row !important;
-            align-items: stretch !important;
+            align-items: center !important;
           }
         }
         
@@ -75,38 +77,38 @@ export function Waitlist() {
           flex: 1 !important;
           margin: 0 !important;
           padding: 0 !important;
+          width: 100% !important;
         }
         
-        /* Email input styling */
+        /* Email input styling - solid white background, dark text */
         .formkit-form[data-uid="93062a6d88"] input[type="email"],
         .formkit-form[data-uid="93062a6d88"] input[type="text"],
         .formkit-form[data-uid="93062a6d88"] .formkit-input {
           width: 100% !important;
-          height: auto !important;
-          padding: 1rem 1.5rem !important;
-          background: rgba(255, 255, 255, 0.1) !important;
-          border: 1px solid rgba(255, 255, 255, 0.2) !important;
+          height: 52px !important;
+          padding: 0 24px !important;
+          background: #ffffff !important;
+          border: none !important;
           border-radius: 9999px !important;
-          color: #fff !important;
+          color: #1f1f1f !important;
           font-size: 1rem !important;
           font-family: inherit !important;
-          line-height: 1.5 !important;
+          line-height: 52px !important;
           box-sizing: border-box !important;
         }
         
         .formkit-form[data-uid="93062a6d88"] input::placeholder,
         .formkit-form[data-uid="93062a6d88"] .formkit-input::placeholder {
-          color: rgba(255, 255, 255, 0.5) !important;
+          color: #6b7280 !important;
         }
         
         .formkit-form[data-uid="93062a6d88"] input:focus,
         .formkit-form[data-uid="93062a6d88"] .formkit-input:focus {
           outline: none !important;
-          border-color: rgba(255, 255, 255, 0.4) !important;
-          box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.15) !important;
+          box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3) !important;
         }
         
-        /* Submit button styling */
+        /* Submit button styling - green with white text */
         .formkit-form[data-uid="93062a6d88"] button[type="submit"],
         .formkit-form[data-uid="93062a6d88"] .formkit-submit,
         .formkit-form[data-uid="93062a6d88"] .formkit-submit button {
@@ -114,9 +116,10 @@ export function Waitlist() {
           align-items: center !important;
           justify-content: center !important;
           white-space: nowrap !important;
-          padding: 1rem 2rem !important;
-          background: #faf9f6 !important;
-          color: #2d4a3e !important;
+          height: 52px !important;
+          padding: 0 2rem !important;
+          background: #2d4a3e !important;
+          color: #ffffff !important;
           font-weight: 500 !important;
           font-size: 1rem !important;
           font-family: inherit !important;
@@ -124,14 +127,13 @@ export function Waitlist() {
           border: none !important;
           cursor: pointer !important;
           transition: all 0.2s ease !important;
-          line-height: 1.5 !important;
           box-shadow: none !important;
         }
         
         .formkit-form[data-uid="93062a6d88"] button[type="submit"]:hover,
         .formkit-form[data-uid="93062a6d88"] .formkit-submit:hover,
         .formkit-form[data-uid="93062a6d88"] .formkit-submit button:hover {
-          background: #fff !important;
+          background: #3d5a4e !important;
           box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.25) !important;
           transform: translateY(-1px) !important;
         }
@@ -139,8 +141,8 @@ export function Waitlist() {
         /* Success message styling */
         .formkit-form[data-uid="93062a6d88"] .formkit-alert,
         .formkit-form[data-uid="93062a6d88"] [data-element="alert"] {
-          background: rgba(255, 255, 255, 0.1) !important;
-          border: 1px solid rgba(255, 255, 255, 0.2) !important;
+          background: rgba(255, 255, 255, 0.15) !important;
+          border: 1px solid rgba(255, 255, 255, 0.25) !important;
           border-radius: 9999px !important;
           color: #fff !important;
           padding: 1rem 1.5rem !important;
