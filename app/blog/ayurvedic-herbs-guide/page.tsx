@@ -67,7 +67,7 @@ export default function AyurvedicHerbsGuidePage() {
             <p>The practitioner here makes formulas by hand. He knows which plant grows in which part of the property, which combinations do what, which herbs are heating and which are cooling and why that matters for your particular constitution. He&apos;s been doing this for forty years. His father did it before him.</p>
 
             <img 
-              src="https://images.unsplash.com/photo-1471193945509-9ad0617afabf?w=900&q=80" 
+              src="https://images.unsplash.com/photo-1607190074257-dd4b7af0309f?w=900&q=80" 
               alt="Ayurvedic herbs and spices" 
               style={{ width: '100%', borderRadius: '12px', marginBottom: '32px', objectFit: 'cover', height: '320px' }} 
             />
@@ -135,8 +135,8 @@ export default function AyurvedicHerbsGuidePage() {
             <h3 style={{ fontSize: '20px', fontWeight: 700, marginTop: '36px', marginBottom: '12px', color: '#2c1a0e' }}>Triphala — The Gut Reset</h3>
 
             <img 
-              src="https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=900&q=80" 
-              alt="Turmeric and Ayurvedic herbs" 
+              src="https://images.unsplash.com/photo-1599909631430-c9a34a03c1b7?w=900&q=80" 
+              alt="Turmeric root and powder" 
               style={{ width: '100%', borderRadius: '12px', marginBottom: '32px', objectFit: 'cover', height: '320px' }} 
             />
 
@@ -219,8 +219,8 @@ export default function AyurvedicHerbsGuidePage() {
             <h2 style={{ fontSize: '24px', fontWeight: 700, marginTop: '48px', marginBottom: '16px', color: '#2c1a0e' }}>A Starting Point</h2>
 
             <img 
-              src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=900&q=80" 
-              alt="Herbal medicine and wellness" 
+              src="https://images.unsplash.com/photo-1610725664285-7c57e6eeac3f?w=900&q=80" 
+              alt="Ashwagandha and Ayurvedic herbs" 
               style={{ width: '100%', borderRadius: '12px', marginBottom: '32px', objectFit: 'cover', height: '320px' }} 
             />
 
