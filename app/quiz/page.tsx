@@ -499,39 +499,49 @@ export default function QuizPage() {
           {showIntro ? (
             <div className="intro-wrap">
               <div className="intro-logo">Dosha<span>Flow</span></div>
-              <div className="dosha-icons">
-                <div className="dosha-icon">
-                  <div className="dosha-icon-symbol vata">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M17.7 7.7a2.5 2.5 0 1 1 1.8 4.3H2" /><path d="M9.6 4.6A2 2 0 1 1 11 8H2" /><path d="M12.6 19.4A2 2 0 1 0 14 16H2" />
-                    </svg>
+              <div style={{
+                backgroundColor: '#ffffff',
+                borderRadius: '20px',
+                padding: '40px',
+                boxShadow: '0 4px 24px rgba(0,0,0,0.08)',
+                maxWidth: '600px',
+                margin: '0 auto',
+                textAlign: 'center'
+              }}>
+                <div className="dosha-icons">
+                  <div className="dosha-icon">
+                    <div className="dosha-icon-symbol vata">
+                      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M17.7 7.7a2.5 2.5 0 1 1 1.8 4.3H2" /><path d="M9.6 4.6A2 2 0 1 1 11 8H2" /><path d="M12.6 19.4A2 2 0 1 0 14 16H2" />
+                      </svg>
+                    </div>
+                    <span className="dosha-icon-label">Vata</span>
                   </div>
-                  <span className="dosha-icon-label">Vata</span>
-                </div>
-                <div className="dosha-icon">
-                  <div className="dosha-icon-symbol pitta">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z" />
-                    </svg>
+                  <div className="dosha-icon">
+                    <div className="dosha-icon-symbol pitta">
+                      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z" />
+                      </svg>
+                    </div>
+                    <span className="dosha-icon-label">Pitta</span>
                   </div>
-                  <span className="dosha-icon-label">Pitta</span>
-                </div>
-                <div className="dosha-icon">
-                  <div className="dosha-icon-symbol kapha">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" /><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
-                    </svg>
+                  <div className="dosha-icon">
+                    <div className="dosha-icon-symbol kapha">
+                      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" /><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+                      </svg>
+                    </div>
+                    <span className="dosha-icon-label">Kapha</span>
                   </div>
-                  <span className="dosha-icon-label">Kapha</span>
                 </div>
+                <h1 className="intro-title">Find your Ayurvedic constitution</h1>
+                <p className="intro-desc">
+                  25 questions across body, mind, digestion, sleep, and stress. Discover whether you&apos;re Vata, Pitta, Kapha — or a combination — with a full percentage breakdown and personalized kit.
+                </p>
+                <button className="start-btn" onClick={() => setShowIntro(false)}>
+                  Start the Quiz →
+                </button>
               </div>
-              <h1 className="intro-title">Find your Ayurvedic constitution</h1>
-              <p className="intro-desc">
-                25 questions across body, mind, digestion, sleep, and stress. Discover whether you&apos;re Vata, Pitta, Kapha — or a combination — with a full percentage breakdown and personalized kit.
-              </p>
-              <button className="start-btn" onClick={() => setShowIntro(false)}>
-                Start the Quiz →
-              </button>
             </div>
           ) : !showResult ? (
             <>
@@ -549,77 +559,68 @@ export default function QuizPage() {
                 <span>{progress}% complete</span>
               </div>
 
-              <div style={{ backgroundColor: '#e8d9c5', color: '#7a5c3a', fontWeight: 600, padding: '4px 12px', borderRadius: '999px', fontSize: '11px', letterSpacing: '0.08em', textTransform: 'uppercase', display: 'inline-block', marginBottom: '1rem' }}>{q.category}</div>
-              <div className="question-text">{q.question}</div>
+              <div style={{
+                backgroundColor: '#ffffff',
+                borderRadius: '20px',
+                padding: '40px',
+                boxShadow: '0 4px 24px rgba(0,0,0,0.08)',
+                maxWidth: '600px',
+                margin: '0 auto'
+              }}>
+                <div style={{ backgroundColor: '#e8d9c5', color: '#7a5c3a', fontWeight: 600, padding: '4px 12px', borderRadius: '999px', fontSize: '11px', letterSpacing: '0.08em', textTransform: 'uppercase', display: 'inline-block', marginBottom: '1rem' }}>{q.category}</div>
+                <div className="question-text">{q.question}</div>
 
-              {q.answers.map((a, i) => {
-                const isSelected = selected === i
-                const isHovered = hoveredCard === i
-                return (
-                  <button
-                    key={i}
-                    onClick={() => handleSelect(i)}
-                    onMouseEnter={() => setHoveredCard(i)}
-                    onMouseLeave={() => setHoveredCard(null)}
-                    style={isSelected ? {
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'space-between',
-                      width: '100%',
-                      textAlign: 'left',
-                      backgroundColor: '#c49a6c',
-                      border: '1.5px solid #c49a6c',
-                      borderRadius: '14px',
-                      padding: '20px 24px',
-                      cursor: 'pointer',
-                      boxShadow: '0 2px 8px rgba(0,0,0,0.12)',
-                      color: '#ffffff',
-                      marginBottom: '12px',
-                      fontSize: '0.98rem',
-                      lineHeight: 1.5,
-                      fontFamily: 'inherit',
-                      fontWeight: 500,
-                    } : {
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'space-between',
-                      width: '100%',
-                      textAlign: 'left',
-                      backgroundColor: isHovered ? '#f5ede0' : '#ffffff',
-                      border: isHovered ? '1.5px solid #c49a6c' : '1.5px solid #e5d9cc',
-                      borderRadius: '14px',
-                      padding: '20px 24px',
-                      cursor: 'pointer',
-                      boxShadow: '0 2px 8px rgba(0,0,0,0.07)',
-                      transition: 'all 150ms ease',
-                      marginBottom: '12px',
-                      color: '#2c2218',
-                      fontSize: '0.98rem',
-                      lineHeight: 1.5,
-                      fontFamily: 'inherit',
-                      fontWeight: 400,
-                    }}
-                  >
-                    <span>{a.text}</span>
-                    {isSelected && (
-                      <span style={{
+                {q.answers.map((a, i) => {
+                  const isSelected = selected === i
+                  const isHovered = hoveredCard === i
+                  return (
+                    <button
+                      key={i}
+                      onClick={() => handleSelect(i)}
+                      onMouseEnter={() => setHoveredCard(i)}
+                      onMouseLeave={() => setHoveredCard(null)}
+                      style={{
                         display: 'flex',
                         alignItems: 'center',
-                        justifyContent: 'center',
-                        width: '24px',
-                        height: '24px',
-                        backgroundColor: 'white',
-                        color: '#c49a6c',
-                        borderRadius: '50%',
-                        fontSize: '1rem',
-                        fontWeight: 700,
-                        flexShrink: 0,
-                        marginLeft: '1rem',
-                      }}>✓</span>
-                    )}
-                  </button>
-                )
-              })}
+                        justifyContent: 'space-between',
+                        width: '100%',
+                        textAlign: 'left',
+                        padding: '20px 24px',
+                        borderRadius: '12px',
+                        border: isSelected ? '1.5px solid #c49a6c' : isHovered ? '1.5px solid #c49a6c' : '1.5px solid #e8d9c5',
+                        backgroundColor: isSelected ? '#c49a6c' : isHovered ? '#f0e4d0' : '#faf5ef',
+                        color: isSelected ? 'white' : '#2c2218',
+                        marginBottom: '0.875rem',
+                        cursor: 'pointer',
+                        fontSize: '0.98rem',
+                        lineHeight: 1.5,
+                        transition: 'all 150ms ease',
+                        fontFamily: 'inherit',
+                        boxShadow: '0 2px 8px rgba(60,40,20,0.05)',
+                        fontWeight: isSelected ? 500 : 400,
+                      }}
+                    >
+                      <span>{a.text}</span>
+                      {isSelected && (
+                        <span style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          width: '24px',
+                          height: '24px',
+                          backgroundColor: 'white',
+                          color: '#c49a6c',
+                          borderRadius: '50%',
+                          fontSize: '1rem',
+                          fontWeight: 700,
+                          flexShrink: 0,
+                          marginLeft: '1rem',
+                        }}>✓</span>
+                      )}
+                    </button>
+                  )
+                })}
+              </div>
             </>
           ) : (
             <>
