@@ -475,7 +475,7 @@ export default function QuizPage() {
         .intro-wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 80vh; text-align: center; padding: 2rem 0; }
         .intro-logo { font-size: 1.8rem; font-weight: 900; color: #3d2e1e; margin-bottom: 1.5rem; letter-spacing: -1px; }
         .intro-logo span { color: #c8843a; }
-        .dosha-icons { display: flex; gap: 2rem; margin-bottom: 2rem; }
+        .dosha-icons { display: flex; gap: 2rem; margin-bottom: 2rem; justify-content: center; text-align: center; }
         .dosha-icon { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; }
         .dosha-icon-symbol { width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
         .dosha-icon-symbol.vata { background: rgba(90,143,163,0.15); color: #5a8fa3; }
