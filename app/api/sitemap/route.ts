@@ -16,6 +16,7 @@ export async function GET() {
   <url><loc>https://www.doshaflow.com/blog/pitta-dosha-guide</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.doshaflow.com/blog/kapha-dosha-guide</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.doshaflow.com/blog/ayurveda-cold-smoothies</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.doshaflow.com/blog/ayurveda-coffee</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
 </urlset>`
 
   return new NextResponse(xml, {

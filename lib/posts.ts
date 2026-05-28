@@ -10,6 +10,15 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "ayurveda-coffee",
+    title: "The Ayurvedic Take on Coffee",
+    date: "May 28, 2026",
+    excerpt: "The question I get asked most often when I tell people I've been at an Ayurvedic retreat is: 'Can you still have coffee?' The answer is nuanced, which is very Ayurvedic of it.",
+    seoTitle: "The Ayurvedic Take on Coffee: Should You Drink It or Give It Up?",
+    seoDescription: "Ayurveda has a nuanced take on coffee — it depends on your dosha. Here's how coffee affects Vata, Pitta, and Kapha types, and how to make it work better for your constitution.",
+    content: ``,
+  },
+  {
     slug: "ayurveda-cold-smoothies",
     title: "Why Ayurveda Doesn't Believe in Cold Smoothies (And What to Eat Instead)",
     date: "May 28, 2026",
