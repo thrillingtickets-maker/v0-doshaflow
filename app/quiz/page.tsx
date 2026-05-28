@@ -421,7 +421,7 @@ export default function QuizPage() {
   return (
     <>
       <style>{`
-        .quiz-page { min-height: 100vh; background: linear-gradient(180deg, #fdf8f3 0%, #f5ede0 100%); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Georgia, serif; color: #2c2218; }
+        .quiz-page { min-height: 100vh; background: #2c1f14; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Georgia, serif; color: #2c2218; }
         .quiz-container { max-width: 560px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
         .quiz-header { text-align: center; padding: 2.5rem 0 2rem; }
         .quiz-tag { display: inline-block; background: rgba(200,132,58,0.12); color: #b5732a; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.35rem 1rem; border-radius: 2rem; margin-bottom: 1rem; }
@@ -473,7 +473,7 @@ export default function QuizPage() {
         .share-row button:hover { background: #fdf3e8; }
         .share-row button svg { width: 16px; height: 16px; }
         .intro-wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 80vh; text-align: center; padding: 2rem 0; }
-        .intro-logo { font-size: 1.8rem; font-weight: 900; color: #3d2e1e; margin-bottom: 1.5rem; letter-spacing: -1px; }
+        .intro-logo { font-size: 1.8rem; font-weight: 900; color: #fdf8f3; margin-bottom: 1.5rem; letter-spacing: -1px; }
         .intro-logo span { color: #c8843a; }
         .dosha-icons { display: flex; gap: 2rem; margin-bottom: 2rem; justify-content: center; text-align: center; }
         .dosha-icon { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; }
@@ -544,7 +544,8 @@ export default function QuizPage() {
               </div>
             </div>
           ) : !showResult ? (
-            <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px' }}>
+            <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px', background: '#2c1f14' }}>
+              <div style={{ fontSize: '1.8rem', fontWeight: 900, color: '#fdf8f3', marginBottom: '1.5rem', letterSpacing: '-1px', textAlign: 'center' }}>Dosha<span style={{ color: '#c8843a' }}>Flow</span></div>
               <div style={{
                 width: '100%',
                 maxWidth: '580px',
