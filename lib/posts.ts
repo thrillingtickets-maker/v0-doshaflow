@@ -10,6 +10,15 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "pitta-dosha-guide",
+    title: "Pitta Dosha: The High-Achiever's Guide to Cooling Down",
+    date: "May 28, 2026",
+    excerpt: "The first time someone described Pitta to me, I laughed. Not because it was wrong. Because it was so accurate it was slightly embarrassing.",
+    seoTitle: "Pitta Dosha: Signs of Imbalance and How to Cool Down",
+    seoDescription: "Pitta dosha governs fire, digestion, and ambition. Learn the signs of Pitta imbalance — inflammation, irritability, burnout — and exactly how to bring it back into balance.",
+    content: ``,
+  },
+  {
     slug: "vata-dosha-guide",
     title: "Vata Dosha: Signs You're Out of Balance and What To Do About It",
     date: "May 28, 2026",
