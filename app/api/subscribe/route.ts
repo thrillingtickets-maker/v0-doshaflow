@@ -3,11 +3,11 @@ import { NextResponse } from "next/server"
 export async function POST(request: Request) {
   try {
     const body = await request.json()
-    const { email_address } = body
+    const { email } = body
 
-    if (!email_address) {
+    if (!email) {
       return NextResponse.json(
-        { error: "Email address is required" },
+        { error: "Email is required" },
         { status: 400 }
       )
     }
@@ -17,23 +17,21 @@ export async function POST(request: Request) {
       {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
         },
-        body: JSON.stringify({ email_address }),
+        body: `email_address=${encodeURIComponent(email)}`,
       }
     )
 
     if (!response.ok) {
       const errorText = await response.text()
-      console.error("[v0] Kit API error:", response.status, errorText)
       return NextResponse.json(
-        { error: "Subscription failed" },
-        { status: response.status }
+        { error: errorText },
+        { status: 500 }
       )
     }
 
-    const data = await response.json()
-    return NextResponse.json(data)
+    return NextResponse.json({ success: true })
   } catch (error) {
     console.error("[v0] Subscribe API error:", error)
     return NextResponse.json(

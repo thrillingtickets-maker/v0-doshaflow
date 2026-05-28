@@ -285,7 +285,7 @@ export default function QuizPage() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ email_address: email }),
+        body: JSON.stringify({ email }),
       })
       
       if (!response.ok) {
