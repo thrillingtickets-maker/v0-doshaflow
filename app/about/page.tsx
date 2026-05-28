@@ -229,7 +229,7 @@ export default function AboutPage() {
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <a
-              href="https://doshaflow.kit.com/93062a6d88"
+              href="/quiz"
               className="group inline-flex items-center gap-2 px-8 py-4 bg-[#C97F3D] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#C97F3D]/20"
             >
               Take the Dosha Quiz
