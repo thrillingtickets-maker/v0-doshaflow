@@ -473,7 +473,7 @@ export default function QuizPage() {
         .share-row button:hover { background: #fdf3e8; }
         .share-row button svg { width: 16px; height: 16px; }
         .intro-wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 80vh; text-align: center; padding: 2rem 0; }
-        .intro-logo { font-size: 1.8rem; font-weight: 900; color: #fdf8f3; margin-bottom: 1.5rem; letter-spacing: -1px; }
+        .intro-logo { font-size: 1.8rem; font-weight: 900; color: #2c1a0e; margin-bottom: 1.5rem; letter-spacing: -1px; }
         .intro-logo span { color: #c8843a; }
         .dosha-icons { display: flex; gap: 2rem; margin-bottom: 2rem; justify-content: center; text-align: center; }
         .dosha-icon { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; }
@@ -504,7 +504,7 @@ export default function QuizPage() {
                 borderRadius: '20px',
                 padding: '40px',
                 boxShadow: '0 4px 24px rgba(0,0,0,0.15)',
-                maxWidth: '580px',
+                maxWidth: '680px',
                 width: '100%',
                 margin: '0 auto',
                 textAlign: 'center'
@@ -546,13 +546,13 @@ export default function QuizPage() {
             </div>
           ) : !showResult ? (
             <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px', paddingTop: '40px', backgroundColor: '#1a3328' }}>
-              <div style={{ fontSize: '1.8rem', fontWeight: 900, color: '#fdf8f3', marginBottom: '1.5rem', letterSpacing: '-1px', textAlign: 'center' }}>Dosha<span style={{ color: '#c8843a' }}>Flow</span></div>
+              <div style={{ fontSize: '1.8rem', fontWeight: 900, color: '#2c1a0e', marginBottom: '1.5rem', letterSpacing: '-1px', textAlign: 'center' }}>Dosha<span style={{ color: '#c8843a' }}>Flow</span></div>
               <div style={{
                 backgroundColor: '#ffffff',
                 borderRadius: '20px',
                 padding: '40px',
                 boxShadow: '0 4px 24px rgba(0,0,0,0.15)',
-                maxWidth: '580px',
+                maxWidth: '680px',
                 width: '100%',
                 margin: '0 auto'
               }}>
