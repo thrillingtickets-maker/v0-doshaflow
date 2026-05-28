@@ -468,6 +468,13 @@ export default function QuizPage() {
         .privacy-note { font-size: 0.72rem; opacity: 0.6; margin-top: 0.75rem; }
         .success-note { font-size: 1rem; font-weight: 600; padding: 0.5rem; }
         .retake-btn { display: block; text-align: center; color: #7a5c3e; font-size: 0.85rem; font-weight: 600; background: none; border: none; cursor: pointer; text-decoration: underline; margin: 1rem auto 0; font-family: inherit; }
+        .intro-wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 70vh; text-align: center; padding: 2rem 0; }
+        .intro-logo { font-size: 1.8rem; font-weight: 900; color: #3d2e1e; margin-bottom: 2rem; letter-spacing: -1px; }
+        .intro-logo span { color: #c8843a; }
+        .intro-title { font-size: clamp(1.8rem, 5vw, 2.5rem); font-weight: 800; color: #3d2e1e; margin-bottom: 1rem; letter-spacing: -0.5px; }
+        .intro-desc { font-size: 1rem; color: #7a6a58; line-height: 1.7; max-width: 480px; margin: 0 auto 2rem; }
+        .start-btn { background: #c8843a; color: white; font-size: 1rem; font-weight: 700; padding: 1rem 2rem; border-radius: 2rem; border: none; cursor: pointer; transition: all 0.2s; font-family: inherit; }
+        .start-btn:hover { background: #b5732a; transform: translateY(-1px); }
         @media (max-width: 600px) {
           .result-grid { grid-template-columns: 1fr; }
           .quiz-container { padding: 1.5rem 1.25rem 3rem; }
@@ -476,7 +483,18 @@ export default function QuizPage() {
 
       <div className="quiz-page">
         <div className="quiz-container">
-          {!showResult ? (
+          {showIntro ? (
+            <div className="intro-wrap">
+              <div className="intro-logo">Dosha<span>Flow</span></div>
+              <h1 className="intro-title">Find your Ayurvedic constitution</h1>
+              <p className="intro-desc">
+                25 questions across body, mind, digestion, sleep, and stress. Discover whether you&apos;re Vata, Pitta, Kapha — or a combination — with a full percentage breakdown and personalized kit.
+              </p>
+              <button className="start-btn" onClick={() => setShowIntro(false)}>
+                Start the Quiz →
+              </button>
+            </div>
+          ) : !showResult ? (
             <>
               <div className="quiz-header">
                 <div className="quiz-tag">Dosha Quiz</div>
@@ -504,10 +522,6 @@ export default function QuizPage() {
                   {a.text}
                 </button>
               ))}
-
-              <button className="next-btn" onClick={handleNext} disabled={selected === null}>
-                {current + 1 === questions.length ? "See my results →" : "Next question →"}
-              </button>
             </>
           ) : (
             <>
@@ -585,7 +599,7 @@ export default function QuizPage() {
                 <p className="privacy-note">No spam. Just your personalized plan.</p>
               </div>
 
-              <button className="retake-btn" onClick={() => { setCurrent(0); setAnswers([]); setSelected(null); setShowResult(false); setEmail(""); setSubmitted(false); }}>
+              <button className="retake-btn" onClick={() => { setShowIntro(true); setCurrent(0); setAnswers([]); setSelected(null); setShowResult(false); setEmail(""); setSubmitted(false); }}>
                 Retake the quiz
               </button>
             </>
