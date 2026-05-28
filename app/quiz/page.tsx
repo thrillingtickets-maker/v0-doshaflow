@@ -421,7 +421,7 @@ export default function QuizPage() {
   return (
     <>
       <style>{`
-        .quiz-page { min-height: 100vh; background: #2c1f14; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Georgia, serif; color: #2c2218; }
+        .quiz-page { min-height: 100vh; background-color: #1a3328; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Georgia, serif; color: #2c2218; }
         .quiz-container { max-width: 560px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
         .quiz-header { text-align: center; padding: 2.5rem 0 2rem; }
         .quiz-tag { display: inline-block; background: rgba(200,132,58,0.12); color: #b5732a; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.35rem 1rem; border-radius: 2rem; margin-bottom: 1rem; }
