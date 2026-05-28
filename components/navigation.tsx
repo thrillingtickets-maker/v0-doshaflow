@@ -9,7 +9,7 @@ const navLinks = [
   { label: "Testimonials", href: "#testimonials" },
   { label: "My Story", href: "/about" },
   { label: "Blog", href: "/blog" },
-  { label: "Sample Plans", href: "/samples" },
+  { label: "Sample Reports", href: "/samples" },
   { label: "For Men", href: "/ayurveda-for-men" },
   { label: "For Women", href: "/ayurveda-for-women" },
 ]
