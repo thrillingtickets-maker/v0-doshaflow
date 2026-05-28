@@ -18,6 +18,12 @@ export async function GET() {
   <url><loc>https://www.doshaflow.com/blog/ayurveda-cold-smoothies</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.doshaflow.com/blog/ayurveda-coffee</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.doshaflow.com/blog/ayurveda-hormonal-balance</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.doshaflow.com/blog/eating-for-your-dosha</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.doshaflow.com/blog/ayurveda-pms</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.doshaflow.com/blog/ayurveda-no-time</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.doshaflow.com/blog/ayurveda-30-days</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.doshaflow.com/blog/ayurveda-burnout</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.doshaflow.com/blog/retreat-day-4</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
 </urlset>`
 
   return new NextResponse(xml, {
