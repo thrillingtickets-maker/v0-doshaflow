@@ -3,11 +3,9 @@
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
 import { Menu, X } from "lucide-react"
-import { WaitlistModal } from "./waitlist-modal"
 
 const navLinks = [
   { label: "How it works", href: "#how-it-works" },
-  { label: "Features", href: "#features" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "My Story", href: "/about" },
   { label: "Blog", href: "/blog" },
@@ -19,7 +17,6 @@ const navLinks = [
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
-  const [isModalOpen, setIsModalOpen] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -59,12 +56,12 @@ export function Navigation() {
                   {link.label}
                 </a>
               ))}
-              <button
-                onClick={() => setIsModalOpen(true)}
+              <a
+                href="/quiz"
                 className="px-5 py-2.5 bg-primary text-primary-foreground text-sm font-medium rounded-full hover:shadow-lg hover:shadow-primary/20 transition-all"
               >
-                Join Waitlist
-              </button>
+                Take the Quiz →
+              </a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -96,22 +93,18 @@ export function Navigation() {
                     {link.label}
                   </a>
                 ))}
-                <button
-                  onClick={() => {
-                    setIsOpen(false)
-                    setIsModalOpen(true)
-                  }}
-                  className="w-full py-3 bg-primary text-primary-foreground text-center font-medium rounded-full"
+                <a
+                  href="/quiz"
+                  onClick={() => setIsOpen(false)}
+                  className="w-full py-3 bg-primary text-primary-foreground text-center font-medium rounded-full block"
                 >
-                  Join Waitlist
-                </button>
+                  Take the Quiz →
+                </a>
               </div>
             </motion.div>
           )}
         </nav>
       </motion.header>
-
-      <WaitlistModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </>
   )
 }
