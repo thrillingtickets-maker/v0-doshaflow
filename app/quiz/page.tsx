@@ -561,25 +561,43 @@ export default function QuizPage() {
                     onClick={() => handleSelect(i)}
                     onMouseEnter={() => setHoveredCard(i)}
                     onMouseLeave={() => setHoveredCard(null)}
-                    style={{
+                    style={isSelected ? {
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'space-between',
                       width: '100%',
                       textAlign: 'left',
+                      backgroundColor: '#c49a6c',
+                      border: '1.5px solid #c49a6c',
+                      borderRadius: '14px',
                       padding: '20px 24px',
-                      borderRadius: '12px',
-                      border: isSelected ? '1.5px solid #c49a6c' : isHovered ? '1.5px solid #c49a6c' : '1.5px solid #e8d9c5',
-                      backgroundColor: isSelected ? '#c49a6c' : isHovered ? '#f0e4d0' : '#faf5ef',
-                      color: isSelected ? 'white' : '#2c2218',
-                      marginBottom: '0.875rem',
                       cursor: 'pointer',
+                      boxShadow: '0 2px 8px rgba(0,0,0,0.12)',
+                      color: '#ffffff',
+                      marginBottom: '12px',
                       fontSize: '0.98rem',
                       lineHeight: 1.5,
-                      transition: 'all 150ms ease',
                       fontFamily: 'inherit',
-                      boxShadow: '0 2px 8px rgba(60,40,20,0.05)',
-                      fontWeight: isSelected ? 500 : 400,
+                      fontWeight: 500,
+                    } : {
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      width: '100%',
+                      textAlign: 'left',
+                      backgroundColor: isHovered ? '#f5ede0' : '#ffffff',
+                      border: isHovered ? '1.5px solid #c49a6c' : '1.5px solid #e5d9cc',
+                      borderRadius: '14px',
+                      padding: '20px 24px',
+                      cursor: 'pointer',
+                      boxShadow: '0 2px 8px rgba(0,0,0,0.07)',
+                      transition: 'all 150ms ease',
+                      marginBottom: '12px',
+                      color: '#2c2218',
+                      fontSize: '0.98rem',
+                      lineHeight: 1.5,
+                      fontFamily: 'inherit',
+                      fontWeight: 400,
                     }}
                   >
                     <span>{a.text}</span>
