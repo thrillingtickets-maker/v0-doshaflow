@@ -66,9 +66,11 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>The practitioner here makes formulas by hand. He knows which plant grows in which part of the property, which combinations do what, which herbs are heating and which are cooling and why that matters for your particular constitution. He&apos;s been doing this for forty years. His father did it before him.</p>
 
-            <div style={{ backgroundColor: '#f0e8dc', borderRadius: '12px', height: '280px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#9a7a5a', marginBottom: '32px' }}>
-              Photo from the retreat
-            </div>
+            <img 
+              src="https://images.unsplash.com/photo-1471193945509-9ad0617afabf?w=900&q=80" 
+              alt="Ayurvedic herbs and spices" 
+              style={{ width: '100%', borderRadius: '12px', marginBottom: '32px', objectFit: 'cover', height: '320px' }} 
+            />
 
             <p>I&apos;ve spent a lot of time in this room this week, asking questions. This article is what I&apos;ve learned — about the specific herbs that show up most in Ayurvedic medicine, what they actually do, and how to think about them if you&apos;re encountering this system for the first time.</p>
 
@@ -132,9 +134,11 @@ export default function AyurvedicHerbsGuidePage() {
 
             <h3 style={{ fontSize: '20px', fontWeight: 700, marginTop: '36px', marginBottom: '12px', color: '#2c1a0e' }}>Triphala — The Gut Reset</h3>
 
-            <div style={{ backgroundColor: '#f0e8dc', borderRadius: '12px', height: '280px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#9a7a5a', marginBottom: '32px' }}>
-              Photo from the retreat
-            </div>
+            <img 
+              src="https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=900&q=80" 
+              alt="Turmeric and Ayurvedic herbs" 
+              style={{ width: '100%', borderRadius: '12px', marginBottom: '32px', objectFit: 'cover', height: '320px' }} 
+            />
 
             <p>Triphala (&quot;three fruits&quot;) is the combination of Amla, Haritaki, and Bibhitaki — and it&apos;s the most commonly prescribed Ayurvedic formula for gut health, elimination, and gentle detoxification. It&apos;s also one of the most studied Ayurvedic formulas in Western research.</p>
 
@@ -214,9 +218,11 @@ export default function AyurvedicHerbsGuidePage() {
 
             <h2 style={{ fontSize: '24px', fontWeight: 700, marginTop: '48px', marginBottom: '16px', color: '#2c1a0e' }}>A Starting Point</h2>
 
-            <div style={{ backgroundColor: '#f0e8dc', borderRadius: '12px', height: '280px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#9a7a5a', marginBottom: '32px' }}>
-              Photo from the retreat
-            </div>
+            <img 
+              src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=900&q=80" 
+              alt="Herbal medicine and wellness" 
+              style={{ width: '100%', borderRadius: '12px', marginBottom: '32px', objectFit: 'cover', height: '320px' }} 
+            />
 
             <p>If you&apos;re new to Ayurvedic herbs, start simple:</p>
 
