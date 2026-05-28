@@ -10,6 +10,15 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "kapha-dosha-guide",
+    title: "Kapha Dosha: Why You Feel Stuck, Sluggish, and What Actually Helps",
+    date: "May 28, 2026",
+    excerpt: "Kapha is the dosha nobody talks about. Here's what I've learned: Kapha imbalance isn't a character flaw. It's an energetic pattern with specific causes and solutions.",
+    seoTitle: "Kapha Dosha: Why You Feel Sluggish and What Actually Helps",
+    seoDescription: "Kapha dosha governs stability, structure, and endurance. Learn the signs of Kapha imbalance — sluggishness, weight gain, low motivation — and how to get your energy moving again.",
+    content: ``,
+  },
+  {
     slug: "pitta-dosha-guide",
     title: "Pitta Dosha: The High-Achiever's Guide to Cooling Down",
     date: "May 28, 2026",
