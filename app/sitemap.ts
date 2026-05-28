@@ -35,7 +35,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/blog/day-3-my-body-is-detoxing`,
+      url: `${baseUrl}/ayurveda-for-men`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/what-happens-ayurvedic-retreat-day-3`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.7,
