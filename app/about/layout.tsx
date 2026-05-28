@@ -5,9 +5,9 @@ export const metadata: Metadata = {
   description: "Alex's story: from alcohol abuse, poor sleep, and burnout to discovering Ayurveda. The real reason DoshaFlow exists.",
   openGraph: {
     title: "My Story — How I Found Ayurveda After Burnout and Addiction | DoshaFlow",
-    description: "Alex's story: from alcohol abuse, poor sleep, and burnout to discovering Ayurveda. The real reason DoshaFlow exists.",
+    description: "Alex's story: from alcohol abuse, poor sleep, and burnout to discovering Ayurveda.",
     type: "website",
-    url: "https://doshaflow.com/about",
+    url: "https://www.doshaflow.com/about",
   },
 }
 

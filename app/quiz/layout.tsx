@@ -5,9 +5,9 @@ export const metadata: Metadata = {
   description: "Take the 5-minute dosha quiz to discover whether you're Vata, Pitta, or Kapha — and get a personalized wellness kit recommendation.",
   openGraph: {
     title: "Free Dosha Quiz — Find Your Ayurvedic Body Type | DoshaFlow",
-    description: "Take the 5-minute dosha quiz to discover whether you're Vata, Pitta, or Kapha — and get a personalized wellness kit recommendation.",
+    description: "Take the 5-minute dosha quiz to discover whether you're Vata, Pitta, or Kapha.",
     type: "website",
-    url: "https://doshaflow.com/quiz",
+    url: "https://www.doshaflow.com/quiz",
   },
 }
 

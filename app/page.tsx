@@ -6,9 +6,9 @@ export const metadata: Metadata = {
   description: "Discover your dosha and get a personalized Ayurvedic meal plan, movement routine, and herbal kit built for how your body actually feels. Based in Los Angeles.",
   openGraph: {
     title: "DoshaFlow — Personalized Ayurvedic Wellness for Your Body Type",
-    description: "Discover your dosha and get a personalized Ayurvedic meal plan, movement routine, and herbal kit built for how your body actually feels. Based in Los Angeles.",
+    description: "Discover your dosha and get a personalized Ayurvedic meal plan, movement routine, and herbal kit built for how your body actually feels.",
     type: "website",
-    url: "https://doshaflow.com",
+    url: "https://www.doshaflow.com",
   },
 }
 import { Hero } from "@/components/hero"

@@ -8,9 +8,9 @@ export const metadata: Metadata = {
   description: "A no-nonsense guide to Ayurveda for men — how the dosha system explains burnout, poor sleep, gut problems, anxiety, and alcohol use, and what to actually do about it.",
   openGraph: {
     title: "Ayurveda for Men: A Practical Guide to Doshas, Burnout, Sleep & Recovery",
-    description: "A no-nonsense guide to Ayurveda for men — how the dosha system explains burnout, poor sleep, gut problems, anxiety, and alcohol use, and what to actually do about it.",
-    type: "article",
-    url: "https://doshaflow.com/ayurveda-for-men",
+    description: "How the dosha system explains burnout, poor sleep, anxiety, and alcohol use in men.",
+    type: "website",
+    url: "https://www.doshaflow.com/ayurveda-for-men",
   },
 }
 

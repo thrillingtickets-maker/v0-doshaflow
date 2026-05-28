@@ -5,9 +5,9 @@ export const metadata: Metadata = {
   description: "Preview the DoshaFlow personalized kit: a 7-day Ayurvedic meal plan and movement program built for your dosha type.",
   openGraph: {
     title: "Sample Plans — Vata, Pitta & Kapha Meal and Yoga Kits | DoshaFlow",
-    description: "Preview the DoshaFlow personalized kit: a 7-day Ayurvedic meal plan and movement program built for your dosha type.",
+    description: "Preview the DoshaFlow personalized kit: a 7-day Ayurvedic meal plan and movement program.",
     type: "website",
-    url: "https://doshaflow.com/samples",
+    url: "https://www.doshaflow.com/samples",
   },
 }
 
