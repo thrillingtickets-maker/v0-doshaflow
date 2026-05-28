@@ -58,7 +58,7 @@ export default function AyurvedicHerbsGuidePage() {
             prose-li:mb-2
             prose-hr:border-border prose-hr:my-8"
           >
-            <hr />
+            <hr style={{ margin: '40px 0', borderColor: '#e8d9c5' }} />
 
             <p>I&apos;m sitting in a pharmacy that&apos;s been operating for over 200 years.</p>
 
@@ -72,9 +72,9 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>I&apos;ve spent a lot of time in this room this week, asking questions. This article is what I&apos;ve learned — about the specific herbs that show up most in Ayurvedic medicine, what they actually do, and how to think about them if you&apos;re encountering this system for the first time.</p>
 
-            <hr />
+            <hr style={{ margin: '40px 0', borderColor: '#e8d9c5' }} />
 
-            <h2>How to Think About Ayurvedic Herbs</h2>
+            <h2 style={{ fontSize: '24px', fontWeight: 700, marginTop: '48px', marginBottom: '16px', color: '#2c1a0e' }}>How to Think About Ayurvedic Herbs</h2>
 
             <p>Before the list, the framework. Because Ayurvedic herbs don&apos;t work the way Western supplements do, and if you approach them that way, you&apos;ll miss what&apos;s interesting about them.</p>
 
@@ -86,11 +86,11 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>I say all of this not to make herbs seem complicated, but to explain why I&apos;ve come to find them more interesting than the single-ingredient supplements I used to buy at Whole Foods. There&apos;s a sophistication here that took centuries to develop.</p>
 
-            <hr />
+            <hr style={{ margin: '40px 0', borderColor: '#e8d9c5' }} />
 
-            <h2>The Herbs You&apos;ll Encounter Most</h2>
+            <h2 style={{ fontSize: '24px', fontWeight: 700, marginTop: '48px', marginBottom: '16px', color: '#2c1a0e' }}>The Herbs You&apos;ll Encounter Most</h2>
 
-            <h3>Ashwagandha — The Foundation</h3>
+            <h3 style={{ fontSize: '20px', fontWeight: 700, marginTop: '36px', marginBottom: '12px', color: '#2c1a0e' }}>Ashwagandha — The Foundation</h3>
 
             <p>If you&apos;ve heard of one Ayurvedic herb, it&apos;s this one. Ashwagandha (Withania somnifera) is now globally famous, and for once the hype is somewhat justified. This is the most well-researched Ayurvedic herb in Western clinical literature, with strong evidence for stress reduction, sleep quality, testosterone support, and nervous system recovery.</p>
 
@@ -98,9 +98,9 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>What I&apos;ve learned here: the root form is more potent than most capsule products you&apos;ll find in the West. And it works slowly — this is not a one-dose herb. Three months is a meaningful trial period.</p>
 
-            <hr />
+            <hr style={{ margin: '40px 0', borderColor: '#e8d9c5' }} />
 
-            <h3>Turmeric — The Anti-Inflammatory Workhorse</h3>
+            <h3 style={{ fontSize: '20px', fontWeight: 700, marginTop: '36px', marginBottom: '12px', color: '#2c1a0e' }}>Turmeric — The Anti-Inflammatory Workhorse</h3>
 
             <p>Turmeric (Curcuma longa) has the strongest evidence base of any Ayurvedic herb for anti-inflammatory effects, joint health, gut health, and metabolic support. The active compound curcumin has been studied extensively, though the Ayurvedic tradition uses the whole root — not an extract — and almost always combines it with black pepper, which dramatically increases absorption.</p>
 
@@ -108,9 +108,9 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>The kitchen at this retreat uses turmeric in almost every meal. Not supplements — food. That&apos;s the original delivery system.</p>
 
-            <hr />
+            <hr style={{ margin: '40px 0', borderColor: '#e8d9c5' }} />
 
-            <h3>Ginger — Agni&apos;s Best Friend</h3>
+            <h3 style={{ fontSize: '20px', fontWeight: 700, marginTop: '36px', marginBottom: '12px', color: '#2c1a0e' }}>Ginger — Agni&apos;s Best Friend</h3>
 
             <p>Agni is the Ayurvedic concept of digestive fire — the capacity of the body to transform food, process experience, and eliminate waste. Almost all disease in Ayurveda is understood as beginning with weakened agni. Ginger (Zingiber officinale) is the primary herb for stoking it.</p>
 
@@ -118,9 +118,9 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>In terms of dosha: ginger is warming and stimulating, making it especially good for Vata and Kapha types. Pitta types should use it more moderately — too much heat on an already-hot constitution is its own problem.</p>
 
-            <hr />
+            <hr style={{ margin: '40px 0', borderColor: '#e8d9c5' }} />
 
-            <h3>Amla (Indian Gooseberry) — The Vitamin C Bomb</h3>
+            <h3 style={{ fontSize: '20px', fontWeight: 700, marginTop: '36px', marginBottom: '12px', color: '#2c1a0e' }}>Amla (Indian Gooseberry) — The Vitamin C Bomb</h3>
 
             <p>Amla (Emblica officinalis) is one of the most nutrient-dense foods on the planet — extremely high in vitamin C, antioxidants, and compounds that support immunity, skin, hair, and longevity. It&apos;s one of the three fruits in Triphala and is considered a <em>rasayana</em> in its own right.</p>
 
@@ -128,9 +128,9 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>Strong evidence for its antioxidant, immunomodulating, and metabolic effects. Worth taking seriously.</p>
 
-            <hr />
+            <hr style={{ margin: '40px 0', borderColor: '#e8d9c5' }} />
 
-            <h3>Triphala — The Gut Reset</h3>
+            <h3 style={{ fontSize: '20px', fontWeight: 700, marginTop: '36px', marginBottom: '12px', color: '#2c1a0e' }}>Triphala — The Gut Reset</h3>
 
             <div style={{ backgroundColor: '#f0e8dc', borderRadius: '12px', height: '280px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#9a7a5a', marginBottom: '32px' }}>
               Photo from the retreat
@@ -142,17 +142,17 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>This is the formula I&apos;ve been taking every morning here. The results on my digestion have been noticeable within days.</p>
 
-            <hr />
+            <hr style={{ margin: '40px 0', borderColor: '#e8d9c5' }} />
 
-            <h3>Brahmi — The Brain Herb</h3>
+            <h3 style={{ fontSize: '20px', fontWeight: 700, marginTop: '36px', marginBottom: '12px', color: '#2c1a0e' }}>Brahmi — The Brain Herb</h3>
 
             <p>Brahmi (Bacopa monnieri) is Ayurveda&apos;s primary herb for the mind: focus, memory, learning, and anxiety. It&apos;s cooling and calming, which makes it particularly good for Pitta types dealing with mental overload and burnout — and for anyone whose mind is running too hot and fast.</p>
 
             <p>Moderate evidence in Western research for cognitive function and anxiety reduction. It works slowly — meaningful effects at 8-12 weeks. The practitioners here describe it as &quot;making the mind still enough to actually think.&quot;</p>
 
-            <hr />
+            <hr style={{ margin: '40px 0', borderColor: '#e8d9c5' }} />
 
-            <h3>Tulsi (Holy Basil) — The Adaptogen You Haven&apos;t Heard Of</h3>
+            <h3 style={{ fontSize: '20px', fontWeight: 700, marginTop: '36px', marginBottom: '12px', color: '#2c1a0e' }}>Tulsi (Holy Basil) — The Adaptogen You Haven&apos;t Heard Of</h3>
 
             <p>Tulsi (Ocimum sanctum) is revered in India the way few plants are. It grows in almost every household. It&apos;s used in religious practice. And it&apos;s one of the most effective adaptogens I&apos;ve encountered — herbs that help the body adapt to stress without either stimulating or sedating.</p>
 
@@ -160,9 +160,9 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>Moderate-to-strong evidence for its adaptogenic, immunomodulating, and anti-inflammatory properties. Available as a tea, which is my preferred form.</p>
 
-            <hr />
+            <hr style={{ margin: '40px 0', borderColor: '#e8d9c5' }} />
 
-            <h3>Shatavari — For Women&apos;s Health</h3>
+            <h3 style={{ fontSize: '20px', fontWeight: 700, marginTop: '36px', marginBottom: '12px', color: '#2c1a0e' }}>Shatavari — For Women&apos;s Health</h3>
 
             <p>Shatavari (Asparagus racemosus) is Ayurveda&apos;s primary herb for women&apos;s reproductive health. It supports hormonal balance, helps with the transition through perimenopause, supports milk production in nursing mothers, and has a cooling, nourishing quality that counters the heat and depletion that often accompany hormonal fluctuation.</p>
 
@@ -170,9 +170,9 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>Moderate evidence. Worth the attention it&apos;s getting in women&apos;s wellness circles.</p>
 
-            <hr />
+            <hr style={{ margin: '40px 0', borderColor: '#e8d9c5' }} />
 
-            <h3>Neem — The Bitter Purifier</h3>
+            <h3 style={{ fontSize: '20px', fontWeight: 700, marginTop: '36px', marginBottom: '12px', color: '#2c1a0e' }}>Neem — The Bitter Purifier</h3>
 
             <p>Neem (Azadirachta indica) is intensely bitter, antibacterial, and historically used for skin conditions, blood purification, and immune support. It&apos;s one of those herbs that every practitioner here reaches for when something is infected, inflamed, or needs clearing.</p>
 
@@ -180,15 +180,15 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>Moderate evidence for its antimicrobial and anti-inflammatory properties.</p>
 
-            <hr />
+            <hr style={{ margin: '40px 0', borderColor: '#e8d9c5' }} />
 
-            <h3>Ashwagandha + Shatavari + Brahmi — The Core Three</h3>
+            <h3 style={{ fontSize: '20px', fontWeight: 700, marginTop: '36px', marginBottom: '12px', color: '#2c1a0e' }}>Ashwagandha + Shatavari + Brahmi — The Core Three</h3>
 
             <p>If I had to pick three herbs to start with based on what I&apos;ve learned here, it would be these. Ashwagandha for the nervous system and stress response, Shatavari for hormonal nourishment (particularly for women), and Brahmi for the mind. Together they address the three things most modern people need most: better stress recovery, hormonal balance, and a quieter mind.</p>
 
-            <hr />
+            <hr style={{ margin: '40px 0', borderColor: '#e8d9c5' }} />
 
-            <h2>The Herbs With the Strongest Evidence</h2>
+            <h2 style={{ fontSize: '24px', fontWeight: 700, marginTop: '48px', marginBottom: '16px', color: '#2c1a0e' }}>The Herbs With the Strongest Evidence</h2>
 
             <p>For the scientifically inclined, here&apos;s where the Western research is strongest:</p>
 
@@ -200,9 +200,9 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>This doesn&apos;t mean the traditional herbs are ineffective — it means they haven&apos;t been funded for Western clinical trials. The evidence gap reflects economics, not necessarily efficacy.</p>
 
-            <hr />
+            <hr style={{ margin: '40px 0', borderColor: '#e8d9c5' }} />
 
-            <h2>How I Think About Using These Herbs</h2>
+            <h2 style={{ fontSize: '24px', fontWeight: 700, marginTop: '48px', marginBottom: '16px', color: '#2c1a0e' }}>How I Think About Using These Herbs</h2>
 
             <p>The practitioners here have a specific view: herbs work best when they&apos;re matched to your constitution and your current imbalance. Taking Ashwagandha because it&apos;s popular is less effective than taking it because you&apos;re a Vata type dealing with depletion. Taking Brahmi because it&apos;s a nootropic is less targeted than taking it because your mind genuinely runs too fast.</p>
 
@@ -210,9 +210,9 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>That specificity is what I&apos;ve been experiencing here. I&apos;m not taking a general wellness stack. I&apos;m taking a formula built for my constitution, adjusted this week based on what&apos;s happening in my body right now. The difference is real.</p>
 
-            <hr />
+            <hr style={{ margin: '40px 0', borderColor: '#e8d9c5' }} />
 
-            <h2>A Starting Point</h2>
+            <h2 style={{ fontSize: '24px', fontWeight: 700, marginTop: '48px', marginBottom: '16px', color: '#2c1a0e' }}>A Starting Point</h2>
 
             <div style={{ backgroundColor: '#f0e8dc', borderRadius: '12px', height: '280px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#9a7a5a', marginBottom: '32px' }}>
               Photo from the retreat
@@ -230,7 +230,7 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>The herbs here aren&apos;t magic. They&apos;re 5,000 years of paying attention to what works — and in this particular pharmacy, in this particular room that smells like concentrated earth, that lineage is very hard to dismiss.</p>
 
-            <hr />
+            <hr style={{ margin: '40px 0', borderColor: '#e8d9c5' }} />
 
             <p><em>Alex is the founder of DoshaFlow, currently at an Ayurvedic retreat in Kerala, India. <Link href="/quiz" className="text-[#C97F3D] hover:underline">Take the dosha quiz →</Link> · <Link href="/blog" className="text-[#C97F3D] hover:underline">Read the retreat journal →</Link></em></p>
           </div>
