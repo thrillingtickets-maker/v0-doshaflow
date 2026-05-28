@@ -545,20 +545,6 @@ export default function QuizPage() {
             </div>
           ) : !showResult ? (
             <>
-              <div className="quiz-header">
-                <div className="quiz-tag">Dosha Quiz</div>
-                <h1>Find your Ayurvedic constitution</h1>
-                <p>25 questions · 5 minutes · Your personalized breakdown</p>
-              </div>
-
-              <div className="progress-bar-wrap">
-                <div className="progress-bar-fill" style={{ width: `${progress}%` }} />
-              </div>
-              <div className="progress-label">
-                <span>Question {current + 1} of {questions.length}</span>
-                <span>{progress}% complete</span>
-              </div>
-
               <div style={{
                 backgroundColor: '#ffffff',
                 borderRadius: '20px',
@@ -567,6 +553,16 @@ export default function QuizPage() {
                 maxWidth: '600px',
                 margin: '0 auto'
               }}>
+                <div style={{ backgroundColor: '#e8d9c5', color: '#7a5c3a', fontWeight: 600, padding: '4px 12px', borderRadius: '999px', fontSize: '11px', letterSpacing: '0.08em', textTransform: 'uppercase', display: 'inline-block', marginBottom: '1.5rem' }}>Dosha Quiz</div>
+
+                <div className="progress-bar-wrap">
+                  <div className="progress-bar-fill" style={{ width: `${progress}%` }} />
+                </div>
+                <div className="progress-label">
+                  <span>Question {current + 1} of {questions.length}</span>
+                  <span>{progress}% complete</span>
+                </div>
+
                 <div style={{ backgroundColor: '#e8d9c5', color: '#7a5c3a', fontWeight: 600, padding: '4px 12px', borderRadius: '999px', fontSize: '11px', letterSpacing: '0.08em', textTransform: 'uppercase', display: 'inline-block', marginBottom: '1rem' }}>{q.category}</div>
                 <div className="question-text">{q.question}</div>
 
@@ -587,8 +583,8 @@ export default function QuizPage() {
                         textAlign: 'left',
                         padding: '20px 24px',
                         borderRadius: '12px',
-                        border: isSelected ? '1.5px solid #c49a6c' : isHovered ? '1.5px solid #c49a6c' : '1.5px solid #e8d9c5',
-                        backgroundColor: isSelected ? '#c49a6c' : isHovered ? '#f0e4d0' : '#faf5ef',
+                        border: isSelected ? '1.5px solid #b5763a' : isHovered ? '1.5px solid #c49a6c' : '1.5px solid #ddd0be',
+                        backgroundColor: isSelected ? '#b5763a' : isHovered ? '#eddfc9' : '#f7f0e6',
                         color: isSelected ? 'white' : '#2c2218',
                         marginBottom: '0.875rem',
                         cursor: 'pointer',
@@ -609,7 +605,7 @@ export default function QuizPage() {
                           width: '24px',
                           height: '24px',
                           backgroundColor: 'white',
-                          color: '#c49a6c',
+                          color: '#b5763a',
                           borderRadius: '50%',
                           fontSize: '1rem',
                           fontWeight: 700,
