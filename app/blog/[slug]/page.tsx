@@ -23,8 +23,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   return {
-    title: `${post.title} | DoshaFlow Blog`,
-    description: post.excerpt,
+    title: post.seoTitle || `${post.title} | DoshaFlow Blog`,
+    description: post.seoDescription || post.excerpt,
   }
 }
 

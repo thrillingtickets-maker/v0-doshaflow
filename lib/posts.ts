@@ -4,14 +4,18 @@ export interface Post {
   date: string
   excerpt: string
   content: string
+  seoTitle?: string
+  seoDescription?: string
 }
 
 export const posts: Post[] = [
   {
-    slug: "day-3-my-body-is-detoxing",
+    slug: "what-happens-ayurvedic-retreat-day-3",
     title: "Day 3: My Body Is Detoxing, My Mood Is a Ping Pong Ball, and I Hit 15,000 Steps",
     date: "May 27, 2026",
     excerpt: "First good night of sleep. Eight hours. My resting heart rate was 74. And then my digestive system staged a full revolt.",
+    seoTitle: "What Really Happens at an Ayurvedic Retreat: Day 3 — Shirodhara, Detox & Mood Swings",
+    seoDescription: "An honest first-person account of day 3 at an Ayurvedic retreat in India — Shirodhara treatment, detox side effects, mood swings, and what nobody warns you about before you go.",
     content: `
       <p><strong>May 27, 2026 · Ayurvedic Retreat, Day 3</strong></p>
       <p>I arrived here Monday. It's now Wednesday night, and I'm recording this voice note from my room with a headache from staring at my laptop for four hours straight. So — full transparency — this is what a real retreat looks like, at least for me.</p>
@@ -22,12 +26,17 @@ export const posts: Post[] = [
       <h2>On mood: it has been a ping pong ball.</h2>
       <p>This morning I woke up and texted my friends feeling genuinely great. Then I went for a short walk in the heat — it's the hottest season here right now, genuinely brutal — and something shifted and I just felt: what am I doing here? That lasted a few hours. Then it passed. I've been told this is normal — the mood swings are part of the detox process, part of what happens when you take away the things you've been using to regulate yourself. No cravings for alcohol, which surprises me a little. Or maybe it doesn't. I think the cravings were always about something else.</p>
       <h2>Today's highlight: Shirodhara.</h2>
-      <p>This is an Ayurvedic treatment where warm oil is poured in a continuous stream across your forehead. It sounds strange. It is strange. It's also one of the most deeply calming things I've ever experienced. I walked out of it feeling like I'd been gently wrung out and put back together. We also took a tour of the medicinal plants on the property today — walking through and learning what each plant treats, which dosha it balances. There's so much knowledge here that barely exists in any accessible form in a place like Los Angeles.</p>
+      <p>Shirodhara is one of the most distinctive treatments in Ayurvedic medicine. Warm oil — in my case, a blend of sesame and herbal oils chosen for my Vata constitution — is poured in a continuous, uninterrupted stream across the center of your forehead from a brass vessel that swings gently above you. This continues for 45 minutes.</p>
+      <p>When I read about it before coming, I assumed I would hate it. I'm not someone who sits still. The idea of lying motionless with oil pouring on my forehead for 45 minutes sounded like a form of mild torture.</p>
+      <p>It is the opposite. The specific effect it has on the nervous system is difficult to explain in a way that doesn't sound mystical, so I'll just say: my mind went quiet in a way it hasn't in years. Not sleepy. Quiet. The practitioners here tell me it works on the "third eye" — the Ajna point — which governs the nervous system and mental clarity in Ayurvedic anatomy. I don't know how to evaluate that claim. I know how I felt walking out of the room.</p>
+      <p>If you're considering an Ayurvedic retreat and wondering whether Shirodhara is worth doing: yes. Without reservation.</p>
+      <p>We also took a tour of the medicinal plants on the property today — walking through and learning what each plant treats, which dosha it balances. There's so much knowledge here that barely exists in any accessible form in a place like Los Angeles.</p>
       <h2>Speaking of Los Angeles.</h2>
       <p>I spent four hours tonight working on something I've been building — a website called DoshaFlow, which is officially live as of today. There is almost no real Ayurvedic presence in LA. Not the real thing. Not in any accessible, modern, well-designed form. The opportunity is enormous. This retreat is making me more convinced of that every day.</p>
       <h2>The numbers.</h2>
       <p>Sleep: 8 hours. Resting heart rate: 74. Steps: 15,000 (this took genuinely all day). Yoga and meditation completed: 0 (tomorrow, I mean it this time — my back hurts and I need to move properly).</p>
       <p>It's not a perfect day. My body hurts, my mood was all over the place, and I have a headache. But I'm here. I slept eight hours. I hit 15,000 steps. I built something I'm proud of. And I went to bed not overfull for the first time all week. Progress looks different than I thought it would. But I think that's the point.</p>
+      <p><em>Curious what an Ayurvedic plan actually looks like? See <a href="/samples">sample Vata meal and yoga plans</a> — or <a href="/quiz">take the quiz</a> to find your own type.</em></p>
     `,
   },
 ]
