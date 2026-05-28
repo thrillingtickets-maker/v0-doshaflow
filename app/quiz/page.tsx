@@ -551,7 +551,8 @@ export default function QuizPage() {
                 backgroundColor: '#ffffff',
                 borderRadius: '20px',
                 padding: '40px',
-                boxShadow: '0 4px 24px rgba(0,0,0,0.08)'
+                boxShadow: '0 4px 24px rgba(0,0,0,0.08)',
+                margin: '0 auto'
               }}>
                 <div style={{ backgroundColor: '#e8d9c5', color: '#7a5c3a', fontWeight: 600, padding: '4px 12px', borderRadius: '999px', fontSize: '11px', letterSpacing: '0.08em', textTransform: 'uppercase', display: 'inline-block', marginBottom: '1.5rem' }}>Dosha Quiz</div>
 
