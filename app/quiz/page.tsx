@@ -373,6 +373,7 @@ export default function QuizPage() {
   const [email, setEmail] = useState("")
   const [submitted, setSubmitted] = useState(false)
   const [loading, setLoading] = useState(false)
+  const [copied, setCopied] = useState(false)
 
   const progress = Math.round((current / questions.length) * 100)
   const q = questions[current]
@@ -470,6 +471,10 @@ export default function QuizPage() {
         .retake-btn { display: block; text-align: center; color: #7a5c3e; font-size: 0.85rem; font-weight: 600; background: none; border: none; cursor: pointer; text-decoration: underline; margin: 1rem auto 0; font-family: inherit; }
         .share-btn { display: flex; align-items: center; justify-content: center; width: 100%; padding: 0.875rem 1.5rem; border-radius: 2rem; border: 2px solid #c8843a; background: transparent; color: #c8843a; font-size: 0.95rem; font-weight: 700; cursor: pointer; transition: all 0.2s; font-family: inherit; margin-top: 1.5rem; }
         .share-btn:hover { background: #fdf3e8; }
+        .share-row { display: flex; gap: 0.75rem; margin-top: 1.5rem; justify-content: center; flex-wrap: wrap; }
+        .share-row button { display: flex; align-items: center; gap: 0.5rem; padding: 0.6rem 1rem; border-radius: 2rem; border: 2px solid #c8843a; background: transparent; color: #c8843a; font-size: 0.85rem; font-weight: 600; cursor: pointer; transition: all 0.2s; font-family: inherit; }
+        .share-row button:hover { background: #fdf3e8; }
+        .share-row button svg { width: 16px; height: 16px; }
         .intro-wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 70vh; text-align: center; padding: 2rem 0; }
         .intro-logo { font-size: 1.8rem; font-weight: 900; color: #3d2e1e; margin-bottom: 2rem; letter-spacing: -1px; }
         .intro-logo span { color: #c8843a; }
@@ -601,20 +606,36 @@ export default function QuizPage() {
                 <p className="privacy-note">No spam. Just your personalized plan.</p>
               </div>
 
-              <button
-                className="share-btn"
-                onClick={() => {
-                  const text = `I just took the DoshaFlow dosha quiz — I'm ${result.title} 🌿\nVata ${vPct}% · Pitta ${pPct}% · Kapha ${kPct}%\n\nFind your type → https://www.doshaflow.com/quiz`
-                  window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, '_blank')
-                }}
-              >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginRight: "0.5rem" }}>
-                  <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
-                  <polyline points="16 6 12 2 8 6" />
-                  <line x1="12" y1="2" x2="12" y2="15" />
-                </svg>
-                Share your result →
-              </button>
+              <div className="share-row">
+                <button
+                  onClick={() => {
+                    const text = `I just took the DoshaFlow dosha quiz — I'm ${result.title} 🌿\nVata ${vPct}% · Pitta ${pPct}% · Kapha ${kPct}%\n\nFind your type → https://www.doshaflow.com/quiz`
+                    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, '_blank')
+                  }}
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                  X
+                </button>
+                <button
+                  onClick={() => {
+                    window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.doshaflow.com%2Fquiz', '_blank')
+                  }}
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                  Facebook
+                </button>
+                <button
+                  onClick={() => {
+                    const text = `I'm ${result.title} 🌿 Vata ${vPct}% · Pitta ${pPct}% · Kapha ${kPct}% — find your dosha at doshaflow.com/quiz`
+                    navigator.clipboard.writeText(text)
+                    setCopied(true)
+                    setTimeout(() => setCopied(false), 2000)
+                  }}
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                  {copied ? "Copied!" : "Copy link"}
+                </button>
+              </div>
 
               <button className="retake-btn" onClick={() => { setShowIntro(true); setCurrent(0); setAnswers([]); setSelected(null); setShowResult(false); setEmail(""); setSubmitted(false); }}>
                 Retake the quiz
