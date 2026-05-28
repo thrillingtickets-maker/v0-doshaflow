@@ -9,9 +9,9 @@ export const metadata = {
   description: "Daily posts from a two-week Ayurvedic retreat in India. Real experiences, treatments, food, and what actually happens when a modern Westerner commits to the practice.",
   openGraph: {
     title: "Notes from the Ground — An Ayurvedic Retreat Journal | DoshaFlow",
-    description: "Daily posts from a two-week Ayurvedic retreat in India. Real experiences, treatments, food, and what actually happens when a modern Westerner commits to the practice.",
+    description: "Daily posts from a two-week Ayurvedic retreat in India.",
     type: "website",
-    url: "https://doshaflow.com/blog",
+    url: "https://www.doshaflow.com/blog",
   },
 }
 
