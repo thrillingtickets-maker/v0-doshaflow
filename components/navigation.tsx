@@ -13,6 +13,7 @@ const navLinks = [
   { label: "Blog", href: "/blog" },
   { label: "Sample Plans", href: "/samples" },
   { label: "For Men", href: "/ayurveda-for-men" },
+  { label: "For Women", href: "/ayurveda-for-women" },
 ]
 
 export function Navigation() {
