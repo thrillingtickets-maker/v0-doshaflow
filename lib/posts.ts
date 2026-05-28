@@ -13,19 +13,21 @@ export const posts: Post[] = [
     date: "May 27, 2026",
     excerpt: "First good night of sleep. Eight hours. My resting heart rate was 74. And then my digestive system staged a full revolt.",
     content: `
-      <p>First good night of sleep. Eight hours. My resting heart rate was 74. And then my digestive system staged a full revolt.</p>
-      
-      <p>I woke up feeling like I'd been hit by a truck made entirely of turmeric and ghee. The Ayurvedic doctor here says this is normal — "your body is releasing years of accumulated ama," she explained, which is the Sanskrit term for toxins. I nodded like I understood, but mostly I was thinking about whether I could make it to the bathroom in time.</p>
-      
-      <p>By mid-morning, things had settled. I walked the grounds — lush, green, impossibly quiet except for the birds. My phone told me I'd hit 15,000 steps by lunch. That's more than I usually do in three days back home.</p>
-      
-      <p>The food here is simple but intentional. Every meal is designed for my specific dosha. As a Pitta-dominant type, I'm eating cooling foods: cucumber, coconut, bitter greens. No coffee. No alcohol. No spice. It's like my tongue has entered witness protection.</p>
-      
-      <p>My mood has been... unpredictable. One moment I'm at peace, watching the sunset over the rice paddies. The next I'm inexplicably angry at a mosquito. The practitioners say this is also normal. Emotional detox, they call it. I call it "wondering why I paid money for this."</p>
-      
-      <p>But then evening comes. The oil massage. The meditation. The sound of temple bells in the distance. And I remember why I'm here. To reset. To remember what my body feels like when it's not running on cortisol and cold brew.</p>
-      
-      <p>Three days down. Eleven to go. My body is confused, but something deeper feels like it's waking up.</p>
+      <p><strong>May 27, 2026 · Ayurvedic Retreat, Day 3</strong></p>
+      <p>I arrived here Monday. It's now Wednesday night, and I'm recording this voice note from my room with a headache from staring at my laptop for four hours straight. So — full transparency — this is what a real retreat looks like, at least for me.</p>
+      <h2>Last night I slept eight hours.</h2>
+      <p>That might not sound revolutionary, but for me it is. My sleep has been wrecked for years — shallow, restless, never enough. The first two nights here I was brain foggy and exhausted in that particular way that's different from being tired. Like your nervous system is buffering. But last night something shifted. Eight hours. Deep. My resting heart rate this morning was 74, which is genuinely low for me. My body is starting to do the thing.</p>
+      <h2>The less glamorous news: my digestive system staged a full revolt today.</h2>
+      <p>I've been eating a lot since I arrived. Big breakfasts, full plates, seconds. But if I'm being honest with myself — which is kind of the whole point of being here — I've been overeating to fill a void. When you take away alcohol, you find other things to reach for. For me, apparently, it's been food. Today my body sent a very clear message about that. I spent most of the day dealing with severe diarrhea. Not fun. Tonight was the first time they gave me a portioned meal. I left the dining room not stuffed for the first time since I arrived, and honestly? I felt better. Lighter. Something to pay attention to.</p>
+      <h2>On mood: it has been a ping pong ball.</h2>
+      <p>This morning I woke up and texted my friends feeling genuinely great. Then I went for a short walk in the heat — it's the hottest season here right now, genuinely brutal — and something shifted and I just felt: what am I doing here? That lasted a few hours. Then it passed. I've been told this is normal — the mood swings are part of the detox process, part of what happens when you take away the things you've been using to regulate yourself. No cravings for alcohol, which surprises me a little. Or maybe it doesn't. I think the cravings were always about something else.</p>
+      <h2>Today's highlight: Shirodhara.</h2>
+      <p>This is an Ayurvedic treatment where warm oil is poured in a continuous stream across your forehead. It sounds strange. It is strange. It's also one of the most deeply calming things I've ever experienced. I walked out of it feeling like I'd been gently wrung out and put back together. We also took a tour of the medicinal plants on the property today — walking through and learning what each plant treats, which dosha it balances. There's so much knowledge here that barely exists in any accessible form in a place like Los Angeles.</p>
+      <h2>Speaking of Los Angeles.</h2>
+      <p>I spent four hours tonight working on something I've been building — a website called DoshaFlow, which is officially live as of today. There is almost no real Ayurvedic presence in LA. Not the real thing. Not in any accessible, modern, well-designed form. The opportunity is enormous. This retreat is making me more convinced of that every day.</p>
+      <h2>The numbers.</h2>
+      <p>Sleep: 8 hours. Resting heart rate: 74. Steps: 15,000 (this took genuinely all day). Yoga and meditation completed: 0 (tomorrow, I mean it this time — my back hurts and I need to move properly).</p>
+      <p>It's not a perfect day. My body hurts, my mood was all over the place, and I have a headache. But I'm here. I slept eight hours. I hit 15,000 steps. I built something I'm proud of. And I went to bed not overfull for the first time all week. Progress looks different than I thought it would. But I think that's the point.</p>
     `,
   },
 ]
