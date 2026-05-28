@@ -420,20 +420,24 @@ export default function QuizPage() {
   return (
     <>
       <style>{`
-        .quiz-page { min-height: 100vh; background: #faf8f4; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Georgia, serif; color: #2c2218; }
+        .quiz-page { min-height: 100vh; background: linear-gradient(180deg, #fdf8f3 0%, #f5ede0 100%); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Georgia, serif; color: #2c2218; }
         .quiz-container { max-width: 680px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
         .quiz-header { text-align: center; padding: 2.5rem 0 2rem; }
-        .quiz-tag { display: inline-block; background: #f5f0e8; color: #7a5c3e; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.3rem 0.9rem; border-radius: 2rem; margin-bottom: 1rem; }
+        .quiz-tag { display: inline-block; background: rgba(200,132,58,0.12); color: #b5732a; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.35rem 1rem; border-radius: 2rem; margin-bottom: 1rem; }
         .quiz-header h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 800; color: #3d2e1e; letter-spacing: -0.5px; margin-bottom: 0.5rem; }
         .quiz-header p { color: #7a6a58; font-size: 0.95rem; }
-        .progress-bar-wrap { background: #e0d8cc; border-radius: 2rem; height: 6px; margin-bottom: 0.5rem; overflow: hidden; }
-        .progress-bar-fill { height: 100%; background: #c8843a; border-radius: 2rem; transition: width 0.3s ease; }
-        .progress-label { font-size: 0.75rem; color: #7a6a58; margin-bottom: 2rem; display: flex; justify-content: space-between; }
-        .category-tag { display: inline-block; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #7a5c3e; background: #f5f0e8; padding: 0.2rem 0.7rem; border-radius: 2rem; margin-bottom: 1rem; }
-        .question-text { font-size: 1.2rem; font-weight: 700; color: #3d2e1e; line-height: 1.4; margin-bottom: 1.5rem; }
-        .answer-option { display: block; width: 100%; text-align: left; padding: 1rem 1.25rem; border-radius: 0.875rem; border: 1.5px solid #e0d8cc; background: white; margin-bottom: 0.75rem; cursor: pointer; font-size: 0.95rem; color: #2c2218; line-height: 1.5; transition: all 0.15s ease; font-family: inherit; }
-        .answer-option:hover { border-color: #c8843a; background: #fdf8f2; }
-        .answer-option.selected { border-color: #c8843a; background: #fdf3e8; color: #3d2e1e; font-weight: 500; }
+        .progress-bar-wrap { background: rgba(224,216,204,0.6); border-radius: 2rem; height: 8px; margin-bottom: 0.5rem; overflow: hidden; box-shadow: inset 0 1px 2px rgba(0,0,0,0.05); }
+        .progress-bar-fill { height: 100%; background: linear-gradient(90deg, #c8843a 0%, #b85c3a 100%); border-radius: 2rem; transition: width 0.3s ease; }
+        .progress-label { font-size: 0.75rem; color: #7a6a58; margin-bottom: 2.5rem; display: flex; justify-content: space-between; }
+        .category-tag { display: inline-block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.3rem 0.9rem; border-radius: 2rem; margin-bottom: 1.25rem; }
+        .category-tag.body-build, .category-tag.sleep { background: rgba(90,143,163,0.15); color: #4a7a8a; }
+        .category-tag.digestion { background: rgba(200,132,58,0.15); color: #b5732a; }
+        .category-tag.energy, .category-tag.mind, .category-tag.stress, .category-tag.lifestyle { background: rgba(184,92,58,0.12); color: #a85a3a; }
+        .question-text { font-size: 1.3rem; font-weight: 700; color: #3d2e1e; line-height: 1.45; margin-bottom: 1.75rem; letter-spacing: -0.3px; }
+        .answer-option { display: flex; align-items: center; gap: 1rem; width: 100%; text-align: left; padding: 1.15rem 1.35rem; border-radius: 1rem; border: 2px solid #e0d8cc; background: rgba(255,255,255,0.8); margin-bottom: 0.875rem; cursor: pointer; font-size: 0.98rem; color: #2c2218; line-height: 1.5; transition: all 0.2s ease; font-family: inherit; box-shadow: 0 2px 8px rgba(60,40,20,0.04); }
+        .answer-option:hover { border-color: #c8843a; background: rgba(253,243,232,0.9); box-shadow: 0 4px 12px rgba(200,132,58,0.1); transform: translateY(-1px); }
+        .answer-option.selected { border-color: #c8843a; background: linear-gradient(135deg, #fdf3e8 0%, #fcecd8 100%); color: #3d2e1e; font-weight: 500; box-shadow: 0 4px 16px rgba(200,132,58,0.15); }
+        .answer-option.selected::after { content: ""; display: block; margin-left: auto; width: 22px; height: 22px; border-radius: 50%; background: #c8843a; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: center; background-size: 14px; flex-shrink: 0; }
         .next-btn { width: 100%; padding: 0.9rem; border-radius: 2rem; border: none; font-size: 0.95rem; font-weight: 700; cursor: pointer; margin-top: 0.5rem; transition: all 0.2s; font-family: inherit; }
         .next-btn:enabled { background: #c8843a; color: white; }
         .next-btn:enabled:hover { background: #b5732a; transform: translateY(-1px); }
@@ -475,16 +479,25 @@ export default function QuizPage() {
         .share-row button { display: flex; align-items: center; gap: 0.5rem; padding: 0.6rem 1rem; border-radius: 2rem; border: 2px solid #c8843a; background: transparent; color: #c8843a; font-size: 0.85rem; font-weight: 600; cursor: pointer; transition: all 0.2s; font-family: inherit; }
         .share-row button:hover { background: #fdf3e8; }
         .share-row button svg { width: 16px; height: 16px; }
-        .intro-wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 70vh; text-align: center; padding: 2rem 0; }
-        .intro-logo { font-size: 1.8rem; font-weight: 900; color: #3d2e1e; margin-bottom: 2rem; letter-spacing: -1px; }
+        .intro-wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 80vh; text-align: center; padding: 2rem 0; }
+        .intro-logo { font-size: 1.8rem; font-weight: 900; color: #3d2e1e; margin-bottom: 1.5rem; letter-spacing: -1px; }
         .intro-logo span { color: #c8843a; }
-        .intro-title { font-size: clamp(1.8rem, 5vw, 2.5rem); font-weight: 800; color: #3d2e1e; margin-bottom: 1rem; letter-spacing: -0.5px; }
-        .intro-desc { font-size: 1rem; color: #7a6a58; line-height: 1.7; max-width: 480px; margin: 0 auto 2rem; }
-        .start-btn { background: #c8843a; color: white; font-size: 1rem; font-weight: 700; padding: 1rem 2rem; border-radius: 2rem; border: none; cursor: pointer; transition: all 0.2s; font-family: inherit; }
-        .start-btn:hover { background: #b5732a; transform: translateY(-1px); }
+        .dosha-icons { display: flex; gap: 2rem; margin-bottom: 2rem; }
+        .dosha-icon { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; }
+        .dosha-icon-symbol { width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+        .dosha-icon-symbol.vata { background: rgba(90,143,163,0.15); color: #5a8fa3; }
+        .dosha-icon-symbol.pitta { background: rgba(184,92,58,0.15); color: #b85c3a; }
+        .dosha-icon-symbol.kapha { background: rgba(74,103,65,0.15); color: #4a6741; }
+        .dosha-icon-label { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #7a6a58; }
+        .intro-title { font-size: clamp(2rem, 5.5vw, 2.8rem); font-weight: 800; color: #3d2e1e; margin-bottom: 1rem; letter-spacing: -0.5px; line-height: 1.15; }
+        .intro-desc { font-size: 1.05rem; color: #7a6a58; line-height: 1.7; max-width: 500px; margin: 0 auto 2.5rem; }
+        .start-btn { background: linear-gradient(135deg, #c8843a 0%, #b5732a 100%); color: white; font-size: 1.15rem; font-weight: 700; padding: 1.15rem 2.5rem; border-radius: 2rem; border: none; cursor: pointer; transition: all 0.25s; font-family: inherit; box-shadow: 0 4px 20px rgba(200,132,58,0.3); }
+        .start-btn:hover { background: linear-gradient(135deg, #b5732a 0%, #a5621a 100%); transform: translateY(-2px); box-shadow: 0 6px 24px rgba(200,132,58,0.4); }
         @media (max-width: 600px) {
           .result-grid { grid-template-columns: 1fr; }
           .quiz-container { padding: 1.5rem 1.25rem 3rem; }
+          .dosha-icons { gap: 1.25rem; }
+          .dosha-icon-symbol { width: 48px; height: 48px; }
         }
       `}</style>
 
@@ -493,6 +506,32 @@ export default function QuizPage() {
           {showIntro ? (
             <div className="intro-wrap">
               <div className="intro-logo">Dosha<span>Flow</span></div>
+              <div className="dosha-icons">
+                <div className="dosha-icon">
+                  <div className="dosha-icon-symbol vata">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M17.7 7.7a2.5 2.5 0 1 1 1.8 4.3H2" /><path d="M9.6 4.6A2 2 0 1 1 11 8H2" /><path d="M12.6 19.4A2 2 0 1 0 14 16H2" />
+                    </svg>
+                  </div>
+                  <span className="dosha-icon-label">Vata</span>
+                </div>
+                <div className="dosha-icon">
+                  <div className="dosha-icon-symbol pitta">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z" />
+                    </svg>
+                  </div>
+                  <span className="dosha-icon-label">Pitta</span>
+                </div>
+                <div className="dosha-icon">
+                  <div className="dosha-icon-symbol kapha">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" /><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+                    </svg>
+                  </div>
+                  <span className="dosha-icon-label">Kapha</span>
+                </div>
+              </div>
               <h1 className="intro-title">Find your Ayurvedic constitution</h1>
               <p className="intro-desc">
                 25 questions across body, mind, digestion, sleep, and stress. Discover whether you&apos;re Vata, Pitta, Kapha — or a combination — with a full percentage breakdown and personalized kit.
@@ -517,7 +556,11 @@ export default function QuizPage() {
                 <span>{progress}% complete</span>
               </div>
 
-              <div className="category-tag">{q.category}</div>
+              <div className={`category-tag ${
+                q.category === "Body & Build" || q.category === "Sleep" ? "body-build" :
+                q.category === "Digestion & Appetite" ? "digestion" :
+                "energy"
+              }`}>{q.category}</div>
               <div className="question-text">{q.question}</div>
 
               {q.answers.map((a, i) => (
