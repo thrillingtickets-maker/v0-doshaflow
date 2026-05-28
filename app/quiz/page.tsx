@@ -586,7 +586,7 @@ export default function QuizPage() {
 
               <div className="kit-cta" style={{ background: `linear-gradient(135deg, ${result.kitColor} 0%, ${result.kitColor}cc 100%)` }}>
                 <h3>Get your {result.kitLabel}</h3>
-                <p>A personalized 7-day meal plan, movement program, daily rituals, and herbal recommendations — built for your {result.title} constitution.</p>
+                <p>A personalized 7-day meal guide, movement program, daily rituals, and herbal recommendations — built for your {result.title} constitution.</p>
                 {!submitted ? (
                   <div className="email-row">
                     <input
@@ -603,7 +603,7 @@ export default function QuizPage() {
                 ) : (
                   <div className="success-note">You&apos;re on the list — your kit is coming.</div>
                 )}
-                <p className="privacy-note">No spam. Just your personalized plan.</p>
+                <p className="privacy-note">No spam. Just your personalized report.</p>
               </div>
 
               <div className="share-row">
