@@ -8,6 +8,7 @@ const navLinks = [
   { label: "How it works", href: "#how-it-works" },
   { label: "Features", href: "#features" },
   { label: "Testimonials", href: "#testimonials" },
+  { label: "My Story", href: "/about" },
 ]
 
 export function Navigation() {
