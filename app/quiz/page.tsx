@@ -497,8 +497,10 @@ export default function QuizPage() {
       <div className="quiz-page" style={showResult ? { backgroundColor: 'transparent' } : undefined}>
         <div className="quiz-container">
           {showIntro ? (
-            <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px', paddingTop: '40px', backgroundColor: '#1a3328' }}>
-              <div className="intro-logo">Dosha<span>Flow</span></div>
+            <div style={{ minHeight: '100vh', width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px', paddingTop: '40px', backgroundColor: '#1a3328' }}>
+              <div style={{ textAlign: 'center', marginBottom: '24px' }}>
+                <span style={{ fontWeight: 'bold', fontSize: '24px', color: '#ffffff' }}>DoshaFlow</span>
+              </div>
               <div style={{
                 backgroundColor: '#ffffff',
                 borderRadius: '20px',
@@ -545,8 +547,10 @@ export default function QuizPage() {
               </div>
             </div>
           ) : !showResult ? (
-            <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px', paddingTop: '40px', backgroundColor: '#1a3328' }}>
-              <div style={{ fontSize: '1.8rem', fontWeight: 900, color: '#ffffff', marginBottom: '1.5rem', letterSpacing: '-1px', textAlign: 'center' }}>Dosha<span style={{ color: '#c49a6c' }}>Flow</span></div>
+            <div style={{ minHeight: '100vh', width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px', paddingTop: '40px', backgroundColor: '#1a3328' }}>
+              <div style={{ textAlign: 'center', marginBottom: '24px' }}>
+                <span style={{ fontWeight: 'bold', fontSize: '24px', color: '#ffffff' }}>DoshaFlow</span>
+              </div>
               <div style={{
                 backgroundColor: '#ffffff',
                 borderRadius: '20px',
@@ -583,7 +587,7 @@ export default function QuizPage() {
                         alignItems: 'center',
                         justifyContent: 'space-between',
                         backgroundColor: '#b5763a',
-                        border: '1.5px solid #b5763a',
+                        border: '2px solid #b5763a',
                         borderRadius: '12px',
                         padding: '18px 20px',
                         width: '100%',
