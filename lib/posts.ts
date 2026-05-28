@@ -10,6 +10,15 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "vata-dosha-guide",
+    title: "Vata Dosha: Signs You're Out of Balance and What To Do About It",
+    date: "May 28, 2026",
+    excerpt: "I used to think anxiety was just my personality. Then I got my dosha assessment and the practitioner said: 'Classic Vata imbalance.' Everything had a name — and a remedy.",
+    seoTitle: "Vata Dosha: Signs You're Out of Balance and How to Fix It",
+    seoDescription: "Vata dosha governs movement, creativity, and the nervous system. Learn the signs of Vata imbalance — anxiety, dry skin, insomnia — and exactly how to bring it back into balance.",
+    content: ``,
+  },
+  {
     slug: "ayurvedic-herbs-guide",
     title: "The Ayurvedic Herb Guide: What's Actually in These Formulas and Why",
     date: "May 28, 2026",
