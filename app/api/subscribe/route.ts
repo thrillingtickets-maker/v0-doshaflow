@@ -24,9 +24,9 @@ export async function POST(request: Request) {
     )
 
     if (!response.ok) {
-      const errorText = await response.text()
+      const errorBody = await response.text()
       return NextResponse.json(
-        { error: errorText },
+        { error: true, status: response.status, body: errorBody },
         { status: 500 }
       )
     }
