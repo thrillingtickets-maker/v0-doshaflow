@@ -497,7 +497,7 @@ export default function QuizPage() {
       <div className="quiz-page">
         <div className="quiz-container">
           {showIntro ? (
-            <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px', backgroundColor: '#2c1f14' }}>
+            <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px', paddingTop: '40px', backgroundColor: '#1a3328' }}>
               <div className="intro-logo">Dosha<span>Flow</span></div>
               <div style={{
                 backgroundColor: '#ffffff',
@@ -545,7 +545,7 @@ export default function QuizPage() {
               </div>
             </div>
           ) : !showResult ? (
-            <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px', backgroundColor: '#2c1f14' }}>
+            <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px', paddingTop: '40px', backgroundColor: '#1a3328' }}>
               <div style={{ fontSize: '1.8rem', fontWeight: 900, color: '#fdf8f3', marginBottom: '1.5rem', letterSpacing: '-1px', textAlign: 'center' }}>Dosha<span style={{ color: '#c8843a' }}>Flow</span></div>
               <div style={{
                 backgroundColor: '#ffffff',
