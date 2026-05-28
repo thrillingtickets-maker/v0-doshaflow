@@ -75,7 +75,7 @@ export function Hero() {
           >
             <span className="flex items-center gap-2">
               <span className="w-2 h-2 bg-primary rounded-full" />
-              Personalized meal plans
+              Personalized Dosha Report
             </span>
             <span className="flex items-center gap-2">
               <span className="w-2 h-2 bg-primary rounded-full" />

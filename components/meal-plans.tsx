@@ -5,7 +5,7 @@ import { Check } from "lucide-react"
 
 const mealPlanFeatures = [
   "Personalized to your dosha type",
-  "Weekly meal plans with recipes",
+  "Weekly meal guides with recipes",
   "Seasonal ingredient recommendations",
   "Shopping lists generated automatically",
   "Adjust for dietary restrictions",
@@ -27,10 +27,10 @@ export function MealPlans() {
               Personalized nutrition
             </span>
             <h2 className="font-serif text-4xl md:text-5xl font-medium text-foreground mb-6 leading-tight">
-              Meal plans built around your body
+              Meal guides built around your body
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              Discover your dosha type — Vata, Pitta, or Kapha — and receive meal plans designed to balance your unique constitution. No more generic diets that don&apos;t account for how your body actually processes food.
+              Discover your dosha type — Vata, Pitta, or Kapha — and receive meal guides designed to balance your unique constitution. No more generic diets that don&apos;t account for how your body actually processes food.
             </p>
 
             <ul className="space-y-4">

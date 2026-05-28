@@ -3,10 +3,10 @@ import { Navigation } from "@/components/navigation"
 
 export const metadata: Metadata = {
   title: "DoshaFlow — Personalized Ayurvedic Wellness for Your Body Type",
-  description: "Discover your dosha and get a personalized Ayurvedic meal plan, movement routine, and herbal kit built for how your body actually feels. Based in Los Angeles.",
+  description: "Discover your dosha and get a personalized Ayurvedic Dosha Report with meal guides, movement routines, and herbal recommendations built for how your body actually feels. Based in Los Angeles.",
   openGraph: {
     title: "DoshaFlow — Personalized Ayurvedic Wellness for Your Body Type",
-    description: "Discover your dosha and get a personalized Ayurvedic meal plan, movement routine, and herbal kit built for how your body actually feels.",
+    description: "Discover your dosha and get a personalized Ayurvedic Dosha Report with meal guides, movement routines, and herbal recommendations.",
     type: "website",
     url: "https://www.doshaflow.com",
   },

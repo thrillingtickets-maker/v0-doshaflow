@@ -6,8 +6,8 @@ import { Utensils, Footprints, Activity, Moon } from "lucide-react"
 const features = [
   {
     icon: Utensils,
-    title: "Dosha-Based Meal Plans",
-    description: "Discover your unique constitution and receive personalized meal plans that balance your body's natural tendencies. From warming foods for Vata to cooling recipes for Pitta.",
+    title: "Dosha-Based Meal Guides",
+    description: "Discover your unique constitution and receive personalized meal guides that balance your body's natural tendencies. From warming foods for Vata to cooling recipes for Pitta.",
     tag: "NUTRITION"
   },
   {

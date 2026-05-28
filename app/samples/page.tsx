@@ -102,9 +102,9 @@ export default function SamplesPage() {
 
       <div className="samples-page">
         <div className="page-header">
-          <div className="page-tag">Sample Plans</div>
-          <h1>A taste of what&apos;s inside<br />your personalized kit</h1>
-          <p>Every DoshaFlow kit is built for your constitution. Here&apos;s a preview of what Vata, Pitta, and Kapha members receive — meal plans, movement, and daily rituals tailored to how your body actually works.</p>
+          <div className="page-tag">Sample Reports</div>
+          <h1>A taste of what&apos;s inside<br />your personalized Dosha Report</h1>
+          <p>Every DoshaFlow report is built for your constitution. Here&apos;s a preview of what Vata, Pitta, and Kapha members receive — meal guides, movement, and daily rituals tailored to how your body actually works.</p>
         </div>
 
         {/* TABS */}
@@ -118,7 +118,7 @@ export default function SamplesPage() {
         {activeDosha === "vata" && (
           <div>
             <div className="section-label">
-              <h2>7-Day Vata Meal Plan</h2>
+              <h2>7-Day Vata Meal Guide</h2>
               <span className="plan-badge">Sample — Days 1–3</span>
             </div>
             <div className="pages-grid">
@@ -168,7 +168,7 @@ export default function SamplesPage() {
 
             {/* YOGA SECTION */}
             <div className="section-label" style={{marginTop:"2.5rem"}}>
-              <h2>Vata Movement &amp; Yoga Plan</h2>
+              <h2>Vata Movement Guide</h2>
               <span className="plan-badge">Sample — Sessions 1–3</span>
             </div>
             <div className="pages-grid">
@@ -249,7 +249,7 @@ export default function SamplesPage() {
                 ) : (
                   <div className="success-msg">✓ You&apos;re on the list. Full kit coming your way.</div>
                 )}
-                <p className="privacy-note">No spam. Just your plan. Unsubscribe anytime.</p>
+                <p className="privacy-note">No spam. Just your report. Unsubscribe anytime.</p>
               </div>
             </div>
 
@@ -260,16 +260,16 @@ export default function SamplesPage() {
                 <div className="dp-card dp-pitta" style={{cursor:"pointer"}} onClick={() => setActiveDosha("pitta")}>
                   <div className="dp-label">Pitta · Fire + Water</div>
                   <div className="dp-title">Cool, Calm &amp; Focused</div>
-                  <div className="dp-desc">Prone to heat, inflammation, and burnout. The Pitta plan centers cooling foods and movement that channels fire without burning out.</div>
+                  <div className="dp-desc">Prone to heat, inflammation, and burnout. The Pitta report centers cooling foods and movement that channels fire without burning out.</div>
                   <ul className="dp-items"><li>Coconut, cucumber, fennel, coriander</li><li>Moon salutations over sun salutations</li><li>Sitali cooling breath practice</li></ul>
-                  <div className="dp-locked-bar">Click to preview Pitta plan →</div>
+                  <div className="dp-locked-bar">Click to preview Pitta report →</div>
                 </div>
                 <div className="dp-card dp-kapha" style={{cursor:"pointer"}} onClick={() => setActiveDosha("kapha")}>
                   <div className="dp-label">Kapha · Earth + Water</div>
                   <div className="dp-title">Light, Warm &amp; Moving</div>
-                  <div className="dp-desc">Prone to heaviness and sluggishness. The Kapha plan uses stimulating foods and vigorous daily movement to create fire and energy.</div>
+                  <div className="dp-desc">Prone to heaviness and sluggishness. The Kapha report uses stimulating foods and vigorous daily movement to create fire and energy.</div>
                   <ul className="dp-items"><li>Millet, buckwheat, ginger, black pepper</li><li>Brisk morning walks before eating</li><li>Kapalabhati breath to clear and energize</li></ul>
-                  <div className="dp-locked-bar">Click to preview Kapha plan →</div>
+                  <div className="dp-locked-bar">Click to preview Kapha report →</div>
                 </div>
               </div>
             </div>
@@ -282,24 +282,24 @@ export default function SamplesPage() {
             <div style={{maxWidth:"760px",margin:"0 auto",padding:"0 2rem"}}>
               <div className="dosha-preview-grid">
                 <div className="dp-card dp-pitta">
-                  <div className="dp-label">Pitta · 7-Day Meal Plan Preview</div>
+                  <div className="dp-label">Pitta · 7-Day Meal Guide Preview</div>
                   <div className="dp-title">Cool, Calm &amp; Nourishing</div>
-                  <div className="dp-desc">Pitta runs hot. Your plan centers cooling foods, moderate protein, and anti-inflammatory ingredients to balance fire without suppressing it.</div>
+                  <div className="dp-desc">Pitta runs hot. Your report centers cooling foods, moderate protein, and anti-inflammatory ingredients to balance fire without suppressing it.</div>
                   <ul className="dp-items"><li>Coconut and cucumber-based cooling breakfasts</li><li>Leafy green salads with lime (allowed for Pitta)</li><li>Basmati rice, fennel, coriander, and sweet vegetables</li><li>Avoiding nightshades, chili, vinegar, and fermented foods</li><li>Pomegranate, coconut water, and rose-based herbal teas</li></ul>
-                  <div className="dp-locked-bar">🔒 Full 7-day plan in your Pitta kit</div>
+                  <div className="dp-locked-bar">🔒 Full 7-day guide in your Pitta report</div>
                 </div>
                 <div className="dp-card dp-pitta">
-                  <div className="dp-label">Pitta · Movement Plan Preview</div>
+                  <div className="dp-label">Pitta · Movement Guide Preview</div>
                   <div className="dp-title">Release Without Pushing</div>
-                  <div className="dp-desc">Pittas tend to over-exercise and push too hard. Your movement plan channels fire productively while preventing burnout from intensity.</div>
+                  <div className="dp-desc">Pittas tend to over-exercise and push too hard. Your movement guide channels fire productively while preventing burnout from intensity.</div>
                   <ul className="dp-items"><li>Moon salutations over sun salutations</li><li>Swimming, cycling, and nature walks (not competitive runs)</li><li>Twisting poses to wring out stored heat in the liver and gut</li><li>Sitali breath (cooling pranayama) before and after sessions</li><li>Mandatory rest days built into the schedule</li></ul>
-                  <div className="dp-locked-bar">🔒 Full 7-session plan in your Pitta kit</div>
+                  <div className="dp-locked-bar">🔒 Full 7-session guide in your Pitta report</div>
                 </div>
               </div>
               <div className="unlock-cta" style={{padding:0,marginTop:"1.5rem"}}>
                 <div className="unlock-box" style={{background:"linear-gradient(135deg, #9e3e22 0%, #7a2f18 100%)"}}>
                   <h3>Get your Pitta kit</h3>
-                  <p>7-day cooling meal plan, movement sessions built for fire types, and Pitta-specific herbal and ritual recommendations.</p>
+                  <p>7-day cooling meal guide, movement sessions built for fire types, and Pitta-specific herbal and ritual recommendations.</p>
                   {!successStates.pitta ? (
                     <div className="email-row">
                       <input type="email" className="email-input" placeholder="Your email address" value={emailValues.pitta} onChange={e => setEmailValues(s => ({...s, pitta: e.target.value}))} />
@@ -308,7 +308,7 @@ export default function SamplesPage() {
                   ) : (
                     <div className="success-msg">✓ You&apos;re on the list. Your Pitta kit is coming.</div>
                   )}
-                  <p className="privacy-note">No spam. Just your plan.</p>
+                  <p className="privacy-note">No spam. Just your report.</p>
                 </div>
               </div>
             </div>
@@ -321,24 +321,24 @@ export default function SamplesPage() {
             <div style={{maxWidth:"760px",margin:"0 auto",padding:"0 2rem"}}>
               <div className="dosha-preview-grid">
                 <div className="dp-card dp-kapha">
-                  <div className="dp-label">Kapha · 7-Day Meal Plan Preview</div>
+                  <div className="dp-label">Kapha · 7-Day Meal Guide Preview</div>
                   <div className="dp-title">Light, Warm &amp; Stimulating</div>
-                  <div className="dp-desc">Kapha runs cool and slow. Your plan uses light, dry, spiced foods to kindle digestive fire and prevent the sluggishness Kaphas are prone to.</div>
+                  <div className="dp-desc">Kapha runs cool and slow. Your report uses light, dry, spiced foods to kindle digestive fire and prevent the sluggishness Kaphas are prone to.</div>
                   <ul className="dp-items"><li>Light grains: millet, buckwheat, barley over wheat and rice</li><li>Strong spices: black pepper, ginger, mustard seed, fenugreek</li><li>Bitter greens, legumes, and astringent vegetables</li><li>Avoiding dairy, sugar, cold foods, and heavy oils</li><li>Honey (the only sweetener that doesn&apos;t aggravate Kapha)</li></ul>
-                  <div className="dp-locked-bar">🔒 Full 7-day plan in your Kapha kit</div>
+                  <div className="dp-locked-bar">🔒 Full 7-day guide in your Kapha report</div>
                 </div>
                 <div className="dp-card dp-kapha">
-                  <div className="dp-label">Kapha · Movement Plan Preview</div>
+                  <div className="dp-label">Kapha · Movement Guide Preview</div>
                   <div className="dp-title">Move Every Day, Vary It</div>
                   <div className="dp-desc">Kaphas need consistent movement more than any other type — vigorous enough to generate heat and break stagnation.</div>
                   <ul className="dp-items"><li>Brisk morning walks before breakfast (essential for Kapha)</li><li>Dynamic sun salutations and vinyasa flow</li><li>Kapalabhati breath (bellows breathing) to clear congestion</li><li>Strength training to counter Kapha&apos;s tendency toward weight gain</li><li>Cold water exposure as a morning wake-up tool</li></ul>
-                  <div className="dp-locked-bar">🔒 Full 7-session plan in your Kapha kit</div>
+                  <div className="dp-locked-bar">🔒 Full 7-session guide in your Kapha report</div>
                 </div>
               </div>
               <div className="unlock-cta" style={{padding:0,marginTop:"1.5rem"}}>
                 <div className="unlock-box" style={{background:"linear-gradient(135deg, #4a6741 0%, #354e2d 100%)"}}>
                   <h3>Get your Kapha kit</h3>
-                  <p>7-day stimulating meal plan, daily movement sessions built for earth types, and Kapha-specific herbs and morning rituals.</p>
+                  <p>7-day stimulating meal guide, daily movement sessions built for earth types, and Kapha-specific herbs and morning rituals.</p>
                   {!successStates.kapha ? (
                     <div className="email-row">
                       <input type="email" className="email-input" placeholder="Your email address" value={emailValues.kapha} onChange={e => setEmailValues(s => ({...s, kapha: e.target.value}))} />
@@ -347,7 +347,7 @@ export default function SamplesPage() {
                   ) : (
                     <div className="success-msg">✓ You&apos;re on the list. Your Kapha kit is coming.</div>
                   )}
-                  <p className="privacy-note">No spam. Just your plan.</p>
+                  <p className="privacy-note">No spam. Just your report.</p>
                 </div>
               </div>
             </div>
