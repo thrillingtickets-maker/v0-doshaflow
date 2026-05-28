@@ -494,7 +494,7 @@ export default function QuizPage() {
         }
       `}</style>
 
-      <div className="quiz-page">
+      <div className="quiz-page" style={showResult ? { backgroundColor: 'transparent' } : undefined}>
         <div className="quiz-container">
           {showIntro ? (
             <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px', paddingTop: '40px', backgroundColor: '#1a3328' }}>
