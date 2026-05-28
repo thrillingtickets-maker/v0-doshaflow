@@ -468,6 +468,8 @@ export default function QuizPage() {
         .privacy-note { font-size: 0.72rem; opacity: 0.6; margin-top: 0.75rem; }
         .success-note { font-size: 1rem; font-weight: 600; padding: 0.5rem; }
         .retake-btn { display: block; text-align: center; color: #7a5c3e; font-size: 0.85rem; font-weight: 600; background: none; border: none; cursor: pointer; text-decoration: underline; margin: 1rem auto 0; font-family: inherit; }
+        .share-btn { display: flex; align-items: center; justify-content: center; width: 100%; padding: 0.875rem 1.5rem; border-radius: 2rem; border: 2px solid #c8843a; background: transparent; color: #c8843a; font-size: 0.95rem; font-weight: 700; cursor: pointer; transition: all 0.2s; font-family: inherit; margin-top: 1.5rem; }
+        .share-btn:hover { background: #fdf3e8; }
         .intro-wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 70vh; text-align: center; padding: 2rem 0; }
         .intro-logo { font-size: 1.8rem; font-weight: 900; color: #3d2e1e; margin-bottom: 2rem; letter-spacing: -1px; }
         .intro-logo span { color: #c8843a; }
@@ -598,6 +600,21 @@ export default function QuizPage() {
                 )}
                 <p className="privacy-note">No spam. Just your personalized plan.</p>
               </div>
+
+              <button
+                className="share-btn"
+                onClick={() => {
+                  const text = `I just took the DoshaFlow dosha quiz — I'm ${result.title} 🌿\nVata ${vPct}% · Pitta ${pPct}% · Kapha ${kPct}%\n\nFind your type → https://www.doshaflow.com/quiz`
+                  window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, '_blank')
+                }}
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginRight: "0.5rem" }}>
+                  <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
+                  <polyline points="16 6 12 2 8 6" />
+                  <line x1="12" y1="2" x2="12" y2="15" />
+                </svg>
+                Share your result →
+              </button>
 
               <button className="retake-btn" onClick={() => { setShowIntro(true); setCurrent(0); setAnswers([]); setSelected(null); setShowResult(false); setEmail(""); setSubmitted(false); }}>
                 Retake the quiz
