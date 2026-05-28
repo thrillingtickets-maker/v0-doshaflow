@@ -280,7 +280,7 @@ export default function QuizPage() {
     setSubmitError("")
     
     try {
-      const response = await fetch("https://app.kit.com/forms/93062a6d88/subscriptions", {
+      const response = await fetch("/api/subscribe", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
