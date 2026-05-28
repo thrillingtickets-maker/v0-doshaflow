@@ -13,13 +13,16 @@ export async function POST(request: Request) {
     }
 
     const response = await fetch(
-      "https://app.kit.com/forms/93062a6d88/subscriptions",
+      "https://api.convertkit.com/v3/forms/9491836/subscribe",
       {
         method: "POST",
         headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
+          "Content-Type": "application/json",
         },
-        body: `email_address=${encodeURIComponent(email)}`,
+        body: JSON.stringify({
+          api_key: process.env.KIT_API_KEY,
+          email: email,
+        }),
       }
     )
 
