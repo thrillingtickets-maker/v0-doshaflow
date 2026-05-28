@@ -4,6 +4,9 @@ import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { ArrowLeft, ArrowRight, RotateCcw } from "lucide-react"
 
+// Note: Metadata must be in a separate file for client components
+// See app/quiz/layout.tsx for SEO tags
+
 const questions = [
   {
     id: 1,

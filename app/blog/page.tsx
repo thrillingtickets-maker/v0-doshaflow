@@ -5,8 +5,14 @@ import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 
 export const metadata = {
-  title: "Blog | DoshaFlow",
-  description: "Real-time dispatches from a two-week Ayurvedic retreat in India — and everything that comes after.",
+  title: "Notes from the Ground — An Ayurvedic Retreat Journal | DoshaFlow",
+  description: "Daily posts from a two-week Ayurvedic retreat in India. Real experiences, treatments, food, and what actually happens when a modern Westerner commits to the practice.",
+  openGraph: {
+    title: "Notes from the Ground — An Ayurvedic Retreat Journal | DoshaFlow",
+    description: "Daily posts from a two-week Ayurvedic retreat in India. Real experiences, treatments, food, and what actually happens when a modern Westerner commits to the practice.",
+    type: "website",
+    url: "https://doshaflow.com/blog",
+  },
 }
 
 export default function BlogPage() {
