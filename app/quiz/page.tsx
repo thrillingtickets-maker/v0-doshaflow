@@ -544,14 +544,14 @@ export default function QuizPage() {
               </div>
             </div>
           ) : !showResult ? (
-            <>
+            <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px' }}>
               <div style={{
+                width: '100%',
+                maxWidth: '580px',
                 backgroundColor: '#ffffff',
                 borderRadius: '20px',
                 padding: '40px',
-                boxShadow: '0 4px 24px rgba(0,0,0,0.08)',
-                maxWidth: '600px',
-                margin: '0 auto'
+                boxShadow: '0 4px 24px rgba(0,0,0,0.08)'
               }}>
                 <div style={{ backgroundColor: '#e8d9c5', color: '#7a5c3a', fontWeight: 600, padding: '4px 12px', borderRadius: '999px', fontSize: '11px', letterSpacing: '0.08em', textTransform: 'uppercase', display: 'inline-block', marginBottom: '1.5rem' }}>Dosha Quiz</div>
 
@@ -575,25 +575,41 @@ export default function QuizPage() {
                       onClick={() => handleSelect(i)}
                       onMouseEnter={() => setHoveredCard(i)}
                       onMouseLeave={() => setHoveredCard(null)}
-                      style={{
+                      style={isSelected ? {
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'space-between',
-                        width: '100%',
-                        textAlign: 'left',
-                        padding: '20px 24px',
+                        backgroundColor: '#b5763a',
+                        border: '2px solid #b5763a',
                         borderRadius: '12px',
-                        border: isSelected ? '1.5px solid #b5763a' : isHovered ? '1.5px solid #c49a6c' : '1.5px solid #ddd0be',
-                        backgroundColor: isSelected ? '#b5763a' : isHovered ? '#eddfc9' : '#f7f0e6',
-                        color: isSelected ? 'white' : '#2c2218',
-                        marginBottom: '0.875rem',
+                        padding: '18px 20px',
+                        width: '100%',
+                        color: '#ffffff',
                         cursor: 'pointer',
+                        marginBottom: '12px',
+                        textAlign: 'left',
                         fontSize: '0.98rem',
                         lineHeight: 1.5,
-                        transition: 'all 150ms ease',
                         fontFamily: 'inherit',
-                        boxShadow: '0 2px 8px rgba(60,40,20,0.05)',
-                        fontWeight: isSelected ? 500 : 400,
+                        fontWeight: 500,
+                      } : {
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                        backgroundColor: isHovered ? '#eddfc9' : '#f5ede0',
+                        border: isHovered ? '2px solid #c49a6c' : '2px solid #d4b896',
+                        borderRadius: '12px',
+                        padding: '18px 20px',
+                        width: '100%',
+                        cursor: 'pointer',
+                        marginBottom: '12px',
+                        textAlign: 'left',
+                        color: '#2c2218',
+                        fontSize: '0.98rem',
+                        lineHeight: 1.5,
+                        fontFamily: 'inherit',
+                        fontWeight: 400,
+                        transition: 'all 150ms ease',
                       }}
                     >
                       <span>{a.text}</span>
@@ -617,7 +633,7 @@ export default function QuizPage() {
                   )
                 })}
               </div>
-            </>
+            </div>
           ) : (
             <>
               <div className="result-header">
