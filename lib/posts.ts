@@ -10,6 +10,15 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "ayurveda-cold-smoothies",
+    title: "Why Ayurveda Doesn't Believe in Cold Smoothies (And What to Eat Instead)",
+    date: "May 28, 2026",
+    excerpt: "I drank a green smoothie every morning for three years. Then I sat with an Ayurvedic practitioner in Kerala and she said: 'That explains the bloating.'",
+    seoTitle: "Why Ayurveda Doesn't Recommend Cold Smoothies (And What to Eat Instead)",
+    seoDescription: "Ayurveda says cold smoothies suppress digestive fire — and the science of agni explains why. Here's what to eat for breakfast instead, according to your dosha.",
+    content: ``,
+  },
+  {
     slug: "kapha-dosha-guide",
     title: "Kapha Dosha: Why You Feel Stuck, Sluggish, and What Actually Helps",
     date: "May 28, 2026",
