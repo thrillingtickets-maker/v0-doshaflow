@@ -10,6 +10,15 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "ayurveda-hormonal-balance",
+    title: "Ayurveda for Hormonal Balance: What I Wish I'd Known Sooner",
+    date: "May 28, 2026",
+    excerpt: "I spent the better part of my twenties being told my hormones were 'normal.' Ayurveda lives in the gray zone between thriving and diagnosable — and it reframed everything I understood about hormones.",
+    seoTitle: "Ayurveda for Hormonal Balance: What the Ancient System Gets Right",
+    seoDescription: "Ayurveda offers a sophisticated framework for women's hormonal health — from dosha-specific patterns to herbs like Shatavari and Ashwagandha. Here's what I've learned.",
+    content: ``,
+  },
+  {
     slug: "ayurveda-coffee",
     title: "The Ayurvedic Take on Coffee",
     date: "May 28, 2026",
