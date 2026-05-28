@@ -374,6 +374,7 @@ export default function QuizPage() {
   const [submitted, setSubmitted] = useState(false)
   const [loading, setLoading] = useState(false)
   const [copied, setCopied] = useState(false)
+  const [hoveredCard, setHoveredCard] = useState<number | null>(null)
 
   const progress = Math.round((current / questions.length) * 100)
   const q = questions[current]
@@ -421,7 +422,7 @@ export default function QuizPage() {
     <>
       <style>{`
         .quiz-page { min-height: 100vh; background: linear-gradient(180deg, #fdf8f3 0%, #f5ede0 100%); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Georgia, serif; color: #2c2218; }
-        .quiz-container { max-width: 680px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+        .quiz-container { max-width: 560px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
         .quiz-header { text-align: center; padding: 2.5rem 0 2rem; }
         .quiz-tag { display: inline-block; background: rgba(200,132,58,0.12); color: #b5732a; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.35rem 1rem; border-radius: 2rem; margin-bottom: 1rem; }
         .quiz-header h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 800; color: #3d2e1e; letter-spacing: -0.5px; margin-bottom: 0.5rem; }
@@ -429,12 +430,7 @@ export default function QuizPage() {
         .progress-bar-wrap { background: rgba(224,216,204,0.6); border-radius: 2rem; height: 8px; margin-bottom: 0.5rem; overflow: hidden; box-shadow: inset 0 1px 2px rgba(0,0,0,0.05); }
         .progress-bar-fill { height: 100%; background: #c49a6c; border-radius: 2rem; transition: width 0.3s ease; }
         .progress-label { font-size: 0.75rem; color: #7a6a58; margin-bottom: 2.5rem; display: flex; justify-content: space-between; }
-        .category-tag { display: inline-block; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.35rem 1rem; border-radius: 2rem; margin-bottom: 1.25rem; background: #e8d9c5; color: #7a5c3a; }
-        .question-text { font-size: 1.3rem; font-weight: 700; color: #3d2e1e; line-height: 1.45; margin-bottom: 1.75rem; letter-spacing: -0.3px; }
-        .answer-option { display: flex; align-items: center; gap: 1rem; width: 100%; text-align: left; padding: 1.15rem 1.35rem; border-radius: 1rem; border: 1.5px solid #e8d9c5; background: #faf5ef; margin-bottom: 0.875rem; cursor: pointer; font-size: 0.98rem; color: #2c2218; line-height: 1.5; transition: all 150ms ease; font-family: inherit; box-shadow: 0 2px 8px rgba(60,40,20,0.05); }
-        .answer-option:hover { border-color: #c49a6c; background: #f0e4d0; box-shadow: 0 4px 12px rgba(196,154,108,0.1); }
-        .answer-option.selected { border-color: #c49a6c; background: #c49a6c; color: white; font-weight: 500; box-shadow: 0 4px 16px rgba(196,154,108,0.25); }
-        .answer-option.selected::after { content: "✓"; display: flex; align-items: center; justify-content: center; margin-left: auto; width: 24px; height: 24px; font-size: 1rem; font-weight: 700; color: #c49a6c; background: white; border-radius: 50%; flex-shrink: 0; }
+        .question-text { font-size: 22px; font-weight: 700; color: #3d2e1e; line-height: 1.4; margin-bottom: 2rem; letter-spacing: -0.3px; }
         .next-btn { width: 100%; padding: 0.9rem; border-radius: 2rem; border: none; font-size: 0.95rem; font-weight: 700; cursor: pointer; margin-top: 0.5rem; transition: all 0.2s; font-family: inherit; }
         .next-btn:enabled { background: #c8843a; color: white; }
         .next-btn:enabled:hover { background: #b5732a; transform: translateY(-1px); }
@@ -553,18 +549,59 @@ export default function QuizPage() {
                 <span>{progress}% complete</span>
               </div>
 
-              <div className="category-tag">{q.category}</div>
+              <div style={{ backgroundColor: '#e8d9c5', color: '#7a5c3a', fontWeight: 600, padding: '4px 12px', borderRadius: '999px', fontSize: '11px', letterSpacing: '0.08em', textTransform: 'uppercase', display: 'inline-block', marginBottom: '1rem' }}>{q.category}</div>
               <div className="question-text">{q.question}</div>
 
-              {q.answers.map((a, i) => (
-                <button
-                  key={i}
-                  className={`answer-option${selected === i ? " selected" : ""}`}
-                  onClick={() => handleSelect(i)}
-                >
-                  {a.text}
-                </button>
-              ))}
+              {q.answers.map((a, i) => {
+                const isSelected = selected === i
+                const isHovered = hoveredCard === i
+                return (
+                  <button
+                    key={i}
+                    onClick={() => handleSelect(i)}
+                    onMouseEnter={() => setHoveredCard(i)}
+                    onMouseLeave={() => setHoveredCard(null)}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      width: '100%',
+                      textAlign: 'left',
+                      padding: '20px 24px',
+                      borderRadius: '12px',
+                      border: isSelected ? '1.5px solid #c49a6c' : isHovered ? '1.5px solid #c49a6c' : '1.5px solid #e8d9c5',
+                      backgroundColor: isSelected ? '#c49a6c' : isHovered ? '#f0e4d0' : '#faf5ef',
+                      color: isSelected ? 'white' : '#2c2218',
+                      marginBottom: '0.875rem',
+                      cursor: 'pointer',
+                      fontSize: '0.98rem',
+                      lineHeight: 1.5,
+                      transition: 'all 150ms ease',
+                      fontFamily: 'inherit',
+                      boxShadow: '0 2px 8px rgba(60,40,20,0.05)',
+                      fontWeight: isSelected ? 500 : 400,
+                    }}
+                  >
+                    <span>{a.text}</span>
+                    {isSelected && (
+                      <span style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        width: '24px',
+                        height: '24px',
+                        backgroundColor: 'white',
+                        color: '#c49a6c',
+                        borderRadius: '50%',
+                        fontSize: '1rem',
+                        fontWeight: 700,
+                        flexShrink: 0,
+                        marginLeft: '1rem',
+                      }}>✓</span>
+                    )}
+                  </button>
+                )
+              })}
             </>
           ) : (
             <>
