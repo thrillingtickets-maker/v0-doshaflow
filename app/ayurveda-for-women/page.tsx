@@ -8,9 +8,13 @@ export const metadata: Metadata = {
   description: "A practical guide to Ayurveda for women — how the dosha system explains hormonal imbalance, menstrual patterns, perimenopause, burnout, and skin, and what to actually do about it.",
   openGraph: {
     title: "Ayurveda for Women: Hormones, Cycles, Burnout & the Dosha System Explained",
-    description: "How the dosha system explains hormonal imbalance, menstrual patterns, perimenopause, and burnout in women.",
-    type: "website",
+    description: "A practical guide to Ayurveda for women — how the dosha system explains hormonal imbalance, menstrual patterns, perimenopause, burnout, and skin, and what to actually do about it.",
     url: "https://www.doshaflow.com/ayurveda-for-women",
+    siteName: "DoshaFlow",
+    type: "article",
+  },
+  alternates: {
+    canonical: "https://www.doshaflow.com/ayurveda-for-women",
   },
 }
 
