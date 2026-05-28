@@ -497,14 +497,15 @@ export default function QuizPage() {
       <div className="quiz-page">
         <div className="quiz-container">
           {showIntro ? (
-            <div className="intro-wrap">
+            <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px', backgroundColor: '#2c1f14' }}>
               <div className="intro-logo">Dosha<span>Flow</span></div>
               <div style={{
                 backgroundColor: '#ffffff',
                 borderRadius: '20px',
                 padding: '40px',
-                boxShadow: '0 4px 24px rgba(0,0,0,0.08)',
-                maxWidth: '600px',
+                boxShadow: '0 4px 24px rgba(0,0,0,0.15)',
+                maxWidth: '580px',
+                width: '100%',
                 margin: '0 auto',
                 textAlign: 'center'
               }}>
@@ -544,15 +545,15 @@ export default function QuizPage() {
               </div>
             </div>
           ) : !showResult ? (
-            <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px', background: '#2c1f14' }}>
+            <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px', backgroundColor: '#2c1f14' }}>
               <div style={{ fontSize: '1.8rem', fontWeight: 900, color: '#fdf8f3', marginBottom: '1.5rem', letterSpacing: '-1px', textAlign: 'center' }}>Dosha<span style={{ color: '#c8843a' }}>Flow</span></div>
               <div style={{
-                width: '100%',
-                maxWidth: '580px',
                 backgroundColor: '#ffffff',
                 borderRadius: '20px',
                 padding: '40px',
-                boxShadow: '0 4px 24px rgba(0,0,0,0.08)',
+                boxShadow: '0 4px 24px rgba(0,0,0,0.15)',
+                maxWidth: '580px',
+                width: '100%',
                 margin: '0 auto'
               }}>
                 <div style={{ backgroundColor: '#e8d9c5', color: '#7a5c3a', fontWeight: 600, padding: '4px 12px', borderRadius: '999px', fontSize: '11px', letterSpacing: '0.08em', textTransform: 'uppercase', display: 'inline-block', marginBottom: '1.5rem' }}>Dosha Quiz</div>
@@ -582,7 +583,7 @@ export default function QuizPage() {
                         alignItems: 'center',
                         justifyContent: 'space-between',
                         backgroundColor: '#b5763a',
-                        border: '2px solid #b5763a',
+                        border: '1.5px solid #b5763a',
                         borderRadius: '12px',
                         padding: '18px 20px',
                         width: '100%',
@@ -599,7 +600,7 @@ export default function QuizPage() {
                         alignItems: 'center',
                         justifyContent: 'space-between',
                         backgroundColor: isHovered ? '#eddfc9' : '#f5ede0',
-                        border: isHovered ? '2px solid #c49a6c' : '2px solid #d4b896',
+                        border: isHovered ? '1.5px solid #c49a6c' : '1.5px solid #d4b896',
                         borderRadius: '12px',
                         padding: '18px 20px',
                         width: '100%',
