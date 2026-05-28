@@ -545,20 +545,6 @@ export default function QuizPage() {
             </div>
           ) : !showResult ? (
             <>
-              <div className="quiz-header">
-                <div className="quiz-tag">Dosha Quiz</div>
-                <h1>Find your Ayurvedic constitution</h1>
-                <p>25 questions · 5 minutes · Your personalized breakdown</p>
-              </div>
-
-              <div className="progress-bar-wrap">
-                <div className="progress-bar-fill" style={{ width: `${progress}%` }} />
-              </div>
-              <div className="progress-label">
-                <span>Question {current + 1} of {questions.length}</span>
-                <span>{progress}% complete</span>
-              </div>
-
               <div style={{
                 backgroundColor: '#ffffff',
                 borderRadius: '20px',
@@ -567,6 +553,16 @@ export default function QuizPage() {
                 maxWidth: '600px',
                 margin: '0 auto'
               }}>
+                <div style={{ backgroundColor: '#e8d9c5', color: '#7a5c3a', fontWeight: 600, padding: '4px 12px', borderRadius: '999px', fontSize: '11px', letterSpacing: '0.08em', textTransform: 'uppercase', display: 'inline-block', marginBottom: '1.5rem' }}>Dosha Quiz</div>
+
+                <div className="progress-bar-wrap">
+                  <div className="progress-bar-fill" style={{ width: `${progress}%` }} />
+                </div>
+                <div className="progress-label">
+                  <span>Question {current + 1} of {questions.length}</span>
+                  <span>{progress}% complete</span>
+                </div>
+
                 <div style={{ backgroundColor: '#e8d9c5', color: '#7a5c3a', fontWeight: 600, padding: '4px 12px', borderRadius: '999px', fontSize: '11px', letterSpacing: '0.08em', textTransform: 'uppercase', display: 'inline-block', marginBottom: '1rem' }}>{q.category}</div>
                 <div className="question-text">{q.question}</div>
 
