@@ -10,6 +10,15 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "ayurvedic-herbs-guide",
+    title: "The Ayurvedic Herb Guide: What's Actually in These Formulas and Why",
+    date: "May 28, 2026",
+    excerpt: "I'm sitting in a pharmacy that's been operating for over 200 years. Here's what I learned about the herbs that show up in every Ayurvedic formula — and why they work.",
+    seoTitle: "Ayurvedic Herbs: A Practical Guide to Ashwagandha, Triphala, Brahmi & More",
+    seoDescription: "A practical guide to the most important Ayurvedic herbs — what they do, the evidence behind them, and how to match them to your dosha type.",
+    content: ``,
+  },
+  {
     slug: "what-happens-ayurvedic-retreat-day-3",
     title: "Day 3: My Body Is Detoxing, My Mood Is a Ping Pong Ball, and I Hit 15,000 Steps",
     date: "May 27, 2026",
