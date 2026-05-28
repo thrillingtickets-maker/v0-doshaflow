@@ -508,7 +508,7 @@ export default function QuizPage() {
                 margin: '0 auto',
                 textAlign: 'center'
               }}>
-                <div className="dosha-icons">
+                <div className="dosha-icons" style={{ display: 'flex', justifyContent: 'center', gap: '32px' }}>
                   <div className="dosha-icon">
                     <div className="dosha-icon-symbol vata">
                       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
