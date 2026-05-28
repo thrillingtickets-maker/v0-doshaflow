@@ -206,6 +206,7 @@ export default function QuizPage() {
   const [email, setEmail] = useState("")
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitted, setSubmitted] = useState(false)
+  const [submitError, setSubmitError] = useState("")
 
   const handleStartQuiz = () => {
     setStep("quiz")
@@ -268,6 +269,7 @@ export default function QuizPage() {
     setResult(null)
     setEmail("")
     setSubmitted(false)
+    setSubmitError("")
   }
 
   const handleEmailSubmit = async (e: React.FormEvent) => {
@@ -275,10 +277,27 @@ export default function QuizPage() {
     if (!email) return
     
     setIsSubmitting(true)
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1000))
-    setIsSubmitting(false)
-    setSubmitted(true)
+    setSubmitError("")
+    
+    try {
+      const response = await fetch("https://app.kit.com/forms/93062a6d88/subscriptions", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email_address: email }),
+      })
+      
+      if (!response.ok) {
+        throw new Error("Subscription failed")
+      }
+      
+      setSubmitted(true)
+    } catch {
+      setSubmitError("Something went wrong, please try again.")
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -554,22 +573,30 @@ export default function QuizPage() {
                     Thank you! We&apos;ll notify you when your kit is ready.
                   </p>
                 ) : (
-                  <form onSubmit={handleEmailSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-                    <input
-                      type="email"
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                      placeholder="Enter your email"
-                      required
-                      className="flex-1 px-5 py-3 bg-background border border-border rounded-full text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary"
-                    />
-                    <button
-                      type="submit"
-                      disabled={isSubmitting}
-                      className="px-8 py-3 bg-[#C4884F] text-white font-medium rounded-full transition-all hover:shadow-lg hover:shadow-[#C4884F]/20 disabled:opacity-50"
-                    >
-                      {isSubmitting ? "Sending..." : "Notify Me"}
-                    </button>
+                  <form onSubmit={handleEmailSubmit} className="flex flex-col gap-3 max-w-md mx-auto">
+                    <div className="flex flex-col sm:flex-row gap-3">
+                      <input
+                        type="email"
+                        value={email}
+                        onChange={(e) => {
+                          setEmail(e.target.value)
+                          setSubmitError("")
+                        }}
+                        placeholder="Enter your email"
+                        required
+                        className="flex-1 px-5 py-3 bg-background border border-border rounded-full text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary"
+                      />
+                      <button
+                        type="submit"
+                        disabled={isSubmitting}
+                        className="px-8 py-3 bg-[#C4884F] text-white font-medium rounded-full transition-all hover:shadow-lg hover:shadow-[#C4884F]/20 disabled:opacity-50"
+                      >
+                        {isSubmitting ? "Sending..." : "Notify Me"}
+                      </button>
+                    </div>
+                    {submitError && (
+                      <p className="text-red-500 text-sm">{submitError}</p>
+                    )}
                   </form>
                 )}
               </motion.div>
