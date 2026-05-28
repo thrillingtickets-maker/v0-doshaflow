@@ -365,6 +365,7 @@ function getResult(v: number, p: number, k: number) {
 }
 
 export default function QuizPage() {
+  const [showIntro, setShowIntro] = useState(true)
   const [current, setCurrent] = useState(0)
   const [answers, setAnswers] = useState<{ dosha: string }[]>([])
   const [selected, setSelected] = useState<number | null>(null)
@@ -377,19 +378,19 @@ export default function QuizPage() {
   const q = questions[current]
 
   function handleSelect(idx: number) {
+    if (selected !== null) return // Prevent double-click during delay
     setSelected(idx)
-  }
-
-  function handleNext() {
-    if (selected === null) return
-    const newAnswers = [...answers, { dosha: q.answers[selected].dosha }]
-    setAnswers(newAnswers)
-    setSelected(null)
-    if (current + 1 >= questions.length) {
-      setShowResult(true)
-    } else {
-      setCurrent(current + 1)
-    }
+    
+    setTimeout(() => {
+      const newAnswers = [...answers, { dosha: q.answers[idx].dosha }]
+      setAnswers(newAnswers)
+      setSelected(null)
+      if (current + 1 >= questions.length) {
+        setShowResult(true)
+      } else {
+        setCurrent(current + 1)
+      }
+    }, 600)
   }
 
   const counts = answers.reduce(
