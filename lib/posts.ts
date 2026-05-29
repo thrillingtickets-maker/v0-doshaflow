@@ -10,6 +10,15 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "retreat-day-3",
+    title: "Day 3: My Body Is Detoxing, My Mood Is a Ping Pong Ball, and I Hit 15,000 Steps",
+    date: "May 27, 2026",
+    excerpt: "First good night of sleep. Eight hours. My resting heart rate was 74. And then my digestive system staged a full revolt.",
+    seoTitle: "What Really Happens at an Ayurvedic Retreat: Day 3 — Shirodhara, Detox & Mood Swings",
+    seoDescription: "An honest first-person account of day 3 at an Ayurvedic retreat in India — Shirodhara treatment, detox side effects, mood swings, and what nobody warns you about before you go.",
+    content: ``,
+  },
+  {
     slug: "retreat-day-4",
     title: "Retreat Journal Day 4: What a Vata Type Gets Wrong About Exercise",
     date: "May 28, 2026",
