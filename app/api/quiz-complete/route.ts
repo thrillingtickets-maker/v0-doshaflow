@@ -19,11 +19,11 @@ export async function POST(request: Request) {
 
     await resend.emails.send({
       from: "DoshaFlow <onboarding@resend.dev>",
-      to: "thrillingtickets@gmail.com",
-      subject: "New DoshaFlow Quiz Completion",
+      to: "alex@doshaflow.com",
+      subject: "New Quiz Completion — DoshaFlow",
       html: `
         <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; max-width: 520px; margin: 0 auto; color: #2c2218;">
-          <h2 style="color: #3d2e1e; margin-bottom: 16px;">New DoshaFlow Quiz Completion</h2>
+          <h2 style="color: #3d2e1e; margin-bottom: 16px;">New Quiz Completion — DoshaFlow</h2>
           <table style="width: 100%; border-collapse: collapse;">
             <tr>
               <td style="padding: 8px 0; font-weight: 600; color: #7a6a58; width: 140px;">Dosha Result</td>
