@@ -6,25 +6,25 @@ const testimonials = [
   {
     name: "Sarah M.",
     role: "Yoga Instructor",
-    content: "Finally, a wellness app that doesn't feel like a one-size-fits-all solution. The meal plans actually match how my body feels.",
+    content: "I've taken probably a dozen wellness quizzes over the years and learned nothing. This one actually made me understand why I'm always cold, why I can't eat salads for lunch, and why my anxiety spikes in autumn. 25 questions and I finally have a framework.",
     dosha: "Vata"
   },
   {
     name: "James K.",
     role: "Software Engineer",
-    content: "The digestion tracking helped me identify that dairy was causing my afternoon slumps. Game changer for my productivity.",
+    content: "I'm a skeptic. I took this mostly out of curiosity. Two weeks after changing when I eat and cutting the coffee before breakfast, my afternoon crashes basically disappeared. Didn't expect that from a quiz.",
     dosha: "Pitta"
   },
   {
     name: "Maria L.",
     role: "Marketing Director",
-    content: "I love how the workouts adapt to my energy levels. Some days I need grounding yoga, other days I can handle more intensity.",
+    content: "The quiz told me things about myself I'd never connected before — why I gain weight easily, why I'm slow to start in the morning, why I hold onto things emotionally. It felt uncomfortably accurate.",
     dosha: "Kapha"
   },
   {
     name: "David R.",
     role: "Entrepreneur",
-    content: "The combination of Ayurvedic wisdom with modern tracking is exactly what I was looking for. No woo-woo, just results.",
+    content: "No crystals, no vague advice, no 'drink more water.' Just a specific explanation of how my body works and what to actually do about it. Refreshingly straightforward.",
     dosha: "Vata-Pitta"
   },
 ]
