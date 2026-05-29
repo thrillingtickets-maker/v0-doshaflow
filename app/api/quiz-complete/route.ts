@@ -3,8 +3,11 @@ import { Resend } from "resend"
 const resend = new Resend(process.env.RESEND_API_KEY)
 
 export async function POST(request: Request) {
+  console.log("[v0] /api/quiz-complete POST hit")
   try {
     const body = await request.json()
+    console.log("[v0] quiz-complete payload:", body)
+    console.log("[v0] RESEND_API_KEY present:", Boolean(process.env.RESEND_API_KEY))
     const { result, email, timestamp } = body as {
       result?: string
       email?: string
