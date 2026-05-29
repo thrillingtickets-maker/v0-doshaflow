@@ -16,7 +16,9 @@ export const metadata = {
 }
 
 export default function BlogPage() {
-  const posts = getAllPosts().filter((post) => post.slug !== "retreat-day-4")
+  const posts = getAllPosts().filter(
+    (post) => post.slug !== "retreat-day-3" && post.slug !== "retreat-day-4",
+  )
 
   return (
     <main className="min-h-screen bg-background">
