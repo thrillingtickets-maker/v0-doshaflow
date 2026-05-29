@@ -389,6 +389,20 @@ export default function QuizPage() {
       setSelected(null)
       if (current + 1 >= questions.length) {
         setShowResult(true)
+        const finalCounts = newAnswers.reduce(
+          (acc, a) => { acc[a.dosha] = (acc[a.dosha] || 0) + 1; return acc },
+          {} as Record<string, number>
+        )
+        const finalResult = getResult(finalCounts.V || 0, finalCounts.P || 0, finalCounts.K || 0)
+        fetch("/api/quiz-complete", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            result: finalResult.result.title,
+            email: email || undefined,
+            timestamp: new Date(),
+          }),
+        }).catch(() => {})
       } else {
         setCurrent(current + 1)
       }
