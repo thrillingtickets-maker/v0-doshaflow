@@ -394,6 +394,7 @@ export default function QuizPage() {
           {} as Record<string, number>
         )
         const finalResult = getResult(finalCounts.V || 0, finalCounts.P || 0, finalCounts.K || 0)
+        console.log("[v0] firing quiz-complete POST, result:", finalResult.result.title)
         fetch("/api/quiz-complete", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -402,7 +403,9 @@ export default function QuizPage() {
             email: email || undefined,
             timestamp: new Date(),
           }),
-        }).catch(() => {})
+        })
+          .then((res) => console.log("[v0] quiz-complete response status:", res.status))
+          .catch((err) => console.log("[v0] quiz-complete fetch error:", err))
       } else {
         setCurrent(current + 1)
       }
