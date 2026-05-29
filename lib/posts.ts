@@ -10,15 +10,6 @@ export interface Post {
 
 export const posts: Post[] = [
   {
-    slug: "retreat-day-1",
-    title: "Day 1: I Arrived Smelling Like Alcohol. The Doctor Noticed.",
-    date: "May 25, 2026",
-    excerpt: "I landed in India on Wednesday and made some choices that weren't in the spirit of what I was about to do. By Monday's intake consultation, the doctor could smell the alcohol. That's where we're starting.",
-    seoTitle: "Day 1 at an Ayurvedic Retreat: Arriving in the Wrong Condition",
-    seoDescription: "An honest first-person account of day 1 at an Ayurvedic retreat in Kerala — arriving with addiction, anxiety and bad sleep, the intake consultation, Abhyanga, and why I'm really here.",
-    content: ``,
-  },
-  {
     slug: "retreat-day-3",
     title: "Day 3: My Body Is Detoxing, My Mood Is a Ping Pong Ball, and I Hit 15,000 Steps",
     date: "May 27, 2026",
