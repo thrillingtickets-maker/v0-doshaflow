@@ -2,12 +2,19 @@
 
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
-import { Menu, X } from "lucide-react"
+import { Menu, X, ChevronDown } from "lucide-react"
 
 const navLinks = [
   { label: "How it works", href: "#how-it-works" },
   { label: "My Story", href: "/about" },
-  { label: "Blog", href: "/blog" },
+  {
+    label: "Blog",
+    href: "/blog",
+    dropdown: [
+      { label: "Articles", href: "/blog" },
+      { label: "Retreat Journal", href: "/journal" },
+    ],
+  },
   { label: "Sample Reports", href: "/samples" },
   { label: "For Men", href: "/ayurveda-for-men" },
   { label: "For Women", href: "/ayurveda-for-women" },
@@ -46,15 +53,37 @@ export function Navigation() {
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-8">
-              {navLinks.map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  {link.label}
-                </a>
-              ))}
+              {navLinks.map((link) =>
+                link.dropdown ? (
+                  <div key={link.label} className="relative group">
+                    <button className="flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors">
+                      {link.label}
+                      <ChevronDown className="w-4 h-4" />
+                    </button>
+                    <div className="absolute left-0 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                      <div className="bg-background border border-border rounded-xl shadow-lg py-2 min-w-[180px]">
+                        {link.dropdown.map((item) => (
+                          <a
+                            key={item.label}
+                            href={item.href}
+                            className="block px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-colors"
+                          >
+                            {item.label}
+                          </a>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                ) : (
+                  <a
+                    key={link.label}
+                    href={link.href}
+                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    {link.label}
+                  </a>
+                ),
+              )}
               <a
                 href="/quiz"
                 className="px-5 py-2.5 bg-primary text-primary-foreground text-sm font-medium rounded-full hover:shadow-lg hover:shadow-primary/20 transition-all"
@@ -82,16 +111,32 @@ export function Navigation() {
               className="md:hidden absolute top-full left-0 right-0 bg-background border-b border-border p-6"
             >
               <div className="flex flex-col gap-4">
-                {navLinks.map((link) => (
-                  <a
-                    key={link.label}
-                    href={link.href}
-                    onClick={() => setIsOpen(false)}
-                    className="text-foreground py-2"
-                  >
-                    {link.label}
-                  </a>
-                ))}
+                {navLinks.map((link) =>
+                  link.dropdown ? (
+                    <div key={link.label} className="flex flex-col gap-2">
+                      <span className="text-foreground py-2 font-medium">{link.label}</span>
+                      {link.dropdown.map((item) => (
+                        <a
+                          key={item.label}
+                          href={item.href}
+                          onClick={() => setIsOpen(false)}
+                          className="text-muted-foreground py-1 pl-4"
+                        >
+                          {item.label}
+                        </a>
+                      ))}
+                    </div>
+                  ) : (
+                    <a
+                      key={link.label}
+                      href={link.href}
+                      onClick={() => setIsOpen(false)}
+                      className="text-foreground py-2"
+                    >
+                      {link.label}
+                    </a>
+                  ),
+                )}
                 <a
                   href="/quiz"
                   onClick={() => setIsOpen(false)}

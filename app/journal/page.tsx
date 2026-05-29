@@ -1,23 +1,29 @@
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
-import { getAllPosts } from "@/lib/posts"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 
 export const metadata = {
-  title: "Notes from the Ground — An Ayurvedic Retreat Journal | DoshaFlow",
-  description: "Daily posts from a two-week Ayurvedic retreat in India. Real experiences, treatments, food, and what actually happens when a modern Westerner commits to the practice.",
+  title: "Retreat Journal — Dispatches from Kerala | DoshaFlow",
+  description: "Dispatches from an Ayurvedic retreat in Kerala, India.",
   openGraph: {
-    title: "Notes from the Ground — An Ayurvedic Retreat Journal | DoshaFlow",
-    description: "Daily posts from a two-week Ayurvedic retreat in India.",
+    title: "Retreat Journal — Dispatches from Kerala | DoshaFlow",
+    description: "Dispatches from an Ayurvedic retreat in Kerala, India.",
     type: "website",
-    url: "https://www.doshaflow.com/blog",
+    url: "https://www.doshaflow.com/journal",
   },
 }
 
-export default function BlogPage() {
-  const posts = getAllPosts().filter((post) => post.slug !== "retreat-day-4")
+const journalPosts = [
+  {
+    slug: "retreat-day-4",
+    title: "The Doctor Told Me to Stop Moving",
+    date: "Day 4 — Kerala",
+    excerpt: "What happens when an Ayurvedic doctor tells a type-A person that rest is the treatment.",
+  },
+]
 
+export default function JournalPage() {
   return (
     <main className="min-h-screen bg-background">
       <Navigation />
@@ -29,20 +35,19 @@ export default function BlogPage() {
             From the Retreat
           </span>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-foreground mb-6">
-            Notes from the{" "}
-            <span className="italic text-[#C97F3D]">ground.</span>
+            Retreat Journal
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Real-time dispatches from a two-week Ayurvedic retreat in India — and everything that comes after.
+            Dispatches from an Ayurvedic retreat in Kerala, India.
           </p>
         </div>
       </section>
 
-      {/* Blog Posts Grid */}
+      {/* Journal Posts Grid */}
       <section className="pb-24 px-6">
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {posts.map((post) => (
+            {journalPosts.map((post) => (
               <article
                 key={post.slug}
                 className="group bg-card border border-border rounded-2xl overflow-hidden hover:shadow-lg hover:shadow-primary/5 transition-all duration-300"
@@ -68,12 +73,6 @@ export default function BlogPage() {
               </article>
             ))}
           </div>
-
-          {posts.length === 0 && (
-            <div className="text-center py-16">
-              <p className="text-muted-foreground">No posts yet. Check back soon.</p>
-            </div>
-          )}
         </div>
       </section>
 
