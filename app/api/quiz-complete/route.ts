@@ -36,7 +36,7 @@ export async function POST(request: Request) {
   `
 
   const { data, error } = await resend.emails.send({
-    from: "onboarding@resend.dev",
+    from: "noreply@doshaflow.com",
     to: "thrillingtickets@gmail.com",
     subject: "New DoshaFlow Quiz Completion",
     html,
