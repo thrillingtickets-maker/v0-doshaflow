@@ -16,6 +16,12 @@ export const metadata = {
 
 const journalPosts = [
   {
+    slug: "retreat-day-1",
+    title: "I Arrived Smelling Like Alcohol. The Doctor Noticed.",
+    date: "Day 1 — Kerala",
+    excerpt: "Arriving in the wrong condition, the intake consultation, my first Abhyanga, and the honest reason I'm here.",
+  },
+  {
     slug: "retreat-day-4",
     title: "The Doctor Told Me to Stop Moving",
     date: "Day 4 — Kerala",
