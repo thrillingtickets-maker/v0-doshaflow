@@ -21,6 +21,12 @@ const journalPosts = [
     date: "Day 4 — Kerala",
     excerpt: "What happens when an Ayurvedic doctor tells a type-A person that rest is the treatment.",
   },
+  {
+    slug: "retreat-day-3",
+    title: "My Body Is Detoxing, My Mood Is a Ping Pong Ball, and I Hit 15,000 Steps",
+    date: "Day 3 — Kerala",
+    excerpt: "First good night of sleep, a full digestive revolt, mood swings, and my first Shirodhara treatment.",
+  },
 ]
 
 export default function JournalPage() {
