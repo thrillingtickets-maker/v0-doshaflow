@@ -32,6 +32,20 @@ export default function SamplesPage() {
         .page-tag { display: inline-block; background: #f5f0e8; color: #7a5c3e; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.3rem 0.9rem; border-radius: 2rem; margin-bottom: 1.25rem; }
         .page-header h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 800; color: #3d2e1e; line-height: 1.2; letter-spacing: -0.5px; margin-bottom: 1rem; }
         .page-header p { color: #7a6a58; font-size: 1.05rem; max-width: 540px; margin: 0 auto; }
+        .outcomes-section { max-width: 1000px; margin: 3rem auto; padding: 0 2rem; }
+        .outcomes-header { text-align: center; margin-bottom: 2rem; }
+        .outcomes-header h2 { font-size: 1.8rem; font-weight: 800; color: #3d2e1e; margin-bottom: 0.5rem; }
+        .outcomes-header p { color: #7a6a58; font-size: 0.95rem; }
+        .outcomes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+        .outcome-card { background: white; border: 1px solid #e0d8cc; border-radius: 1rem; padding: 1.75rem; box-shadow: 0 2px 8px rgba(0,0,0,0.03); transition: all 0.2s ease; }
+        .outcome-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); border-color: #d4ccbe; }
+        .outcome-headline { font-size: 1.05rem; font-weight: 700; color: #3d2e1e; margin-bottom: 0.6rem; line-height: 1.3; }
+        .outcome-description { font-size: 0.9rem; color: #7a6a58; line-height: 1.6; }
+        @media (max-width: 600px) {
+          .outcomes-section { padding: 0 1.25rem; }
+          .outcomes-grid { grid-template-columns: 1fr; gap: 1rem; }
+          .outcomes-header h2 { font-size: 1.4rem; }
+        }
         .tab-bar { display: flex; justify-content: center; gap: 0.75rem; padding: 0 2rem 2rem; flex-wrap: wrap; }
         .tab { padding: 0.5rem 1.4rem; border-radius: 2rem; font-size: 0.88rem; font-weight: 600; cursor: pointer; border: 1.5px solid transparent; transition: all 0.2s; }
         .tab-vata-active { background: #5a8fa3; color: white; border-color: #5a8fa3; }
@@ -105,6 +119,39 @@ export default function SamplesPage() {
           <div className="page-tag">Sample Reports</div>
           <h1>A taste of what&apos;s inside<br />your personalized Dosha Report</h1>
           <p>Every DoshaFlow report is built for your constitution. Here&apos;s a preview of what Vata, Pitta, and Kapha members receive — meal guides, movement, and daily rituals tailored to how your body actually works.</p>
+        </div>
+
+        {/* WHAT PEOPLE USUALLY NOTICE SECTION */}
+        <div className="outcomes-section">
+          <div className="outcomes-header">
+            <h2>What People Usually Notice</h2>
+          </div>
+          <div className="outcomes-grid">
+            <div className="outcome-card">
+              <div className="outcome-headline">Better digestion within 2 weeks</div>
+              <div className="outcome-description">Most people notice more regular, comfortable digestion after following their dosha food plan for 14 days.</div>
+            </div>
+            <div className="outcome-card">
+              <div className="outcome-headline">Deeper sleep</div>
+              <div className="outcome-description">Matching your sleep timing to your dosha type is one of the fastest-acting changes in the protocol.</div>
+            </div>
+            <div className="outcome-card">
+              <div className="outcome-headline">Less bloating</div>
+              <div className="outcome-description">Understanding your digestive type removes the guesswork from which foods are actually causing the problem.</div>
+            </div>
+            <div className="outcome-card">
+              <div className="outcome-headline">More stable energy</div>
+              <div className="outcome-description">No more 3pm crash. Eating for your dosha stabilises blood sugar and energy through the afternoon.</div>
+            </div>
+            <div className="outcome-card">
+              <div className="outcome-headline">Reduced anxiety</div>
+              <div className="outcome-description">Vata types especially notice a quieter nervous system within 3-4 weeks of consistent herbs and routine.</div>
+            </div>
+            <div className="outcome-card">
+              <div className="outcome-headline">Clearer skin</div>
+              <div className="outcome-description">Skin reflects gut health. When digestion improves, skin usually follows within 4-6 weeks.</div>
+            </div>
+          </div>
         </div>
 
         {/* TABS */}
