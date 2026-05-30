@@ -279,45 +279,39 @@ export default function AyurvedaForWomenPage() {
             <hr className="border-border my-12" />
 
             <h2 className="font-serif text-2xl md:text-3xl text-foreground mt-12 mb-6">
-              Related Reading
+              Related Guides
             </h2>
 
             <div className="space-y-3">
               <p className="text-muted-foreground">
-                <Link href="/quiz" className="text-[#C97F3D] hover:underline">
-                  Find your dosha
-                </Link>
-                {" "}→ Start with the free dosha quiz to understand your constitutional type.
-              </p>
-              <p className="text-muted-foreground">
-                <Link href="/blog/ayurveda-pms" className="text-[#C97F3D] hover:underline">
-                  Ayurvedic approach to PMS
-                </Link>
-                {" "}→ How the dosha system explains menstrual patterns and what to do about them.
-              </p>
-              <p className="text-muted-foreground">
                 <Link href="/blog/ayurveda-hormonal-balance" className="text-[#C97F3D] hover:underline">
-                  Hormonal balance
+                  Ayurveda for Hormonal Balance
                 </Link>
                 {" "}→ Dosha-specific approaches to hormonal health across the lifespan.
               </p>
               <p className="text-muted-foreground">
-                <Link href="/blog/best-herbs-for-anxiety" className="text-[#C97F3D] hover:underline">
-                  Best herbs for anxiety
+                <Link href="/blog/ayurveda-pms" className="text-[#C97F3D] hover:underline">
+                  The Ayurvedic Approach to PMS
                 </Link>
-                {" "}→ Herbal support for the nervous system by constitutional type.
+                {" "}→ How the dosha system explains menstrual patterns and what to do about them.
               </p>
               <p className="text-muted-foreground">
-                <Link href="/blog/best-ayurvedic-tea-sleep" className="text-[#C97F3D] hover:underline">
-                  Best Ayurvedic tea for sleep
+                <Link href="/blog/perimenopause-ayurveda" className="text-[#C97F3D] hover:underline">
+                  Perimenopause and Ayurveda
                 </Link>
-                {" "}→ Herbal remedies for better rest and deeper sleep.
+                {" "}→ The life-stage transition framework and dosha-specific support.
               </p>
               <p className="text-muted-foreground">
-                <Link href="/blog/ayurvedic-tea-guide" className="text-[#C97F3D] hover:underline">
-                  Ayurvedic tea guide
+                <Link href="/blog/ayurvedic-skin-guide" className="text-[#C97F3D] hover:underline">
+                  The Ayurvedic Skin Guide
                 </Link>
-                {" "}→ The right herbal teas for your dosha and daily practices.
+                {" "}→ Why your skin reflects what's happening inside, and how to address it by dosha.
+              </p>
+              <p className="text-muted-foreground">
+                <Link href="/quiz" className="text-[#C97F3D] hover:underline">
+                  Find your dosha
+                </Link>
+                {" "}→ Start with the free quiz to understand your constitutional type.
               </p>
             </div>
 
