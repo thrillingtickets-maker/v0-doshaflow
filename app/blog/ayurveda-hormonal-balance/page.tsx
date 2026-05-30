@@ -41,7 +41,7 @@ export default function AyurvedaHormonalBalancePage() {
         <header className="mb-12">
           <time className="text-sm text-[#8a7a6a]">May 28, 2026</time>
           <h1 style={{ fontSize: '36px', fontWeight: 700, color: '#2c1a0e', marginTop: '12px', marginBottom: '16px', lineHeight: 1.2 }}>
-            Ayurveda for Hormonal Balance: What I Wish I&apos;d Known Sooner
+            Hormonal Imbalance Symptoms and Natural Remedies — Ayurvedic Guide
           </h1>
           <p className="text-[#8a7a6a]">
             By <span className="text-[#2c1a0e] font-medium">Alex</span> · DoshaFlow

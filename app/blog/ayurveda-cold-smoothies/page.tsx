@@ -35,7 +35,7 @@ export default function AyurvedaColdSmoothiesPage() {
           <header style={{ marginBottom: '48px' }}>
             <time style={{ fontSize: '14px', color: '#7a6a58' }}>May 28, 2026</time>
             <h1 style={{ fontSize: '36px', fontWeight: 800, color: '#2c1a0e', marginTop: '12px', marginBottom: '16px', lineHeight: 1.2 }}>
-              Why Ayurveda Doesn&apos;t Believe in Cold Smoothies (And What to Eat Instead)
+              Are Cold Smoothies Bad for Digestion? What Ayurveda Says
             </h1>
             <p style={{ color: '#7a6a58' }}>
               By <span style={{ color: '#2c1a0e', fontWeight: 500 }}>Alex</span> · DoshaFlow
