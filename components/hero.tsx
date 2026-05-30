@@ -46,6 +46,17 @@ export function Hero() {
             Meal plans, movement, digestion, and recovery — all adapted to your body and routine.
           </motion.p>
 
+          <motion.p
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.25 }}
+            className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground leading-relaxed mb-12"
+          >
+            DoshaFlow offers personalized Ayurvedic wellness — dosha quizzes, meal guides, herbal tea
+            recommendations, digestion support, sleep protocols, and stress relief plans based on your unique Vata,
+            Pitta, or Kapha body type.
+          </motion.p>
+
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
