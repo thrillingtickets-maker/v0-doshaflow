@@ -82,6 +82,15 @@ export const posts: Post[] = [
     content: ``,
   },
   {
+    slug: "ayurveda-meat-fish",
+    title: "Can You Eat Meat and Fish on an Ayurvedic Diet? The Answer Is More Complicated Than You Think.",
+    date: "May 28, 2026",
+    excerpt: "The vegetarian Ayurveda most people know is a modern Western construction. The classical texts call meat nourishing and even medicinal — here's the real, dosha-specific picture.",
+    seoTitle: "Can You Eat Meat and Fish on an Ayurvedic Diet? The Answer Is More Complicated Than You Think.",
+    seoDescription: "The vegetarian Ayurveda most people know is a modern Western construction. The classical texts call meat nourishing and even medicinal — here's the real, dosha-specific picture.",
+    content: ``,
+  },
+  {
     slug: "ayurveda-coffee",
     title: "The Ayurvedic Take on Coffee",
     date: "May 28, 2026",
