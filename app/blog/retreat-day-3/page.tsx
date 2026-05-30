@@ -72,6 +72,25 @@ export default function RetreatDay3Page() {
 
           <p style={{ marginTop: '48px', marginBottom: '16px', fontSize: '14px', fontWeight: 600, color: '#2c1a0e' }}>Related Articles: <Link href="/blog/ayurveda-30-days" style={{color: '#c49a6c', textDecoration: 'underline'}}>30-Day Ayurveda Challenge</Link> · <Link href="/blog/ayurvedic-morning-routine" style={{color: '#c49a6c', textDecoration: 'underline'}}>Morning Routine Guide</Link></p>
 
+          <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+
+          <h3 style={{ fontSize: '18px', fontWeight: 700, marginTop: '40px', marginBottom: '20px', color: '#2c1a0e' }}>Related Guides</h3>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '16px', marginBottom: '40px' }}>
+            <Link href="/men" style={{ padding: '16px', backgroundColor: '#f5ece0', border: '1px solid #e8d9c5', borderRadius: '8px', textDecoration: 'none', color: '#c49a6c', fontWeight: 500, textAlign: 'center', fontSize: '14px', transition: 'all 0.2s' }}>
+              Ayurveda for Men
+            </Link>
+            <Link href="/blog/vata-dosha-guide" style={{ padding: '16px', backgroundColor: '#f5ece0', border: '1px solid #e8d9c5', borderRadius: '8px', textDecoration: 'none', color: '#c49a6c', fontWeight: 500, textAlign: 'center', fontSize: '14px', transition: 'all 0.2s' }}>
+              Vata Dosha Guide
+            </Link>
+            <Link href="/blog/best-ayurvedic-tea-sleep" style={{ padding: '16px', backgroundColor: '#f5ece0', border: '1px solid #e8d9c5', borderRadius: '8px', textDecoration: 'none', color: '#c49a6c', fontWeight: 500, textAlign: 'center', fontSize: '14px', transition: 'all 0.2s' }}>
+              Best Tea for Sleep
+            </Link>
+            <Link href="/blog/ayurvedic-morning-routine" style={{ padding: '16px', backgroundColor: '#f5ece0', border: '1px solid #e8d9c5', borderRadius: '8px', textDecoration: 'none', color: '#c49a6c', fontWeight: 500, textAlign: 'center', fontSize: '14px', transition: 'all 0.2s' }}>
+              Morning Routine
+            </Link>
+          </div>
+
           <div style={{ marginTop: '48px', padding: '32px', backgroundColor: '#f5ece0', border: '1px solid #e8d9c5', borderRadius: '16px', textAlign: 'center' }}>
             <p style={{ fontSize: '18px', fontWeight: 600, color: '#2c1a0e', marginBottom: '20px' }}>Curious what Ayurveda recommends for your body type?</p>
             <Link href="/quiz" style={{ display: 'inline-block', backgroundColor: '#9a7a5a', color: '#fdf8f3', padding: '14px 28px', borderRadius: '9999px', textDecoration: 'none', fontWeight: 600, fontSize: '15px' }}>

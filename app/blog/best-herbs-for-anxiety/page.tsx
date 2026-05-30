@@ -56,7 +56,7 @@ export default function BestHerbsForAnxietyPage() {
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
-              Why Ayurveda Frames Anxiety as a Vata Problem.
+              Why Ayurveda Frames Anxiety as a <Link href="/blog/vata-dosha-guide" className="text-[#c49a6c] hover:underline">Vata</Link> Problem.
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
@@ -134,7 +134,7 @@ export default function BestHerbsForAnxietyPage() {
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              Consistency over intensity — the adaptogens work slowly and cumulatively. A moderate dose taken daily for 8 weeks produces more results than a high dose taken sporadically. Stack mindfully: Ashwagandha and Brahmi work well together. Tulsi as a daily tea on top covers most of what most people need. Address the lifestyle simultaneously — no herb will fully compensate for chronic sleep deprivation or daily caffeine excess.
+              Consistency over intensity — the adaptogens work slowly and cumulatively. A moderate dose taken daily for 8 weeks produces more results than a high dose taken sporadically. Stack mindfully: Ashwagandha and Brahmi work well together. <Link href="/blog/best-ayurvedic-tea-anxiety" className="text-[#c49a6c] hover:underline">Tulsi as a daily tea</Link> on top covers most of what most people need. Start a <Link href="/blog/ayurvedic-morning-routine" className="text-[#c49a6c] hover:underline">morning routine</Link> and address the lifestyle simultaneously — no herb will fully compensate for chronic sleep deprivation or daily caffeine excess.
             </p>
 
             <img src="https://source.unsplash.com/featured/800x450/?tulsi,holy,basil,herb,plant" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Tulsi holy basil plant" />
@@ -148,6 +148,33 @@ export default function BestHerbsForAnxietyPage() {
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Ayurveda is not a replacement for psychiatric treatment when that is appropriate. If you are experiencing severe anxiety limiting daily function, work with a qualified clinician. What Ayurveda offers is a complementary approach that addresses constitutional and lifestyle factors that make anxiety more likely — and builds resilience over time.
             </p>
+
+            <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+
+            <div style={{ 
+              backgroundColor: "#f5ede1", 
+              padding: "24px", 
+              borderRadius: "8px", 
+              marginTop: "40px",
+              marginBottom: "40px",
+              borderLeft: "4px solid #c49a6c"
+            }}>
+              <h3 style={{ fontSize: "18px", fontWeight: 700, marginTop: "0", marginBottom: "20px", color: "#2c1a0e" }}>Related Articles</h3>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '12px' }}>
+                <Link href="/blog/vata-dosha-guide" style={{ padding: '12px', backgroundColor: '#fdf8f3', border: '1px solid #e8d9c5', borderRadius: '6px', textDecoration: 'none', color: '#c49a6c', fontWeight: 500, textAlign: 'center', fontSize: '13px' }}>
+                  Vata Dosha Guide
+                </Link>
+                <Link href="/blog/best-ayurvedic-tea-anxiety" style={{ padding: '12px', backgroundColor: '#fdf8f3', border: '1px solid #e8d9c5', borderRadius: '6px', textDecoration: 'none', color: '#c49a6c', fontWeight: 500, textAlign: 'center', fontSize: '13px' }}>
+                  Tea for Anxiety
+                </Link>
+                <Link href="/blog/ayurvedic-morning-routine" style={{ padding: '12px', backgroundColor: '#fdf8f3', border: '1px solid #e8d9c5', borderRadius: '6px', textDecoration: 'none', color: '#c49a6c', fontWeight: 500, textAlign: 'center', fontSize: '13px' }}>
+                  Morning Routine
+                </Link>
+                <Link href="/quiz" style={{ padding: '12px', backgroundColor: '#fdf8f3', border: '1px solid #e8d9c5', borderRadius: '6px', textDecoration: 'none', color: '#c49a6c', fontWeight: 500, textAlign: 'center', fontSize: '13px' }}>
+                  Take the Quiz
+                </Link>
+              </div>
+            </div>
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
