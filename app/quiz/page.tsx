@@ -561,6 +561,9 @@ export default function QuizPage() {
                 <button className="start-btn" onClick={() => setShowIntro(false)}>
                   Start the Quiz →
                 </button>
+                <div style={{ fontSize: '0.8rem', color: '#a89880', marginTop: '1rem', letterSpacing: '0.05em' }}>
+                  25 questions  ·  Personalized report  ·  Meal plan  ·  Movement plan  ·  Herbal recommendations
+                </div>
               </div>
             </div>
           ) : !showResult ? (
