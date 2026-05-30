@@ -84,6 +84,21 @@ export default function AboutPage() {
             </p>
           </motion.div>
 
+          {/* Image 1: Kerala Ayurveda Retreat */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-12"
+          >
+            <img
+              src="https://source.unsplash.com/featured/800x500/?kerala,india,ayurveda,retreat"
+              alt="Ayurvedic retreat Kerala India"
+              style={{ width: '100%', borderRadius: '8px', margin: '32px 0' }}
+            />
+          </motion.div>
+
           {/* Pull Quote */}
           <motion.blockquote
             initial={{ opacity: 0, x: -20 }}
@@ -177,6 +192,21 @@ export default function AboutPage() {
             </p>
           </motion.div>
 
+          {/* Image 2: Ayurvedic Treatment Session */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-12"
+          >
+            <img
+              src="https://source.unsplash.com/featured/800x500/?ayurvedic,treatment,massage,india"
+              alt="Ayurvedic treatment session"
+              style={{ width: '100%', borderRadius: '8px', margin: '32px 0' }}
+            />
+          </motion.div>
+
           {/* What DoshaFlow Is */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -204,6 +234,21 @@ export default function AboutPage() {
             <p className="text-xl leading-relaxed text-foreground font-medium">
               If any part of what I&apos;ve described sounds familiar — the fog, the feeling that you&apos;re not quite showing up for your own life — I built this for you.
             </p>
+          </motion.div>
+
+          {/* Image 3: Kerala Landscape */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-16"
+          >
+            <img
+              src="https://source.unsplash.com/featured/800x500/?kerala,india,nature,green,tropical"
+              alt="Kerala India landscape"
+              style={{ width: '100%', borderRadius: '8px', margin: '32px 0' }}
+            />
           </motion.div>
         </div>
       </article>
