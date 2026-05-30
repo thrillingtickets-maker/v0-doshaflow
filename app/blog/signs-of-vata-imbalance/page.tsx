@@ -93,6 +93,6 @@ export default function SignsOfVataImbalancePage() {
           </div>
         </article>
       </main>
-    </div>
+    </ArticleLayout>
   )
 }
