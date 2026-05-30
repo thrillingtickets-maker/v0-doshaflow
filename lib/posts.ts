@@ -11,6 +11,16 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "retreat-day-5",
+    category: "journal",
+    title: "Day 5: I Watched the NBA Finals at 6am, Got Poured Buttermilk on My Head, and Still Can't Turn My Brain Off",
+    date: "May 30, 2026",
+    excerpt: "3.5 hours of sleep, back pain gone, buttermilk treatment, and the unsettling realization that I need to lean in harder. Day 5 at the Ayurvedic retreat in Kerala.",
+    seoTitle: "Day 5: I Watched the NBA Finals at 6am, Got Poured Buttermilk on My Head, and Still Can't Turn My Brain Off",
+    seoDescription: "An honest first-person account of day 5 at an Ayurvedic retreat in India — yoga breakthroughs, portion control recalibration, sound bath paradoxes, and the ongoing battle between the mind and the body.",
+    content: ``,
+  },
+  {
     slug: "signs-of-high-cortisol",
     category: "article",
     title: "Signs of High Cortisol — And What Ayurveda Does About It",
