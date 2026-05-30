@@ -18,9 +18,7 @@ export const metadata = {
 
 export default function WhyAmIAlwaysTiredPage() {
   return (
-    
-
-      <ArticleLayout>
+    <ArticleLayout>
       <main className="max-w-[680px] mx-auto px-6 py-12">
         <article>
           <header className="mb-12">
