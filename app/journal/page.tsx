@@ -16,7 +16,14 @@ export const metadata = {
 }
 
 export default function JournalPage() {
-  const journalPosts = getAllPosts().filter((post) => post.category === "journal")
+  const journalPosts = getAllPosts()
+    .filter((post) => post.category === "journal")
+    .sort((a, b) => {
+      // Extract day number from slug (e.g., "retreat-day-3" -> 3)
+      const dayA = parseInt(a.slug.match(/\d+/)?.[0] || "0")
+      const dayB = parseInt(b.slug.match(/\d+/)?.[0] || "0")
+      return dayA - dayB
+    })
 
   return (
     <main className="min-h-screen bg-background">
