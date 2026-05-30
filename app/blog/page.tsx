@@ -16,7 +16,9 @@ export const metadata = {
 }
 
 export default function BlogPage() {
-  const posts = getAllPosts().filter((post) => post.category === "article")
+  const posts = getAllPosts()
+    .filter((post) => post.category === "article")
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
   return (
     <main className="min-h-screen bg-background">
