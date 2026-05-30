@@ -117,6 +117,6 @@ export default function VataFoodsToAvoidPage() {
           </div>
         </article>
       </main>
-    </div>
+    </ArticleLayout>
   )
 }
