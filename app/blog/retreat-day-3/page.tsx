@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "What Really Happens at an Ayurvedic Retreat: Day 3 — Shirodhara, Detox & Mood Swings",

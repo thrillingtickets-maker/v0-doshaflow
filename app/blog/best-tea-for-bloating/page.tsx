@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Best Tea for Bloating: The Ayurvedic Approach to a Digestive System That Won't Quit",
@@ -17,21 +18,9 @@ export const metadata = {
 
 export default function BestTeaForBloatingPage() {
   return (
-    <div className="min-h-screen bg-[#fdf8f3]">
-      <nav className="flex items-center justify-between px-6 py-4 max-w-5xl mx-auto">
-        <Link href="/" className="text-xl font-bold text-[#2c1a0e]">
-          Dosha<span className="text-[#c49a6c]">Flow</span>
-        </Link>
-        <div className="flex items-center gap-6">
-          <Link href="/blog" className="text-sm text-[#5c4a3a] hover:text-[#2c1a0e]">
-            Blog
-          </Link>
-          <Link href="/quiz" className="text-sm bg-[#2c1a0e] text-white px-4 py-2 rounded-full hover:bg-[#3d2b1f]">
-            Take the Quiz
-          </Link>
-        </div>
-      </nav>
+    
 
+      <ArticleLayout>
       <main className="max-w-[680px] mx-auto px-6 py-12">
         <article>
           <header className="mb-12">

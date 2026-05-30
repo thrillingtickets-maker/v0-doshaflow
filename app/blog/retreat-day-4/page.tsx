@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Retreat Journal Day 4: What a Vata Type Gets Wrong About Exercise",

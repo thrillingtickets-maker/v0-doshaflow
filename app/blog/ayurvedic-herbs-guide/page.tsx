@@ -2,6 +2,7 @@ import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
+import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Ayurvedic Herbs: A Practical Guide to Ashwagandha, Triphala, Brahmi & More",

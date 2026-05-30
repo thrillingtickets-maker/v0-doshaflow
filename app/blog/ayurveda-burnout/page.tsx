@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Burnout Through an Ayurvedic Lens: What's Actually Happening and How to Recover",
