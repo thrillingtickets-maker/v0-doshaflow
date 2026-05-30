@@ -91,6 +91,6 @@ export default function WhyAmIAlwaysTiredPage() {
           </div>
         </article>
       </main>
-    </div>
+    </ArticleLayout>
   )
 }

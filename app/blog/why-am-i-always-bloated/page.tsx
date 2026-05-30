@@ -134,6 +134,6 @@ export default function WhyAmIAlwaysBloatedPage() {
           </div>
         </article>
       </main>
-    </div>
+    </ArticleLayout>
   )
 }
