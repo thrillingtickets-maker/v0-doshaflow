@@ -41,9 +41,9 @@ export default function AyurvedaAlcoholPage() {
           {/* Post Header */}
           <header className="mb-12">
             <time className="text-sm text-muted-foreground">May 28, 2026</time>
-            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
-              Ayurveda Has Its Own Version of Alcohol. Here&apos;s What the Texts Actually Say.
-            </h1>
+        <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
+          Alcohol and Ayurveda: What the Classical Texts Actually Say
+        </h1>
             <p className="text-muted-foreground">
               By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
             </p>

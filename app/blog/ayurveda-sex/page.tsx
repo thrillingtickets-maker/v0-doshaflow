@@ -41,9 +41,9 @@ export default function AyurvedaSexPage() {
           {/* Post Header */}
           <header className="mb-12">
             <time className="text-sm text-muted-foreground">May 28, 2026</time>
-            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
-              The Branch of Ayurveda Nobody Talks About: Sex, Vitality, and Vajikarana
-            </h1>
+        <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
+          Ayurvedic Guide to Vitality and Sexual Health: Vajikarana Explained
+        </h1>
             <p className="text-muted-foreground">
               By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
             </p>

@@ -41,9 +41,9 @@ export default function AyurvedaIceWaterPage() {
           {/* Post Header */}
           <header className="mb-12">
             <time className="text-sm text-muted-foreground">May 28, 2026</time>
-            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
-              Why Ayurveda Says You Should Never Drink Ice Water (And Why It&apos;s Probably Right)
-            </h1>
+        <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
+          Why Cold Water Causes Bloating — The Ayurvedic Explanation
+        </h1>
             <p className="text-muted-foreground">
               By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
             </p>

@@ -26,7 +26,7 @@ export default function AyurvedaBurnoutPage() {
         <header style={{ marginBottom: '48px' }}>
           <time style={{ fontSize: '14px', color: '#9a7a5a' }}>May 28, 2026</time>
           <h1 style={{ fontSize: '36px', fontWeight: 700, color: '#2c1a0e', marginTop: '12px', marginBottom: '16px', lineHeight: 1.2 }}>
-            Burnout Through an Ayurvedic Lens
+            Burnout Symptoms and Recovery: The Ayurvedic Explanation
           </h1>
           <p style={{ color: '#9a7a5a' }}>By <span style={{ color: '#2c1a0e', fontWeight: 500 }}>Alex</span> · DoshaFlow</p>
         </header>

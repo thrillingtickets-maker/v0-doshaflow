@@ -33,7 +33,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-burnout",
     category: "article",
-    title: "Burnout Through an Ayurvedic Lens: What's Actually Happening and How to Recover",
+    title: "Burnout Symptoms and Recovery: The Ayurvedic Explanation",
     date: "May 28, 2026",
     excerpt: "Ayurveda explains burnout as a depletion of ojas — vital essence — with specific patterns for Vata, Pitta, and Kapha types. Here's what the recovery actually looks like.",
     seoTitle: "Burnout Through an Ayurvedic Lens: What's Actually Happening and How to Recover",
@@ -53,7 +53,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-no-time",
     category: "article",
-    title: "Ayurveda for Busy People: 7 Practices That Take Under 30 Minutes a Day",
+    title: "Simple Ayurvedic Daily Routine for Busy People (Under 30 Minutes)",
     date: "May 23, 2026",
     excerpt: "You don't need to overhaul your life to benefit from Ayurveda. Here are the 7 highest-leverage Ayurvedic practices for people who are actually busy — and what they do.",
     seoTitle: "Ayurveda for Busy People: 7 Practices That Take Under 30 Minutes a Day",
@@ -63,7 +63,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-pms",
     category: "article",
-    title: "The Ayurvedic Approach to PMS: Three Patterns and What to Do About Each",
+    title: "Natural PMS Relief: The Ayurvedic Approach by Dosha Type",
     date: "May 22, 2026",
     excerpt: "Ayurveda identifies three distinct PMS patterns — Vata, Pitta, and Kapha — each with different causes and different remedies. Here's how to identify yours and what actually helps.",
     seoTitle: "The Ayurvedic Approach to PMS: Three Patterns and What to Do About Each",
@@ -83,7 +83,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-hormonal-balance",
     category: "article",
-    title: "Ayurveda for Hormonal Balance: What I Wish I'd Known Sooner",
+    title: "Hormonal Imbalance Symptoms and Natural Remedies — Ayurvedic Guide",
     date: "May 21, 2026",
     excerpt: "I spent the better part of my twenties being told my hormones were 'normal.' Ayurveda lives in the gray zone between thriving and diagnosable — and it reframed everything I understood about hormones.",
     seoTitle: "Ayurveda for Hormonal Balance: What the Ancient System Gets Right",
@@ -93,7 +93,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-meat-fish",
     category: "article",
-    title: "Can You Eat Meat and Fish on an Ayurvedic Diet? The Answer Is More Complicated Than You Think.",
+    title: "Can You Eat Meat on an Ayurvedic Diet? What the Classical Texts Say",
     date: "May 26, 2026",
     excerpt: "The vegetarian Ayurveda most people know is a modern Western construction. The classical texts call meat nourishing and even medicinal — here's the real, dosha-specific picture.",
     seoTitle: "Can You Eat Meat and Fish on an Ayurvedic Diet? The Answer Is More Complicated Than You Think.",
@@ -103,7 +103,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-alcohol",
     category: "article",
-    title: "Ayurveda Has Its Own Version of Alcohol. Here's What the Texts Actually Say.",
+    title: "Alcohol and Ayurveda: What the Classical Texts Actually Say",
     date: "May 27, 2026",
     excerpt: "Before you assume Ayurveda tells you to stop drinking, know this: the classical texts contain entire chapters on fermented drinks. Here's the nuanced, dosha-specific picture.",
     seoTitle: "Ayurveda Has Its Own Version of Alcohol. Here's What the Texts Actually Say.",
@@ -113,7 +113,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-ice-water",
     category: "article",
-    title: "Why Ayurveda Says You Should Never Drink Ice Water (And Why It's Probably Right)",
+    title: "Why Cold Water Causes Bloating — The Ayurvedic Explanation",
     date: "May 28, 2026",
     excerpt: "Warm water, never ice. It's one of the most consistent recommendations in Ayurveda — and once you understand agni, digestive fire, it's hard to go back.",
     seoTitle: "Why Ayurveda Says You Should Never Drink Ice Water (And Why It's Probably Right)",
@@ -133,7 +133,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-sex",
     category: "article",
-    title: "The Branch of Ayurveda Nobody Talks About: Sex, Vitality, and Vajikarana",
+    title: "Ayurvedic Guide to Vitality and Sexual Health: Vajikarana Explained",
     date: "May 30, 2026",
     excerpt: "Vajikarana is the eighth classical branch of Ayurveda, dedicated to sexual health and vitality. Here's what the texts actually say — about Ojas, doshas, and the herbs.",
     seoTitle: "The Branch of Ayurveda Nobody Talks About: Sex, Vitality, and Vajikarana",
@@ -143,7 +143,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-aging",
     category: "article",
-    title: "Why Your 40s Are Supposed to Feel Different: The Ayurvedic Map of Life",
+    title: "Why Your 40s Feel Different: The Ayurvedic Stages of Life Explained",
     date: "May 31, 2026",
     excerpt: "Ayurveda divides life into three dosha-governed stages. Understanding the Pitta-to-Vata transition explains why your 40s feel different — and how to work with it.",
     seoTitle: "Why Your 40s Are Supposed to Feel Different: The Ayurvedic Map of Life",
@@ -153,7 +153,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-coffee",
     category: "article",
-    title: "The Ayurvedic Take on Coffee",
+    title: "Is Coffee Bad for You? The Ayurvedic Answer by Dosha",
     date: "May 20, 2026",
     excerpt: "The question I get asked most often when I tell people I've been at an Ayurvedic retreat is: 'Can you still have coffee?' The answer is nuanced, which is very Ayurvedic of it.",
     seoTitle: "The Ayurvedic Take on Coffee: Should You Drink It or Give It Up?",
@@ -163,7 +163,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-cold-smoothies",
     category: "article",
-    title: "Why Ayurveda Doesn't Believe in Cold Smoothies (And What to Eat Instead)",
+    title: "Are Cold Smoothies Bad for Digestion? What Ayurveda Says",
     date: "May 18, 2026",
     excerpt: "I drank a green smoothie every morning for three years. Then I sat with an Ayurvedic practitioner in Kerala and she said: 'That explains the bloating.'",
     seoTitle: "Why Ayurveda Doesn't Recommend Cold Smoothies (And What to Eat Instead)",
