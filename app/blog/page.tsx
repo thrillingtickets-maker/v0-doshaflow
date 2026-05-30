@@ -5,11 +5,11 @@ import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 
 export const metadata = {
-  title: "Notes from the Ground — An Ayurvedic Retreat Journal | DoshaFlow",
-  description: "Daily posts from a two-week Ayurvedic retreat in India. Real experiences, treatments, food, and what actually happens when a modern Westerner commits to the practice.",
+  title: "Articles — DoshaFlow",
+  description: "Ayurvedic guides, research, and practical advice on digestion, sleep, stress, hormonal health, and daily wellness by dosha type.",
   openGraph: {
-    title: "Notes from the Ground — An Ayurvedic Retreat Journal | DoshaFlow",
-    description: "Daily posts from a two-week Ayurvedic retreat in India.",
+    title: "Articles — DoshaFlow",
+    description: "Ayurvedic guides, research, and practical advice on digestion, sleep, stress, hormonal health, and daily wellness by dosha type.",
     type: "website",
     url: "https://www.doshaflow.com/blog",
   },
