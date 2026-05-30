@@ -98,8 +98,44 @@ export default function VataDietPlanPage() {
             <img src="https://source.unsplash.com/featured/800x450/?kitchari,rice,lentils,ayurvedic,food" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Kitchari Ayurvedic meal" />
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
-              The Most Important Vata Supplement.
+              Vata Breakfast Ideas.
             </h2>
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              The Vata breakfast needs to be warm, moist, and grounding — eaten within an hour of waking. Oatmeal with ghee, cinnamon, cardamom, and a sliced banana is the classic Vata breakfast — every element is warming and nourishing. Warm rice congee with ghee, a pinch of ginger, and a small amount of honey is the traditional Ayurvedic Vata morning meal. Scrambled eggs cooked in ghee with cumin and black pepper — warm, protein-rich, and easy to digest. Warm stewed apples or pears with cinnamon and cardamom — light but grounding. Soaked and cooked oat porridge with almond milk, nutmeg, and dates. The rule: always warm, always with a fat (ghee or oil), always with warming spices. Never cold, never raw, never rushed.
+            </p>
+
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              Vata Lunch Ideas.
+            </h2>
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Lunch is the most important meal for Vata and should be the largest. Kitchari — the one-pot Ayurvedic meal of basmati rice and split mung dal with ghee, cumin, coriander, turmeric, and ginger — is the definitive Vata meal. It is easy to digest, warming, and deeply nourishing. Warming dal with basmati rice and a side of roasted root vegetables with ghee — sweet potato, beets, carrots, or parsnips. Lentil soup with warming spices and well-cooked soft bread or rice on the side. Warm grain bowl with cooked quinoa or rice, roasted vegetables, tahini, and warming spices. Chicken or turkey soup with root vegetables, ginger, and turmeric — excellent for Vata in cold weather. The rule: always cooked, always warm, generous with ghee, not too dry.
+            </p>
+
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              Vata Dinner Ideas.
+            </h2>
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Dinner should be lighter than lunch and eaten before 8pm. Warm soup is the ideal Vata dinner — it is easy to digest, hydrating, and requires minimal digestive effort in the evening. Butternut squash soup with ginger, cardamom, and coconut cream. Lentil and vegetable soup with well-cooked grains. Warm rice with a small amount of well-cooked vegetables and ghee. Kitchari again — it is appropriate for both lunch and dinner and is the safest Vata dinner if digestion is fragile. Avoid raw salads, cold food, and heavy proteins at dinner. If eating animal protein, keep it to a small portion of easy-to-digest fish or well-cooked chicken — never raw or heavy.
+            </p>
+
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              7-Day Vata Meal Plan.
+            </h2>
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Monday: Breakfast — warm oatmeal with ghee and cinnamon. Lunch — kitchari with roasted sweet potato. Dinner — lentil soup with warm bread. Tuesday: Breakfast — scrambled eggs in ghee with cumin. Lunch — basmati rice with dal and roasted carrots. Dinner — butternut squash soup. Wednesday: Breakfast — stewed pears with cardamom and honey. Lunch — warm grain bowl with tahini and roasted beets. Dinner — kitchari. Thursday: Breakfast — warm oatmeal with banana and nutmeg. Lunch — chicken soup with root vegetables and ginger. Dinner — lentil and vegetable soup. Friday: Breakfast — rice congee with ghee and ginger. Lunch — kitchari with ghee and cumin. Dinner — warm mung dal with basmati rice. Saturday: Breakfast — scrambled eggs with warming spices. Lunch — roasted root vegetable bowl with cooked grains and tahini. Dinner — butternut squash soup with warm bread. Sunday: Breakfast — oatmeal with stewed apple, cinnamon, and cardamom. Lunch — kitchari with roasted sweet potato and ghee. Dinner — simple mung dal with rice. Across all days: warm water with lemon on waking, ginger chai after breakfast, Triphala with warm water before bed.
+            </p>
+
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              Foods That Secretly Aggravate Vata.
+            </h2>
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              These are the foods that seem healthy or neutral but consistently worsen Vata symptoms. Protein bars and meal replacement shakes — cold, processed, and often high in ingredients that are difficult to digest. The convenience is a Vata trap. Kombucha and fermented drinks — the carbonation aggravates Apana Vata directly. Green juice and cold-pressed juices — cold, raw, and often bitter; three qualities that simultaneously aggravate Vata. Raw kale and cruciferous vegetables — intensely Vata-aggravating when raw; they produce gas, bloating, and digestive distress in Vata types at a rate that is out of proportion to their apparent health-food status. Eat them cooked. Dried fruit in large quantities — intensely drying. A small amount of soaked dates or figs is fine; a handful of trail mix is not. Sparkling water — so common, so apparently harmless, so consistently producing gas and Vata aggravation. Brown rice — heavier and drier than white basmati rice and harder to digest; counterintuitive for anyone who has been told brown rice is healthier. For Vata, well-cooked white basmati is the better choice. Intermittent fasting — skipping breakfast is one of the most Vata-aggravating practices possible. The research that supports intermittent fasting is not being done on Vata types with anxiety and irregular digestion.
+            </p>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Triphala taken with warm water before bed. It gently regulates elimination, feeds beneficial gut bacteria, and addresses the constipation and irregularity that most Vata types experience. Give it two weeks of consistent use.
