@@ -3,6 +3,7 @@ import { NextResponse } from "next/server"
 export async function GET() {
   const lastmod = "2026-05-29"
   const newPostsLastmod = "2026-06-06"
+  const dietPostsLastmod = "2026-06-13"
 
   const urls = [
     { loc: "https://www.doshaflow.com", lastmod },
@@ -25,6 +26,13 @@ export async function GET() {
     { loc: "https://www.doshaflow.com/blog/ayurvedic-morning-routine", lastmod: newPostsLastmod },
     { loc: "https://www.doshaflow.com/blog/best-herbs-for-anxiety", lastmod: newPostsLastmod },
     { loc: "https://www.doshaflow.com/blog/signs-of-high-cortisol", lastmod: newPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/vata-diet-plan", lastmod: dietPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/pitta-diet-plan", lastmod: dietPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/kapha-diet-plan", lastmod: dietPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/best-ayurvedic-tea-anxiety", lastmod: dietPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/best-ayurvedic-tea-sleep", lastmod: dietPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/best-ayurvedic-tea-digestion", lastmod: dietPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/ayurvedic-weight-loss", lastmod: dietPostsLastmod },
   ]
 
   const urlEntries = urls
