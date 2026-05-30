@@ -15,8 +15,38 @@ export const metadata = {
   },
 }
 
+const MONTHS: Record<string, number> = {
+  january: 0,
+  february: 1,
+  march: 2,
+  april: 3,
+  may: 4,
+  june: 5,
+  july: 6,
+  august: 7,
+  september: 8,
+  october: 9,
+  november: 10,
+  december: 11,
+}
+
+function parsePostDate(date: string): number {
+  // Expects "Month DD, YYYY" e.g. "May 28, 2026"
+  const match = date.trim().match(/^([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})$/)
+  if (!match) {
+    const fallback = new Date(date).getTime()
+    return Number.isNaN(fallback) ? 0 : fallback
+  }
+  const [, monthName, day, year] = match
+  const month = MONTHS[monthName.toLowerCase()]
+  if (month === undefined) return 0
+  return new Date(Number(year), month, Number(day)).getTime()
+}
+
 export default function BlogPage() {
-  const posts = getAllPosts().filter((post) => post.category === "article")
+  const posts = getAllPosts()
+    .filter((post) => post.category === "article")
+    .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
 
   return (
     <main className="min-h-screen bg-background">
