@@ -1,0 +1,134 @@
+import Link from "next/link"
+
+export const metadata = {
+  title: "Best Tea for Bloating: The Ayurvedic Approach to a Digestive System That Won't Quit",
+  description: "The best teas for bloating depend on the type — CCF tea for Vata gas, fennel for Pitta inflammation, trikatu for Kapha heaviness. The Ayurvedic guide to fixing bloating for good.",
+  openGraph: {
+    title: "Best Tea for Bloating: The Ayurvedic Approach to a Digestive System That Won't Quit",
+    description: "The best teas for bloating depend on the type — CCF tea for Vata gas, fennel for Pitta inflammation, trikatu for Kapha heaviness. The Ayurvedic guide to fixing bloating for good.",
+    url: "https://www.doshaflow.com/blog/best-tea-for-bloating",
+    siteName: "DoshaFlow",
+    type: "article",
+  },
+  alternates: {
+    canonical: "https://www.doshaflow.com/blog/best-tea-for-bloating",
+  },
+}
+
+export default function BestTeaForBloatingPage() {
+  return (
+    <div className="min-h-screen bg-[#fdf8f3]">
+      <nav className="flex items-center justify-between px-6 py-4 max-w-5xl mx-auto">
+        <Link href="/" className="text-xl font-bold text-[#2c1a0e]">
+          Dosha<span className="text-[#c49a6c]">Flow</span>
+        </Link>
+        <div className="flex items-center gap-6">
+          <Link href="/blog" className="text-sm text-[#5c4a3a] hover:text-[#2c1a0e]">
+            Blog
+          </Link>
+          <Link href="/quiz" className="text-sm bg-[#2c1a0e] text-white px-4 py-2 rounded-full hover:bg-[#3d2b1f]">
+            Take the Quiz
+          </Link>
+        </div>
+      </nav>
+
+      <main className="max-w-[680px] mx-auto px-6 py-12">
+        <article>
+          <header className="mb-12">
+            <time className="text-sm text-muted-foreground">June 16, 2026</time>
+            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
+              Best Tea for Bloating: The Ayurvedic Approach to a Digestive System That Won't Quit
+            </h1>
+            <p className="text-muted-foreground">
+              By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
+            </p>
+          </header>
+
+          <div className="prose prose-lg max-w-none text-[#2c2218]" style={{ lineHeight: 1.75 }}>
+            <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Bloating is one of the most searched digestive complaints in the world and one of the most poorly addressed. The standard advice — cut gluten, take a probiotic, drink peppermint tea — helps some people some of the time and leaves most people roughly where they started. Ayurveda has a more specific framework. Bloating is not one thing. It has different causes in different constitutions, and the tea that helps depends entirely on which type of bloating you have.
+            </p>
+
+            <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              Why Generic Bloating Remedies Do Not Work for Everyone.
+            </h2>
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Peppermint tea is cooling. It is excellent for Pitta-type bloating — the kind that accompanies inflammation, acid reflux, and heat in the digestive tract. For Vata-type bloating — the kind driven by gas, irregular motility, and cold digestive fire — peppermint can actually make things worse by cooling an already-cold system further. This is the Ayurvedic insight that most bloating advice misses: the same symptom has different causes in different bodies, and the remedy for one type is often contraindicated for another.
+            </p>
+
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              The Three Types of Bloating.
+            </h2>
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Vata bloating is gas-driven — the most common type. Feels like distension, pressure, and trapped air that moves and shifts. Often accompanied by irregular elimination and bloating that is worse in the afternoon and evening. Triggered by cold food, raw food, carbonated drinks, irregular eating, and stress. Pitta bloating is inflammation-driven — accompanied by burning, acid, loose stool, and heat in the digestive tract. This is the bloating that follows spicy or acidic food, alcohol, or high stress. Kapha bloating is fluid-driven — less gas, more fullness and heaviness that does not shift. Associated with slow digestion, water retention, and unprocessed material in the digestive tract.
+            </p>
+
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              Best Tea for Vata Bloating.
+            </h2>
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              CCF tea — cumin, coriander, and fennel simmered in water — is the most universally recommended Ayurvedic digestive tea and the most effective for Vata bloating. Simmer one teaspoon each of whole cumin seeds, coriander seeds, and fennel seeds in two cups of water for 10 minutes. Strain and drink warm after meals. The three herbs together are carminative, warming, and supportive of the downward movement that Vata bloating disrupts. Ginger tea before meals directly stimulates digestive fire and prevents the incomplete digestion that produces gas. Fresh ginger grated into hot water with lemon and honey drunk 15-20 minutes before eating. Ajwain (carom seed) tea is the most powerful carminative in the Ayurvedic kitchen — simmer a teaspoon in water for 8 minutes and drink warm after a meal causing discomfort.
+            </p>
+
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              Best Tea for Pitta Bloating.
+            </h2>
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Fennel tea (fennel alone, not the full CCF blend) is cooling and carminative — the ideal Pitta digestive herb. It reduces the burning, acid, and gas that accompanies Pitta bloating without adding heat. Steep a teaspoon of fennel seeds for 7 minutes. Coriander seed tea is cooling, gentle, and anti-inflammatory — simmer a teaspoon in water for 10 minutes. Aloe vera juice (unsweetened, inner leaf) taken in a small amount before meals directly soothes inflamed Pitta digestion. Peppermint tea is appropriate for Pitta but not for Vata.
+            </p>
+
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              Best Tea for Kapha Bloating.
+            </h2>
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Trikatu tea — ginger, black pepper, and long pepper simmered in water — is the most directly stimulating digestive formula for Kapha. Drink before meals. Strong ginger tea with black pepper and a small amount of honey addresses the slow Kapha digestion that produces this type of bloating. Dandelion root tea supports liver function and has mild diuretic properties that address the fluid component of Kapha bloating.
+            </p>
+
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              The Morning Practice That Reduces All Three Types.
+            </h2>
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Warm water first thing in the morning before anything else is the most universally effective anti-bloating practice in Ayurveda. It stimulates peristalsis, initiates the first bowel movement, and prevents overnight ama accumulation from contributing to daytime bloating. Add ginger for Vata and Kapha. A squeeze of lemon for Pitta. Do this consistently for two weeks.
+            </p>
+
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              What to Avoid.
+            </h2>
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Cold drinks with meals suppress digestive fire in all constitutions. Carbonated drinks add gas to a system already producing too much. Eating too quickly prevents adequate enzymatic breakdown. Eating past fullness forces the digestive system to process more than it can handle efficiently.
+            </p>
+
+            <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+
+            <div style={{ 
+              backgroundColor: "#f5ede1", 
+              padding: "24px", 
+              borderRadius: "8px", 
+              marginTop: "40px",
+              marginBottom: "40px",
+              borderLeft: "4px solid #c49a6c"
+            }}>
+              <p style={{ marginBottom: "16px", lineHeight: 1.75, fontWeight: 500 }}>
+                Bloating patterns differ by dosha. Find yours and get a personalized approach.
+              </p>
+              <Link href="/quiz" className="inline-block bg-[#2c1a0e] text-white px-6 py-2 rounded-full hover:bg-[#3d2b1f] text-sm font-medium">
+                Take the Free Dosha Quiz
+              </Link>
+            </div>
+          </div>
+        </article>
+      </main>
+    </div>
+  )
+}

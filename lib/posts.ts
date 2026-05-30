@@ -11,6 +11,36 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "best-tea-for-stress",
+    category: "article",
+    title: "Best Tea for Stress: What Ayurveda Recommends Beyond Chamomile",
+    date: "June 18, 2026",
+    excerpt: "The best teas for stress depend on the type — Vata needs ashwagandha and brahmi, Pitta needs rose and brahmi, Kapha needs tulsi and ginger. The complete Ayurvedic stress tea guide.",
+    seoTitle: "Best Tea for Stress: What Ayurveda Recommends Beyond Chamomile",
+    seoDescription: "The best teas for stress depend on the type — Vata needs ashwagandha and brahmi, Pitta needs rose and brahmi, Kapha needs tulsi and ginger. The complete Ayurvedic stress tea guide.",
+    content: ``,
+  },
+  {
+    slug: "best-tea-for-vata",
+    category: "article",
+    title: "Best Tea for Vata Dosha: Daily Drinks That Ground an Overactive Nervous System",
+    date: "June 17, 2026",
+    excerpt: "The best teas for Vata — ashwagandha, ginger, cardamom, jatamansi — and when to drink them for digestion, anxiety, and sleep. The complete Vata tea guide.",
+    seoTitle: "Best Tea for Vata Dosha: Daily Drinks That Ground an Overactive Nervous System",
+    seoDescription: "The best teas for Vata — ashwagandha, ginger, cardamom, jatamansi — and when to drink them for digestion, anxiety, and sleep. The complete Vata tea guide.",
+    content: ``,
+  },
+  {
+    slug: "best-tea-for-bloating",
+    category: "article",
+    title: "Best Tea for Bloating: The Ayurvedic Approach to a Digestive System That Won't Quit",
+    date: "June 16, 2026",
+    excerpt: "The best teas for bloating depend on the type — CCF tea for Vata gas, fennel for Pitta inflammation, trikatu for Kapha heaviness. The Ayurvedic guide to fixing bloating for good.",
+    seoTitle: "Best Tea for Bloating: The Ayurvedic Approach to a Digestive System That Won't Quit",
+    seoDescription: "The best teas for bloating depend on the type — CCF tea for Vata gas, fennel for Pitta inflammation, trikatu for Kapha heaviness. The Ayurvedic guide to fixing bloating for good.",
+    content: ``,
+  },
+  {
     slug: "ayurvedic-skin-guide",
     category: "article",
     title: "The Ayurvedic Skin Guide: Why Your Skin Reflects What Is Happening Inside",
