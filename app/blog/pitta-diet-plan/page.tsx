@@ -94,6 +94,30 @@ export default function PittaDietPlanPage() {
             <img src="https://source.unsplash.com/featured/800x450/?basmati,rice,indian,food,healthy" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Cooling Pitta meal with basmati rice" />
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              Pitta, Alcohol, and Inflammation: The Connection Most People Miss.
+            </h2>
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Alcohol is processed by the liver. The liver is the Pitta organ — it is the site of the body's metabolic transformation and the primary organ for clearing hormones, toxins, and inflammatory byproducts. In Pitta types, the liver is already working at high intensity. Adding regular alcohol is like asking someone who is already running at full capacity to take on more work. The results are predictable: inflammation increases, skin flares, the irritability that follows a night of drinking is not just dehydration — it is the Pitta system reporting that it has been pushed past its threshold. The acne that arrives after a weekend of drinking. The redness and rosacea that worsen with wine. The anger and short fuse that are noticeably worse after drinking even a moderate amount. These are all Pitta excess symptoms with a direct and identifiable cause. Most Pitta types already know, at some level, that alcohol makes them feel worse. Ayurveda confirms what the body is trying to communicate: for Pitta, alcohol is among the most aggravating substances in the diet, and reducing or eliminating it produces faster and more visible results than almost any other dietary change.
+            </p>
+
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              Pitta and Overwork: Why Ambition Becomes a Health Problem.
+            </h2>
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Pitta types are the most likely of the three doshas to use work as a primary identity. The drive, the standards, the capacity for sustained output — these are Pitta gifts. The problem is that Pitta's relationship with work does not have a natural off switch. Where Kapha needs external motivation to push harder and Vata struggles with consistency, Pitta's challenge is the opposite: stopping. The Pitta tendency is to continue producing until the system breaks. And when it breaks, it breaks in predictable ways — the inflammation that builds in the body during periods of sustained overwork, the sleep disruption that begins when the work extends past 10pm into Pitta time, the digestive issues that accompany the cortisol load of chronic high performance without recovery. The dietary and lifestyle interventions for Pitta are not about producing more with less. They are about maintaining the capacity for sustained, high-quality output over years rather than burning brilliantly for a period and then burning out. Reducing alcohol. Eating a cooling, anti-inflammatory diet. Going to sleep before 10pm. Taking genuine rest — not optimised rest, not productive recovery, actual rest with no output agenda. These are what allow Pitta types to maintain their edge without destroying the system that produces it.
+            </p>
+
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              Pitta Meal Ideas: Cooling Without Being Boring.
+            </h2>
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Breakfast: cooked oatmeal with coconut milk, cardamom, and sweet mango. Or avocado on toast with cucumber slices and coriander. Or a simple bowl of basmati rice with ghee and a small amount of stewed sweet fruit. Not cold smoothies, not spicy eggs, not coffee on an empty stomach. Lunch: the most important Pitta meal, eaten between noon and 2pm when Pitta digestion is strongest. Basmati rice with mung dal and a fresh cucumber raita. A large grain salad with cooked quinoa, cucumber, avocado, fresh herbs, and a mild tahini dressing. Grilled white fish with basmati rice and steamed asparagus with ghee. The key is freshness, mildness, and adequate quantity — Pitta should not leave lunch hungry. Dinner: lighter than lunch. Basmati rice or another light grain with lightly cooked vegetables and a small amount of protein. Avoid spicy, sour, or fried food at dinner — it is the meal most likely to disrupt Pitta sleep. Coconut milk-based vegetable curry with mild spices is an excellent Pitta dinner. Snacks if needed: sweet fruit, coconut water, mild nuts, dates and milk — not salty snacks, not spicy snacks, not alcohol.
+            </p>
+
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
               The Most Important Pitta Supplement.
             </h2>
 
