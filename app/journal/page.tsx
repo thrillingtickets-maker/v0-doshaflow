@@ -1,5 +1,6 @@
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
+import { getAllPosts } from "@/lib/posts"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 
@@ -14,22 +15,9 @@ export const metadata = {
   },
 }
 
-const journalPosts = [
-  {
-    slug: "retreat-day-4",
-    title: "The Doctor Told Me to Stop Moving",
-    date: "Day 4 — Kerala",
-    excerpt: "What happens when an Ayurvedic doctor tells a type-A person that rest is the treatment.",
-  },
-  {
-    slug: "retreat-day-3",
-    title: "My Body Is Detoxing, My Mood Is a Ping Pong Ball, and I Hit 15,000 Steps",
-    date: "Day 3 — Kerala",
-    excerpt: "First good night of sleep, a full digestive revolt, mood swings, and my first Shirodhara treatment.",
-  },
-]
-
 export default function JournalPage() {
+  const journalPosts = getAllPosts().filter((post) => post.category === "journal")
+
   return (
     <main className="min-h-screen bg-background">
       <Navigation />

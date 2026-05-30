@@ -1,5 +1,6 @@
 export interface Post {
   slug: string
+  category: "journal" | "article"
   title: string
   date: string
   excerpt: string
@@ -11,6 +12,7 @@ export interface Post {
 export const posts: Post[] = [
   {
     slug: "retreat-day-3",
+    category: "journal",
     title: "Day 3: My Body Is Detoxing, My Mood Is a Ping Pong Ball, and I Hit 15,000 Steps",
     date: "May 27, 2026",
     excerpt: "First good night of sleep. Eight hours. My resting heart rate was 74. And then my digestive system staged a full revolt.",
@@ -20,6 +22,7 @@ export const posts: Post[] = [
   },
   {
     slug: "retreat-day-4",
+    category: "journal",
     title: "Retreat Journal Day 4: What a Vata Type Gets Wrong About Exercise",
     date: "May 28, 2026",
     excerpt: "Day 4 at an Ayurvedic retreat in Kerala: the doctor tells me to stop moving, shirodhara finally works, and I reckon with how much I've been avoiding the whole point of being here.",
@@ -29,6 +32,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ayurveda-burnout",
+    category: "article",
     title: "Burnout Through an Ayurvedic Lens: What's Actually Happening and How to Recover",
     date: "May 28, 2026",
     excerpt: "Ayurveda explains burnout as a depletion of ojas — vital essence — with specific patterns for Vata, Pitta, and Kapha types. Here's what the recovery actually looks like.",
@@ -38,6 +42,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ayurveda-30-days",
+    category: "article",
     title: "I Followed an Ayurvedic Routine for 30 Days: Here's What Actually Changed",
     date: "May 25, 2026",
     excerpt: "What happens when you consistently follow an Ayurvedic daily routine for 30 days? Digestion, sleep, anxiety, skin — an honest account of what changed and what didn't.",
@@ -47,6 +52,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ayurveda-no-time",
+    category: "article",
     title: "Ayurveda for Busy People: 7 Practices That Take Under 30 Minutes a Day",
     date: "May 23, 2026",
     excerpt: "You don't need to overhaul your life to benefit from Ayurveda. Here are the 7 highest-leverage Ayurvedic practices for people who are actually busy — and what they do.",
@@ -56,6 +62,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ayurveda-pms",
+    category: "article",
     title: "The Ayurvedic Approach to PMS: Three Patterns and What to Do About Each",
     date: "May 22, 2026",
     excerpt: "Ayurveda identifies three distinct PMS patterns — Vata, Pitta, and Kapha — each with different causes and different remedies. Here's how to identify yours and what actually helps.",
@@ -65,6 +72,7 @@ export const posts: Post[] = [
   },
   {
     slug: "eating-for-your-dosha",
+    category: "article",
     title: "Eating for Your Dosha: The Ayurvedic Diet Guide for Vata, Pitta, and Kapha",
     date: "May 19, 2026",
     excerpt: "Ayurvedic eating isn't a diet — it's a framework for matching food to your constitution. Learn what to eat for Vata, Pitta, and Kapha doshas with practical, specific guidance.",
@@ -74,6 +82,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ayurveda-hormonal-balance",
+    category: "article",
     title: "Ayurveda for Hormonal Balance: What I Wish I'd Known Sooner",
     date: "May 21, 2026",
     excerpt: "I spent the better part of my twenties being told my hormones were 'normal.' Ayurveda lives in the gray zone between thriving and diagnosable — and it reframed everything I understood about hormones.",
@@ -83,6 +92,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ayurveda-meat-fish",
+    category: "article",
     title: "Can You Eat Meat and Fish on an Ayurvedic Diet? The Answer Is More Complicated Than You Think.",
     date: "May 26, 2026",
     excerpt: "The vegetarian Ayurveda most people know is a modern Western construction. The classical texts call meat nourishing and even medicinal — here's the real, dosha-specific picture.",
@@ -92,6 +102,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ayurveda-alcohol",
+    category: "article",
     title: "Ayurveda Has Its Own Version of Alcohol. Here's What the Texts Actually Say.",
     date: "May 27, 2026",
     excerpt: "Before you assume Ayurveda tells you to stop drinking, know this: the classical texts contain entire chapters on fermented drinks. Here's the nuanced, dosha-specific picture.",
@@ -101,6 +112,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ayurveda-ice-water",
+    category: "article",
     title: "Why Ayurveda Says You Should Never Drink Ice Water (And Why It's Probably Right)",
     date: "May 28, 2026",
     excerpt: "Warm water, never ice. It's one of the most consistent recommendations in Ayurveda — and once you understand agni, digestive fire, it's hard to go back.",
@@ -110,6 +122,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ayurveda-exercise",
+    category: "article",
     title: "Why Working Out the Same Way Every Day Is Making You Worse (According to Ayurveda)",
     date: "May 29, 2026",
     excerpt: "Ayurveda treats exercise as constitution-specific, not universal. Here's what each dosha actually needs, when to train, and why recovery matters as much as exertion.",
@@ -119,6 +132,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ayurveda-sex",
+    category: "article",
     title: "The Branch of Ayurveda Nobody Talks About: Sex, Vitality, and Vajikarana",
     date: "May 30, 2026",
     excerpt: "Vajikarana is the eighth classical branch of Ayurveda, dedicated to sexual health and vitality. Here's what the texts actually say — about Ojas, doshas, and the herbs.",
@@ -128,6 +142,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ayurveda-aging",
+    category: "article",
     title: "Why Your 40s Are Supposed to Feel Different: The Ayurvedic Map of Life",
     date: "May 31, 2026",
     excerpt: "Ayurveda divides life into three dosha-governed stages. Understanding the Pitta-to-Vata transition explains why your 40s feel different — and how to work with it.",
@@ -137,6 +152,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ayurveda-coffee",
+    category: "article",
     title: "The Ayurvedic Take on Coffee",
     date: "May 20, 2026",
     excerpt: "The question I get asked most often when I tell people I've been at an Ayurvedic retreat is: 'Can you still have coffee?' The answer is nuanced, which is very Ayurvedic of it.",
@@ -146,6 +162,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ayurveda-cold-smoothies",
+    category: "article",
     title: "Why Ayurveda Doesn't Believe in Cold Smoothies (And What to Eat Instead)",
     date: "May 18, 2026",
     excerpt: "I drank a green smoothie every morning for three years. Then I sat with an Ayurvedic practitioner in Kerala and she said: 'That explains the bloating.'",
@@ -155,6 +172,7 @@ export const posts: Post[] = [
   },
   {
     slug: "kapha-dosha-guide",
+    category: "article",
     title: "Kapha Dosha: Why You Feel Stuck, Sluggish, and What Actually Helps",
     date: "May 17, 2026",
     excerpt: "Kapha is the dosha nobody talks about. Here's what I've learned: Kapha imbalance isn't a character flaw. It's an energetic pattern with specific causes and solutions.",
@@ -164,6 +182,7 @@ export const posts: Post[] = [
   },
   {
     slug: "pitta-dosha-guide",
+    category: "article",
     title: "Pitta Dosha: The High-Achiever's Guide to Cooling Down",
     date: "May 16, 2026",
     excerpt: "The first time someone described Pitta to me, I laughed. Not because it was wrong. Because it was so accurate it was slightly embarrassing.",
@@ -173,6 +192,7 @@ export const posts: Post[] = [
   },
   {
     slug: "vata-dosha-guide",
+    category: "article",
     title: "Vata Dosha: Signs You're Out of Balance and What To Do About It",
     date: "May 15, 2026",
     excerpt: "I used to think anxiety was just my personality. Then I got my dosha assessment and the practitioner said: 'Classic Vata imbalance.' Everything had a name — and a remedy.",
@@ -182,6 +202,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ayurvedic-herbs-guide",
+    category: "article",
     title: "The Ayurvedic Herb Guide: What's Actually in These Formulas and Why",
     date: "May 28, 2026",
     excerpt: "I'm sitting in a pharmacy that's been operating for over 200 years. Here's what I learned about the herbs that show up in every Ayurvedic formula — and why they work.",
@@ -191,6 +212,7 @@ export const posts: Post[] = [
   },
   {
     slug: "what-happens-ayurvedic-retreat-day-3",
+    category: "journal",
     title: "Day 3: My Body Is Detoxing, My Mood Is a Ping Pong Ball, and I Hit 15,000 Steps",
     date: "May 27, 2026",
     excerpt: "First good night of sleep. Eight hours. My resting heart rate was 74. And then my digestive system staged a full revolt.",
