@@ -411,7 +411,7 @@ export default function AyurvedaForMenPage() {
                 {" "}→ Constitutional eating guidelines tailored to your type.
               </p>
               <p className="text-muted-foreground">
-                <Link href="/blog/best-ayurvedic-tea-for-anxiety" className="text-[#C97F3D] hover:underline">
+                <Link href="/blog/best-ayurvedic-tea-anxiety" className="text-[#C97F3D] hover:underline">
                   Best Ayurvedic Tea for Anxiety
                 </Link>
                 {" "}→ Herbal teas that actually calm the nervous system by dosha.
