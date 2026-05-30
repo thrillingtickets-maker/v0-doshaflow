@@ -1,0 +1,60 @@
+"use client"
+
+import { motion } from "framer-motion"
+import Link from "next/link"
+
+const goalCards = [
+  { goal: "I cannot sleep", href: "/blog/best-ayurvedic-tea-sleep" },
+  { goal: "I am always anxious", href: "/blog/best-herbs-for-anxiety" },
+  { goal: "I am always bloated", href: "/blog/why-am-i-always-bloated" },
+  { goal: "I am burned out", href: "/blog/nervous-system-burnout" },
+  { goal: "I cannot lose weight", href: "/blog/ayurvedic-weight-loss" },
+  { goal: "I have no energy", href: "/blog/why-am-i-always-tired" },
+]
+
+export function ExploreByGoal() {
+  return (
+    <section className="px-6 py-24 md:py-32">
+      <div className="max-w-6xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-16"
+        >
+          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-medium text-foreground mb-6">
+            <span className="text-balance">Explore By Goal</span>
+          </h2>
+          <p className="max-w-2xl mx-auto text-lg text-muted-foreground leading-relaxed">
+            Most people don&apos;t start with a dosha. They start with a problem.
+          </p>
+        </motion.div>
+
+        <div className="grid md:grid-cols-3 gap-6">
+          {goalCards.map((card, index) => (
+            <motion.div
+              key={card.href}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: index * 0.08 }}
+            >
+              <Link
+                href={card.href}
+                className="block h-full p-8 md:p-10 bg-card rounded-2xl border border-border/50 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 group flex flex-col justify-center items-center text-center"
+              >
+                <span className="text-xl md:text-2xl font-semibold text-foreground group-hover:text-primary transition-colors">
+                  {card.goal}
+                </span>
+                <div className="mt-6 inline-flex items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="text-sm text-muted-foreground">Explore →</span>
+                </div>
+              </Link>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}

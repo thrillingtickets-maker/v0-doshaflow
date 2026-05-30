@@ -18,6 +18,7 @@ import { MealPlans } from "@/components/meal-plans"
 import { Workouts } from "@/components/workouts"
 import { DigestiveTracking } from "@/components/digestive-tracking"
 import { ExploreAyurveda } from "@/components/explore-ayurveda"
+import { ExploreByGoal } from "@/components/explore-by-goal"
 import { StartHere } from "@/components/start-here"
 import { PopularArticles } from "@/components/popular-articles"
 import { Testimonials } from "@/components/testimonials"
@@ -34,6 +35,7 @@ export default function Home() {
       <Workouts />
       <DigestiveTracking />
       <ExploreAyurveda />
+      <ExploreByGoal />
       <StartHere />
       <PopularArticles />
       <section id="testimonials">
