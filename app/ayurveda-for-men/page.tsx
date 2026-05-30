@@ -122,15 +122,27 @@ export default function AyurvedaForMenPage() {
             </h3>
 
             <p>
-              <strong className="text-foreground font-medium">Physically:</strong> Lean build, tends toward cold hands and feet, variable appetite, light sleeper. Energy comes in bursts — highly productive one day, depleted the next.
+              <strong className="text-foreground font-medium">Physically:</strong> Lean build, tends toward cold hands and feet, variable appetite, light{" "}
+              <Link href="/blog/best-ayurvedic-tea-sleep" className="text-[#C97F3D] hover:underline">
+                sleep
+              </Link>
+              er. Energy comes in bursts — highly productive one day, depleted the next.
             </p>
 
             <p>
-              <strong className="text-foreground font-medium">Mentally:</strong> Creative, fast-thinking, good at generating ideas. Also prone to anxiety, overwhelm, and an inability to switch off. The kind of person who lies awake at 2am running through tomorrow&apos;s problems.
+              <strong className="text-foreground font-medium">Mentally:</strong> Creative, fast-thinking, good at generating ideas. Also prone to{" "}
+              <Link href="/blog/best-herbs-for-anxiety" className="text-[#C97F3D] hover:underline">
+                anxiety
+              </Link>
+              , overwhelm, and an inability to switch off. The kind of person who lies awake at 2am running through tomorrow&apos;s problems.
             </p>
 
             <p>
-              <strong className="text-foreground font-medium">When out of balance:</strong> Insomnia, digestive irregularity, joint discomfort, chronic anxiety, racing thoughts, exhaustion that doesn&apos;t respond to rest. Often uses alcohol, stimulants, or screens to regulate the nervous system — because Vata energy responds to anything that provides temporary grounding.
+              <strong className="text-foreground font-medium">When out of balance:</strong> Insomnia, digestive irregularity, joint discomfort, chronic{" "}
+              <Link href="/blog/best-herbs-for-anxiety" className="text-[#C97F3D] hover:underline">
+                anxiety
+              </Link>
+              , racing thoughts, exhaustion that doesn&apos;t respond to rest. Often uses alcohol, stimulants, or screens to regulate the nervous system — because Vata energy responds to anything that provides temporary grounding.
             </p>
 
             <p>
@@ -154,7 +166,15 @@ export default function AyurvedaForMenPage() {
             </p>
 
             <p>
-              <strong className="text-foreground font-medium">When out of balance:</strong> Burnout, inflammation (skin, gut, joints), anger that seems disproportionate to its triggers, high cortisol, sleep that&apos;s disrupted by racing mind rather than anxiety. Often uses alcohol to decompress after intense work — Pitta builds up heat all day and alcohol provides a valve.
+              <strong className="text-foreground font-medium">When out of balance:</strong>{" "}
+              <Link href="/blog/nervous-system-burnout" className="text-[#C97F3D] hover:underline">
+                Burnout
+              </Link>
+              , inflammation (skin, gut, joints), anger that seems disproportionate to its triggers, high cortisol,{" "}
+              <Link href="/blog/best-ayurvedic-tea-sleep" className="text-[#C97F3D] hover:underline">
+                sleep
+              </Link>{" "}
+              that&apos;s disrupted by racing mind rather than anxiety. Often uses alcohol to decompress after intense work — Pitta builds up heat all day and alcohol provides a valve.
             </p>
 
             <p>
@@ -192,7 +212,23 @@ export default function AyurvedaForMenPage() {
             </h3>
 
             <p>
-              Vata sleep problems look different from Pitta sleep problems, which look different from Kapha sleep problems. Vata wakes between 2–4am and can&apos;t get back to sleep. Pitta falls asleep fine but wakes early, mind already running. Kapha sleeps 9 hours and still feels tired.
+              Vata{" "}
+              <Link href="/blog/best-ayurvedic-tea-sleep" className="text-[#C97F3D] hover:underline">
+                sleep
+              </Link>{" "}
+              problems look different from Pitta{" "}
+              <Link href="/blog/best-ayurvedic-tea-sleep" className="text-[#C97F3D] hover:underline">
+                sleep
+              </Link>{" "}
+              problems, which look different from Kapha{" "}
+              <Link href="/blog/best-ayurvedic-tea-sleep" className="text-[#C97F3D] hover:underline">
+                sleep
+              </Link>{" "}
+              problems. Vata wakes between 2–4am and can&apos;t get back to{" "}
+              <Link href="/blog/best-ayurvedic-tea-sleep" className="text-[#C97F3D] hover:underline">
+                sleep
+              </Link>
+              . Pitta falls asleep fine but wakes early, mind already running. Kapha sleeps 9 hours and still feels tired.
             </p>
 
             <p>
@@ -224,7 +260,11 @@ export default function AyurvedaForMenPage() {
             </h3>
 
             <p>
-              This is where Ayurveda is most useful for modern men, and most under-discussed. Chronic stress is a Vata and Pitta imbalance in Ayurvedic terms — Vata because the nervous system is overwhelmed, Pitta because the drive and heat are unchecked. The herbal and lifestyle interventions that address these imbalances (ashwagandha, brahmi, regular oil massage, breath work) are also the most well-researched Ayurvedic tools in Western literature.
+              This is where Ayurveda is most useful for modern men, and most under-discussed. Chronic stress is a Vata and Pitta imbalance in Ayurvedic terms — Vata because the nervous system is overwhelmed,{" "}
+              <Link href="/blog/best-herbs-for-anxiety" className="text-[#C97F3D] hover:underline">
+                anxiety
+              </Link>
+              {" "}being the symptom, Pitta because the drive and heat are unchecked. The herbal and lifestyle interventions that address these imbalances (ashwagandha, brahmi, regular oil massage, breath work) are also the most well-researched Ayurvedic tools in Western literature.
             </p>
 
             <h3 className="font-serif text-xl md:text-2xl text-foreground mt-10 mb-4">
@@ -240,7 +280,11 @@ export default function AyurvedaForMenPage() {
             </p>
 
             <blockquote className="border-l-4 border-[#C97F3D] pl-6 py-2 my-8 text-foreground italic text-lg">
-              In each case, alcohol mimics something the dosha needs but provides it in a form that makes the underlying imbalance worse. Understanding your dosha is understanding what you&apos;re actually looking for when you reach for a drink — and that knowledge is the beginning of finding it somewhere else.
+              In each case, alcohol mimics something the dosha needs but provides it in a form that makes the underlying imbalance worse. Understanding your dosha is understanding what you&apos;re actually looking for when you reach for a drink — and that knowledge is the beginning of finding it somewhere else. Learn more in our guide on{" "}
+              <Link href="/blog/ayurveda-alcohol-recovery" className="text-[#C97F3D] hover:underline">
+                Ayurveda and alcohol recovery
+              </Link>
+              .
             </blockquote>
 
             <hr className="border-border my-12" />
@@ -324,45 +368,45 @@ export default function AyurvedaForMenPage() {
             <hr className="border-border my-12" />
 
             <h2 className="font-serif text-2xl md:text-3xl text-foreground mt-12 mb-6">
-              Explore Further
+              Go Deeper
             </h2>
 
             <div className="space-y-3">
               <p className="text-muted-foreground">
-                <Link href="/quiz" className="text-[#C97F3D] hover:underline">
-                  Find your dosha
+                <Link href="/blog/vata-diet-plan" className="text-[#C97F3D] hover:underline">
+                  Vata Diet Plan
                 </Link>
-                {" "}→ Start with the free dosha quiz to understand your constitutional type.
+                {" "}→ Constitutional eating guidelines tailored to your type.
+              </p>
+              <p className="text-muted-foreground">
+                <Link href="/blog/best-ayurvedic-tea-for-anxiety" className="text-[#C97F3D] hover:underline">
+                  Best Ayurvedic Tea for Anxiety
+                </Link>
+                {" "}→ Herbal teas that actually calm the nervous system by dosha.
               </p>
               <p className="text-muted-foreground">
                 <Link href="/blog/ayurvedic-morning-routine" className="text-[#C97F3D] hover:underline">
-                  Ayurvedic morning routine
+                  Ayurvedic Morning Routine
                 </Link>
                 {" "}→ The most effective daily practice for reorganizing the nervous system.
               </p>
               <p className="text-muted-foreground">
-                <Link href="/blog/best-herbs-for-anxiety" className="text-[#C97F3D] hover:underline">
-                  Best herbs for anxiety
-                </Link>
-                {" "}→ Dosha-specific herbal approaches to chronic stress and cortisol management.
-              </p>
-              <p className="text-muted-foreground">
                 <Link href="/blog/signs-of-high-cortisol" className="text-[#C97F3D] hover:underline">
-                  Signs of high cortisol
+                  Signs of High Cortisol
                 </Link>
                 {" "}→ How to recognize stress manifesting by dosha type.
               </p>
               <p className="text-muted-foreground">
-                <Link href="/blog/ayurvedic-tea-guide" className="text-[#C97F3D] hover:underline">
-                  Ayurvedic tea guide
+                <Link href="/blog/ayurveda-alcohol-recovery" className="text-[#C97F3D] hover:underline">
+                  Ayurveda and Alcohol Recovery
                 </Link>
-                {" "}→ The right herbal teas for your dosha and daily practices.
+                {" "}→ What Ayurveda actually offers for substance use and recovery.
               </p>
               <p className="text-muted-foreground">
-                <Link href="/journal" className="text-[#C97F3D] hover:underline">
-                  Retreat journal
+                <Link href="/quiz" className="text-[#C97F3D] hover:underline">
+                  Take the Dosha Quiz
                 </Link>
-                {" "}→ First-person documentation of the Ayurvedic retreat process.
+                {" "}→ Find your constitutional type and get a personalized plan.
               </p>
             </div>
 
