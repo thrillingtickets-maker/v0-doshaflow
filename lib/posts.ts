@@ -11,6 +11,16 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "retreat-day-6",
+    category: "journal",
+    title: "Day 6: I Refused the Treatment, Found a Temple Behind a Bodega, and Lost a Kilo.",
+    date: "May 30, 2026",
+    excerpt: "Treatment refusal, spiritual wandering, the ghee flush, and the anxiety of thinking about leaving. Day 6 at the Ayurvedic retreat in Kerala.",
+    seoTitle: "Day 6: I Refused the Treatment, Found a Temple Behind a Bodega, and Lost a Kilo.",
+    seoDescription: "An honest first-person account of day 6 at an Ayurvedic retreat in India — treatment refusal, spiritual wandering, and the weight of self-awareness.",
+    content: ``,
+  },
+  {
     slug: "retreat-day-5",
     category: "journal",
     title: "Day 5: I Watched the NBA Finals at 6am, Got Poured Buttermilk on My Head, and Still Can't Turn My Brain Off",
