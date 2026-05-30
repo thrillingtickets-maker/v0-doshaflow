@@ -63,6 +63,8 @@ export default function BestAyurvedicTeaAnxietyPage() {
               Vata anxiety is the most common: racing thoughts, physical restlessness, insomnia, and free-floating worry without a clear object. The 3am spiral. The nervous system that will not stop. Pitta anxiety is more focused: intense worry about specific outcomes, perfectionism, the tension of someone who cannot stop planning for problems that may not happen. Often accompanied by inflammation, skin flares, and a short fuse. Kapha anxiety is the least common: a heavy, stuck quality. Not racing thoughts but flatness, difficulty starting, emotional inertia, low motivation that reads as depression as much as anxiety.
             </p>
 
+            <img src="https://source.unsplash.com/featured/800x450/?ashwagandha,adaptogen,herbs,roots" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Adaptogenic herbs for anxiety" />
+
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
               Best Tea for Vata Anxiety.
             </h2>
@@ -79,6 +81,8 @@ export default function BestAyurvedicTeaAnxietyPage() {
               Brahmi is the best Pitta anxiety herb — cooling the overheated mind directly. Brahmi tea steeped for 10 minutes in the afternoon is the specific recommendation for the Pitta type. Shatavari addresses the hormonal component of Pitta anxiety, particularly relevant for women whose anxiety intensifies in the luteal phase. Rose petal tea is simple, accessible, and genuinely effective for Pitta — cooling and anti-inflammatory. A practical Pitta anxiety blend: brahmi, rose petal, shatavari, fennel, cardamom. Steep 8 minutes. Drink warm or slightly cooled in the afternoon.
             </p>
 
+            <img src="https://source.unsplash.com/featured/800x450/?rose,petal,herbal,tea,calm" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Calming herbal tea with rose" />
+
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
               Best Tea for Kapha Anxiety.
             </h2>
@@ -88,12 +92,14 @@ export default function BestAyurvedicTeaAnxietyPage() {
             </p>
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
-              When to Drink Ayurvedic Anxiety Tea.
+              When to Drink.
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              Morning: Tulsi or ginger tea — stimulating, grounding, sets the tone without over-caffeinating. Afternoon (2-4pm, the peak Vata anxiety window): Brahmi tea or an ashwagandha blend. Evening: The most important window. Ashwagandha in warm milk, jatamansi, or a full nervine blend 30-60 minutes before bed.
+              The timing of herbal teas matters. Vata anxiety herbs are best taken in the evening — the nervous system settles through the evening hours and wakes less activated in the morning. Pitta anxiety is most useful in the afternoon, when Pitta energy peaks. Kapha anxiety requires morning administration, when Kapha is most sluggish and needs the most support. The ritual of a warm cup held in both hands, sipped slowly, is itself calming — this is not incidental to the herbal action. Tea is not a supplement to be rushed; it is a practice.
             </p>
+
+            <img src="https://source.unsplash.com/featured/800x450/?woman,tea,evening,calm,wellness" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Evening herbal tea ritual" />
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
               What to Look for in an Ayurvedic Anxiety Tea.
