@@ -51,7 +51,9 @@ export default function JournalPage() {
                     {post.date}
                   </time>
                   <h2 className="font-serif text-xl text-foreground mt-2 mb-3 group-hover:text-primary transition-colors">
-                    {post.title}
+                    <Link href={`/blog/${post.slug}`}>
+                      {post.title}
+                    </Link>
                   </h2>
                   <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                     {post.excerpt}
