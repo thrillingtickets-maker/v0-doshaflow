@@ -162,7 +162,6 @@ export default function AyurvedaAgingPage() {
             </p>
 
             <img src="https://source.unsplash.com/featured/800x450/?ayurvedic,oil,massage,abhyanga,routine" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Ayurvedic self care for aging" />
-            </p>
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
