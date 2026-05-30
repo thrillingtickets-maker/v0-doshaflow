@@ -108,6 +108,8 @@ export default function AyurvedaIceWaterPage() {
               years, is a progressive weakening of digestive capacity.
             </p>
 
+            <img src="https://source.unsplash.com/featured/800x450/?fire,cooking,warmth,heat,natural" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Digestive fire concept" />
+
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
             <h2
@@ -131,6 +133,8 @@ export default function AyurvedaIceWaterPage() {
               Meals are accompanied by warm water or herbal tea. Cold water is not offered. This is not because they
               forgot about refrigerators. It is a deliberate clinical choice.
             </p>
+
+            <img src="https://source.unsplash.com/featured/800x450/?herbal,tea,copper,cup,ayurvedic" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Warm Ayurvedic herbal tea" />
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
