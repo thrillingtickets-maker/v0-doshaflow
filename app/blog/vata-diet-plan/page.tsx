@@ -60,7 +60,7 @@ export default function VataDietPlanPage() {
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
-              What Vata Actually Needs.
+              What <Link href="/blog/vata-dosha-guide" className="text-[#c49a6c] hover:underline">Vata</Link> Actually Needs.
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
@@ -88,7 +88,7 @@ export default function VataDietPlanPage() {
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              Morning: Warm water with lemon. Oatmeal with ghee, cardamom, cinnamon. One cup of spiced chai or ginger tea after food. Lunch (main meal): Kitchari — rice and mung dal with ghee and spices — is the ideal Vata meal. Or well-cooked rice with warming soup, roasted root vegetables, and generous ghee. Lunch should be the largest meal. Dinner: Lighter than lunch. Warm vegetable soup with well-cooked grains. Not raw, not heavy, not late. Evening: Warm milk with cardamom, cinnamon, and a small amount of ashwagandha powder before bed — the classical Vata nighttime tonic.
+              Morning: Warm water with lemon. Oatmeal with ghee, cardamom, cinnamon. One cup of spiced chai or <Link href="/blog/ayurvedic-tea-guide" style={{color: "#c49a6c", textDecoration: "underline"}}>ginger tea</Link> after food. Lunch (main meal): Kitchari — rice and mung dal with ghee and spices — is the ideal Vata meal. Or well-cooked rice with warming soup, roasted root vegetables, and generous ghee. Lunch should be the largest meal. Dinner: Lighter than lunch. Warm vegetable soup with well-cooked grains. Not raw, not heavy, not late. Evening: Warm milk with cardamom, cinnamon, and a small amount of ashwagandha powder before bed — the classical Vata nighttime tonic. See our <Link href="/blog/ayurvedic-morning-routine" style={{color: "#c49a6c", textDecoration: "underline"}}>morning routine guide</Link> for the complete Vata daily practice.
             </p>
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>

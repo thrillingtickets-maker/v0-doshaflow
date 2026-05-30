@@ -278,6 +278,51 @@ export default function AyurvedaForWomenPage() {
 
             <hr className="border-border my-12" />
 
+            <h2 className="font-serif text-2xl md:text-3xl text-foreground mt-12 mb-6">
+              Related Reading
+            </h2>
+
+            <div className="space-y-3">
+              <p className="text-muted-foreground">
+                <Link href="/quiz" className="text-[#C97F3D] hover:underline">
+                  Find your dosha
+                </Link>
+                {" "}→ Start with the free dosha quiz to understand your constitutional type.
+              </p>
+              <p className="text-muted-foreground">
+                <Link href="/blog/ayurveda-pms" className="text-[#C97F3D] hover:underline">
+                  Ayurvedic approach to PMS
+                </Link>
+                {" "}→ How the dosha system explains menstrual patterns and what to do about them.
+              </p>
+              <p className="text-muted-foreground">
+                <Link href="/blog/ayurveda-hormonal-balance" className="text-[#C97F3D] hover:underline">
+                  Hormonal balance
+                </Link>
+                {" "}→ Dosha-specific approaches to hormonal health across the lifespan.
+              </p>
+              <p className="text-muted-foreground">
+                <Link href="/blog/best-herbs-for-anxiety" className="text-[#C97F3D] hover:underline">
+                  Best herbs for anxiety
+                </Link>
+                {" "}→ Herbal support for the nervous system by constitutional type.
+              </p>
+              <p className="text-muted-foreground">
+                <Link href="/blog/best-ayurvedic-tea-sleep" className="text-[#C97F3D] hover:underline">
+                  Best Ayurvedic tea for sleep
+                </Link>
+                {" "}→ Herbal remedies for better rest and deeper sleep.
+              </p>
+              <p className="text-muted-foreground">
+                <Link href="/blog/ayurvedic-tea-guide" className="text-[#C97F3D] hover:underline">
+                  Ayurvedic tea guide
+                </Link>
+                {" "}→ The right herbal teas for your dosha and daily practices.
+              </p>
+            </div>
+
+            <hr className="border-border my-12" />
+
             <p className="text-sm text-muted-foreground italic">
               Alex is the founder of DoshaFlow, currently documenting a two-week Ayurvedic retreat in India. Read the daily journal on the{" "}
               <Link href="/blog" className="text-[#C97F3D] hover:underline">
