@@ -1,8 +1,12 @@
 "use client"
 
+import { usePathname } from "next/navigation"
 import { motion } from "framer-motion"
 
 export function Footer() {
+  const pathname = usePathname()
+  const howItWorksHref = pathname === "/" ? "#how-it-works" : "/#how-it-works"
+
   return (
     <footer className="px-6 py-16 border-t border-border">
       <div className="max-w-6xl mx-auto">
@@ -22,7 +26,7 @@ export function Footer() {
           <div>
             <h4 className="font-medium text-foreground mb-4">Product</h4>
             <ul className="space-y-3">
-              <li><a href="#how-it-works" className="text-muted-foreground hover:text-foreground transition-colors text-sm">How it works</a></li>
+              <li><a href={howItWorksHref} className="text-muted-foreground hover:text-foreground transition-colors text-sm">How it works</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Meal Plans</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Workouts</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Tracking</a></li>

@@ -1,28 +1,32 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import { usePathname } from "next/navigation"
 import { motion } from "framer-motion"
 import { Menu, X, ChevronDown } from "lucide-react"
 
-const navLinks = [
-  { label: "How it works", href: "#how-it-works" },
-  { label: "My Story", href: "/about" },
-  {
-    label: "Blog",
-    href: "/blog",
-    dropdown: [
-      { label: "Articles", href: "/blog" },
-      { label: "Retreat Journal", href: "/journal" },
-    ],
-  },
-  { label: "Sample Reports", href: "/samples" },
-  { label: "For Men", href: "/ayurveda-for-men" },
-  { label: "For Women", href: "/ayurveda-for-women" },
-]
-
 export function Navigation() {
+  const pathname = usePathname()
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+
+  const howItWorksHref = pathname === "/" ? "#how-it-works" : "/#how-it-works"
+
+  const navLinks = [
+    { label: "How it works", href: howItWorksHref },
+    { label: "My Story", href: "/about" },
+    {
+      label: "Blog",
+      href: "/blog",
+      dropdown: [
+        { label: "Articles", href: "/blog" },
+        { label: "Retreat Journal", href: "/journal" },
+      ],
+    },
+    { label: "Sample Reports", href: "/samples" },
+    { label: "For Men", href: "/ayurveda-for-men" },
+    { label: "For Women", href: "/ayurveda-for-women" },
+  ]
 
   useEffect(() => {
     const handleScroll = () => {
