@@ -55,15 +55,11 @@ export default function BlogPage() {
       {/* Hero Section */}
       <section className="pt-32 pb-16 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <span className="inline-block px-4 py-1.5 bg-[#C97F3D]/10 text-[#C97F3D] text-xs font-medium tracking-widest uppercase rounded-full mb-6">
-            From the Retreat
-          </span>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-foreground mb-6">
-            Notes from the{" "}
-            <span className="italic text-[#C97F3D]">ground.</span>
+            Articles
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Real-time dispatches from a two-week Ayurvedic retreat in India — and everything that comes after.
+            Ayurvedic guides, research, and practical advice.
           </p>
         </div>
       </section>
