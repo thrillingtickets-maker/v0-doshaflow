@@ -101,6 +101,30 @@ export default function KaphaDietPlanPage() {
               The Kapha diet works best alongside vigorous morning exercise. Movement before breakfast directly stimulates the metabolism in a way diet alone cannot fully compensate for. If there is one non-dietary intervention closest to essential for Kapha, it is vigorous movement before the first meal of the day.
             </p>
 
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              Why Kapha Gains Weight Easily: The Physiology.
+            </h2>
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Kapha types gain weight more easily than Vata or Pitta types for reasons that are physiological, not motivational. Three mechanisms explain it. First: the Kapha metabolism (manda agni) runs at a genuinely lower rate. The same caloric intake that maintains weight in a Pitta type produces weight gain in a Kapha type because the metabolic processing is slower and more efficient at storage. Second: the Kapha appetite-satiety signalling is delayed. The fullness signal that tells most people to stop eating arrives 15-20 minutes late in Kapha types — which means a Kapha person eating at normal speed will have significantly overeaten before the signal arrives. This is not a willpower problem. It is a timing problem with a timing solution: eat slowly, stop before feeling full, and wait. Third: Kapha has a stronger tendency toward water retention than the other doshas. What appears as weight gain on the scale is often partly fluid — which is why Kapha types often experience significant weight fluctuation and why reducing salt and dairy produces rapid visible results even before fat loss occurs. Understanding these mechanisms changes the approach. Generic calorie restriction without addressing the metabolic rate, the delayed satiety, and the fluid retention will produce some results and significant frustration. The Ayurvedic approach targets all three simultaneously.
+            </p>
+
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              Best Exercise for Kapha: What Actually Works.
+            </h2>
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Kapha benefits from vigorous, sustained, varied exercise more than any other dosha — and benefits from it at a specific time: before breakfast, during Kapha time (6-10am), when the metabolic stimulation is most needed and most effective. The best exercise categories for Kapha: Running and jogging — sustained cardiovascular effort at a pace that produces a real sweat. HIIT (High Intensity Interval Training) — the intensity spikes directly activate the Kapha metabolism in a way that moderate exercise does not. Aerobics, dance, cycling — sustained cardio with variety, which Kapha benefits from because sameness leads to boredom which leads to stopping. Team sports and group exercise — Kapha types are social by nature and the accountability of other people is one of the most effective tools for maintaining Kapha exercise consistency. Vigorous yoga — not restorative, not slow flow. Sun salutations at pace, power yoga, hot yoga (in moderation). What Kapha should avoid: exercising in the evening when Kapha has already settled for the day; gentle walks as the primary exercise form (walking is good but insufficient as the sole exercise for Kapha); sporadic intense exercise without consistency — Kapha needs regularity. The goal for Kapha exercise is simple: produce a sweat, every day, before breakfast. Duration matters less than intensity and timing.
+            </p>
+
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              Kapha Weight Loss: The 30-Day Reset.
+            </h2>
+
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              The following protocol addresses all three Kapha weight mechanisms simultaneously. <strong>Week 1 — Remove the most aggravating inputs:</strong> eliminate cold dairy (cold milk, ice cream, cold yogurt), eliminate wheat bread and pasta, eliminate sugar and sweetened drinks, switch everything to warm or room temperature. Add morning ginger tea before anything else. Move the alarm 15 minutes earlier. <strong>Week 2 — Add the stimulating inputs:</strong> introduce 20 minutes of vigorous exercise before breakfast every morning. Add trikatu supplement or strong ginger-pepper tea before meals. Increase bitter and astringent vegetables. Ensure dinner is before 7pm and lighter than lunch. <strong>Week 3 — Tighten the routine:</strong> eat lunch as the largest meal between noon and 2pm. Practise eating to 75% full and waiting before eating more. Add dry brushing before the shower. Reduce snacking between meals entirely — Kapha does not need to snack and snacking prevents the metabolic activation that happens between meals. <strong>Week 4 — Sustain and evaluate:</strong> the water retention component typically resolves in weeks 1-2, producing rapid scale movement. The metabolic rate improvement takes longer but produces more durable results. Most people notice significant energy improvement by week 3 and visible body composition changes by week 4. <strong>What to expect:</strong> Kapha weight loss is not linear. The first week often produces significant fluid loss followed by a plateau as the body adjusts. The plateau is not failure — it is the metabolism beginning to recalibrate. Consistency through the plateau is what produces the results that follow it.
+            </p>
+
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
             <div style={{ marginTop: "48px", padding: "32px", backgroundColor: "#f5ece0", border: "1px solid #e8d9c5", borderRadius: "16px", textAlign: "center" }}>
