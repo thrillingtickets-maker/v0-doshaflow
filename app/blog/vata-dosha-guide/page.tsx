@@ -5,7 +5,7 @@ export const metadata = {
   title: "Vata Dosha: Signs You're Out of Balance and How to Fix It",
   description: "Vata dosha governs movement, creativity, and the nervous system. Learn the signs of Vata imbalance — anxiety, dry skin, insomnia — and exactly how to bring it back into balance.",
   openGraph: {
-    title: "Vata Dosha: Signs You're Out of Balance and How to Fix It",
+    title: "Vata Dosha: Signs You&apos;re Out of Balance and How to Fix It",
     description: "Vata dosha governs movement, creativity, and the nervous system. Learn the signs of Vata imbalance — anxiety, dry skin, insomnia — and exactly how to bring it back into balance.",
     url: "https://www.doshaflow.com/blog/vata-dosha-guide",
     siteName: "DoshaFlow",
@@ -18,36 +18,9 @@ export const metadata = {
 
 export default function VataDoshaGuidePage() {
   return (
-    <main className="min-h-screen bg-[#fdf8f3]">
-      {/* Navigation */}
-      <nav className="border-b border-[#e8d9c5] bg-[#fdf8f3]/80 backdrop-blur-sm sticky top-0 z-50">
-        <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="text-xl font-bold text-[#2c1a0e]">
-            Dosha<span className="text-[#c49a6c]">Flow</span>
-          </Link>
-          <div className="flex items-center gap-6">
-            <Link href="/blog" className="text-sm text-[#5c4a3a] hover:text-[#2c1a0e]">
-              Blog
-            </Link>
-            <Link href="/quiz" className="text-sm bg-[#c49a6c] text-white px-4 py-2 rounded-full hover:bg-[#b08a5c]">
-              Take the Quiz
-            </Link>
-          </div>
-        </div>
-      </nav>
-
-      {/* Article */}
-      <article className="max-w-[680px] mx-auto px-6 py-16">
-        {/* Post Header */}
-        <header style={{ marginBottom: '48px' }}>
-          <time style={{ fontSize: '14px', color: '#7a6a58' }}>
-            May 28, 2026
-          </time>
-          <h1 style={{ fontFamily: 'Georgia, serif', fontSize: 'clamp(28px, 5vw, 42px)', color: '#2c1a0e', marginTop: '12px', marginBottom: '16px', lineHeight: 1.2, fontWeight: 700 }}>
-            Vata Dosha: Signs You&apos;re Out of Balance and What To Do About It
-          </h1>
-          <p style={{ color: '#7a6a58' }}>
-            By <span style={{ color: '#2c1a0e', fontWeight: 500 }}>Alex</span> · DoshaFlow
+    <ArticleLayout>
+      <main className="max-w-[680px] mx-auto px-6 py-12">
+        <article>
           </p>
         </header>
 
@@ -200,13 +173,7 @@ export default function VataDoshaGuidePage() {
           </p>
         </div>
       </article>
-
-      {/* Footer */}
-      <footer className="border-t border-[#e8d9c5] bg-[#fdf8f3] py-12">
-        <div className="max-w-4xl mx-auto px-6 text-center text-sm text-[#7a6a58]">
-          <p>© 2026 DoshaFlow. All rights reserved.</p>
-        </div>
-      </footer>
     </main>
-  );
+  </ArticleLayout>
+  )
 }
