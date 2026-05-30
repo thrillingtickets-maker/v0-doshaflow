@@ -30,12 +30,12 @@ export default function Home() {
     <main className="min-h-screen">
       <Navigation />
       <Hero />
+      <ExploreByGoal />
       <Features />
       <MealPlans />
       <Workouts />
       <DigestiveTracking />
       <ExploreAyurveda />
-      <ExploreByGoal />
       <StartHere />
       <PopularArticles />
       <section id="testimonials">
