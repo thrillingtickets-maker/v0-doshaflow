@@ -70,9 +70,11 @@ export default function RetreatDay6Page() {
                 Read more from the retreat →
               </Link>
             </div>
-          </div>
-        </article>
+          </article>
+        </div>
       </div>
     </div>
+
+          <p style={{ marginTop: '48px', marginBottom: '16px', fontSize: '14px', fontWeight: 600, color: '#2c1a0e' }}>Related Articles: <Link href="/blog/best-herbs-for-anxiety" style={{color: '#c49a6c', textDecoration: 'underline'}}>Best Herbs for Anxiety</Link> · <Link href="/blog/ayurveda-burnout" style={{color: '#c49a6c', textDecoration: 'underline'}}>Burnout and Ayurveda</Link></p>
   )
 }

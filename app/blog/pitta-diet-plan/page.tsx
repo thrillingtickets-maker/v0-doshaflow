@@ -56,7 +56,7 @@ export default function PittaDietPlanPage() {
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
-              What Pitta Actually Needs.
+              What <Link href="/blog/pitta-dosha-guide" className="text-[#c49a6c] hover:underline">Pitta</Link> Actually Needs.
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
@@ -84,7 +84,7 @@ export default function PittaDietPlanPage() {
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              Morning: Warm water. Oatmeal with coconut oil, cardamom, and sweet fruit. Coffee after breakfast if at all. Lunch (most important meal): Between noon and 1pm. Basmati rice with mung dal or vegetable curry with cooling spices. Large salad with cooked grains. Pitta can handle the most variety and the most food at lunch — use that window. Dinner: Lighter but still satisfying. Soup with cooked grains, steamed vegetables, mild protein. Do not skip dinner. Evening: Cool milk with cardamom. Avoid eating past 8pm.
+              Morning: Warm water. Oatmeal with coconut oil, cardamom, and sweet fruit. Coffee after breakfast if at all. Lunch (most important meal): Between noon and 1pm. Basmati rice with mung dal or vegetable curry with cooling spices. Large salad with cooked grains. Pitta can handle the most variety and the most food at lunch — use that window. Dinner: Lighter but still satisfying. Soup with cooked grains, steamed vegetables, mild protein. Do not skip dinner. Evening: <Link href="/blog/best-ayurvedic-tea-anxiety" style={{color: "#c49a6c", textDecoration: "underline"}}>Cool herbal tea</Link> with cardamom. Avoid eating past 8pm. See our <Link href="/blog/ayurvedic-tea-guide" style={{color: "#c49a6c", textDecoration: "underline"}}>tea guide</Link> for Pitta-cooling options.
             </p>
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>

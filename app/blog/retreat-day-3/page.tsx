@@ -70,6 +70,8 @@ export default function RetreatDay3Page() {
 
           <p style={{ marginBottom: '20px' }}>It&apos;s not a perfect day. My body hurts, my mood was all over the place, and I have a headache. But I&apos;m here. I slept eight hours. I hit 15,000 steps. I built something I&apos;m proud of. And I went to bed not overfull for the first time all week. Progress looks different than I thought it would. But I think that&apos;s the point.</p>
 
+          <p style={{ marginTop: '48px', marginBottom: '16px', fontSize: '14px', fontWeight: 600, color: '#2c1a0e' }}>Related Articles: <Link href="/blog/ayurveda-30-days" style={{color: '#c49a6c', textDecoration: 'underline'}}>30-Day Ayurveda Challenge</Link> · <Link href="/blog/ayurvedic-morning-routine" style={{color: '#c49a6c', textDecoration: 'underline'}}>Morning Routine Guide</Link></p>
+
           <div style={{ marginTop: '48px', padding: '32px', backgroundColor: '#f5ece0', border: '1px solid #e8d9c5', borderRadius: '16px', textAlign: 'center' }}>
             <p style={{ fontSize: '18px', fontWeight: 600, color: '#2c1a0e', marginBottom: '20px' }}>Curious what Ayurveda recommends for your body type?</p>
             <Link href="/quiz" style={{ display: 'inline-block', backgroundColor: '#9a7a5a', color: '#fdf8f3', padding: '14px 28px', borderRadius: '9999px', textDecoration: 'none', fontWeight: 600, fontSize: '15px' }}>

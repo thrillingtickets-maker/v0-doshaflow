@@ -75,10 +75,13 @@ export default function RetreatDay5Page() {
             </Link>
             <Link href="/journal" style={{ display: 'inline-block', backgroundColor: '#9a7a5a', color: '#fdf8f3', padding: '14px 28px', borderRadius: '9999px', textDecoration: 'none', fontWeight: 600, fontSize: '15px' }}>
               Read more from the retreat →
-            </Link>
-          </div>
-        </article>
+              </Link>
+            </div>
+          </article>
+        </div>
       </div>
     </div>
+
+          <p style={{ marginTop: '48px', marginBottom: '16px', fontSize: '14px', fontWeight: 600, color: '#2c1a0e' }}>Related Articles: <Link href="/blog/best-ayurvedic-tea-sleep" style={{color: '#c49a6c', textDecoration: 'underline'}}>Best Tea for Sleep</Link> · <Link href="/blog/ashwagandha-benefits" style={{color: '#c49a6c', textDecoration: 'underline'}}>Ashwagandha Benefits</Link></p>
   )
 }

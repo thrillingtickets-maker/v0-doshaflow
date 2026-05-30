@@ -60,7 +60,7 @@ export default function WhyAmIAlwaysBloatedPage() {
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              In the Ayurvedic framework, chronic bloating is almost always a Vata disorder — specifically an imbalance of Apana Vata, the downward-moving energy that governs elimination and the lower digestive tract. When Apana Vata is disturbed, gas accumulates. Motility becomes irregular. The bowels become unpredictable — sometimes constipated, sometimes loose, often both in the same week. Food that should move through the system gets stuck and ferments. The bloating you feel is literally trapped air. The factors that disturb Apana Vata are almost perfectly mapped to modern life: eating cold food, eating at irregular times, eating while distracted or stressed, not sleeping enough, not moving enough, and chronic anxiety.
+              In the Ayurvedic framework, chronic bloating is almost always a <Link href="/blog/vata-diet-plan" style={{color: "#c49a6c", textDecoration: "underline"}}>Vata</Link> disorder — specifically an imbalance of Apana Vata, the downward-moving energy that governs elimination and the lower digestive tract. When Apana Vata is disturbed, gas accumulates. Motility becomes irregular. The bowels become unpredictable — sometimes constipated, sometimes loose, often both in the same week. Food that should move through the system gets stuck and ferments. The bloating you feel is literally trapped air. The factors that disturb Apana Vata are almost perfectly mapped to modern life: eating cold food, eating at irregular times, eating while distracted or stressed, not sleeping enough, not moving enough, and chronic anxiety.
             </p>
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
@@ -100,7 +100,7 @@ export default function WhyAmIAlwaysBloatedPage() {
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              Start with warm water first thing in the morning — this stimulates peristalsis and wakes up the digestive system. Eat at consistent times — agni follows a rhythm and is primed when meals are predictable. Add digestive spices — cumin, coriander, fennel, and ginger are all carminative and directly reduce gas formation. Try Triphala at night — a small amount taken with warm water before bed is one of the most effective gentle interventions for chronic digestive irregularity. Remove cold drinks with meals — switching to warm or room temperature water will likely produce noticeable improvement.
+              Start with warm water first thing in the morning — this stimulates peristalsis and wakes up the digestive system. See our <Link href="/blog/ayurvedic-morning-routine" style={{color: "#c49a6c", textDecoration: "underline"}}>morning routine guide</Link> for digestive setup. Eat at consistent times — agni follows a rhythm and is primed when meals are predictable. Add digestive spices — cumin, coriander, fennel, and ginger are all carminative and directly reduce gas formation. Try <Link href="/blog/best-ayurvedic-tea-digestion" style={{color: "#c49a6c", textDecoration: "underline"}}>Triphala at night</Link> — a small amount taken with warm water before bed is one of the most effective gentle interventions for chronic digestive irregularity. Remove cold drinks with meals — switching to warm or room temperature water will likely produce noticeable improvement.
             </p>
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />

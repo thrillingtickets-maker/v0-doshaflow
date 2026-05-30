@@ -56,7 +56,7 @@ export default function KaphaDietPlanPage() {
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
-              What Kapha Actually Needs.
+              What <Link href="/blog/kapha-dosha-guide" className="text-[#c49a6c] hover:underline">Kapha</Link> Actually Needs.
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
@@ -84,7 +84,7 @@ export default function KaphaDietPlanPage() {
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              Morning: Ginger tea or hot water with lemon and honey. If breakfast, keep it very light. Many Kapha types do well with just a warm drink and waiting until lunch. Lunch (most important meal): Well-spiced stir-fried vegetables over barley or quinoa. Lentil dal with ginger, garlic, and trikatu. Kapha needs the most strongly flavoured, most stimulating meal. Dinner: Lightest meal of the day. Vegetable soup, small amount of light grain, steamed bitter greens. Avoid eating after 7pm. Between meals: Ginger tea throughout the day. Avoid snacking.
+              Morning: <Link href="/blog/ayurvedic-tea-guide" style={{color: "#c49a6c", textDecoration: "underline"}}>Ginger tea</Link> or hot water with lemon and honey. If breakfast, keep it very light. Many Kapha types do well with just a warm drink and waiting until lunch. Lunch (most important meal): Well-spiced stir-fried vegetables over barley or quinoa. Lentil dal with ginger, garlic, and trikatu. Kapha needs the most strongly flavoured, most stimulating meal. Dinner: Lightest meal of the day. Vegetable soup, small amount of light grain, steamed bitter greens. Avoid eating after 7pm. Between meals: Ginger tea throughout the day. Avoid snacking. See our <Link href="/blog/ayurvedic-morning-routine" style={{color: "#c49a6c", textDecoration: "underline"}}>morning routine guide</Link> for vigorous exercise recommendations.
             </p>
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>

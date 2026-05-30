@@ -323,6 +323,51 @@ export default function AyurvedaForMenPage() {
 
             <hr className="border-border my-12" />
 
+            <h2 className="font-serif text-2xl md:text-3xl text-foreground mt-12 mb-6">
+              Explore Further
+            </h2>
+
+            <div className="space-y-3">
+              <p className="text-muted-foreground">
+                <Link href="/quiz" className="text-[#C97F3D] hover:underline">
+                  Find your dosha
+                </Link>
+                {" "}→ Start with the free dosha quiz to understand your constitutional type.
+              </p>
+              <p className="text-muted-foreground">
+                <Link href="/blog/ayurvedic-morning-routine" className="text-[#C97F3D] hover:underline">
+                  Ayurvedic morning routine
+                </Link>
+                {" "}→ The most effective daily practice for reorganizing the nervous system.
+              </p>
+              <p className="text-muted-foreground">
+                <Link href="/blog/best-herbs-for-anxiety" className="text-[#C97F3D] hover:underline">
+                  Best herbs for anxiety
+                </Link>
+                {" "}→ Dosha-specific herbal approaches to chronic stress and cortisol management.
+              </p>
+              <p className="text-muted-foreground">
+                <Link href="/blog/signs-of-high-cortisol" className="text-[#C97F3D] hover:underline">
+                  Signs of high cortisol
+                </Link>
+                {" "}→ How to recognize stress manifesting by dosha type.
+              </p>
+              <p className="text-muted-foreground">
+                <Link href="/blog/ayurvedic-tea-guide" className="text-[#C97F3D] hover:underline">
+                  Ayurvedic tea guide
+                </Link>
+                {" "}→ The right herbal teas for your dosha and daily practices.
+              </p>
+              <p className="text-muted-foreground">
+                <Link href="/journal" className="text-[#C97F3D] hover:underline">
+                  Retreat journal
+                </Link>
+                {" "}→ First-person documentation of the Ayurvedic retreat process.
+              </p>
+            </div>
+
+            <hr className="border-border my-12" />
+
             <p className="text-sm text-muted-foreground italic">
               Alex is the founder of DoshaFlow and is currently documenting a two-week Ayurvedic retreat in India. Follow along on the{" "}
               <Link href="/blog" className="text-[#C97F3D] hover:underline">
