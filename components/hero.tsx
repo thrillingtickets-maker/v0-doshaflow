@@ -1,16 +1,12 @@
 "use client"
 
-import { useState } from "react"
 import { motion } from "framer-motion"
 import { ArrowRight } from "lucide-react"
-import { WaitlistModal } from "./waitlist-modal"
+import Link from "next/link"
 
 export function Hero() {
-  const [isModalOpen, setIsModalOpen] = useState(false)
-
   return (
-    <>
-      <section className="relative min-h-[90vh] flex items-center justify-center px-6 py-20 overflow-hidden">
+    <section className="relative min-h-[90vh] flex items-center justify-center px-6 py-20 overflow-hidden">
         {/* Subtle background pattern */}
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
@@ -63,13 +59,13 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
-            <button
-              onClick={() => setIsModalOpen(true)}
+            <Link
+              href="/quiz"
               className="group inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-primary/20"
             >
-              Join the Waitlist
+              Take the Free Dosha Quiz
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-            </button>
+            </Link>
             <a
               href="#how-it-works"
               className="inline-flex items-center gap-2 px-8 py-4 text-foreground font-medium transition-colors hover:text-primary"
@@ -99,8 +95,4 @@ export function Hero() {
           </motion.div>
         </div>
       </section>
-
-      <WaitlistModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
-    </>
-  )
-}
+    
