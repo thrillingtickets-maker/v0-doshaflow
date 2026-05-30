@@ -60,7 +60,26 @@ export default function RetreatDay6Page() {
 
           <p style={{ marginBottom: '20px' }}>Weight this morning: 162.5 pounds. I have lost a kilo since arriving. I have eight days left. That number hit differently tonight. When I arrived, eight days would have felt like rescue. Now it feels like not quite enough. Not because I want to stay — I want to sleep in my own bed desperately — but because I have started to feel the approach of everything I left behind, and I am not entirely sure I am ready to be back in proximity to it. The thing I am not saying directly and then will say directly: I am getting anxious about alcohol. About going back into the world where it&apos;s everywhere and normal and social and easy. About whether what I&apos;ve been building here — the routines, the yoga, the eating, the slightly different relationship with myself — is strong enough to hold once the context changes. I do not have a clean answer. What I have is that I did yoga today on ninety minutes of sleep when everything in me said not to. That is something. I am choosing to count it. Sleep: 1.5 hours. 9am: the enema, not discussed further. Treatments: one afternoon massage, attended voluntarily. Yoga: done. Temple visits: one. Kilos lost: one. Prayers given in my mother&apos;s name: one. New friends made: one, plus his mother. Days remaining: eight. Tonight I am asking — politely, with genuine desperation — for four hours of sleep. That is all. Four hours. I am not asking for much.</p>
 
-          <p style={{ marginTop: '48px', marginBottom: '16px', fontSize: '14px', fontWeight: 600, color: '#2c1a0e' }}>Related Articles: <Link href="/blog/best-herbs-for-anxiety" style={{color: '#c49a6c', textDecoration: 'underline'}}>Best Herbs for Anxiety</Link> · <Link href="/blog/ayurveda-burnout" style={{color: '#c49a6c', textDecoration: 'underline'}}>Burnout and Ayurveda</Link></p>
+          <p style={{ marginTop: '48px', marginBottom: '16px', fontSize: '14px', fontWeight: 600, color: '#2c1a0e' }}>Related Articles: <Link href="/blog/best-herbs-for-anxiety" style={{color: '#c49a6c', textDecoration: 'underline'}}>Best Herbs for Anxiety</Link> · <Link href="/blog/nervous-system-burnout" style={{color: '#c49a6c', textDecoration: 'underline'}}>Burnout Recovery</Link></p>
+
+          <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+
+          <h3 style={{ fontSize: '18px', fontWeight: 700, marginTop: '40px', marginBottom: '20px', color: '#2c1a0e' }}>Related Guides</h3>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '16px', marginBottom: '40px' }}>
+            <Link href="/blog/ayurveda-alcohol-recovery" style={{ padding: '16px', backgroundColor: '#f5ece0', border: '1px solid #e8d9c5', borderRadius: '8px', textDecoration: 'none', color: '#c49a6c', fontWeight: 500, textAlign: 'center', fontSize: '14px', transition: 'all 0.2s' }}>
+              Alcohol Recovery
+            </Link>
+            <Link href="/blog/best-herbs-for-anxiety" style={{ padding: '16px', backgroundColor: '#f5ece0', border: '1px solid #e8d9c5', borderRadius: '8px', textDecoration: 'none', color: '#c49a6c', fontWeight: 500, textAlign: 'center', fontSize: '14px', transition: 'all 0.2s' }}>
+              Herbs for Anxiety
+            </Link>
+            <Link href="/men" style={{ padding: '16px', backgroundColor: '#f5ece0', border: '1px solid #e8d9c5', borderRadius: '8px', textDecoration: 'none', color: '#c49a6c', fontWeight: 500, textAlign: 'center', fontSize: '14px', transition: 'all 0.2s' }}>
+              Ayurveda for Men
+            </Link>
+            <Link href="/blog/nervous-system-burnout" style={{ padding: '16px', backgroundColor: '#f5ece0', border: '1px solid #e8d9c5', borderRadius: '8px', textDecoration: 'none', color: '#c49a6c', fontWeight: 500, textAlign: 'center', fontSize: '14px', transition: 'all 0.2s' }}>
+              Burnout Recovery
+            </Link>
+          </div>
 
           <div style={{ marginTop: '48px', padding: '32px', backgroundColor: '#f5ece0', border: '1px solid #e8d9c5', borderRadius: '16px', textAlign: 'center' }}>
             <p style={{ fontSize: '18px', fontWeight: 600, color: '#2c1a0e', marginBottom: '16px' }}>Curious what Ayurveda recommends for your body type?</p>

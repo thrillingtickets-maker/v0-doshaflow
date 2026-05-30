@@ -129,6 +129,25 @@ export default function RetreatDay4Page() {
           <p style={{ marginBottom: '20px', fontStyle: 'italic' }}>Alex is the founder of DoshaFlow, currently at an Ayurvedic retreat in Kerala, India. <Link href="/quiz" style={{ color: '#9a7a5a' }}>Take the dosha quiz</Link> at doshaflow.com/quiz</p>
 
           <p style={{ marginTop: '48px', marginBottom: '16px', fontSize: '14px', fontWeight: 600, color: '#2c1a0e' }}>Related Articles: <Link href="/blog/signs-of-high-cortisol" style={{color: '#c49a6c', textDecoration: 'underline'}}>Signs of High Cortisol</Link> · <Link href="/blog/best-herbs-for-anxiety" style={{color: '#c49a6c', textDecoration: 'underline'}}>Best Herbs for Anxiety</Link></p>
+
+          <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+
+          <h3 style={{ fontSize: '18px', fontWeight: 700, marginTop: '40px', marginBottom: '20px', color: '#2c1a0e' }}>Related Guides</h3>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '16px', marginBottom: '40px' }}>
+            <Link href="/blog/signs-of-high-cortisol" style={{ padding: '16px', backgroundColor: '#f5ece0', border: '1px solid #e8d9c5', borderRadius: '8px', textDecoration: 'none', color: '#c49a6c', fontWeight: 500, textAlign: 'center', fontSize: '14px', transition: 'all 0.2s' }}>
+              High Cortisol Signs
+            </Link>
+            <Link href="/blog/best-herbs-for-anxiety" style={{ padding: '16px', backgroundColor: '#f5ece0', border: '1px solid #e8d9c5', borderRadius: '8px', textDecoration: 'none', color: '#c49a6c', fontWeight: 500, textAlign: 'center', fontSize: '14px', transition: 'all 0.2s' }}>
+              Herbs for Anxiety
+            </Link>
+            <Link href="/blog/ayurvedic-tea-guide" style={{ padding: '16px', backgroundColor: '#f5ece0', border: '1px solid #e8d9c5', borderRadius: '8px', textDecoration: 'none', color: '#c49a6c', fontWeight: 500, textAlign: 'center', fontSize: '14px', transition: 'all 0.2s' }}>
+              Tea Guide
+            </Link>
+            <Link href="/blog/vata-dosha-guide" style={{ padding: '16px', backgroundColor: '#f5ece0', border: '1px solid #e8d9c5', borderRadius: '8px', textDecoration: 'none', color: '#c49a6c', fontWeight: 500, textAlign: 'center', fontSize: '14px', transition: 'all 0.2s' }}>
+              Vata Dosha Guide
+            </Link>
+          </div>
         </article>
       </div>
     </div>
