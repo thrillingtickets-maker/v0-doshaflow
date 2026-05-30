@@ -88,6 +88,8 @@ export default function AyurvedaAgingPage() {
               at a life stage level.
             </p>
 
+            <img src="https://source.unsplash.com/featured/800x450/?life,stages,aging,woman,graceful" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Ayurvedic life stages" />
+
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
             <h2
@@ -133,6 +135,8 @@ export default function AyurvedaAgingPage() {
               mental activity, more worry, more difficulty being present. Recovery slows.
             </p>
 
+            <img src="https://source.unsplash.com/featured/800x450/?middle,age,wellness,yoga,woman" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Midlife wellness and yoga" />
+
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
             <h2
@@ -155,6 +159,9 @@ export default function AyurvedaAgingPage() {
               vegetables, warm spiced milk at night. Herbs shift &mdash; Ashwagandha becomes even more central in Vata
               time, nourishing the nervous system and adrenal function. Triphala for digestion. Shatavari for women
               navigating the hormonal transition.
+            </p>
+
+            <img src="https://source.unsplash.com/featured/800x450/?ayurvedic,oil,massage,abhyanga,routine" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Ayurvedic self care for aging" />
             </p>
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
