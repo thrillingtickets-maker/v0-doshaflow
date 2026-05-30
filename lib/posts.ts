@@ -13,10 +13,10 @@ export const posts: Post[] = [
   {
     slug: "retreat-day-6",
     category: "journal",
-    title: "Day 6: I Refused the Treatment, Found a Temple Behind a Bodega, and Lost a Kilo.",
+    title: "Day 6: The Enema, the Standoff, and the Temple Behind the Bodega.",
     date: "May 30, 2026",
-    excerpt: "Treatment refusal, spiritual wandering, the ghee flush, and the anxiety of thinking about leaving. Day 6 at the Ayurvedic retreat in Kerala.",
-    seoTitle: "Day 6: I Refused the Treatment, Found a Temple Behind a Bodega, and Lost a Kilo.",
+    excerpt: "1.5 hours of sleep, treatment refusal, a temple behind a bodega, and the anxiety of thinking about leaving. Day 6 at the Ayurvedic retreat in Kerala.",
+    seoTitle: "Day 6: The Enema, the Standoff, and the Temple Behind the Bodega.",
     seoDescription: "An honest first-person account of day 6 at an Ayurvedic retreat in India — treatment refusal, spiritual wandering, and the weight of self-awareness.",
     content: ``,
   },
