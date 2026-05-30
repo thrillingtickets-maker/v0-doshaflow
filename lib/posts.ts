@@ -11,6 +11,16 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "ayurvedic-skin-guide",
+    category: "article",
+    title: "The Ayurvedic Skin Guide: Why Your Skin Reflects What Is Happening Inside",
+    date: "June 15, 2026",
+    excerpt: "Ayurveda treats skin conditions from the inside — through the gut, liver, and doshas. The complete guide to Ayurvedic skincare by skin type, herbs, diet, and external practices.",
+    seoTitle: "The Ayurvedic Skin Guide: Why Your Skin Reflects What Is Happening Inside",
+    seoDescription: "Ayurveda treats skin conditions from the inside — through the gut, liver, and doshas. The complete guide to Ayurvedic skincare by skin type, herbs, diet, and external practices.",
+    content: ``,
+  },
+  {
     slug: "kapha-foods-to-avoid",
     category: "article",
     title: "Kapha Foods to Avoid: Why You Feel Heavy, Tired, and Stuck",
