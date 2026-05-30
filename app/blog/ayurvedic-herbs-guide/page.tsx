@@ -74,6 +74,8 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>I&apos;ve spent a lot of time in this room this week, asking questions. This article is what I&apos;ve learned — about the specific herbs that show up most in Ayurvedic medicine, what they actually do, and how to think about them if you&apos;re encountering this system for the first time.</p>
 
+            <img src="https://source.unsplash.com/featured/800x450/?ayurvedic,pharmacy,herbs,kerala,india" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Ayurvedic pharmacy in Kerala" />
+
             <hr style={{ margin: '40px 0', borderColor: '#e8d9c5' }} />
 
             <h2 style={{ fontSize: '24px', fontWeight: 700, marginTop: '48px', marginBottom: '16px', color: '#2c1a0e' }}>How to Think About Ayurvedic Herbs</h2>
@@ -174,6 +176,8 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>Moderate evidence. Worth the attention it&apos;s getting in women&apos;s wellness circles.</p>
 
+            <img src="https://source.unsplash.com/featured/800x450/?herbs,jars,apothecary,spices,colorful" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Ayurvedic herb collection" />
+
             <hr style={{ margin: '40px 0', borderColor: '#e8d9c5' }} />
 
             <h3 style={{ fontSize: '20px', fontWeight: 700, marginTop: '36px', marginBottom: '12px', color: '#2c1a0e' }}>Neem — The Bitter Purifier</h3>
@@ -233,6 +237,8 @@ export default function AyurvedicHerbsGuidePage() {
             <p><strong>Tulsi tea</strong> — replace one cup of coffee with tulsi tea in the afternoon. Notice the difference in how your nervous system feels by evening.</p>
 
             <p>Then take the dosha quiz. Know your constitution. Let the recommendations get specific.</p>
+
+            <img src="https://source.unsplash.com/featured/800x450/?ashwagandha,triphala,herbs,powder,india" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Classical Ayurvedic herbs" />
 
             <p>The herbs here aren&apos;t magic. They&apos;re 5,000 years of paying attention to what works — and in this particular pharmacy, in this particular room that smells like concentrated earth, that lineage is very hard to dismiss.</p>
 
