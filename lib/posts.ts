@@ -11,6 +11,16 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "retreat-day-1",
+    category: "journal",
+    title: "Day 1: I Arrived Smelling Like Alcohol. The Doctor Noticed.",
+    date: "May 25, 2026",
+    excerpt: "An honest first-person account of day 1 at an Ayurvedic retreat in Kerala — arriving with addiction, anxiety and bad sleep, the intake consultation, Abhyanga, and why I'm really here.",
+    seoTitle: "Day 1 at an Ayurvedic Retreat: Arriving in the Wrong Condition",
+    seoDescription: "An honest first-person account of day 1 at an Ayurvedic retreat in Kerala — arriving with addiction, anxiety and bad sleep, the intake consultation, Abhyanga, and why I'm really here.",
+    content: ``,
+  },
+  {
     slug: "best-tea-for-stress",
     category: "article",
     title: "Best Tea for Stress: What Ayurveda Recommends Beyond Chamomile",
