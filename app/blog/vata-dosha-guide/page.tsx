@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Vata Dosha: Signs You're Out of Balance and How to Fix It",

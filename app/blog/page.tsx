@@ -3,6 +3,7 @@ import { Footer } from "@/components/footer"
 import { getAllPosts } from "@/lib/posts"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
+import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Articles — DoshaFlow",
