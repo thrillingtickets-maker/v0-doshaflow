@@ -63,6 +63,8 @@ export default function AyurvedicWeightLossPage() {
               Vata weight patterns: Vata types are naturally lean but can gain weight from stress, irregular eating, and using food to fill voids. Vata weight tends to be fluid — it comes on in response to specific patterns and leaves relatively quickly when those patterns change. The bigger Vata issue is often not weight but body composition — low muscle mass from under-eating and irregular protein intake. Pitta weight patterns: Pitta types have strong metabolism but gain weight from inflammation, alcohol, and eating to manage stress. Pitta weight tends to accumulate around the midsection and correlates strongly with cortisol and inflammatory inputs. Reducing these inputs often produces more weight change than any caloric restriction. Kapha weight patterns: Kapha has the most significant tendency toward weight gain — the metabolism naturally runs slow, fat storage is efficient, and the appetite-satiety signalling is delayed. Kapha weight is the most stable and requires the most consistent intervention to shift.
             </p>
 
+            <img src="https://source.unsplash.com/featured/800x450/?ayurvedic,herbs,spices,india,wellness" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Ayurvedic herbs and spices" />
+
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
               What Ayurveda Says About Metabolism.
             </h2>
@@ -87,6 +89,8 @@ export default function AyurvedicWeightLossPage() {
               For Pitta, reduce the inflammatory inputs that drive the specific Pitta fat storage pattern. Reduce alcohol — the single most impactful dietary change for most Pitta types carrying excess weight. Two weeks of significantly reduced alcohol will produce visible results for most Pitta types. Reduce spicy and fried food. Eat the largest meal at lunch — Pitta digestion peaks between noon and 2pm. Cool the system with bitter greens, cucumber, coconut, and fennel.
             </p>
 
+            <img src="https://source.unsplash.com/featured/800x450/?healthy,food,fresh,vegetables,cooking" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Anti-inflammatory foods for Pitta weight loss" />
+
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
               Weight Loss for Kapha.
             </h2>
@@ -102,6 +106,8 @@ export default function AyurvedicWeightLossPage() {
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Warm water first thing in the morning — kindles agni and initiates elimination. Consistent meal times — all three doshas benefit from the metabolic rhythm this produces. No eating after 8pm — late eating produces ama in all constitutions. Triphala at night — the most universally applicable Ayurvedic digestive herb.
             </p>
+
+            <img src="https://source.unsplash.com/featured/800x450/?morning,water,lemon,wellness,routine" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Morning warm lemon water ritual" />
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
