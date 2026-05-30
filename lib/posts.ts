@@ -39,7 +39,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-30-days",
     title: "I Followed an Ayurvedic Routine for 30 Days: Here's What Actually Changed",
-    date: "May 28, 2026",
+    date: "May 25, 2026",
     excerpt: "What happens when you consistently follow an Ayurvedic daily routine for 30 days? Digestion, sleep, anxiety, skin — an honest account of what changed and what didn't.",
     seoTitle: "I Followed an Ayurvedic Routine for 30 Days: Here's What Actually Changed",
     seoDescription: "What happens when you consistently follow an Ayurvedic daily routine for 30 days? Digestion, sleep, anxiety, skin — an honest account of what changed and what didn't.",
@@ -48,7 +48,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-no-time",
     title: "Ayurveda for Busy People: 7 Practices That Take Under 30 Minutes a Day",
-    date: "May 28, 2026",
+    date: "May 23, 2026",
     excerpt: "You don't need to overhaul your life to benefit from Ayurveda. Here are the 7 highest-leverage Ayurvedic practices for people who are actually busy — and what they do.",
     seoTitle: "Ayurveda for Busy People: 7 Practices That Take Under 30 Minutes a Day",
     seoDescription: "You don't need to overhaul your life to benefit from Ayurveda. Here are the 7 highest-leverage Ayurvedic practices for people who are actually busy — and what they do.",
@@ -57,7 +57,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-pms",
     title: "The Ayurvedic Approach to PMS: Three Patterns and What to Do About Each",
-    date: "May 28, 2026",
+    date: "May 22, 2026",
     excerpt: "Ayurveda identifies three distinct PMS patterns — Vata, Pitta, and Kapha — each with different causes and different remedies. Here's how to identify yours and what actually helps.",
     seoTitle: "The Ayurvedic Approach to PMS: Three Patterns and What to Do About Each",
     seoDescription: "Ayurveda identifies three distinct PMS patterns — Vata, Pitta, and Kapha — each with different causes and different remedies. Here's how to identify yours and what actually helps.",
@@ -66,7 +66,7 @@ export const posts: Post[] = [
   {
     slug: "eating-for-your-dosha",
     title: "Eating for Your Dosha: The Ayurvedic Diet Guide for Vata, Pitta, and Kapha",
-    date: "May 28, 2026",
+    date: "May 19, 2026",
     excerpt: "Ayurvedic eating isn't a diet — it's a framework for matching food to your constitution. Learn what to eat for Vata, Pitta, and Kapha doshas with practical, specific guidance.",
     seoTitle: "Eating for Your Dosha: The Ayurvedic Diet Guide for Vata, Pitta, and Kapha",
     seoDescription: "Ayurvedic eating isn't a diet — it's a framework for matching food to your constitution. Learn what to eat for Vata, Pitta, and Kapha doshas with practical, specific guidance.",
@@ -75,7 +75,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-hormonal-balance",
     title: "Ayurveda for Hormonal Balance: What I Wish I'd Known Sooner",
-    date: "May 28, 2026",
+    date: "May 21, 2026",
     excerpt: "I spent the better part of my twenties being told my hormones were 'normal.' Ayurveda lives in the gray zone between thriving and diagnosable — and it reframed everything I understood about hormones.",
     seoTitle: "Ayurveda for Hormonal Balance: What the Ancient System Gets Right",
     seoDescription: "Ayurveda offers a sophisticated framework for women's hormonal health — from dosha-specific patterns to herbs like Shatavari and Ashwagandha. Here's what I've learned.",
@@ -84,7 +84,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-meat-fish",
     title: "Can You Eat Meat and Fish on an Ayurvedic Diet? The Answer Is More Complicated Than You Think.",
-    date: "May 28, 2026",
+    date: "May 26, 2026",
     excerpt: "The vegetarian Ayurveda most people know is a modern Western construction. The classical texts call meat nourishing and even medicinal — here's the real, dosha-specific picture.",
     seoTitle: "Can You Eat Meat and Fish on an Ayurvedic Diet? The Answer Is More Complicated Than You Think.",
     seoDescription: "The vegetarian Ayurveda most people know is a modern Western construction. The classical texts call meat nourishing and even medicinal — here's the real, dosha-specific picture.",
@@ -93,7 +93,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-alcohol",
     title: "Ayurveda Has Its Own Version of Alcohol. Here's What the Texts Actually Say.",
-    date: "May 28, 2026",
+    date: "May 27, 2026",
     excerpt: "Before you assume Ayurveda tells you to stop drinking, know this: the classical texts contain entire chapters on fermented drinks. Here's the nuanced, dosha-specific picture.",
     seoTitle: "Ayurveda Has Its Own Version of Alcohol. Here's What the Texts Actually Say.",
     seoDescription: "Before you assume Ayurveda tells you to stop drinking, know this: the classical texts contain entire chapters on fermented drinks. Here's the nuanced, dosha-specific picture.",
@@ -111,7 +111,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-exercise",
     title: "Why Working Out the Same Way Every Day Is Making You Worse (According to Ayurveda)",
-    date: "May 28, 2026",
+    date: "May 29, 2026",
     excerpt: "Ayurveda treats exercise as constitution-specific, not universal. Here's what each dosha actually needs, when to train, and why recovery matters as much as exertion.",
     seoTitle: "Why Working Out the Same Way Every Day Is Making You Worse (According to Ayurveda)",
     seoDescription: "Ayurveda treats exercise as constitution-specific, not universal. Here's what each dosha actually needs, when to train, and why recovery matters as much as exertion.",
@@ -120,7 +120,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-sex",
     title: "The Branch of Ayurveda Nobody Talks About: Sex, Vitality, and Vajikarana",
-    date: "May 28, 2026",
+    date: "May 30, 2026",
     excerpt: "Vajikarana is the eighth classical branch of Ayurveda, dedicated to sexual health and vitality. Here's what the texts actually say — about Ojas, doshas, and the herbs.",
     seoTitle: "The Branch of Ayurveda Nobody Talks About: Sex, Vitality, and Vajikarana",
     seoDescription: "Vajikarana is the eighth classical branch of Ayurveda, dedicated to sexual health and vitality. Here's what the texts actually say — about Ojas, doshas, and the herbs.",
@@ -129,7 +129,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-aging",
     title: "Why Your 40s Are Supposed to Feel Different: The Ayurvedic Map of Life",
-    date: "May 28, 2026",
+    date: "May 31, 2026",
     excerpt: "Ayurveda divides life into three dosha-governed stages. Understanding the Pitta-to-Vata transition explains why your 40s feel different — and how to work with it.",
     seoTitle: "Why Your 40s Are Supposed to Feel Different: The Ayurvedic Map of Life",
     seoDescription: "Ayurveda divides life into three dosha-governed stages. Understanding the Pitta-to-Vata transition explains why your 40s feel different — and how to work with it.",
@@ -138,7 +138,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-coffee",
     title: "The Ayurvedic Take on Coffee",
-    date: "May 28, 2026",
+    date: "May 20, 2026",
     excerpt: "The question I get asked most often when I tell people I've been at an Ayurvedic retreat is: 'Can you still have coffee?' The answer is nuanced, which is very Ayurvedic of it.",
     seoTitle: "The Ayurvedic Take on Coffee: Should You Drink It or Give It Up?",
     seoDescription: "Ayurveda has a nuanced take on coffee — it depends on your dosha. Here's how coffee affects Vata, Pitta, and Kapha types, and how to make it work better for your constitution.",
@@ -147,7 +147,7 @@ export const posts: Post[] = [
   {
     slug: "ayurveda-cold-smoothies",
     title: "Why Ayurveda Doesn't Believe in Cold Smoothies (And What to Eat Instead)",
-    date: "May 28, 2026",
+    date: "May 18, 2026",
     excerpt: "I drank a green smoothie every morning for three years. Then I sat with an Ayurvedic practitioner in Kerala and she said: 'That explains the bloating.'",
     seoTitle: "Why Ayurveda Doesn't Recommend Cold Smoothies (And What to Eat Instead)",
     seoDescription: "Ayurveda says cold smoothies suppress digestive fire — and the science of agni explains why. Here's what to eat for breakfast instead, according to your dosha.",
@@ -156,7 +156,7 @@ export const posts: Post[] = [
   {
     slug: "kapha-dosha-guide",
     title: "Kapha Dosha: Why You Feel Stuck, Sluggish, and What Actually Helps",
-    date: "May 28, 2026",
+    date: "May 17, 2026",
     excerpt: "Kapha is the dosha nobody talks about. Here's what I've learned: Kapha imbalance isn't a character flaw. It's an energetic pattern with specific causes and solutions.",
     seoTitle: "Kapha Dosha: Why You Feel Sluggish and What Actually Helps",
     seoDescription: "Kapha dosha governs stability, structure, and endurance. Learn the signs of Kapha imbalance — sluggishness, weight gain, low motivation — and how to get your energy moving again.",
@@ -165,7 +165,7 @@ export const posts: Post[] = [
   {
     slug: "pitta-dosha-guide",
     title: "Pitta Dosha: The High-Achiever's Guide to Cooling Down",
-    date: "May 28, 2026",
+    date: "May 16, 2026",
     excerpt: "The first time someone described Pitta to me, I laughed. Not because it was wrong. Because it was so accurate it was slightly embarrassing.",
     seoTitle: "Pitta Dosha: Signs of Imbalance and How to Cool Down",
     seoDescription: "Pitta dosha governs fire, digestion, and ambition. Learn the signs of Pitta imbalance — inflammation, irritability, burnout — and exactly how to bring it back into balance.",
@@ -174,7 +174,7 @@ export const posts: Post[] = [
   {
     slug: "vata-dosha-guide",
     title: "Vata Dosha: Signs You're Out of Balance and What To Do About It",
-    date: "May 28, 2026",
+    date: "May 15, 2026",
     excerpt: "I used to think anxiety was just my personality. Then I got my dosha assessment and the practitioner said: 'Classic Vata imbalance.' Everything had a name — and a remedy.",
     seoTitle: "Vata Dosha: Signs You're Out of Balance and How to Fix It",
     seoDescription: "Vata dosha governs movement, creativity, and the nervous system. Learn the signs of Vata imbalance — anxiety, dry skin, insomnia — and exactly how to bring it back into balance.",
