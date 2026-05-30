@@ -82,6 +82,38 @@ export default function AyurvedaForMenPage() {
             <hr className="border-border my-12" />
 
             <h2 className="font-serif text-2xl md:text-3xl text-foreground mt-12 mb-6">
+              The Modern Vata Man
+            </h2>
+
+            <blockquote className="border-l-4 border-[#C97F3D] pl-6 py-2 my-8 text-foreground italic">
+              <p>
+                There is a specific type of person who comes to Ayurveda and does not know it. He drinks too much coffee to compensate for not enough sleep. He travels constantly and never fully recovers from it. He uses alcohol to decompress from work that never actually stops. He is always connected, always stimulated, always on, and cannot remember the last time his nervous system genuinely rested.
+              </p>
+
+              <p className="mt-4">
+                He is also, in Ayurvedic terms, almost certainly Vata-elevated. This is not a personality type. It is a physiological state — and it is extremely common among founders, creatives, tech workers, high-output professionals, and anyone whose life involves sustained cognitive output, irregular schedules, frequent travel, and the particular nervous system load of always being reachable.
+              </p>
+
+              <p className="mt-4">
+                The symptoms are consistent: anxiety that feels disproportionate to external circumstances, sleep that is technically sufficient but leaves you unrefreshed, digestion that is unpredictable, a mind that will not stop even when the body is exhausted, and a recovery capacity that is noticeably worse than it used to be.
+              </p>
+
+              <p className="mt-4">
+                Ayurveda&apos;s intervention for this pattern is not a supplement stack or a biohack. It is regulation — consistent routine, warm nourishing food, the right herbs, less stimulation, and the particular discipline of going to sleep before 10pm even when the work is not done.
+              </p>
+
+              <p className="mt-4">
+                The practices that move the needle fastest for this pattern: <Link href="/blog/ashwagandha-benefits" className="text-[#C97F3D] hover:underline">Ashwagandha</Link> nightly for the cortisol regulation and sleep quality. A <Link href="/blog/ayurvedic-morning-routine" className="text-[#C97F3D] hover:underline">consistent morning routine</Link> before the phone. Warm breakfast, eaten sitting down, before coffee. Reducing alcohol from several nights a week to significantly less.
+              </p>
+
+              <p className="mt-4">
+                These are not complicated. They are, for most Vata-elevated men, extremely difficult — because they require slowing down in a life structured around acceleration. That difficulty is itself a Vata symptom.
+              </p>
+            </blockquote>
+
+            <hr className="border-border my-12" />
+
+            <h2 className="font-serif text-2xl md:text-3xl text-foreground mt-12 mb-6">
               The Basics: What Ayurveda Actually Is
             </h2>
 
