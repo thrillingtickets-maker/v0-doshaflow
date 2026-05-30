@@ -63,6 +63,8 @@ export default function BestAyurvedicTeaSleepPage() {
               In the Ayurvedic framework, insomnia and poor sleep are almost always Vata disorders: the nervous system is dysregulated, agitated, or depleted, and the body does not know how to transition from activity to rest. This is why a calming tea alone is often insufficient — what the system needs is not just sedation but nourishment and regulation. The Ayurvedic sleep herbs are not sedatives. They settle the nervous system from underneath, reducing the reactivity that keeps it running when it should be at rest.
             </p>
 
+            <img src="https://source.unsplash.com/featured/800x450/?valerian,chamomile,herbs,sleep" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Sleep herbs valerian and chamomile" />
+
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
               The Primary Herbs.
             </h2>
@@ -79,13 +81,17 @@ export default function BestAyurvedicTeaSleepPage() {
               The most universally recommended Ayurvedic sleep preparation is warm milk with spices. A cup of warm whole milk with a pinch of cardamom, a pinch of nutmeg, a small amount of ashwagandha powder, and a touch of honey. Taken 30 minutes before bed. One of the most effective and most consistently recommended interventions across Ayurvedic traditions. If dairy is not tolerated, oat milk works as a close substitute.
             </p>
 
+            <img src="https://source.unsplash.com/featured/800x450/?warm,milk,spices,cardamom,nutmeg" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Warm spiced milk for sleep" />
+
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
-              The Best Ayurvedic Sleep Tea Blend.
+              The Best Sleep Tea Blend.
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              Jatamansi root, valerian root, ashwagandha root, brahmi leaf, cardamom, chamomile. Steep 10 minutes in hot but not boiling water. Drink warm, 30-60 minutes before bed. Do not use screens after drinking it.
+              A practical sleep tea formula: jatamansi root, ashwagandha root, brahmi leaf, valerian root, cardamom, nutmeg, and a small amount of licorice root. Steep 10 minutes in hot water. The proportions matter — the formula should be primarily jatamansi and ashwagandha, with smaller amounts of the other herbs. Drink warm 30-60 minutes before bed. The best practice is to make this a non-negotiable part of your evening — the ritual itself becomes part of the signal to the nervous system that sleep is coming.
             </p>
+
+            <img src="https://source.unsplash.com/featured/800x450/?bedtime,tea,cup,nighttime,calm" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Nighttime herbal tea" />
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
               Why Timing Matters.
