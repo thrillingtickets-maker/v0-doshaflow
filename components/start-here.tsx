@@ -8,8 +8,8 @@ const cards = [
   { title: "Pitta Diet Plan", href: "/blog/pitta-diet-plan" },
   { title: "Kapha Diet Plan", href: "/blog/kapha-diet-plan" },
   { title: "Ayurvedic Tea Guide", href: "/blog/ayurvedic-tea-guide" },
-  { title: "Ayurveda for Men", href: "/men" },
-  { title: "Ayurveda for Women", href: "/women" },
+  { title: "Ayurveda for Men", href: "/ayurveda-for-men" },
+  { title: "Ayurveda for Women", href: "/ayurveda-for-women" },
 ]
 
 export function StartHere() {
