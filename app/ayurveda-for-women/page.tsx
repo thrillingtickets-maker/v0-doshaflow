@@ -325,6 +325,12 @@ export default function AyurvedaForWomenPage() {
                 {" "}→ How the dosha system explains menstrual patterns and what to do about them.
               </p>
               <p className="text-muted-foreground">
+                <Link href="/blog/perimenopause-ayurveda" className="text-[#C97F3D] hover:underline">
+                  Perimenopause and Ayurveda
+                </Link>
+                {" "}→ Understanding the transition into menopause as a dosha shift.
+              </p>
+              <p className="text-muted-foreground">
                 <Link href="/blog/ayurvedic-skin-guide" className="text-[#C97F3D] hover:underline">
                   The Ayurvedic Skin Guide
                 </Link>
