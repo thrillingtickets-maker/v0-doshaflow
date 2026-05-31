@@ -1,4 +1,6 @@
 import type { Metadata } from "next"
+import { Navigation } from "@/components/navigation"
+import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
   title: "Ayurvedic Guides & Articles | DoshaFlow",
@@ -10,5 +12,11 @@ export default function BlogLayout({
 }: {
   children: React.ReactNode
 }) {
-  return <>{children}</>
+  return (
+    <>
+      <Navigation />
+      {children}
+      <Footer />
+    </>
+  )
 }
