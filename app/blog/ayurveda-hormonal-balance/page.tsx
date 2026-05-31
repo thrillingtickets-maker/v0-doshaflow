@@ -15,7 +15,7 @@ export const metadata = {
 }
 export default function AyurvedaHormonalBalancePage() {
   return (
-    <div>
+    <>
       {/* Navigation */}
       <nav>
         <div>
@@ -107,7 +107,7 @@ export default function AyurvedaHormonalBalancePage() {
       <footer>
         <div>
           <p>&copy; 2026 DoshaFlow. All rights reserved.</p>
-        </div>
       </footer>
-    )
-  }
+    </>
+  )
+}

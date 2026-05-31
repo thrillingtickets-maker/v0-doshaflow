@@ -103,6 +103,6 @@ export default function AyurvedaColdSmoothiesPage() {
           © 2026 DoshaFlow. All rights reserved.
         </div>
       </footer>
-      </main>
-    )
-  }
+    </>
+  )
+}
