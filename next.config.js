@@ -12,6 +12,11 @@ const nextConfig = {
         destination: '/blog/what-happens-ayurvedic-retreat-day-3',
         permanent: true,
       },
+      {
+        source: '/blog/i-have-no-energy',
+        destination: '/blog/why-am-i-always-tired',
+        permanent: true,
+      },
     ]
   },
 }
