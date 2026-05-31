@@ -99,10 +99,10 @@ export function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
             {submitted ? (
               <div className="text-center py-4">
                 <h3 className="font-serif text-2xl font-medium text-[#2D3B2D] mb-3">
-                  You&apos;re on the list.
+                  You're on the list.
                 </h3>
                 <p className="text-[#2D3B2D]/70 mb-6">
-                  We&apos;ll be in touch.
+                  We'll be in touch.
                 </p>
                 <button
                   onClick={handleClose}

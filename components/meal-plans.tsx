@@ -30,7 +30,7 @@ export function MealPlans() {
               Meal guides built around your body
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              Discover your dosha type — Vata, Pitta, or Kapha — and receive meal guides designed to balance your unique constitution. No more generic diets that don&apos;t account for how your body actually processes food.
+              Discover your dosha type — Vata, Pitta, or Kapha — and receive meal guides designed to balance your unique constitution. No more generic diets that don't account for how your body actually processes food.
             </p>
 
             <ul className="space-y-4">
@@ -81,7 +81,7 @@ export function MealPlans() {
               </div>
 
               <div className="space-y-3">
-                <p className="text-sm font-medium text-foreground">Today&apos;s Focus</p>
+                <p className="text-sm font-medium text-foreground">Today's Focus</p>
                 <div className="flex flex-wrap gap-2">
                   <span className="px-3 py-1 text-sm bg-secondary rounded-full text-secondary-foreground">Grounding foods</span>
                   <span className="px-3 py-1 text-sm bg-secondary rounded-full text-secondary-foreground">Warm spices</span>

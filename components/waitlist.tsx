@@ -54,7 +54,7 @@ export function Waitlist() {
             Be the first to experience personalized wellness
           </h2>
           <p className="max-w-2xl mx-auto text-lg text-primary-foreground/80 leading-relaxed mb-12">
-            Join our waitlist for early access. We&apos;ll notify you when DoshaFlow is ready — plus early members get 3 months free.
+            Join our waitlist for early access. We'll notify you when DoshaFlow is ready — plus early members get 3 months free.
           </p>
         </motion.div>
 
@@ -66,7 +66,7 @@ export function Waitlist() {
         >
           {submitted ? (
             <p className="text-xl font-medium text-primary-foreground">
-              You&apos;re on the list. We&apos;ll be in touch.
+              You're on the list. We'll be in touch.
             </p>
           ) : (
             <form onSubmit={handleSubmit} className="flex flex-col items-center gap-4 max-w-md mx-auto">

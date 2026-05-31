@@ -556,7 +556,7 @@ export default function QuizPage() {
                 </div>
                 <h1 className="intro-title">Find your Ayurvedic constitution</h1>
                 <p className="intro-desc">
-                  25 questions across body, mind, digestion, sleep, and stress. Discover whether you&apos;re Vata, Pitta, Kapha — or a combination — with a full percentage breakdown and personalized kit.
+                  25 questions across body, mind, digestion, sleep, and stress. Discover whether you're Vata, Pitta, Kapha — or a combination — with a full percentage breakdown and personalized kit.
                 </p>
                 <button className="start-btn" onClick={() => setShowIntro(false)}>
                   Start the Quiz →
@@ -732,7 +732,7 @@ export default function QuizPage() {
                     </button>
                   </div>
                 ) : (
-                  <div className="success-note">You&apos;re on the list — your kit is coming.</div>
+                  <div className="success-note">You're on the list — your kit is coming.</div>
                 )}
                 <p className="privacy-note">No spam. Just your personalized report.</p>
               </div>
