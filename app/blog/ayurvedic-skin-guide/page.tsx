@@ -1,91 +1,106 @@
-"use client"
-import { ArticleHero } from "@/components/article-hero"
 import Link from "next/link"
-
-export default function AyurvedicSkinGuide() {
+import { ContinueJourney } from "@/components/continue-journey"
+export const metadata = {
+  title: "The Ayurvedic Skin Guide: Why Your Skin Reflects What Is Happening Inside",
+  description:
+    "Ayurveda treats skin conditions from the inside — through the gut, liver, and doshas. The complete guide to Ayurvedic skincare by skin type, herbs, diet, and external practices.",
+  openGraph: {
+    title: "The Ayurvedic Skin Guide: Why Your Skin Reflects What Is Happening Inside",
+    description:
+      "Ayurveda treats skin conditions from the inside — through the gut, liver, and doshas. The complete guide to Ayurvedic skincare by skin type, herbs, diet, and external practices.",
+    url: "https://www.doshaflow.com/blog/ayurvedic-skin-guide",
+    siteName: "DoshaFlow",
+    type: "article",
+  },
+  alternates: {
+    canonical: "https://www.doshaflow.com/blog/ayurvedic-skin-guide",
+  }
+}
+export default function AyurvedicSkinGuidePage() {
   return (
-    <main className="min-h-screen bg-background">
-      <ArticleHero
-        title="The Ayurvedic Skin Guide: Why Your Skin Reflects What Is Happening Inside"
-        category="article"
-        date="May 27, 2026"
-        highlightWord="Inside"
-      />
-
-      {/* Article Content */}
-      <article className="pt-12 pb-24 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="prose prose-lg max-w-none text-foreground mb-12">
+    <main>
+        <article>
+          <header>
+            <time>June 15, 2026</time>
+            <h1>
+              The Ayurvedic Skin Guide: Why Your Skin Reflects What Is Happening Inside
+            </h1>
             <p>
-              Ayurveda has a saying that the skin is the mirror of the gut. Before dermatology named the gut-skin axis and started publishing research on it, Ayurvedic practitioners had been treating skin conditions by treating the digestive system for thousands of years. The logic is direct: the skin is the body&apos;s largest elimination organ, and what cannot be processed internally expresses externally. Instead of asking what to put on your skin, the Ayurvedic question is: what is the skin trying to eliminate that the body cannot process through its normal channels?
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
-
-            <h2 className="font-serif text-3xl text-foreground mt-12 mb-6">Skin by dosha: what your skin type tells you.</h2>
-            <p>
-              Vata skin is naturally dry, thin, fine-pored, and prone to dryness, flakiness, and premature ageing. When Vata is balanced, this skin has a delicate, luminous quality. When Vata is elevated, it becomes rough, cracked, and excessively dry — particularly in cold dry seasons and in response to dehydration, irregular eating, and chronic stress. The most consistent Vata skin complaint is dryness that no amount of external moisturiser fully resolves — because the issue is internal. Pitta skin is naturally warm, slightly oily in the T-zone, medium-pored, and sensitive. When Pitta is elevated, it produces acne (particularly inflammatory cystic acne), rosacea, eczema, psoriasis, rashes, and the skin flares that track with the menstrual cycle, alcohol consumption, and stress. The most consistent Pitta skin complaint is inflammation — skin that reacts to stress, diet, and environmental triggers. Kapha skin is naturally thick, oily, large-pored, and prone to congestion and sluggishness. When Kapha is elevated, it produces congestion, enlarged pores, blackheads and whiteheads, dullness, and skin that looks tired regardless of how much sleep you have had.
+          </header>
+          <div style={{ lineHeight: 1.75 }}>
+            <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Ayurveda has a saying that the skin is the mirror of the gut. Before dermatology named the gut-skin axis and started publishing research on it, Ayurvedic practitioners had been treating skin conditions by treating the digestive system for thousands of years. The logic is direct: the skin is the body&apos;s largest elimination organ, and what cannot be processed internally expresses externally. Instead of asking what to put on the skin, the Ayurvedic question is: what is the skin trying to eliminate that the body cannot process through its normal channels?
             </p>
-
-            <h2 className="font-serif text-3xl text-foreground mt-12 mb-6">The internal causes of skin problems.</h2>
-            <p>
-              Ama — undigested residue from incomplete digestion. When the digestive system is not processing food completely, the residue that should be eliminated instead circulates and deposits in the tissues. The skin eliminates what the gut cannot, which produces the congestion, breakouts, and dullness that are the visible expression of ama accumulation. Impaired liver function — the liver filters the blood and processes hormones, toxins, and metabolic waste. When the liver is overburdened by alcohol, processed food, or chronic inflammation, the skin takes up the slack. This is the mechanism behind hormonally-driven acne and the skin flares that follow periods of heavy drinking. Disrupted gut microbiome — the gut and skin communicate directly through inflammatory pathways. Dysbiosis produces systemic inflammation that manifests visibly on the skin.
+            <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              Skin by Dosha: What Your Skin Type Tells You.
+            </h2>
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Vata skin is naturally dry, thin, fine-pored, and prone to dryness, flakiness, and premature ageing. When Vata is balanced it has a delicate, luminous quality. When elevated it becomes rough, cracked, and excessively dry — particularly in cold, dry seasons and in response to chronic stress. The most consistent Vata skin complaint is dryness that no amount of external moisturiser fully resolves — because the issue is internal. Pitta skin is naturally warm, slightly oily in the T-zone, medium-pored, and sensitive. When Pitta is balanced it has a natural glow. When elevated it produces acne (particularly inflammatory and cystic), rosacea, eczema, psoriasis, and skin flares that track with the menstrual cycle, alcohol consumption, and stress. The most consistent Pitta skin complaint is inflammation — skin that reacts to stress, diet, and environmental triggers with redness and breakouts. Kapha skin is naturally thick, oily, large-pored, and prone to congestion and sluggishness. When Kapha is balanced it is supple and resilient. When elevated it produces congestion, enlarged pores, blackheads, dullness, and the kind of skin that looks tired regardless of how much sleep you have had.
             </p>
-
-            <h2 className="font-serif text-3xl text-foreground mt-12 mb-6">Herbs for skin.</h2>
-            <p>
-              Manjistha is the primary blood and lymph purifying herb in Ayurveda — the most specific herb for skin conditions. It clears ama from the blood and lymph, reduces inflammation, and is used for acne, hyperpigmentation, eczema, and skin dullness. Most appropriate for Vata and Kapha skin. Neem is bitter, cooling, and deeply antimicrobial — used internally for Pitta-driven inflammatory skin conditions (acne, rosacea, eczema) and externally as an oil or paste. Turmeric is anti-inflammatory, antioxidant, and liver-supportive — used internally with black pepper to increase absorption, and externally as a mask. Shatavari is the primary herb for hormonally-driven skin conditions in women — the jawline acne of the luteal phase, the flushing of PMS. Triphala works on skin through the gut — by improving elimination, reducing ama, and supporting liver function, it addresses the upstream causes of most skin conditions. The skin improvement people notice after 4-6 weeks of consistent Triphala is the gut-skin axis working in the direction it is supposed to.
+            
+            <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              The Internal Causes of Skin Problems.
+            </h2>
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Ama — undigested residue from incomplete digestion. When the digestive system is not processing food completely, the residue that should be eliminated instead circulates and deposits in the tissues. The skin eliminates what the gut cannot — which produces the congestion, breakouts, and dullness that are the visible expression of ama accumulation. Impaired liver function — the liver filters the blood and processes hormones, toxins, and metabolic waste. When the liver is overburdened by alcohol, processed food, or chronic inflammation, it cannot process everything and the skin takes up the slack. This is the mechanism behind hormonally-driven acne and the dullness that accompanies liver congestion. Disrupted gut microbiome — the gut and skin communicate directly through inflammatory pathways. Dysbiosis produces systemic inflammation that manifests visibly on the skin.
             </p>
-
-            <h2 className="font-serif text-3xl text-foreground mt-12 mb-6">Diet for skin.</h2>
-            <p>
-              Reduce alcohol — the most impactful single dietary change for people with inflammatory skin conditions. Regular alcohol consumption impairs the liver&apos;s ability to clear hormones and toxins, and the overflow expresses on the skin. Reduce sugar and refined carbohydrates — these drive blood sugar spikes that trigger insulin and IGF-1, hormones that directly stimulate sebum production and the inflammatory cascade that produces acne. Increase bitter greens — kale, arugula, dandelion greens are directly liver-supportive. Increase warm fat — ghee, avocado, sesame oil, coconut oil provide the building blocks for skin cell membranes and the hormones that regulate skin health. Avoid incompatible combinations — the most skin-relevant: fish with dairy, fruit with dairy, and eating fruit immediately after a heavy meal.
+            <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              Herbs for Skin.
+            </h2>
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Manjistha is the primary blood and lymph purifying herb in Ayurveda and the most specific herb for skin conditions. It clears ama from the blood and lymph, reduces inflammation, and is used for acne, hyperpigmentation, eczema, and skin dullness. Neem is bitter, cooling, and deeply antimicrobial. Used internally for Pitta-driven inflammatory skin conditions — acne, rosacea, eczema — and externally as an oil or paste. It is the primary Pitta skin herb. Turmeric is anti-inflammatory, antioxidant, and liver-supportive — it works by reducing systemic inflammation and supporting the liver&apos;s ability to process hormones and toxins. Used internally with black pepper to increase absorption. Shatavari is the primary herb for hormonally-driven skin conditions in women — the jawline acne of the luteal phase, the flushing of PMS. It addresses these by supporting estrogen metabolism and cooling the Pitta excess that drives them. Triphala works on skin through the gut — by improving elimination, reducing ama, and supporting liver function it addresses the upstream causes of most skin conditions. The skin improvement after 4-6 weeks of consistent Triphala is the gut-skin axis working in the direction it is supposed to.
             </p>
-
-            <h2 className="font-serif text-3xl text-foreground mt-12 mb-6">External care: Ayurvedic skin practices.</h2>
-            <p>
-              Abhyanga — the daily warm oil massage — is the cornerstone of Ayurvedic skincare. It forms a protective barrier, nourishes skin tissues directly, supports lymphatic circulation, and activates the parasympathetic nervous system which reduces cortisol-driven skin inflammation. Vata skin: warm sesame oil — the heaviest and most nourishing, directly addressing dryness. Pitta skin: coconut oil or sunflower oil — cooling and anti-inflammatory. Kapha skin: lighter oils or dry brushing followed by a lighter oil application. Turmeric face mask — a paste of turmeric, raw honey, and either yogurt (for Pitta) or warm milk (for Vata), applied for 10-15 minutes, 1-2 times weekly. Rosewater for Pitta skin as a toner after cleansing — cooling, anti-inflammatory, and mildly astringent.
+            
+            <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              Diet for Skin.
+            </h2>
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Reduce alcohol — alcohol is processed by the liver which also processes estrogen. Regular alcohol consumption impairs the liver&apos;s ability to clear these compounds and the overflow expresses on the skin. For people with inflammatory skin conditions, reducing alcohol is consistently the most impactful single dietary change. Reduce sugar and refined carbohydrates — these drive blood sugar spikes that trigger insulin and IGF-1, hormones that directly stimulate sebum production and the inflammatory cascade that produces acne. Increase bitter greens — kale, arugula, dandelion greens are directly liver-supportive. Increase warm fat — ghee, avocado, sesame oil, coconut oil provide the building blocks for skin cell membranes and the hormones that regulate skin health. Avoid incompatible combinations — the most skin-relevant: fish with dairy, fruit with dairy, and eating fruit immediately after a heavy meal.
             </p>
-
-            <h2 className="font-serif text-3xl text-foreground mt-12 mb-6">The timeline.</h2>
-            <p>
-              Two weeks: digestion begins to improve, which is the foundation. Four weeks: a reduction in the frequency or severity of breakouts or flares for most people. Eight weeks: the quality of the skin — texture, tone, luminosity — begins to visibly change. Twelve weeks: the most significant visible changes. At this point the gut microbiome has had time to rebalance, the liver is working more efficiently, and the skin is receiving better inputs than it was three months ago. This timeline is why Ayurvedic skin protocols feel slow at first. The results are not cosmetic — they are structural. They last.
+            <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              External Care: Ayurvedic Skin Practices.
+            </h2>
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Abhyanga — the daily warm oil massage — is the cornerstone of Ayurvedic skincare. The oil forms a protective barrier, nourishes skin tissues directly, supports lymphatic circulation, and activates the parasympathetic nervous system which reduces cortisol-driven skin inflammation. Vata skin: warm sesame oil — the heaviest and most nourishing, directly addressing dryness. Pitta skin: coconut oil or sunflower oil — cooling and anti-inflammatory. Kapha skin: lighter oils — sunflower or safflower — or dry brushing followed by a lighter oil. Turmeric face mask — a paste of turmeric, raw honey, and either yogurt for Pitta or warm milk for Vata, applied for 10-15 minutes, addresses surface inflammation and gives the skin brightness. Used 1-2 times weekly. Rosewater particularly for Pitta skin as a toner after cleansing — cooling, anti-inflammatory, and mildly astringent. Neem oil diluted in a carrier oil as a spot treatment for Pitta-driven inflammatory acne.
             </p>
-          </div>
-
-          {/* Related Articles */}
-          <hr className="border-border my-12" />
-
-          <h2 className="font-serif text-2xl md:text-3xl text-foreground mt-12 mb-6">
-            Related Articles
-          </h2>
-
-          <div className="space-y-3">
-            <p className="text-muted-foreground">
-              <Link href="/blog/ayurveda-30-days" className="text-[#C97F3D] hover:underline">
-                I Followed an Ayurvedic Routine for 30 Days: Here&apos;s What Actually Changed
-              </Link>
+            
+            <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
+              The Timeline.
+            </h2>
+            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+              Two weeks: digestion begins to improve, which is the foundation. Four weeks: a reduction in the frequency or severity of breakouts or flares for most people. Eight weeks: the quality of skin — texture, tone, luminosity — begins to visibly change. Twelve weeks: the most significant visible changes. At this point the gut microbiome has had time to rebalance, the liver is working more efficiently, and the skin is receiving better inputs than it was three months ago. This is why Ayurvedic skin protocols feel slow at first. The results are not cosmetic — they are structural. They last.
             </p>
-            <p className="text-muted-foreground">
-              <Link href="/blog/eating-for-your-dosha" className="text-[#C97F3D] hover:underline">
-                Eating for Your Dosha
-              </Link>
-            </p>
-          </div>
-
-          <hr className="border-border my-12" />
-
-          <h2 className="font-serif text-2xl md:text-3xl text-foreground mt-12 mb-6">
-            Continue the Journey
-          </h2>
-
-          <div className="space-y-3">
-            <p className="text-muted-foreground">
-              <Link href="/quiz" className="text-[#C97F3D] hover:underline">
+            <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <ContinueJourney />
+            <div style={{ 
+              backgroundColor: "#f5ede1", 
+              padding: "24px", 
+              borderRadius: "8px", 
+              marginTop: "40px",
+              marginBottom: "40px",
+              borderLeft: "4px solid #c49a6c"
+            }}>
+              <p style={{ marginBottom: "16px", lineHeight: 1.75, fontWeight: 500 }}>
+                Your skin type is determined by your dosha. Understanding this changes everything about what works and what doesn&apos;t.
+              </p>
+              <Link href="/quiz">
                 Take the Free Dosha Quiz
               </Link>
+            </div>
+            <p style={{ marginBottom: "20px", lineHeight: 1.75, fontStyle: "italic" }}>
+              Alex is the founder of DoshaFlow. <Link href="/quiz">Take the dosha quiz</Link> · <Link href="/blog">Read more articles</Link>
             </p>
           </div>
-        </div>
-      </article>
-    </main>
-  )
+        </article>
+      </main>
+    )
 }
