@@ -46,8 +46,14 @@ export function Testimonials() {
           <h2 className="font-serif text-4xl md:text-5xl font-medium text-foreground mb-6">
             Real results, real people
           </h2>
-          <p className="max-w-2xl mx-auto text-lg text-muted-foreground leading-relaxed">
+          <p className="max-w-2xl mx-auto text-lg text-muted-foreground leading-relaxed mb-4">
             Join thousands who have transformed their wellness routine with personalized, dosha-based guidance.
+          </p>
+          <p className="text-sm text-muted-foreground">
+            What readers are saying
+          </p>
+          <p className="text-xs text-muted-foreground mt-2 opacity-75">
+            Based on user feedback and early reader responses.
           </p>
         </motion.div>
 
