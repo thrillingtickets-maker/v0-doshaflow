@@ -26,7 +26,7 @@ export default function RetreatDay5Page() {
           <h1 style={{fontSize: "36px", fontWeight: 700, color: "#2c1a0e", marginTop: "12px", marginBottom: "16px", lineHeight: 1.2}}>
             Day 5: I Watched the NBA Finals at 6am, Got Poured Buttermilk on My Head, and Still Can&apos;t Turn My Brain Off
           </h1>
-          <p style={{color: "#9a7a5a"}}>By <span style={{color: "#2c1a0e", fontWeight: 500}}>Alex</span> · May 30, 2026 · Ayurvedic Retreat, Day 5</p>
+          <p style={{color: "#9a7a5a", fontSize: "13px", fontStyle: "italic"}}>By <span style={{color: "#2c1a0e", fontWeight: 500}}>Alex</span> · Written during study and treatment in Kerala, India.</p>
         </header>
         <div style={{color: "#2c1a0e", lineHeight: 1.75}}>
           <p style={{marginBottom: "20px"}}>3.5 hours of sleep. It is 9:30am. I am fine. This is fine. Here is the thing about being on a wellness retreat: you can be doing everything right and still stay up until 3am watching basketball. The NBA Finals were on at 6am Kerala time. I set an alarm. A man has priorities. I also stayed up working, which is less defensible spiritually but more defensible professionally. Either way — 3.5 hours. My Vata, which the practitioners keep telling me is dangerously elevated, is currently somewhere in the stratosphere. And yet. I made it to yoga. Which, if you knew me three weeks ago, is genuinely shocking.</p>

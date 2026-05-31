@@ -27,7 +27,7 @@ export default function AyurvedaCoffeePage() {
               Is Coffee Bad for You? The Ayurvedic Answer by Dosha
             </h1>
             <p>
-              By <span>Alex</span> · DoshaFlow
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
           {/* Post Content */}

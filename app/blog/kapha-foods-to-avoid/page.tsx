@@ -24,7 +24,7 @@ export default function KaphaFoodsToAvoidPage() {
             Kapha Foods to Avoid: Why You Feel Heavy, Tired, and Stuck
           </h1>
           <p style={{ color: "#666" }}>
-            By <span style={{ color: "#2c1a0e", fontWeight: "500" }}>Alex</span> · DoshaFlow
+            By <span>Alex</span> · Written during study and treatment in Kerala, India.
           </p>
         </header>
         <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>

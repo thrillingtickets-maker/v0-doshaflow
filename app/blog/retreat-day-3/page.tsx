@@ -28,7 +28,7 @@ export default function RetreatDay3Page() {
           <h1 style={{ fontSize: "36px", fontWeight: 700, color: "#2c1a0e", marginTop: "12px", marginBottom: "16px", lineHeight: 1.2 }}>
             Day 3: My Body Is Detoxing, My Mood Is a Ping Pong Ball, and I Hit 15,000 Steps
           </h1>
-          <p style={{ color: "#9a7a5a" }}>By <span style={{ color: "#2c1a0e", fontWeight: 500 }}>Alex</span> · May 27, 2026 · Ayurvedic Retreat, Day 3</p>
+          <p style={{ color: "#9a7a5a", fontSize: "13px", fontStyle: "italic" }}>By <span style={{ color: "#2c1a0e", fontWeight: 500 }}>Alex</span> · Written during study and treatment in Kerala, India.</p>
         </header>
         <article style={{ color: "#2c1a0e", lineHeight: 1.75 }}>
           <p style={{ marginBottom: "20px" }}>I arrived here Monday. It&apos;s now Wednesday night, and I&apos;m recording this voice note from my room with a headache from staring at my laptop for four hours straight. So &mdash; full transparency &mdash; this is what a real retreat looks like, at least for me.</p>

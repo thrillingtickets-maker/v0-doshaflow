@@ -26,7 +26,7 @@ export default function BestAyurvedicTeaDigestionPage() {
               Best Ayurvedic Tea for Digestion: What to Drink Before, During, and After Meals
             </h1>
             <p>
-              By <span>Alex</span> · DoshaFlow
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
           <div style={{ lineHeight: 1.75 }}>

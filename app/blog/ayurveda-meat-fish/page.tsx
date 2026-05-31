@@ -27,7 +27,7 @@ export default function AyurvedaMeatFishPage() {
           Can You Eat Meat on an Ayurvedic Diet? What the Classical Texts Say
         </h1>
             <p>
-              By <span>Alex</span> · DoshaFlow
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
           {/* Post Content */}

@@ -27,7 +27,7 @@ export default function AyurvedaSexPage() {
           Ayurvedic Guide to Vitality and Sexual Health: Vajikarana Explained
         </h1>
             <p>
-              By <span>Alex</span> · DoshaFlow
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
           {/* Post Content */}

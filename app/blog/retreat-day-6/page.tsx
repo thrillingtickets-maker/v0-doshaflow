@@ -11,7 +11,7 @@ export default function RetreatDay6Page() {
         <header style={{marginBottom: "48px"}}>
           <p style={{fontSize: "14px", color: "#8c7b6b", marginBottom: "8px"}}>May 30, 2026 &middot; Ayurvedic Retreat, Day 6</p>
           <h1 style={{fontSize: "36px", fontWeight: "700", lineHeight: "1.2", marginBottom: "16px"}}>Day 6: The Enema, the Standoff, and the Temple Behind the Bodega</h1>
-          <p style={{fontSize: "14px", color: "#8c7b6b"}}>By Alex &middot; DoshaFlow</p>
+          <p style={{fontSize: "14px", color: "#8c7b6b", fontStyle: "italic"}}>By Alex · Written during study and treatment in Kerala, India.</p>
         </header>
         <p>One and a half hours of sleep. That is my number for last night. My running total for this retreat is approximately one good night of sleep and everything else held together with stubbornness and spite. I want to be clear that this is entirely my own doing. The laptop is right there and I cannot leave it alone.</p>
         <h2 style={{fontSize: "22px", fontWeight: "700", marginTop: "48px", marginBottom: "16px"}}>9am: the enema.</h2>

@@ -26,7 +26,7 @@ export default function PittaDietPlanPage() {
               Pitta Diet Plan: How to Cool the Fire Without Losing the Edge
             </h1>
             <p>
-              By <span>Alex</span> · DoshaFlow
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
           <div style={{ lineHeight: 1.75 }}>

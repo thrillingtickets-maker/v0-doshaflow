@@ -42,7 +42,7 @@ export default function AyurvedaHormonalBalancePage() {
             Hormonal Imbalance Symptoms and Natural Remedies — Ayurvedic Guide
           </h1>
           <p>
-            By <span>Alex</span> · DoshaFlow
+            By <span>Alex</span> · Written during study and treatment in Kerala, India.
           </p>
         </header>
         {/* Post Content */}

@@ -28,7 +28,7 @@ export default function RetreatDay1Page() {
           <h1 style={{ fontSize: "36px", fontWeight: 700, color: "#2c1a0e", marginTop: "12px", marginBottom: "16px", lineHeight: 1.2 }}>
             Day 1: I Arrived Smelling Like Alcohol. The Doctor Noticed.
           </h1>
-          <p style={{ color: "#9a7a5a" }}>By <span style={{ color: "#2c1a0e", fontWeight: 500 }}>Alex</span> · May 25, 2026 · Ayurvedic Retreat, Day 1</p>
+          <p style={{ color: "#9a7a5a", fontSize: "13px", fontStyle: "italic" }}>By <span style={{ color: "#2c1a0e", fontWeight: 500 }}>Alex</span> · Written during study and treatment in Kerala, India.</p>
         </header>
         <article style={{ color: "#2c1a0e", lineHeight: 1.75 }}>
           <p style={{ marginBottom: "20px" }}>Let me be honest about how I arrived here. I landed in India on Wednesday. I was supposed to come to the retreat on Thursday. Instead I gave myself a long weekend, and I made some choices that were not exactly in the spirit of what I was about to do. By the time I walked into the intake consultation on Monday morning, the doctor &mdash; a soft-spoken woman who has probably seen everything &mdash; looked at me and said, with no judgment and complete matter-of-factness, that she could smell the alcohol. I couldn&apos;t smell it. She could. That&apos;s where we&apos;re starting.</p>

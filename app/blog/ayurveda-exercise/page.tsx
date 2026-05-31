@@ -27,7 +27,7 @@ export default function AyurvedaExercisePage() {
               Why Working Out the Same Way Every Day Is Making You Worse (According to Ayurveda)
             </h1>
             <p>
-              By <span>Alex</span> · DoshaFlow
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
           {/* Post Content */}

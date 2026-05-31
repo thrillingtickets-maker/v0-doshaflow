@@ -26,7 +26,7 @@ export default function BestAyurvedicTeaAnxietyPage() {
               Best Ayurvedic Tea for Anxiety: What to Drink, When, and Why
             </h1>
             <p>
-              By <span>Alex</span> · DoshaFlow
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
           <div style={{ lineHeight: 1.75 }}>

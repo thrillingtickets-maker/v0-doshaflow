@@ -24,7 +24,7 @@ export default function BestTeaForStressPage() {
               Best Tea for Stress: What Ayurveda Recommends Beyond Chamomile
             </h1>
             <p>
-              By <span>Alex</span> · DoshaFlow
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
           <div style={{ lineHeight: 1.75 }}>

@@ -27,7 +27,7 @@ export default function AyurvedaBurnoutPage() {
           <h1 style={{ fontSize: "36px", fontWeight: 700, color: "#2c1a0e", marginTop: "12px", marginBottom: "16px", lineHeight: 1.2 }}>
             Burnout Symptoms and Recovery: The Ayurvedic Explanation
           </h1>
-          <p style={{ color: "#9a7a5a" }}>By <span style={{ color: "#2c1a0e", fontWeight: 500 }}>Alex</span> · DoshaFlow</p>
+          <p style={{ color: "#9a7a5a" }}>By <span>Alex</span> · Written during study and treatment in Kerala, India.</p>
         </header>
         <article style={{ color: "#2c1a0e", lineHeight: 1.75 }}>
           <p style={{ marginBottom: "20px" }}>The word &quot;burnout&quot; has become so overused that it&apos;s almost lost meaning.</p>

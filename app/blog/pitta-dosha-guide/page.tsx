@@ -34,7 +34,7 @@ export default function PittaDoshaGuidePage() {
             Pitta Dosha: The High-Achiever&apos;s Guide to Cooling Down
           </h1>
           <p style={{ color: "#7a6a58" }}>
-            By <span style={{ color: "#2c1a0e", fontWeight: 500 }}>Alex</span> · DoshaFlow
+            By <span>Alex</span> · Written during study and treatment in Kerala, India.
           </p>
         </header>
         {/* Article Content */}
