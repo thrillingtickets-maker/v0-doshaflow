@@ -209,6 +209,5 @@ export default function AyurvedaExercisePage() {
           </div>
         </article>
       </main>
-    </div>
-  )
+    )
 }

@@ -138,6 +138,5 @@ export default function AyurvedicTeaGuidePage() {
           </div>
         </article>
       </main>
-    </div>
-  )
+    )
 }

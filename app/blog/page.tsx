@@ -171,7 +171,8 @@ export default function BlogPage() {
               >
                 {filter}
               </button>
-            ))}
+            )
+}
           </div>
         </div>
       </section>
@@ -206,7 +207,8 @@ export default function BlogPage() {
                   </Link>
                 </div>
               </article>
-            ))}
+            )
+}
           </div>
 
           {filteredPosts.length === 0 && (

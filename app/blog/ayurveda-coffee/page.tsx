@@ -157,6 +157,5 @@ export default function AyurvedaCoffeePage() {
           </div>
         </article>
       </main>
-    </div>
-  )
+    )
 }

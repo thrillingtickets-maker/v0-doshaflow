@@ -128,6 +128,5 @@ export default function AyurvedicSkinGuidePage() {
           </div>
         </article>
       </main>
-    </div>
-  )
+    )
 }

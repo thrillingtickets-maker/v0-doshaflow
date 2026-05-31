@@ -207,6 +207,5 @@ export default function AyurvedaAgingPage() {
           </div>
         </article>
       </main>
-    </div>
-  )
+    )
 }
