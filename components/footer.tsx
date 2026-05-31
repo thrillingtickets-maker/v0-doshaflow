@@ -35,8 +35,8 @@ export function Footer() {
             <ul className="space-y-3">
               <li><a href="/blog/why-am-i-always-tired" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Sleep & Energy</a></li>
               <li><a href="/blog/best-herbs-for-anxiety" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Anxiety & Stress</a></li>
-              <li><a href="/blog/how-to-improve-digestion-naturally" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Digestion</a></li>
-              <li><a href="/blog/im-burned-out" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Burnout</a></li>
+              <li><a href="/blog/why-am-i-always-bloated" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Digestion</a></li>
+              <li><a href="/blog/nervous-system-burnout" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Burnout</a></li>
               <li><a href="/blog/best-ayurvedic-tea-sleep" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Tea & Herbs</a></li>
             </ul>
           </div>
