@@ -1,7 +1,5 @@
 "use client"
 import { useState, useMemo } from "react"
-import { Navigation } from "@/components/navigation"
-import { Footer } from "@/components/footer"
 import { getAllPosts } from "@/lib/posts"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
@@ -138,17 +136,30 @@ export default function BlogPage() {
     .filter((post) => post.category === "article" || post.category === "journal")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
   const filteredPosts = useMemo(() => {
+    let posts = selectedFilter === "All" 
+      ? allPosts 
+      : allPosts.filter((post) => {
+        const filters = getArticleFilters(post.slug, post.category)
+        return filters.includes(selectedFilter)
+      })
+    
+    // When showing All articles and featured retreat section exists, exclude retreat-day from grid
     if (selectedFilter === "All") {
-      return allPosts
+      const hasRetreatFeatured = posts.some(p => p.slug.includes("retreat-day"))
+      if (hasRetreatFeatured) {
+        posts = posts.filter(p => !p.slug.includes("retreat-day"))
+      }
     }
-    return allPosts.filter((post) => {
-      const filters = getArticleFilters(post.slug, post.category)
-      return filters.includes(selectedFilter)
-    })
+    
+    // Deduplicate by slug to ensure each post appears only once
+    const uniquePosts = Array.from(
+      new Map(posts.map((post) => [post.slug, post])).values()
+    )
+    
+    return uniquePosts
   }, [selectedFilter, allPosts])
   return (
     <main>
-      <Navigation />
       {/* Hero Section */}
       <section style={{ paddingTop: "80px", paddingBottom: "40px" }}>
         <div style={{ textAlign: "center" }}>
@@ -308,10 +319,6 @@ export default function BlogPage() {
           )}
           <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "48px" }}>
             {filteredPosts.map((post) => {
-              // Skip retreat-day articles in the regular grid when featured section is shown
-              if (selectedFilter === "All" && post.slug.includes("retreat-day")) {
-                return null;
-              }
               const isRetreatJournal = post.slug.includes("retreat-day")
               const primaryCategory = getPrimaryCategory(post.slug, post.category)
               const categoryColor = CATEGORY_COLORS[primaryCategory]
@@ -433,7 +440,6 @@ export default function BlogPage() {
           }
         `}</style>
       </section>
-      <Footer />
     </main>
   )
 }
