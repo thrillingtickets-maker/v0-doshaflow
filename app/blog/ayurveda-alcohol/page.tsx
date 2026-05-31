@@ -1,5 +1,4 @@
 import Link from "next/link"
-
 export const metadata = {
   title: "Ayurveda Has Its Own Version of Alcohol. Here&apos;s What the Texts Actually Say.",
   description:
@@ -16,7 +15,6 @@ export const metadata = {
     canonical: "https://www.doshaflow.com/blog/ayurveda-alcohol",
   }
 }
-
 export default function AyurvedaAlcoholPage() {
   return (
     <main className="max-w-[680px] mx-auto px-6 py-12">
@@ -31,11 +29,9 @@ export default function AyurvedaAlcoholPage() {
               By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
             </p>
           </header>
-
           {/* Post Content */}
           <div className="prose prose-lg max-w-none text-[#2c2218]" style={{ lineHeight: 1.75 }}>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Before you assume Ayurveda is going to tell you to stop drinking, know this: the classical texts contain
               entire chapters dedicated to fermented drinks. Charaka and Sushruta both wrote extensively about alcohol
@@ -43,9 +39,7 @@ export default function AyurvedaAlcoholPage() {
               position on alcohol is not &quot;don&apos;t.&quot; It is considerably more nuanced than that, and
               considerably more interesting.
             </p>
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -57,7 +51,6 @@ export default function AyurvedaAlcoholPage() {
             >
               The classical texts on alcohol.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               The Charaka Samhita dedicates a full chapter to what it calls Madya &mdash; fermented drinks &mdash;
               classifying them by their ingredients, their effects on the doshas, and their appropriate use. Sushruta
@@ -70,11 +63,8 @@ export default function AyurvedaAlcoholPage() {
               prohibited nor recommended universally. It is a substance with specific properties &mdash; heating,
               penetrating, fast-acting &mdash; that can be therapeutic in the right context and harmful in the wrong one.
             </p>
-
             
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -86,7 +76,6 @@ export default function AyurvedaAlcoholPage() {
             >
               What alcohol does to each dosha.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Alcohol is heating and Pitta-aggravating by nature. For Vata types &mdash; cold, dry, anxious, irregular
               &mdash; small amounts of warming alcohol can actually be grounding. A small glass of red wine with a meal,
@@ -97,11 +86,8 @@ export default function AyurvedaAlcoholPage() {
               alcohol&apos;s initial stimulating effect might feel appealing, but the heaviness and ama it produces over
               time work directly against Kapha&apos;s need for lightness and movement.
             </p>
-
             
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -113,7 +99,6 @@ export default function AyurvedaAlcoholPage() {
             >
               Where Ayurveda draws the line.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               The texts are unambiguous about the difference between conscious moderate use and what they call Madatyaya
               &mdash; intoxication and alcohol dependency. Charaka describes this as a disease state, not a moral
@@ -123,11 +108,8 @@ export default function AyurvedaAlcoholPage() {
               without regard to constitution, season, quantity, food intake, or state of health &mdash; causes
               predictable damage to the body over time.
             </p>
-
             
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -139,7 +121,6 @@ export default function AyurvedaAlcoholPage() {
             >
               What this means practically.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Know your dosha. If you are predominantly Pitta, you are working against your constitution every time you
               drink. Never drink on an empty stomach &mdash; alcohol needs food to buffer its impact on digestion. Season
@@ -150,7 +131,6 @@ export default function AyurvedaAlcoholPage() {
               made structurally worse by the drinking, even if temporarily quieted by it. That particular loop is not a
               moral problem in the Ayurvedic framework. It is a clinical one, with clinical solutions.
             </p>
-
             <div
               style={{
                 marginTop: "48px",

@@ -4,14 +4,12 @@ import { getPostBySlug, getAllPosts } from "@/lib/posts"
 import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { notFound } from "next/navigation"
-
 export async function generateStaticParams() {
   const posts = getAllPosts()
   return posts.map((post) => ({
     slug: post.slug,
   }))
 }
-
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
   const post = getPostBySlug(slug)
@@ -21,25 +19,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title: "Post Not Found | DoshaFlow",
     }
   }
-
   return {
     title: post.seoTitle || `${post.title} | DoshaFlow Blog`,
     description: post.seoDescription || post.excerpt,
   }
 }
-
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
   const post = getPostBySlug(slug)
-
   if (!post) {
     notFound()
   }
-
   return (
     <main className="min-h-screen bg-background">
       <Navigation />
-
       <article className="pt-32 pb-24 px-6">
         <div className="max-w-[680px] mx-auto">
           {/* Back Link */}
@@ -50,7 +43,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <ArrowLeft className="w-4 h-4" />
             Back to Blog
           </Link>
-
           {/* Post Header */}
           <header className="mb-12">
             <time className="text-sm text-muted-foreground">
@@ -63,7 +55,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               By <span className="text-foreground font-medium">Alex</span>
             </p>
           </header>
-
           {/* Post Content */}
           <div
             className="prose prose-lg max-w-none
@@ -76,7 +67,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               prose-li:mb-2"
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
-
           {/* Post Footer */}
           <footer className="mt-16 pt-8 border-t border-border">
             <Link
@@ -89,7 +79,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </footer>
         </div>
       </article>
-
       <Footer />
     </main>
   )

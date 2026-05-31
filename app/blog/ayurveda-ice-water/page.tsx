@@ -1,5 +1,4 @@
 import Link from "next/link"
-
 export const metadata = {
   title: "Why Ayurveda Says You Should Never Drink Ice Water (And Why It&apos;s Probably Right)",
   description:
@@ -16,7 +15,6 @@ export const metadata = {
     canonical: "https://www.doshaflow.com/blog/ayurveda-ice-water",
   }
 }
-
 export default function AyurvedaIceWaterPage() {
   return (
     <main className="max-w-[680px] mx-auto px-6 py-12">
@@ -31,11 +29,9 @@ export default function AyurvedaIceWaterPage() {
               By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
             </p>
           </header>
-
           {/* Post Content */}
           <div className="prose prose-lg max-w-none text-[#2c2218]" style={{ lineHeight: 1.75 }}>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Walk into any Ayurvedic clinic, retreat, or practitioner&apos;s office and you will be handed warm water.
               Not room temperature. Warm. And if you ask for ice, you will get a look. This is not aesthetic preference.
@@ -43,9 +39,7 @@ export default function AyurvedaIceWaterPage() {
               once you understand the reasoning, it is very hard to go back to a glass of ice water without thinking
               about it.
             </p>
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -57,7 +51,6 @@ export default function AyurvedaIceWaterPage() {
             >
               The concept of agni.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               To understand why cold water is a problem in Ayurveda, you need to understand agni &mdash; digestive fire.
               Agni is the force that transforms food into nutrients the body can use. It is the metabolic intelligence at
@@ -67,9 +60,7 @@ export default function AyurvedaIceWaterPage() {
               disease. Everything in Ayurvedic dietary advice is oriented around protecting and strengthening agni. And
               cold water is one of the most direct ways to suppress it.
             </p>
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -81,7 +72,6 @@ export default function AyurvedaIceWaterPage() {
             >
               What cold water does.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               The analogy the classical texts use is straightforward: imagine a fire. Now pour cold water on it. The fire
               does not get stronger. It dims, sputters, or goes out entirely. Cold water drunk during or around meals
@@ -90,11 +80,8 @@ export default function AyurvedaIceWaterPage() {
               and acids that are actively working to break down whatever you just ate. The result, repeated daily over
               years, is a progressive weakening of digestive capacity.
             </p>
-
             
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -106,7 +93,6 @@ export default function AyurvedaIceWaterPage() {
             >
               The warm water practice.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               The most universally recommended practice across all Ayurvedic traditions is this: drink a large glass of
               warm water first thing in the morning, before anything else. This is not about hydration alone. Warm water
@@ -116,11 +102,8 @@ export default function AyurvedaIceWaterPage() {
               Meals are accompanied by warm water or herbal tea. Cold water is not offered. This is not because they
               forgot about refrigerators. It is a deliberate clinical choice.
             </p>
-
             
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -132,7 +115,6 @@ export default function AyurvedaIceWaterPage() {
             >
               The dosha dimension.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Cold water is most damaging for Vata types, whose digestive fire tends to be naturally irregular and easily
               disrupted. If you are Vata and you regularly drink cold or iced water, there is a good chance it is
@@ -142,9 +124,7 @@ export default function AyurvedaIceWaterPage() {
               Pitta. For Kapha &mdash; who tends toward slow digestion &mdash; warm water with a slice of ginger is the
               gold standard. It stimulates a digestive system that naturally runs slow and helps prevent ama buildup.
             </p>
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -156,7 +136,6 @@ export default function AyurvedaIceWaterPage() {
             >
               The modern evidence, for the skeptics.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               There is modest but consistent research suggesting that cold beverages slow gastric emptying &mdash; the
               rate at which the stomach processes its contents. There is also evidence that drinking large amounts of
@@ -165,9 +144,7 @@ export default function AyurvedaIceWaterPage() {
               direction of the evidence is consistent with what the texts describe: cold water is not neutral, and warm
               water is better for most people most of the time.
             </p>
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -179,13 +156,11 @@ export default function AyurvedaIceWaterPage() {
             >
               The practical change.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Stop drinking cold water with meals. Switch to warm or room temperature. Add warm water first thing in the
               morning, before coffee. If you are Kapha or regularly bloated, add a small slice of fresh ginger. Give it
               two weeks. Your digestion will tell you whether it matters.
             </p>
-
             <div
               style={{
                 marginTop: "48px",

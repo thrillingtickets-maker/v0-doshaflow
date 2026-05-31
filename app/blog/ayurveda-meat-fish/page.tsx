@@ -1,5 +1,4 @@
 import Link from "next/link"
-
 export const metadata = {
   title: "Can You Eat Meat and Fish on an Ayurvedic Diet? The Answer Is More Complicated Than You Think.",
   description:
@@ -16,7 +15,6 @@ export const metadata = {
     canonical: "https://www.doshaflow.com/blog/ayurveda-meat-fish",
   }
 }
-
 export default function AyurvedaMeatFishPage() {
   return (
     <main className="max-w-[680px] mx-auto px-6 py-12">
@@ -31,11 +29,9 @@ export default function AyurvedaMeatFishPage() {
               By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
             </p>
           </header>
-
           {/* Post Content */}
           <div className="prose prose-lg max-w-none text-[#2c2218]" style={{ lineHeight: 1.75 }}>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Here is the version of Ayurveda that most people in the West have been sold: ancient Indian wisdom,
               plant-based diet, no meat, definitely no beef, probably a lot of lentils. Here is what the actual classical
@@ -45,9 +41,7 @@ export default function AyurvedaMeatFishPage() {
               The vegetarian Ayurveda most people know is a modern Western construction. The original system is
               considerably more nuanced, and considerably more interesting.
             </p>
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -59,7 +53,6 @@ export default function AyurvedaMeatFishPage() {
             >
               Where the myth came from.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               The conflation of Ayurveda with vegetarianism happened for a few reasons. Indian culture has significant
               vegetarian traditions rooted in Jainism, certain strands of Hinduism, and the Brahmin caste system &mdash;
@@ -70,11 +63,8 @@ export default function AyurvedaMeatFishPage() {
               extensively about meat, classifying it by animal, habitat, season, and therapeutic application. This was
               not a footnote. It was a significant part of the system.
             </p>
-
             
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -86,7 +76,6 @@ export default function AyurvedaMeatFishPage() {
             >
               What Ayurveda actually says about meat.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               The classical texts divide meat into categories based on the animal&apos;s habitat and behaviour &mdash;
               land animals, water animals, birds, and so on &mdash; and assign each specific properties in terms of how
@@ -97,9 +86,7 @@ export default function AyurvedaMeatFishPage() {
               This reflects a system that was looking at the body&apos;s actual needs rather than applying a moral
               framework to food.
             </p>
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -111,7 +98,6 @@ export default function AyurvedaMeatFishPage() {
             >
               Fish: the most Ayurveda-compatible animal protein.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Fish occupies a particular place in the classical system. The Charaka Samhita describes fish as nourishing,
               Vata-pacifying, and strength-promoting. Freshwater fish especially are considered easier to digest than
@@ -121,11 +107,8 @@ export default function AyurvedaMeatFishPage() {
               of the diet here. The idea that authentic Ayurveda means avoiding fish would come as a surprise to most
               Kerala practitioners.
             </p>
-
             
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -137,32 +120,26 @@ export default function AyurvedaMeatFishPage() {
             >
               The dosha breakdown: who should eat what.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               <strong>Vata</strong> (air and ether &mdash; dry, light, cold, irregular) benefits most from meat. The
               heaviness, moisture, and warmth of animal protein are exactly what Vata needs to ground and stabilise.
               Chicken, turkey, freshwater fish, lamb, and eggs are all well-suited. This is one of the few doshas where
               Ayurvedic practitioners actively encourage regular animal protein.
             </p>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               <strong>Pitta</strong> (fire and water &mdash; hot, sharp, intense) needs to be careful. Red meat and
               shellfish are too heating and can aggravate the already-hot Pitta constitution &mdash; contributing to
               inflammation, skin flares, irritability, and digestive intensity. White fish, chicken, and turkey in
               moderate quantities are the better options.
             </p>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               <strong>Kapha</strong> (earth and water &mdash; heavy, slow, dense) does better with less meat overall, and
               lighter varieties when eating it. Chicken and freshwater fish work reasonably well. Duck, pork, beef, and
               shellfish are too heavy and will increase Kapha&apos;s natural tendency toward sluggishness and weight
               retention.
             </p>
-
             
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -174,7 +151,6 @@ export default function AyurvedaMeatFishPage() {
             >
               The rules that apply to everyone.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               <strong>Frequency matters</strong> &mdash; meat is not meant to be eaten at every meal. Daily consumption
               of heavy meats is considered too taxing on digestive fire. <strong>Season matters</strong> &mdash; winter
@@ -185,9 +161,7 @@ export default function AyurvedaMeatFishPage() {
               <strong>Digestion is the deciding factor</strong> &mdash; more than your dosha or the type of meat, the key
               question is whether your digestive fire can handle it.
             </p>
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -199,7 +173,6 @@ export default function AyurvedaMeatFishPage() {
             >
               What this means practically.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               If you are Vata and have been avoiding meat because you thought Ayurveda required it &mdash; reconsider.
               Your constitution may actually benefit from regular, well-prepared animal protein. If you are Pitta eating
@@ -209,9 +182,7 @@ export default function AyurvedaMeatFishPage() {
               almost certainly remove meat temporarily, not because Ayurveda prohibits it, but because the digestive
               system needs full capacity during a cleanse.
             </p>
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -223,7 +194,6 @@ export default function AyurvedaMeatFishPage() {
             >
               The actual Ayurvedic position on meat.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Ayurveda is a system of individualised medicine. It does not have a universal dietary prescription &mdash;
               not for meat, not for anything. The question it asks is not whether a food is good, but whether it is right
@@ -232,7 +202,6 @@ export default function AyurvedaMeatFishPage() {
               &mdash; it is unconscious eating. Eating without regard to your constitution, your digestion, the season,
               the preparation, or the combination of foods. That, in the classical system, is where the problems start.
             </p>
-
             <div
               style={{
                 marginTop: "48px",

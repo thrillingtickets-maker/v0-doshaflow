@@ -1,10 +1,8 @@
 import Link from 'next/link'
-
 export const metadata = {
   title: 'Day 6: The Enema, the Standoff, and the Temple Behind the Bodega',
   description: 'Day 6 of a Kerala Ayurvedic retreat — refusing the treatment, the first time leaving the property, a hidden temple, a new friend, and anxiety about going home.',
 }
-
 export default function RetreatDay6Page() {
   return (
     <main style={{maxWidth: "680px", margin: "0 auto", padding: "48px 24px"}}>

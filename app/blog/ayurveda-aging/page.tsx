@@ -1,5 +1,4 @@
 import Link from "next/link"
-
 export const metadata = {
   title: "Why Your 40s Are Supposed to Feel Different: The Ayurvedic Map of Life",
   description:
@@ -16,7 +15,6 @@ export const metadata = {
     canonical: "https://www.doshaflow.com/blog/ayurveda-aging",
   }
 }
-
 export default function AyurvedaAgingPage() {
   return (
     <main className="max-w-[680px] mx-auto px-6 py-12">
@@ -31,11 +29,9 @@ export default function AyurvedaAgingPage() {
               By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
             </p>
           </header>
-
           {/* Post Content */}
           <div className="prose prose-lg max-w-none text-[#2c2218]" style={{ lineHeight: 1.75 }}>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               At some point in your late 30s or 40s, something shifts. The recovery that used to take a night now takes a
               week. The diet that worked for a decade stops working. The sleep that used to come automatically becomes
@@ -44,9 +40,7 @@ export default function AyurvedaAgingPage() {
               governed by a different dosha, and if you understand which stage you are in, you can work with it rather
               than against it.
             </p>
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -58,7 +52,6 @@ export default function AyurvedaAgingPage() {
             >
               The three stages of life.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               The first phase &mdash; from birth through adolescence, roughly the first thirty years &mdash; is Kapha
               time. Kapha governs growth, building, and structure. Children have the soft tissues, the heavy sleep, the
@@ -70,11 +63,8 @@ export default function AyurvedaAgingPage() {
               natural drying and lightening of the body that happens with aging are Vata qualities expressing themselves
               at a life stage level.
             </p>
-
             
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -86,7 +76,6 @@ export default function AyurvedaAgingPage() {
             >
               What the Pitta-to-Vata transition actually feels like.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               The shift most people notice and struggle with is the transition out of Pitta time. In the early 40s, the
               Pitta fire that has been running your metabolism, your drive, your recovery, and your hormones begins to
@@ -95,9 +84,7 @@ export default function AyurvedaAgingPage() {
               feel like something is wrong because they are departures from a baseline that was itself a particular phase
               &mdash; not a permanent state. This is not decline in the Ayurvedic understanding. It is transition.
             </p>
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -109,7 +96,6 @@ export default function AyurvedaAgingPage() {
             >
               What changes, practically.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Sleep becomes lighter and more fragile &mdash; Vata governs the nervous system, and an increasingly Vata
               system means more easily disturbed sleep. The 3am wake-up, the difficulty returning to sleep &mdash; these
@@ -117,11 +103,8 @@ export default function AyurvedaAgingPage() {
               more variable agni. Joints and skin become drier. Anxiety increases &mdash; elevated Vata means elevated
               mental activity, more worry, more difficulty being present. Recovery slows.
             </p>
-
             
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -133,7 +116,6 @@ export default function AyurvedaAgingPage() {
             >
               How to work with it.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Routine becomes more important, not less. Consistent meal times, consistent sleep times, consistent
               morning practices. Oil becomes more important &mdash; Abhyanga directly addresses the dryness that Vata
@@ -143,11 +125,8 @@ export default function AyurvedaAgingPage() {
               time, nourishing the nervous system and adrenal function. Triphala for digestion. Shatavari for women
               navigating the hormonal transition.
             </p>
-
             
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -159,7 +138,6 @@ export default function AyurvedaAgingPage() {
             >
               The opportunity in the transition.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               There is something Ayurveda says about Vata time that the Western conversation about aging almost never
               says: it can be the most spiritually clear and mentally rich phase of life, if the body is maintained well
@@ -169,7 +147,6 @@ export default function AyurvedaAgingPage() {
               that would let them access Vata&apos;s gifts. This is what Ayurveda offers in mid-life: not a way to stay
               in Pitta time, but a way to navigate Vata time with enough stability to actually enjoy it.
             </p>
-
             <div
               style={{
                 marginTop: "48px",

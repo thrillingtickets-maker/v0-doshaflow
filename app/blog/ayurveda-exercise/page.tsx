@@ -1,5 +1,4 @@
 import Link from "next/link"
-
 export const metadata = {
   title: "Why Working Out the Same Way Every Day Is Making You Worse (According to Ayurveda)",
   description:
@@ -16,7 +15,6 @@ export const metadata = {
     canonical: "https://www.doshaflow.com/blog/ayurveda-exercise",
   }
 }
-
 export default function AyurvedaExercisePage() {
   return (
     <main className="max-w-[680px] mx-auto px-6 py-12">
@@ -31,11 +29,9 @@ export default function AyurvedaExercisePage() {
               By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
             </p>
           </header>
-
           {/* Post Content */}
           <div className="prose prose-lg max-w-none text-[#2c2218]" style={{ lineHeight: 1.75 }}>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Most fitness advice treats exercise as a universal input. Move more. Get your heart rate up. Lift heavier.
               Be consistent. The assumption underneath all of it is that the same program, applied consistently, will
@@ -43,9 +39,7 @@ export default function AyurvedaExercisePage() {
               modern health culture. And once you understand the reasoning, the idea of a one-size-fits-all workout
               starts to look genuinely strange.
             </p>
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -57,7 +51,6 @@ export default function AyurvedaExercisePage() {
             >
               The Ayurvedic view of exercise.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               The classical term is Vyayama &mdash; physical exertion undertaken for health. Ayurveda does not oppose
               exercise. It opposes unconscious exercise &mdash; the same intensity, same type, same timing, applied
@@ -67,9 +60,7 @@ export default function AyurvedaExercisePage() {
               health-promoting regardless of the caloric output. The Charaka Samhita recommends exercising to half your
               capacity &mdash; Ardhashakti &mdash; not to your maximum.
             </p>
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -81,7 +72,6 @@ export default function AyurvedaExercisePage() {
             >
               What each dosha actually needs.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               <strong>Vata</strong> (air and ether &mdash; light, cold, dry, irregular) is the dosha most damaged by
               high-intensity exercise. Vata types often love intense movement because it gives them temporary
@@ -90,7 +80,6 @@ export default function AyurvedaExercisePage() {
               slow, grounding, rhythmic movement. Walking in nature is the single best exercise for Vata. Gentle yoga,
               swimming, tai chi. Consistency of timing matters more than intensity.
             </p>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               <strong>Pitta</strong> (fire and water &mdash; hot, sharp, competitive) is the dosha most likely to
               over-exercise. Pitta types are driven and prone to turning workouts into competitions, pushing through
@@ -98,16 +87,13 @@ export default function AyurvedaExercisePage() {
               Swimming is ideal. Cycling, hiking in cool weather, moderate weight training. Pitta should avoid exercising
               in midday heat and avoid hot yoga.
             </p>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               <strong>Kapha</strong> (earth and water &mdash; heavy, slow, steady) is the dosha that most needs to be
               pushed. Kapha genuinely benefits from intensity. Vigorous movement in the morning before breakfast is one
               of the most effective things a Kapha type can do. What Kapha actually needs: vigorous, varied, and ideally
               social exercise. Running, HIIT, aerobics, dance, team sports before 10am.
             </p>
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -119,7 +105,6 @@ export default function AyurvedaExercisePage() {
             >
               The timing question.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               The optimal window for most people is 6am to 10am &mdash; Kapha time. The body is naturally inclined toward
               movement, digestion is not yet fully engaged, and the energy of the morning supports effort. Pitta time
@@ -128,9 +113,7 @@ export default function AyurvedaExercisePage() {
               a time when the body is preparing to wind down, and is one of the more consistent contributors to poor
               sleep.
             </p>
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -142,16 +125,13 @@ export default function AyurvedaExercisePage() {
             >
               The recovery piece.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Ayurveda is as interested in recovery as it is in exertion. Abhyanga &mdash; the daily self-oil-massage
               &mdash; is partly a recovery tool: warm oil applied to the muscles after exercise reduces Vata aggravation,
               supports the nervous system, and maintains the moisture in tissues that intense movement depletes. Rest is
               not optional in this system.
             </p>
-
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
             <h2
               style={{
                 fontSize: "24px",
@@ -163,7 +143,6 @@ export default function AyurvedaExercisePage() {
             >
               What to actually do with this.
             </h2>
-
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               If you are Vata and pushing through intense workouts while exhausted and sleeping badly: stop. Swap two
               weekly sessions for walks or gentle yoga. If you are Pitta and have not taken a rest day without guilt in
@@ -171,7 +150,6 @@ export default function AyurvedaExercisePage() {
               Kapha and telling yourself you will start tomorrow: fifteen minutes of vigorous movement before breakfast.
               That is the entry point.
             </p>
-
             <div
               style={{
                 marginTop: "48px",
