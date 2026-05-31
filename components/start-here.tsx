@@ -14,7 +14,7 @@ const cards = [
 
 export function StartHere() {
   return (
-    <section className="px-6 py-24 md:py-32">
+    <section className="px-6 py-20 md:py-24">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
