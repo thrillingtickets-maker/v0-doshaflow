@@ -24,7 +24,7 @@ export default function SignsOfVataImbalancePage() {
               Signs of Vata Imbalance: Is Your Nervous System Running on Empty?
             </h1>
             <p>
-              By <span>Alex</span> · DoshaFlow
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
           <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>

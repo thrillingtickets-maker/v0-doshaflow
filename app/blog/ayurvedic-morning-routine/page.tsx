@@ -26,7 +26,7 @@ export default function AyurvedicMorningRoutinePage() {
               Ayurvedic Morning Routine: The Complete Step-by-Step Guide
             </h1>
             <p>
-              By <span>Alex</span> · DoshaFlow
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
           <div style={{ lineHeight: 1.75 }}>

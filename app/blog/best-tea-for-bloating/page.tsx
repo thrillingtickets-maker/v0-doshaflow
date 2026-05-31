@@ -24,7 +24,7 @@ export default function BestTeaForBloatingPage() {
               Best Tea for Bloating: The Ayurvedic Approach to a Digestive System That Won&apos;t Quit
             </h1>
             <p>
-              By <span>Alex</span> · DoshaFlow
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
           <div style={{ lineHeight: 1.75 }}>

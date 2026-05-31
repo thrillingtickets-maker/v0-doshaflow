@@ -27,7 +27,7 @@ export default function AyurvedaIceWaterPage() {
           Why Cold Water Causes Bloating — The Ayurvedic Explanation
         </h1>
             <p>
-              By <span>Alex</span> · DoshaFlow
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
           {/* Post Content */}

@@ -26,7 +26,7 @@ export default function VataDietPlanPage() {
             Vata Diet Plan: What to Eat, What to Avoid, and How to Fix Your Digestion
           </h1>
           <p style={{color: "#9a8b7e"}}>
-            By <span style={{color: "#2c1a0e", fontWeight: 500}}>Alex</span> · DoshaFlow
+            By <span>Alex</span> · Written during study and treatment in Kerala, India.
           </p>
         </header>
         <div style={{lineHeight: 1.75, color: "#2c2218"}}>

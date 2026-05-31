@@ -18,8 +18,17 @@ export default function VataDoshaGuidePage() {
   return (
     <main>
       <article>
+        {/* Article Header */}
+        <header style={{ marginBottom: "40px", maxWidth: "680px", margin: "0 auto", paddingTop: "100px", paddingLeft: "24px", paddingRight: "24px" }}>
+          <h1 style={{ fontSize: "32px", fontWeight: 700, marginBottom: "16px", color: "#2c1a0e", lineHeight: 1.2 }}>
+            Vata Dosha: Signs You&apos;re Out of Balance and How to Fix It
+          </h1>
+          <p style={{ fontSize: "13px", color: "#9a7a5a", fontStyle: "italic", marginBottom: "24px" }}>
+            By <span style={{ color: "#2c1a0e", fontWeight: 500 }}>Alex</span> · Written during study and treatment in Kerala, India.
+          </p>
+        </header>
         {/* Article Content */}
-        <div style={{ color: "#3d2e1e", fontSize: "17px", lineHeight: 1.75 }}>
+        <div style={{ color: "#3d2e1e", fontSize: "17px", lineHeight: 1.75, maxWidth: "680px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
           <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>I used to think anxiety was just my personality.</p>
           <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>The racing thoughts at 2am. The inability to finish one thing before starting three others. The way I&apos;d forget to eat, then wonder why I felt spacey and ungrounded by afternoon. I thought this was just how I was wired — type-A, always-on, slightly scattered.</p>

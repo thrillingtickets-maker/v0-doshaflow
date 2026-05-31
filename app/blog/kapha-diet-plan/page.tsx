@@ -26,7 +26,7 @@ export default function KaphaDietPlanPage() {
               Kapha Diet Plan: How to Eat for Energy When Your Body Wants to Do Nothing
             </h1>
             <p>
-              By <span>Alex</span> · DoshaFlow
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
           <div style={{ lineHeight: 1.75 }}>

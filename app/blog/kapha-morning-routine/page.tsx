@@ -24,7 +24,7 @@ export default function KaphaMorningRoutinePage() {
               Kapha Morning Routine: How to Actually Wake Up
             </h1>
             <p>
-              By <span>Alex</span> · DoshaFlow
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
           <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>

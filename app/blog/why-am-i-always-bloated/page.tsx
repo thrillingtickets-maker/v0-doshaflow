@@ -26,7 +26,7 @@ export default function WhyAmIAlwaysBloatedPage() {
               Why Am I Always Bloated? The Ayurvedic Explanation (And What to Do About It)
             </h1>
             <p>
-              By <span>Alex</span> · DoshaFlow
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
           <div style={{ lineHeight: 1.75 }}>

@@ -36,7 +36,7 @@ export default function AyurvedaColdSmoothiesPage() {
               Are Cold Smoothies Bad for Digestion? What Ayurveda Says
             </h1>
             <p style={{ color: "#7a6a58" }}>
-              By <span style={{ color: "#2c1a0e", fontWeight: 500 }}>Alex</span> · DoshaFlow
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
           <div style={{ color: "#3d2e1e", fontSize: "17px", lineHeight: 1.8 }}>

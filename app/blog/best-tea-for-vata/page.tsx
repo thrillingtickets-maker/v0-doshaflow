@@ -24,7 +24,7 @@ export default function BestTeaForVataPage() {
               Best Tea for Vata Dosha: Daily Drinks That Ground an Overactive Nervous System
             </h1>
             <p>
-              By <span>Alex</span> · DoshaFlow
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
           <div style={{ lineHeight: 1.75 }}>

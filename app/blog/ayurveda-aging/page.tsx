@@ -27,7 +27,7 @@ export default function AyurvedaAgingPage() {
           Why Your 40s Feel Different: The Ayurvedic Stages of Life Explained
         </h1>
             <p>
-              By <span>Alex</span> · DoshaFlow
+              By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
           {/* Post Content */}
