@@ -121,6 +121,5 @@ export default function KaphaFoodsToAvoidPage() {
           </div>
         </article>
       </main>
-    </div>
-  )
-}
+    )
+  }
