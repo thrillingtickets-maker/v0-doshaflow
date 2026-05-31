@@ -9,7 +9,7 @@ const goalCards = [
   { goal: "I'm always bloated", href: "/blog/why-am-i-always-bloated" },
   { goal: "I can't lose weight", href: "/blog/i-cant-lose-weight" },
   { goal: "I'm burned out", href: "/blog/im-burned-out" },
-  { goal: "I have no energy", href: "/blog/i-have-no-energy" },
+  { goal: "I have no energy", href: "/blog/why-am-i-always-tired" },
   { goal: "Digestion problems", href: "/blog/best-ayurvedic-tea-digestion" },
 ]
 
