@@ -14,7 +14,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/best-ayurvedic-tea-digestion",
-  },
+  }
 }
 
 export default function BestAyurvedicTeaDigestionPage() {
@@ -48,7 +48,7 @@ export default function BestAyurvedicTeaDigestionPage() {
               Every Ayurvedic digestive recommendation is oriented around one concept: agni — the digestive fire. When agni is strong, food is completely processed into nutrients and waste. When agni is weak, food is incompletely digested, producing ama (undigested residue) that accumulates in the digestive tract and, over time, in the tissues. The teas and preparations recommended for digestion are doing one of three things: kindling agni before meals, supporting it during digestion, or clearing ama when it has already accumulated.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?ginger,root,fresh,spice,kitchen" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Fresh ginger root" />
+            <img src="https://source.unsplash.com/featured/800x450/?ginger,root,fresh,spice,kitchen" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Fresh ginger root" />
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
               Before Meals: Kindle the Fire.
@@ -66,7 +66,7 @@ export default function BestAyurvedicTeaDigestionPage() {
               Fennel seed tea is the most universally useful post-meal digestive tea — carminative, preventing gas formation and supporting smooth downward movement of food. Chewing fennel seeds after meals is the standard Indian post-meal practice for exactly this reason. Ginger and cardamom tea after a heavy meal directly supports digestion of proteins and fats. Triphala tea taken 30-60 minutes after the last meal or before bed works on the entire digestive system overnight — the most important digestive herb in the Ayurvedic pharmacopoeia.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?fennel,seeds,spice,digestion" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Fennel seeds for digestion" />
+            <img src="https://source.unsplash.com/featured/800x450/?fennel,seeds,spice,digestion" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Fennel seeds for digestion" />
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
               For Specific Digestive Issues.
@@ -84,7 +84,7 @@ export default function BestAyurvedicTeaDigestionPage() {
               Morning (upon waking): Warm water with lemon. This stimulates agni first thing and wakes up the digestive system. 15-20 minutes before meals: Fresh ginger pickle — ginger with lemon and rock salt — or CCF tea. This primes the digestive fire for what is coming. With meals: Sip warm water throughout. Never cold drinks, which dampen agni. Immediately after meals: Fennel seed tea or CCF tea. Chewing fennel seeds is equally effective and more portable. 1-2 hours after meals: Digestive teas if the meal was particularly heavy. Evening: Triphala tea 1-2 hours after dinner or before bed, with a small amount of warm water. This is the most important daily digestive practice if you have chronic bloating or constipation.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?herbal,tea,morning,ritual,wellness" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Morning digestive tea ritual" />
+            <img src="https://source.unsplash.com/featured/800x450/?herbal,tea,morning,ritual,wellness" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Morning digestive tea ritual" />
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
               What to Avoid Around Meals.

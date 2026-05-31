@@ -12,7 +12,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/kapha-morning-routine",
-  },
+  }
 }
 
 export default function KaphaMorningRoutinePage() {

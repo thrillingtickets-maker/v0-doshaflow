@@ -12,7 +12,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/best-tea-for-stress",
-  },
+  }
 }
 
 export default function BestTeaForStressPage() {

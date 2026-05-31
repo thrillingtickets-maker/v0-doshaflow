@@ -14,7 +14,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/ayurveda-exercise",
-  },
+  }
 }
 
 export default function AyurvedaExercisePage() {

@@ -12,7 +12,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/why-am-i-always-tired",
-  },
+  }
 }
 
 export default function WhyAmIAlwaysTiredPage() {

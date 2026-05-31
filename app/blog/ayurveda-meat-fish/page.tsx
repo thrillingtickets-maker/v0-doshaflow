@@ -14,7 +14,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/ayurveda-meat-fish",
-  },
+  }
 }
 
 export default function AyurvedaMeatFishPage() {
@@ -76,7 +76,7 @@ export default function AyurvedaMeatFishPage() {
               not a footnote. It was a significant part of the system.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?india,market,spices,food,traditional" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Traditional Indian food market" />
+            <img src="https://source.unsplash.com/featured/800x450/?india,market,spices,food,traditional" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Traditional Indian food market" />
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -127,7 +127,7 @@ export default function AyurvedaMeatFishPage() {
               Kerala practitioners.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?fresh,fish,seafood,healthy,protein" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Fresh fish Ayurvedic protein" />
+            <img src="https://source.unsplash.com/featured/800x450/?fresh,fish,seafood,healthy,protein" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Fresh fish Ayurvedic protein" />
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -164,7 +164,7 @@ export default function AyurvedaMeatFishPage() {
               retention.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?ayurvedic,food,cooking,spices,herbs" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Ayurvedic cooking with spices" />
+            <img src="https://source.unsplash.com/featured/800x450/?ayurvedic,food,cooking,spices,herbs" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Ayurvedic cooking with spices" />
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 

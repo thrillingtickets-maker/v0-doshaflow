@@ -14,7 +14,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/ayurveda-sex",
-  },
+  }
 }
 
 export default function AyurvedaSexPage() {

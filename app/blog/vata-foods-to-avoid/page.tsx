@@ -12,7 +12,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/vata-foods-to-avoid",
-  },
+  }
 }
 
 export default function VataFoodsToAvoidPage() {

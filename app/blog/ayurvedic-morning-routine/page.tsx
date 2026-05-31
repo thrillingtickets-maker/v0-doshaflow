@@ -14,7 +14,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/ayurvedic-morning-routine",
-  },
+  }
 }
 
 export default function AyurvedicMorningRoutinePage() {

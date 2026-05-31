@@ -14,7 +14,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/ayurveda-alcohol",
-  },
+  }
 }
 
 export default function AyurvedaAlcoholPage() {
@@ -76,7 +76,7 @@ export default function AyurvedaAlcoholPage() {
               penetrating, fast-acting &mdash; that can be therapeutic in the right context and harmful in the wrong one.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?ancient,herbs,ayurvedic,texts,india" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Ancient Ayurvedic herbal preparations" />
+            <img src="https://source.unsplash.com/featured/800x450/?ancient,herbs,ayurvedic,texts,india" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Ancient Ayurvedic herbal preparations" />
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -103,7 +103,7 @@ export default function AyurvedaAlcoholPage() {
               time work directly against Kapha&apos;s need for lightness and movement.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?wine,glass,evening,moderate,drink" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Mindful drinking and dosha awareness" />
+            <img src="https://source.unsplash.com/featured/800x450/?wine,glass,evening,moderate,drink" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Mindful drinking and dosha awareness" />
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -129,7 +129,7 @@ export default function AyurvedaAlcoholPage() {
               predictable damage to the body over time.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?herbal,tonic,adaptogen,wellness,drink" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Herbal alternatives to alcohol" />
+            <img src="https://source.unsplash.com/featured/800x450/?herbal,tonic,adaptogen,wellness,drink" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Herbal alternatives to alcohol" />
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 

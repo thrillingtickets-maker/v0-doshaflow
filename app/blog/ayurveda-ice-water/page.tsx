@@ -14,7 +14,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/ayurveda-ice-water",
-  },
+  }
 }
 
 export default function AyurvedaIceWaterPage() {
@@ -96,7 +96,7 @@ export default function AyurvedaIceWaterPage() {
               years, is a progressive weakening of digestive capacity.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?fire,cooking,warmth,heat,natural" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Digestive fire concept" />
+            <img src="https://source.unsplash.com/featured/800x450/?fire,cooking,warmth,heat,natural" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Digestive fire concept" />
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -122,7 +122,7 @@ export default function AyurvedaIceWaterPage() {
               forgot about refrigerators. It is a deliberate clinical choice.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?herbal,tea,copper,cup,ayurvedic" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Warm Ayurvedic herbal tea" />
+            <img src="https://source.unsplash.com/featured/800x450/?herbal,tea,copper,cup,ayurvedic" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Warm Ayurvedic herbal tea" />
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 

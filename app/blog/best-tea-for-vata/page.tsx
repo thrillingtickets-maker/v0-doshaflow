@@ -12,7 +12,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/best-tea-for-vata",
-  },
+  }
 }
 
 export default function BestTeaForVataPage() {

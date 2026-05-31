@@ -14,7 +14,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/ayurvedic-tea-guide",
-  },
+  }
 }
 
 export default function AyurvedicTeaGuidePage() {
@@ -48,7 +48,7 @@ export default function AyurvedicTeaGuidePage() {
               The Ayurvedic tradition has an extensive pharmacopoeia of herbal preparations. Many of the herbs in these preparations translate directly into modern herbal teas, and the reasoning behind their use is specific: which dosha is being addressed, in which season, at what time of day, and for what condition. The concept of anupana — the vehicle through which a herb is delivered — matters enormously. Warm water is considered the ideal delivery medium for most Ayurvedic herbs because it enhances bioavailability and is itself considered beneficial. Herbal teas, in this sense, are a practical expression of classical Ayurvedic medicine.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?ayurvedic,herbal,tea,cup" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Ayurvedic herbal tea" />
+            <img src="https://source.unsplash.com/featured/800x450/?ayurvedic,herbal,tea,cup" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Ayurvedic herbal tea" />
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -70,7 +70,7 @@ export default function AyurvedicTeaGuidePage() {
               Pitta is the dosha of fire and water — hot, sharp, and intense. When Pitta is elevated: inflammation, skin flares, acid reflux, irritability, heavy periods, headaches. The tea for Pitta needs to cool, not stimulate. <strong>Key herbs:</strong> Shatavari is the primary Pitta-cooling herb, particularly for women — deeply nourishing, hormonally supportive, and cooling. Brahmi cools the mind and supports cognitive function. Rose petal is cooling and anti-inflammatory. Fennel and coriander are cooling digestive herbs that counter the acid reflux Pitta types commonly experience. <strong>Best time:</strong> midday and after meals. Drink warm or slightly cooled — not very hot. Learn more in our guide on <Link href="/blog/best-ayurvedic-tea-anxiety" className="text-[#c49a6c] hover:underline">teas for anxiety</Link>.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?ginger,turmeric,herbal,spices" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Ayurvedic spices and herbs" />
+            <img src="https://source.unsplash.com/featured/800x450/?ginger,turmeric,herbal,spices" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Ayurvedic spices and herbs" />
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -92,7 +92,7 @@ export default function AyurvedicTeaGuidePage() {
               Some herbs work for all three doshas because they address fundamental imbalances that all three share: weakened digestion, elevated stress, or accumulated toxicity. Tulsi (holy basil) is perhaps the most universally revered herb in Ayurvedic medicine — adaptogenic, gently warming, and appropriate for all three doshas. Triphala is the master detoxifier, used to clear ama and restore digestive function across all constitutions. Licorice root is deeply nourishing and gently supportive of the immune system. A tridoshic tea blend: tulsi leaf, dried rose petal, cardamom, and a small amount of licorice root, steeped 10 minutes. Drink warm in the morning or evening.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?loose,leaf,tea,herbs,india" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Loose leaf herbal tea" />
+            <img src="https://source.unsplash.com/featured/800x450/?loose,leaf,tea,herbs,india" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Loose leaf herbal tea" />
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
