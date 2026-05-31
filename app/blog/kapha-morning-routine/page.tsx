@@ -16,8 +16,8 @@ export const metadata = {
 }
 export default function KaphaMorningRoutinePage() {
   return (
-    <main>
-        <article>
+    <main style={{ minHeight: "100vh", backgroundColor: "#fdf8f3" }}>
+        <article style={{ padding: "48px 24px" }}>
           <header>
             <time>June 3, 2026</time>
             <h1>
@@ -27,6 +27,7 @@ export default function KaphaMorningRoutinePage() {
               By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
+          <div style={{ maxWidth: "680px", margin: "0 auto" }}>
           <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
             Waking up is hardest for Kapha. This is not a character flaw. It is physiology. Kapha time is 6am to 10am — the period when the heavy, slow, stable quality of Kapha dominates. Waking within this window means waking into Kapha&apos;s gravitational pull: the desire to stay horizontal, the fog that takes longer to clear than it should, the sense that the day has not yet started regardless of how much time has passed since the alarm. The Ayurvedic morning routine for Kapha is not gentle. It is specifically designed to counter Kapha&apos;s qualities — and since those qualities include inertia, the routine needs to be vigorous enough to overcome them.
           </p>
@@ -92,7 +93,8 @@ export default function KaphaMorningRoutinePage() {
             </Link>
           </div>
         <ContinueJourney />
-      </article>
+          </div>
+        </article>
       </main>
     )
   }

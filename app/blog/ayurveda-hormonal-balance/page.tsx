@@ -34,7 +34,7 @@ export default function AyurvedaHormonalBalancePage() {
         </div>
       </nav>
       {/* Article */}
-      <article>
+      <article style={{ padding: "48px 24px" }}>
         {/* Post Header */}
         <header>
           <time>May 28, 2026</time>
@@ -45,6 +45,8 @@ export default function AyurvedaHormonalBalancePage() {
             By <span>Alex</span> · Written during study and treatment in Kerala, India.
           </p>
         </header>
+          <div style={{ maxWidth: "680px", margin: "0 auto" }}>
+            
         {/* Post Content */}
         <div>
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
@@ -104,6 +106,7 @@ export default function AyurvedaHormonalBalancePage() {
           </p>
         </div>
       <ContinueJourney />
+            </div>
       </article>
       {/* Footer */}
       <footer>

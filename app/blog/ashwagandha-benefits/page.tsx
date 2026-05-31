@@ -18,9 +18,10 @@ export const metadata = {
 }
 export default function AshwaganhaBenefitsPage() {
   return (
-    <main>
-        <article>
-          <header>
+    <main style={{ minHeight: "100vh", backgroundColor: "#fdf8f3" }}>
+        <article style={{ padding: "48px 24px" }}>
+          <div style={{ maxWidth: "680px", margin: "0 auto" }}>
+            <header>
             <time>June 3, 2026</time>
             <h1>
               Ashwagandha Benefits: What the Research Actually Says (And What Ayurveda Has Known for 3,000 Years)
@@ -86,6 +87,7 @@ export default function AshwaganhaBenefitsPage() {
               Alex is the founder of DoshaFlow. <Link href="/quiz">Take the dosha quiz</Link> · <Link href="/blog">Read more articles</Link>
             </p>
           </div>
+            </div>
         </article>
       </main>
     )

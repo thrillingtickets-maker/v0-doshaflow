@@ -16,8 +16,8 @@ export const metadata = {
 }
 export default function AyurvedaAlcoholRecoveryPage() {
   return (
-    <main>
-        <article>
+    <main style={{ minHeight: "100vh", backgroundColor: "#fdf8f3" }}>
+        <article style={{ padding: "48px 24px" }}>
           <header>
             <time>June 6, 2026</time>
             <h1>
@@ -27,6 +27,7 @@ export default function AyurvedaAlcoholRecoveryPage() {
               By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
+          <div style={{ maxWidth: "680px", margin: "0 auto" }}>
           <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
             I am writing this from an Ayurvedic retreat in Kerala where one of my primary reasons for being here is alcohol. Not in crisis — but in the middle of a pattern that has been costing me in ways I could no longer ignore. Sleep, anxiety, body composition, the particular low that follows every high. The cycle that most people who drink regularly will recognise at some level, even if they are not ready to name it. I am going to write about what Ayurveda actually offers people who are trying to change their relationship with alcohol.
           </p>
@@ -68,7 +69,8 @@ export default function AyurvedaAlcoholRecoveryPage() {
             </Link>
           </div>
         <ContinueJourney />
-      </article>
+          </div>
+        </article>
       </main>
     )
   }

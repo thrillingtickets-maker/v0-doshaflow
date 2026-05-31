@@ -29,6 +29,7 @@ export default function AyurvedaColdSmoothiesPage() {
         </div>
       </header>
       <main>
+          <div style={{ maxWidth: "680px", margin: "0 auto" }}>; $i          </div>
         <article>
           <header style={{ marginBottom: "48px" }}>
             <time style={{ fontSize: "14px", color: "#7a6a58" }}>May 28, 2026</time>

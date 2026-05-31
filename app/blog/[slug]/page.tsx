@@ -3,6 +3,7 @@ import { ArticleHero } from "@/components/article-hero"
 import { highlightMap } from "@/lib/article-colors"
 import { ArrowLeft } from "lucide-react"
 import { notFound } from "next/navigation"
+import Link from "next/link"
 
 export async function generateStaticParams() {
   const posts = getAllPosts()
@@ -36,37 +37,37 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const highlightWord = highlightMap[slug]
 
   return (
-    <main>
+    <main style={{ minHeight: "100vh", backgroundColor: "#fdf8f3" }}>
       <ArticleHero
         title={post.title}
         category={post.category}
         date={post.date}
         highlightWord={highlightWord}
       />
-      <article className="pt-12 pb-24 px-6">
-        <div className="max-w-3xl mx-auto">
+      <article style={{ padding: "48px 24px", paddingBottom: "96px" }}>
+        <div style={{ maxWidth: "680px", margin: "0 auto" }}>
           {/* Back Link */}
-          <a
+          <Link
             href="/blog"
-            className="inline-flex items-center gap-2 text-[#8a7a5a] text-sm mb-10 hover:underline cursor-pointer"
+            style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#8a7a5a", fontSize: "14px", marginBottom: "40px", textDecoration: "none", cursor: "pointer" }}
           >
             <ArrowLeft size={16} />
             Back to Blog
-          </a>
+          </Link>
           {/* Post Content */}
           <div
-            className="prose prose-lg max-w-none text-foreground mb-12"
+            style={{ color: "#2c1a0e", lineHeight: 1.75 }}
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
           {/* Post Footer - Back Link */}
-          <footer className="mt-16 pt-8 border-t border-[#e8d9c5]">
-            <a
+          <footer style={{ marginTop: "64px", paddingTop: "32px", borderTop: "1px solid #e8d9c5" }}>
+            <Link
               href="/blog"
-              className="inline-flex items-center gap-2 text-[#8a7a5a] text-sm hover:underline cursor-pointer"
+              style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#8a7a5a", fontSize: "14px", textDecoration: "none", cursor: "pointer" }}
             >
               <ArrowLeft size={16} />
               Back to all posts
-            </a>
+            </Link>
           </footer>
         </div>
       </article>

@@ -18,8 +18,8 @@ export const metadata = {
 }
 export default function AyurvedicSkinGuidePage() {
   return (
-    <main>
-        <article>
+    <main style={{ minHeight: "100vh", backgroundColor: "#fdf8f3" }}>
+        <article style={{ padding: "48px 24px" }}>
           <header>
             <time>June 15, 2026</time>
             <h1>
@@ -29,6 +29,7 @@ export default function AyurvedicSkinGuidePage() {
               By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
+          <div style={{ maxWidth: "680px", margin: "0 auto" }}>
           <div style={{ lineHeight: 1.75 }}>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
@@ -100,6 +101,7 @@ export default function AyurvedicSkinGuidePage() {
               Alex is the founder of DoshaFlow. <Link href="/quiz">Take the dosha quiz</Link> · <Link href="/blog">Read more articles</Link>
             </p>
           </div>
+            </div>
         </article>
       </main>
     )
