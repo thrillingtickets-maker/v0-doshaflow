@@ -124,7 +124,7 @@ export default function BlogPage() {
     <main>
       <Navigation />
       {/* Hero Section */}
-      <section>
+      <section style={{ paddingTop: "120px", paddingBottom: "32px" }}>
         <div>
           <h1>
             Articles
