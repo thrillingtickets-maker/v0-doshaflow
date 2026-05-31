@@ -193,7 +193,7 @@ export default function BlogPage() {
                   style={{
                     backgroundColor: isRetreatJournal ? "#fdf6ee" : "#ffffff",
                     border: isRetreatJournal ? "1px solid rgba(0, 0, 0, 0.08)" : "1px solid rgba(0, 0, 0, 0.08)",
-                    borderLeft: isRetreatJournal ? "3px solid #d4a574" : undefined,
+                    borderLeft: isRetreatJournal ? "2px solid #d4a574" : undefined,
                     borderRadius: "8px",
                     padding: "32px",
                     marginBottom: "32px",
@@ -214,12 +214,12 @@ export default function BlogPage() {
                   <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
                     {isRetreatJournal && (
                       <div style={{
-                        fontSize: "11px",
+                        fontSize: "10px",
                         fontStyle: "italic",
                         color: "#b5763a",
                         marginBottom: "8px",
                       }}>
-                        📍 Kerala · Retreat Journal
+                        📍 Kerala
                       </div>
                     )}
                     <time style={{
