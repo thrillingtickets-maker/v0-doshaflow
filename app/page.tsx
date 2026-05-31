@@ -29,18 +29,35 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Navigation />
+      {/* (1) Hero with headline and quiz CTA button */}
       <Hero />
+      
+      {/* (2) Value proposition line */}
+      <section className="px-6 py-8 md:py-12 text-center bg-background">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+            Personalized Ayurveda for sleep, digestion, stress, and recovery.
+          </p>
+        </div>
+      </section>
+      
+      {/* (3) Explore By Goal section with symptom cards */}
       <ExploreByGoal />
-      <Features />
-      <MealPlans />
-      <Workouts />
-      <DigestiveTracking />
+      
+      {/* (4) Explore By Dosha section with Vata/Pitta/Kapha cards */}
       <ExploreAyurveda />
+      
+      {/* (5) Featured Guides section (Start Here) */}
       <StartHere />
+      
+      {/* (6) Sample Reports preview section */}
       <PopularArticles />
+      
+      {/* (7) Retreat Journal preview */}
       <section id="testimonials">
         <Testimonials />
       </section>
+      
       <Waitlist />
       <Footer />
     </main>
