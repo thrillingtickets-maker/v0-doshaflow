@@ -1,6 +1,8 @@
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { posts } from "@/lib/posts";
+import { ArticleHero } from "@/components/article-hero";
+import { highlightMap } from "@/lib/article-colors";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 
@@ -24,6 +26,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 
 export default function ArticlePage({ params }: { params: { slug: string } }) {
   const post = posts.find((p) => p.slug === params.slug);
+  const highlightWord = highlightMap[params.slug];
 
   if (!post) {
     notFound();
@@ -32,17 +35,15 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
   return (
     <>
       <Navigation />
+      <ArticleHero
+        title={post.title}
+        category={post.category}
+        date={post.date}
+        highlightWord={highlightWord}
+      />
       <main className="min-h-screen bg-background">
         <article className="w-full max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-20">
-          {/* Article Header */}
-          <header className="mb-12">
-            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground leading-tight mb-4">
-              {post.title}
-            </h1>
-            <p className="text-muted-foreground">
-              By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
-            </p>
-          </header>
+          {/* Article Header removed - now using ArticleHero */}
 
           {/* Article Content */}
           <div

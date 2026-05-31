@@ -1,21 +1,22 @@
 "use client"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
+import { ArticleHero } from "@/components/article-hero"
 import Link from "next/link"
 
 export default function PittaDietPlanPage() {
   return (
     <main className="min-h-screen bg-background">
       <Navigation />
+      <ArticleHero
+        title="Pitta Diet Plan: The Foods That Cool"
+        category="wellness"
+        date="May 29, 2026"
+        highlightWord="Diet"
+      />
 
       <article className="pt-32 pb-24 px-6">
         <div className="max-w-3xl mx-auto">
-          <header className="mb-12">
-            <time className="text-muted-foreground text-sm">April 20, 2026</time>
-            <h1 className="font-serif text-5xl md:text-6xl text-foreground mb-4 mt-4">
-              Pitta Diet Plan: How to Cool the Fire Without Losing the Edge
-            </h1>
-          </header>
 
           <div className="prose prose-lg max-w-none text-foreground mb-12">
             <p>Pitta types are often high achievers. Ambitious. Driven. They also tend to run hot — prone to inflammation, skin issues, irritability, and burnout. They drink too much coffee to sustain the intensity. They skip meals because there is no time. They eat spicy food because it feels stimulating. All of this feeds the Pitta fire higher.</p>

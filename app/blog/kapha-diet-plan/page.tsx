@@ -1,21 +1,22 @@
 "use client"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
+import { ArticleHero } from "@/components/article-hero"
 import Link from "next/link"
 
 export default function KaphaDietPlanPage() {
   return (
     <main className="min-h-screen bg-background">
       <Navigation />
+      <ArticleHero
+        title="Kapha Diet Plan: The Foods That Activate"
+        category="wellness"
+        date="May 30, 2026"
+        highlightWord="Diet"
+      />
 
       <article className="pt-32 pb-24 px-6">
         <div className="max-w-3xl mx-auto">
-          <header className="mb-12">
-            <time className="text-muted-foreground text-sm">April 24, 2026</time>
-            <h1 className="font-serif text-5xl md:text-6xl text-foreground mb-4 mt-4">
-              Kapha Diet Plan: How to Eat for Energy When Your Body Wants to Do Nothing
-            </h1>
-          </header>
 
           <div className="prose prose-lg max-w-none text-foreground mb-12">
             <p>Kapha types often describe the same pattern: I can gain weight just by looking at food. I have a slow metabolism. Everything feels heavy. My energy dies in the afternoon. What works for my Pitta friend makes me more sluggish.</p>

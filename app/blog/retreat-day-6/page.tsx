@@ -1,6 +1,7 @@
 "use client"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
+import { ArticleHero } from "@/components/article-hero"
 import Link from "next/link"
 
 export default function RetreatDay6Page() {
@@ -8,21 +9,17 @@ export default function RetreatDay6Page() {
     <main className="min-h-screen bg-background">
       <Navigation />
 
+      <ArticleHero
+        title="Day 6: The Enema, the Standoff, and the Temple Behind the Bodega"
+        category="journal"
+        date="May 30, 2026"
+        highlightWord="Day"
+      />
+
       {/* Article Content */}
-      <article className="pt-32 pb-24 px-6">
+      <article className="pt-12 pb-24 px-6">
         <div className="max-w-3xl mx-auto">
-          {/* Header */}
-          <header className="mb-12">
-            <div className="flex items-center gap-3 mb-6">
-              <span className="text-sm font-medium text-[#C97F3D]">Alex</span>
-              <span className="text-sm text-muted-foreground">·</span>
-              <span className="text-sm text-muted-foreground">Ayurvedic Retreat, Day 6</span>
-            </div>
-            <h1 className="font-serif text-5xl md:text-6xl text-foreground mb-4">
-              Day 6: The Enema, the Standoff, and the Temple Behind the Bodega
-            </h1>
-            <time className="text-muted-foreground">May 30, 2026</time>
-          </header>
+          {/* Header removed - now using ArticleHero */}
 
           {/* Article Body */}
           <div className="prose prose-lg max-w-none text-foreground mb-12">
