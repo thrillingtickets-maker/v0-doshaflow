@@ -1,5 +1,4 @@
 import Link from "next/link"
-
 export const metadata = {
   title: "Retreat Journal Day 4: What a Vata Type Gets Wrong About Exercise",
   description: "Day 4 at an Ayurvedic retreat in Kerala: the doctor tells me to stop moving, shirodhara finally works, and I reckon with how much I&apos;ve been avoiding the whole point of being here.",
@@ -14,7 +13,6 @@ export const metadata = {
     canonical: "https://www.doshaflow.com/blog/retreat-day-4",
   }
 }
-
 export default function RetreatDay4Page() {
   return (
     <div style={{ minHeight: "100vh", backgroundColor: "#fdf8f3" }}>
@@ -30,14 +28,11 @@ export default function RetreatDay4Page() {
           </h1>
           <p style={{ color: "#9a7a5a" }}>By <span style={{ color: "#2c1a0e", fontWeight: 500 }}>Alex</span> · DoshaFlow</p>
         </header>
-
         <article style={{ color: "#2c1a0e", lineHeight: 1.75 }}>
           <p style={{ marginBottom: "20px" }}>It&apos;s 8:30pm on Thursday. My fourth day here.</p>
           
           <p style={{ marginBottom: "20px" }}>I got about four hours and forty minutes of sleep last night, which is not ideal for someone who is at a wellness retreat specifically to rest. I know exactly why: I was on screens until too late. I know this. I have known this my whole life. It&apos;s one of those things that&apos;s very easy to understand and extremely hard to actually do differently.</p>
-
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
           <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>The Step Count Situation</h2>
           
           <p style={{ marginBottom: "20px" }}>This morning I woke up at 6am and immediately went for a walk. I&apos;d gotten 15,000 steps yesterday and wanted to keep the momentum going. I was feeling good about this. Proud, even. I&apos;m the guy who&apos;s taking care of himself. Very well.</p>
@@ -61,9 +56,7 @@ export default function RetreatDay4Page() {
           <p style={{ marginBottom: "20px" }}>The thing is, when I woke up this morning, all I wanted to do was jog. Do push-ups. Move. And apparently those are precisely the things I&apos;m not supposed to be doing.</p>
           
           <p style={{ marginBottom: "20px" }}>This is the particular cruelty of the doshas: you crave what aggravates you.</p>
-
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
           <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>The Treatments</h2>
           
           <p style={{ marginBottom: "20px" }}>Yesterday was rough. Day three included nasya — oil drops in the nose, a traditional Ayurvedic treatment for sinus health. I&apos;ve had multiple septum surgeries, which means my nose is already working against me. The drops burned the entire time. I sat there trying to look like I was having a transcendent experience while my sinuses were on fire.</p>
@@ -75,9 +68,7 @@ export default function RetreatDay4Page() {
           <p style={{ marginBottom: "20px" }}>This afternoon I also had an abdominal massage — warm oils, specific pressure, and they placed a ginger compress in my navel, which is apparently a treatment for digestion and grounding. It sounds strange. It felt grounding in a way I didn&apos;t expect.</p>
           
           <p style={{ marginBottom: "20px" }}>The treatments here are cumulative. You don&apos;t feel them fully until the third or fourth day, which is about where I am now.</p>
-
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
           <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>What I&apos;m Actually Getting Wrong</h2>
           
           <p style={{ marginBottom: "20px" }}>I need to be honest about something.</p>
@@ -91,17 +82,13 @@ export default function RetreatDay4Page() {
           <p style={{ marginBottom: "20px" }}>I met the yoga teacher today, who is genuinely the most relaxed person I have ever encountered. He guides the meditation, the breathing, and the yoga. I&apos;m supposed to start tomorrow. My first session.</p>
           
           <p style={{ marginBottom: "20px" }}>It&apos;s day four and I&apos;m just starting yoga tomorrow. I&apos;m not proud of this.</p>
-
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
           <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>The Weight Thing</h2>
           
           <p style={{ marginBottom: "20px" }}>I&apos;ve been eating less than I ever eat at home — healthy food, tiny portions, zero alcohol. I&apos;m walking. I assumed the weight would just fall off. It hasn&apos;t. I&apos;m hovering around 165 pounds. Same as I arrived.</p>
           
           <p style={{ marginBottom: "20px" }}>The practitioners here are unsurprised. The body doesn&apos;t change on the timeline we want it to. It&apos;s adjusting, withdrawing, recalibrating. The weight shifts come after the internal systems have had time to settle.</p>
-
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
           <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>What I&apos;m Learning</h2>
           
           <p style={{ marginBottom: "20px" }}>The doctor today said something useful: strength training is fine for Vata types. It&apos;s grounding, it builds structure, it doesn&apos;t overstimulate the nervous system the way cardio does. What I need to reduce is the high-intensity stuff — the HIIT classes I love, the long aggressive walks I use to manage anxiety.</p>
@@ -113,9 +100,7 @@ export default function RetreatDay4Page() {
           <p style={{ marginBottom: "20px" }}>I genuinely think these programs require longer than two weeks to fully land. At some point you can&apos;t avoid yourself anymore. The laptop battery runs out. You have to just be here.</p>
           
           <p style={{ marginBottom: "20px" }}>I&apos;m not there yet. But I can feel the edge of it.</p>
-
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
           <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>Tonight</h2>
           
           <p style={{ marginBottom: "20px" }}>I&apos;m going to put the laptop away earlier. I&apos;m going to try the 10pm bedtime thing that every practitioner here has recommended and that I have resisted for four days.</p>
@@ -123,19 +108,13 @@ export default function RetreatDay4Page() {
           <p style={{ marginBottom: "20px" }}>Tomorrow: yoga. Meditation. Fewer steps. More stillness.</p>
           
           <p style={{ marginBottom: "20px" }}>This is apparently what taking care of myself looks like, and it is significantly harder than the 15,000-step version.</p>
-
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
           <p style={{ marginBottom: "20px", fontStyle: "italic" }}>Alex is the founder of DoshaFlow, currently at an Ayurvedic retreat in Kerala, India. <Link href="/quiz" style={{ color: "#9a7a5a" }}>Take the dosha quiz</Link> at doshaflow.com/quiz</p>
-
           <p style={{ marginTop: "48px", marginBottom: "16px", fontSize: "14px", fontWeight: 600, color: "#2c1a0e" }}>
             Related Articles: <Link href="/blog/signs-of-high-cortisol" style={{ color: "#c49a6c", textDecoration: "underline" }}>Signs of High Cortisol</Link> · <Link href="/blog/best-herbs-for-anxiety" style={{ color: "#c49a6c", textDecoration: "underline" }}>Best Herbs for Anxiety</Link>
           </p>
-
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
           <h3 style={{ fontSize: "18px", fontWeight: 700, marginTop: "40px", marginBottom: "20px", color: "#2c1a0e" }}>Related Guides</h3>
-
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))", gap: "16px", marginBottom: "40px" }}>
             <Link href="/blog/signs-of-high-cortisol" style={{ padding: "16px", backgroundColor: "#f5ece0", border: "1px solid #e8d9c5", borderRadius: "8px", textDecoration: "none", color: "#c49a6c", fontWeight: 500, textAlign: "center", fontSize: "14px", transition: "all 0.2s" }}>
               High Cortisol Signs

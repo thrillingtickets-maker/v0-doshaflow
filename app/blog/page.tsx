@@ -1,12 +1,10 @@
 "use client"
-
 import { useState, useMemo } from "react"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { getAllPosts } from "@/lib/posts"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
-
 const FILTER_CATEGORIES = [
   "All",
   "Doshas",
@@ -19,20 +17,16 @@ const FILTER_CATEGORIES = [
   "Weight Loss",
   "Retreat Journal",
 ]
-
 function getArticleFilters(slug: string, category: string): string[] {
   const filters = ["All"]
-
   if (category === "journal") {
     filters.push("Retreat Journal")
     return filters
   }
-
   // Tea articles
   if (slug.includes("tea")) {
     filters.push("Tea")
   }
-
   // Dosha guide articles
   if (
     slug.includes("dosha") ||
@@ -42,7 +36,6 @@ function getArticleFilters(slug: string, category: string): string[] {
   ) {
     filters.push("Doshas")
   }
-
   // Digestion and bloating
   if (
     slug.includes("bloat") ||
@@ -51,7 +44,6 @@ function getArticleFilters(slug: string, category: string): string[] {
   ) {
     filters.push("Digestion")
   }
-
   // Stress and anxiety
   if (
     slug.includes("anxiety") ||
@@ -62,12 +54,10 @@ function getArticleFilters(slug: string, category: string): string[] {
   ) {
     filters.push("Stress & Anxiety")
   }
-
   // Sleep
   if (slug.includes("sleep") || slug.includes("tired")) {
     filters.push("Sleep")
   }
-
   // Women&apos;s health
   if (
     slug.includes("pms") ||
@@ -77,12 +67,10 @@ function getArticleFilters(slug: string, category: string): string[] {
   ) {
     filters.push("Women&apos;s Health")
   }
-
   // Men&apos;s health
   if (slug.includes("men")) {
     filters.push("Men&apos;s Health")
   }
-
   // Weight loss
   if (
     slug.includes("weight") ||
@@ -91,10 +79,8 @@ function getArticleFilters(slug: string, category: string): string[] {
   ) {
     filters.push("Weight Loss")
   }
-
   return filters
 }
-
 const MONTHS: Record<string, number> = {
   january: 0,
   february: 1,
@@ -109,7 +95,6 @@ const MONTHS: Record<string, number> = {
   november: 10,
   december: 11,
 }
-
 function parsePostDate(date: string): number {
   const match = date.trim().match(/^([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})$/)
   if (!match) {
@@ -121,14 +106,11 @@ function parsePostDate(date: string): number {
   if (month === undefined) return 0
   return new Date(Number(year), month, Number(day)).getTime()
 }
-
 export default function BlogPage() {
   const [selectedFilter, setSelectedFilter] = useState("All")
-
   const allPosts = getAllPosts()
     .filter((post) => post.category === "article" || post.category === "journal")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
-
   const filteredPosts = useMemo(() => {
     if (selectedFilter === "All") {
       return allPosts
@@ -138,11 +120,9 @@ export default function BlogPage() {
       return filters.includes(selectedFilter)
     })
   }, [selectedFilter, allPosts])
-
   return (
     <main className="min-h-screen bg-background">
       <Navigation />
-
       {/* Hero Section */}
       <section className="pt-32 pb-16 px-6">
         <div className="max-w-4xl mx-auto text-center">
@@ -154,7 +134,6 @@ export default function BlogPage() {
           </p>
         </div>
       </section>
-
       {/* Filter Pills */}
       <section className="pb-12 px-6">
         <div className="max-w-5xl mx-auto">
@@ -175,7 +154,6 @@ export default function BlogPage() {
           </div>
         </div>
       </section>
-
       {/* Blog Posts Grid */}
       <section className="pb-24 px-6">
         <div className="max-w-5xl mx-auto">
@@ -208,7 +186,6 @@ export default function BlogPage() {
               </article>
             ))}
           </div>
-
           {filteredPosts.length === 0 && (
             <div className="text-center py-16">
               <p className="text-muted-foreground">
@@ -218,7 +195,6 @@ export default function BlogPage() {
           )}
         </div>
       </section>
-
       <Footer />
     </main>
   )
