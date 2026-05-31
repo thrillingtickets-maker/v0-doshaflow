@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Best Tea for Vata Dosha: Daily Drinks That Ground an Overactive Nervous System",
   description: "The best teas for Vata — ashwagandha, ginger, cardamom, jatamansi — and when to drink them for digestion, anxiety, and sleep. The complete Vata tea guide.",
@@ -75,6 +76,7 @@ export default function BestTeaForVataPage() {
               Coffee on an empty stomach — the most consistently Vata-aggravating daily habit. It stimulates the nervous system without grounding it, spikes cortisol, and creates the alert-anxious state that is already Vata&apos;s default. One cup after food, with cardamom, is much less aggravating. Cold tea — always drink warm. Green tea and caffeinated teas in excess increase the mobile, active quality of Vata.
             </p>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <ContinueJourney />
             <div style={{ 
               backgroundColor: "#f5ede1", 
               padding: "24px", 

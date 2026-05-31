@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Eating for Your Dosha: The Ayurvedic Diet Guide for Vata, Pitta, and Kapha",
   description: "Ayurvedic eating isn&apos;t a diet — it&apos;s a framework for matching food to your constitution. Learn what to eat for Vata, Pitta, and Kapha doshas with practical, specific guidance.",
@@ -124,7 +125,8 @@ export default function EatingForYourDoshaPage() {
           <p style={{ marginBottom: "20px" }}>That&apos;s what eating for your dosha actually is: food as medicine, personalized to the body you actually have.</p>
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
           <p style={{ marginBottom: "20px", fontStyle: "italic" }}>Alex is the founder of DoshaFlow, currently at an Ayurvedic retreat in Kerala, India. <Link href="/quiz" style={{ color: "#9a7a5a" }}>Take the dosha quiz</Link> at doshaflow.com/quiz</p>
-        </article>
+        <ContinueJourney />
+      </article>
       </div>
     </div>
   )

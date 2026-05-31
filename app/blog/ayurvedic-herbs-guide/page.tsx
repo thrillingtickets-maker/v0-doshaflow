@@ -2,6 +2,7 @@ import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Ayurvedic Herbs: A Practical Guide to Ashwagandha, Triphala, Brahmi & More",
   description: "A practical guide to the most important Ayurvedic herbs — what they do, the evidence behind them, and how to match them to your dosha type.",
@@ -143,6 +144,7 @@ export default function AyurvedicHerbsGuidePage() {
             </Link>
           </footer>
         </div>
+      <ContinueJourney />
       </article>
       <Footer />
     </main>

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Kapha Morning Routine: How to Actually Wake Up",
   description: "The Ayurvedic morning routine for Kapha — why waking before 6am matters, why breakfast should be skipped, and why vigorous exercise before eating is non-negotiable for Kapha types.",
@@ -90,7 +91,8 @@ export default function KaphaMorningRoutinePage() {
               Take the Free Dosha Quiz
             </Link>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
       </main>
     )
   }

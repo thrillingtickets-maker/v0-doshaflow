@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Why Your 40s Are Supposed to Feel Different: The Ayurvedic Map of Life",
   description:
@@ -177,7 +178,8 @@ export default function AyurvedaAgingPage() {
               </Link>
             </div>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
       </main>
     )
 }

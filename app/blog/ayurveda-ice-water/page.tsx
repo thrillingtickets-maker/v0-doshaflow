@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Why Ayurveda Says You Should Never Drink Ice Water (And Why It&apos;s Probably Right)",
   description:
@@ -191,7 +192,8 @@ export default function AyurvedaIceWaterPage() {
               </Link>
             </div>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
       </main>
     )
 }

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Ayurveda Has Its Own Version of Alcohol. Here&apos;s What the Texts Actually Say.",
   description:
@@ -161,7 +162,8 @@ export default function AyurvedaAlcoholPage() {
               </Link>
             </div>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
       </main>
     )
 }

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Day 5: I Watched the NBA Finals at 6am, Got Poured Buttermilk on My Head, and Still Can&apos;t Turn My Brain Off",
   description: "Day 5 of a Kerala Ayurvedic retreat — 3.5 hours of sleep, a surprise buttermilk treatment, the sound bath that only worked from the neck down, and the laptop incident.",
@@ -72,6 +73,7 @@ export default function RetreatDay5Page() {
             </Link>
           </div>
         </div>
+      <ContinueJourney />
       </article>
     </main>
   )

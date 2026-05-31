@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Kapha Foods to Avoid: Why You Feel Heavy, Tired, and Stuck",
   description: "The complete list of foods that aggravate Kapha dosha — dairy, wheat, sweets, cold food, and large portions. Why each one makes Kapha fatigue and weight gain worse.",
@@ -97,6 +98,7 @@ export default function KaphaFoodsToAvoidPage() {
             Take the Free Dosha Quiz
           </Link>
         </div>
+      <ContinueJourney />
       </article>
     </main>
   )

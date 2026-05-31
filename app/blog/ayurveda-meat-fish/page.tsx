@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Can You Eat Meat and Fish on an Ayurvedic Diet? The Answer Is More Complicated Than You Think.",
   description:
@@ -232,7 +233,8 @@ export default function AyurvedaMeatFishPage() {
               </Link>
             </div>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
       </main>
     )
 }

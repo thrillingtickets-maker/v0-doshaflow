@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Why Working Out the Same Way Every Day Is Making You Worse (According to Ayurveda)",
   description:
@@ -180,7 +181,8 @@ export default function AyurvedaExercisePage() {
               </Link>
             </div>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
       </main>
     )
 }

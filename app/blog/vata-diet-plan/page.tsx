@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Vata Diet Plan: What to Eat, What to Avoid, and How to Fix Your Digestion",
   description:
@@ -108,6 +109,7 @@ export default function VataDietPlanPage() {
             </Link>
           </div>
         </div>
+      <ContinueJourney />
       </article>
     </main>
   )

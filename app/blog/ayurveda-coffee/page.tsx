@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "The Ayurvedic Take on Coffee: Should You Drink It or Give It Up?",
   description: "Ayurveda has a nuanced take on coffee — it depends on your dosha. Here&apos;s how coffee affects Vata, Pitta, and Kapha types, and how to make it work better for your constitution.",
@@ -85,7 +86,8 @@ export default function AyurvedaCoffeePage() {
               Alex is the founder of DoshaFlow, currently at an Ayurvedic retreat in Kerala, India. <Link href="/quiz">Take the dosha quiz</Link> · <Link href="/blog">Read the retreat journal</Link>
             </p>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
       </main>
     )
 }

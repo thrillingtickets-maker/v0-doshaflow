@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Vata Foods to Avoid: What Is Making Your Anxiety and Digestion Worse",
   description: "The complete list of foods that aggravate Vata dosha — cold food, dry snacks, caffeine, carbonated drinks, and irregular eating. Why each one makes Vata symptoms worse.",
@@ -90,7 +91,8 @@ export default function VataFoodsToAvoidPage() {
               Take the Free Dosha Quiz
             </Link>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
       </main>
     )
   }

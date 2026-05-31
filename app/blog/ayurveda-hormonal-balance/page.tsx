@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Ayurveda for Hormonal Balance: What the Ancient System Gets Right",
   description: "Ayurveda offers a sophisticated framework for women&apos;s hormonal health — from dosha-specific patterns to herbs like Shatavari and Ashwagandha. Here&apos;s what I&apos;ve learned.",
@@ -102,6 +103,7 @@ export default function AyurvedaHormonalBalancePage() {
             Alex is the founder of DoshaFlow, currently at an Ayurvedic retreat in Kerala, India. <Link href="/quiz">Take the dosha quiz</Link> · <Link href="/blog">Read the retreat journal</Link>
           </p>
         </div>
+      <ContinueJourney />
       </article>
       {/* Footer */}
       <footer>

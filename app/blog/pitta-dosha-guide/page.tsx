@@ -1,4 +1,5 @@
-import Link from "next/link";
+import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey";
 export const metadata = {
   title: "Pitta Dosha: Signs of Imbalance and How to Cool Down",
   description: "Pitta dosha governs fire, digestion, and ambition. Learn the signs of Pitta imbalance — inflammation, irritability, burnout — and exactly how to bring it back into balance.",
@@ -120,7 +121,8 @@ export default function PittaDoshaGuidePage() {
           <p style={{ marginBottom: "20px", lineHeight: 1.75, fontStyle: "italic" }}>
             Alex is the founder of DoshaFlow. <Link href="/quiz" style={{ color: "#9a7a5a" }}>Take the dosha quiz →</Link> · <Link href="/blog" style={{ color: "#9a7a5a" }}>Read the retreat journal →</Link>
           </p>
-        </article>
+        <ContinueJourney />
+      </article>
       </div>
     </div>
   );

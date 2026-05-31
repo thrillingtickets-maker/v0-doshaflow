@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Best Ayurvedic Herbs for Anxiety: What Actually Works and Why",
   description:
@@ -100,6 +101,7 @@ export default function BestHerbsForAnxietyPage() {
               Ayurveda is not a replacement for psychiatric treatment when that is appropriate. If you are experiencing severe anxiety limiting daily function, work with a qualified clinician. What Ayurveda offers is a complementary approach that addresses constitutional and lifestyle factors that make anxiety more likely — and builds resilience over time.
             </p>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <ContinueJourney />
             <div style={{ 
               backgroundColor: "#f5ede1", 
               padding: "24px", 
@@ -125,6 +127,7 @@ export default function BestHerbsForAnxietyPage() {
               </div>
             </div>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <ContinueJourney />
             <div style={{ 
               backgroundColor: "#f5ede1", 
               padding: "24px", 

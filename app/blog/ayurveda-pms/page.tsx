@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "The Ayurvedic Approach to PMS: Three Patterns and What to Do About Each",
   description: "Ayurveda identifies three distinct PMS patterns — Vata, Pitta, and Kapha — each with different causes and different remedies. Here&apos;s how to identify yours and what actually helps.",
@@ -94,7 +95,8 @@ export default function AyurvedaPmsPage() {
           <p style={{ marginBottom: "20px" }}>Add Shatavari. Give it three cycles.</p>
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
           <p style={{ marginBottom: "20px", fontStyle: "italic" }}>Alex is the founder of DoshaFlow, currently at an Ayurvedic retreat in Kerala, India. <Link href="/quiz" style={{ color: "#9a7a5a" }}>Take the dosha quiz</Link> at doshaflow.com/quiz</p>
-        </article>
+        <ContinueJourney />
+      </article>
       </div>
     </div>
   )

@@ -1,4 +1,5 @@
-import Link from "next/link";
+import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey";
 export const metadata = {
   title: "Vata Dosha: Signs You&apos;re Out of Balance and How to Fix It",
   description: "Vata dosha governs movement, creativity, and the nervous system. Learn the signs of Vata imbalance — anxiety, dry skin, insomnia — and exactly how to bring it back into balance.",
@@ -100,6 +101,7 @@ export default function VataDoshaGuidePage() {
             Alex is the founder of DoshaFlow. <Link href="/quiz" style={{ color: "#c49a6c", textDecoration: "underline" }}>Take the dosha quiz →</Link> · <Link href="/blog" style={{ color: "#c49a6c", textDecoration: "underline" }}>Read the retreat journal →</Link>
           </p>
         </div>
+      <ContinueJourney />
       </article>
       </main>
     )

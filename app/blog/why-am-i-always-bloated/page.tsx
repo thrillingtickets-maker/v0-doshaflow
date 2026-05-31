@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Why Am I Always Bloated? The Ayurvedic Explanation (And What to Do About It)",
   description:
@@ -82,6 +83,7 @@ export default function WhyAmIAlwaysBloatedPage() {
               Not all bloating is Vata-origin. Pitta bloating tends to accompany inflammation — burning, acid, loose stool. It responds to cooling, anti-inflammatory herbs: shatavari, aloe vera, coriander. Kapha bloating is more likely fluid retention and puffiness than gas — it responds to stimulating and diuretic herbs: ginger, trikatu, dandelion.
             </p>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <ContinueJourney />
             <div style={{ 
               backgroundColor: "#f5ede1", 
               padding: "24px", 

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Burnout Through an Ayurvedic Lens: What&apos;s Actually Happening and How to Recover",
   description: "Ayurveda explains burnout as a depletion of ojas — vital essence — with specific patterns for Vata, Pitta, and Kapha types. Here&apos;s what the recovery actually looks like.",
@@ -94,7 +95,8 @@ export default function AyurvedaBurnoutPage() {
           <p style={{ marginBottom: "20px" }}>None of this is compatible with the culture that created the burnout in the first place. That&apos;s the hard part. Not the herbs, not the routine — but the decision that the pace needs to actually change, not just be managed better.</p>
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
           <p style={{ marginBottom: "20px", fontStyle: "italic" }}>Alex is the founder of DoshaFlow, currently at an Ayurvedic retreat in Kerala, India. <Link href="/quiz" style={{ color: "#9a7a5a" }}>Take the dosha quiz</Link> at doshaflow.com/quiz</p>
-        </article>
+        <ContinueJourney />
+      </article>
       </div>
     </div>
   )

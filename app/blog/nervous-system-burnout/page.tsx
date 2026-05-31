@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Signs of Nervous System Burnout — And the Ayurvedic Path Back",
   description: "Nervous system burnout is not ordinary tiredness. Here are the specific signs, what causes it in Ayurvedic terms, and the recovery protocol that actually works.",
@@ -72,7 +73,8 @@ export default function NervousSystemBurnoutPage() {
               Take the Free Dosha Quiz
             </Link>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
       </main>
     )
   }

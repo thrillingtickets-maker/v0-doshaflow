@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Kapha Dosha: Why You Feel Sluggish and What Actually Helps",
   description: "Kapha dosha governs stability, structure, and endurance. Learn the signs of Kapha imbalance — sluggishness, weight gain, low motivation — and how to get your energy moving again.",
@@ -131,7 +132,8 @@ export default function KaphaDoshaGuidePage() {
               Alex is the founder of DoshaFlow. <Link href="/quiz">Take the dosha quiz →</Link> · <Link href="/blog">Read the retreat journal →</Link>
             </p>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
       </main>
       {/* Footer */}
       <footer>

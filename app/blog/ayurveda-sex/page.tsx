@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "The Branch of Ayurveda Nobody Talks About: Sex, Vitality, and Vajikarana",
   description:
@@ -182,7 +183,8 @@ export default function AyurvedaSexPage() {
               </Link>
             </div>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
       </main>
     )
 }
