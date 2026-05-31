@@ -206,8 +206,7 @@ export default function BlogPage() {
                   </Link>
                 </div>
               </article>
-            )
-          })}
+            ))}
           </div>
 
           {filteredPosts.length === 0 && (
