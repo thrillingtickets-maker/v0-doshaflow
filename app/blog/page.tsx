@@ -135,18 +135,35 @@ export default function BlogPage() {
         </div>
       </section>
       {/* Filter Pills */}
-      <section>
-        <div>
-          <div>
+      <section style={{ paddingTop: "60px", paddingBottom: "48px", backgroundColor: "#ffffff" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
             {FILTER_CATEGORIES.map((filter) => (
               <button
                 key={filter}
                 onClick={() => setSelectedFilter(filter)}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                  selectedFilter === filter
-                    ? "bg-[#C97F3D] text-white shadow-md shadow-[#C97F3D]/20"
-                    : "bg-[#f5f1e8] text-[#5c4a3a] hover:bg-[#e8dcc8] border border-[#d9cbbe]"
-                }`}
+                style={{
+                  padding: "6px 16px",
+                  fontSize: "13px",
+                  fontWeight: 400,
+                  border: selectedFilter === filter ? "none" : "1px solid rgba(0, 0, 0, 0.12)",
+                  backgroundColor: selectedFilter === filter ? "#f5f0e8" : "transparent",
+                  color: selectedFilter === filter ? "#1a1a1a" : "#5a5048",
+                  borderRadius: "20px",
+                  cursor: "pointer",
+                  transition: "all 0.2s ease",
+                  fontFamily: "inherit",
+                }}
+                onMouseEnter={(e) => {
+                  if (selectedFilter !== filter) {
+                    (e.target as HTMLButtonElement).style.backgroundColor = "#f5f0e8";
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  if (selectedFilter !== filter) {
+                    (e.target as HTMLButtonElement).style.backgroundColor = "transparent";
+                  }
+                }}
               >
                 {filter}
               </button>
@@ -155,40 +172,109 @@ export default function BlogPage() {
         </div>
       </section>
       {/* Blog Posts Grid */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-3 gap-6">
-            {filteredPosts.map((post) => (
-              <article
-                key={post.slug}
-                className="bg-white border border-[#d9cbbe] rounded-lg p-6 hover:shadow-md transition-shadow duration-300 flex flex-col"
-              >
-                <div className="flex flex-col h-full">
-                  <time className="text-sm text-[#999999] font-normal">
-                    {post.date}
-                  </time>
-                  <h2 className="text-lg font-bold text-[#2c1a0e] mt-2 mb-3">
-                    <Link href={`/blog/${post.slug}`} className="hover:text-[#C97F3D] transition-colors">
-                      {post.title}
+      <section style={{ backgroundColor: "#ffffff", paddingBottom: "64px" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "48px" }}>
+            {filteredPosts.map((post) => {
+              const isRetreatJournal = post.slug.includes("retreat-day")
+              return (
+                <article
+                  key={post.slug}
+                  style={{
+                    backgroundColor: isRetreatJournal ? "#fdf8f3" : "#ffffff",
+                    border: "1px solid rgba(0, 0, 0, 0.08)",
+                    borderRadius: "8px",
+                    padding: "32px",
+                    marginBottom: "32px",
+                    transition: "all 0.2s ease",
+                    cursor: "pointer",
+                  }}
+                  onMouseEnter={(e) => {
+                    const element = e.currentTarget as HTMLElement;
+                    element.style.borderColor = "rgba(0, 0, 0, 0.15)";
+                    element.style.transform = "translateY(-2px)";
+                  }}
+                  onMouseLeave={(e) => {
+                    const element = e.currentTarget as HTMLElement;
+                    element.style.borderColor = "rgba(0, 0, 0, 0.08)";
+                    element.style.transform = "translateY(0)";
+                  }}
+                >
+                  <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
+                    {isRetreatJournal && (
+                      <div style={{
+                        fontSize: "10px",
+                        fontWeight: 700,
+                        letterSpacing: "0.1em",
+                        color: "#b5763a",
+                        textTransform: "uppercase",
+                        marginBottom: "10px",
+                      }}>
+                        Retreat Journal
+                      </div>
+                    )}
+                    <time style={{
+                      fontSize: "12px",
+                      color: "#9a8878",
+                      fontWeight: 400,
+                      letterSpacing: "0.05em",
+                      marginBottom: "10px",
+                    }}>
+                      {post.date}
+                    </time>
+                    <h2 style={{
+                      fontSize: "20px",
+                      fontWeight: 600,
+                      lineHeight: 1.35,
+                      marginBottom: "12px",
+                      color: "#1a1a1a",
+                    }}>
+                      <Link href={`/blog/${post.slug}`} style={{ color: "inherit", textDecoration: "none" }}>
+                        <span style={{ cursor: "pointer", transition: "color 0.2s ease" }}
+                          onMouseEnter={(e) => (e.currentTarget.style.color = "#b5763a")}
+                          onMouseLeave={(e) => (e.currentTarget.style.color = "#1a1a1a")}
+                        >
+                          {post.title}
+                        </span>
+                      </Link>
+                    </h2>
+                    <p style={{
+                      fontSize: "15px",
+                      fontWeight: 400,
+                      lineHeight: 1.7,
+                      color: "#5a5048",
+                      marginBottom: "20px",
+                      flex: 1,
+                    }}>
+                      {post.excerpt}
+                    </p>
+                    <Link
+                      href={`/blog/${post.slug}`}
+                      style={{
+                        display: "inline-flex",
+                        alignItems: "center",
+                        gap: "8px",
+                        color: "#b5763a",
+                        fontWeight: 500,
+                        fontSize: "13px",
+                        textDecoration: "none",
+                        cursor: "pointer",
+                        transition: "color 0.2s ease",
+                      }}
+                      onMouseEnter={(e) => (e.currentTarget.style.color = "#8d5428")}
+                      onMouseLeave={(e) => (e.currentTarget.style.color = "#b5763a")}
+                    >
+                      Read more
+                      <ArrowRight size={16} />
                     </Link>
-                  </h2>
-                  <p className="text-[#5c4a3a] font-normal mb-4 leading-relaxed flex-grow">
-                    {post.excerpt}
-                  </p>
-                  <Link
-                    href={`/blog/${post.slug}`}
-                    className="inline-flex items-center gap-2 text-[#C97F3D] font-medium hover:text-[#a86a2f] transition-colors"
-                  >
-                    Read more
-                    <ArrowRight size={16} />
-                  </Link>
-                </div>
-              </article>
-            ))}
+                  </div>
+                </article>
+              )
+            })}
           </div>
           {filteredPosts.length === 0 && (
-            <div className="text-center py-12">
-              <p className="text-[#5c4a3a] text-lg">
+            <div style={{ textAlign: "center", paddingTop: "48px", paddingBottom: "48px" }}>
+              <p style={{ color: "#5a5048", fontSize: "18px" }}>
                 No posts found in this category. Try another filter.
               </p>
             </div>
