@@ -279,6 +279,35 @@ export default function AyurvedaForWomenPage() {
             <hr className="border-border my-12" />
 
             <h2 className="font-serif text-2xl md:text-3xl text-foreground mt-12 mb-6">
+              Go Deeper
+            </h2>
+
+            <div className="space-y-3">
+              <p className="text-muted-foreground">
+                <Link href="/blog/shatavari-benefits" className="text-[#C97F3D] hover:underline">
+                  Shatavari: The Ayurvedic Herb Every Woman Should Know About
+                </Link>
+              </p>
+              <p className="text-muted-foreground">
+                <Link href="/blog/female-cycle-support" className="text-[#C97F3D] hover:underline">
+                  Supporting Your Female Cycle: Period Health and Cycle Awareness
+                </Link>
+              </p>
+              <p className="text-muted-foreground">
+                <Link href="/blog/birth-recovery-postpartum" className="text-[#C97F3D] hover:underline">
+                  Birth Recovery and Postpartum: The Fourth Trimester in Ayurveda
+                </Link>
+              </p>
+              <p className="text-muted-foreground">
+                <Link href="/blog/menopause-transition" className="text-[#C97F3D] hover:underline">
+                  Menopause Transition: Managing the Shift From Reproductive to Postmenopausal Years
+                </Link>
+              </p>
+            </div>
+
+            <hr className="border-border my-12" />
+
+            <h2 className="font-serif text-2xl md:text-3xl text-foreground mt-12 mb-6">
               Related Guides
             </h2>
 
