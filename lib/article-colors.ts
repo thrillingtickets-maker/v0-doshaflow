@@ -64,4 +64,8 @@ export const highlightMap: Record<string, string> = {
   "pitta-foods-to-avoid": "Foods",
   "ayurveda-aging": "Aging",
   "ayurveda-beginners-guide": "Ayurveda",
+  "ayurveda-gut-health": "Healing",
+  "ayurvedic-sleep-hygiene": "Sleep",
+  "ayurveda-energy": "Energy",
+  "ayurveda-cortisol-stress": "Stress",
 }

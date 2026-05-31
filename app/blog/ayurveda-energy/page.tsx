@@ -1,6 +1,4 @@
-import { Navigation } from "@/components/navigation";
-import { Footer } from "@/components/footer";
-import { posts } from "@/lib/posts";
+import { getPostBySlug } from "@/lib/posts";
 import { ArticleHero } from "@/components/article-hero";
 import { highlightMap } from "@/lib/article-colors";
 import { notFound } from "next/navigation";
@@ -10,8 +8,8 @@ export async function generateStaticParams() {
   return [{ slug: "ayurveda-energy" }];
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const post = posts.find((p) => p.slug === params.slug);
+export async function generateMetadata() {
+  const post = getPostBySlug("ayurveda-energy");
   if (!post) return {};
 
   return {
@@ -24,9 +22,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-export default function ArticlePage({ params }: { params: { slug: string } }) {
-  const post = posts.find((p) => p.slug === params.slug);
-  const highlightWord = highlightMap[params.slug];
+export default function ArticlePage() {
+  const post = getPostBySlug("ayurveda-energy");
+  const highlightWord = highlightMap["ayurveda-energy"];
 
   if (!post) {
     notFound();
@@ -34,7 +32,6 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
 
   return (
     <>
-      <Navigation />
       <ArticleHero
         title={post.title}
         category={post.category}
@@ -60,7 +57,6 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           </div>
         </article>
       </main>
-      <Footer />
     </>
   );
 }
