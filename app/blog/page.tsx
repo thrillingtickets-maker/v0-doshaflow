@@ -156,23 +156,23 @@ export default function BlogPage() {
       </section>
       {/* Blog Posts Grid */}
       <section className="py-16 bg-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <div className="grid gap-6">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-3 gap-6">
             {filteredPosts.map((post) => (
               <article
                 key={post.slug}
-                className="bg-white border border-[#d9cbbe] rounded-lg p-6 mb-4 hover:shadow-md transition-shadow duration-300"
+                className="bg-white border border-[#d9cbbe] rounded-lg p-6 hover:shadow-md transition-shadow duration-300 flex flex-col"
               >
-                <div>
+                <div className="flex flex-col h-full">
                   <time className="text-sm text-[#999999] font-normal">
                     {post.date}
                   </time>
-                  <h2 className="text-xl font-bold text-[#2c1a0e] mt-2 mb-3">
+                  <h2 className="text-lg font-bold text-[#2c1a0e] mt-2 mb-3">
                     <Link href={`/blog/${post.slug}`} className="hover:text-[#C97F3D] transition-colors">
                       {post.title}
                     </Link>
                   </h2>
-                  <p className="text-[#5c4a3a] font-normal mb-4 leading-relaxed">
+                  <p className="text-[#5c4a3a] font-normal mb-4 leading-relaxed flex-grow">
                     {post.excerpt}
                   </p>
                   <Link
