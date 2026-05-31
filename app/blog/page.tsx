@@ -259,7 +259,7 @@ export default function BlogPage() {
                       WebkitLineClamp: 3,
                       WebkitBoxOrient: "vertical",
                       overflow: "hidden",
-                    }}>
+                    }} className="excerpt-clamped">
                       {post.excerpt}
                     </p>
                     <Link
@@ -294,6 +294,13 @@ export default function BlogPage() {
             </div>
           )}
         </div>
+        <style>{`
+          @media (max-width: 768px) {
+            .excerpt-clamped {
+              -webkit-line-clamp: 2 !important;
+            }
+          }
+        `}</style>
       </section>
       <Footer />
     </main>
