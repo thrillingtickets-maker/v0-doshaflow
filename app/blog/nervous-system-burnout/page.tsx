@@ -89,6 +89,5 @@ export default function NervousSystemBurnoutPage() {
           </div>
         </article>
       </main>
-    </div>
-  )
-}
+    )
+  }
