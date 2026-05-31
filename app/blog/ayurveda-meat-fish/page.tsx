@@ -19,12 +19,7 @@ export const metadata = {
 
 export default function AyurvedaMeatFishPage() {
   return (
-    
-      {/* Navigation */}
-
-      {/* Article */}
-      
-      <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main className="max-w-[680px] mx-auto px-6 py-12">
         <article>
           {/* Post Header */}
           <header className="mb-12">
