@@ -15,37 +15,37 @@ export const metadata = {
 }
 export default function AyurvedaHormonalBalancePage() {
   return (
-    <div className="min-h-screen bg-[#faf8f5]">
+    <div>
       {/* Navigation */}
-      <nav className="border-b border-[#e8e0d4] bg-white/80 backdrop-blur-sm sticky top-0 z-50">
-        <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="text-xl font-bold text-[#2c1a0e]">
-            Dosha<span className="text-[#c49a6c]">Flow</span>
+      <nav>
+        <div>
+          <Link href="/">
+            Dosha<span>Flow</span>
           </Link>
-          <div className="flex items-center gap-6">
-            <Link href="/blog" className="text-sm text-[#5c4a3a] hover:text-[#2c1a0e] transition-colors">
+          <div>
+            <Link href="/blog">
               Blog
             </Link>
-            <Link href="/quiz" className="text-sm bg-[#c49a6c] text-white px-4 py-2 rounded-full hover:bg-[#b8896a] transition-colors">
+            <Link href="/quiz">
               Take the Quiz
             </Link>
           </div>
         </div>
       </nav>
       {/* Article */}
-      <article className="max-w-2xl mx-auto px-6 py-16">
+      <article>
         {/* Post Header */}
-        <header className="mb-12">
-          <time className="text-sm text-[#8a7a6a]">May 28, 2026</time>
+        <header>
+          <time>May 28, 2026</time>
           <h1 style={{ fontSize: "36px", fontWeight: 700, color: "#2c1a0e", marginTop: "12px", marginBottom: "16px", lineHeight: 1.2 }}>
             Hormonal Imbalance Symptoms and Natural Remedies — Ayurvedic Guide
           </h1>
-          <p className="text-[#8a7a6a]">
-            By <span className="text-[#2c1a0e] font-medium">Alex</span> · DoshaFlow
+          <p>
+            By <span>Alex</span> · DoshaFlow
           </p>
         </header>
         {/* Post Content */}
-        <div className="text-[#3d2e1e]">
+        <div>
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
           <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>I spent the better part of my twenties being told my hormones were &quot;normal.&quot;</p>
           <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>Blood tests in range. Thyroid fine. Cycle regular enough. Nothing technically wrong. And yet: the mood swings the week before my period that felt disproportionate to my actual life. The energy crashes. The skin that would flare up cyclically. The sense that my body was operating on a logic I didn&apos;t have access to.</p>
@@ -99,16 +99,15 @@ export default function AyurvedaHormonalBalancePage() {
           <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>The practitioners here have been supporting women&apos;s hormonal health with these tools for generations. The results are often remarkable — not because the tools are magic, but because they address the actual root rather than managing the symptoms.</p>
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
           <p style={{ marginBottom: "20px", lineHeight: 1.75, fontStyle: "italic" }}>
-            Alex is the founder of DoshaFlow, currently at an Ayurvedic retreat in Kerala, India. <Link href="/quiz" className="text-[#c49a6c] hover:underline">Take the dosha quiz</Link> · <Link href="/blog" className="text-[#c49a6c] hover:underline">Read the retreat journal</Link>
+            Alex is the founder of DoshaFlow, currently at an Ayurvedic retreat in Kerala, India. <Link href="/quiz">Take the dosha quiz</Link> · <Link href="/blog">Read the retreat journal</Link>
           </p>
         </div>
       </article>
       {/* Footer */}
-      <footer className="border-t border-[#e8e0d4] py-12 bg-white">
-        <div className="max-w-4xl mx-auto px-6 text-center text-sm text-[#8a7a6a]">
+      <footer>
+        <div>
           <p>&copy; 2026 DoshaFlow. All rights reserved.</p>
         </div>
       </footer>
-    </div>
-  )
+    )
 }

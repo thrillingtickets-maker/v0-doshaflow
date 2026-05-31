@@ -31,49 +31,39 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     notFound()
   }
   return (
-    <main className="min-h-screen bg-background">
+    <main>
       <Navigation />
-      <article className="pt-32 pb-24 px-6">
-        <div className="max-w-[680px] mx-auto">
+      <article>
+        <div>
           {/* Back Link */}
           <Link
             href="/blog"
-            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-8"
           >
-            <ArrowLeft className="w-4 h-4" />
+            <ArrowLeft />
             Back to Blog
           </Link>
           {/* Post Header */}
-          <header className="mb-12">
-            <time className="text-sm text-muted-foreground">
+          <header>
+            <time>
               {post.date}
             </time>
-            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
+            <h1>
               {post.title}
             </h1>
-            <p className="text-muted-foreground">
-              By <span className="text-foreground font-medium">Alex</span>
+            <p>
+              By <span>Alex</span>
             </p>
           </header>
           {/* Post Content */}
           <div
-            className="prose prose-lg max-w-none
-              prose-headings:font-serif prose-headings:text-foreground
-              prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:mb-6
-              prose-a:text-[#C97F3D] prose-a:no-underline hover:prose-a:underline
-              prose-strong:text-foreground prose-strong:font-medium
-              prose-blockquote:border-l-4 prose-blockquote:border-[#C97F3D] prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:text-foreground/80
-              prose-ul:text-muted-foreground prose-ol:text-muted-foreground
-              prose-li:mb-2"
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
           {/* Post Footer */}
-          <footer className="mt-16 pt-8 border-t border-border">
+          <footer>
             <Link
               href="/blog"
-              className="inline-flex items-center gap-2 text-sm font-medium text-[#C97F3D] hover:gap-3 transition-all"
             >
-              <ArrowLeft className="w-4 h-4" />
+              <ArrowLeft />
               Back to all posts
             </Link>
           </footer>

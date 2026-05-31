@@ -15,18 +15,18 @@ export const metadata = {
 }
 export default function BestTeaForVataPage() {
   return (
-    <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main>
         <article>
-          <header className="mb-12">
-            <time className="text-sm text-muted-foreground">June 17, 2026</time>
-            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
+          <header>
+            <time>June 17, 2026</time>
+            <h1>
               Best Tea for Vata Dosha: Daily Drinks That Ground an Overactive Nervous System
             </h1>
-            <p className="text-muted-foreground">
-              By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
+            <p>
+              By <span>Alex</span> · DoshaFlow
             </p>
           </header>
-          <div className="prose prose-lg max-w-none text-[#2c2218]" style={{ lineHeight: 1.75 }}>
+          <div style={{ lineHeight: 1.75 }}>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               If you are Vata — or currently running in a Vata-elevated state, which describes most people navigating modern life — you are probably familiar with the pattern: too much in your head, not enough in your body. Racing thoughts, irregular digestion, cold extremities, difficulty settling, the 3am wake-up that will not stop. Vata&apos;s qualities are cold, dry, light, mobile, and irregular. The teas that help are the opposite: warming, moistening, grounding, and taken consistently at the same time every day.
@@ -86,7 +86,7 @@ export default function BestTeaForVataPage() {
               <p style={{ marginBottom: "16px", lineHeight: 1.75, fontWeight: 500 }}>
                 Vata tea works best as a daily practice. Consistency over intensity is the Ayurvedic way.
               </p>
-              <Link href="/quiz" className="inline-block bg-[#2c1a0e] text-white px-6 py-2 rounded-full hover:bg-[#3d2b1f] text-sm font-medium">
+              <Link href="/quiz">
                 Take the Free Dosha Quiz
               </Link>
             </div>

@@ -15,22 +15,22 @@ export const metadata = {
 }
 export default function AyurvedaCoffeePage() {
   return (
-    <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main>
         <article>
           {/* Post Header */}
-          <header className="mb-12">
-            <time className="text-sm text-muted-foreground">
+          <header>
+            <time>
               May 28, 2026
             </time>
-            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
+            <h1>
               Is Coffee Bad for You? The Ayurvedic Answer by Dosha
             </h1>
-            <p className="text-muted-foreground">
-              By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
+            <p>
+              By <span>Alex</span> · DoshaFlow
             </p>
           </header>
           {/* Post Content */}
-          <div className="prose prose-lg max-w-none text-[#2c2218]" style={{ lineHeight: 1.75 }}>
+          <div style={{ lineHeight: 1.75 }}>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>The question I get asked most often when I tell people I&apos;ve been at an Ayurvedic retreat is: &quot;Can you still have coffee?&quot;</p>
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>It&apos;s almost always the first question. Before the herbs, before the diet, before anything else about this 5,000-year-old system — people want to know about the coffee.</p>
@@ -82,7 +82,7 @@ export default function AyurvedaCoffeePage() {
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>The real question isn&apos;t whether coffee is Ayurvedically approved. It&apos;s whether your current relationship with coffee is working — for your body, your nervous system, your sleep. Ayurveda just gives you a more precise language for figuring that out.</p>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
             <p style={{ marginBottom: "20px", lineHeight: 1.75, fontStyle: "italic" }}>
-              Alex is the founder of DoshaFlow, currently at an Ayurvedic retreat in Kerala, India. <Link href="/quiz" className="text-[#c49a6c] hover:underline">Take the dosha quiz</Link> · <Link href="/blog" className="text-[#c49a6c] hover:underline">Read the retreat journal</Link>
+              Alex is the founder of DoshaFlow, currently at an Ayurvedic retreat in Kerala, India. <Link href="/quiz">Take the dosha quiz</Link> · <Link href="/blog">Read the retreat journal</Link>
             </p>
           </div>
         </article>

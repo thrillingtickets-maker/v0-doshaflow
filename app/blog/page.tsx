@@ -121,23 +121,23 @@ export default function BlogPage() {
     })
   }, [selectedFilter, allPosts])
   return (
-    <main className="min-h-screen bg-background">
+    <main>
       <Navigation />
       {/* Hero Section */}
-      <section className="pt-32 pb-16 px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-foreground mb-6">
+      <section>
+        <div>
+          <h1>
             Articles
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          <p>
             Ayurvedic guides, research, and practical advice.
           </p>
         </div>
       </section>
       {/* Filter Pills */}
-      <section className="pb-12 px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="flex flex-wrap gap-3 justify-center">
+      <section>
+        <div>
+          <div>
             {FILTER_CATEGORIES.map((filter) => (
               <button
                 key={filter}
@@ -155,40 +155,38 @@ export default function BlogPage() {
         </div>
       </section>
       {/* Blog Posts Grid */}
-      <section className="pb-24 px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <section>
+        <div>
+          <div>
             {filteredPosts.map((post) => (
               <article
                 key={post.slug}
-                className="group bg-card border border-border rounded-2xl overflow-hidden hover:shadow-lg hover:shadow-primary/5 transition-all duration-300"
               >
-                <div className="p-6">
-                  <time className="text-sm text-muted-foreground">
+                <div>
+                  <time>
                     {post.date}
                   </time>
-                  <h2 className="font-serif text-xl text-foreground mt-2 mb-3 group-hover:text-primary transition-colors">
+                  <h2>
                     <Link href={`/blog/${post.slug}`}>
                       {post.title}
                     </Link>
                   </h2>
-                  <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+                  <p>
                     {post.excerpt}
                   </p>
                   <Link
                     href={`/blog/${post.slug}`}
-                    className="inline-flex items-center gap-2 text-sm font-medium text-[#C97F3D] hover:gap-3 transition-all"
                   >
                     Read more
-                    <ArrowRight className="w-4 h-4" />
+                    <ArrowRight />
                   </Link>
                 </div>
               </article>
             ))}
           </div>
           {filteredPosts.length === 0 && (
-            <div className="text-center py-16">
-              <p className="text-muted-foreground">
+            <div>
+              <p>
                 No posts found in this category. Try another filter.
               </p>
             </div>

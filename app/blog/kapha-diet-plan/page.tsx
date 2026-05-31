@@ -17,25 +17,25 @@ export const metadata = {
 }
 export default function KaphaDietPlanPage() {
   return (
-    <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main>
         <article>
-          <header className="mb-12">
-            <time className="text-sm text-muted-foreground">June 9, 2026</time>
-            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
+          <header>
+            <time>June 9, 2026</time>
+            <h1>
               Kapha Diet Plan: How to Eat for Energy When Your Body Wants to Do Nothing
             </h1>
-            <p className="text-muted-foreground">
-              By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
+            <p>
+              By <span>Alex</span> · DoshaFlow
             </p>
           </header>
-          <div className="prose prose-lg max-w-none text-[#2c2218]" style={{ lineHeight: 1.75 }}>
+          <div style={{ lineHeight: 1.75 }}>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               The Kapha diet is the one where Ayurveda and most of your cravings are in direct conflict. Kapha types want heavy, sweet, creamy, and comforting. The Kapha diet says: light, spiced, warm, and stimulating. This creates a particular challenge because the foods Kapha craves are precisely the ones that make the problem worse. Understanding why helps.
             </p>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
-              What <Link href="/blog/kapha-dosha-guide" className="text-[#c49a6c] hover:underline">Kapha</Link> Actually Needs.
+              What <Link href="/blog/kapha-dosha-guide">Kapha</Link> Actually Needs.
             </h2>
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Kapha is heavy, slow, cold, oily, and stable. The diet needs to counterbalance those qualities: light, warm, dry, and stimulating. Kapha already has plenty of the heavy, dense, cohesive qualities — adding more through food produces weight gain, sluggish digestion, low energy, and water retention. Three most important principles: Eat light — Kapha&apos;s digestion runs slow; heavy foods tax a system already working slowly. Eat stimulating — spice is medicine for Kapha; where Pitta should reduce spice, Kapha should eat the most strongly spiced food of all three doshas. Eat early — breakfast can be the smallest or skipped meal for Kapha; the largest meal should be at lunch.
@@ -95,11 +95,10 @@ export default function KaphaDietPlanPage() {
           </div>
         </article>
       </main>
-      <footer className="border-t border-[#e8d9c5] mt-24 py-12 bg-white">
-        <div className="max-w-5xl mx-auto px-6 text-center text-sm text-[#5c4a3a]">
+      <footer style={{ borderTop: "1px solid #e8d9c5", marginTop: "96px", paddingTop: "48px", paddingBottom: "48px", backgroundColor: "white" }}>
+        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto", paddingLeft: "24px", paddingRight: "24px", textAlign: "center", fontSize: "14px", color: "#5c4a3a" }}>
           <p>© 2026 DoshaFlow. All rights reserved.</p>
         </div>
       </footer>
-    </div>
-  )
+    )
 }

@@ -17,25 +17,25 @@ export const metadata = {
 }
 export default function PittaDietPlanPage() {
   return (
-    <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main>
         <article>
-          <header className="mb-12">
-            <time className="text-sm text-muted-foreground">June 8, 2026</time>
-            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
+          <header>
+            <time>June 8, 2026</time>
+            <h1>
               Pitta Diet Plan: How to Cool the Fire Without Losing the Edge
             </h1>
-            <p className="text-muted-foreground">
-              By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
+            <p>
+              By <span>Alex</span> · DoshaFlow
             </p>
           </header>
-          <div className="prose prose-lg max-w-none text-[#2c2218]" style={{ lineHeight: 1.75 }}>
+          <div style={{ lineHeight: 1.75 }}>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Pitta types are the ones who eat spicy food, drink coffee, push through stress on willpower, and wonder why they have acid reflux, skin inflammation, and a temper that shows up without warning. The Pitta diet is not about being boring. It is about removing the inputs that are causing inflammation and replacing them with ones that allow the same intensity to function without burning the system down.
             </p>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
-              What <Link href="/blog/pitta-dosha-guide" className="text-[#c49a6c] hover:underline">Pitta</Link> Actually Needs.
+              What <Link href="/blog/pitta-dosha-guide">Pitta</Link> Actually Needs.
             </h2>
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Pitta is hot, sharp, light, and intense. The diet for Pitta needs to counterbalance those qualities: cool, heavy, and sweet in the Ayurvedic sense — the sweet taste of cooked grains, root vegetables, and mild dairy. Three most important principles: Eat cooling food — not necessarily cold, but not spicy, sour, salty, or heating. Pitta&apos;s digestive fire is already strong; the goal is not to stoke it further. Eat on time — Pitta has the strongest digestion and the most reliable hunger signals. When Pitta skips meals, blood sugar drops sharply and the classic Pitta response kicks in: irritability, headache, intensity. Do not eat to extremes — Pitta&apos;s drive can manifest as obsession with the perfect diet, which produces its own stress response.

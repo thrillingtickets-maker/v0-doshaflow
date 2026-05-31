@@ -15,18 +15,18 @@ export const metadata = {
 }
 export default function BestTeaForBloatingPage() {
   return (
-    <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main>
         <article>
-          <header className="mb-12">
-            <time className="text-sm text-muted-foreground">June 16, 2026</time>
-            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
+          <header>
+            <time>June 16, 2026</time>
+            <h1>
               Best Tea for Bloating: The Ayurvedic Approach to a Digestive System That Won&apos;t Quit
             </h1>
-            <p className="text-muted-foreground">
-              By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
+            <p>
+              By <span>Alex</span> · DoshaFlow
             </p>
           </header>
-          <div className="prose prose-lg max-w-none text-[#2c2218]" style={{ lineHeight: 1.75 }}>
+          <div style={{ lineHeight: 1.75 }}>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Bloating is one of the most searched digestive complaints in the world and one of the most poorly addressed. The standard advice — cut gluten, take a probiotic, drink peppermint tea — helps some people some of the time and leaves most people roughly where they started. Ayurveda has a more specific framework. Bloating is not one thing. It has different causes in different constitutions, and the tea that helps depends entirely on which type of bloating you have.
@@ -86,7 +86,7 @@ export default function BestTeaForBloatingPage() {
               <p style={{ marginBottom: "16px", lineHeight: 1.75, fontWeight: 500 }}>
                 Bloating patterns differ by dosha. Find yours and get a personalized approach.
               </p>
-              <Link href="/quiz" className="inline-block bg-[#2c1a0e] text-white px-6 py-2 rounded-full hover:bg-[#3d2b1f] text-sm font-medium">
+              <Link href="/quiz">
                 Take the Free Dosha Quiz
               </Link>
             </div>

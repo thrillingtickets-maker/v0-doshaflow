@@ -18,40 +18,31 @@ export const metadata = {
 };
 export default function AyurvedicHerbsGuidePage() {
   return (
-    <main className="min-h-screen bg-background">
+    <main>
       <Navigation />
-      <article className="pt-32 pb-24 px-6">
-        <div className="max-w-[680px] mx-auto">
+      <article>
+        <div>
           {/* Back Link */}
           <Link
             href="/blog"
-            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-8"
           >
-            <ArrowLeft className="w-4 h-4" />
+            <ArrowLeft />
             Back to Blog
           </Link>
           {/* Post Header */}
-          <header className="mb-12">
-            <time className="text-sm text-muted-foreground">
+          <header>
+            <time>
               May 28, 2026
             </time>
-            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
+            <h1>
               The Ayurvedic Herb Guide: What&apos;s Actually in These Formulas and Why
             </h1>
-            <p className="text-muted-foreground">
-              By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
+            <p>
+              By <span>Alex</span> · DoshaFlow
             </p>
           </header>
           {/* Post Content */}
-          <div className="prose prose-lg max-w-none
-            prose-headings:font-serif prose-headings:text-foreground
-            prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:mb-6
-            prose-a:text-[#C97F3D] prose-a:no-underline hover:prose-a:underline
-            prose-strong:text-foreground prose-strong:font-medium
-            prose-blockquote:border-l-4 prose-blockquote:border-[#C97F3D] prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:text-foreground/80
-            prose-ul:text-muted-foreground prose-ol:text-muted-foreground
-            prose-li:mb-2
-            prose-hr:border-border prose-hr:my-8"
+          <div
           >
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
             <p>I&apos;m sitting in a pharmacy that&apos;s been operating for over 200 years.</p>
@@ -140,15 +131,14 @@ export default function AyurvedicHerbsGuidePage() {
             
             <p>The herbs here aren&apos;t magic. They&apos;re 5,000 years of paying attention to what works — and in this particular pharmacy, in this particular room that smells like concentrated earth, that lineage is very hard to dismiss.</p>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-            <p><em>Alex is the founder of DoshaFlow, currently at an Ayurvedic retreat in Kerala, India. <Link href="/quiz" className="text-[#C97F3D] hover:underline">Take the dosha quiz →</Link> · <Link href="/blog" className="text-[#C97F3D] hover:underline">Read the retreat journal →</Link></em></p>
+            <p><em>Alex is the founder of DoshaFlow, currently at an Ayurvedic retreat in Kerala, India. <Link href="/quiz">Take the dosha quiz →</Link> · <Link href="/blog">Read the retreat journal →</Link></em></p>
           </div>
           {/* Post Footer */}
-          <footer className="mt-16 pt-8 border-t border-border">
+          <footer>
             <Link
               href="/blog"
-              className="inline-flex items-center gap-2 text-sm font-medium text-[#C97F3D] hover:gap-3 transition-all"
             >
-              <ArrowLeft className="w-4 h-4" />
+              <ArrowLeft />
               Back to all posts
             </Link>
           </footer>
