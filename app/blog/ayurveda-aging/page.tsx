@@ -1,6 +1,6 @@
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
-import { posts } from "@/lib/posts";
+import { getPostBySlug } from "@/lib/posts";
 import { ArticleHero } from "@/components/article-hero";
 import { highlightMap } from "@/lib/article-colors";
 import { notFound } from "next/navigation";
@@ -11,7 +11,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const post = posts.find((p) => p.slug === params.slug);
+  const post = getPostBySlug("ayurveda-aging");
   if (!post) return {};
 
   return {
@@ -24,9 +24,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-export default function ArticlePage({ params }: { params: { slug: string } }) {
-  const post = posts.find((p) => p.slug === params.slug);
-  const highlightWord = highlightMap[params.slug];
+export default function ArticlePage() {
+  const post = getPostBySlug("ayurveda-aging");
+  const highlightWord = highlightMap["ayurveda-aging"];
 
   if (!post) {
     notFound();
