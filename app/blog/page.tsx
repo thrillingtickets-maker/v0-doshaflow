@@ -136,13 +136,21 @@ export default function BlogPage() {
     .filter((post) => post.category === "article" || post.category === "journal")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
   const filteredPosts = useMemo(() => {
+    let posts = selectedFilter === "All" 
+      ? allPosts 
+      : allPosts.filter((post) => {
+        const filters = getArticleFilters(post.slug, post.category)
+        return filters.includes(selectedFilter)
+      })
+    
+    // When showing All articles and featured retreat section exists, exclude retreat-day from grid
     if (selectedFilter === "All") {
-      return allPosts
+      const hasRetreatFeatured = posts.some(p => p.slug.includes("retreat-day"))
+      if (hasRetreatFeatured) {
+        posts = posts.filter(p => !p.slug.includes("retreat-day"))
+      }
     }
-    return allPosts.filter((post) => {
-      const filters = getArticleFilters(post.slug, post.category)
-      return filters.includes(selectedFilter)
-    })
+    return posts
   }, [selectedFilter, allPosts])
   return (
     <main>
@@ -305,10 +313,6 @@ export default function BlogPage() {
           )}
           <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "48px" }}>
             {filteredPosts.map((post) => {
-              // Skip retreat-day articles in the regular grid when featured section is shown
-              if (selectedFilter === "All" && post.slug.includes("retreat-day")) {
-                return null;
-              }
               const isRetreatJournal = post.slug.includes("retreat-day")
               const primaryCategory = getPrimaryCategory(post.slug, post.category)
               const categoryColor = CATEGORY_COLORS[primaryCategory]
