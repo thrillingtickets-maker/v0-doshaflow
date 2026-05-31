@@ -204,6 +204,17 @@ export default function BlogPage() {
             div:has(button)::-webkit-scrollbar {
               display: none;
             }
+            .excerpt-clamped {
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 3;
+              overflow: hidden;
+            }
+            @media (max-width: 768px) {
+              .excerpt-clamped {
+                -webkit-line-clamp: 2;
+              }
+            }
           `}</style>
         </div>
       </section>
