@@ -4,11 +4,11 @@ import { motion } from "framer-motion"
 import Link from "next/link"
 
 const goalCards = [
-  { goal: "I can&apos;t sleep", href: "/blog/best-ayurvedic-tea-sleep" },
-  { goal: "I&apos;m always anxious", href: "/blog/best-herbs-for-anxiety" },
-  { goal: "I&apos;m always bloated", href: "/blog/why-am-i-always-bloated" },
-  { goal: "I can&apos;t lose weight", href: "/blog/ayurvedic-weight-loss" },
-  { goal: "I&apos;m burned out", href: "/blog/nervous-system-burnout" },
+  { goal: "I can't sleep", href: "/blog/best-ayurvedic-tea-sleep" },
+  { goal: "I'm always anxious", href: "/blog/best-herbs-for-anxiety" },
+  { goal: "I'm always bloated", href: "/blog/why-am-i-always-bloated" },
+  { goal: "I can't lose weight", href: "/blog/ayurvedic-weight-loss" },
+  { goal: "I'm burned out", href: "/blog/nervous-system-burnout" },
   { goal: "I have no energy", href: "/blog/why-am-i-always-tired" },
   { goal: "Digestion problems", href: "/blog/best-ayurvedic-tea-digestion" },
 ]
@@ -28,7 +28,7 @@ export function ExploreByGoal() {
             <span className="text-balance">Start with your symptom.</span>
           </h2>
           <p className="max-w-2xl mx-auto text-lg text-muted-foreground leading-relaxed">
-            Most people don&apos;t know their dosha yet. They know how they feel.
+            Most people don't know their dosha yet. They know how they feel.
           </p>
         </motion.div>
 
