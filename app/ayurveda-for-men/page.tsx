@@ -405,40 +405,24 @@ export default function AyurvedaForMenPage() {
 
             <div className="space-y-3">
               <p className="text-muted-foreground">
-                <Link href="/blog/vata-diet-plan" className="text-[#C97F3D] hover:underline">
-                  Vata Diet Plan
+                <Link href="/blog/mens-sexual-vitality" className="text-[#C97F3D] hover:underline">
+                  Men's Sexual Vitality: Supporting Shukra Tissue and Reproductive Health
                 </Link>
-                {" "}→ Constitutional eating guidelines tailored to your type.
+              </p>
+              <p className="text-muted-foreground">
+                <Link href="/blog/stress-response-system" className="text-[#C97F3D] hover:underline">
+                  Your Stress Response System: Why Some People Recover Faster
+                </Link>
               </p>
               <p className="text-muted-foreground">
                 <Link href="/blog/best-ayurvedic-tea-anxiety" className="text-[#C97F3D] hover:underline">
                   Best Ayurvedic Tea for Anxiety
                 </Link>
-                {" "}→ Herbal teas that actually calm the nervous system by dosha.
               </p>
               <p className="text-muted-foreground">
-                <Link href="/blog/ayurvedic-morning-routine" className="text-[#C97F3D] hover:underline">
-                  Ayurvedic Morning Routine
+                <Link href="/blog/vata-anxiety-guide" className="text-[#C97F3D] hover:underline">
+                  The Complete Guide to Vata Anxiety: Why Your Mind Won't Stop and How to Fix It
                 </Link>
-                {" "}→ The most effective daily practice for reorganizing the nervous system.
-              </p>
-              <p className="text-muted-foreground">
-                <Link href="/blog/signs-of-high-cortisol" className="text-[#C97F3D] hover:underline">
-                  Signs of High Cortisol
-                </Link>
-                {" "}→ How to recognize stress manifesting by dosha type.
-              </p>
-              <p className="text-muted-foreground">
-                <Link href="/blog/ayurveda-alcohol-recovery" className="text-[#C97F3D] hover:underline">
-                  Ayurveda and Alcohol Recovery
-                </Link>
-                {" "}→ What Ayurveda actually offers for substance use and recovery.
-              </p>
-              <p className="text-muted-foreground">
-                <Link href="/quiz" className="text-[#C97F3D] hover:underline">
-                  Take the Dosha Quiz
-                </Link>
-                {" "}→ Find your constitutional type and get a personalized plan.
               </p>
             </div>
 
