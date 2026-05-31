@@ -12,7 +12,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/signs-of-vata-imbalance",
-  },
+  }
 }
 
 export default function SignsOfVataImbalancePage() {

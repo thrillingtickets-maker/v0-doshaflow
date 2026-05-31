@@ -12,7 +12,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/pitta-anger-sleep",
-  },
+  }
 }
 
 export default function PittaAngerSleepPage() {

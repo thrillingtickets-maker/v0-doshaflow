@@ -48,31 +48,10 @@ export default function SignsOfHighCortissolPage() {
               <strong>Weight gain concentrated around the abdomen</strong> while arms and legs remain relatively thin — cortisol directs fat storage to visceral tissue. <strong>Sleep disruption, particularly waking between 2-4am</strong> with a racing mind — this is the cortisol peak occurring at the wrong time. <strong>Afternoon energy crash followed by a second wind in the late evening</strong> — this inverted rhythm is characteristic of HPA axis dysregulation. <strong>Cravings for salty and sweet foods, particularly in the afternoon</strong> — the adrenal glands require both, and chronic depletion creates strong cravings. <strong>Frequent illness or slow recovery</strong> — cortisol suppresses immune function when chronically elevated. <strong>Feeling constantly wired but tired.</strong> <strong>Reduced libido and menstrual irregularities</strong> — the body deprioritises reproduction under chronic stress. <strong>Brain fog, poor memory, difficulty concentrating.</strong>
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?stressed,person,tired,burnout,exhausted" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Signs of high cortisol and burnout" />
-
-            <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
-            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
-              The Ayurvedic Framing.
-            </h2>
-
-            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
+            <img src="https://source.unsplash.com/featured/800x450/?stressed,person,tired,burnout,exhausted" style={{width: "100%", borderRadius: "8px", margin: "32px 0"}} alt="Signs of high cortisol and burnout" />
               Ayurveda does not use the word cortisol. But the condition maps clearly onto Vata-Pitta imbalance: the depletion and dysregulation of Vata combined with the heat and intensity of excessive Pitta. The Ayurvedic term for adrenal-adjacent depletion is Ojas depletion — the erosion of the vital essence that governs immunity, resilience, and the body's deepest reserves. The causes of Ojas depletion in the classical texts read like a description of modern overachievement culture: excessive work, insufficient sleep, irregular eating, constant stimulation, chronic anxiety, and overuse of stimulants.
-            </p>
-
-            <img src="https://source.unsplash.com/featured/800x450/?adrenal,stress,herbs,adaptogen,natural" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Ayurvedic approach to stress" />
-
-            <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
-
-            <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
-              What Ayurveda Does About It.
-            </h2>
-
-            <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              <strong>Ashwagandha:</strong> multiple randomised controlled trials have shown statistically significant reductions in serum cortisol with consistent supplementation. See our complete <Link href="/blog/ashwagandha-benefits" style={{color: "#c49a6c", textDecoration: "underline"}}>ashwagandha benefits guide</Link> for dosing and usage. Take 300-600mg of root extract daily for at least 8 weeks. <strong>Sleep timing:</strong> going to sleep before 10pm produces deeper, more restorative sleep than the same hours achieved after 11pm. See our <Link href="/blog/ayurvedic-morning-routine" style={{color: "#c49a6c", textDecoration: "underline"}}>morning routine guide</Link> for sleep optimization. <strong>Meal timing and consistency:</strong> cortisol spikes when blood sugar crashes — skipping meals, particularly breakfast, creates a stress response that directly elevates cortisol. <strong>Reducing stimulants:</strong> caffeine directly stimulates cortisol release, particularly on an empty stomach. Time it after food and reduce quantity after noon. <strong>Abhyanga:</strong> the daily warm oil self-massage has documented effects on cortisol. See our <Link href="/blog/best-herbs-for-anxiety" style={{color: "#c49a6c", textDecoration: "underline"}}>herbal support for anxiety</Link> for additional interventions.
-            </p>
-
-            <img src="https://source.unsplash.com/featured/800x450/?sesame,oil,massage,warm,ayurvedic" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Ayurvedic oil massage for cortisol" />
+            <img src="https://source.unsplash.com/featured/800x450/?adrenal,stress,herbs,adaptogen,natural" style={{width: "100%", borderRadius: "8px", margin: "32px 0"}} alt="Ayurvedic approach to stress" />
+            <img src="https://source.unsplash.com/featured/800x450/?sesame,oil,massage,warm,ayurvedic" style={{width: "100%", borderRadius: "8px", margin: "32px 0"}} alt="Ayurvedic oil massage for cortisol" />
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
