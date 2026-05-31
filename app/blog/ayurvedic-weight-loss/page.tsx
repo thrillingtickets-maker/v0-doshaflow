@@ -17,18 +17,18 @@ export const metadata = {
 }
 export default function AyurvedicWeightLossPage() {
   return (
-    <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main>
         <article>
-          <header className="mb-12">
-            <time className="text-sm text-muted-foreground">June 13, 2026</time>
-            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
+          <header>
+            <time>June 13, 2026</time>
+            <h1>
               Ayurvedic Weight Loss Guide: Why Diets Do Not Work for Your Dosha (And What Does)
             </h1>
-            <p className="text-muted-foreground">
-              By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
+            <p>
+              By <span>Alex</span> · DoshaFlow
             </p>
           </header>
-          <div className="prose prose-lg max-w-none text-[#2c2218]" style={{ lineHeight: 1.75 }}>
+          <div style={{ lineHeight: 1.75 }}>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Ayurveda does not have a weight loss diet. It has something more useful: a framework for understanding why your metabolism works the way it does, and what specific changes — based on your constitution, not a generic plan — will actually produce results. The reason most diets fail is not lack of willpower. It is that they are designed for a hypothetical average person and you are not that person.
@@ -83,11 +83,10 @@ export default function AyurvedicWeightLossPage() {
           </div>
         </article>
       </main>
-      <footer className="border-t border-[#e8d9c5] mt-24 py-12 bg-white">
-        <div className="max-w-5xl mx-auto px-6 text-center text-sm text-[#5c4a3a]">
+      <footer style={{ borderTop: "1px solid #e8d9c5", marginTop: "96px", paddingTop: "48px", paddingBottom: "48px", backgroundColor: "white" }}>
+        <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto", paddingLeft: "24px", paddingRight: "24px", textAlign: "center", fontSize: "14px", color: "#5c4a3a" }}>
           <p>© 2026 DoshaFlow. All rights reserved.</p>
         </div>
       </footer>
-    </div>
-  )
+    )
 }

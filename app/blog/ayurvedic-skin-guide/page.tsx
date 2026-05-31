@@ -17,18 +17,18 @@ export const metadata = {
 }
 export default function AyurvedicSkinGuidePage() {
   return (
-    <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main>
         <article>
-          <header className="mb-12">
-            <time className="text-sm text-muted-foreground">June 15, 2026</time>
-            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
+          <header>
+            <time>June 15, 2026</time>
+            <h1>
               The Ayurvedic Skin Guide: Why Your Skin Reflects What Is Happening Inside
             </h1>
-            <p className="text-muted-foreground">
-              By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
+            <p>
+              By <span>Alex</span> · DoshaFlow
             </p>
           </header>
-          <div className="prose prose-lg max-w-none text-[#2c2218]" style={{ lineHeight: 1.75 }}>
+          <div style={{ lineHeight: 1.75 }}>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Ayurveda has a saying that the skin is the mirror of the gut. Before dermatology named the gut-skin axis and started publishing research on it, Ayurvedic practitioners had been treating skin conditions by treating the digestive system for thousands of years. The logic is direct: the skin is the body&apos;s largest elimination organ, and what cannot be processed internally expresses externally. Instead of asking what to put on the skin, the Ayurvedic question is: what is the skin trying to eliminate that the body cannot process through its normal channels?
@@ -90,12 +90,12 @@ export default function AyurvedicSkinGuidePage() {
               <p style={{ marginBottom: "16px", lineHeight: 1.75, fontWeight: 500 }}>
                 Your skin type is determined by your dosha. Understanding this changes everything about what works and what doesn&apos;t.
               </p>
-              <Link href="/quiz" className="inline-block bg-[#2c1a0e] text-white px-6 py-2 rounded-full hover:bg-[#3d2b1f] text-sm font-medium">
+              <Link href="/quiz">
                 Take the Free Dosha Quiz
               </Link>
             </div>
             <p style={{ marginBottom: "20px", lineHeight: 1.75, fontStyle: "italic" }}>
-              Alex is the founder of DoshaFlow. <Link href="/quiz" className="text-[#c49a6c] hover:underline">Take the dosha quiz</Link> · <Link href="/blog" className="text-[#c49a6c] hover:underline">Read more articles</Link>
+              Alex is the founder of DoshaFlow. <Link href="/quiz">Take the dosha quiz</Link> · <Link href="/blog">Read more articles</Link>
             </p>
           </div>
         </article>

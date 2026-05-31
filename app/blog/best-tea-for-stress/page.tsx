@@ -15,18 +15,18 @@ export const metadata = {
 }
 export default function BestTeaForStressPage() {
   return (
-    <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main>
         <article>
-          <header className="mb-12">
-            <time className="text-sm text-muted-foreground">June 18, 2026</time>
-            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
+          <header>
+            <time>June 18, 2026</time>
+            <h1>
               Best Tea for Stress: What Ayurveda Recommends Beyond Chamomile
             </h1>
-            <p className="text-muted-foreground">
-              By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
+            <p>
+              By <span>Alex</span> · DoshaFlow
             </p>
           </header>
-          <div className="prose prose-lg max-w-none text-[#2c2218]" style={{ lineHeight: 1.75 }}>
+          <div style={{ lineHeight: 1.75 }}>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Chamomile is not the answer. Or rather, chamomile is a partial answer for a specific type of stress response — mild, occasional, and not particularly deep-rooted. For the chronic, structural stress that most people are actually dealing with — the kind that has been running for months or years, that produces physical symptoms, that does not respond to a single cup of anything — chamomile is barely a dent. Ayurveda has a more sophisticated framework for stress, and the teas it recommends are not relaxants. They are adaptogens — herbs that regulate the stress response at a systemic level over time.
@@ -80,7 +80,7 @@ export default function BestTeaForStressPage() {
               <p style={{ marginBottom: "16px", lineHeight: 1.75, fontWeight: 500 }}>
                 Stress patterns differ by dosha. Find yours for a personalized approach to nervous system health.
               </p>
-              <Link href="/quiz" className="inline-block bg-[#2c1a0e] text-white px-6 py-2 rounded-full hover:bg-[#3d2b1f] text-sm font-medium">
+              <Link href="/quiz">
                 Take the Free Dosha Quiz
               </Link>
             </div>

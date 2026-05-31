@@ -17,20 +17,20 @@ export const metadata = {
 }
 export default function AyurvedaIceWaterPage() {
   return (
-    <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main>
         <article>
           {/* Post Header */}
-          <header className="mb-12">
-            <time className="text-sm text-muted-foreground">May 28, 2026</time>
-        <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
+          <header>
+            <time>May 28, 2026</time>
+        <h1>
           Why Cold Water Causes Bloating — The Ayurvedic Explanation
         </h1>
-            <p className="text-muted-foreground">
-              By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
+            <p>
+              By <span>Alex</span> · DoshaFlow
             </p>
           </header>
           {/* Post Content */}
-          <div className="prose prose-lg max-w-none text-[#2c2218]" style={{ lineHeight: 1.75 }}>
+          <div style={{ lineHeight: 1.75 }}>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               Walk into any Ayurvedic clinic, retreat, or practitioner&apos;s office and you will be handed warm water.

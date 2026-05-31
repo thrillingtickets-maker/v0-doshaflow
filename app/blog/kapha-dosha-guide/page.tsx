@@ -15,40 +15,40 @@ export const metadata = {
 }
 export default function KaphaDoshaGuidePage() {
   return (
-    <div className="min-h-screen bg-background">
+    <div>
       {/* Header */}
-      <header className="border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-14 max-w-screen-2xl items-center justify-between px-4 md:px-8">
-          <Link href="/" className="font-serif text-xl font-semibold text-foreground">
-            Dosha<span className="text-primary">Flow</span>
+      <header>
+        <div>
+          <Link href="/">
+            Dosha<span>Flow</span>
           </Link>
-          <nav className="flex items-center gap-6">
-            <Link href="/blog" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <nav>
+            <Link href="/blog">
               Blog
             </Link>
-            <Link href="/quiz" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="/quiz">
               Take the Quiz
             </Link>
           </nav>
         </div>
       </header>
       {/* Article */}
-      <main className="container max-w-3xl px-4 md:px-8 py-12 md:py-16">
+      <main>
         <article>
           {/* Post Header */}
-          <header className="mb-12">
-            <time className="text-sm text-muted-foreground">
+          <header>
+            <time>
               May 28, 2026
             </time>
-            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
+            <h1>
               Kapha Dosha: Why You Feel Stuck, Sluggish, and What Actually Helps
             </h1>
-            <p className="text-muted-foreground">
-              By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
+            <p>
+              By <span>Alex</span> · DoshaFlow
             </p>
           </header>
           {/* Post Content */}
-          <div className="prose prose-neutral dark:prose-invert max-w-none">
+          <div>
             <p style={{ marginBottom: "20px", lineHeight: "1.75", fontStyle: "italic" }}>Kapha is the dosha nobody talks about.</p>
             <p style={{ marginBottom: "20px", lineHeight: "1.75" }}>Vata gets attention because anxiety is relatable and aspirational in a weird way — the scattered creative, the overthinker, the sensitive one. Pitta gets attention because high-achieving and burnout-prone is the dominant mode of modern life.</p>
             <p style={{ marginBottom: "20px", lineHeight: "1.75" }}>But Kapha? Kapha is the one where people go quiet and say, &quot;yeah, that&apos;s me&quot; in a slightly defeated way.</p>
@@ -129,17 +129,16 @@ export default function KaphaDoshaGuidePage() {
             <p style={{ marginBottom: "20px", lineHeight: "1.75" }}>Kapha doesn&apos;t need more willpower. It needs a system that works with its nature — strong starting conditions, external structure, and the knowledge that the heaviness you&apos;re feeling isn&apos;t permanent. It&apos;s just energy that hasn&apos;t started moving yet.</p>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
             <p style={{ marginBottom: "20px", lineHeight: "1.75", fontStyle: "italic" }}>
-              Alex is the founder of DoshaFlow. <Link href="/quiz" className="text-primary hover:underline">Take the dosha quiz →</Link> · <Link href="/blog" className="text-primary hover:underline">Read the retreat journal →</Link>
+              Alex is the founder of DoshaFlow. <Link href="/quiz">Take the dosha quiz →</Link> · <Link href="/blog">Read the retreat journal →</Link>
             </p>
           </div>
         </article>
       </main>
       {/* Footer */}
-      <footer className="border-t border-border/40 py-8">
-        <div className="container max-w-3xl px-4 md:px-8 text-center text-sm text-muted-foreground">
+      <footer>
+        <div>
           © 2026 DoshaFlow. All rights reserved.
         </div>
       </footer>
-    </div>
-  )
+    )
 }

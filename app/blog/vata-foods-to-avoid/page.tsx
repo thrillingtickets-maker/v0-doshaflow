@@ -15,15 +15,15 @@ export const metadata = {
 }
 export default function VataFoodsToAvoidPage() {
   return (
-    <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main>
         <article>
-          <header className="mb-12">
-            <time className="text-sm text-muted-foreground">June 7, 2026</time>
-            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
+          <header>
+            <time>June 7, 2026</time>
+            <h1>
               Vata Foods to Avoid: What Is Making Your Anxiety and Digestion Worse
             </h1>
-            <p className="text-muted-foreground">
-              By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
+            <p>
+              By <span>Alex</span> · DoshaFlow
             </p>
           </header>
           <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
@@ -86,7 +86,6 @@ export default function VataFoodsToAvoidPage() {
             </p>
             <Link
               href="/quiz"
-              className="inline-block bg-[#2c1a0e] text-white px-8 py-3 rounded-full hover:bg-[#3d2b1f] font-medium transition-colors"
             >
               Take the Free Dosha Quiz
             </Link>

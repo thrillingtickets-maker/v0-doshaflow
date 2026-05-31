@@ -15,19 +15,19 @@ export const metadata = {
 }
 export default function AyurvedaColdSmoothiesPage() {
   return (
-    <div className="min-h-screen bg-[#faf6f1]">
-      <header className="border-b border-[#e8d9c5] bg-[#faf6f1]">
-        <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
-          <Link href="/" className="text-xl font-bold text-[#2c1a0e]">
-            Dosha<span className="text-[#c49a6c]">Flow</span>
+    <div>
+      <header>
+        <div>
+          <Link href="/">
+            Dosha<span>Flow</span>
           </Link>
-          <nav className="flex items-center gap-6">
-            <Link href="/quiz" className="text-sm text-[#5c4a3a] hover:text-[#2c1a0e]">Quiz</Link>
-            <Link href="/blog" className="text-sm text-[#5c4a3a] hover:text-[#2c1a0e]">Blog</Link>
+          <nav>
+            <Link href="/quiz">Quiz</Link>
+            <Link href="/blog">Blog</Link>
           </nav>
         </div>
       </header>
-      <main className="max-w-2xl mx-auto px-4 py-12">
+      <main>
         <article>
           <header style={{ marginBottom: "48px" }}>
             <time style={{ fontSize: "14px", color: "#7a6a58" }}>May 28, 2026</time>
@@ -99,11 +99,10 @@ export default function AyurvedaColdSmoothiesPage() {
           </div>
         </article>
       </main>
-      <footer className="border-t border-[#e8d9c5] bg-[#faf6f1] py-8">
-        <div className="max-w-4xl mx-auto px-4 text-center text-sm text-[#7a6a58]">
+      <footer>
+        <div>
           © 2026 DoshaFlow. All rights reserved.
         </div>
       </footer>
-    </div>
-  )
+    )
 }

@@ -17,18 +17,18 @@ export const metadata = {
 }
 export default function WhyAmIAlwaysBloatedPage() {
   return (
-    <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main>
         <article>
-          <header className="mb-12">
-            <time className="text-sm text-muted-foreground">June 2, 2026</time>
-            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
+          <header>
+            <time>June 2, 2026</time>
+            <h1>
               Why Am I Always Bloated? The Ayurvedic Explanation (And What to Do About It)
             </h1>
-            <p className="text-muted-foreground">
-              By <span className="text-foreground font-medium">Alex</span> · DoshaFlow
+            <p>
+              By <span>Alex</span> · DoshaFlow
             </p>
           </header>
-          <div className="prose prose-lg max-w-none text-[#2c2218]" style={{ lineHeight: 1.75 }}>
+          <div style={{ lineHeight: 1.75 }}>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
               If you are reading this, you have probably tried the usual things. Cut gluten. Cut dairy. Downloaded a FODMAP list. Bought probiotics. Maybe seen a gastroenterologist who told you everything looked normal and sent you home with a sheet about stress management. And you are still bloated. Ayurveda has a different framing of this problem — one that does not start with which foods to eliminate but with why your body is failing to process what you are eating. The distinction matters because the solution is completely different.
@@ -93,12 +93,12 @@ export default function WhyAmIAlwaysBloatedPage() {
               <p style={{ marginBottom: "16px", lineHeight: 1.75, fontWeight: 500 }}>
                 Not sure which pattern is yours?
               </p>
-              <Link href="/quiz" className="inline-block bg-[#2c1a0e] text-white px-6 py-2 rounded-full hover:bg-[#3d2b1f] text-sm font-medium">
+              <Link href="/quiz">
                 Take the Free Dosha Quiz
               </Link>
             </div>
             <p style={{ marginBottom: "20px", lineHeight: 1.75, fontStyle: "italic" }}>
-              Alex is the founder of DoshaFlow. <Link href="/quiz" className="text-[#c49a6c] hover:underline">Take the dosha quiz</Link> · <Link href="/blog" className="text-[#c49a6c] hover:underline">Read more articles</Link>
+              Alex is the founder of DoshaFlow. <Link href="/quiz">Take the dosha quiz</Link> · <Link href="/blog">Read more articles</Link>
             </p>
           </div>
         </article>
