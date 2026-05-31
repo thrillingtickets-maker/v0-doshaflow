@@ -59,4 +59,9 @@ export const highlightMap: Record<string, string> = {
   "retreat-day-4": "Day",
   "retreat-day-5": "Day",
   "retreat-day-6": "Day",
+  "brahmi-benefits": "Brahmi",
+  "triphala-benefits": "Triphala",
+  "pitta-foods-to-avoid": "Foods",
+  "ayurveda-aging": "Aging",
+  "ayurveda-beginners-guide": "Ayurveda",
 }
