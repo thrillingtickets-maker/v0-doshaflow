@@ -51,21 +51,26 @@ export default function JournalPage() {
             {journalPosts.map((post) => (
               <article
                 key={post.slug}
-                className="group bg-card border border-border rounded-2xl overflow-hidden hover:shadow-lg hover:shadow-primary/5 transition-all duration-300"
+                className="group bg-card border border-border rounded-2xl overflow-hidden hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 focus-within:shadow-lg focus-within:shadow-primary/5"
               >
                 <div className="p-6">
                   <time className="text-sm text-muted-foreground">
                     {post.date}
                   </time>
-                  <h2 className="font-serif text-xl text-foreground mt-2 mb-3 group-hover:text-primary transition-colors">
-                    {post.title}
-                  </h2>
+                  <Link
+                    href={`/blog/${post.slug}`}
+                    className="block focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary rounded"
+                  >
+                    <h2 className="font-serif text-xl text-foreground mt-2 mb-3 group-hover:text-primary transition-colors">
+                      {post.title}
+                    </h2>
+                  </Link>
                   <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                     {post.excerpt}
                   </p>
                   <Link
                     href={`/blog/${post.slug}`}
-                    className="inline-flex items-center gap-2 text-sm font-medium text-[#C97F3D] hover:gap-3 transition-all"
+                    className="inline-flex items-center gap-2 text-sm font-medium text-[#C97F3D] hover:gap-3 transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary rounded"
                   >
                     Read more
                     <ArrowRight className="w-4 h-4" />
