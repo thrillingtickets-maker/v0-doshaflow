@@ -163,14 +163,14 @@ export default function BlogPage() {
       {/* Filter Pills */}
       <section style={{ paddingTop: "40px", paddingBottom: "40px", backgroundColor: "#ffffff" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
-          <div style={{ display: "flex", flexWrap: "nowrap", gap: "8px", overflowX: "auto", WebkitOverflowScrolling: "touch", paddingBottom: "4px", scrollBehavior: "smooth" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "10px", WebkitOverflowScrolling: "touch", paddingBottom: "4px", scrollBehavior: "smooth", justifyContent: "flex-start" }}>
             {FILTER_CATEGORIES.map((filter) => (
               <button
                 key={filter}
                 onClick={() => setSelectedFilter(filter)}
                 style={{
-                  padding: "6px 20px",
-                  fontSize: "12px",
+                  padding: "8px 22px",
+                  fontSize: "13px",
                   fontWeight: 400,
                   border: selectedFilter === filter ? "none" : `1px solid ${CATEGORY_COLORS[filter]?.border || "rgba(0, 0, 0, 0.08)"}`,
                   backgroundColor: selectedFilter === filter ? (CATEGORY_COLORS[filter]?.pill || "#f5f0e8") : "transparent",
@@ -180,16 +180,17 @@ export default function BlogPage() {
                   transition: "all 0.2s ease",
                   fontFamily: "inherit",
                   whiteSpace: "nowrap",
-                  flexShrink: 0,
                 }}
                 onMouseEnter={(e) => {
                   if (selectedFilter !== filter) {
                     (e.target as HTMLButtonElement).style.backgroundColor = "#f5f0e8";
+                    (e.target as HTMLButtonElement).style.borderColor = CATEGORY_COLORS[filter]?.accent || "#8a7a6e";
                   }
                 }}
                 onMouseLeave={(e) => {
                   if (selectedFilter !== filter) {
                     (e.target as HTMLButtonElement).style.backgroundColor = "transparent";
+                    (e.target as HTMLButtonElement).style.borderColor = CATEGORY_COLORS[filter]?.border || "rgba(0, 0, 0, 0.08)";
                   }
                 }}
               >
@@ -213,6 +214,9 @@ export default function BlogPage() {
             @media (max-width: 768px) {
               .excerpt-clamped {
                 -webkit-line-clamp: 2;
+              }
+              div:has(button) {
+                gap: 8px;
               }
             }
           `}</style>

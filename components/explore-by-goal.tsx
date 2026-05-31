@@ -43,13 +43,13 @@ export function ExploreByGoal() {
             >
               <Link
                 href={card.href}
-                className="block h-full p-8 md:p-10 bg-card rounded-2xl border border-border/50 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 group flex flex-col justify-center items-center text-center"
+                className="block h-full p-8 md:p-10 bg-card rounded-2xl border border-border/60 hover:border-primary/40 hover:shadow-md hover:shadow-primary/8 transition-all duration-300 ease-out group flex flex-col justify-center items-center text-center"
               >
-                <span className="text-2xl md:text-3xl font-semibold text-foreground group-hover:text-primary transition-colors leading-tight">
+                <span className="text-xl md:text-2xl font-semibold text-foreground group-hover:text-primary transition-colors duration-300 leading-snug tracking-tight">
                   {card.goal}
                 </span>
                 <div className="mt-6 inline-flex items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <span className="text-sm text-muted-foreground">Explore →</span>
+                  <span className="text-sm text-muted-foreground tracking-wide">Explore</span>
                 </div>
               </Link>
             </motion.div>
