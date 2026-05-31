@@ -9,8 +9,6 @@ const CATEGORY_COLORS: Record<string, { accent: string; border: string; pill: st
   "Stress & Anxiety": { accent: "#8fa88e", border: "#a8b8a7", pill: "#f0f4f0" },
   "Digestion": { accent: "#b5963a", border: "#c4a655", pill: "#faf8f2" },
   "Sleep": { accent: "#7a8fa8", border: "#8fa3b8", pill: "#f0f4fa" },
-  "Women's Health": { accent: "#a87a8a", border: "#b89199", pill: "#faf0f5" },
-  "Men's Health": { accent: "#7a9a5a", border: "#8faf6f", pill: "#f0f9f0" },
   "Retreat Journal": { accent: "#b5763a", border: "#d4a574", pill: "#fdf6ee" },
   "Tea": { accent: "#9a8a5a", border: "#b0a070", pill: "#faf8f2" },
   "Doshas": { accent: "#8a7a6e", border: "#a09a8e", pill: "#f5f0e8" },
@@ -24,9 +22,10 @@ const FILTER_CATEGORIES = [
   "Digestion",
   "Stress & Anxiety",
   "Sleep",
-  "Women's Health",
-  "Men's Health",
   "Weight Loss",
+]
+
+const EDITORIAL_CATEGORIES = [
   "Retreat Journal",
 ]
 function getArticleFilters(slug: string, category: string): string[] {
@@ -70,19 +69,6 @@ function getArticleFilters(slug: string, category: string): string[] {
   if (slug.includes("sleep") || slug.includes("tired")) {
     filters.push("Sleep")
   }
-  // Women's health
-  if (
-    slug.includes("pms") ||
-    slug.includes("hormonal") ||
-    slug.includes("perimenopause") ||
-    slug.includes("skin-guide")
-  ) {
-    filters.push("Women's Health")
-  }
-  // Men's health
-  if (slug.includes("men")) {
-    filters.push("Men's Health")
-  }
   // Weight loss
   if (
     slug.includes("weight") ||
@@ -100,8 +86,6 @@ function getPrimaryCategory(slug: string, category: string): string {
   if (slug.includes("bloat") || slug.includes("digest") || slug.includes("ice-water")) return "Digestion"
   if (slug.includes("anxiety") || slug.includes("stress") || slug.includes("cortisol") || slug.includes("burnout") || slug.includes("anger")) return "Stress & Anxiety"
   if (slug.includes("sleep") || slug.includes("tired")) return "Sleep"
-  if (slug.includes("pms") || slug.includes("hormonal") || slug.includes("perimenopause") || slug.includes("skin-guide")) return "Women's Health"
-  if (slug.includes("men")) return "Men's Health"
   if (slug.includes("weight") || slug.includes("diet-plan") || slug.includes("foods-to-avoid")) return "Weight Loss"
   return "Doshas"
 }
@@ -174,8 +158,46 @@ export default function BlogPage() {
       {/* Filter Pills */}
       <section style={{ paddingTop: "40px", paddingBottom: "40px", backgroundColor: "#ffffff" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "10px", WebkitOverflowScrolling: "touch", paddingBottom: "4px", scrollBehavior: "smooth", justifyContent: "flex-start" }}>
+          {/* Main filter row */}
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "10px", WebkitOverflowScrolling: "touch", paddingBottom: "20px", scrollBehavior: "smooth", justifyContent: "flex-start" }}>
             {FILTER_CATEGORIES.map((filter) => (
+              <button
+                key={filter}
+                onClick={() => setSelectedFilter(filter)}
+                style={{
+                  padding: "8px 22px",
+                  fontSize: "13px",
+                  fontWeight: 400,
+                  border: selectedFilter === filter ? "none" : `1px solid ${CATEGORY_COLORS[filter]?.border || "rgba(0, 0, 0, 0.08)"}`,
+                  backgroundColor: selectedFilter === filter ? (CATEGORY_COLORS[filter]?.pill || "#f5f0e8") : "transparent",
+                  color: selectedFilter === filter ? (CATEGORY_COLORS[filter]?.accent || "#1a1a1a") : "#8a7a6e",
+                  borderRadius: "20px",
+                  cursor: "pointer",
+                  transition: "all 0.2s ease",
+                  fontFamily: "inherit",
+                  whiteSpace: "nowrap",
+                }}
+                onMouseEnter={(e) => {
+                  if (selectedFilter !== filter) {
+                    (e.target as HTMLButtonElement).style.backgroundColor = "#f5f0e8";
+                    (e.target as HTMLButtonElement).style.borderColor = CATEGORY_COLORS[filter]?.accent || "#8a7a6e";
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  if (selectedFilter !== filter) {
+                    (e.target as HTMLButtonElement).style.backgroundColor = "transparent";
+                    (e.target as HTMLButtonElement).style.borderColor = CATEGORY_COLORS[filter]?.border || "rgba(0, 0, 0, 0.08)";
+                  }
+                }}
+              >
+                {filter}
+              </button>
+            ))}
+          </div>
+          
+          {/* Editorial categories row */}
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "10px", WebkitOverflowScrolling: "touch", paddingTop: "16px", borderTop: "1px solid rgba(0, 0, 0, 0.06)", scrollBehavior: "smooth", justifyContent: "flex-start" }}>
+            {EDITORIAL_CATEGORIES.map((filter) => (
               <button
                 key={filter}
                 onClick={() => setSelectedFilter(filter)}
