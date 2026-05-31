@@ -110,4 +110,4 @@ export default function AyurvedaHormonalBalancePage() {
         </div>
       </footer>
     )
-}
+  }
