@@ -1,45 +1,37 @@
-import { getPostBySlug, getAllPosts } from "@/lib/posts"
-import { Navigation } from "@/components/navigation"
-import { Footer } from "@/components/footer"
-import { ArticleHero } from "@/components/article-hero"
-import { highlightMap } from "@/lib/article-colors"
-import Link from "next/link"
-import { notFound } from "next/navigation"
+import { getPostBySlug } from "@/lib/posts";
+import { ArticleHero } from "@/components/article-hero";
+import { highlightMap } from "@/lib/article-colors";
+import { notFound } from "next/navigation";
+import Link from "next/link";
 
 export async function generateStaticParams() {
-  const posts = getAllPosts()
-  return posts.map((post) => ({
-    slug: post.slug,
-  }))
+  return [{ slug: "best-spices-for-digestion" }];
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params
-  const post = getPostBySlug(slug)
-  
-  if (!post) {
-    return {
-      title: "Post Not Found | DoshaFlow",
-    }
-  }
+export async function generateMetadata() {
+  const post = getPostBySlug("best-spices-for-digestion");
+  if (!post) return {};
+
   return {
-    title: post.seoTitle || `${post.title} | DoshaFlow Blog`,
+    title: post.seoTitle || post.title,
     description: post.seoDescription || post.excerpt,
-  }
+    openGraph: {
+      title: post.seoTitle || post.title,
+      description: post.seoDescription || post.excerpt,
+    },
+  };
 }
 
-export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params
-  const post = getPostBySlug(slug)
-  const highlightWord = highlightMap[slug]
-  
+export default async function BlogPostPage() {
+  const post = getPostBySlug("best-spices-for-digestion");
+  const highlightWord = highlightMap["best-spices-for-digestion"];
+
   if (!post) {
-    notFound()
+    notFound();
   }
-  
+
   return (
     <>
-      <Navigation />
       <ArticleHero
         title={post.title}
         category={post.category}
@@ -65,7 +57,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </div>
         </article>
       </main>
-      <Footer />
     </>
-  )
+  );
 }
