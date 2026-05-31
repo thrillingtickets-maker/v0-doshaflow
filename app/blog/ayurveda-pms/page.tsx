@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "The Ayurvedic Approach to PMS: Three Patterns and What to Do About Each",

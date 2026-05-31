@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Day 5: I Watched the NBA Finals at 6am, Got Poured Buttermilk on My Head, and Still Can&apos;t Turn My Brain Off",

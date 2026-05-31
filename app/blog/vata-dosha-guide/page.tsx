@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Vata Dosha: Signs You're Out of Balance and How to Fix It",
@@ -18,8 +17,7 @@ export const metadata = {
 
 export default function VataDoshaGuidePage() {
   return (
-    <ArticleLayout>
-      <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main className="max-w-[680px] mx-auto px-6 py-12">
         <article>
           </p>
         </header>
@@ -173,7 +171,6 @@ export default function VataDoshaGuidePage() {
           </p>
         </div>
       </article>
-    </main>
-  </ArticleLayout>
-  )
-}
+      </main>
+    )
+  }

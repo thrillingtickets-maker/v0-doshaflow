@@ -3,7 +3,6 @@ import { Footer } from "@/components/footer"
 import { getPostBySlug, getAllPosts } from "@/lib/posts"
 import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 import { notFound } from "next/navigation"
 
 export async function generateStaticParams() {

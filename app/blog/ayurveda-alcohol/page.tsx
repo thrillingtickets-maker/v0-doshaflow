@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Ayurveda Has Its Own Version of Alcohol. Here's What the Texts Actually Say.",
@@ -24,7 +23,7 @@ export default function AyurvedaAlcoholPage() {
       {/* Navigation */}
 
       {/* Article */}
-      <ArticleLayout>
+      
       <main className="max-w-[680px] mx-auto px-6 py-12">
         <article>
           {/* Post Header */}

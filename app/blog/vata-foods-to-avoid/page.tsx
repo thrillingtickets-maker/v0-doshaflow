@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Vata Foods to Avoid: What Is Making Your Anxiety and Digestion Worse",
@@ -18,10 +17,7 @@ export const metadata = {
 
 export default function VataFoodsToAvoidPage() {
   return (
-    
-
-      <ArticleLayout>
-      <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main className="max-w-[680px] mx-auto px-6 py-12">
         <article>
           <header className="mb-12">
             <time className="text-sm text-muted-foreground">June 7, 2026</time>
@@ -117,6 +113,5 @@ export default function VataFoodsToAvoidPage() {
           </div>
         </article>
       </main>
-    </ArticleLayout>
-  )
-}
+    )
+  }

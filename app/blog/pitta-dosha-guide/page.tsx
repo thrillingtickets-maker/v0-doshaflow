@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Pitta Dosha: Signs of Imbalance and How to Cool Down",

@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Best Ayurvedic Tea for Sleep: The Herbs That Actually Work",
@@ -20,10 +19,7 @@ export const metadata = {
 
 export default function BestAyurvedicTeaSleepPage() {
   return (
-    
-
-      <ArticleLayout>
-      <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main className="max-w-[680px] mx-auto px-6 py-12">
         <article>
           <header className="mb-12">
             <time className="text-sm text-muted-foreground">June 11, 2026</time>

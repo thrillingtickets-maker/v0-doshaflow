@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Signs of Nervous System Burnout — And the Ayurvedic Path Back",
@@ -18,10 +17,7 @@ export const metadata = {
 
 export default function NervousSystemBurnoutPage() {
   return (
-    
-
-      <ArticleLayout>
-      <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main className="max-w-[680px] mx-auto px-6 py-12">
         <article>
           <header className="mb-12">
             <time className="text-sm text-muted-foreground">June 4, 2026</time>

@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Best Ayurvedic Tea for Digestion: What to Drink Before, During, and After Meals",
@@ -20,10 +19,7 @@ export const metadata = {
 
 export default function BestAyurvedicTeaDigestionPage() {
   return (
-    
-
-      <ArticleLayout>
-      <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main className="max-w-[680px] mx-auto px-6 py-12">
         <article>
           <header className="mb-12">
             <time className="text-sm text-muted-foreground">June 12, 2026</time>
