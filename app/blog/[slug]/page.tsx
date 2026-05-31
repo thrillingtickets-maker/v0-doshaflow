@@ -43,30 +43,32 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         date={post.date}
         highlightWord={highlightWord}
       />
-      <article style={{ maxWidth: "680px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px", paddingTop: "40px", paddingBottom: "80px" }}>
-        {/* Back Link */}
-        <a
-          href="/blog"
-          style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#8a7a5a", textDecoration: "none", fontSize: "14px", marginBottom: "40px", cursor: "pointer" }}
-        >
-          <ArrowLeft size={16} />
-          Back to Blog
-        </a>
-        {/* Post Content */}
-        <div
-          style={{ color: "#3d2e1e", fontSize: "17px", lineHeight: 1.75 }}
-          dangerouslySetInnerHTML={{ __html: post.content }}
-        />
-        {/* Post Footer - Back Link */}
-        <footer style={{ marginTop: "64px", paddingTop: "32px", borderTop: "1px solid #e8d9c5" }}>
+      <article className="pt-12 pb-24 px-6">
+        <div className="max-w-3xl mx-auto">
+          {/* Back Link */}
           <a
             href="/blog"
-            style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#8a7a5a", textDecoration: "none", fontSize: "14px", cursor: "pointer" }}
+            className="inline-flex items-center gap-2 text-[#8a7a5a] text-sm mb-10 hover:underline cursor-pointer"
           >
             <ArrowLeft size={16} />
-            Back to all posts
+            Back to Blog
           </a>
-        </footer>
+          {/* Post Content */}
+          <div
+            className="prose prose-lg max-w-none text-foreground mb-12"
+            dangerouslySetInnerHTML={{ __html: post.content }}
+          />
+          {/* Post Footer - Back Link */}
+          <footer className="mt-16 pt-8 border-t border-[#e8d9c5]">
+            <a
+              href="/blog"
+              className="inline-flex items-center gap-2 text-[#8a7a5a] text-sm hover:underline cursor-pointer"
+            >
+              <ArrowLeft size={16} />
+              Back to all posts
+            </a>
+          </footer>
+        </div>
       </article>
     </main>
   )
