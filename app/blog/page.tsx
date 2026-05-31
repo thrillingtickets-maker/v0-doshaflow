@@ -167,7 +167,7 @@ export default function BlogPage() {
                   selectedFilter === filter
                     ? "bg-[#C97F3D] text-white shadow-md shadow-[#C97F3D]/20"
                     : "bg-[#f5f1e8] text-[#5c4a3a] hover:bg-[#e8dcc8] border border-[#d9cbbe]"
-                }`}
+                `}
               >
                 {filter}
               </button>
