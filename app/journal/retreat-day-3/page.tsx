@@ -50,7 +50,7 @@ export default function RetreatDay3Page() {
               The woman who runs the retreat explained that this is also normal. The nervous system is detoxifying. As the acute stress chemicals clear and the mind quiets down, suppressed emotions start moving through. I spent ten years running from myself at high speed. As that slows down, I am starting to catch up to myself. The mood swings will settle. This is the system processing.
             </p>
 
-            <h2 className="font-serif text-3xl text-foreground mt-12 mb-6">Today&apos;s highlight: Shirodhara.</h2>
+            <h2 className="font-serif text-3xl text-foreground mt-12 mb-6">{"Today's highlight: Shirodhara."}</h2>
             <p>
               Shirodhara is the treatment where warm oil is poured slowly onto your forehead in a continuous stream for about 45 minutes. It sounds strange. It sounds like the kind of thing that would be unpleasant. It is the opposite of unpleasant.
             </p>
