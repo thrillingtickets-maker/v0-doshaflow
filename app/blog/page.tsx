@@ -308,6 +308,10 @@ export default function BlogPage() {
           )}
           <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "48px" }}>
             {filteredPosts.map((post) => {
+              // Skip retreat-day articles in the regular grid when featured section is shown
+              if (selectedFilter === "All" && post.slug.includes("retreat-day")) {
+                return null;
+              }
               const isRetreatJournal = post.slug.includes("retreat-day")
               const primaryCategory = getPrimaryCategory(post.slug, post.category)
               const categoryColor = CATEGORY_COLORS[primaryCategory]
