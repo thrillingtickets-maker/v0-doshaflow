@@ -14,7 +14,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/retreat-day-6",
-  }
+  },
 }
 
 export default function RetreatDay6Page() {
