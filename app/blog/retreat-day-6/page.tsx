@@ -19,10 +19,10 @@ export const metadata = {
 
 export default function RetreatDay6Page() {
   return (
-    <div style={{ minHeight: "100vh", backgroundColor: "#fdf8f3" }}>
-      <div style={{ maxWidth: "680px", margin: "0 auto", padding: "48px 24px" }}>
+    <main style={{ maxWidth: "680px", margin: "0 auto", padding: "48px 24px" }}>
+      <article>
         <Link href="/journal" style={{ color: "#9a7a5a", textDecoration: "none", fontSize: "14px", marginBottom: "24px", display: "inline-block" }}>
-          &larr; Back to Retreat Journal
+          ← Back to Retreat Journal
         </Link>
 
         <header style={{ marginBottom: "48px" }}>
@@ -33,7 +33,7 @@ export default function RetreatDay6Page() {
           <p style={{ color: "#9a7a5a" }}>By <span style={{ color: "#2c1a0e", fontWeight: 500 }}>Alex</span> · May 30, 2026 · Ayurvedic Retreat, Day 6</p>
         </header>
 
-        <article style={{ color: "#2c1a0e", lineHeight: 1.75 }}>
+        <section style={{ color: "#2c1a0e", lineHeight: 1.75 }}>
           <p style={{ marginBottom: "20px" }}>1.5 hours of sleep. That is my number for last night. My running total for this retreat — a place specifically designed to restore the nervous system — is approximately one good night of sleep and everything else held together with stubbornness and spite. I want to be clear that this is entirely my own doing. The laptop is right there and I cannot leave it alone.</p>
 
           <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>9am: the enema.</h2>
@@ -42,7 +42,7 @@ export default function RetreatDay6Page() {
 
           <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>The standoff.</h2>
 
-          <p style={{ marginBottom: "20px" }}>I woke up groggy in a way that felt personal. Not tired — affronted. My body was insulted. I had breakfast, ate my correctly-portioned meal without really tasting it, and made a decision: I was not doing the 11am treatment. The 11am treatment is an hour of lying still while someone works on you. On a good day, wonderful. On ninety minutes of sleep, still processing the morning&apos;s events, in a mood I would describe generously as not ready to be touched by another human being — the idea of lying there for sixty minutes while my brain ran its circuits felt unbearable. My doctor — who I like, who I trust — was off for the day. So I walked to the treatment centre and informed the covering doctor that I would not be participating. She disagreed. Firmly. &quot;You have to do this. This is part of your treatment.&quot; I said, with the particular calm of someone running on fumes: &quot;I am not doing it.&quot; And I walked back to my room. They sent someone after me. &quot;We want what is best for you.&quot; I understand. I genuinely do. But there is a version of wellness that still requires the person to be marginally functional, and I was not that. I texted a few people. I thought, briefly and without real conviction, about how easy it would be to just leave. I did not leave. But I thought about it.</p>
+          <p style={{ marginBottom: "20px" }}>I woke up groggy in a way that felt personal. Not tired — affronted. My body was insulted. I had breakfast, ate my correctly-portioned meal without really tasting it, and made a decision: I was not doing the 11am treatment. The 11am treatment is an hour of lying still while someone works on you. On a good day, wonderful. On ninety minutes of sleep, still processing the morning&apos;s events, in a mood I would describe generously as not ready to be touched by another human being — the idea of lying there for sixty minutes while my brain ran its circuits felt unbearable. My doctor — who I like, who I trust — was off for the day. So I walked to the treatment centre and informed the covering doctor that I would not be participating. She disagreed. Firmly. "You have to do this. This is part of your treatment." I said, with the particular calm of someone running on fumes: "I am not doing it." And I walked back to my room. They sent someone after me. "We want what is best for you." I understand. I genuinely do. But there is a version of wellness that still requires the person to be marginally functional, and I was not that. I texted a few people. I thought, briefly and without real conviction, about how easy it would be to just leave. I did not leave. But I thought about it.</p>
 
           <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>The turn.</h2>
 
@@ -60,7 +60,7 @@ export default function RetreatDay6Page() {
 
           <p style={{ marginBottom: "20px" }}>Weight this morning: 162.5 pounds. I have lost a kilo since arriving. I have eight days left. That number hit differently tonight. When I arrived, eight days would have felt like rescue. Now it feels like not quite enough. Not because I want to stay — I want to sleep in my own bed desperately — but because I have started to feel the approach of everything I left behind, and I am not entirely sure I am ready to be back in proximity to it. The thing I am not saying directly and then will say directly: I am getting anxious about alcohol. About going back into the world where it&apos;s everywhere and normal and social and easy. About whether what I&apos;ve been building here — the routines, the yoga, the eating, the slightly different relationship with myself — is strong enough to hold once the context changes. I do not have a clean answer. What I have is that I did yoga today on ninety minutes of sleep when everything in me said not to. That is something. I am choosing to count it. Sleep: 1.5 hours. 9am: the enema, not discussed further. Treatments: one afternoon massage, attended voluntarily. Yoga: done. Temple visits: one. Kilos lost: one. Prayers given in my mother&apos;s name: one. New friends made: one, plus his mother. Days remaining: eight. Tonight I am asking — politely, with genuine desperation — for four hours of sleep. That is all. Four hours. I am not asking for much.</p>
 
-          <p style={{ marginTop: "48px", marginBottom: "16px", fontSize: "14px", fontWeight: 600, color: "#2c1a0e" }}>Related Articles: <Link href="/blog/best-herbs-for-anxiety" style={{color: "#c49a6c", textDecoration: "underline"}}}>Best Herbs for Anxiety</Link> · <Link href="/blog/nervous-system-burnout" style={{color: "#c49a6c", textDecoration: "underline"}}}>Burnout Recovery</Link></p>
+          <p style={{ marginTop: "48px", marginBottom: "16px", fontSize: "14px", fontWeight: 600, color: "#2c1a0e" }}>Related Articles: <Link href="/blog/best-herbs-for-anxiety" style={{ color: "#c49a6c", textDecoration: "underline" }}>Best Herbs for Anxiety</Link> · <Link href="/blog/nervous-system-burnout" style={{ color: "#c49a6c", textDecoration: "underline" }}>Burnout Recovery</Link></p>
 
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -92,8 +92,8 @@ export default function RetreatDay6Page() {
               </Link>
             </div>
           </div>
-        </article>
-      </div>
-    </div>
+        </section>
+      </article>
+    </main>
   )
 }
