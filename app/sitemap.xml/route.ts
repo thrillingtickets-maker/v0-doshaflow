@@ -4,6 +4,7 @@ export async function GET() {
   const lastmod = "2026-05-29"
   const newPostsLastmod = "2026-06-06"
   const dietPostsLastmod = "2026-06-13"
+  const missingPostsLastmod = "2026-05-31"
 
   const urls = [
     { loc: "https://www.doshaflow.com", lastmod },
@@ -33,6 +34,22 @@ export async function GET() {
     { loc: "https://www.doshaflow.com/blog/best-ayurvedic-tea-sleep", lastmod: dietPostsLastmod },
     { loc: "https://www.doshaflow.com/blog/best-ayurvedic-tea-digestion", lastmod: dietPostsLastmod },
     { loc: "https://www.doshaflow.com/blog/ayurvedic-weight-loss", lastmod: dietPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/signs-of-vata-imbalance", lastmod: missingPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/pitta-anger-sleep", lastmod: missingPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/kapha-morning-routine", lastmod: missingPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/nervous-system-burnout", lastmod: missingPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/why-am-i-always-tired", lastmod: missingPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/ayurveda-alcohol-recovery", lastmod: missingPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/vata-foods-to-avoid", lastmod: missingPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/kapha-foods-to-avoid", lastmod: missingPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/best-ayurvedic-tea-anxiety", lastmod: missingPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/best-tea-for-bloating", lastmod: missingPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/best-tea-for-vata", lastmod: missingPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/best-tea-for-stress", lastmod: missingPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/perimenopause-ayurveda", lastmod: missingPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/ayurvedic-skin-guide", lastmod: missingPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/retreat-day-5", lastmod: missingPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/retreat-day-6", lastmod: missingPostsLastmod },
   ]
 
   const urlEntries = urls
