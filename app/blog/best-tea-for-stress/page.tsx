@@ -106,6 +106,5 @@ export default function BestTeaForStressPage() {
           </div>
         </article>
       </main>
-    </div>
-  )
-}
+    )
+  }
