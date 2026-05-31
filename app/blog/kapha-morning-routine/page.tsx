@@ -113,6 +113,5 @@ export default function KaphaMorningRoutinePage() {
           </div>
         </article>
       </main>
-    </div>
-  )
-}
+    )
+  }
