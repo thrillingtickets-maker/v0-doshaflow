@@ -54,19 +54,19 @@ export function ExploreByDosha() {
             >
               <Link
                 href={card.href}
-                className="block h-full p-8 bg-card rounded-2xl border border-border/50 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 group"
+                className="block h-full p-8 bg-card rounded-2xl border border-border/60 hover:border-primary/40 hover:shadow-md hover:shadow-primary/8 transition-all duration-300 ease-out group"
               >
                 <div className="mb-4">
-                  <h3 className="text-2xl font-semibold text-foreground group-hover:text-primary transition-colors">
+                  <h3 className="text-2xl font-semibold text-foreground group-hover:text-primary transition-colors duration-300 tracking-tight">
                     {card.title}
                   </h3>
-                  <p className="text-sm text-muted-foreground mt-1">{card.subtitle}</p>
+                  <p className="text-sm text-muted-foreground mt-2 font-light tracking-wide">{card.subtitle}</p>
                 </div>
-                <p className="text-base text-foreground/80 leading-relaxed mb-4">
+                <p className="text-sm md:text-base text-foreground/80 leading-relaxed mb-4 tracking-tight">
                   {card.description}
                 </p>
                 <div className="flex items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <span className="text-sm text-muted-foreground">Read more →</span>
+                  <span className="text-sm text-muted-foreground tracking-wide">Read more</span>
                 </div>
               </Link>
             </motion.div>

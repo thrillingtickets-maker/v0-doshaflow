@@ -44,13 +44,13 @@ export function ExploreAyurveda() {
             >
               <Link
                 href={card.href}
-                className="block h-full p-6 md:p-8 bg-card rounded-2xl border border-border/50 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 group"
+                className="block h-full p-6 md:p-8 bg-card rounded-2xl border border-border/60 hover:border-primary/40 hover:shadow-md hover:shadow-primary/8 transition-all duration-300 ease-out group"
               >
-                <span className="text-lg font-medium text-foreground group-hover:text-primary transition-colors">
+                <span className="text-base font-medium text-foreground group-hover:text-primary transition-colors duration-300 tracking-tight">
                   {card.label}
                 </span>
                 <div className="mt-4 flex items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <span className="text-sm text-muted-foreground">Read more →</span>
+                  <span className="text-sm text-muted-foreground tracking-wide">Read more</span>
                 </div>
               </Link>
             </motion.div>
