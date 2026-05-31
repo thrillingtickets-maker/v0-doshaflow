@@ -7,9 +7,9 @@ const goalCards = [
   { goal: "I can't sleep", href: "/blog/best-ayurvedic-tea-sleep" },
   { goal: "I'm always anxious", href: "/blog/best-herbs-for-anxiety" },
   { goal: "I'm always bloated", href: "/blog/why-am-i-always-bloated" },
-  { goal: "I can't lose weight", href: "/blog/ayurvedic-weight-loss" },
-  { goal: "I'm burned out", href: "/blog/nervous-system-burnout" },
-  { goal: "I have no energy", href: "/blog/why-am-i-always-tired" },
+  { goal: "I can't lose weight", href: "/blog/i-cant-lose-weight" },
+  { goal: "I'm burned out", href: "/blog/im-burned-out" },
+  { goal: "I have no energy", href: "/blog/i-have-no-energy" },
   { goal: "Digestion problems", href: "/blog/best-ayurvedic-tea-digestion" },
 ]
 
