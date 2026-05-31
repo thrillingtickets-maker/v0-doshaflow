@@ -171,7 +171,7 @@ export default function BlogPage() {
               >
                 {filter}
               </button>
-            ))
+            ))}
           </div>
         </div>
       </section>
