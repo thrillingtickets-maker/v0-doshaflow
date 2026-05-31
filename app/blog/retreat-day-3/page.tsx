@@ -48,9 +48,9 @@ export default function RetreatDay3Page() {
           <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>The numbers.</h2>
           <p style={{ marginBottom: "20px" }}>Sleep: 8 hours. Resting heart rate: 74. Steps: 15,000 (this took genuinely all day). Yoga and meditation completed: 0 (tomorrow, I mean it this time &mdash; my back hurts and I need to move properly).</p>
           <p style={{ marginBottom: "20px" }}>It&apos;s not a perfect day. My body hurts, my mood was all over the place, and I have a headache. But I&apos;m here. I slept eight hours. I hit 15,000 steps. I built something I&apos;m proud of. And I went to bed not overfull for the first time all week. Progress looks different than I thought it would. But I think that&apos;s the point.</p>
-          <p style={{ marginTop: "48px", marginBottom: "16px", fontSize: "14px", fontWeight: 600, color: "#2c1a0e" }}>
+          <div style={{ marginTop: "48px", marginBottom: "16px", fontSize: "14px", fontWeight: 600, color: "#2c1a0e" }}>
             Related Articles: <Link href="/blog/ayurveda-30-days" style={{ color: "#c49a6c", textDecoration: "underline" }}>30-Day Ayurveda Challenge</Link> · <Link href="/blog/ayurvedic-morning-routine" style={{ color: "#c49a6c", textDecoration: "underline" }}>Morning Routine Guide</Link>
-          </p>
+          </div>
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
           <h3 style={{ fontSize: "18px", fontWeight: 700, marginTop: "40px", marginBottom: "20px", color: "#2c1a0e" }}>Related Guides</h3>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))", gap: "16px", marginBottom: "40px" }}>
