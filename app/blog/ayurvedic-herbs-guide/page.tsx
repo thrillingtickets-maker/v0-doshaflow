@@ -19,9 +19,9 @@ export const metadata = {
 };
 export default function AyurvedicHerbsGuidePage() {
   return (
-    <main>
+    <main style={{ minHeight: "100vh", backgroundColor: "#fdf8f3" }}>
       <Navigation />
-      <article>
+      <article style={{ padding: "48px 24px" }}>
         <div>
           {/* Back Link */}
           <Link
@@ -42,6 +42,8 @@ export default function AyurvedicHerbsGuidePage() {
               By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
+          <div style={{ maxWidth: "680px", margin: "0 auto" }}>
+            
           {/* Post Content */}
           <div
           >
@@ -145,6 +147,7 @@ export default function AyurvedicHerbsGuidePage() {
           </footer>
         </div>
       <ContinueJourney />
+            </div>
       </article>
       <Footer />
     </main>

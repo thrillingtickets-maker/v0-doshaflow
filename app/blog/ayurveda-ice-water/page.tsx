@@ -18,8 +18,8 @@ export const metadata = {
 }
 export default function AyurvedaIceWaterPage() {
   return (
-    <main>
-        <article>
+    <main style={{ minHeight: "100vh", backgroundColor: "#fdf8f3" }}>
+        <article style={{ padding: "48px 24px" }}>
           {/* Post Header */}
           <header>
             <time>May 28, 2026</time>
@@ -30,6 +30,8 @@ export default function AyurvedaIceWaterPage() {
               By <span>Alex</span> · Written during study and treatment in Kerala, India.
             </p>
           </header>
+          <div style={{ maxWidth: "680px", margin: "0 auto" }}>
+            
           {/* Post Content */}
           <div style={{ lineHeight: 1.75 }}>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
@@ -193,6 +195,7 @@ export default function AyurvedaIceWaterPage() {
             </div>
           </div>
         <ContinueJourney />
+            </div>
       </article>
       </main>
     )
