@@ -124,18 +124,18 @@ export default function BlogPage() {
     <main>
       <Navigation />
       {/* Hero Section */}
-      <section style={{ paddingTop: "120px", paddingBottom: "32px" }}>
-        <div>
-          <h1>
+      <section style={{ paddingTop: "80px", paddingBottom: "40px" }}>
+        <div style={{ textAlign: "center" }}>
+          <h1 style={{ fontSize: "36px", fontWeight: 700, marginBottom: "12px", color: "#1a1a1a" }}>
             Articles
           </h1>
-          <p>
+          <p style={{ fontSize: "16px", color: "#8a7a6e", marginBottom: "0" }}>
             Ayurvedic guides, research, and practical advice.
           </p>
         </div>
       </section>
       {/* Filter Pills */}
-      <section style={{ paddingTop: "60px", paddingBottom: "48px", backgroundColor: "#ffffff" }}>
+      <section style={{ paddingTop: "40px", paddingBottom: "40px", backgroundColor: "#ffffff" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
           <div style={{ display: "flex", flexWrap: "nowrap", gap: "8px", overflowX: "auto", WebkitOverflowScrolling: "touch", paddingBottom: "4px", scrollBehavior: "smooth" }}>
             {FILTER_CATEGORIES.map((filter) => (
