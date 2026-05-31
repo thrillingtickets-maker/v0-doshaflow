@@ -505,6 +505,128 @@ export const posts: Post[] = [
     seoDescription: "A practical guide to the most important Ayurvedic herbs — what they do, the evidence behind them, and how to match them to your dosha type.",
     content: `<p>This article explores the ayurvedic herb guide: what's actually in these formulas and why. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
+  {
+    slug: "why-you-wake-up-at-3am",
+    category: "article",
+    title: "Why You Wake Up at 3am: The Ayurvedic Explanation",
+    date: "May 11, 2026",
+    excerpt: "Waking at 3am with a racing mind is a Vata pattern in Ayurveda — not just stress. Here is why it happens and the specific interventions that actually stop it.",
+    seoTitle: "Why You Wake Up at 3am: The Ayurvedic Explanation",
+    seoDescription: "Waking at 3am with a racing mind is a Vata pattern in Ayurveda — not just stress. Here is why it happens and the specific interventions that actually stop it.",
+    content: `<p>3am. You are awake. Your mind is already running. Not gently either — fully operational, processing things that felt manageable at 10pm and somehow feel catastrophic now. You lie there trying to will yourself back to sleep and the more you try the more awake you become. This pattern is so common it has become normalised. Most people who experience it assume it is stress, or getting older, or just how they are. Ayurveda has a more specific explanation — and a more specific set of solutions.</p>
+<h2>What Ayurveda Says Is Happening at 3am.</h2>
+<p>The Ayurvedic clock divides the day and night into dosha periods. Vata time runs from 2am to 6am. Vata is the dosha of air and ether — mobile, light, cold, and irregular. It governs the nervous system and the mind's tendency to generate thought rapidly. When you wake at 3am, you are waking into peak Vata time. If your Vata is already elevated — from chronic stress, irregular eating, poor sleep habits, too much stimulation, or systemic depletion — the Vata energy of this window amplifies whatever nervous system activation is already present. The mind engages. Thoughts accelerate. Sleep becomes impossible. The reason the thoughts feel more intense and more catastrophic at 3am than before bed is not psychological drama. It is the Vata amplification of an already-dysregulated nervous system meeting its most active window.</p>
+<h2>Why Pitta Time Matters Too.</h2>
+<p>Pitta time runs from 10pm to 2am — the period when the body is doing its primary metabolic and processing work. The liver is detoxifying. The mind, if still active during this window, tends to engage in the kind of focused analytical processing that Pitta governs. For people who go to sleep late — after 10pm — the mind often gets a second wind. This Pitta activation can carry through into the early hours, and when Vata time begins at 2am, the transition from Pitta processing to Vata anxiety is a common pattern behind 3am waking. The fix in Ayurvedic terms is to be asleep before Pitta time activates — before 10pm.</p>
+<h2>Other Contributing Factors.</h2>
+<p>Blood sugar instability is one of the most underappreciated causes. When blood sugar drops during the night, the body releases cortisol to compensate. Cortisol spikes are activating — they reliably wake people up. Liver congestion is another — the liver's peak processing window of 1-3am, when overburdened by alcohol or chronic inflammation, can produce a general sense of unease that wakes you. Cortisol dysregulation is the third major factor — in people with chronically elevated cortisol, the normal early-morning cortisol rise sometimes activates too early.</p>
+<h2>What to Do About It.</h2>
+<p>Go to sleep before 10pm — the most impactful single change. Getting into bed before Pitta time activates means transitioning into deep sleep during Kapha time when the gravitational pull toward rest is strongest. Ashwagandha at night — its cortisol-regulating action directly addresses the cortisol dysregulation driving 3am waking. Give it 4-6 weeks. Jatamansi specifically for this pattern — the Himalayan root used specifically for insomnia and mental unrest, particularly the pattern of waking in the night with an activated mind. Eat dinner before 7pm — late eating forces the digestive system to remain active during rest, directly disturbing sleep. Reduce alcohol — the metabolic processing of alcohol between 2am and 4am produces the arousal response that wakes you. Warm milk with nutmeg before bed — a small amount of nutmeg in warm milk has mild sedative properties and is nourishing to the Vata nervous system.</p>
+<h2>The Pattern Is Information.</h2>
+<p>The 3am wake-up in Ayurvedic terms is not a malfunction. It is the nervous system reporting its state. A system that is well-nourished, properly timed, and adequately regulated does not activate dramatically at 3am. The solutions are not dramatic — consistent sleep timing, warm nourishing food, appropriate herbs, and reducing the inputs that prevent the system from doing what it already knows how to do.</p>
+<div style={{ marginTop: "48px", padding: "32px", backgroundColor: "#f5ede1", border: "1px solid #e8d9c5", borderLeft: "4px solid #8a7a5a", borderRadius: "6px" }}>
+  <p style={{ fontSize: "16px", fontWeight: 600, color: "#2c1a0e", marginBottom: "16px" }}>Find your dosha and personalize your approach</p>
+  <a href="/quiz" style={{ display: "inline-block", backgroundColor: "#8a7a5a", color: "#fdf8f3", padding: "12px 24px", borderRadius: "24px", textDecoration: "none", fontWeight: 600, fontSize: "14px" }}>Take the Free Dosha Quiz →</a>
+</div>`,
+  },
+  {
+    slug: "ayurveda-overthinking",
+    category: "article",
+    title: "Ayurveda for Overthinking: Why Your Mind Won't Stop (And What Actually Helps)",
+    date: "May 12, 2026",
+    excerpt: "Overthinking is a Vata disorder in Ayurveda — not a character flaw. Here are the herbs, practices, and lifestyle changes that actually quiet a racing mind.",
+    seoTitle: "Ayurveda for Overthinking: Why Your Mind Won't Stop (And What Actually Helps)",
+    seoDescription: "Overthinking is a Vata disorder in Ayurveda — not a character flaw. Here are the herbs, practices, and lifestyle changes that actually quiet a racing mind.",
+    content: `<p>Overthinking is not a character flaw. It is a physiological state — a nervous system running at a frequency that generates thought faster than it can process it, producing the looping, cycling, amplifying quality that most people who overthink will immediately recognise. Ayurveda has been treating this pattern for thousands of years. Not as a psychological problem. As a Vata disorder — a dysregulation of the force that governs movement, the nervous system, and the mind's tendency to generate and cycle through thought.</p>
+<h2>The Ayurvedic Understanding of Overthinking.</h2>
+<p>Vata is the dosha of air and ether. Its positive expressions are creativity, quick thinking, adaptability. Its excess expressions are racing thoughts, circular thinking, difficulty landing on decisions, and the particular exhaustion that comes from a mind generating content at high speed for too long. The mind in Ayurvedic terms is governed by three qualities: Sattva (clarity), Rajas (activity), and Tamas (heaviness). Overthinking is a Rajasic excess — too much mental movement, not enough settling. This maps directly onto elevated Vata. The factors that produce this state are the conditions of modern life: too much information input, too little physical movement, irregular eating, insufficient sleep, and stimulant reliance.</p>
+<h2>Why Overthinking Worsens at Night.</h2>
+<p>Vata time is 2-6am and 2-6pm. The afternoon window is when most overthinkers notice their first significant peak of mental cycling. The night window is when the 3am spiral happens. This is not coincidence or psychology — it is the Vata energy of those windows amplifying an already-elevated Vata nervous system. The person without elevated Vata moves through these windows without disruption. The person with elevated Vata experiences them as the periods when the mind accelerates most dramatically.</p>
+<h2>The Herbs.</h2>
+<p>Brahmi (Bacopa monnieri) is the primary herb for overthinking — the classical Ayurvedic brain tonic used for the cooling and settling of mental activity. Its action is specifically on the mind: it reduces the sharp, active quality of Rajasic mental excess without dulling or sedating. Brahmi tea in the afternoon — during the 2-6pm Vata window when overthinking peaks — is a consistent recommendation. Give it 6-8 weeks. Ashwagandha addresses the adrenal and cortisol component of overthinking — the stress response feeds the mental activation which produces more cortisol which feeds more activation. Take nightly. Jatamansi is used specifically for mental unrest — the particular quality of mental agitation that does not correspond to external circumstances. Shankhpushpi is one of the most specific classical herbs for mental agitation and the cycling quality of an overactive mind.</p>
+<h2>Lifestyle Interventions.</h2>
+<p>Move the body before trying to settle the mind — physical movement reduces mental activation more reliably than any other intervention. A 20-minute walk before attempting meditation or sleep produces better outcomes than attempting either without it. Reduce information input deliberately — news, social media, stimulating conversations in the evening all provide material for the Rajasic mind to cycle through. Eat at regular times — blood sugar instability produces cortisol spikes throughout the day and night that are a significant driver of mental restlessness. Write it down — giving the mobile Vata quality a direction by recording whatever is circling before bed reduces the load on the mind during sleep.</p>
+<h2>What Does Not Help.</h2>
+<p>More thinking — overthinking does not resolve through more thinking. It resolves through nervous system regulation, which is physiological not cognitive. Alcohol — the temporary sedation is followed by Vata rebound that makes mental cycling worse. Coffee after 2pm — the Vata window (2-6pm) is when caffeine and overthinking are most mutually amplifying.</p>
+<div style={{ marginTop: "48px", padding: "32px", backgroundColor: "#f5ede1", border: "1px solid #e8d9c5", borderLeft: "4px solid #8a7a5a", borderRadius: "6px" }}>
+  <p style={{ fontSize: "16px", fontWeight: 600, color: "#2c1a0e", marginBottom: "16px" }}>Find your dosha and personalize your approach</p>
+  <a href="/quiz" style={{ display: "inline-block", backgroundColor: "#8a7a5a", color: "#fdf8f3", padding: "12px 24px", borderRadius: "24px", textDecoration: "none", fontWeight: 600, fontSize: "14px" }}>Take the Free Dosha Quiz →</a>
+</div>`,
+  },
+  {
+    slug: "ashwagandha-vs-brahmi",
+    category: "article",
+    title: "Ashwagandha vs Brahmi: Which Ayurvedic Herb Do You Actually Need?",
+    date: "May 13, 2026",
+    excerpt: "Ashwagandha and Brahmi are both adaptogens but they work completely differently. Here is the clear distinction — and when to use each one.",
+    seoTitle: "Ashwagandha vs Brahmi: Which Ayurvedic Herb Do You Actually Need?",
+    seoDescription: "Ashwagandha and Brahmi are both adaptogens but they work completely differently. Here is the clear distinction — and when to use each one.",
+    content: `<p>Both are among the most important herbs in the Ayurvedic pharmacopoeia. Both are adaptogens. Both are used for stress, cognitive function, and nervous system support. Both are increasingly well-researched in Western clinical literature. They are not the same thing, and using the wrong one for the wrong condition produces suboptimal results. Here is the clear distinction.</p>
+<h2>Ashwagandha: The Body-First Adaptogen.</h2>
+<p>Ashwagandha works primarily on the adrenal system and the HPA axis — the pathway that regulates the body's stress response. Its primary mechanism is cortisol modulation. Multiple clinical trials have demonstrated statistically significant reductions in serum cortisol, improvements in sleep quality, and reductions in anxiety scores with consistent use. In Ayurvedic terms it is a Rasayana — a rejuvenating tonic that nourishes ojas, builds tissue, and strengthens the body's reserves. It is warming, grounding, and deeply nourishing. The conditions it is most suited for: physical depletion and fatigue from overwork; cortisol dysregulation and the wired-but-tired pattern; testosterone and reproductive health in men; anxiety rooted in depletion. Dosha fit: primarily Vata, secondarily Kapha. Pitta types should use with caution.</p>
+<h2>Brahmi: The Mind-First Adaptogen.</h2>
+<p>Brahmi works primarily on the brain and cognitive function. Its mechanisms include antioxidant effects on neural tissue and modulation of neurotransmitter systems. In Ayurvedic terms it is the primary Medhya Rasayana — a brain-specific rejuvenator that enhances knowledge acquisition, retention, and recall. It is cooling, clarifying, and specific to the mental functions. The conditions it is most suited for: brain fog and cognitive sluggishness; mental anxiety — the specific pattern of overthinking, cycling thoughts, and mental restlessness; Pitta mental excess — the intense overheated quality of a Pitta mind; learning and study. The clinical evidence for Brahmi is among the strongest in the Ayurvedic literature. Dosha fit: primarily Pitta, secondarily Vata. More appropriate for Pitta than Ashwagandha.</p>
+<h2>When to Use Both.</h2>
+<p>The combination is one of the more powerful pairings in Ayurvedic practice because they address the stress-anxiety pattern from two different angles simultaneously. Ashwagandha addresses the physiological stress response — cortisol, adrenal function, body-level depletion, sleep architecture. Brahmi addresses the mental expression of that stress — racing thoughts, cycling anxiety, cognitive dulling. For someone dealing with burnout or chronic stress-driven anxiety — taking Ashwagandha at night and Brahmi in the afternoon produces effects that neither herb produces alone.</p>
+<h2>Practical Protocol.</h2>
+<p>Ashwagandha: 300-600mg root extract or half a teaspoon of root powder in warm milk, taken at night before bed. Brahmi: 300mg standardised extract or Brahmi leaf tea, taken in the afternoon during the 2-6pm Vata window when mental activation tends to peak. Both herbs require consistency — meaningful results appear at 6-8 weeks of daily use. Neither is an acute intervention.</p>
+<h2>The Simple Decision Tree.</h2>
+<p>If the primary symptom is physical — fatigue, low energy, poor recovery, sleep disruption, depleted feeling — start with Ashwagandha. If the primary symptom is mental — brain fog, racing thoughts, anxiety that is more cognitive than physical, difficulty concentrating — start with Brahmi. If both are present, which is common in burnout — use both, with Ashwagandha at night and Brahmi in the afternoon. If you run hot, get angry easily, have inflammatory skin conditions or acid reflux — favour Brahmi over Ashwagandha.</p>
+<div style={{ marginTop: "48px", padding: "32px", backgroundColor: "#f5ede1", border: "1px solid #e8d9c5", borderLeft: "4px solid #8a7a5a", borderRadius: "6px" }}>
+  <p style={{ fontSize: "16px", fontWeight: 600, color: "#2c1a0e", marginBottom: "16px" }}>Find your dosha and personalize your approach</p>
+  <a href="/quiz" style={{ display: "inline-block", backgroundColor: "#8a7a5a", color: "#fdf8f3", padding: "12px 24px", borderRadius: "24px", textDecoration: "none", fontWeight: 600, fontSize: "14px" }}>Take the Free Dosha Quiz →</a>
+</div>`,
+  },
+  {
+    slug: "overstimulation-ayurveda",
+    category: "article",
+    title: "Overstimulation and Ayurveda: Why Modern Life Is Breaking Your Nervous System",
+    date: "May 14, 2026",
+    excerpt: "Overstimulation is a Vata disorder — the nervous system flooded with more input than it can process. Here is the Ayurvedic explanation and what actually helps.",
+    seoTitle: "Overstimulation and Ayurveda: Why Modern Life Is Breaking Your Nervous System",
+    seoDescription: "Overstimulation is a Vata disorder — the nervous system flooded with more input than it can process. Here is the Ayurvedic explanation and what actually helps.",
+    content: `<p>There is a specific quality of exhaustion that is increasingly common and poorly understood. It is not tiredness from physical exertion. It is the particular depletion that comes from too much input — too much information, too much noise, too much connectivity, too many decisions, too many demands on attention from too many simultaneous directions. Ayurveda has a name for the constitutional type most vulnerable to this pattern, a clear explanation of its mechanism, and specific interventions that address it.</p>
+<h2>The Vata Architecture of Overstimulation.</h2>
+<p>Vata is the dosha of air and ether — the principle of movement, communication, and the nervous system's capacity to receive and process sensory information. Its vulnerability is this: it has no natural saturation point. Where Kapha has density that slows input and Pitta has fire that burns through it, Vata is genuinely open — it continues receiving stimulation without natural filtering. In an environment with limited stimulation, this openness is an asset. In modern life — which delivers a historically unprecedented volume of stimulation through screens, notifications, information, and ambient noise — it is a liability. The result is Vata excess: the nervous system remains in sustained activation with no natural off switch. The inputs keep coming. The reserves deplete. The threshold for overwhelm drops. The anxiety rises without a clear object.</p>
+<h2>The Modern Amplifiers.</h2>
+<p>Screens before bed — specifically designed to engage Vata's pattern-recognition and novelty-seeking tendencies. The algorithm does not stop. Social media specifically — the variable reward structure is the most reliably activating input available to modern humans. Remote and async work — the always-on quality maintains the nervous system in a state of low-level activation throughout the day that, over months and years, produces the Vata depletion underlying burnout. Commuting in stimulating environments — cities, airports, crowded spaces, noise — all genuine Vata aggravators that accumulate across the day.</p>
+<h2>The Physical Signs That Overstimulation Has Gone Too Far.</h2>
+<p>Decreased tolerance for noise — the person previously comfortable in loud environments now finds them physically uncomfortable. Sensory sensitivity — light seems brighter, smells more intense. Decision fatigue that arrives earlier in the day than it used to. The inability to be bored — the nervous system has lost the capacity to tolerate the absence of input. Emotional reactivity disproportionate to events — small things trigger large responses because the regulation capacity has been depleted.</p>
+<h2>The Interventions.</h2>
+<p>Deliberate sensory reduction — periods of genuine silence, walking without headphones, eating without screens. The nervous system does not recover in the presence of continued stimulation. It recovers in its absence. Abhyanga — warm oil massage — produces documented reductions in cortisol and inflammatory markers. Ten minutes of self-massage before a shower daily. Ashwagandha for the adrenal depletion — take nightly. Consistent meals at consistent times. Sleep before 10pm. Reduce caffeine after noon.</p>
+<h2>The Paradox of Recovery.</h2>
+<p>The particular challenge of nervous system overstimulation is that the recovery practices — stillness, silence, slow sensory experience — are the practices that feel most uncomfortable to the overstimulated system. The person who most needs to sit in silence for ten minutes is the person who finds ten minutes of silence almost intolerable. The intervention is not waiting until it feels comfortable. It is doing it anyway, briefly, consistently, and allowing the tolerance to build over weeks.</p>
+<div style={{ marginTop: "48px", padding: "32px", backgroundColor: "#f5ede1", border: "1px solid #e8d9c5", borderLeft: "4px solid #8a7a5a", borderRadius: "6px" }}>
+  <p style={{ fontSize: "16px", fontWeight: 600, color: "#2c1a0e", marginBottom: "16px" }}>Find your dosha and personalize your approach</p>
+  <a href="/quiz" style={{ display: "inline-block", backgroundColor: "#8a7a5a", color: "#fdf8f3", padding: "12px 24px", borderRadius: "24px", textDecoration: "none", fontWeight: 600, fontSize: "14px" }}>Take the Free Dosha Quiz →</a>
+</div>`,
+  },
+  {
+    slug: "how-to-fix-sleep-schedule",
+    category: "article",
+    title: "How to Fix Your Sleep Schedule with Ayurveda",
+    date: "May 15, 2026",
+    excerpt: "Ayurveda says when you sleep matters as much as how long. Here is the dosha clock, why late sleep produces less recovery, and a 4-week protocol for shifting your schedule.",
+    seoTitle: "How to Fix Your Sleep Schedule with Ayurveda",
+    seoDescription: "Ayurveda says when you sleep matters as much as how long. Here is the dosha clock, why late sleep produces less recovery, and a 4-week protocol for shifting your schedule.",
+    content: `<p>Most sleep advice focuses on duration. Eight hours. Seven hours. A consistent number of hours. Ayurveda has a more interesting position: the hours you sleep matter as much as how many you sleep, and the biological window you use determines the quality of recovery you get from those hours regardless of their quantity. This is not a fringe view. It is increasingly well-supported by circadian biology research. But Ayurveda articulated the underlying logic thousands of years before the research confirmed it.</p>
+<h2>The Dosha Clock and Sleep.</h2>
+<p>Ayurveda divides the 24-hour cycle into six four-hour periods. Kapha time 6pm to 10pm: Kapha is heavy, slow, dense, and stable. Its qualities naturally incline the body toward rest and the slowing that precedes sleep. The body's gravitational pull toward unconsciousness is strongest during this window. Pitta time 10pm to 2am: the body's most active internal processing window. The liver is doing primary detoxification work. The immune system is most active. Vata time 2am to 6am: Vata is mobile, light, and activating. The nervous system's most alert period. Going to sleep during Kapha time means using the body's natural gravitational pull into rest. Going to sleep after 10pm means sleeping after Pitta time has activated the processing functions — the body is now working rather than resting.</p>
+<h2>Why Late Sleep Produces Less Recovery.</h2>
+<p>The second wind phenomenon — the surge of alertness around 10-11pm — is Pitta engaging. This feels like energy but it is the energy of a furnace stoking for processing work, not a body ready for regenerative rest. People who habitually sleep late report needing more hours to feel rested. The Ayurvedic explanation is that late-window sleep is not as restorative per hour as early-window sleep because the Kapha quality that produces deep heavy regenerative rest is most present in the early part of the night.</p>
+<h2>The Protocol for Shifting Your Sleep Schedule.</h2>
+<p>Week one: Move to bed 15 minutes earlier than your current time. Week two: another 15 minutes. Week three: another 15 minutes. Week four: final 15 minutes. This gradual approach — 15 minutes per week rather than the dramatic shift most people attempt — works with the nervous system's natural adjustment capacity rather than against it. The destination is consistently asleep before 10pm.</p>
+<h2>What Makes Early Sleep Difficult.</h2>
+<p>The Pitta second wind is real — the surge of energy that arrives around 10-11pm. For Pitta-dominant people, this is their most creative and productive window. The pattern is to work through it. The issue is that working through the Pitta window trains the body to remain active during that period, cementing the late-sleep pattern. Breaking this requires conscious decision to not work during this window and transition into genuine wind-down practices.</p>
+<h2>Ayurvedic Evening Practices for Sleep.</h2>
+<p>Begin at 9pm. Warm oil massage to the feet — 5 minutes. Warm milk with cardamom, nutmeg, and a small amount of ashwagandha, taken at 9:15pm. Reading or journaling — no screens — until 9:45pm. Bed by 10pm. This creates a consistent signal to the nervous system that sleep is coming. Consistency is more important than any individual element.</p>
+<h2>The Result.</h2>
+<p>After 4-6 weeks of consistent early sleep, most people report needing fewer total hours to feel rested, better energy throughout the day, improved digestion, and decreased anxiety. The changes are not subtle. They are among the most significant shifts that changing sleep timing produces.</p>
+<div style={{ marginTop: "48px", padding: "32px", backgroundColor: "#f5ede1", border: "1px solid #e8d9c5", borderLeft: "4px solid #8a7a5a", borderRadius: "6px" }}>
+  <p style={{ fontSize: "16px", fontWeight: 600, color: "#2c1a0e", marginBottom: "16px" }}>Find your dosha and personalize your approach</p>
+  <a href="/quiz" style={{ display: "inline-block", backgroundColor: "#8a7a5a", color: "#fdf8f3", padding: "12px 24px", borderRadius: "24px", textDecoration: "none", fontWeight: 600, fontSize: "14px" }}>Take the Free Dosha Quiz →</a>
+</div>`,
+  },
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {
