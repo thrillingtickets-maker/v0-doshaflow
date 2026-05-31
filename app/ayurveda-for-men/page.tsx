@@ -38,7 +38,7 @@ export default function AyurvedaForMenPage() {
             </p>
 
             <p>
-              If you&apos;re a man who stumbled into Ayurveda looking for something that would actually help with your <Link href="/blog/best-ayurvedic-tea-sleep" className="text-[#C97F3D] hover:underline">sleep</Link>, your gut, your weight, your <Link href="/blog/best-herbs-for-anxiety" className="text-[#C97F3D] hover:underline">anxiety</Link>, your energy levels, or your relationship with alcohol — you probably bounced off most of it immediately.
+              If you're a man who stumbled into Ayurveda looking for something that would actually help with your <Link href="/blog/best-ayurvedic-tea-sleep" className="text-[#C97F3D] hover:underline">sleep</Link>, your gut, your weight, your <Link href="/blog/best-herbs-for-anxiety" className="text-[#C97F3D] hover:underline">anxiety</Link>, your energy levels, or your relationship with alcohol — you probably bounced off most of it immediately.
             </p>
 
             <p>
@@ -46,7 +46,7 @@ export default function AyurvedaForMenPage() {
             </p>
 
             <p>
-              Then I actually read it — the real thing, not the lifestyle brand version — and realized that Ayurveda is one of the most practical systems of health I&apos;d ever encountered. It&apos;s specific. It&apos;s individualized. It doesn&apos;t ask you to believe anything. It asks you to observe yourself and apply what you find.
+              Then I actually read it — the real thing, not the lifestyle brand version — and realized that Ayurveda is one of the most practical systems of health I'd ever encountered. It's specific. It's individualized. It doesn't ask you to believe anything. It asks you to observe yourself and apply what you find.
             </p>
 
             <p>
@@ -68,7 +68,7 @@ export default function AyurvedaForMenPage() {
             </p>
 
             <p>
-              Conventional medicine is good at treating acute conditions. It is not great at helping you understand <em>why</em> your energy is wrecked, why you can&apos;t sleep, why you feel chronically off even when nothing is technically wrong. Most men in this situation are told to exercise more, sleep more, stress less — advice so general it&apos;s nearly useless.
+              Conventional medicine is good at treating acute conditions. It is not great at helping you understand <em>why</em> your energy is wrecked, why you can't sleep, why you feel chronically off even when nothing is technically wrong. Most men in this situation are told to exercise more, sleep more, stress less — advice so general it's nearly useless.
             </p>
 
             <p>
@@ -99,7 +99,7 @@ export default function AyurvedaForMenPage() {
               </p>
 
               <p className="mt-4">
-                Ayurveda&apos;s intervention for this pattern is not a supplement stack or a biohack. It is regulation — consistent routine, warm nourishing food, the right herbs, less stimulation, and the particular discipline of going to sleep before 10pm even when the work is not done.
+                Ayurveda's intervention for this pattern is not a supplement stack or a biohack. It is regulation — consistent routine, warm nourishing food, the right herbs, less stimulation, and the particular discipline of going to sleep before 10pm even when the work is not done.
               </p>
 
               <p className="mt-4">
@@ -118,7 +118,7 @@ export default function AyurvedaForMenPage() {
             </h2>
 
             <p>
-              Ayurveda is a 5,000-year-old system of medicine from India. It&apos;s not alternative medicine in the sense of being unproven — it&apos;s pre-modern medicine, developed before the laboratory era, based on thousands of years of clinical observation. Much of it holds up under scrutiny. Some of it doesn&apos;t. Like any system, it&apos;s best used intelligently.
+              Ayurveda is a 5,000-year-old system of medicine from India. It's not alternative medicine in the sense of being unproven — it's pre-modern medicine, developed before the laboratory era, based on thousands of years of clinical observation. Much of it holds up under scrutiny. Some of it doesn't. Like any system, it's best used intelligently.
             </p>
 
             <p>
@@ -132,11 +132,11 @@ export default function AyurvedaForMenPage() {
             </ul>
 
             <p>
-              Everyone has all three doshas. What varies is the proportion. Your dominant dosha — or combination of doshas — is your <em>prakriti</em>, your constitution. It&apos;s essentially how your body and mind are wired by default.
+              Everyone has all three doshas. What varies is the proportion. Your dominant dosha — or combination of doshas — is your <em>prakriti</em>, your constitution. It's essentially how your body and mind are wired by default.
             </p>
 
             <p>
-              When your doshas are in balance, you feel good. When they&apos;re out of balance — from stress, poor diet, disrupted sleep, overwork, alcohol, or seasonal change — you get symptoms. The Ayurvedic approach is to identify the imbalance and address the root cause rather than suppressing the symptom.
+              When your doshas are in balance, you feel good. When they're out of balance — from stress, poor diet, disrupted sleep, overwork, alcohol, or seasonal change — you get symptoms. The Ayurvedic approach is to identify the imbalance and address the root cause rather than suppressing the symptom.
             </p>
 
             <hr className="border-border my-12" />
@@ -166,7 +166,7 @@ export default function AyurvedaForMenPage() {
               <Link href="/blog/best-herbs-for-anxiety" className="text-[#C97F3D] hover:underline">
                 anxiety
               </Link>
-              , overwhelm, and an inability to switch off. The kind of person who lies awake at 2am running through tomorrow&apos;s problems.
+              , overwhelm, and an inability to switch off. The kind of person who lies awake at 2am running through tomorrow's problems.
             </p>
 
             <p>
@@ -174,7 +174,7 @@ export default function AyurvedaForMenPage() {
               <Link href="/blog/best-herbs-for-anxiety" className="text-[#C97F3D] hover:underline">
                 anxiety
               </Link>
-              , racing thoughts, exhaustion that doesn&apos;t respond to rest. Often uses alcohol, stimulants, or screens to regulate the nervous system — because Vata energy responds to anything that provides temporary grounding.
+              , racing thoughts, exhaustion that doesn't respond to rest. Often uses alcohol, stimulants, or screens to regulate the nervous system — because Vata energy responds to anything that provides temporary grounding.
             </p>
 
             <p>
@@ -206,7 +206,7 @@ export default function AyurvedaForMenPage() {
               <Link href="/blog/best-ayurvedic-tea-sleep" className="text-[#C97F3D] hover:underline">
                 sleep
               </Link>{" "}
-              that&apos;s disrupted by racing mind rather than anxiety. Often uses alcohol to decompress after intense work — Pitta builds up heat all day and alcohol provides a valve.
+              that's disrupted by racing mind rather than anxiety. Often uses alcohol to decompress after intense work — Pitta builds up heat all day and alcohol provides a valve.
             </p>
 
             <p>
@@ -236,7 +236,7 @@ export default function AyurvedaForMenPage() {
             <hr className="border-border my-12" />
 
             <h2 className="font-serif text-2xl md:text-3xl text-foreground mt-12 mb-6">
-              The Men&apos;s Health Issues Ayurveda Actually Addresses
+              The Men's Health Issues Ayurveda Actually Addresses
             </h2>
 
             <h3 className="font-serif text-xl md:text-2xl text-foreground mt-10 mb-4">
@@ -256,7 +256,7 @@ export default function AyurvedaForMenPage() {
               <Link href="/blog/best-ayurvedic-tea-sleep" className="text-[#C97F3D] hover:underline">
                 sleep
               </Link>{" "}
-              problems. Vata wakes between 2–4am and can&apos;t get back to{" "}
+              problems. Vata wakes between 2–4am and can't get back to{" "}
               <Link href="/blog/best-ayurvedic-tea-sleep" className="text-[#C97F3D] hover:underline">
                 sleep
               </Link>
@@ -272,7 +272,7 @@ export default function AyurvedaForMenPage() {
             </h3>
 
             <p>
-              Ayurveda treats the gut as the foundation of all health — a claim that&apos;s increasingly validated by modern gastroenterology. The concept of <em>agni</em> (digestive fire) maps remarkably well to our modern understanding of gut microbiome health.
+              Ayurveda treats the gut as the foundation of all health — a claim that's increasingly validated by modern gastroenterology. The concept of <em>agni</em> (digestive fire) maps remarkably well to our modern understanding of gut microbiome health.
             </p>
 
             <p>
@@ -284,7 +284,7 @@ export default function AyurvedaForMenPage() {
             </h3>
 
             <p>
-              The Ayurvedic approach to weight is constitutional rather than universal. Kapha men struggle to lose weight because their metabolism runs slow by nature — the answer isn&apos;t less food, it&apos;s different food (lighter, more stimulating) and consistent vigorous movement. Vata men often can&apos;t gain weight because their digestive fire is irregular and their nervous system burns through everything. Pitta men manage weight easily when in balance but accumulate inflammation rapidly when not.
+              The Ayurvedic approach to weight is constitutional rather than universal. Kapha men struggle to lose weight because their metabolism runs slow by nature — the answer isn't less food, it's different food (lighter, more stimulating) and consistent vigorous movement. Vata men often can't gain weight because their digestive fire is irregular and their nervous system burns through everything. Pitta men manage weight easily when in balance but accumulate inflammation rapidly when not.
             </p>
 
             <h3 className="font-serif text-xl md:text-2xl text-foreground mt-10 mb-4">
@@ -308,11 +308,11 @@ export default function AyurvedaForMenPage() {
             </p>
 
             <p>
-              Vata men drink to ground themselves — alcohol temporarily stills the anxious, scattered nervous system. Pitta men drink to release pressure — it&apos;s the valve for a day of intensity. Kapha men drink for comfort and warmth — it fills the emotional heaviness.
+              Vata men drink to ground themselves — alcohol temporarily stills the anxious, scattered nervous system. Pitta men drink to release pressure — it's the valve for a day of intensity. Kapha men drink for comfort and warmth — it fills the emotional heaviness.
             </p>
 
             <blockquote className="border-l-4 border-[#C97F3D] pl-6 py-2 my-8 text-foreground italic text-lg">
-              In each case, alcohol mimics something the dosha needs but provides it in a form that makes the underlying imbalance worse. Understanding your dosha is understanding what you&apos;re actually looking for when you reach for a drink — and that knowledge is the beginning of finding it somewhere else. Learn more in our guide on{" "}
+              In each case, alcohol mimics something the dosha needs but provides it in a form that makes the underlying imbalance worse. Understanding your dosha is understanding what you're actually looking for when you reach for a drink — and that knowledge is the beginning of finding it somewhere else. Learn more in our guide on{" "}
               <Link href="/blog/ayurveda-alcohol-recovery" className="text-[#C97F3D] hover:underline">
                 Ayurveda and alcohol recovery
               </Link>
@@ -326,7 +326,7 @@ export default function AyurvedaForMenPage() {
             </h2>
 
             <p>
-              You don&apos;t need to overhaul your life. Start with three things:
+              You don't need to overhaul your life. Start with three things:
             </p>
 
             <p>
@@ -351,7 +351,7 @@ export default function AyurvedaForMenPage() {
             </h2>
 
             <p>
-              The starting point is knowing your type. The quiz at DoshaFlow takes about five minutes — it asks about your physical build, your digestion, your sleep patterns, your mental tendencies, and your stress responses. It&apos;s designed to identify your primary dosha and give you a practical starting point: what to eat, how to move, and what imbalances to watch for.
+              The starting point is knowing your type. The quiz at DoshaFlow takes about five minutes — it asks about your physical build, your digestion, your sleep patterns, your mental tendencies, and your stress responses. It's designed to identify your primary dosha and give you a practical starting point: what to eat, how to move, and what imbalances to watch for.
             </p>
 
             <p>
@@ -382,19 +382,19 @@ export default function AyurvedaForMenPage() {
             </h2>
 
             <p>
-              I&apos;m not going to tell you Ayurveda will fix everything. I&apos;m 14 days into my second week at an Ayurvedic retreat in Kerala, and it is hard work — physically, emotionally, and mentally. The treatments are intense. The diet is restrictive. The early mornings are brutal.
+              I'm not going to tell you Ayurveda will fix everything. I'm 14 days into my second week at an Ayurvedic retreat in Kerala, and it is hard work — physically, emotionally, and mentally. The treatments are intense. The diet is restrictive. The early mornings are brutal.
             </p>
 
             <p>
-              But I&apos;m sleeping better than I have in years. My resting heart rate is dropping. The anxiety that has been my constant companion for most of my thirties has quieted noticeably. And I understand my body — its patterns, its tendencies, its signals — in a way I simply didn&apos;t before.
+              But I'm sleeping better than I have in years. My resting heart rate is dropping. The anxiety that has been my constant companion for most of my thirties has quieted noticeably. And I understand my body — its patterns, its tendencies, its signals — in a way I simply didn't before.
             </p>
 
             <p>
-              For men who are high-functioning but quietly exhausted, for men who are managing their nervous system with alcohol or stimulants, for men who have tried all the generic wellness advice and found it doesn&apos;t hold — Ayurveda offers something different. A framework built around your specific nature. Tools calibrated to your type.
+              For men who are high-functioning but quietly exhausted, for men who are managing their nervous system with alcohol or stimulants, for men who have tried all the generic wellness advice and found it doesn't hold — Ayurveda offers something different. A framework built around your specific nature. Tools calibrated to your type.
             </p>
 
             <blockquote className="border-l-4 border-[#C97F3D] pl-6 py-2 my-8 text-foreground italic text-lg">
-              That&apos;s what DoshaFlow is here to make accessible. Start with the quiz. See what your body has been trying to tell you.
+              That's what DoshaFlow is here to make accessible. Start with the quiz. See what your body has been trying to tell you.
             </blockquote>
 
             <hr className="border-border my-12" />

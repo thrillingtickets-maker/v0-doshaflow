@@ -36,7 +36,7 @@ export default function AboutPage() {
             className="font-serif text-4xl md:text-6xl lg:text-7xl font-medium leading-[1.1] tracking-tight text-foreground mb-8"
           >
             <span className="text-balance">
-              I didn&apos;t find Ayurveda.{" "}
+              I didn't find Ayurveda.{" "}
               <span className="italic text-[#C97F3D]">It found me.</span>
             </span>
           </motion.h1>
@@ -64,7 +64,7 @@ export default function AboutPage() {
             className="mb-12"
           >
             <p className="text-lg leading-relaxed text-foreground">
-              My name is Alex. I&apos;m 36, I live in Los Angeles, and for a long time I was the last person you&apos;d expect to be talking about wellness.
+              My name is Alex. I'm 36, I live in Los Angeles, and for a long time I was the last person you'd expect to be talking about wellness.
             </p>
           </motion.div>
 
@@ -77,7 +77,7 @@ export default function AboutPage() {
             className="mb-12"
           >
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              For years, I struggled with alcohol abuse. Poor sleep was my constant companion. My diet was terrible — convenient, processed, whatever required the least effort. Anxiety and depression weren&apos;t occasional visitors; they had moved in permanently.
+              For years, I struggled with alcohol abuse. Poor sleep was my constant companion. My diet was terrible — convenient, processed, whatever required the least effort. Anxiety and depression weren't occasional visitors; they had moved in permanently.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
               On the surface, I was functional. I showed up to work. I maintained friendships. I did what was expected. But underneath all of that, I felt like a passenger in my own life — like life was passing me by and I was just watching it happen through a fog.
@@ -108,7 +108,7 @@ export default function AboutPage() {
             className="border-l-4 border-[#C97F3D] pl-6 py-4 my-16"
           >
             <p className="text-xl md:text-2xl font-serif italic text-foreground leading-relaxed">
-              &ldquo;I had this feeling that life was passing me by. Not because nothing was happening — but because I wasn&apos;t really there for any of it.&rdquo;
+              "I had this feeling that life was passing me by. Not because nothing was happening — but because I wasn't really there for any of it."
             </p>
           </motion.blockquote>
 
@@ -121,7 +121,7 @@ export default function AboutPage() {
             className="mb-12"
           >
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              I tried a lot of things over the years. Therapy helped me understand my patterns, but didn&apos;t always give me the tools to change them. Exercise came in bursts — intense motivation followed by weeks of nothing. I cycled through diets: keto, intermittent fasting, whole30. Each one promised a reset, and each one eventually faded.
+              I tried a lot of things over the years. Therapy helped me understand my patterns, but didn't always give me the tools to change them. Exercise came in bursts — intense motivation followed by weeks of nothing. I cycled through diets: keto, intermittent fasting, whole30. Each one promised a reset, and each one eventually faded.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
               Nothing felt like it was built for me specifically. Everything felt like a universal plan I was supposed to force myself into.
@@ -140,7 +140,7 @@ export default function AboutPage() {
               I discovered Ayurveda sideways — through a friend who mentioned it casually, a podcast episode I half-listened to, a book I picked up on a whim. At first, it seemed too ancient, too esoteric. A 5,000-year-old system from India? How could that possibly be relevant to my life in LA in 2024?
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              But the more I learned, the more I felt something I hadn&apos;t felt before: recognized. Ayurveda wasn&apos;t asking me to follow a universal plan. It was asking me to understand my individual nature — and then work with it, not against it.
+              But the more I learned, the more I felt something I hadn't felt before: recognized. Ayurveda wasn't asking me to follow a universal plan. It was asking me to understand my individual nature — and then work with it, not against it.
             </p>
           </motion.div>
 
@@ -153,10 +153,10 @@ export default function AboutPage() {
             className="mb-12"
           >
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              When I learned about the doshas, everything clicked. I&apos;m Vata — creative, energetic, prone to anxiety when out of balance. The description read like a biography: the restless sleep, the racing thoughts, the cold hands and feet, the tendency to skip meals and then wonder why I felt scattered.
+              When I learned about the doshas, everything clicked. I'm Vata — creative, energetic, prone to anxiety when out of balance. The description read like a biography: the restless sleep, the racing thoughts, the cold hands and feet, the tendency to skip meals and then wonder why I felt scattered.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              For the first time, I understood why certain things worked for other people but never worked for me. And I understood what might actually help: warm, grounding foods. Consistent routines. Calming practices. Everything I&apos;d been doing was exactly wrong for my constitution.
+              For the first time, I understood why certain things worked for other people but never worked for me. And I understood what might actually help: warm, grounding foods. Consistent routines. Calming practices. Everything I'd been doing was exactly wrong for my constitution.
             </p>
           </motion.div>
 
@@ -169,10 +169,10 @@ export default function AboutPage() {
             className="mb-12"
           >
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              The changes were gradual. I started with warm oil massage in the mornings — just five minutes, but it grounded me in a way coffee never had. I began eating at consistent times, favoring warm, cooked foods over raw salads and cold smoothies. I reduced alcohol not through willpower or white-knuckling, but by understanding what it was doing to my nervous system. It wasn&apos;t helping me relax; it was shattering my already fragile equilibrium.
+              The changes were gradual. I started with warm oil massage in the mornings — just five minutes, but it grounded me in a way coffee never had. I began eating at consistent times, favoring warm, cooked foods over raw salads and cold smoothies. I reduced alcohol not through willpower or white-knuckling, but by understanding what it was doing to my nervous system. It wasn't helping me relax; it was shattering my already fragile equilibrium.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              Sleep came easier. Mornings got calmer. The fog started to lift. I wasn&apos;t just surviving my days — I was actually present for them.
+              Sleep came easier. Mornings got calmer. The fog started to lift. I wasn't just surviving my days — I was actually present for them.
             </p>
           </motion.div>
 
@@ -188,7 +188,7 @@ export default function AboutPage() {
               Right now — May 2026
             </p>
             <p className="text-lg leading-relaxed text-foreground">
-              I&apos;m in the middle of a two-week Ayurvedic retreat — deepening my practice, studying with teachers, and documenting everything. This blog is my attempt to share that journey in real time.
+              I'm in the middle of a two-week Ayurvedic retreat — deepening my practice, studying with teachers, and documenting everything. This blog is my attempt to share that journey in real time.
             </p>
           </motion.div>
 
@@ -216,10 +216,10 @@ export default function AboutPage() {
             className="mb-12"
           >
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              DoshaFlow is what I wished had existed when I started this journey. It&apos;s dosha-based nutrition that actually tastes good. Grounding movement that doesn&apos;t require a gym membership. Herbal blends, oils, and rituals that fit into a real life.
+              DoshaFlow is what I wished had existed when I started this journey. It's dosha-based nutrition that actually tastes good. Grounding movement that doesn't require a gym membership. Herbal blends, oils, and rituals that fit into a real life.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              I&apos;m not a guru. I&apos;m not a doctor. I&apos;m someone who was struggling and found something that worked — and I want to make it accessible to others who might be where I was.
+              I'm not a guru. I'm not a doctor. I'm someone who was struggling and found something that worked — and I want to make it accessible to others who might be where I was.
             </p>
           </motion.div>
 
@@ -232,7 +232,7 @@ export default function AboutPage() {
             className="mb-16"
           >
             <p className="text-xl leading-relaxed text-foreground font-medium">
-              If any part of what I&apos;ve described sounds familiar — the fog, the feeling that you&apos;re not quite showing up for your own life — I built this for you.
+              If any part of what I've described sounds familiar — the fog, the feeling that you're not quite showing up for your own life — I built this for you.
             </p>
           </motion.div>
 
