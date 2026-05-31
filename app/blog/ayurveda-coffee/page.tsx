@@ -42,11 +42,7 @@ export default function AyurvedaCoffeePage() {
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>The answer is nuanced, which is very Ayurvedic of it. But it starts with understanding what coffee actually does in the body — through an Ayurvedic lens.</p>
 
-            <img 
-              src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=900&q=80" 
-              alt="Coffee cup with steam" 
-              style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-            />
+            
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -76,11 +72,7 @@ export default function AyurvedaCoffeePage() {
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}><strong>Kapha types</strong> are actually the most tolerant of coffee, because its stimulating, drying, heating qualities counteract Kapha&apos;s sluggishness. The morning Kapha who is genuinely slow to start — not using coffee to compensate for poor sleep, but genuinely moving through that heavy Kapha hour — may find coffee helpful. Moderately. Without sugar. Not six cups.</p>
 
-            <img 
-              src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=900&q=80" 
-              alt="Coffee beans and spices" 
-              style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-            />
+            
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -112,11 +104,7 @@ export default function AyurvedaCoffeePage() {
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}><strong>Try the 30-day swap and notice.</strong> Replace coffee with tulsi tea or ginger tea for 30 days. Then reintroduce coffee and notice, with fresh perception, what it actually does. Most people discover they&apos;ve been so habituated to coffee&apos;s effects that they couldn&apos;t feel them anymore.</p>
 
-            <img 
-              src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=900&q=80" 
-              alt="Herbal tea and spices" 
-              style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-            />
+            
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 

@@ -57,11 +57,7 @@ export default function AyurvedaColdSmoothiesPage() {
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>The Concept of Agni</h2>
 
-            <img 
-              src="https://images.unsplash.com/photo-1610970881699-44a5587cabec?w=900&q=80" 
-              alt="Warm spices and Ayurvedic cooking" 
-              style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-            />
+            
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>To understand why Ayurveda objects to cold smoothies, you need one concept: agni.</p>
 
@@ -91,11 +87,7 @@ export default function AyurvedaColdSmoothiesPage() {
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>Who This Matters Most For</h2>
 
-            <img 
-              src="https://images.unsplash.com/photo-1495214783159-3503fd1b572d?w=900&q=80" 
-              alt="Warm oatmeal with spices" 
-              style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-            />
+            
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>Not everyone responds the same way to cold, raw food. This is Ayurveda being nuanced rather than dogmatic.</p>
 
@@ -139,11 +131,7 @@ export default function AyurvedaColdSmoothiesPage() {
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>What About Summer?</h2>
 
-            <img 
-              src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=900&q=80" 
-              alt="Golden milk turmeric latte" 
-              style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-            />
+            
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>Reasonable question. In peak summer heat, particularly for Pitta types, the calculus shifts slightly. Some raw food at breakfast becomes more tolerable and even appropriate when the external environment is hot and the body is running warm.</p>
 

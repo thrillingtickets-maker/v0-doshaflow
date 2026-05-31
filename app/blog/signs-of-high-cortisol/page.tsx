@@ -48,10 +48,10 @@ export default function SignsOfHighCortissolPage() {
               <strong>Weight gain concentrated around the abdomen</strong> while arms and legs remain relatively thin — cortisol directs fat storage to visceral tissue. <strong>Sleep disruption, particularly waking between 2-4am</strong> with a racing mind — this is the cortisol peak occurring at the wrong time. <strong>Afternoon energy crash followed by a second wind in the late evening</strong> — this inverted rhythm is characteristic of HPA axis dysregulation. <strong>Cravings for salty and sweet foods, particularly in the afternoon</strong> — the adrenal glands require both, and chronic depletion creates strong cravings. <strong>Frequent illness or slow recovery</strong> — cortisol suppresses immune function when chronically elevated. <strong>Feeling constantly wired but tired.</strong> <strong>Reduced libido and menstrual irregularities</strong> — the body deprioritises reproduction under chronic stress. <strong>Brain fog, poor memory, difficulty concentrating.</strong>
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?stressed,person,tired,burnout,exhausted" style={{width: "100%", borderRadius: "8px", margin: "32px 0"}} alt="Signs of high cortisol and burnout" />
+            
               Ayurveda does not use the word cortisol. But the condition maps clearly onto Vata-Pitta imbalance: the depletion and dysregulation of Vata combined with the heat and intensity of excessive Pitta. The Ayurvedic term for adrenal-adjacent depletion is Ojas depletion — the erosion of the vital essence that governs immunity, resilience, and the body&apos;s deepest reserves. The causes of Ojas depletion in the classical texts read like a description of modern overachievement culture: excessive work, insufficient sleep, irregular eating, constant stimulation, chronic anxiety, and overuse of stimulants.
-            <img src="https://source.unsplash.com/featured/800x450/?adrenal,stress,herbs,adaptogen,natural" style={{width: "100%", borderRadius: "8px", margin: "32px 0"}} alt="Ayurvedic approach to stress" />
-            <img src="https://source.unsplash.com/featured/800x450/?sesame,oil,massage,warm,ayurvedic" style={{width: "100%", borderRadius: "8px", margin: "32px 0"}} alt="Ayurvedic oil massage for cortisol" />
+            
+            
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 

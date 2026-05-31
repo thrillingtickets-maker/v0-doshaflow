@@ -48,7 +48,7 @@ export default function KaphaDietPlanPage() {
               Kapha is heavy, slow, cold, oily, and stable. The diet needs to counterbalance those qualities: light, warm, dry, and stimulating. Kapha already has plenty of the heavy, dense, cohesive qualities — adding more through food produces weight gain, sluggish digestion, low energy, and water retention. Three most important principles: Eat light — Kapha&apos;s digestion runs slow; heavy foods tax a system already working slowly. Eat stimulating — spice is medicine for Kapha; where Pitta should reduce spice, Kapha should eat the most strongly spiced food of all three doshas. Eat early — breakfast can be the smallest or skipped meal for Kapha; the largest meal should be at lunch.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?spices,ginger,pepper,turmeric,colorful" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Stimulating spices for Kapha" />
+            
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
               Best Foods for Kapha.
@@ -58,7 +58,7 @@ export default function KaphaDietPlanPage() {
               Grains: Light grains — barley, millet, buckwheat, corn, rye, quinoa. Small amounts of basmati rice. Avoid wheat, oats, and heavy grains. Vegetables: Almost all vegetables are good for Kapha, particularly bitter, pungent, and astringent ones. Leafy greens, cabbage, broccoli, cauliflower, Brussels sprouts, asparagus, artichoke, onion, garlic, radish. Fruits: Light and astringent — apples, pears, pomegranates, cranberries. Avoid heavy sweet fruits: bananas, avocados, mangoes, melons, dates. Proteins: Light proteins — chicken white meat, turkey, freshwater fish, legumes. Tofu is excellent. Avoid red meat, pork, duck, shellfish. Fats: Kapha needs the least fat. Small amounts of ghee or sunflower oil. Avoid large quantities of oil in cooking. Sweeteners: Raw honey in small quantities is the one sweetener beneficial for Kapha — warming and drying. All other sweeteners increase Kapha. Spices: All warming and pungent spices. Ginger, black pepper, trikatu, mustard seeds, cinnamon, cardamom, turmeric, garlic. These are metabolically stimulating and directly address slow digestive fire.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?vegetables,broccoli,bitter,greens,light" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Light vegetables for Kapha" />
+            
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
               Foods Kapha Should Avoid or Reduce.
@@ -76,7 +76,7 @@ export default function KaphaDietPlanPage() {
               Morning: <Link href="/blog/ayurvedic-tea-guide" style={{color: "#c49a6c", textDecoration: "underline"}}>Ginger tea</Link> or hot water with lemon and honey. If breakfast, keep it very light. Many Kapha types do well with just a warm drink and waiting until lunch. Lunch (most important meal): Well-spiced stir-fried vegetables over barley or quinoa. Lentil dal with ginger, garlic, and trikatu. Kapha needs the most strongly flavoured, most stimulating meal. Dinner: Lightest meal of the day. Vegetable soup, small amount of light grain, steamed bitter greens. Avoid eating after 7pm. Between meals: Ginger tea throughout the day. Avoid snacking. See our <Link href="/blog/ayurvedic-morning-routine" style={{color: "#c49a6c", textDecoration: "underline"}}>morning routine guide</Link> for vigorous exercise recommendations.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?lentil,dal,soup,spiced,indian" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Spiced lentil dal for Kapha" />
+            
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
               Movement Is as Important as Diet for Kapha.

@@ -66,15 +66,11 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>The practitioner here makes formulas by hand. He knows which plant grows in which part of the property, which combinations do what, which herbs are heating and which are cooling and why that matters for your particular constitution. He&apos;s been doing this for forty years. His father did it before him.</p>
 
-            <img 
-              src="https://images.unsplash.com/photo-1607190074257-dd4b7af0309f?w=900&q=80" 
-              alt="Ayurvedic herbs and spices" 
-              style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-            />
+            
 
             <p>I&apos;ve spent a lot of time in this room this week, asking questions. This article is what I&apos;ve learned — about the specific herbs that show up most in Ayurvedic medicine, what they actually do, and how to think about them if you&apos;re encountering this system for the first time.</p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?ayurvedic,pharmacy,herbs,kerala,india" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Ayurvedic pharmacy in Kerala" />
+            
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -136,11 +132,7 @@ export default function AyurvedicHerbsGuidePage() {
 
             <h3 style={{ fontSize: "20px", fontWeight: 700, marginTop: "36px", marginBottom: "12px", color: "#2c1a0e" }}>Triphala — The Gut Reset</h3>
 
-            <img 
-              src="https://images.unsplash.com/photo-1599909631430-c9a34a03c1b7?w=900&q=80" 
-              alt="Turmeric root and powder" 
-              style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-            />
+            
 
             <p>Triphala (&quot;three fruits&quot;) is the combination of Amla, Haritaki, and Bibhitaki — and it&apos;s the most commonly prescribed Ayurvedic formula for gut health, elimination, and gentle detoxification. It&apos;s also one of the most studied Ayurvedic formulas in Western research.</p>
 
@@ -176,7 +168,7 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>Moderate evidence. Worth the attention it&apos;s getting in women&apos;s wellness circles.</p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?herbs,jars,apothecary,spices,colorful" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Ayurvedic herb collection" />
+            
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -222,11 +214,7 @@ export default function AyurvedicHerbsGuidePage() {
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>A Starting Point</h2>
 
-            <img 
-              src="https://images.unsplash.com/photo-1610725664285-7c57e6eeac3f?w=900&q=80" 
-              alt="Ashwagandha and Ayurvedic herbs" 
-              style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-            />
+            
 
             <p>If you&apos;re new to Ayurvedic herbs, start simple:</p>
 
@@ -238,7 +226,7 @@ export default function AyurvedicHerbsGuidePage() {
 
             <p>Then take the dosha quiz. Know your constitution. Let the recommendations get specific.</p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?ashwagandha,triphala,herbs,powder,india" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Classical Ayurvedic herbs" />
+            
 
             <p>The herbs here aren&apos;t magic. They&apos;re 5,000 years of paying attention to what works — and in this particular pharmacy, in this particular room that smells like concentrated earth, that lineage is very hard to dismiss.</p>
 

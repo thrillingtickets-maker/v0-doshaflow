@@ -65,11 +65,7 @@ export default function KaphaDoshaGuidePage() {
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
-            <img 
-              src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=900&q=80" 
-              alt="Peaceful morning meditation and wellness" 
-              style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-            />
+            
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>What Kapha Actually Is</h2>
 
@@ -122,11 +118,7 @@ export default function KaphaDoshaGuidePage() {
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
-            <img 
-              src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=900&q=80" 
-              alt="Morning yoga and movement practice" 
-              style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-            />
+            
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>What Aggravates Kapha</h2>
 
@@ -166,11 +158,7 @@ export default function KaphaDoshaGuidePage() {
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
-            <img 
-              src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=900&q=80" 
-              alt="Fresh healthy foods and spices" 
-              style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-            />
+            
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>The Kapha Paradox</h2>
 

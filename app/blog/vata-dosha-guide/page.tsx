@@ -50,11 +50,7 @@ export default function VataDoshaGuidePage() {
 
           <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>Signs Your Vata Is Out of Balance</h2>
 
-          <img 
-            src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=900&q=80" 
-            alt="Meditation and mindfulness" 
-            style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-          />
+          
 
           <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>This is where Ayurveda gets specific in a way that Western medicine often doesn&apos;t. Vata imbalance doesn&apos;t look the same in everyone, but these are the patterns that show up most:</p>
 
@@ -112,11 +108,7 @@ export default function VataDoshaGuidePage() {
 
           <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>How to Balance Vata</h2>
 
-          <img 
-            src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=900&q=80" 
-            alt="Yoga and grounding practices" 
-            style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-          />
+          
 
           <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>The principle is simple: opposites pacify. Because Vata is cold, light, dry, and mobile — you balance it with warm, heavy, oily, and stable.</p>
 
@@ -146,11 +138,7 @@ export default function VataDoshaGuidePage() {
 
           <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>Where to Start</h2>
 
-          <img 
-            src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=900&q=80" 
-            alt="Warm herbal tea and wellness" 
-            style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-          />
+          
 
           <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>If you suspect you&apos;re running high Vata right now, start with three things:</p>
 

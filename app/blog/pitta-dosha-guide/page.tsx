@@ -60,11 +60,7 @@ export default function PittaDoshaGuidePage() {
 
           <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>Pitta is the dosha of fire and water — specifically, the transformative heat that processes everything the body takes in. Food, ideas, emotions, experience. Pitta governs digestion in the broadest sense: the capacity to break things down, make sense of them, and transform them into something useful.</p>
 
-          <img 
-            src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=900&q=80" 
-            alt="Meditation and wellness" 
-            style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-          />
+          
 
           <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>When Pitta is in balance, it expresses as sharp intelligence, confidence, focused ambition, and strong digestion. Pitta types tend to be natural leaders — precise, persuasive, effective.</p>
 
@@ -120,11 +116,7 @@ export default function PittaDoshaGuidePage() {
 
           <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>Pitta increases when you add heat to heat. The most common aggravators:</p>
 
-          <img 
-            src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=900&q=80" 
-            alt="Cooling foods and wellness" 
-            style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-          />
+          
 
           <p style={{ marginBottom: "20px", lineHeight: 1.75 }}><strong>Spicy, sour, fermented, or fried food.</strong> Hot sauce, citrus, vinegar, alcohol, fried food — all increase Pitta&apos;s fire quality in the gut. This is why Pitta types tend to develop reflux when they eat the food they love most.</p>
 
@@ -172,11 +164,7 @@ export default function PittaDoshaGuidePage() {
 
           <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>Where to Start</h2>
 
-          <img 
-            src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=900&q=80" 
-            alt="Peaceful nature and relaxation" 
-            style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-          />
+          
 
           <p style={{ marginBottom: "20px", lineHeight: 1.75 }}><strong>Identify your hottest triggers.</strong> For most Pitta types, it&apos;s either food (alcohol, spicy food, skipped meals) or schedule (overwork, no recovery time). Pick one and change it this week.</p>
 
