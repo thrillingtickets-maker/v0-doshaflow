@@ -71,4 +71,7 @@ export const highlightMap: Record<string, string> = {
   "ayurvedic-sleep-hygiene": "Sleep",
   "ayurveda-energy": "Energy",
   "ayurveda-cortisol-stress": "Stress",
+  "ayurveda-for-ibs": "IBS",
+  "perimenopause-ayurveda": "Perimenopause",
+  "ayurveda-hormones-women": "Hormones",
 }
