@@ -1,7 +1,5 @@
 "use client"
 import { useState, useMemo } from "react"
-import { Navigation } from "@/components/navigation"
-import { Footer } from "@/components/footer"
 import { getAllPosts } from "@/lib/posts"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
@@ -148,7 +146,6 @@ export default function BlogPage() {
   }, [selectedFilter, allPosts])
   return (
     <main>
-      <Navigation />
       {/* Hero Section */}
       <section style={{ paddingTop: "80px", paddingBottom: "40px" }}>
         <div style={{ textAlign: "center" }}>
@@ -433,7 +430,6 @@ export default function BlogPage() {
           }
         `}</style>
       </section>
-      <Footer />
     </main>
   )
 }
