@@ -3,6 +3,7 @@ import { ArticleHero } from "@/components/article-hero"
 import { highlightMap } from "@/lib/article-colors"
 import { ArrowLeft } from "lucide-react"
 import { notFound } from "next/navigation"
+import Link from "next/link"
 
 export async function generateStaticParams() {
   const posts = getAllPosts()
@@ -46,15 +47,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       <article style={{ padding: "48px 24px", paddingBottom: "96px" }}>
         <div style={{ maxWidth: "680px", margin: "0 auto" }}>
           {/* Back Link */}
-          <a
+          <Link
             href="/blog"
             style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#8a7a5a", fontSize: "14px", marginBottom: "40px", textDecoration: "none", cursor: "pointer" }}
-            onMouseEnter={(e) => e.currentTarget.style.textDecoration = "underline"}
-            onMouseLeave={(e) => e.currentTarget.style.textDecoration = "none"}
           >
             <ArrowLeft size={16} />
             Back to Blog
-          </a>
+          </Link>
           {/* Post Content */}
           <div
             style={{ color: "#2c1a0e", lineHeight: 1.75 }}
@@ -62,15 +61,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           />
           {/* Post Footer - Back Link */}
           <footer style={{ marginTop: "64px", paddingTop: "32px", borderTop: "1px solid #e8d9c5" }}>
-            <a
+            <Link
               href="/blog"
               style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#8a7a5a", fontSize: "14px", textDecoration: "none", cursor: "pointer" }}
-              onMouseEnter={(e) => e.currentTarget.style.textDecoration = "underline"}
-              onMouseLeave={(e) => e.currentTarget.style.textDecoration = "none"}
             >
               <ArrowLeft size={16} />
               Back to all posts
-            </a>
+            </Link>
           </footer>
         </div>
       </article>
