@@ -87,6 +87,6 @@ export default function SignsOfHighCortissolPage() {
           </div>
         </article>
       </main>
-    </div>
+    )
   )
 }
