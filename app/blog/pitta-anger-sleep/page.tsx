@@ -89,6 +89,5 @@ export default function PittaAngerSleepPage() {
           </div>
         </article>
       </main>
-    </div>
-  )
+    )
 }
