@@ -16,9 +16,7 @@ export const metadata = {
 export default function VataDoshaGuidePage() {
   return (
     <main className="max-w-[680px] mx-auto px-6 py-12">
-        <article>
-          </p>
-        </header>
+      <article>
         {/* Article Content */}
         <div style={{ color: "#3d2e1e", fontSize: "17px", lineHeight: 1.75 }}>
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
