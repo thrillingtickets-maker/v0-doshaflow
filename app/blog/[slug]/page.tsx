@@ -1,4 +1,6 @@
 import { getPostBySlug, getAllPosts } from "@/lib/posts"
+import { ArticleHero } from "@/components/article-hero"
+import { highlightMap } from "@/lib/article-colors"
 import { ArrowLeft } from "lucide-react"
 import { notFound } from "next/navigation"
 
@@ -30,9 +32,18 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   if (!post) {
     notFound()
   }
+  
+  const highlightWord = highlightMap[slug]
+
   return (
     <main>
-      <article style={{ maxWidth: "680px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px", paddingTop: "120px", paddingBottom: "80px" }}>
+      <ArticleHero
+        title={post.title}
+        category={post.category}
+        date={post.date}
+        highlightWord={highlightWord}
+      />
+      <article style={{ maxWidth: "680px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px", paddingTop: "40px", paddingBottom: "80px" }}>
         {/* Back Link */}
         <a
           href="/blog"
@@ -41,18 +52,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <ArrowLeft size={16} />
           Back to Blog
         </a>
-        {/* Post Header */}
-        <header style={{ marginBottom: "40px" }}>
-          <time style={{ fontSize: "13px", color: "#9a8878", fontWeight: 400, letterSpacing: "0.05em" }}>
-            {post.date}
-          </time>
-          <h1 style={{ fontSize: "32px", fontWeight: 700, marginTop: "16px", marginBottom: "12px", color: "#1a1a1a", lineHeight: 1.2 }}>
-            {post.title}
-          </h1>
-          <p style={{ fontSize: "13px", color: "#9a7a5a", fontStyle: "italic", marginBottom: "24px" }}>
-            By <span style={{ color: "#1a1a1a", fontWeight: 500 }}>Alex</span> · Written during study and treatment in Kerala, India.
-          </p>
-        </header>
         {/* Post Content */}
         <div
           style={{ color: "#3d2e1e", fontSize: "17px", lineHeight: 1.75 }}

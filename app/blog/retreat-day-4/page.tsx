@@ -1,6 +1,7 @@
 "use client"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
+import { ArticleHero } from "@/components/article-hero"
 import Link from "next/link"
 
 export default function RetreatDay4Page() {
@@ -8,21 +9,17 @@ export default function RetreatDay4Page() {
     <main className="min-h-screen bg-background">
       <Navigation />
 
+      <ArticleHero
+        title="The Doctor Told Me to Stop Moving"
+        category="journal"
+        date="May 28, 2026"
+        highlightWord="Day"
+      />
+
       {/* Article Content */}
-      <article className="pt-32 pb-24 px-6">
+      <article className="pt-12 pb-24 px-6">
         <div className="max-w-3xl mx-auto">
-          {/* Header */}
-          <header className="mb-12">
-            <div className="flex items-center gap-3 mb-6">
-              <span className="text-sm font-medium text-[#C97F3D]">Alex</span>
-              <span className="text-sm text-muted-foreground">·</span>
-              <span className="text-sm text-muted-foreground">Ayurvedic Retreat, Day 4</span>
-            </div>
-            <h1 className="font-serif text-5xl md:text-6xl text-foreground mb-4">
-              The Doctor Told Me to Stop Moving
-            </h1>
-            <time className="text-muted-foreground">May 28, 2026</time>
-          </header>
+          {/* Header removed - now using ArticleHero */}
 
           {/* Article Body */}
           <div className="prose prose-lg max-w-none text-foreground mb-12">
