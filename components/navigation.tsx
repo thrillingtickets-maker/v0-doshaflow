@@ -46,14 +46,30 @@ export function Navigation() {
             </a>
 
             {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center gap-8">
+            <div className="hidden md:flex items-center gap-10">
               {navLinks.map((link) => (
                 <a
                   key={link.label}
                   href={link.href}
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 relative"
+                  style={{
+                    letterSpacing: "0.01em",
+                  }}
                 >
                   {link.label}
+                  <span 
+                    className="absolute bottom-0 left-0 h-px bg-foreground"
+                    style={{
+                      width: "0%",
+                      transition: "width 0.3s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      (e.currentTarget as HTMLElement).style.width = "100%";
+                    }}
+                    onMouseLeave={(e) => {
+                      (e.currentTarget as HTMLElement).style.width = "0%";
+                    }}
+                  />
                 </a>
               ))}
               <a

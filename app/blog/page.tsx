@@ -5,6 +5,20 @@ import { Footer } from "@/components/footer"
 import { getAllPosts } from "@/lib/posts"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
+
+// Category accent color system - subtle and elegant
+const CATEGORY_COLORS: Record<string, { accent: string; border: string; pill: string }> = {
+  "Stress & Anxiety": { accent: "#8fa88e", border: "#a8b8a7", pill: "#f0f4f0" },
+  "Digestion": { accent: "#b5963a", border: "#c4a655", pill: "#faf8f2" },
+  "Sleep": { accent: "#7a8fa8", border: "#8fa3b8", pill: "#f0f4fa" },
+  "Women's Health": { accent: "#a87a8a", border: "#b89199", pill: "#faf0f5" },
+  "Men's Health": { accent: "#7a9a5a", border: "#8faf6f", pill: "#f0f9f0" },
+  "Retreat Journal": { accent: "#b5763a", border: "#d4a574", pill: "#fdf6ee" },
+  "Tea": { accent: "#9a8a5a", border: "#b0a070", pill: "#faf8f2" },
+  "Doshas": { accent: "#8a7a6e", border: "#a09a8e", pill: "#f5f0e8" },
+  "Weight Loss": { accent: "#8a8a5a", border: "#a0a070", pill: "#faf9f2" },
+}
+
 const FILTER_CATEGORIES = [
   "All",
   "Doshas",
@@ -81,6 +95,18 @@ function getArticleFilters(slug: string, category: string): string[] {
   }
   return filters
 }
+function getPrimaryCategory(slug: string, category: string): string {
+  if (category === "journal") return "Retreat Journal"
+  if (slug.includes("tea")) return "Tea"
+  if (slug.includes("dosha") || slug.includes("vata-") || slug.includes("pitta-") || slug.includes("kapha-")) return "Doshas"
+  if (slug.includes("bloat") || slug.includes("digest") || slug.includes("ice-water")) return "Digestion"
+  if (slug.includes("anxiety") || slug.includes("stress") || slug.includes("cortisol") || slug.includes("burnout") || slug.includes("anger")) return "Stress & Anxiety"
+  if (slug.includes("sleep") || slug.includes("tired")) return "Sleep"
+  if (slug.includes("pms") || slug.includes("hormonal") || slug.includes("perimenopause") || slug.includes("skin-guide")) return "Women's Health"
+  if (slug.includes("men")) return "Men's Health"
+  if (slug.includes("weight") || slug.includes("diet-plan") || slug.includes("foods-to-avoid")) return "Weight Loss"
+  return "Doshas"
+}
 const MONTHS: Record<string, number> = {
   january: 0,
   february: 1,
@@ -146,9 +172,9 @@ export default function BlogPage() {
                   padding: "6px 20px",
                   fontSize: "12px",
                   fontWeight: 400,
-                  border: selectedFilter === filter ? "none" : "1px solid rgba(0, 0, 0, 0.08)",
-                  backgroundColor: selectedFilter === filter ? "#f5f0e8" : "transparent",
-                  color: selectedFilter === filter ? "#1a1a1a" : "#8a7a6e",
+                  border: selectedFilter === filter ? "none" : `1px solid ${CATEGORY_COLORS[filter]?.border || "rgba(0, 0, 0, 0.08)"}`,
+                  backgroundColor: selectedFilter === filter ? (CATEGORY_COLORS[filter]?.pill || "#f5f0e8") : "transparent",
+                  color: selectedFilter === filter ? (CATEGORY_COLORS[filter]?.accent || "#1a1a1a") : "#8a7a6e",
                   borderRadius: "20px",
                   cursor: "pointer",
                   transition: "all 0.2s ease",
@@ -184,31 +210,117 @@ export default function BlogPage() {
       {/* Blog Posts Grid */}
       <section style={{ backgroundColor: "#ffffff", paddingBottom: "64px" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
+          {/* Featured Article */}
+          {filteredPosts.length > 0 && selectedFilter === "All" && (
+            <div style={{ marginBottom: "56px" }}>
+              {filteredPosts.filter(p => p.slug.includes("retreat-day")).length > 0 && (
+                (() => {
+                  const featured = filteredPosts.find(p => p.slug.includes("retreat-day"))
+                  if (!featured) return null
+                  return (
+                    <article
+                      style={{
+                        backgroundColor: "#fdf6ee",
+                        border: "1px solid rgba(0, 0, 0, 0.08)",
+                        borderLeft: "2px solid #d4a574",
+                        borderRadius: "8px",
+                        padding: "48px",
+                        display: "grid",
+                        gridTemplateColumns: "1fr 1fr",
+                        gap: "48px",
+                        alignItems: "center",
+                        transition: "all 0.3s ease",
+                        cursor: "pointer",
+                        boxShadow: "0 2px 8px rgba(0, 0, 0, 0.08)",
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.boxShadow = "0 12px 24px rgba(0, 0, 0, 0.12)";
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.boxShadow = "0 2px 8px rgba(0, 0, 0, 0.08)";
+                      }}
+                    >
+                      <div>
+                        <div style={{ fontSize: "10px", fontStyle: "italic", color: "#b5763a", marginBottom: "12px" }}>
+                          📍 Kerala · Featured
+                        </div>
+                        <h2 style={{ fontSize: "28px", fontWeight: 700, lineHeight: 1.3, marginBottom: "16px", color: "#1a1a1a", fontStyle: "italic" }}>
+                          <Link href={`/blog/${featured.slug}`} style={{ color: "inherit", textDecoration: "none" }}>
+                            {featured.title}
+                          </Link>
+                        </h2>
+                        <p style={{ fontSize: "16px", lineHeight: 1.7, color: "#5a5048", marginBottom: "20px" }}>
+                          {featured.excerpt}
+                        </p>
+                        <Link
+                          href={`/blog/${featured.slug}`}
+                          style={{
+                            display: "inline-flex",
+                            alignItems: "center",
+                            gap: "8px",
+                            color: "#b5763a",
+                            fontWeight: 500,
+                            fontSize: "14px",
+                            textDecoration: "none",
+                            transition: "color 0.2s ease",
+                          }}
+                          onMouseEnter={(e) => (e.currentTarget.style.color = "#8d5428")}
+                          onMouseLeave={(e) => (e.currentTarget.style.color = "#b5763a")}
+                        >
+                          Read the journal entry <ArrowRight size={16} />
+                        </Link>
+                      </div>
+                      <div style={{
+                        height: "320px",
+                        backgroundColor: "rgba(0, 0, 0, 0.04)",
+                        borderRadius: "6px",
+                        border: "1px dashed rgba(0, 0, 0, 0.1)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        color: "#9a7a5a",
+                        fontSize: "14px",
+                        textAlign: "center",
+                        padding: "24px",
+                      }}>
+                        [Featured image: Kerala retreat scene]
+                      </div>
+                    </article>
+                  )
+                })()
+              )}
+            </div>
+          )}
           <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "48px" }}>
             {filteredPosts.map((post) => {
               const isRetreatJournal = post.slug.includes("retreat-day")
+              const primaryCategory = getPrimaryCategory(post.slug, post.category)
+              const categoryColor = CATEGORY_COLORS[primaryCategory]
               return (
                 <article
                   key={post.slug}
                   style={{
                     backgroundColor: isRetreatJournal ? "#fdf6ee" : "#ffffff",
-                    border: isRetreatJournal ? "1px solid rgba(0, 0, 0, 0.08)" : "1px solid rgba(0, 0, 0, 0.08)",
+                    border: isRetreatJournal ? "1px solid rgba(0, 0, 0, 0.08)" : "1px solid rgba(0, 0, 0, 0.06)",
                     borderLeft: isRetreatJournal ? "2px solid #d4a574" : undefined,
                     borderRadius: "8px",
-                    padding: "32px",
+                    padding: "36px",
                     marginBottom: "32px",
-                    transition: "all 0.2s ease",
+                    transition: "all 0.3s ease",
                     cursor: "pointer",
+                    boxShadow: "0 1px 3px rgba(0, 0, 0, 0.05)",
                   }}
                   onMouseEnter={(e) => {
                     const element = e.currentTarget as HTMLElement;
-                    element.style.borderColor = "rgba(0, 0, 0, 0.15)";
-                    element.style.transform = "translateY(-2px)";
+                    element.style.borderColor = "rgba(0, 0, 0, 0.12)";
+                    element.style.transform = "translateY(-4px)";
+                    element.style.boxShadow = "0 8px 16px rgba(0, 0, 0, 0.1)";
                   }}
                   onMouseLeave={(e) => {
                     const element = e.currentTarget as HTMLElement;
-                    element.style.borderColor = "rgba(0, 0, 0, 0.08)";
+                    element.style.borderColor = isRetreatJournal ? "rgba(0, 0, 0, 0.08)" : "rgba(0, 0, 0, 0.06)";
                     element.style.transform = "translateY(0)";
+                    element.style.boxShadow = "0 1px 3px rgba(0, 0, 0, 0.05)";
                   }}
                 >
                   <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
