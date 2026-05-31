@@ -1,5 +1,3 @@
-import { Navigation } from "@/components/navigation";
-import { Footer } from "@/components/footer";
 import { getPostBySlug } from "@/lib/posts";
 import { ArticleHero } from "@/components/article-hero";
 import { highlightMap } from "@/lib/article-colors";
@@ -34,7 +32,6 @@ export default function ArticlePage() {
 
   return (
     <>
-      <Navigation />
       <ArticleHero
         title={post.title}
         category={post.category}
@@ -148,7 +145,6 @@ export default function ArticlePage() {
           </div>
         </article>
       </main>
-      <Footer />
     </>
   );
 }
