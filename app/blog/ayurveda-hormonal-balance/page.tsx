@@ -62,11 +62,7 @@ export default function AyurvedaHormonalBalancePage() {
 
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
-          <img 
-            src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=900&q=80" 
-            alt="Healthy food and wellness" 
-            style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-          />
+          
 
           <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>How Ayurveda Understands Hormonal Health</h2>
 
@@ -94,11 +90,7 @@ export default function AyurvedaHormonalBalancePage() {
 
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
-          <img 
-            src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=900&q=80" 
-            alt="Herbal medicine and wellness" 
-            style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-          />
+          
 
           <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>The Herbs That Actually Matter</h2>
 
@@ -132,11 +124,7 @@ export default function AyurvedaHormonalBalancePage() {
 
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
-          <img 
-            src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=900&q=80" 
-            alt="Yoga and meditation for hormonal balance" 
-            style={{ width: "100%", borderRadius: "12px", marginBottom: "32px", objectFit: "cover", height: "320px" }} 
-          />
+          
 
           <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>What Changed for Me</h2>
 

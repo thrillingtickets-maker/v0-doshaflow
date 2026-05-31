@@ -48,7 +48,7 @@ export default function BestHerbsForAnxietyPage() {
               Vata governs the nervous system, movement, and the mind&apos;s tendency to move rapidly between thoughts. When Vata is in balance: creativity, adaptability, quick thinking. When Vata is elevated: racing thoughts, insomnia, free-floating anxiety, restlessness, and the 3am spiral that will not stop. The factors that elevate Vata in modern life are not subtle: chronic stress, irregular sleep, irregular eating, excessive screen time, constant stimulation, cold food, insufficient rest. The herbs that address this are nervines and adaptogens — substances that nourish the nervous system, regulate the stress response, and build resilience.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?brahmi,herb,leaf,green,plant" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Brahmi herb leaf" />
+            
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -60,7 +60,7 @@ export default function BestHerbsForAnxietyPage() {
               The herbs that work for Vata anxiety all share common properties: warming, heavy, moistening, and grounding. They are not sedatives — they do not make you drowsy — but they do calm the system by addressing the root cause: depletion and dysregulation.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?herbal,tincture,bottle,natural,remedy" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Natural herbal remedies" />
+            
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -122,7 +122,7 @@ export default function BestHerbsForAnxietyPage() {
               Consistency over intensity — the adaptogens work slowly and cumulatively. A moderate dose taken daily for 8 weeks produces more results than a high dose taken sporadically. Stack mindfully: Ashwagandha and Brahmi work well together. <Link href="/blog/best-ayurvedic-tea-anxiety" className="text-[#c49a6c] hover:underline">Tulsi as a daily tea</Link> on top covers most of what most people need. Start a <Link href="/blog/ayurvedic-morning-routine" className="text-[#c49a6c] hover:underline">morning routine</Link> and address the lifestyle simultaneously — no herb will fully compensate for chronic sleep deprivation or daily caffeine excess.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?tulsi,holy,basil,herb,plant" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Tulsi holy basil plant" />
+            
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 

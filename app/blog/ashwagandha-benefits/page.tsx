@@ -48,7 +48,7 @@ export default function AshwaganhaBenefitsPage() {
               Withania somnifera — known in Ayurveda as Ashwagandha, from Sanskrit for "smell of horse" referring to the strength it confers — is a root used in Ayurvedic medicine for at least 3,000 years. In the classical system it is a Rasayana: a rejuvenating herb that builds ojas, strengthens bodily tissues, and extends healthy lifespan. It is also classified as an adaptogen — a substance that helps the body adapt to stress without specifically stimulating or sedating. The primary active compounds are withanolides, steroidal lactones responsible for most of its clinically documented effects.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?ashwagandha,root,powder,herb,ayurveda" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Ashwagandha root and powder" />
+            
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -60,7 +60,7 @@ export default function AshwaganhaBenefitsPage() {
               <strong>Stress and cortisol:</strong> Multiple randomised controlled trials have shown statistically significant reductions in serum cortisol. A 2012 study in the Indian Journal of Psychological Medicine showed a 27.9% reduction in cortisol versus placebo. <strong>Sleep quality:</strong> A 2019 PLOS ONE study found significant improvements in sleep quality, onset latency, and morning alertness. See our <Link href="/blog/best-ayurvedic-tea-anxiety" style={{color: "#c49a6c", textDecoration: "underline"}}>anxiety</Link> and sleep guides for additional herbal support. <strong>Testosterone and reproductive health:</strong> Several studies have shown increases in testosterone, sperm count, and sperm motility, most significantly in men under high stress. <strong>Physical performance:</strong> A 2015 Journal of the International Society of Sports Nutrition study showed significant improvements in muscle strength and recovery in resistance-trained men. <strong>Anxiety:</strong> Multiple trials have shown anxiolytic effects comparable to some pharmaceutical interventions.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?adaptogen,supplement,herbs,natural,wellness" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Adaptogenic herbs" />
+            
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -72,7 +72,7 @@ export default function AshwaganhaBenefitsPage() {
               The research confirms what Ayurvedic practitioners have observed for millennia, but the classical understanding adds nuance. Ashwagandha is primarily a <Link href="/blog/vata-diet-plan" style={{color: "#c49a6c", textDecoration: "underline"}}>Vata</Link> herb — its nourishing, grounding, warming properties directly counter the depletion and dysregulation of Vata imbalance. For Pitta types, large doses can occasionally be too heating. The classical preparation is ashwagandha root powder in warm milk at night — there is good reason to believe this is more effective than capsules. The fat in milk increases bioavailability of withanolides, and taking it at night aligns with its <Link href="/blog/best-ayurvedic-tea-sleep" style={{color: "#c49a6c", textDecoration: "underline"}}>sleep-supporting effects</Link>.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?warm,milk,herbs,night,cup" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Ashwagandha in warm milk" />
+            
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 

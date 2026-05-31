@@ -58,7 +58,7 @@ export default function Ayurveda30DaysPage() {
           
           <p style={{ marginBottom: "20px" }}>The 3am wake-ups: still happening, but I was falling back to sleep faster.</p>
 
-          <img src="https://source.unsplash.com/featured/800x450/?warm,breakfast,morning,oatmeal,healthy" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Warm Ayurvedic breakfast routine" />
+          
 
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -84,7 +84,7 @@ export default function Ayurveda30DaysPage() {
           
           <p style={{ marginBottom: "20px" }}>The practitioner here said something I keep thinking about: &quot;When agni is strong, the mind is clear. Most mental unrest is digestive unrest that hasn&apos;t been named yet.&quot;</p>
 
-          <img src="https://source.unsplash.com/featured/800x450/?meditation,calm,mindful,peaceful,morning" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Meditation and mental clarity" />
+          
 
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -94,7 +94,7 @@ export default function Ayurveda30DaysPage() {
           
           <p style={{ marginBottom: "20px" }}><strong>What I can report at 30 days:</strong> Digestion significantly better — the bloating that had been a background feature for years is largely gone. Sleep: the 3am wake-ups have almost stopped. Skin: improvement noticeable enough that a practitioner here commented on it without me mentioning it. Energy: more even throughout the day, less reliance on caffeine. Anxiety: quieter. Not solved. But meaningfully reduced from baseline.</p>
 
-          <img src="https://source.unsplash.com/featured/800x450/?wellness,routine,healthy,lifestyle,morning" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="30 day wellness transformation" />
+          
 
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
