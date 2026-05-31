@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "The Ayurvedic Take on Coffee: Should You Drink It or Give It Up?",
@@ -22,7 +21,7 @@ export default function AyurvedaCoffeePage() {
       {/* Navigation */}
 
       {/* Article */}
-      <ArticleLayout>
+      
       <main className="max-w-[680px] mx-auto px-6 py-12">
         <article>
           {/* Post Header */}

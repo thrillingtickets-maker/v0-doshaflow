@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Can You Eat Meat and Fish on an Ayurvedic Diet? The Answer Is More Complicated Than You Think.",
@@ -24,7 +23,7 @@ export default function AyurvedaMeatFishPage() {
       {/* Navigation */}
 
       {/* Article */}
-      <ArticleLayout>
+      
       <main className="max-w-[680px] mx-auto px-6 py-12">
         <article>
           {/* Post Header */}

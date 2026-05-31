@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Ayurveda for Busy People: 7 Practices That Take Under 30 Minutes a Day",

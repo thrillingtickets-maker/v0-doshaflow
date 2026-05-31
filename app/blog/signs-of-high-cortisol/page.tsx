@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Signs of High Cortisol — And What Ayurveda Does About It",
@@ -20,10 +19,7 @@ export const metadata = {
 
 export default function SignsOfHighCortissolPage() {
   return (
-    
-
-      <ArticleLayout>
-      <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main className="max-w-[680px] mx-auto px-6 py-12">
         <article>
           <header className="mb-12">
             <time className="text-sm text-muted-foreground">June 6, 2026</time>

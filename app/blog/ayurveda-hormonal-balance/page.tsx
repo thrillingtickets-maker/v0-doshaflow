@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Ayurveda for Hormonal Balance: What the Ancient System Gets Right",

@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "The Branch of Ayurveda Nobody Talks About: Sex, Vitality, and Vajikarana",
@@ -24,7 +23,7 @@ export default function AyurvedaSexPage() {
       {/* Navigation */}
 
       {/* Article */}
-      <ArticleLayout>
+      
       <main className="max-w-[680px] mx-auto px-6 py-12">
         <article>
           {/* Post Header */}

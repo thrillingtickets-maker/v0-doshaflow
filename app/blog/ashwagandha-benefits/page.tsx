@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Ashwagandha Benefits: What the Research Actually Says (And What Ayurveda Has Known for 3,000 Years)",
@@ -20,8 +19,7 @@ export const metadata = {
 
 export default function AshwaganhaBenefitsPage() {
   return (
-    <ArticleLayout>
-      <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main className="max-w-[680px] mx-auto px-6 py-12">
         <article>
           <header className="mb-12">
             <time className="text-sm text-muted-foreground">June 3, 2026</time>
@@ -110,6 +108,5 @@ export default function AshwaganhaBenefitsPage() {
           </div>
         </article>
       </main>
-    </ArticleLayout>
-  )
-}
+    )
+  }

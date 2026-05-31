@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Kapha Dosha: Why You Feel Sluggish and What Actually Helps",

@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "I Followed an Ayurvedic Routine for 30 Days: Here's What Actually Changed",

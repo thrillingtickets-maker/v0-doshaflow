@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Kapha Foods to Avoid: Why You Feel Heavy, Tired, and Stuck",
@@ -18,8 +17,7 @@ export const metadata = {
 
 export default function KaphaFoodsToAvoidPage() {
   return (
-    <ArticleLayout>
-      <main className="max-w-[680px] mx-auto px-6 py-12">
+    <main className="max-w-[680px] mx-auto px-6 py-12">
         <article>
           <header className="mb-12">
             <time className="text-sm text-muted-foreground">June 8, 2026</time>

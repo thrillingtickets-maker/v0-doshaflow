@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
   title: "Day 6: The Enema, the Standoff, and the Temple Behind the Bodega.",
