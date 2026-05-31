@@ -128,7 +128,9 @@ export default function RetreatDay4Page() {
 
           <p style={{ marginBottom: "20px", fontStyle: "italic" }}>Alex is the founder of DoshaFlow, currently at an Ayurvedic retreat in Kerala, India. <Link href="/quiz" style={{ color: "#9a7a5a" }}>Take the dosha quiz</Link> at doshaflow.com/quiz</p>
 
-          <p style={{ marginTop: "48px", marginBottom: "16px", fontSize: "14px", fontWeight: 600, color: "#2c1a0e" }}>Related Articles: <Link href="/blog/signs-of-high-cortisol" style={{color: "#c49a6c", textDecoration: "underline"}}}>Signs of High Cortisol</Link> · <Link href="/blog/best-herbs-for-anxiety" style={{color: "#c49a6c", textDecoration: "underline"}}}>Best Herbs for Anxiety</Link></p>
+          <p style={{ marginTop: "48px", marginBottom: "16px", fontSize: "14px", fontWeight: 600, color: "#2c1a0e" }}>
+            Related Articles: <Link href="/blog/signs-of-high-cortisol" style={{ color: "#c49a6c", textDecoration: "underline" }}>Signs of High Cortisol</Link> · <Link href="/blog/best-herbs-for-anxiety" style={{ color: "#c49a6c", textDecoration: "underline" }}>Best Herbs for Anxiety</Link>
+          </p>
 
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
