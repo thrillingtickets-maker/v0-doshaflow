@@ -2,6 +2,7 @@ import { getPostBySlug, getAllPosts } from "@/lib/posts"
 import { ArticleHero } from "@/components/article-hero"
 import { highlightMap } from "@/lib/article-colors"
 import { processArticleContent } from "@/lib/process-article-content"
+import { calculateReadingTime, formatReadingTime } from "@/lib/reading-time"
 import { ArrowLeft } from "lucide-react"
 import { notFound } from "next/navigation"
 import Link from "next/link"
@@ -36,6 +37,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   }
   
   const highlightWord = highlightMap[slug]
+  const readingTime = calculateReadingTime(post.content)
 
   return (
     <main style={{ minHeight: "100vh", backgroundColor: "#fdf8f3" }}>
@@ -45,8 +47,31 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         date={post.date}
         highlightWord={highlightWord}
       />
-      <article style={{ padding: "48px 24px", paddingBottom: "96px" }}>
-        <div style={{ maxWidth: "680px", margin: "0 auto" }}>
+      <article style={{ paddingBottom: "96px" }}>
+        <div style={{ maxWidth: "680px", margin: "0 auto", padding: "0 24px" }}>
+          {/* Hero to Body Transition */}
+          <div style={{ paddingTop: "56px", paddingBottom: "40px", borderBottom: "1px solid #e8d9c5", marginBottom: "48px" }}>
+            {/* Metadata with Reading Time */}
+            <div style={{ display: "flex", gap: "24px", flexWrap: "wrap", fontSize: "14px", color: "#8a7a5a", marginBottom: "28px" }}>
+              <span>{post.date}</span>
+              <span>{formatReadingTime(readingTime)}</span>
+            </div>
+            
+            {/* Optional Dek / Subheadline */}
+            {post.dek && (
+              <div style={{
+                fontSize: "18px",
+                lineHeight: 1.75,
+                color: "#5a5a5a",
+                fontWeight: 500,
+                marginTop: "20px",
+                maxWidth: "720px"
+              }}>
+                {post.dek}
+              </div>
+            )}
+          </div>
+
           {/* Back Link */}
           <Link
             href="/blog"
@@ -55,6 +80,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <ArrowLeft size={16} />
             Back to Blog
           </Link>
+
           {/* Post Content */}
           <style>{`
             @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
@@ -97,10 +123,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             }
             
             article div p:first-of-type {
-              font-size: 18px;
-              line-height: 1.9;
+              font-size: 19px;
+              line-height: 1.95;
               color: #2c1a0e;
               font-weight: 500;
+              margin-top: 0;
+              margin-bottom: 28px;
             }
             
             article div ul, article div ol {

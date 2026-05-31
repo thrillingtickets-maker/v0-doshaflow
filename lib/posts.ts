@@ -5,6 +5,7 @@ export interface Post {
   date: string
   excerpt: string
   content: string
+  dek?: string
   seoTitle?: string
   seoDescription?: string
 }
@@ -233,7 +234,7 @@ export const posts: Post[] = [
     category: "article",
     title: "Kapha Foods to Avoid: Why You Feel Heavy, Tired, and Stuck",
     date: "May 18, 2026",
-    excerpt: "The complete list of foods that aggravate Kapha dosha — dairy, wheat, sweets, cold food, and large portions. Why each one makes Kapha fatigue and weight gain worse.",
+    excerpt: "The complete list of foods that aggravate Kapha dosha �� dairy, wheat, sweets, cold food, and large portions. Why each one makes Kapha fatigue and weight gain worse.",
     seoTitle: "Kapha Foods to Avoid: Why You Feel Heavy, Tired, and Stuck",
     seoDescription: "The complete list of foods that aggravate Kapha dosha — dairy, wheat, sweets, cold food, and large portions. Why each one makes Kapha fatigue and weight gain worse.",
     content: `<p>Kapha dosha becomes imbalanced when fed heavy, cold, oily, and sweet foods. These foods increase the qualities that are already dominant in Kapha — heaviness, lethargy, sluggishness, and weight gain. The solution is to eat the opposite qualities: light, warm, stimulating, and dry.</p><h2>Dairy to Avoid</h2><p>Dairy is heavy, cold, and congesting. It increases Kapha mucus and sluggishness. If you consume dairy, use warm milk with spices like ginger and black pepper to make it less congesting. Better alternatives include herbal teas and warm broths.</p><h2>Wheat to Limit</h2><p>Wheat is heavy and mucus-forming. For Kapha types struggling with weight and congestion, barley and quinoa are lighter alternatives that don't create the same sluggishness.</p><h2>Sweets and Cold Foods</h2><p>Sugar increases Kapha directly. Cold foods slow digestion and reduce the metabolic fire. Room temperature or warm foods eaten in smaller portions, with warming spices like cayenne and ginger, support Kapha balance and steady weight.</p>`,
