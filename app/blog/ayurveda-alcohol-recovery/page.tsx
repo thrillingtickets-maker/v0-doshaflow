@@ -81,6 +81,5 @@ export default function AyurvedaAlcoholRecoveryPage() {
           </div>
         </article>
       </main>
-    </div>
-  )
-}
+    )
+  }
