@@ -153,10 +153,10 @@ export default function BlogPage() {
       <section style={{ paddingTop: "80px", paddingBottom: "40px" }}>
         <div style={{ textAlign: "center" }}>
           <h1 style={{ fontSize: "36px", fontWeight: 700, marginBottom: "12px", color: "#1a1a1a" }}>
-            Articles
+            Ayurvedic Guides & Articles
           </h1>
           <p style={{ fontSize: "16px", color: "#8a7a6e", marginBottom: "0" }}>
-            Ayurvedic guides, research, and practical advice.
+            Ayurvedic guides, research, and practical advice on digestion, sleep, stress, hormonal health, and daily wellness by dosha type.
           </p>
         </div>
       </section>
