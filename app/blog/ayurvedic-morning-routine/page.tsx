@@ -172,6 +172,5 @@ export default function AyurvedicMorningRoutinePage() {
           </div>
         </article>
       </main>
-    </div>
-  )
-}
+    )
+  }
