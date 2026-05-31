@@ -3,11 +3,11 @@ import Link from "next/link"
 export const metadata = {
   title: "Why Working Out the Same Way Every Day Is Making You Worse (According to Ayurveda)",
   description:
-    "Ayurveda treats exercise as constitution-specific, not universal. Here's what each dosha actually needs, when to train, and why recovery matters as much as exertion.",
+    "Ayurveda treats exercise as constitution-specific, not universal. Here&apos;s what each dosha actually needs, when to train, and why recovery matters as much as exertion.",
   openGraph: {
     title: "Why Working Out the Same Way Every Day Is Making You Worse (According to Ayurveda)",
     description:
-      "Ayurveda treats exercise as constitution-specific, not universal. Here's what each dosha actually needs, when to train, and why recovery matters as much as exertion.",
+      "Ayurveda treats exercise as constitution-specific, not universal. Here&apos;s what each dosha actually needs, when to train, and why recovery matters as much as exertion.",
     url: "https://www.doshaflow.com/blog/ayurveda-exercise",
     siteName: "DoshaFlow",
     type: "article",

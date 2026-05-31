@@ -14,8 +14,8 @@ const FILTER_CATEGORIES = [
   "Digestion",
   "Stress & Anxiety",
   "Sleep",
-  "Women's Health",
-  "Men's Health",
+  "Women&apos;s Health",
+  "Men&apos;s Health",
   "Weight Loss",
   "Retreat Journal",
 ]
@@ -68,19 +68,19 @@ function getArticleFilters(slug: string, category: string): string[] {
     filters.push("Sleep")
   }
 
-  // Women's health
+  // Women&apos;s health
   if (
     slug.includes("pms") ||
     slug.includes("hormonal") ||
     slug.includes("perimenopause") ||
     slug.includes("skin-guide")
   ) {
-    filters.push("Women's Health")
+    filters.push("Women&apos;s Health")
   }
 
-  // Men's health
+  // Men&apos;s health
   if (slug.includes("men")) {
-    filters.push("Men's Health")
+    filters.push("Men&apos;s Health")
   }
 
   // Weight loss

@@ -12,7 +12,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/kapha-foods-to-avoid",
-  },
+  }
 }
 
 export default function KaphaFoodsToAvoidPage() {

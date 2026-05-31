@@ -3,11 +3,11 @@ import Link from "next/link"
 export const metadata = {
   title: "Day 1 at an Ayurvedic Retreat: Arriving in the Wrong Condition",
   description:
-    "An honest first-person account of day 1 at an Ayurvedic retreat in Kerala — arriving with addiction, anxiety and bad sleep, the intake consultation, Abhyanga, and why I'm really here.",
+    "An honest first-person account of day 1 at an Ayurvedic retreat in Kerala — arriving with addiction, anxiety and bad sleep, the intake consultation, Abhyanga, and why I&apos;m really here.",
   openGraph: {
     title: "Day 1 at an Ayurvedic Retreat: Arriving in the Wrong Condition",
     description:
-      "An honest first-person account of day 1 at an Ayurvedic retreat in Kerala — arriving with addiction, anxiety and bad sleep, the intake consultation, Abhyanga, and why I'm really here.",
+      "An honest first-person account of day 1 at an Ayurvedic retreat in Kerala — arriving with addiction, anxiety and bad sleep, the intake consultation, Abhyanga, and why I&apos;m really here.",
     url: "https://www.doshaflow.com/blog/retreat-day-1",
     siteName: "DoshaFlow",
     type: "article",

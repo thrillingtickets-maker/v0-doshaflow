@@ -2,10 +2,10 @@ import Link from "next/link"
 
 export const metadata = {
   title: "Ayurveda for Busy People: 7 Practices That Take Under 30 Minutes a Day",
-  description: "You don't need to overhaul your life to benefit from Ayurveda. Here are the 7 highest-leverage Ayurvedic practices for people who are actually busy — and what they do.",
+  description: "You don&apos;t need to overhaul your life to benefit from Ayurveda. Here are the 7 highest-leverage Ayurvedic practices for people who are actually busy — and what they do.",
   openGraph: {
     title: "Ayurveda for Busy People: 7 Practices That Take Under 30 Minutes a Day",
-    description: "You don't need to overhaul your life to benefit from Ayurveda. Here are the 7 highest-leverage Ayurvedic practices for people who are actually busy — and what they do.",
+    description: "You don&apos;t need to overhaul your life to benefit from Ayurveda. Here are the 7 highest-leverage Ayurvedic practices for people who are actually busy — and what they do.",
     url: "https://www.doshaflow.com/blog/ayurveda-no-time",
     siteName: "DoshaFlow",
     type: "article",

@@ -1,13 +1,13 @@
 import Link from "next/link"
 
 export const metadata = {
-  title: "Why Ayurveda Says You Should Never Drink Ice Water (And Why It's Probably Right)",
+  title: "Why Ayurveda Says You Should Never Drink Ice Water (And Why It&apos;s Probably Right)",
   description:
-    "Warm water, never ice. It's one of the most consistent recommendations in Ayurveda — and once you understand agni, digestive fire, it's hard to go back.",
+    "Warm water, never ice. It&apos;s one of the most consistent recommendations in Ayurveda — and once you understand agni, digestive fire, it&apos;s hard to go back.",
   openGraph: {
-    title: "Why Ayurveda Says You Should Never Drink Ice Water (And Why It's Probably Right)",
+    title: "Why Ayurveda Says You Should Never Drink Ice Water (And Why It&apos;s Probably Right)",
     description:
-      "Warm water, never ice. It's one of the most consistent recommendations in Ayurveda — and once you understand agni, digestive fire, it's hard to go back.",
+      "Warm water, never ice. It&apos;s one of the most consistent recommendations in Ayurveda — and once you understand agni, digestive fire, it&apos;s hard to go back.",
     url: "https://www.doshaflow.com/blog/ayurveda-ice-water",
     siteName: "DoshaFlow",
     type: "article",

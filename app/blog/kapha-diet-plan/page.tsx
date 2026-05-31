@@ -45,7 +45,7 @@ export default function KaphaDietPlanPage() {
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              Kapha is heavy, slow, cold, oily, and stable. The diet needs to counterbalance those qualities: light, warm, dry, and stimulating. Kapha already has plenty of the heavy, dense, cohesive qualities — adding more through food produces weight gain, sluggish digestion, low energy, and water retention. Three most important principles: Eat light — Kapha's digestion runs slow; heavy foods tax a system already working slowly. Eat stimulating — spice is medicine for Kapha; where Pitta should reduce spice, Kapha should eat the most strongly spiced food of all three doshas. Eat early — breakfast can be the smallest or skipped meal for Kapha; the largest meal should be at lunch.
+              Kapha is heavy, slow, cold, oily, and stable. The diet needs to counterbalance those qualities: light, warm, dry, and stimulating. Kapha already has plenty of the heavy, dense, cohesive qualities — adding more through food produces weight gain, sluggish digestion, low energy, and water retention. Three most important principles: Eat light — Kapha&apos;s digestion runs slow; heavy foods tax a system already working slowly. Eat stimulating — spice is medicine for Kapha; where Pitta should reduce spice, Kapha should eat the most strongly spiced food of all three doshas. Eat early — breakfast can be the smallest or skipped meal for Kapha; the largest meal should be at lunch.
             </p>
 
             <img src="https://source.unsplash.com/featured/800x450/?spices,ginger,pepper,turmeric,colorful" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Stimulating spices for Kapha" />
@@ -65,7 +65,7 @@ export default function KaphaDietPlanPage() {
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              Cold food and drinks: Cold suppresses the already-slow Kapha digestion. Everything should be warm or room temperature. Wheat and heavy grains: Bread, pasta, crackers in large quantities. Sweets and sugar: The taste Kapha craves most and needs least. Sweet food directly increases weight, sluggishness, and water retention. Heavy, oily, fried food. Large portions: Kapha's satiety signal is slow — it is easy to significantly overeat before fullness registers. Excess salt: Promotes water retention.
+              Cold food and drinks: Cold suppresses the already-slow Kapha digestion. Everything should be warm or room temperature. Wheat and heavy grains: Bread, pasta, crackers in large quantities. Sweets and sugar: The taste Kapha craves most and needs least. Sweet food directly increases weight, sluggishness, and water retention. Heavy, oily, fried food. Large portions: Kapha&apos;s satiety signal is slow — it is easy to significantly overeat before fullness registers. Excess salt: Promotes water retention.
             </p>
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>

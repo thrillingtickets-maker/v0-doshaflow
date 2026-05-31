@@ -2,10 +2,10 @@ import Link from "next/link"
 
 export const metadata = {
   title: "The Ayurvedic Take on Coffee: Should You Drink It or Give It Up?",
-  description: "Ayurveda has a nuanced take on coffee — it depends on your dosha. Here's how coffee affects Vata, Pitta, and Kapha types, and how to make it work better for your constitution.",
+  description: "Ayurveda has a nuanced take on coffee — it depends on your dosha. Here&apos;s how coffee affects Vata, Pitta, and Kapha types, and how to make it work better for your constitution.",
   openGraph: {
     title: "The Ayurvedic Take on Coffee: Should You Drink It or Give It Up?",
-    description: "Ayurveda has a nuanced take on coffee — it depends on your dosha. Here's how coffee affects Vata, Pitta, and Kapha types, and how to make it work better for your constitution.",
+    description: "Ayurveda has a nuanced take on coffee — it depends on your dosha. Here&apos;s how coffee affects Vata, Pitta, and Kapha types, and how to make it work better for your constitution.",
     url: "https://www.doshaflow.com/blog/ayurveda-coffee",
     siteName: "DoshaFlow",
     type: "article",

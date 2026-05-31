@@ -2,10 +2,10 @@ import Link from "next/link"
 
 export const metadata = {
   title: "The Ayurvedic Approach to PMS: Three Patterns and What to Do About Each",
-  description: "Ayurveda identifies three distinct PMS patterns — Vata, Pitta, and Kapha — each with different causes and different remedies. Here's how to identify yours and what actually helps.",
+  description: "Ayurveda identifies three distinct PMS patterns — Vata, Pitta, and Kapha — each with different causes and different remedies. Here&apos;s how to identify yours and what actually helps.",
   openGraph: {
     title: "The Ayurvedic Approach to PMS: Three Patterns and What to Do About Each",
-    description: "Ayurveda identifies three distinct PMS patterns — Vata, Pitta, and Kapha — each with different causes and different remedies. Here's how to identify yours and what actually helps.",
+    description: "Ayurveda identifies three distinct PMS patterns — Vata, Pitta, and Kapha — each with different causes and different remedies. Here&apos;s how to identify yours and what actually helps.",
     url: "https://www.doshaflow.com/blog/ayurveda-pms",
     siteName: "DoshaFlow",
     type: "article",

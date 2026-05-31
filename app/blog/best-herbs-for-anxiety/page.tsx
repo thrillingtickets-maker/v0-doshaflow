@@ -45,7 +45,7 @@ export default function BestHerbsForAnxietyPage() {
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              Vata governs the nervous system, movement, and the mind's tendency to move rapidly between thoughts. When Vata is in balance: creativity, adaptability, quick thinking. When Vata is elevated: racing thoughts, insomnia, free-floating anxiety, restlessness, and the 3am spiral that will not stop. The factors that elevate Vata in modern life are not subtle: chronic stress, irregular sleep, irregular eating, excessive screen time, constant stimulation, cold food, insufficient rest. The herbs that address this are nervines and adaptogens — substances that nourish the nervous system, regulate the stress response, and build resilience.
+              Vata governs the nervous system, movement, and the mind&apos;s tendency to move rapidly between thoughts. When Vata is in balance: creativity, adaptability, quick thinking. When Vata is elevated: racing thoughts, insomnia, free-floating anxiety, restlessness, and the 3am spiral that will not stop. The factors that elevate Vata in modern life are not subtle: chronic stress, irregular sleep, irregular eating, excessive screen time, constant stimulation, cold food, insufficient rest. The herbs that address this are nervines and adaptogens — substances that nourish the nervous system, regulate the stress response, and build resilience.
             </p>
 
             <img src="https://source.unsplash.com/featured/800x450/?brahmi,herb,leaf,green,plant" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Brahmi herb leaf" />

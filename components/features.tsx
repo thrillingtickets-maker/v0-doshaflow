@@ -7,7 +7,7 @@ const features = [
   {
     icon: Utensils,
     title: "Dosha-Based Meal Guides",
-    description: "Discover your unique constitution and receive personalized meal guides that balance your body's natural tendencies. From warming foods for Vata to cooling recipes for Pitta.",
+    description: "Discover your unique constitution and receive personalized meal guides that balance your body&apos;s natural tendencies. From warming foods for Vata to cooling recipes for Pitta.",
     tag: "NUTRITION"
   },
   {
