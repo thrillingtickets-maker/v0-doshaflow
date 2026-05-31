@@ -1,14 +1,10 @@
 "use client"
-import { Navigation } from "@/components/navigation"
-import { Footer } from "@/components/footer"
 import { ArticleHero } from "@/components/article-hero"
 import Link from "next/link"
 
 export default function RetreatDay3Page() {
   return (
     <main className="min-h-screen bg-background">
-      <Navigation />
-
       <ArticleHero
         title="Day 3: My Body Is Detoxing, My Mood Is a Ping Pong Ball, and I Hit 15,000 Steps"
         category="journal"
@@ -110,8 +106,6 @@ export default function RetreatDay3Page() {
           </div>
         </div>
       </article>
-
-      <Footer />
     </main>
   )
 }
