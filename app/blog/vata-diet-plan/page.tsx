@@ -14,7 +14,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/vata-diet-plan",
-  },
+  }
 }
 
 export default function VataDietPlanPage() {
@@ -49,7 +49,7 @@ export default function VataDietPlanPage() {
               Vata is cold, dry, light, and irregular. The diet for Vata needs to counterbalance every one of those qualities: warm, moist, heavy, and consistent. The three most important Vata dietary principles: Eat warm food — cooked, ideally. The digestive fire of a Vata type is already irregular and easily disturbed; cold food suppresses it further. Eat at consistent times — Vata's irregularity means agni is strongest when meals are predictable. Skipping breakfast, eating dinner at 10pm, grazing throughout the day prevent agni from stabilising. Eat enough — Vata types often under-eat, driven by irregular hunger signals, then overeat, then feel terrible. Three proper meals, warm, at consistent times, is the foundation.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?warm,oatmeal,ghee,breakfast,bowl" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Warm Vata breakfast with ghee" />
+            <img src="https://source.unsplash.com/featured/800x450/?warm,oatmeal,ghee,breakfast,bowl" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Warm Vata breakfast with ghee" />
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
               Best Foods for Vata.
@@ -59,7 +59,7 @@ export default function VataDietPlanPage() {
               Grains: Oatmeal, rice, wheat, quinoa. Cook them well. Add ghee. Never dry or crunchy. Vegetables: Cooked, not raw. Sweet potato, beets, carrots, zucchini, asparagus, winter squash. Raw salads, particularly at dinner, are one of the most common Vata mistakes. Fruits: Sweet, ripe, room temperature or cooked. Bananas, mangoes, peaches, avocado. Cold fruit straight from the fridge is Vata-aggravating. Proteins: Small amounts of well-cooked meat are excellent for Vata — chicken, turkey, fish, eggs. Well-soaked, well-cooked lentils with digestive spices are manageable. Fats: Ghee is the king of Vata foods. Liberal use of ghee in cooking directly counters Vata's dryness, lubricates the digestive tract, and builds tissues. Sesame oil, olive oil, avocado, nuts — Vata genuinely needs fat in a way other doshas do not. Dairy: Warm milk with cardamom, cinnamon, nutmeg at night is one of the most classically recommended Vata tonics. Spices: Ginger, cardamom, cinnamon, cumin, coriander, fennel, turmeric. Cook with them liberally.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?sweet,potato,root,vegetables,cooked" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Warming root vegetables for Vata" />
+            <img src="https://source.unsplash.com/featured/800x450/?sweet,potato,root,vegetables,cooked" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Warming root vegetables for Vata" />
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
               Foods Vata Should Avoid or Reduce.
@@ -77,7 +77,7 @@ export default function VataDietPlanPage() {
               Morning: Warm water with lemon. Oatmeal with ghee, cardamom, cinnamon. One cup of spiced chai or <Link href="/blog/ayurvedic-tea-guide" style={{color: "#c49a6c", textDecoration: "underline"}}>ginger tea</Link> after food. Lunch (main meal): Kitchari — rice and mung dal with ghee and spices — is the ideal Vata meal. Or well-cooked rice with warming soup, roasted root vegetables, and generous ghee. Lunch should be the largest meal. Dinner: Lighter than lunch. Warm vegetable soup with well-cooked grains. Not raw, not heavy, not late. Evening: Warm milk with cardamom, cinnamon, and a small amount of ashwagandha powder before bed — the classical Vata nighttime tonic. See our <Link href="/blog/ayurvedic-morning-routine" style={{color: "#c49a6c", textDecoration: "underline"}}>morning routine guide</Link> for the complete Vata daily practice.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?kitchari,rice,lentils,ayurvedic,food" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Kitchari Ayurvedic meal" />
+            <img src="https://source.unsplash.com/featured/800x450/?kitchari,rice,lentils,ayurvedic,food" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Kitchari Ayurvedic meal" />
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
               Vata Breakfast Ideas.

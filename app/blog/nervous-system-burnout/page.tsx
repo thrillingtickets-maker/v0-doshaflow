@@ -12,7 +12,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/nervous-system-burnout",
-  },
+  }
 }
 
 export default function NervousSystemBurnoutPage() {

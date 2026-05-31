@@ -14,7 +14,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/ayurvedic-skin-guide",
-  },
+  }
 }
 
 export default function AyurvedicSkinGuidePage() {
@@ -48,7 +48,7 @@ export default function AyurvedicSkinGuidePage() {
               Vata skin is naturally dry, thin, fine-pored, and prone to dryness, flakiness, and premature ageing. When Vata is balanced it has a delicate, luminous quality. When elevated it becomes rough, cracked, and excessively dry — particularly in cold, dry seasons and in response to chronic stress. The most consistent Vata skin complaint is dryness that no amount of external moisturiser fully resolves — because the issue is internal. Pitta skin is naturally warm, slightly oily in the T-zone, medium-pored, and sensitive. When Pitta is balanced it has a natural glow. When elevated it produces acne (particularly inflammatory and cystic), rosacea, eczema, psoriasis, and skin flares that track with the menstrual cycle, alcohol consumption, and stress. The most consistent Pitta skin complaint is inflammation — skin that reacts to stress, diet, and environmental triggers with redness and breakouts. Kapha skin is naturally thick, oily, large-pored, and prone to congestion and sluggishness. When Kapha is balanced it is supple and resilient. When elevated it produces congestion, enlarged pores, blackheads, dullness, and the kind of skin that looks tired regardless of how much sleep you have had.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?skin,face,glow,natural,beauty" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Natural skin glow" />
+            <img src="https://source.unsplash.com/featured/800x450/?skin,face,glow,natural,beauty" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Natural skin glow" />
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -70,7 +70,7 @@ export default function AyurvedicSkinGuidePage() {
               Manjistha is the primary blood and lymph purifying herb in Ayurveda and the most specific herb for skin conditions. It clears ama from the blood and lymph, reduces inflammation, and is used for acne, hyperpigmentation, eczema, and skin dullness. Neem is bitter, cooling, and deeply antimicrobial. Used internally for Pitta-driven inflammatory skin conditions — acne, rosacea, eczema — and externally as an oil or paste. It is the primary Pitta skin herb. Turmeric is anti-inflammatory, antioxidant, and liver-supportive — it works by reducing systemic inflammation and supporting the liver's ability to process hormones and toxins. Used internally with black pepper to increase absorption. Shatavari is the primary herb for hormonally-driven skin conditions in women — the jawline acne of the luteal phase, the flushing of PMS. It addresses these by supporting estrogen metabolism and cooling the Pitta excess that drives them. Triphala works on skin through the gut — by improving elimination, reducing ama, and supporting liver function it addresses the upstream causes of most skin conditions. The skin improvement after 4-6 weeks of consistent Triphala is the gut-skin axis working in the direction it is supposed to.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?turmeric,neem,herbs,ayurvedic,powder" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Ayurvedic herbs for skin" />
+            <img src="https://source.unsplash.com/featured/800x450/?turmeric,neem,herbs,ayurvedic,powder" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Ayurvedic herbs for skin" />
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
@@ -92,7 +92,7 @@ export default function AyurvedicSkinGuidePage() {
               Abhyanga — the daily warm oil massage — is the cornerstone of Ayurvedic skincare. The oil forms a protective barrier, nourishes skin tissues directly, supports lymphatic circulation, and activates the parasympathetic nervous system which reduces cortisol-driven skin inflammation. Vata skin: warm sesame oil — the heaviest and most nourishing, directly addressing dryness. Pitta skin: coconut oil or sunflower oil — cooling and anti-inflammatory. Kapha skin: lighter oils — sunflower or safflower — or dry brushing followed by a lighter oil. Turmeric face mask — a paste of turmeric, raw honey, and either yogurt for Pitta or warm milk for Vata, applied for 10-15 minutes, addresses surface inflammation and gives the skin brightness. Used 1-2 times weekly. Rosewater particularly for Pitta skin as a toner after cleansing — cooling, anti-inflammatory, and mildly astringent. Neem oil diluted in a carrier oil as a spot treatment for Pitta-driven inflammatory acne.
             </p>
 
-            <img src="https://source.unsplash.com/featured/800x450/?oil,massage,face,ayurvedic,skincare" style={{width:'100%', borderRadius:'8px', margin:'32px 0'}} alt="Ayurvedic oil skincare" />
+            <img src="https://source.unsplash.com/featured/800x450/?oil,massage,face,ayurvedic,skincare" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Ayurvedic oil skincare" />
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 

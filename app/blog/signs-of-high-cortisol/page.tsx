@@ -14,7 +14,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.doshaflow.com/blog/signs-of-high-cortisol",
-  },
+  }
 }
 
 export default function SignsOfHighCortissolPage() {
