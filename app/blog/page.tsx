@@ -150,7 +150,13 @@ export default function BlogPage() {
         posts = posts.filter(p => !p.slug.includes("retreat-day"))
       }
     }
-    return posts
+    
+    // Deduplicate by slug to ensure each post appears only once
+    const uniquePosts = Array.from(
+      new Map(posts.map((post) => [post.slug, post])).values()
+    )
+    
+    return uniquePosts
   }, [selectedFilter, allPosts])
   return (
     <main>
