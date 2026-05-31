@@ -114,6 +114,5 @@ export default function BestTeaForBloatingPage() {
           </div>
         </article>
       </main>
-    </div>
-  )
-}
+    )
+  }
