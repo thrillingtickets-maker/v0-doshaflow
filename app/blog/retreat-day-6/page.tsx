@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: 'Day 6: The Enema, the Standoff, and the Temple Behind the Bodega',
   description: 'Day 6 of a Kerala Ayurvedic retreat — refusing the treatment, the first time leaving the property, a hidden temple, a new friend, and anxiety about going home.',

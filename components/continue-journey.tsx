@@ -1,6 +1,11 @@
+"use client"
+
 import Link from "next/link"
+import { useState } from "react"
 
 export function ContinueJourney() {
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
+
   const links = [
     { label: "Take the Dosha Quiz", href: "/quiz" },
     { label: "View Sample Plans", href: "/samples" },
@@ -14,13 +19,13 @@ export function ContinueJourney() {
         Continue Your Ayurveda Journey
       </h2>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "16px" }}>
-        {links.map((link) => (
+        {links.map((link, index) => (
           <Link
             key={link.href}
             href={link.href}
             style={{
               padding: "16px",
-              border: "1px solid rgba(0, 0, 0, 0.08)",
+              border: hoveredIndex === index ? "1px solid rgba(0, 0, 0, 0.16)" : "1px solid rgba(0, 0, 0, 0.08)",
               borderRadius: "6px",
               textDecoration: "none",
               color: "#5a5048",
@@ -28,18 +33,10 @@ export function ContinueJourney() {
               fontWeight: 500,
               textAlign: "center",
               transition: "all 0.2s ease",
-              backgroundColor: "#ffffff",
+              backgroundColor: hoveredIndex === index ? "#fdf8f3" : "#ffffff",
             }}
-            onMouseEnter={(e) => {
-              const el = e.target as HTMLElement
-              el.style.borderColor = "rgba(0, 0, 0, 0.16)"
-              el.style.backgroundColor = "#fdf8f3"
-            }}
-            onMouseLeave={(e) => {
-              const el = e.target as HTMLElement
-              el.style.borderColor = "rgba(0, 0, 0, 0.08)"
-              el.style.backgroundColor = "#ffffff"
-            }}
+            onMouseEnter={() => setHoveredIndex(index)}
+            onMouseLeave={() => setHoveredIndex(null)}
           >
             {link.label}
           </Link>
