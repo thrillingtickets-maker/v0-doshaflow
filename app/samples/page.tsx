@@ -117,8 +117,8 @@ export default function SamplesPage() {
       <div className="samples-page">
         <div className="page-header">
           <div className="page-tag">Sample Reports</div>
-          <h1>A taste of what&apos;s inside<br />your personalized Dosha Report</h1>
-          <p>Every DoshaFlow report is built for your constitution. Here&apos;s a preview of what Vata, Pitta, and Kapha members receive — meal guides, movement, and daily rituals tailored to how your body actually works.</p>
+          <h1>A taste of what's inside<br />your personalized Dosha Report</h1>
+          <p>Every DoshaFlow report is built for your constitution. Here's a preview of what Vata, Pitta, and Kapha members receive — meal guides, movement, and daily rituals tailored to how your body actually works.</p>
         </div>
 
         {/* WHAT PEOPLE USUALLY NOTICE SECTION */}
@@ -230,7 +230,7 @@ export default function SamplesPage() {
                       <div className="pose-item"><span className="pose-name">Chair Pose (Utkatasana)</span><span className="pose-duration">30 sec × 3</span></div>
                       <div className="pose-item"><span className="pose-name">Warrior I</span><span className="pose-duration">45 sec each side</span></div>
                       <div className="pose-item"><span className="pose-name">Forward Fold (slow)</span><span className="pose-duration">2 min</span></div>
-                      <div className="pose-item"><span className="pose-name">Child&apos;s Pose</span><span className="pose-duration">3 min</span></div>
+                      <div className="pose-item"><span className="pose-name">Child's Pose</span><span className="pose-duration">3 min</span></div>
                     </div>
                   </div>
                   <div className="meal-row"><div className="yoga-time">Close · 5 min</div><div className="meal-name">Savasana with grounding intention</div><div className="meal-desc">Lie with a blanket. Visualize roots growing from the base of the spine into the earth.</div></div>
@@ -240,7 +240,7 @@ export default function SamplesPage() {
               <div className="sample-card">
                 <div className="card-header"><div className="day-label">Session 2 · Midweek Reset</div><h3>Slow Flow — 25 min</h3></div>
                 <div className="card-body">
-                  <div className="meal-row"><div className="yoga-time">Opening · 5 min</div><div className="meal-name">Nadi Shodhana (alternate nostril breathing)</div><div className="meal-desc">10 rounds. The single best pranayama for calming Vata&apos;s scattered nervous system.</div></div>
+                  <div className="meal-row"><div className="yoga-time">Opening · 5 min</div><div className="meal-name">Nadi Shodhana (alternate nostril breathing)</div><div className="meal-desc">10 rounds. The single best pranayama for calming Vata's scattered nervous system.</div></div>
                   <div className="meal-row"><div className="yoga-time">Main Practice · 15 min</div><div className="meal-name">Hip &amp; lower back sequence</div>
                     <div className="pose-list">
                       <div className="pose-item"><span className="pose-name">Supine knee hugs</span><span className="pose-duration">2 min</span></div>
@@ -294,7 +294,7 @@ export default function SamplesPage() {
                     <button className="btn-unlock" onClick={() => submitEmail("vata")} disabled={loadingStates.vata}>{loadingStates.vata ? "..." : "Get the Full Kit →"}</button>
                   </div>
                 ) : (
-                  <div className="success-msg">✓ You&apos;re on the list. Full kit coming your way.</div>
+                  <div className="success-msg">✓ You're on the list. Full kit coming your way.</div>
                 )}
                 <p className="privacy-note">No spam. Just your report. Unsubscribe anytime.</p>
               </div>
@@ -353,7 +353,7 @@ export default function SamplesPage() {
                       <button className="btn-unlock" onClick={() => submitEmail("pitta")} disabled={loadingStates.pitta}>{loadingStates.pitta ? "..." : "Join the Waitlist →"}</button>
                     </div>
                   ) : (
-                    <div className="success-msg">✓ You&apos;re on the list. Your Pitta kit is coming.</div>
+                    <div className="success-msg">✓ You're on the list. Your Pitta kit is coming.</div>
                   )}
                   <p className="privacy-note">No spam. Just your report.</p>
                 </div>
@@ -371,14 +371,14 @@ export default function SamplesPage() {
                   <div className="dp-label">Kapha · 7-Day Meal Guide Preview</div>
                   <div className="dp-title">Light, Warm &amp; Stimulating</div>
                   <div className="dp-desc">Kapha runs cool and slow. Your report uses light, dry, spiced foods to kindle digestive fire and prevent the sluggishness Kaphas are prone to.</div>
-                  <ul className="dp-items"><li>Light grains: millet, buckwheat, barley over wheat and rice</li><li>Strong spices: black pepper, ginger, mustard seed, fenugreek</li><li>Bitter greens, legumes, and astringent vegetables</li><li>Avoiding dairy, sugar, cold foods, and heavy oils</li><li>Honey (the only sweetener that doesn&apos;t aggravate Kapha)</li></ul>
+                  <ul className="dp-items"><li>Light grains: millet, buckwheat, barley over wheat and rice</li><li>Strong spices: black pepper, ginger, mustard seed, fenugreek</li><li>Bitter greens, legumes, and astringent vegetables</li><li>Avoiding dairy, sugar, cold foods, and heavy oils</li><li>Honey (the only sweetener that doesn't aggravate Kapha)</li></ul>
                   <div className="dp-locked-bar">🔒 Full 7-day guide in your Kapha report</div>
                 </div>
                 <div className="dp-card dp-kapha">
                   <div className="dp-label">Kapha · Movement Guide Preview</div>
                   <div className="dp-title">Move Every Day, Vary It</div>
                   <div className="dp-desc">Kaphas need consistent movement more than any other type — vigorous enough to generate heat and break stagnation.</div>
-                  <ul className="dp-items"><li>Brisk morning walks before breakfast (essential for Kapha)</li><li>Dynamic sun salutations and vinyasa flow</li><li>Kapalabhati breath (bellows breathing) to clear congestion</li><li>Strength training to counter Kapha&apos;s tendency toward weight gain</li><li>Cold water exposure as a morning wake-up tool</li></ul>
+                  <ul className="dp-items"><li>Brisk morning walks before breakfast (essential for Kapha)</li><li>Dynamic sun salutations and vinyasa flow</li><li>Kapalabhati breath (bellows breathing) to clear congestion</li><li>Strength training to counter Kapha's tendency toward weight gain</li><li>Cold water exposure as a morning wake-up tool</li></ul>
                   <div className="dp-locked-bar">🔒 Full 7-session guide in your Kapha report</div>
                 </div>
               </div>
@@ -392,7 +392,7 @@ export default function SamplesPage() {
                       <button className="btn-unlock" onClick={() => submitEmail("kapha")} disabled={loadingStates.kapha}>{loadingStates.kapha ? "..." : "Join the Waitlist →"}</button>
                     </div>
                   ) : (
-                    <div className="success-msg">✓ You&apos;re on the list. Your Kapha kit is coming.</div>
+                    <div className="success-msg">✓ You're on the list. Your Kapha kit is coming.</div>
                   )}
                   <p className="privacy-note">No spam. Just your report.</p>
                 </div>
