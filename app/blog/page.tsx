@@ -137,7 +137,7 @@ export default function BlogPage() {
       {/* Filter Pills */}
       <section style={{ paddingTop: "60px", paddingBottom: "48px", backgroundColor: "#ffffff" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
+          <div style={{ display: "flex", flexWrap: "nowrap", gap: "8px", overflowX: "auto", WebkitOverflowScrolling: "touch", paddingBottom: "4px", scrollBehavior: "smooth" }}>
             {FILTER_CATEGORIES.map((filter) => (
               <button
                 key={filter}
@@ -153,6 +153,8 @@ export default function BlogPage() {
                   cursor: "pointer",
                   transition: "all 0.2s ease",
                   fontFamily: "inherit",
+                  whiteSpace: "nowrap",
+                  flexShrink: 0,
                 }}
                 onMouseEnter={(e) => {
                   if (selectedFilter !== filter) {
@@ -169,6 +171,14 @@ export default function BlogPage() {
               </button>
             ))}
           </div>
+          <style>{`
+            div:has(button) {
+              scrollbar-width: none;
+            }
+            div:has(button)::-webkit-scrollbar {
+              display: none;
+            }
+          `}</style>
         </div>
       </section>
       {/* Blog Posts Grid */}
@@ -202,16 +212,20 @@ export default function BlogPage() {
                 >
                   <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
                     {isRetreatJournal && (
-                      <div style={{
-                        fontSize: "10px",
-                        fontWeight: 700,
-                        letterSpacing: "0.1em",
-                        color: "#b5763a",
-                        textTransform: "uppercase",
-                        marginBottom: "10px",
-                      }}>
-                        Retreat Journal
-                      </div>
+                  <div style={{
+                    fontSize: "10px",
+                    fontWeight: 700,
+                    letterSpacing: "0.12em",
+                    color: "#b5763a",
+                    textTransform: "uppercase",
+                    marginBottom: "8px",
+                    backgroundColor: "#fdf0e0",
+                    padding: "3px 8px",
+                    borderRadius: "4px",
+                    display: "inline-block",
+                  }}>
+                    Retreat Journal
+                  </div>
                     )}
                     <time style={{
                       fontSize: "12px",
@@ -245,6 +259,10 @@ export default function BlogPage() {
                       color: "#5a5048",
                       marginBottom: "20px",
                       flex: 1,
+                      display: "-webkit-box",
+                      WebkitLineClamp: 3,
+                      WebkitBoxOrient: "vertical",
+                      overflow: "hidden",
                     }}>
                       {post.excerpt}
                     </p>

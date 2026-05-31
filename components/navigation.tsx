@@ -46,7 +46,7 @@ export function Navigation() {
           scrolled ? "bg-background/80 backdrop-blur-md border-b border-border/50" : ""
         }`}
       >
-        <nav className="max-w-6xl mx-auto px-6 py-4">
+        <nav className="max-w-6xl mx-auto px-6 py-[20px]">
           <div className="flex items-center justify-between">
             <a href="/" className="flex items-center gap-2">
               <span className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
