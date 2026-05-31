@@ -1,6 +1,7 @@
 import { getPostBySlug, getAllPosts } from "@/lib/posts"
 import { ArticleHero } from "@/components/article-hero"
 import { highlightMap } from "@/lib/article-colors"
+import { processArticleContent } from "@/lib/process-article-content"
 import { ArrowLeft } from "lucide-react"
 import { notFound } from "next/navigation"
 import Link from "next/link"
@@ -161,7 +162,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           `}</style>
           <div
             style={{ color: "#2c1a0e", lineHeight: 1.85 }}
-            dangerouslySetInnerHTML={{ __html: post.content }}
+            dangerouslySetInnerHTML={{ __html: processArticleContent(post.content) }}
           />
           {/* Post Footer - Back Link */}
           <footer style={{ marginTop: "64px", paddingTop: "32px", borderTop: "1px solid #e8d9c5" }}>
