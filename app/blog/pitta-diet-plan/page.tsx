@@ -100,6 +100,5 @@ export default function PittaDietPlanPage() {
           <p>© 2026 DoshaFlow. All rights reserved.</p>
         </div>
       </footer>
-    </div>
-  )
-}
+    )
+  }
