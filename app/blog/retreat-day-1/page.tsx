@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Day 1 at an Ayurvedic Retreat: Arriving in the Wrong Condition",
   description:
@@ -49,7 +50,8 @@ export default function RetreatDay1Page() {
               Read more from the retreat &rarr;
             </Link>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
       </div>
     </div>
   )

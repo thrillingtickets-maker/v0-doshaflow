@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Signs of Vata Imbalance: Is Your Nervous System Running on Empty?",
   description: "Dry skin, constipation, racing thoughts, anxiety without cause — the complete guide to Vata imbalance symptoms, what causes them, and how to bring Vata back into balance.",
@@ -72,7 +73,8 @@ export default function SignsOfVataImbalancePage() {
               Take the Free Dosha Quiz
             </Link>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
       </main>
     )
 }

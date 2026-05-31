@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Why Ayurveda Doesn&apos;t Recommend Cold Smoothies (And What to Eat Instead)",
   description: "Ayurveda says cold smoothies suppress digestive fire — and the science of agni explains why. Here&apos;s what to eat for breakfast instead, according to your dosha.",
@@ -97,7 +98,8 @@ export default function AyurvedaColdSmoothiesPage() {
               Alex is the founder of DoshaFlow, currently at an Ayurvedic retreat in Kerala, India. <Link href="/quiz" style={{ color: "#c49a6c" }}>Take the dosha quiz</Link> · <Link href="/blog" style={{ color: "#c49a6c" }}>Read the retreat journal</Link>
             </p>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
         <footer>
           <div>
             © 2026 DoshaFlow. All rights reserved.

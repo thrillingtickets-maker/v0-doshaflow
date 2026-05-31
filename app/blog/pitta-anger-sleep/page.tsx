@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Pitta and Anger: Why You Are Irritable, Inflamed, and Not Sleeping",
   description: "Pitta imbalance causes anger, skin inflammation, acid reflux, and the 10pm-2am sleep disruption pattern. Here is what is happening and what actually helps.",
@@ -72,7 +73,8 @@ export default function PittaAngerSleepPage() {
               Take the Free Dosha Quiz
             </Link>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
       </main>
     )
 }

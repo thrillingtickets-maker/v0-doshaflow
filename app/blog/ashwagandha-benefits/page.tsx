@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Ashwagandha Benefits: What the Research Actually Says (And What Ayurveda Has Known for 3,000 Years)",
   description:
@@ -65,6 +66,7 @@ export default function AshwaganhaBenefitsPage() {
               <strong>Dose:</strong> 300-600mg of root extract daily, or 3-6g of raw root powder. <strong>Timing:</strong> evening, taken with warm milk or warm water. <strong>Duration:</strong> this is critically important — give it at least 6-8 weeks before evaluating. <strong>Form:</strong> root powder or full-spectrum root extract are preferable to isolated withanolide concentrates. <strong>Caution:</strong> contraindicated in pregnancy. People with autoimmune conditions or on thyroid medication should check with a practitioner first, as it can affect thyroid hormone levels.
             </p>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <ContinueJourney />
             <div style={{ 
               backgroundColor: "#f5ede1", 
               padding: "24px", 

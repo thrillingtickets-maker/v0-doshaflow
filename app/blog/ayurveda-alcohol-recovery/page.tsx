@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Ayurveda and Alcohol Recovery: What the System Actually Offers",
   description: "Ayurveda offers specific herbs and practices for alcohol recovery — ashwagandha, brahmi, triphala, and a nervous system reset protocol. An honest account of what it does and does not do.",
@@ -66,7 +67,8 @@ export default function AyurvedaAlcoholRecoveryPage() {
               Take the Free Dosha Quiz
             </Link>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
       </main>
     )
   }

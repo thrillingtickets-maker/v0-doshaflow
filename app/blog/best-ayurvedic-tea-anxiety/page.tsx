@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Best Ayurvedic Tea for Anxiety: What to Drink, When, and Why",
   description:
@@ -81,7 +82,8 @@ export default function BestAyurvedicTeaAnxietyPage() {
               </Link>
             </div>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
         <footer style={{ borderTop: "1px solid #e8d9c5", marginTop: "96px", paddingTop: "48px", paddingBottom: "48px", backgroundColor: "white" }}>
         <div style={{ maxWidth: "64rem", marginLeft: "auto", marginRight: "auto", paddingLeft: "24px", paddingRight: "24px", textAlign: "center", fontSize: "14px", color: "#5c4a3a" }}>
           <p>© 2026 DoshaFlow. All rights reserved.</p>

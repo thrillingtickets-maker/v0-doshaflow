@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Signs of High Cortisol — And What Ayurveda Does About It",
   description:
@@ -52,6 +53,7 @@ export default function SignsOfHighCortissolPage() {
               Cortisol dysregulation that has developed over years does not resolve in days. The realistic timeline for meaningful improvement with a consistent Ayurvedic intervention is 8-12 weeks. The herbs work slowly. The lifestyle changes compound. Be patient with the system.
             </p>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <ContinueJourney />
             <div style={{ 
               backgroundColor: "#f5ede1", 
               padding: "24px", 

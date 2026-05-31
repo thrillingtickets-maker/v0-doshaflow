@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Ayurvedic Tea Guide: Best Teas for Vata, Pitta, and Kapha Dosha",
   description:
@@ -86,6 +87,7 @@ export default function AyurvedicTeaGuidePage() {
               Consistency matters more than any other variable. A moderate herb taken daily for six weeks produces more significant results than a high-dose intervention taken sporadically. Drink warm, not cold. Sit down. Time your teas by dosha period: morning (6-10am) is Kapha time and ideal for stimulating teas. Midday (10am-2pm) is Pitta time and ideal for cooling teas. Evening (6-10pm) — heavy, grounding, sleep-supporting teas belong here.
             </p>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <ContinueJourney />
             <div style={{ 
               backgroundColor: "#f5ede1", 
               padding: "24px", 

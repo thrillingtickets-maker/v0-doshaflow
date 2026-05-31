@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Retreat Journal Day 4: What a Vata Type Gets Wrong About Exercise",
   description: "Day 4 at an Ayurvedic retreat in Kerala: the doctor tells me to stop moving, shirodhara finally works, and I reckon with how much I&apos;ve been avoiding the whole point of being here.",
@@ -129,7 +130,8 @@ export default function RetreatDay4Page() {
               Vata Dosha Guide
             </Link>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
       </div>
     </div>
   )

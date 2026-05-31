@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Best Tea for Bloating: The Ayurvedic Approach to a Digestive System That Won&apos;t Quit",
   description: "The best teas for bloating depend on the type — CCF tea for Vata gas, fennel for Pitta inflammation, trikatu for Kapha heaviness. The Ayurvedic guide to fixing bloating for good.",
@@ -75,6 +76,7 @@ export default function BestTeaForBloatingPage() {
               Cold drinks with meals suppress digestive fire in all constitutions. Carbonated drinks add gas to a system already producing too much. Eating too quickly prevents adequate enzymatic breakdown. Eating past fullness forces the digestive system to process more than it can handle efficiently.
             </p>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <ContinueJourney />
             <div style={{ 
               backgroundColor: "#f5ede1", 
               padding: "24px", 

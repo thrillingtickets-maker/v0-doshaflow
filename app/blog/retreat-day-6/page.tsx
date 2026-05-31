@@ -28,6 +28,7 @@ export default function RetreatDay6Page() {
         <div style={{marginTop: "48px", paddingTop: "32px", borderTop: "1px solid #e8e0d4"}}>
           <Link href="/quiz" style={{display: "inline-block", backgroundColor: "#b5763a", color: "white", padding: "12px 24px", borderRadius: "6px", textDecoration: "none", fontWeight: "600"}}>Take the Free Dosha Quiz</Link>
         </div>
+      <ContinueJourney />
       </article>
     </main>
   )

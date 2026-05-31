@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Ayurvedic Morning Routine: The Complete Step-by-Step Guide",
   description:
@@ -111,6 +112,7 @@ export default function AyurvedicMorningRoutinePage() {
               The full sequence takes 60-90 minutes. The minimum viable Ayurvedic morning that produces real results with 15-20 minutes: (1) Tongue scraping, (2) Warm water, (3) 15-minute walk outside, (4) Warm breakfast. Those four things done consistently will produce noticeable improvements in digestion, energy, and mental clarity within three weeks for most people.
             </p>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <ContinueJourney />
             <div style={{ 
               backgroundColor: "#f5ede1", 
               padding: "24px", 

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Ayurveda for Busy People: 7 Practices That Take Under 30 Minutes a Day",
   description: "You don&apos;t need to overhaul your life to benefit from Ayurveda. Here are the 7 highest-leverage Ayurvedic practices for people who are actually busy — and what they do.",
@@ -110,7 +111,8 @@ export default function AyurvedaNoTimePage() {
           <p style={{ marginBottom: "20px" }}>You don&apos;t have to live at a retreat in Kerala to get meaningful benefit from this system. You just have to pick two or three things and actually do them.</p>
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
           <p style={{ marginBottom: "20px", fontStyle: "italic" }}>Alex is the founder of DoshaFlow, currently at an Ayurvedic retreat in Kerala, India. <Link href="/quiz" style={{ color: "#9a7a5a" }}>Take the dosha quiz</Link> at doshaflow.com/quiz</p>
-        </article>
+        <ContinueJourney />
+      </article>
       </div>
     </div>
   )

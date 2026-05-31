@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Best Tea for Stress: What Ayurveda Recommends Beyond Chamomile",
   description: "The best teas for stress depend on the type — Vata needs ashwagandha and brahmi, Pitta needs rose and brahmi, Kapha needs tulsi and ginger. The complete Ayurvedic stress tea guide.",
@@ -69,6 +70,7 @@ export default function BestTeaForStressPage() {
               Morning: tulsi, ginger, or a mild adaptogen blend — grounded tone without overstimulating. Afternoon (the peak stress window): brahmi tea or ashwagandha blend. Evening: ashwagandha in warm milk, rose petal tea for Pitta, or jatamansi for anyone whose stress manifests primarily as insomnia.
             </p>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <ContinueJourney />
             <div style={{ 
               backgroundColor: "#f5ede1", 
               padding: "24px", 

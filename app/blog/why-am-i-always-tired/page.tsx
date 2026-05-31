@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "Why Am I Always Tired? The Ayurvedic Explanation by Dosha Type",
   description: "Persistent fatigue has three different causes in Ayurveda — Vata depletion, Pitta inflammation, and Kapha sluggishness. Identifying yours changes everything about what to do.",
@@ -72,7 +73,8 @@ export default function WhyAmIAlwaysTiredPage() {
               Take the Free Dosha Quiz
             </Link>
           </div>
-        </article>
+        <ContinueJourney />
+      </article>
       </main>
     )
   }

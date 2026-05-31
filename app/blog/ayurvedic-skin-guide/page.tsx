@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "The Ayurvedic Skin Guide: Why Your Skin Reflects What Is Happening Inside",
   description:
@@ -79,6 +80,7 @@ export default function AyurvedicSkinGuidePage() {
               Two weeks: digestion begins to improve, which is the foundation. Four weeks: a reduction in the frequency or severity of breakouts or flares for most people. Eight weeks: the quality of skin — texture, tone, luminosity — begins to visibly change. Twelve weeks: the most significant visible changes. At this point the gut microbiome has had time to rebalance, the liver is working more efficiently, and the skin is receiving better inputs than it was three months ago. This is why Ayurvedic skin protocols feel slow at first. The results are not cosmetic — they are structural. They last.
             </p>
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
+            <ContinueJourney />
             <div style={{ 
               backgroundColor: "#f5ede1", 
               padding: "24px", 

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ContinueJourney } from "@/components/continue-journey"
 export const metadata = {
   title: "I Followed an Ayurvedic Routine for 30 Days: Here&apos;s What Actually Changed",
   description: "What happens when you consistently follow an Ayurvedic daily routine for 30 days? Digestion, sleep, anxiety, skin — an honest account of what changed and what didn&apos;t.",
@@ -101,7 +102,8 @@ export default function Ayurveda30DaysPage() {
           <p style={{ marginBottom: "20px" }}>That shift in perspective might be the most valuable thing I&apos;m taking home.</p>
           <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
           <p style={{ marginBottom: "20px", fontStyle: "italic" }}>Alex is the founder of DoshaFlow, currently at an Ayurvedic retreat in Kerala, India. <Link href="/quiz" style={{ color: "#9a7a5a" }}>Take the dosha quiz</Link> at doshaflow.com/quiz</p>
-        </article>
+        <ContinueJourney />
+      </article>
       </div>
     </div>
   )
