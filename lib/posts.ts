@@ -18,7 +18,9 @@ export const posts: Post[] = [
     excerpt: "An honest first-person account of day 1 at an Ayurvedic retreat in Kerala — arriving with addiction, anxiety and bad sleep, the intake consultation, Abhyanga, and why I'm really here.",
     seoTitle: "Day 1 at an Ayurvedic Retreat: Arriving in the Wrong Condition",
     seoDescription: "An honest first-person account of day 1 at an Ayurvedic retreat in Kerala — arriving with addiction, anxiety and bad sleep, the intake consultation, Abhyanga, and why I'm really here.",
-    content: ``,
+    content: `<p>Arriving at an Ayurvedic retreat in Kerala after years of anxiety, poor sleep, and unresolved addiction issues felt like stepping into a different world. The smell of incense and ghee replaced the smell of alcohol I'd been carrying. Within hours of arrival, I was in a consultation with Dr. Anjali, who asked simple questions and listened without judgment.</p>
+<p>The intake process included Abhyanga — a full-body oil massage that lasted 90 minutes. My nervous system, which had been in fight-or-flight for years, finally began to settle. The oil was warm, the hands were skilled, and something in me softened.</p>
+<p>This is where the real work begins.</p>`,
   },
   {
     slug: "best-tea-for-stress",
@@ -28,7 +30,14 @@ export const posts: Post[] = [
     excerpt: "The best teas for stress depend on the type — Vata needs ashwagandha and brahmi, Pitta needs rose and brahmi, Kapha needs tulsi and ginger. The complete Ayurvedic stress tea guide.",
     seoTitle: "Best Tea for Stress: What Ayurveda Recommends Beyond Chamomile",
     seoDescription: "The best teas for stress depend on the type — Vata needs ashwagandha and brahmi, Pitta needs rose and brahmi, Kapha needs tulsi and ginger. The complete Ayurvedic stress tea guide.",
-    content: ``,
+    content: `<h2>The Problem With Standard Stress Teas</h2>
+<p>Most Western stress teas are chamomile-based. Chamomile works for some people, but if you're still wired after a cup, you're probably not using the right herb for your constitution. Ayurveda recognizes that stress manifests differently depending on your dosha, and the herbs that address one type of stress can actually worsen another.</p>
+<h2>Vata Stress: The Scattered, Anxious Type</h2>
+<p>Vata stress is characterized by racing thoughts, anxiety, difficulty focusing, and a sense of being scattered. The nervous system is hyperactive and depleted simultaneously. Ashwagandha and Brahmi are the primary herbs for this type. Ashwagandha calms the fight-or-flight response while nourishing the nervous system. Brahmi quiets racing thoughts specifically. Combined with warm milk and a pinch of nutmeg, this becomes a nervous system reset.</p>
+<h2>Pitta Stress: The Inflamed, Reactive Type</h2>
+<p>Pitta stress manifests as irritability, quick reactivity, burnout, and inflammation. The system is overheated and sharp. Rose is cooling and calming to the inflamed nervous system. Brahmi supports the mind. Passionflower and skullcap are Western herbs that work synergistically with the Ayurvedic approach to cool Pitta stress.</p>
+<h2>Kapha Stress: The Heavy, Stagnant Type</h2>
+<p>Kapha stress presents as lethargy, heaviness, depression, and stuckness. The system is sluggish and needs to be awakened. Tulsi (Holy Basil) is stimulating and grounding. Ginger warms the system and supports circulation. These create movement and lift in the system that static calm cannot achieve.</p>`,
   },
   {
     slug: "best-tea-for-vata",
@@ -38,7 +47,13 @@ export const posts: Post[] = [
     excerpt: "The best teas for Vata — ashwagandha, ginger, cardamom, jatamansi — and when to drink them for digestion, anxiety, and sleep. The complete Vata tea guide.",
     seoTitle: "Best Tea for Vata Dosha: Daily Drinks That Ground an Overactive Nervous System",
     seoDescription: "The best teas for Vata — ashwagandha, ginger, cardamom, jatamansi — and when to drink them for digestion, anxiety, and sleep. The complete Vata tea guide.",
-    content: ``,
+    content: `<p>Vata dosha is the dosha of air and space — quick, creative, anxious, and prone to overthinking. Vata types need grounding, nourishing teas that settle the nervous system and support digestion. The best teas for Vata are warming, slightly heavy, and calming.</p>
+<h2>Morning: Ashwagandha Ginger Tea</h2>
+<p>Start the day with ashwagandha and ginger. Ashwagandha strengthens and nourishes the nervous system, reducing the tendency toward scattered anxiety. Ginger ignites the digestive fire. A pinch of cardamom aids digestion. Drink warm 20 minutes before food.</p>
+<h2>Afternoon: Brahmi Tea</h2>
+<p>Brahmi cools the mind and reduces mental chatter. For Vata, this prevents the afternoon spiral into overthinking. Brahmi also supports learning and memory. Use 1 teaspoon dried brahmi steeped 10 minutes in hot water.</p>
+<h2>Evening: Jatamansi Sleep Tea</h2>
+<p>Jatamansi is the Vata sleep herb. It calms the 3am wake-up pattern where the mind activates and won't stop. Take 30 minutes before bed with warm milk, a pinch of nutmeg, and honey. This regulates sleep quality for Vata specifically.</p>`,
   },
   {
     slug: "best-tea-for-bloating",
@@ -48,7 +63,7 @@ export const posts: Post[] = [
     excerpt: "The best teas for bloating depend on the type — CCF tea for Vata gas, fennel for Pitta inflammation, trikatu for Kapha heaviness. The Ayurvedic guide to fixing bloating for good.",
     seoTitle: "Best Tea for Bloating: The Ayurvedic Approach to a Digestive System That Won't Quit",
     seoDescription: "The best teas for bloating depend on the type — CCF tea for Vata gas, fennel for Pitta inflammation, trikatu for Kapha heaviness. The Ayurvedic guide to fixing bloating for good.",
-    content: ``,
+    content: `<p>Bloating is one of the most common complaints in Ayurveda, and the solution depends entirely on your dosha type. Different doshas create bloating through different mechanisms, so the tea that works for one type can make another worse.</p><h2>CCF Tea for Vata Bloating</h2><p>Vata bloating is caused by irregular digestion and gas accumulation. CCF tea (Cumin, Coriander, Fennel) is the classical Ayurvedic remedy. The combination of warming spices ignites digestive fire while the fennel reduces gas. Drink 30 minutes before meals.</p><h2>Fennel for Pitta Bloating</h2><p>Pitta bloating comes from excess heat and inflammation in the digestive tract. Fennel is cooling and reduces inflammation. Pure fennel tea after meals soothes the irritated digestive system.</p><h2>Trikatu for Kapha Bloating</h2><p>Kapha bloating is heaviness and sluggish digestion. Trikatu (ginger, black pepper, long pepper) is warming and stimulating. This combination creates the digestive movement needed to prevent Kapha stagnation.</p>`,
   },
   {
     slug: "ayurvedic-skin-guide",
@@ -58,7 +73,7 @@ export const posts: Post[] = [
     excerpt: "Ayurveda treats skin conditions from the inside — through the gut, liver, and doshas. The complete guide to Ayurvedic skincare by skin type, herbs, diet, and external practices.",
     seoTitle: "The Ayurvedic Skin Guide: Why Your Skin Reflects What Is Happening Inside",
     seoDescription: "Ayurveda treats skin conditions from the inside — through the gut, liver, and doshas. The complete guide to Ayurvedic skincare by skin type, herbs, diet, and external practices.",
-    content: ``,
+    content: `<p>Your skin condition tells the story of what is happening inside your body. Ayurveda treats skin from the inside out — through the digestive system, liver, and nervous system — rather than just topical application.</p><h2>Vata Skin: Dry, Sensitive, Aging</h2><p>Vata skin is thin, dry, and prone to premature aging lines. The skin lacks nourishment and protective oils. Treatment focuses on warm oil massage (abhyanga), nourishing foods, and grounding herbs like sesame oil and brahmi. Consistency matters more than products.</p><h2>Pitta Skin: Inflamed, Reactive, Acne-Prone</h2><p>Pitta skin is reactive, inflamed, and prone to acne and rosacea. The liver is overheated. Treatment focuses on cooling — internal and external. Rose water, neem, brahmi, and cooling foods are primary. Avoid heating herbs and excess sun exposure.</p><h2>Kapha Skin: Heavy, Oily, Congested</h2><p>Kapha skin is thick, oily, and prone to congestion and cystic acne. The lymphatic system is sluggish. Treatment focuses on stimulation — dry massage (garshana), warming spices, and movement. Triphala and neem support the detoxification process.</p>`,
   },
   {
     slug: "kapha-foods-to-avoid",
@@ -68,7 +83,7 @@ export const posts: Post[] = [
     excerpt: "The complete list of foods that aggravate Kapha dosha — dairy, wheat, sweets, cold food, and large portions. Why each one makes Kapha fatigue and weight gain worse.",
     seoTitle: "Kapha Foods to Avoid: Why You Feel Heavy, Tired, and Stuck",
     seoDescription: "The complete list of foods that aggravate Kapha dosha — dairy, wheat, sweets, cold food, and large portions. Why each one makes Kapha fatigue and weight gain worse.",
-    content: ``,
+    content: `<p>Kapha dosha becomes imbalanced when fed heavy, cold, oily, and sweet foods. These foods increase the qualities that are already dominant in Kapha — heaviness, lethargy, sluggishness, and weight gain. The solution is to eat the opposite qualities: light, warm, stimulating, and dry.</p><h2>Dairy to Avoid</h2><p>Dairy is heavy, cold, and congesting. It increases Kapha mucus and sluggishness. If you consume dairy, use warm milk with spices like ginger and black pepper to make it less congesting. Better alternatives include herbal teas and warm broths.</p><h2>Wheat to Limit</h2><p>Wheat is heavy and mucus-forming. For Kapha types struggling with weight and congestion, barley and quinoa are lighter alternatives that don't create the same sluggishness.</p><h2>Sweets and Cold Foods</h2><p>Sugar increases Kapha directly. Cold foods slow digestion and reduce the metabolic fire. Room temperature or warm foods eaten in smaller portions, with warming spices like cayenne and ginger, support Kapha balance and steady weight.</p>`,
   },
   {
     slug: "vata-foods-to-avoid",
@@ -78,7 +93,7 @@ export const posts: Post[] = [
     excerpt: "The complete list of foods that aggravate Vata dosha — cold food, dry snacks, caffeine, carbonated drinks, and irregular eating. Why each one makes Vata symptoms worse.",
     seoTitle: "Vata Foods to Avoid: What Is Making Your Anxiety and Digestion Worse",
     seoDescription: "The complete list of foods that aggravate Vata dosha — cold food, dry snacks, caffeine, carbonated drinks, and irregular eating. Why each one makes Vata symptoms worse.",
-    content: ``,
+    content: `<p>Vata dosha becomes imbalanced through cold, dry, light, and irregular foods. These foods increase the qualities already present in Vata — anxiety, scattered thoughts, constipation, and poor sleep. The solution is eating the opposite: warm, grounding, nourishing, and consistent.</p><h2>Cold Foods and Drinks</h2><p>Cold water, smoothies, salads, and raw vegetables aggravate Vata significantly. The cold quality disrupts digestion and increases anxiety. Switch to warm broths, cooked vegetables, and room temperature water with meals. This single change often resolves Vata digestion issues.</p><h2>Dry Snacks and Irregular Meals</h2><p>Vata types are prone to skipping meals and grazing on dry snacks. This irregular eating and dry food directly increase Vata symptoms — anxiety, bloating, and constipation. Establish regular meal times with warm, well-cooked foods that include healthy fats like ghee and sesame oil.</p><h2>Caffeine and Carbonated Drinks</h2><p>Caffeine increases the Vata nervous system activation, making anxiety and sleep issues worse. Carbonated drinks create gas and bloating. Replace with warm herbal teas like ashwagandha or brahmi, which ground the nervous system instead.</p>`,
   },
   {
     slug: "ayurveda-alcohol-recovery",
@@ -88,7 +103,7 @@ export const posts: Post[] = [
     excerpt: "Ayurveda offers specific herbs and practices for alcohol recovery — ashwagandha, brahmi, triphala, and a nervous system reset protocol. An honest account of what it does and does not do.",
     seoTitle: "Ayurveda and Alcohol Recovery: What the System Actually Offers",
     seoDescription: "Ayurveda offers specific herbs and practices for alcohol recovery — ashwagandha, brahmi, triphala, and a nervous system reset protocol. An honest account of what it does and does not do.",
-    content: ``,
+    content: `<p>Alcohol is extremely Pitta in nature — it heats the system, inflames the liver, disrupts the nervous system, and creates dependency patterns that yoga traditions recognized thousands of years ago. Ayurveda offers specific protocols for recovery from alcohol dependency.</p><h2>The Nervous System Reset</h2><p>Recovery from alcohol requires a nervous system that has been re-regulated without the substance. Ashwagandha is primary — it nourishes the nervous system and reduces the craving response. Brahmi quiets the obsessive thoughts about drinking. These are taken daily, not as-needed.</p><h2>Liver Regeneration</h2><p>The liver must detoxify the accumulated Pitta from alcohol use. Triphala and milk thistle support this process. A liver-supportive diet without heat and inflammation allows the organ to recover. This takes months, not weeks.</p><h2>Sleep and Digestion Repair</h2><p>Alcohol disrupts both sleep and digestion — the two foundations of recovery. Jatamansi and ashwagandha support sleep. Ginger and warm lemon water support digestion and elimination of metabolic toxins. These become non-negotiable daily practices.</p>`,
   },
   {
     slug: "why-am-i-always-tired",
@@ -98,7 +113,7 @@ export const posts: Post[] = [
     excerpt: "Persistent fatigue has three different causes in Ayurveda — Vata depletion, Pitta inflammation, and Kapha sluggishness. Identifying yours changes everything about what to do.",
     seoTitle: "Why Am I Always Tired? The Ayurvedic Explanation by Dosha Type",
     seoDescription: "Persistent fatigue has three different causes in Ayurveda — Vata depletion, Pitta inflammation, and Kapha sluggishness. Identifying yours changes everything about what to do.",
-    content: ``,
+    content: `<p>Persistent fatigue has three entirely different causes in Ayurveda, and treating the wrong cause will not resolve the fatigue. The first step is identifying which type you have.</p><h2>Vata Fatigue: Depletion</h2><p>Vata fatigue is nervous system depletion from overactivity, irregular sleep, or anxiety. You feel tired but wired. The solution is rest, warm oil massage, and nourishing foods like warm milk and ghee. Ashwagandha rebuilds the depleted nervous system over weeks.</p><h2>Pitta Fatigue: Inflammation and Burnout</h2><p>Pitta fatigue is burnout — inflammation and overheating in the system. You feel exhausted despite sleeping. The solution is cooling — diet, lifestyle, and cooling herbs like rose and brahmi. This requires conscious slowing down and release of perfectionism.</p><h2>Kapha Fatigue: Sluggishness</h2><p>Kapha fatigue is heaviness and lethargy. You sleep too much and still feel tired. The solution is stimulation and movement — exercise, warming spices, and dry massage. This type of fatigue often improves within days of increased movement and spice.</p>`,
   },
   {
     slug: "nervous-system-burnout",
@@ -108,7 +123,7 @@ export const posts: Post[] = [
     excerpt: "Nervous system burnout is not ordinary tiredness. Here are the specific signs, what causes it in Ayurvedic terms, and the recovery protocol that actually works.",
     seoTitle: "Signs of Nervous System Burnout — And the Ayurvedic Path Back",
     seoDescription: "Nervous system burnout is not ordinary tiredness. Here are the specific signs, what causes it in Ayurvedic terms, and the recovery protocol that actually works.",
-    content: ``,
+    content: `<p>This article explores day 1: i arrived smelling like alcohol. the doctor noticed.. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "kapha-morning-routine",
@@ -118,7 +133,7 @@ export const posts: Post[] = [
     excerpt: "The Ayurvedic morning routine for Kapha — why waking before 6am matters, why breakfast should be skipped, and why vigorous exercise before eating is non-negotiable for Kapha types.",
     seoTitle: "Kapha Morning Routine: How to Actually Wake Up",
     seoDescription: "The Ayurvedic morning routine for Kapha — why waking before 6am matters, why breakfast should be skipped, and why vigorous exercise before eating is non-negotiable for Kapha types.",
-    content: ``,
+    content: `<p>This article explores kapha morning routine: how to actually wake up. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "pitta-anger-sleep",
@@ -128,7 +143,7 @@ export const posts: Post[] = [
     excerpt: "Pitta imbalance causes anger, skin inflammation, acid reflux, and the 10pm-2am sleep disruption pattern. Here is what is happening and what actually helps.",
     seoTitle: "Pitta and Anger: Why You Are Irritable, Inflamed, and Not Sleeping",
     seoDescription: "Pitta imbalance causes anger, skin inflammation, acid reflux, and the 10pm-2am sleep disruption pattern. Here is what is happening and what actually helps.",
-    content: ``,
+    content: `<p>This article explores pitta and anger: why you are irritable, inflamed, and not sleeping. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "signs-of-vata-imbalance",
@@ -138,7 +153,7 @@ export const posts: Post[] = [
     excerpt: "Dry skin, constipation, racing thoughts, anxiety without cause — the complete guide to Vata imbalance symptoms, what causes them, and how to bring Vata back into balance.",
     seoTitle: "Signs of Vata Imbalance: Is Your Nervous System Running on Empty?",
     seoDescription: "Dry skin, constipation, racing thoughts, anxiety without cause — the complete guide to Vata imbalance symptoms, what causes them, and how to bring Vata back into balance.",
-    content: ``,
+    content: `<p>This article explores signs of vata imbalance: is your nervous system running on empty?. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "ayurvedic-weight-loss",
@@ -148,7 +163,7 @@ export const posts: Post[] = [
     excerpt: "Ayurveda explains weight gain by dosha — Vata, Pitta, and Kapha each gain weight for different reasons and need different approaches. The complete Ayurvedic weight loss guide.",
     seoTitle: "Ayurvedic Weight Loss Guide: Why Diets Do Not Work for Your Dosha (And What Does)",
     seoDescription: "Ayurveda explains weight gain by dosha — Vata, Pitta, and Kapha each gain weight for different reasons and need different approaches. The complete Ayurvedic weight loss guide.",
-    content: ``,
+    content: `<p>This article explores ayurvedic weight loss guide: why diets do not work for your dosha (and what does). Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "best-ayurvedic-tea-digestion",
@@ -158,7 +173,7 @@ export const posts: Post[] = [
     excerpt: "The best Ayurvedic teas for digestion — ginger, CCF tea, fennel, triphala. What to drink before and after meals to fix bloating, gas, constipation, and sluggish digestion.",
     seoTitle: "Best Ayurvedic Tea for Digestion: What to Drink Before, During, and After Meals",
     seoDescription: "The best Ayurvedic teas for digestion — ginger, CCF tea, fennel, triphala. What to drink before and after meals to fix bloating, gas, constipation, and sluggish digestion.",
-    content: ``,
+    content: `<p>This article explores best ayurvedic tea for digestion: what to drink before, during, and after meals. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "best-ayurvedic-tea-sleep",
@@ -168,7 +183,7 @@ export const posts: Post[] = [
     excerpt: "The best Ayurvedic teas for sleep — jatamansi, ashwagandha, brahmi, valerian. What the herbs do, when to take them, and the warm milk ritual that outperforms most sleep teas.",
     seoTitle: "Best Ayurvedic Tea for Sleep: The Herbs That Actually Work",
     seoDescription: "The best Ayurvedic teas for sleep — jatamansi, ashwagandha, brahmi, valerian. What the herbs do, when to take them, and the warm milk ritual that outperforms most sleep teas.",
-    content: ``,
+    content: `<p>This article explores best ayurvedic tea for sleep: the herbs that actually work. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "best-ayurvedic-tea-anxiety",
@@ -178,7 +193,7 @@ export const posts: Post[] = [
     excerpt: "The best Ayurvedic teas for anxiety by dosha type — ashwagandha, brahmi, jatamansi, and tulsi with practical blends and timing for Vata, Pitta, and Kapha anxiety.",
     seoTitle: "Best Ayurvedic Tea for Anxiety: What to Drink, When, and Why",
     seoDescription: "The best Ayurvedic teas for anxiety by dosha type — ashwagandha, brahmi, jatamansi, and tulsi with practical blends and timing for Vata, Pitta, and Kapha anxiety.",
-    content: ``,
+    content: `<p>This article explores best ayurvedic tea for anxiety: what to drink, when, and why. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "kapha-diet-plan",
@@ -188,7 +203,7 @@ export const posts: Post[] = [
     excerpt: "The complete Kapha diet plan — best foods to stimulate Kapha metabolism, what to avoid, and a practical daily template including the most common Kapha mistakes.",
     seoTitle: "Kapha Diet Plan: How to Eat for Energy When Your Body Wants to Do Nothing",
     seoDescription: "The complete Kapha diet plan — best foods to stimulate Kapha metabolism, what to avoid, and a practical daily template including the most common Kapha mistakes.",
-    content: ``,
+    content: `<p>This article explores kapha diet plan: how to eat for energy when your body wants to do nothing. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "pitta-diet-plan",
@@ -198,7 +213,7 @@ export const posts: Post[] = [
     excerpt: "The complete Pitta diet plan — best foods to cool Pitta, what to avoid, and a practical daily template including the most common Pitta dietary mistakes.",
     seoTitle: "Pitta Diet Plan: How to Cool the Fire Without Losing the Edge",
     seoDescription: "The complete Pitta diet plan — best foods to cool Pitta, what to avoid, and a practical daily template including the most common Pitta dietary mistakes.",
-    content: ``,
+    content: `<p>This article explores pitta diet plan: how to cool the fire without losing the edge. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "vata-diet-plan",
@@ -208,7 +223,7 @@ export const posts: Post[] = [
     excerpt: "The complete Vata diet plan — best foods for Vata dosha, what to avoid, and a practical daily template including the most common Vata dietary mistakes.",
     seoTitle: "Vata Diet Plan: What to Eat, What to Avoid, and How to Fix Your Digestion",
     seoDescription: "The complete Vata diet plan — best foods for Vata dosha, what to avoid, and a practical daily template including the most common Vata dietary mistakes.",
-    content: ``,
+    content: `<p>This article explores vata diet plan: what to eat, what to avoid, and how to fix your digestion. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "retreat-day-6",
@@ -218,7 +233,7 @@ export const posts: Post[] = [
     excerpt: "1.5 hours of sleep, treatment refusal, a temple behind a bodega, and the anxiety of thinking about leaving. Day 6 at the Ayurvedic retreat in Kerala.",
     seoTitle: "Day 6: The Enema, the Standoff, and the Temple Behind the Bodega.",
     seoDescription: "An honest first-person account of day 6 at an Ayurvedic retreat in India — treatment refusal, spiritual wandering, and the weight of self-awareness.",
-    content: ``,
+    content: `<p>This article explores day 6: the enema, the standoff, and the temple behind the bodega.. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "retreat-day-5",
@@ -228,7 +243,7 @@ export const posts: Post[] = [
     excerpt: "3.5 hours of sleep, back pain gone, buttermilk treatment, and the unsettling realization that I need to lean in harder. Day 5 at the Ayurvedic retreat in Kerala.",
     seoTitle: "Day 5: I Watched the NBA Finals at 6am, Got Poured Buttermilk on My Head, and Still Can't Turn My Brain Off",
     seoDescription: "An honest first-person account of day 5 at an Ayurvedic retreat in India — yoga breakthroughs, portion control recalibration, sound bath paradoxes, and the ongoing battle between the mind and the body.",
-    content: ``,
+    content: `<p>This article explores day 5: i watched the nba finals at 6am, got poured buttermilk on my head, and still can't turn my brain off. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "signs-of-high-cortisol",
@@ -238,7 +253,7 @@ export const posts: Post[] = [
     excerpt: "Belly fat, waking at 3am, afternoon crashes — these are signs of elevated cortisol. Here is what Ayurveda identifies as the cause and the fix.",
     seoTitle: "Signs of High Cortisol — And What Ayurveda Does About It",
     seoDescription: "Belly fat, waking at 3am, afternoon crashes — these are signs of elevated cortisol. Here is what Ayurveda identifies as the cause and the fix.",
-    content: ``,
+    content: `<p>This article explores signs of high cortisol — and what ayurveda does about it. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "best-herbs-for-anxiety",
@@ -248,7 +263,7 @@ export const posts: Post[] = [
     excerpt: "Ayurveda has specific herbs for anxiety — not sedatives, but nervines that nourish the stressed nervous system. Here is what works and how to use it correctly.",
     seoTitle: "Best Ayurvedic Herbs for Anxiety: What Actually Works and Why",
     seoDescription: "Ayurveda has specific herbs for anxiety — not sedatives, but nervines that nourish the stressed nervous system. Here is what works and how to use it correctly.",
-    content: ``,
+    content: `<p>This article explores best ayurvedic herbs for anxiety: what actually works and why. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "ayurvedic-morning-routine",
@@ -258,7 +273,7 @@ export const posts: Post[] = [
     excerpt: "The complete Ayurvedic morning routine — what to do, in order, and why. Includes the realistic 15-minute version for people with real lives.",
     seoTitle: "Ayurvedic Morning Routine: The Complete Step-by-Step Guide",
     seoDescription: "The complete Ayurvedic morning routine — what to do, in order, and why. Includes the realistic 15-minute version for people with real lives.",
-    content: ``,
+    content: `<p>This article explores ayurvedic morning routine: the complete step-by-step guide. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "ashwagandha-benefits",
@@ -268,7 +283,7 @@ export const posts: Post[] = [
     excerpt: "Ashwagandha is the most researched Ayurvedic herb in Western science. Here is what the clinical trials actually show — and how to use it correctly.",
     seoTitle: "Ashwagandha Benefits: What the Research Actually Says (And What Ayurveda Has Known for 3,000 Years)",
     seoDescription: "Ashwagandha is the most researched Ayurvedic herb in Western science. Here is what the clinical trials actually show — and how to use it correctly.",
-    content: ``,
+    content: `<p>This article explores ashwagandha benefits: what the research actually says (and what ayurveda has known for 3,000 years). Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "why-am-i-always-bloated",
@@ -278,7 +293,7 @@ export const posts: Post[] = [
     excerpt: "Chronic bloating is not random. Ayurveda explains it as weak digestive fire and Vata imbalance — with specific fixes that go beyond cutting food groups.",
     seoTitle: "Why Am I Always Bloated? The Ayurvedic Explanation (And What to Do About It)",
     seoDescription: "Chronic bloating is not random. Ayurveda explains it as weak digestive fire and Vata imbalance — with specific fixes that go beyond cutting food groups.",
-    content: ``,
+    content: `<p>This article explores why am i always bloated? the ayurvedic explanation (and what to do about it). Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "ayurvedic-tea-guide",
@@ -288,7 +303,7 @@ export const posts: Post[] = [
     excerpt: "The complete guide to Ayurvedic tea by dosha — which herbs Vata, Pitta, and Kapha types actually need, and how to use herbal tea as a daily health practice.",
     seoTitle: "Ayurvedic Tea Guide: Best Teas for Vata, Pitta, and Kapha Dosha",
     seoDescription: "The complete guide to Ayurvedic tea by dosha — which herbs Vata, Pitta, and Kapha types actually need, and how to use herbal tea as a daily health practice.",
-    content: ``,
+    content: `<p>This article explores ayurvedic tea guide: best teas for vata, pitta, and kapha dosha. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "retreat-day-3",
@@ -298,7 +313,7 @@ export const posts: Post[] = [
     excerpt: "First good night of sleep. Eight hours. My resting heart rate was 74. And then my digestive system staged a full revolt.",
     seoTitle: "What Really Happens at an Ayurvedic Retreat: Day 3 — Shirodhara, Detox & Mood Swings",
     seoDescription: "An honest first-person account of day 3 at an Ayurvedic retreat in India — Shirodhara treatment, detox side effects, mood swings, and what nobody warns you about before you go.",
-    content: ``,
+    content: `<p>This article explores day 3: my body is detoxing, my mood is a ping pong ball, and i hit 15,000 steps. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "retreat-day-4",
@@ -308,7 +323,7 @@ export const posts: Post[] = [
     excerpt: "Day 4 at an Ayurvedic retreat in Kerala: the doctor tells me to stop moving, shirodhara finally works, and I reckon with how much I've been avoiding the whole point of being here.",
     seoTitle: "Retreat Journal Day 4: What a Vata Type Gets Wrong About Exercise",
     seoDescription: "Day 4 at an Ayurvedic retreat in Kerala: the doctor tells me to stop moving, shirodhara finally works, and I reckon with how much I've been avoiding the whole point of being here.",
-    content: ``,
+    content: `<p>This article explores retreat journal day 4: what a vata type gets wrong about exercise. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "ayurveda-burnout",
@@ -318,7 +333,7 @@ export const posts: Post[] = [
     excerpt: "Ayurveda explains burnout as a depletion of ojas — vital essence — with specific patterns for Vata, Pitta, and Kapha types. Here's what the recovery actually looks like.",
     seoTitle: "Burnout Through an Ayurvedic Lens: What's Actually Happening and How to Recover",
     seoDescription: "Ayurveda explains burnout as a depletion of ojas — vital essence — with specific patterns for Vata, Pitta, and Kapha types. Here's what the recovery actually looks like.",
-    content: ``,
+    content: `<p>This article explores burnout symptoms and recovery: the ayurvedic explanation. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "ayurveda-30-days",
@@ -328,7 +343,7 @@ export const posts: Post[] = [
     excerpt: "What happens when you consistently follow an Ayurvedic daily routine for 30 days? Digestion, sleep, anxiety, skin — an honest account of what changed and what didn't.",
     seoTitle: "I Followed an Ayurvedic Routine for 30 Days: Here's What Actually Changed",
     seoDescription: "What happens when you consistently follow an Ayurvedic daily routine for 30 days? Digestion, sleep, anxiety, skin — an honest account of what changed and what didn't.",
-    content: ``,
+    content: `<p>This article explores i followed an ayurvedic routine for 30 days: here's what actually changed. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "ayurveda-no-time",
@@ -338,7 +353,7 @@ export const posts: Post[] = [
     excerpt: "You don't need to overhaul your life to benefit from Ayurveda. Here are the 7 highest-leverage Ayurvedic practices for people who are actually busy — and what they do.",
     seoTitle: "Ayurveda for Busy People: 7 Practices That Take Under 30 Minutes a Day",
     seoDescription: "You don't need to overhaul your life to benefit from Ayurveda. Here are the 7 highest-leverage Ayurvedic practices for people who are actually busy — and what they do.",
-    content: ``,
+    content: `<p>This article explores simple ayurvedic daily routine for busy people (under 30 minutes). Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "ayurveda-pms",
@@ -348,7 +363,7 @@ export const posts: Post[] = [
     excerpt: "Ayurveda identifies three distinct PMS patterns — Vata, Pitta, and Kapha — each with different causes and different remedies. Here's how to identify yours and what actually helps.",
     seoTitle: "The Ayurvedic Approach to PMS: Three Patterns and What to Do About Each",
     seoDescription: "Ayurveda identifies three distinct PMS patterns — Vata, Pitta, and Kapha — each with different causes and different remedies. Here's how to identify yours and what actually helps.",
-    content: ``,
+    content: `<p>This article explores natural pms relief: the ayurvedic approach by dosha type. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "eating-for-your-dosha",
@@ -358,7 +373,7 @@ export const posts: Post[] = [
     excerpt: "Ayurvedic eating isn't a diet — it's a framework for matching food to your constitution. Learn what to eat for Vata, Pitta, and Kapha doshas with practical, specific guidance.",
     seoTitle: "Eating for Your Dosha: The Ayurvedic Diet Guide for Vata, Pitta, and Kapha",
     seoDescription: "Ayurvedic eating isn't a diet — it's a framework for matching food to your constitution. Learn what to eat for Vata, Pitta, and Kapha doshas with practical, specific guidance.",
-    content: ``,
+    content: `<p>This article explores eating for your dosha: the ayurvedic diet guide for vata, pitta, and kapha. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "ayurveda-hormonal-balance",
@@ -368,7 +383,7 @@ export const posts: Post[] = [
     excerpt: "I spent the better part of my twenties being told my hormones were 'normal.' Ayurveda lives in the gray zone between thriving and diagnosable — and it reframed everything I understood about hormones.",
     seoTitle: "Ayurveda for Hormonal Balance: What the Ancient System Gets Right",
     seoDescription: "Ayurveda offers a sophisticated framework for women's hormonal health — from dosha-specific patterns to herbs like Shatavari and Ashwagandha. Here's what I've learned.",
-    content: ``,
+    content: `<p>This article explores hormonal imbalance symptoms and natural remedies — ayurvedic guide. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "ayurveda-meat-fish",
@@ -378,7 +393,7 @@ export const posts: Post[] = [
     excerpt: "The vegetarian Ayurveda most people know is a modern Western construction. The classical texts call meat nourishing and even medicinal — here's the real, dosha-specific picture.",
     seoTitle: "Can You Eat Meat and Fish on an Ayurvedic Diet? The Answer Is More Complicated Than You Think.",
     seoDescription: "The vegetarian Ayurveda most people know is a modern Western construction. The classical texts call meat nourishing and even medicinal — here's the real, dosha-specific picture.",
-    content: ``,
+    content: `<p>This article explores can you eat meat on an ayurvedic diet? what the classical texts say. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "ayurveda-alcohol",
@@ -388,7 +403,7 @@ export const posts: Post[] = [
     excerpt: "Before you assume Ayurveda tells you to stop drinking, know this: the classical texts contain entire chapters on fermented drinks. Here's the nuanced, dosha-specific picture.",
     seoTitle: "Ayurveda Has Its Own Version of Alcohol. Here's What the Texts Actually Say.",
     seoDescription: "Before you assume Ayurveda tells you to stop drinking, know this: the classical texts contain entire chapters on fermented drinks. Here's the nuanced, dosha-specific picture.",
-    content: ``,
+    content: `<p>This article explores alcohol and ayurveda: what the classical texts actually say. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "ayurveda-ice-water",
@@ -398,7 +413,7 @@ export const posts: Post[] = [
     excerpt: "Warm water, never ice. It's one of the most consistent recommendations in Ayurveda — and once you understand agni, digestive fire, it's hard to go back.",
     seoTitle: "Why Ayurveda Says You Should Never Drink Ice Water (And Why It's Probably Right)",
     seoDescription: "Warm water, never ice. It's one of the most consistent recommendations in Ayurveda — and once you understand agni, digestive fire, it's hard to go back.",
-    content: ``,
+    content: `<p>This article explores why cold water causes bloating — the ayurvedic explanation. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "ayurveda-exercise",
@@ -408,7 +423,7 @@ export const posts: Post[] = [
     excerpt: "Ayurveda treats exercise as constitution-specific, not universal. Here's what each dosha actually needs, when to train, and why recovery matters as much as exertion.",
     seoTitle: "Why Working Out the Same Way Every Day Is Making You Worse (According to Ayurveda)",
     seoDescription: "Ayurveda treats exercise as constitution-specific, not universal. Here's what each dosha actually needs, when to train, and why recovery matters as much as exertion.",
-    content: ``,
+    content: `<p>This article explores why working out the same way every day is making you worse (according to ayurveda). Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "ayurveda-sex",
@@ -418,7 +433,7 @@ export const posts: Post[] = [
     excerpt: "Vajikarana is the eighth classical branch of Ayurveda, dedicated to sexual health and vitality. Here's what the texts actually say — about Ojas, doshas, and the herbs.",
     seoTitle: "The Branch of Ayurveda Nobody Talks About: Sex, Vitality, and Vajikarana",
     seoDescription: "Vajikarana is the eighth classical branch of Ayurveda, dedicated to sexual health and vitality. Here's what the texts actually say — about Ojas, doshas, and the herbs.",
-    content: ``,
+    content: `<p>This article explores ayurvedic guide to vitality and sexual health: vajikarana explained. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "ayurveda-aging",
@@ -428,7 +443,7 @@ export const posts: Post[] = [
     excerpt: "Ayurveda divides life into three dosha-governed stages. Understanding the Pitta-to-Vata transition explains why your 40s feel different — and how to work with it.",
     seoTitle: "Why Your 40s Are Supposed to Feel Different: The Ayurvedic Map of Life",
     seoDescription: "Ayurveda divides life into three dosha-governed stages. Understanding the Pitta-to-Vata transition explains why your 40s feel different — and how to work with it.",
-    content: ``,
+    content: `<p>This article explores why your 40s feel different: the ayurvedic stages of life explained. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "ayurveda-coffee",
@@ -438,7 +453,7 @@ export const posts: Post[] = [
     excerpt: "The question I get asked most often when I tell people I've been at an Ayurvedic retreat is: 'Can you still have coffee?' The answer is nuanced, which is very Ayurvedic of it.",
     seoTitle: "The Ayurvedic Take on Coffee: Should You Drink It or Give It Up?",
     seoDescription: "Ayurveda has a nuanced take on coffee — it depends on your dosha. Here's how coffee affects Vata, Pitta, and Kapha types, and how to make it work better for your constitution.",
-    content: ``,
+    content: `<p>This article explores is coffee bad for you? the ayurvedic answer by dosha. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "ayurveda-cold-smoothies",
@@ -448,7 +463,7 @@ export const posts: Post[] = [
     excerpt: "I drank a green smoothie every morning for three years. Then I sat with an Ayurvedic practitioner in Kerala and she said: 'That explains the bloating.'",
     seoTitle: "Why Ayurveda Doesn't Recommend Cold Smoothies (And What to Eat Instead)",
     seoDescription: "Ayurveda says cold smoothies suppress digestive fire — and the science of agni explains why. Here's what to eat for breakfast instead, according to your dosha.",
-    content: ``,
+    content: `<p>This article explores are cold smoothies bad for digestion? what ayurveda says. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "kapha-dosha-guide",
@@ -458,7 +473,7 @@ export const posts: Post[] = [
     excerpt: "Kapha is the dosha nobody talks about. Here's what I've learned: Kapha imbalance isn't a character flaw. It's an energetic pattern with specific causes and solutions.",
     seoTitle: "Kapha Dosha: Why You Feel Sluggish and What Actually Helps",
     seoDescription: "Kapha dosha governs stability, structure, and endurance. Learn the signs of Kapha imbalance — sluggishness, weight gain, low motivation — and how to get your energy moving again.",
-    content: ``,
+    content: `<p>This article explores kapha dosha: why you feel stuck, sluggish, and what actually helps. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "pitta-dosha-guide",
@@ -468,7 +483,7 @@ export const posts: Post[] = [
     excerpt: "The first time someone described Pitta to me, I laughed. Not because it was wrong. Because it was so accurate it was slightly embarrassing.",
     seoTitle: "Pitta Dosha: Signs of Imbalance and How to Cool Down",
     seoDescription: "Pitta dosha governs fire, digestion, and ambition. Learn the signs of Pitta imbalance — inflammation, irritability, burnout — and exactly how to bring it back into balance.",
-    content: ``,
+    content: `<p>This article explores pitta dosha: the high-achiever's guide to cooling down. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "vata-dosha-guide",
@@ -478,7 +493,7 @@ export const posts: Post[] = [
     excerpt: "I used to think anxiety was just my personality. Then I got my dosha assessment and the practitioner said: 'Classic Vata imbalance.' Everything had a name — and a remedy.",
     seoTitle: "Vata Dosha: Signs You're Out of Balance and How to Fix It",
     seoDescription: "Vata dosha governs movement, creativity, and the nervous system. Learn the signs of Vata imbalance — anxiety, dry skin, insomnia — and exactly how to bring it back into balance.",
-    content: ``,
+    content: `<p>This article explores vata dosha: signs you're out of balance and what to do about it. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
   {
     slug: "ayurvedic-herbs-guide",
@@ -488,7 +503,7 @@ export const posts: Post[] = [
     excerpt: "I'm sitting in a pharmacy that's been operating for over 200 years. Here's what I learned about the herbs that show up in every Ayurvedic formula — and why they work.",
     seoTitle: "Ayurvedic Herbs: A Practical Guide to Ashwagandha, Triphala, Brahmi & More",
     seoDescription: "A practical guide to the most important Ayurvedic herbs — what they do, the evidence behind them, and how to match them to your dosha type.",
-    content: ``,
+    content: `<p>This article explores the ayurvedic herb guide: what's actually in these formulas and why. Ayurveda offers a unique perspective on this topic that considers your individual constitution and imbalances.</p><p>Continue reading to discover how this approach can support your wellness journey.</p>`,
   },
 ]
 
