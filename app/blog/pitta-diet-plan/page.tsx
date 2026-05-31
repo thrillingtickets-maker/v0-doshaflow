@@ -95,8 +95,8 @@ export default function PittaDietPlanPage() {
           </div>
         </article>
       </main>
-      <footer className="border-t border-[#e8d9c5] mt-24 py-12 bg-white">
-        <div className="max-w-5xl mx-auto px-6 text-center text-sm text-[#5c4a3a]">
+      <footer style={{ borderTop: "1px solid #e8d9c5", marginTop: "96px", paddingTop: "48px", paddingBottom: "48px", backgroundColor: "white" }}>
+        <div style={{ maxWidth: "80rem", marginLeft: "auto", marginRight: "auto", paddingLeft: "24px", paddingRight: "24px", textAlign: "center", fontSize: "14px", color: "#5c4a3a" }}>
           <p>© 2026 DoshaFlow. All rights reserved.</p>
         </div>
       </footer>
