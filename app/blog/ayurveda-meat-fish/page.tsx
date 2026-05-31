@@ -270,6 +270,5 @@ export default function AyurvedaMeatFishPage() {
           </div>
         </article>
       </main>
-    </div>
-  )
+    )
 }

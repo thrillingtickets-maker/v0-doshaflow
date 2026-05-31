@@ -188,6 +188,5 @@ export default function AyurvedaAlcoholPage() {
           </div>
         </article>
       </main>
-    </div>
-  )
+    )
 }

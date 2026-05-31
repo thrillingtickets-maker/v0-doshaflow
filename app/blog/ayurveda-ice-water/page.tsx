@@ -223,6 +223,5 @@ export default function AyurvedaIceWaterPage() {
           </div>
         </article>
       </main>
-    </div>
-  )
+    )
 }

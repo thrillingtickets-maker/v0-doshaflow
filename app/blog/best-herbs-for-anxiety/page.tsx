@@ -185,6 +185,5 @@ export default function BestHerbsForAnxietyPage() {
           </div>
         </article>
       </main>
-    </div>
-  )
+    )
 }

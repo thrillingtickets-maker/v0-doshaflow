@@ -211,6 +211,5 @@ export default function AyurvedaSexPage() {
           </div>
         </article>
       </main>
-    </div>
-  )
+    )
 }
