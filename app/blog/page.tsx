@@ -155,38 +155,40 @@ export default function BlogPage() {
         </div>
       </section>
       {/* Blog Posts Grid */}
-      <section>
-        <div>
-          <div>
+      <section className="py-16 bg-white">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="grid gap-6">
             {filteredPosts.map((post) => (
               <article
                 key={post.slug}
+                className="bg-white border border-[#d9cbbe] rounded-lg p-6 mb-4 hover:shadow-md transition-shadow duration-300"
               >
                 <div>
-                  <time>
+                  <time className="text-sm text-[#999999] font-normal">
                     {post.date}
                   </time>
-                  <h2>
-                    <Link href={`/blog/${post.slug}`}>
+                  <h2 className="text-xl font-bold text-[#2c1a0e] mt-2 mb-3">
+                    <Link href={`/blog/${post.slug}`} className="hover:text-[#C97F3D] transition-colors">
                       {post.title}
                     </Link>
                   </h2>
-                  <p>
+                  <p className="text-[#5c4a3a] font-normal mb-4 leading-relaxed">
                     {post.excerpt}
                   </p>
                   <Link
                     href={`/blog/${post.slug}`}
+                    className="inline-flex items-center gap-2 text-[#C97F3D] font-medium hover:text-[#a86a2f] transition-colors"
                   >
                     Read more
-                    <ArrowRight />
+                    <ArrowRight size={16} />
                   </Link>
                 </div>
               </article>
             ))}
           </div>
           {filteredPosts.length === 0 && (
-            <div>
-              <p>
+            <div className="text-center py-12">
+              <p className="text-[#5c4a3a] text-lg">
                 No posts found in this category. Try another filter.
               </p>
             </div>
