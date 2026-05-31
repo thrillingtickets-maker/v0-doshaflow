@@ -15,8 +15,7 @@ export const metadata = {
 }
 export default function KaphaDoshaGuidePage() {
   return (
-    <div>
-      {/* Header */}
+    <>
       <header>
         <div>
           <Link href="/">
@@ -140,5 +139,6 @@ export default function KaphaDoshaGuidePage() {
           © 2026 DoshaFlow. All rights reserved.
         </div>
       </footer>
-    )
-  }
+    </>
+  )
+}
