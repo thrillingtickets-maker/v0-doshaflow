@@ -34,9 +34,9 @@ export default function Home() {
       <Hero />
       
       {/* (2) Emotional positioning — Ayurveda for modern overstimulated people */}
-      <section className="px-6 py-12 md:py-16 text-center bg-background">
+      <section className="px-6 py-16 md:py-20 text-center bg-background">
         <div className="max-w-3xl mx-auto">
-          <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-6">
+          <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-4">
             You're probably exhausted. Not lazy. Not weak. Exhausted.
           </p>
           <p className="text-lg md:text-xl text-foreground leading-relaxed font-medium">
