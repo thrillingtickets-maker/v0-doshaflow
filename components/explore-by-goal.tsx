@@ -4,11 +4,11 @@ import { motion } from "framer-motion"
 import Link from "next/link"
 
 const goalCards = [
-  { goal: "I can't sleep", href: "/blog/best-ayurvedic-tea-sleep" },
-  { goal: "I'm always anxious", href: "/blog/best-herbs-for-anxiety" },
-  { goal: "I'm always bloated", href: "/blog/why-am-i-always-bloated" },
-  { goal: "I can't lose weight", href: "/blog/ayurvedic-weight-loss" },
-  { goal: "I'm burned out", href: "/blog/nervous-system-burnout" },
+  { goal: "I can&apos;t sleep", href: "/blog/best-ayurvedic-tea-sleep" },
+  { goal: "I&apos;m always anxious", href: "/blog/best-herbs-for-anxiety" },
+  { goal: "I&apos;m always bloated", href: "/blog/why-am-i-always-bloated" },
+  { goal: "I can&apos;t lose weight", href: "/blog/ayurvedic-weight-loss" },
+  { goal: "I&apos;m burned out", href: "/blog/nervous-system-burnout" },
   { goal: "I have no energy", href: "/blog/why-am-i-always-tired" },
   { goal: "Digestion problems", href: "/blog/best-ayurvedic-tea-digestion" },
 ]

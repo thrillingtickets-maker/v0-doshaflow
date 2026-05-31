@@ -35,7 +35,7 @@ export default function AyurvedicSkinGuidePage() {
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              Ayurveda has a saying that the skin is the mirror of the gut. Before dermatology named the gut-skin axis and started publishing research on it, Ayurvedic practitioners had been treating skin conditions by treating the digestive system for thousands of years. The logic is direct: the skin is the body's largest elimination organ, and what cannot be processed internally expresses externally. Instead of asking what to put on the skin, the Ayurvedic question is: what is the skin trying to eliminate that the body cannot process through its normal channels?
+              Ayurveda has a saying that the skin is the mirror of the gut. Before dermatology named the gut-skin axis and started publishing research on it, Ayurvedic practitioners had been treating skin conditions by treating the digestive system for thousands of years. The logic is direct: the skin is the body&apos;s largest elimination organ, and what cannot be processed internally expresses externally. Instead of asking what to put on the skin, the Ayurvedic question is: what is the skin trying to eliminate that the body cannot process through its normal channels?
             </p>
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
@@ -67,7 +67,7 @@ export default function AyurvedicSkinGuidePage() {
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              Manjistha is the primary blood and lymph purifying herb in Ayurveda and the most specific herb for skin conditions. It clears ama from the blood and lymph, reduces inflammation, and is used for acne, hyperpigmentation, eczema, and skin dullness. Neem is bitter, cooling, and deeply antimicrobial. Used internally for Pitta-driven inflammatory skin conditions — acne, rosacea, eczema — and externally as an oil or paste. It is the primary Pitta skin herb. Turmeric is anti-inflammatory, antioxidant, and liver-supportive — it works by reducing systemic inflammation and supporting the liver's ability to process hormones and toxins. Used internally with black pepper to increase absorption. Shatavari is the primary herb for hormonally-driven skin conditions in women — the jawline acne of the luteal phase, the flushing of PMS. It addresses these by supporting estrogen metabolism and cooling the Pitta excess that drives them. Triphala works on skin through the gut — by improving elimination, reducing ama, and supporting liver function it addresses the upstream causes of most skin conditions. The skin improvement after 4-6 weeks of consistent Triphala is the gut-skin axis working in the direction it is supposed to.
+              Manjistha is the primary blood and lymph purifying herb in Ayurveda and the most specific herb for skin conditions. It clears ama from the blood and lymph, reduces inflammation, and is used for acne, hyperpigmentation, eczema, and skin dullness. Neem is bitter, cooling, and deeply antimicrobial. Used internally for Pitta-driven inflammatory skin conditions — acne, rosacea, eczema — and externally as an oil or paste. It is the primary Pitta skin herb. Turmeric is anti-inflammatory, antioxidant, and liver-supportive — it works by reducing systemic inflammation and supporting the liver&apos;s ability to process hormones and toxins. Used internally with black pepper to increase absorption. Shatavari is the primary herb for hormonally-driven skin conditions in women — the jawline acne of the luteal phase, the flushing of PMS. It addresses these by supporting estrogen metabolism and cooling the Pitta excess that drives them. Triphala works on skin through the gut — by improving elimination, reducing ama, and supporting liver function it addresses the upstream causes of most skin conditions. The skin improvement after 4-6 weeks of consistent Triphala is the gut-skin axis working in the direction it is supposed to.
             </p>
 
             <img src="https://source.unsplash.com/featured/800x450/?turmeric,neem,herbs,ayurvedic,powder" style={{width:"100%", borderRadius:"8px", margin:"32px 0"}}} alt="Ayurvedic herbs for skin" />
@@ -79,7 +79,7 @@ export default function AyurvedicSkinGuidePage() {
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              Reduce alcohol — alcohol is processed by the liver which also processes estrogen. Regular alcohol consumption impairs the liver's ability to clear these compounds and the overflow expresses on the skin. For people with inflammatory skin conditions, reducing alcohol is consistently the most impactful single dietary change. Reduce sugar and refined carbohydrates — these drive blood sugar spikes that trigger insulin and IGF-1, hormones that directly stimulate sebum production and the inflammatory cascade that produces acne. Increase bitter greens — kale, arugula, dandelion greens are directly liver-supportive. Increase warm fat — ghee, avocado, sesame oil, coconut oil provide the building blocks for skin cell membranes and the hormones that regulate skin health. Avoid incompatible combinations — the most skin-relevant: fish with dairy, fruit with dairy, and eating fruit immediately after a heavy meal.
+              Reduce alcohol — alcohol is processed by the liver which also processes estrogen. Regular alcohol consumption impairs the liver&apos;s ability to clear these compounds and the overflow expresses on the skin. For people with inflammatory skin conditions, reducing alcohol is consistently the most impactful single dietary change. Reduce sugar and refined carbohydrates — these drive blood sugar spikes that trigger insulin and IGF-1, hormones that directly stimulate sebum production and the inflammatory cascade that produces acne. Increase bitter greens — kale, arugula, dandelion greens are directly liver-supportive. Increase warm fat — ghee, avocado, sesame oil, coconut oil provide the building blocks for skin cell membranes and the hormones that regulate skin health. Avoid incompatible combinations — the most skin-relevant: fish with dairy, fruit with dairy, and eating fruit immediately after a heavy meal.
             </p>
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
@@ -115,7 +115,7 @@ export default function AyurvedicSkinGuidePage() {
               borderLeft: "4px solid #c49a6c"
             }}>
               <p style={{ marginBottom: "16px", lineHeight: 1.75, fontWeight: 500 }}>
-                Your skin type is determined by your dosha. Understanding this changes everything about what works and what doesn't.
+                Your skin type is determined by your dosha. Understanding this changes everything about what works and what doesn&apos;t.
               </p>
               <Link href="/quiz" className="inline-block bg-[#2c1a0e] text-white px-6 py-2 rounded-full hover:bg-[#3d2b1f] text-sm font-medium">
                 Take the Free Dosha Quiz

@@ -1,11 +1,11 @@
 import Link from "next/link"
 
 export const metadata = {
-  title: "Burnout Through an Ayurvedic Lens: What's Actually Happening and How to Recover",
-  description: "Ayurveda explains burnout as a depletion of ojas — vital essence — with specific patterns for Vata, Pitta, and Kapha types. Here's what the recovery actually looks like.",
+  title: "Burnout Through an Ayurvedic Lens: What&apos;s Actually Happening and How to Recover",
+  description: "Ayurveda explains burnout as a depletion of ojas — vital essence — with specific patterns for Vata, Pitta, and Kapha types. Here&apos;s what the recovery actually looks like.",
   openGraph: {
-    title: "Burnout Through an Ayurvedic Lens: What's Actually Happening and How to Recover",
-    description: "Ayurveda explains burnout as a depletion of ojas — vital essence — with specific patterns for Vata, Pitta, and Kapha types. Here's what the recovery actually looks like.",
+    title: "Burnout Through an Ayurvedic Lens: What&apos;s Actually Happening and How to Recover",
+    description: "Ayurveda explains burnout as a depletion of ojas — vital essence — with specific patterns for Vata, Pitta, and Kapha types. Here&apos;s what the recovery actually looks like.",
     url: "https://www.doshaflow.com/blog/ayurveda-burnout",
     siteName: "DoshaFlow",
     type: "article",

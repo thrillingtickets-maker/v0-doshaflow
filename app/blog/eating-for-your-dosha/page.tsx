@@ -2,10 +2,10 @@ import Link from "next/link"
 
 export const metadata = {
   title: "Eating for Your Dosha: The Ayurvedic Diet Guide for Vata, Pitta, and Kapha",
-  description: "Ayurvedic eating isn't a diet — it's a framework for matching food to your constitution. Learn what to eat for Vata, Pitta, and Kapha doshas with practical, specific guidance.",
+  description: "Ayurvedic eating isn&apos;t a diet — it&apos;s a framework for matching food to your constitution. Learn what to eat for Vata, Pitta, and Kapha doshas with practical, specific guidance.",
   openGraph: {
     title: "Eating for Your Dosha: The Ayurvedic Diet Guide for Vata, Pitta, and Kapha",
-    description: "Ayurvedic eating isn't a diet — it's a framework for matching food to your constitution. Learn what to eat for Vata, Pitta, and Kapha doshas with practical, specific guidance.",
+    description: "Ayurvedic eating isn&apos;t a diet — it&apos;s a framework for matching food to your constitution. Learn what to eat for Vata, Pitta, and Kapha doshas with practical, specific guidance.",
     url: "https://www.doshaflow.com/blog/eating-for-your-dosha",
     siteName: "DoshaFlow",
     type: "article",

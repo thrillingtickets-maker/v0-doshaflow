@@ -2,10 +2,10 @@ import Link from "next/link"
 
 export const metadata = {
   title: "Ayurveda for Hormonal Balance: What the Ancient System Gets Right",
-  description: "Ayurveda offers a sophisticated framework for women's hormonal health — from dosha-specific patterns to herbs like Shatavari and Ashwagandha. Here's what I've learned.",
+  description: "Ayurveda offers a sophisticated framework for women&apos;s hormonal health — from dosha-specific patterns to herbs like Shatavari and Ashwagandha. Here&apos;s what I&apos;ve learned.",
   openGraph: {
     title: "Ayurveda for Hormonal Balance: What the Ancient System Gets Right",
-    description: "Ayurveda offers a sophisticated framework for women's hormonal health — from dosha-specific patterns to herbs like Shatavari and Ashwagandha. Here's what I've learned.",
+    description: "Ayurveda offers a sophisticated framework for women&apos;s hormonal health — from dosha-specific patterns to herbs like Shatavari and Ashwagandha. Here&apos;s what I&apos;ve learned.",
     url: "https://www.doshaflow.com/blog/ayurveda-hormonal-balance",
     siteName: "DoshaFlow",
     type: "article",

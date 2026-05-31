@@ -91,7 +91,7 @@ export default function BestAyurvedicTeaSleepPage() {
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              Screens before bed — the mental activation they produce. Eating late — a heavy meal within two hours of bed forces the digestive system to remain active. Coffee after 2pm. Alcohol — the first effect is sedating, the second produces lighter sleep and more frequent waking. Irregular sleep schedule — Vata's nervous system responds to rhythm more than anything else.
+              Screens before bed — the mental activation they produce. Eating late — a heavy meal within two hours of bed forces the digestive system to remain active. Coffee after 2pm. Alcohol — the first effect is sedating, the second produces lighter sleep and more frequent waking. Irregular sleep schedule — Vata&apos;s nervous system responds to rhythm more than anything else.
             </p>
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />

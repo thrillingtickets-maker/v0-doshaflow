@@ -1,11 +1,11 @@
 import Link from "next/link"
 
 export const metadata = {
-  title: "Why Ayurveda Doesn't Recommend Cold Smoothies (And What to Eat Instead)",
-  description: "Ayurveda says cold smoothies suppress digestive fire — and the science of agni explains why. Here's what to eat for breakfast instead, according to your dosha.",
+  title: "Why Ayurveda Doesn&apos;t Recommend Cold Smoothies (And What to Eat Instead)",
+  description: "Ayurveda says cold smoothies suppress digestive fire — and the science of agni explains why. Here&apos;s what to eat for breakfast instead, according to your dosha.",
   openGraph: {
-    title: "Why Ayurveda Doesn't Recommend Cold Smoothies (And What to Eat Instead)",
-    description: "Ayurveda says cold smoothies suppress digestive fire — and the science of agni explains why. Here's what to eat for breakfast instead, according to your dosha.",
+    title: "Why Ayurveda Doesn&apos;t Recommend Cold Smoothies (And What to Eat Instead)",
+    description: "Ayurveda says cold smoothies suppress digestive fire — and the science of agni explains why. Here&apos;s what to eat for breakfast instead, according to your dosha.",
     url: "https://www.doshaflow.com/blog/ayurveda-cold-smoothies",
     siteName: "DoshaFlow",
     type: "article",

@@ -1,10 +1,10 @@
 import Link from "next/link"
 
 export const metadata = {
-  title: "Best Tea for Bloating: The Ayurvedic Approach to a Digestive System That Won't Quit",
+  title: "Best Tea for Bloating: The Ayurvedic Approach to a Digestive System That Won&apos;t Quit",
   description: "The best teas for bloating depend on the type — CCF tea for Vata gas, fennel for Pitta inflammation, trikatu for Kapha heaviness. The Ayurvedic guide to fixing bloating for good.",
   openGraph: {
-    title: "Best Tea for Bloating: The Ayurvedic Approach to a Digestive System That Won't Quit",
+    title: "Best Tea for Bloating: The Ayurvedic Approach to a Digestive System That Won&apos;t Quit",
     description: "The best teas for bloating depend on the type — CCF tea for Vata gas, fennel for Pitta inflammation, trikatu for Kapha heaviness. The Ayurvedic guide to fixing bloating for good.",
     url: "https://www.doshaflow.com/blog/best-tea-for-bloating",
     siteName: "DoshaFlow",
@@ -22,7 +22,7 @@ export default function BestTeaForBloatingPage() {
           <header className="mb-12">
             <time className="text-sm text-muted-foreground">June 16, 2026</time>
             <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4 leading-tight">
-              Best Tea for Bloating: The Ayurvedic Approach to a Digestive System That Won't Quit
+              Best Tea for Bloating: The Ayurvedic Approach to a Digestive System That Won&apos;t Quit
             </h1>
             <p className="text-muted-foreground">
               By <span className="text-foreground font-medium">Alex</span> · DoshaFlow

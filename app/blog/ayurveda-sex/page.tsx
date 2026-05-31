@@ -3,11 +3,11 @@ import Link from "next/link"
 export const metadata = {
   title: "The Branch of Ayurveda Nobody Talks About: Sex, Vitality, and Vajikarana",
   description:
-    "Vajikarana is the eighth classical branch of Ayurveda, dedicated to sexual health and vitality. Here's what the texts actually say — about Ojas, doshas, and the herbs.",
+    "Vajikarana is the eighth classical branch of Ayurveda, dedicated to sexual health and vitality. Here&apos;s what the texts actually say — about Ojas, doshas, and the herbs.",
   openGraph: {
     title: "The Branch of Ayurveda Nobody Talks About: Sex, Vitality, and Vajikarana",
     description:
-      "Vajikarana is the eighth classical branch of Ayurveda, dedicated to sexual health and vitality. Here's what the texts actually say — about Ojas, doshas, and the herbs.",
+      "Vajikarana is the eighth classical branch of Ayurveda, dedicated to sexual health and vitality. Here&apos;s what the texts actually say — about Ojas, doshas, and the herbs.",
     url: "https://www.doshaflow.com/blog/ayurveda-sex",
     siteName: "DoshaFlow",
     type: "article",

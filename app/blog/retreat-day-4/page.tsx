@@ -2,10 +2,10 @@ import Link from "next/link"
 
 export const metadata = {
   title: "Retreat Journal Day 4: What a Vata Type Gets Wrong About Exercise",
-  description: "Day 4 at an Ayurvedic retreat in Kerala: the doctor tells me to stop moving, shirodhara finally works, and I reckon with how much I've been avoiding the whole point of being here.",
+  description: "Day 4 at an Ayurvedic retreat in Kerala: the doctor tells me to stop moving, shirodhara finally works, and I reckon with how much I&apos;ve been avoiding the whole point of being here.",
   openGraph: {
     title: "Retreat Journal Day 4: What a Vata Type Gets Wrong About Exercise",
-    description: "Day 4 at an Ayurvedic retreat in Kerala: the doctor tells me to stop moving, shirodhara finally works, and I reckon with how much I've been avoiding the whole point of being here.",
+    description: "Day 4 at an Ayurvedic retreat in Kerala: the doctor tells me to stop moving, shirodhara finally works, and I reckon with how much I&apos;ve been avoiding the whole point of being here.",
     url: "https://www.doshaflow.com/blog/retreat-day-4",
     siteName: "DoshaFlow",
     type: "article",

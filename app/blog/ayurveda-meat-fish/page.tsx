@@ -3,11 +3,11 @@ import Link from "next/link"
 export const metadata = {
   title: "Can You Eat Meat and Fish on an Ayurvedic Diet? The Answer Is More Complicated Than You Think.",
   description:
-    "The vegetarian Ayurveda most people know is a modern Western construction. The classical texts call meat nourishing and even medicinal — here's the real, dosha-specific picture.",
+    "The vegetarian Ayurveda most people know is a modern Western construction. The classical texts call meat nourishing and even medicinal — here&apos;s the real, dosha-specific picture.",
   openGraph: {
     title: "Can You Eat Meat and Fish on an Ayurvedic Diet? The Answer Is More Complicated Than You Think.",
     description:
-      "The vegetarian Ayurveda most people know is a modern Western construction. The classical texts call meat nourishing and even medicinal — here's the real, dosha-specific picture.",
+      "The vegetarian Ayurveda most people know is a modern Western construction. The classical texts call meat nourishing and even medicinal — here&apos;s the real, dosha-specific picture.",
     url: "https://www.doshaflow.com/blog/ayurveda-meat-fish",
     siteName: "DoshaFlow",
     type: "article",

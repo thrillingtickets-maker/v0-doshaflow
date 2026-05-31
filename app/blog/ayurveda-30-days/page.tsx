@@ -1,11 +1,11 @@
 import Link from "next/link"
 
 export const metadata = {
-  title: "I Followed an Ayurvedic Routine for 30 Days: Here's What Actually Changed",
-  description: "What happens when you consistently follow an Ayurvedic daily routine for 30 days? Digestion, sleep, anxiety, skin — an honest account of what changed and what didn't.",
+  title: "I Followed an Ayurvedic Routine for 30 Days: Here&apos;s What Actually Changed",
+  description: "What happens when you consistently follow an Ayurvedic daily routine for 30 days? Digestion, sleep, anxiety, skin — an honest account of what changed and what didn&apos;t.",
   openGraph: {
-    title: "I Followed an Ayurvedic Routine for 30 Days: Here's What Actually Changed",
-    description: "What happens when you consistently follow an Ayurvedic daily routine for 30 days? Digestion, sleep, anxiety, skin — an honest account of what changed and what didn't.",
+    title: "I Followed an Ayurvedic Routine for 30 Days: Here&apos;s What Actually Changed",
+    description: "What happens when you consistently follow an Ayurvedic daily routine for 30 days? Digestion, sleep, anxiety, skin — an honest account of what changed and what didn&apos;t.",
     url: "https://www.doshaflow.com/blog/ayurveda-30-days",
     siteName: "DoshaFlow",
     type: "article",
@@ -26,7 +26,7 @@ export default function Ayurveda30DaysPage() {
         <header style={{ marginBottom: "48px" }}>
           <time style={{ fontSize: "14px", color: "#9a7a5a" }}>May 28, 2026</time>
           <h1 style={{ fontSize: "36px", fontWeight: 700, color: "#2c1a0e", marginTop: "12px", marginBottom: "16px", lineHeight: 1.2 }}>
-            I Followed an Ayurvedic Routine for 30 Days: Here's What Actually Changed
+            I Followed an Ayurvedic Routine for 30 Days: Here&apos;s What Actually Changed
           </h1>
           <p style={{ color: "#9a7a5a" }}>By <span style={{ color: "#2c1a0e", fontWeight: 500 }}>Alex</span> · DoshaFlow</p>
         </header>

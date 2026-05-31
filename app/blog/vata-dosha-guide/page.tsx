@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Vata Dosha: Signs You're Out of Balance and How to Fix It",
+  title: "Vata Dosha: Signs You&apos;re Out of Balance and How to Fix It",
   description: "Vata dosha governs movement, creativity, and the nervous system. Learn the signs of Vata imbalance — anxiety, dry skin, insomnia — and exactly how to bring it back into balance.",
   openGraph: {
     title: "Vata Dosha: Signs You&apos;re Out of Balance and How to Fix It",

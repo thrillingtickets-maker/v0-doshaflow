@@ -1,13 +1,13 @@
 import Link from "next/link"
 
 export const metadata = {
-  title: "Ayurveda Has Its Own Version of Alcohol. Here's What the Texts Actually Say.",
+  title: "Ayurveda Has Its Own Version of Alcohol. Here&apos;s What the Texts Actually Say.",
   description:
-    "Before you assume Ayurveda tells you to stop drinking, know this: the classical texts contain entire chapters on fermented drinks. Here's the nuanced, dosha-specific picture.",
+    "Before you assume Ayurveda tells you to stop drinking, know this: the classical texts contain entire chapters on fermented drinks. Here&apos;s the nuanced, dosha-specific picture.",
   openGraph: {
-    title: "Ayurveda Has Its Own Version of Alcohol. Here's What the Texts Actually Say.",
+    title: "Ayurveda Has Its Own Version of Alcohol. Here&apos;s What the Texts Actually Say.",
     description:
-      "Before you assume Ayurveda tells you to stop drinking, know this: the classical texts contain entire chapters on fermented drinks. Here's the nuanced, dosha-specific picture.",
+      "Before you assume Ayurveda tells you to stop drinking, know this: the classical texts contain entire chapters on fermented drinks. Here&apos;s the nuanced, dosha-specific picture.",
     url: "https://www.doshaflow.com/blog/ayurveda-alcohol",
     siteName: "DoshaFlow",
     type: "article",

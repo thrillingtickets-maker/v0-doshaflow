@@ -33,7 +33,7 @@ export default function BestTeaForVataPage() {
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              If you are Vata — or currently running in a Vata-elevated state, which describes most people navigating modern life — you are probably familiar with the pattern: too much in your head, not enough in your body. Racing thoughts, irregular digestion, cold extremities, difficulty settling, the 3am wake-up that will not stop. Vata's qualities are cold, dry, light, mobile, and irregular. The teas that help are the opposite: warming, moistening, grounding, and taken consistently at the same time every day.
+              If you are Vata — or currently running in a Vata-elevated state, which describes most people navigating modern life — you are probably familiar with the pattern: too much in your head, not enough in your body. Racing thoughts, irregular digestion, cold extremities, difficulty settling, the 3am wake-up that will not stop. Vata&apos;s qualities are cold, dry, light, mobile, and irregular. The teas that help are the opposite: warming, moistening, grounding, and taken consistently at the same time every day.
             </p>
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
@@ -51,7 +51,7 @@ export default function BestTeaForVataPage() {
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              Ashwagandha is the cornerstone Vata herb — deeply nourishing to the nervous system, builds ojas, and directly addresses the depletion and anxiety of Vata excess. Give it 6-8 weeks of consistent use. Ginger is the most universally appropriate Vata spice — warming, digestive, and anti-inflammatory, directly addressing Vata's cold quality and weak digestive fire. Cardamom is warming, aromatic, and mildly nervine — settling to both the digestive system and the mind. Cinnamon is warming and blood-sugar stabilising — relevant because blood sugar irregularity from erratic eating directly contributes to Vata anxiety and energy crashes. Licorice root is sweet (the taste Vata most needs), moistening, and adrenal-supportive. Jatamansi specifically for Vata insomnia — the racing mind at bedtime and the 3am wake-up.
+              Ashwagandha is the cornerstone Vata herb — deeply nourishing to the nervous system, builds ojas, and directly addresses the depletion and anxiety of Vata excess. Give it 6-8 weeks of consistent use. Ginger is the most universally appropriate Vata spice — warming, digestive, and anti-inflammatory, directly addressing Vata&apos;s cold quality and weak digestive fire. Cardamom is warming, aromatic, and mildly nervine — settling to both the digestive system and the mind. Cinnamon is warming and blood-sugar stabilising — relevant because blood sugar irregularity from erratic eating directly contributes to Vata anxiety and energy crashes. Licorice root is sweet (the taste Vata most needs), moistening, and adrenal-supportive. Jatamansi specifically for Vata insomnia — the racing mind at bedtime and the 3am wake-up.
             </p>
 
             <h2 style={{ fontSize: "24px", fontWeight: 700, marginTop: "48px", marginBottom: "16px", color: "#2c1a0e" }}>
@@ -91,7 +91,7 @@ export default function BestTeaForVataPage() {
             </h2>
 
             <p style={{ marginBottom: "20px", lineHeight: 1.75 }}>
-              Coffee on an empty stomach — the most consistently Vata-aggravating daily habit. It stimulates the nervous system without grounding it, spikes cortisol, and creates the alert-anxious state that is already Vata's default. One cup after food, with cardamom, is much less aggravating. Cold tea — always drink warm. Green tea and caffeinated teas in excess increase the mobile, active quality of Vata.
+              Coffee on an empty stomach — the most consistently Vata-aggravating daily habit. It stimulates the nervous system without grounding it, spikes cortisol, and creates the alert-anxious state that is already Vata&apos;s default. One cup after food, with cardamom, is much less aggravating. Cold tea — always drink warm. Green tea and caffeinated teas in excess increase the mobile, active quality of Vata.
             </p>
 
             <hr style={{ margin: "40px 0", borderColor: "#e8d9c5" }} />
