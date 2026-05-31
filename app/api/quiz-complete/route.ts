@@ -1,8 +1,6 @@
 import { Resend } from "resend"
 import { NextResponse } from "next/server"
 
-const resend = new Resend(process.env.RESEND_API_KEY)
-
 export async function POST(request: Request) {
   // Check if RESEND_API_KEY is configured
   if (!process.env.RESEND_API_KEY) {
@@ -10,8 +8,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ success: false, error: 'Email service not configured' }, { status: 200 })
   }
 
-  console.log("[v0] /api/quiz-complete POST hit")
-  console.log("[v0] RESEND_API_KEY present:", Boolean(process.env.RESEND_API_KEY))
+  const resend = new Resend(process.env.RESEND_API_KEY)
 
   const body = await request.json().catch(() => ({}))
   const { result, email, timestamp } = body as {

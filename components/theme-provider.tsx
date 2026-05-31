@@ -1,10 +1,10 @@
-&apos;use client&apos;
+'use client'
 
-import * as React from &apos;react&apos;
+import * as React from 'react'
 import {
   ThemeProvider as NextThemesProvider,
   type ThemeProviderProps,
-} from &apos;next-themes&apos;
+} from 'next-themes'
 
 export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
   return <NextThemesProvider {...props}>{children}</NextThemesProvider>
