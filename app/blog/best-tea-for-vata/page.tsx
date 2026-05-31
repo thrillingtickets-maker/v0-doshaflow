@@ -114,6 +114,5 @@ export default function BestTeaForVataPage() {
           </div>
         </article>
       </main>
-    </div>
-  )
-}
+    )
+  }
