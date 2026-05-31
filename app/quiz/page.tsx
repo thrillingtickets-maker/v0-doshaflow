@@ -514,21 +514,21 @@ export default function QuizPage() {
       <div className="quiz-page" style={showResult ? { backgroundColor: 'transparent' } : undefined}>
         <div className="quiz-container">
           {showIntro ? (
-            <div style={{ minHeight: '100vh', width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px', paddingTop: '40px', backgroundColor: '#1a3328' }}>
-              <div style={{ textAlign: 'center', marginBottom: '24px' }}>
-                <span style={{ fontWeight: 'bold', fontSize: '24px', color: '#ffffff' }}>DoshaFlow</span>
+            <div style={{ minHeight: "100vh", width: "100%", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "24px", paddingTop: "40px", backgroundColor: "#1a3328" }}>
+              <div style={{ textAlign: "center", marginBottom: "24px" }}>
+                <span style={{ fontWeight: "bold", fontSize: "24px", color: "#ffffff" }}>DoshaFlow</span>
               </div>
               <div style={{
-                backgroundColor: '#ffffff',
-                borderRadius: '20px',
-                padding: '40px',
-                boxShadow: '0 4px 24px rgba(0,0,0,0.15)',
-                maxWidth: '780px',
-                width: '100%',
-                margin: '0 auto',
-                textAlign: 'center'
+                backgroundColor: "#ffffff",
+                borderRadius: "20px",
+                padding: "40px",
+                boxShadow: "0 4px 24px rgba(0,0,0,0.15)",
+                maxWidth: "780px",
+                width: "100%",
+                margin: "0 auto",
+                textAlign: "center"
               }}>
-                <div className="dosha-icons" style={{ display: 'flex', justifyContent: 'center', gap: '32px' }}>
+                <div className="dosha-icons" style={{ display: "flex", justifyContent: "center", gap: "32px" }}>
                   <div className="dosha-icon">
                     <div className="dosha-icon-symbol vata">
                       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -561,26 +561,26 @@ export default function QuizPage() {
                 <button className="start-btn" onClick={() => setShowIntro(false)}>
                   Start the Quiz →
                 </button>
-                <div style={{ fontSize: '0.8rem', color: '#a89880', marginTop: '1rem', letterSpacing: '0.05em' }}>
+                <div style={{ fontSize: "0.8rem", color: "#a89880", marginTop: "1rem", letterSpacing: "0.05em" }}>
                   25 questions  ·  Personalized report  ·  Meal plan  ·  Movement plan  ·  Herbal recommendations
                 </div>
               </div>
             </div>
           ) : !showResult ? (
-            <div style={{ minHeight: '100vh', width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px', paddingTop: '40px', backgroundColor: '#1a3328' }}>
-              <div style={{ textAlign: 'center', marginBottom: '24px' }}>
-                <span style={{ fontWeight: 'bold', fontSize: '24px', color: '#ffffff' }}>DoshaFlow</span>
+            <div style={{ minHeight: "100vh", width: "100%", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "24px", paddingTop: "40px", backgroundColor: "#1a3328" }}>
+              <div style={{ textAlign: "center", marginBottom: "24px" }}>
+                <span style={{ fontWeight: "bold", fontSize: "24px", color: "#ffffff" }}>DoshaFlow</span>
               </div>
               <div style={{
-                backgroundColor: '#ffffff',
-                borderRadius: '20px',
-                padding: '40px',
-                boxShadow: '0 4px 24px rgba(0,0,0,0.15)',
-                maxWidth: '780px',
-                width: '100%',
-                margin: '0 auto'
+                backgroundColor: "#ffffff",
+                borderRadius: "20px",
+                padding: "40px",
+                boxShadow: "0 4px 24px rgba(0,0,0,0.15)",
+                maxWidth: "780px",
+                width: "100%",
+                margin: "0 auto"
               }}>
-                <div style={{ backgroundColor: '#e8d9c5', color: '#7a5c3a', fontWeight: 600, padding: '4px 12px', borderRadius: '999px', fontSize: '11px', letterSpacing: '0.08em', textTransform: 'uppercase', display: 'inline-block', marginBottom: '1.5rem' }}>Dosha Quiz</div>
+                <div style={{ backgroundColor: "#e8d9c5", color: "#7a5c3a", fontWeight: 600, padding: "4px 12px", borderRadius: "999px", fontSize: "11px", letterSpacing: "0.08em", textTransform: "uppercase", display: "inline-block", marginBottom: "1.5rem" }}>Dosha Quiz</div>
 
                 <div className="progress-bar-wrap">
                   <div className="progress-bar-fill" style={{ width: `${progress}%` }} />
@@ -590,7 +590,7 @@ export default function QuizPage() {
                   <span>{progress}% complete</span>
                 </div>
 
-                <div style={{ backgroundColor: '#e8d9c5', color: '#7a5c3a', fontWeight: 600, padding: '4px 12px', borderRadius: '999px', fontSize: '11px', letterSpacing: '0.08em', textTransform: 'uppercase', display: 'inline-block', marginBottom: '1rem' }}>{q.category}</div>
+                <div style={{ backgroundColor: "#e8d9c5", color: "#7a5c3a", fontWeight: 600, padding: "4px 12px", borderRadius: "999px", fontSize: "11px", letterSpacing: "0.08em", textTransform: "uppercase", display: "inline-block", marginBottom: "1rem" }}>{q.category}</div>
                 <div className="question-text">{q.question}</div>
 
                 {q.answers.map((a, i) => {
@@ -642,18 +642,18 @@ export default function QuizPage() {
                       <span>{a.text}</span>
                       {isSelected && (
                         <span style={{
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          width: '24px',
-                          height: '24px',
-                          backgroundColor: 'white',
-                          color: '#b5763a',
-                          borderRadius: '50%',
-                          fontSize: '1rem',
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          width: "24px",
+                          height: "24px",
+                          backgroundColor: "white",
+                          color: "#b5763a",
+                          borderRadius: "50%",
+                          fontSize: "1rem",
                           fontWeight: 700,
                           flexShrink: 0,
-                          marginLeft: '1rem',
+                          marginLeft: "1rem",
                         }}>✓</span>
                       )}
                     </button>
