@@ -191,8 +191,9 @@ export default function BlogPage() {
                 <article
                   key={post.slug}
                   style={{
-                    backgroundColor: isRetreatJournal ? "#fdf8f3" : "#ffffff",
-                    border: "1px solid rgba(0, 0, 0, 0.08)",
+                    backgroundColor: isRetreatJournal ? "#fdf6ee" : "#ffffff",
+                    border: isRetreatJournal ? "1px solid rgba(0, 0, 0, 0.08)" : "1px solid rgba(0, 0, 0, 0.08)",
+                    borderLeft: isRetreatJournal ? "3px solid #d4a574" : undefined,
                     borderRadius: "8px",
                     padding: "32px",
                     marginBottom: "32px",
@@ -212,20 +213,14 @@ export default function BlogPage() {
                 >
                   <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
                     {isRetreatJournal && (
-                  <div style={{
-                    fontSize: "10px",
-                    fontWeight: 700,
-                    letterSpacing: "0.12em",
-                    color: "#b5763a",
-                    textTransform: "uppercase",
-                    marginBottom: "8px",
-                    backgroundColor: "#fdf0e0",
-                    padding: "3px 8px",
-                    borderRadius: "4px",
-                    display: "inline-block",
-                  }}>
-                    Retreat Journal
-                  </div>
+                      <div style={{
+                        fontSize: "11px",
+                        fontStyle: "italic",
+                        color: "#b5763a",
+                        marginBottom: "8px",
+                      }}>
+                        📍 Kerala · Retreat Journal
+                      </div>
                     )}
                     <time style={{
                       fontSize: "12px",
@@ -242,6 +237,7 @@ export default function BlogPage() {
                       lineHeight: 1.35,
                       marginBottom: "12px",
                       color: "#1a1a1a",
+                      fontStyle: isRetreatJournal ? "italic" : "normal",
                     }}>
                       <Link href={`/blog/${post.slug}`} style={{ color: "inherit", textDecoration: "none" }}>
                         <span style={{ cursor: "pointer", transition: "color 0.2s ease" }}
