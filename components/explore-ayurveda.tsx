@@ -4,9 +4,9 @@ import { motion } from "framer-motion"
 import Link from "next/link"
 
 const cards = [
-  { label: "Vata Guide", href: "/blog/vata-dosha-guide" },
-  { label: "Pitta Guide", href: "/blog/pitta-dosha-guide" },
-  { label: "Kapha Guide", href: "/blog/kapha-dosha-guide" },
+  { label: "Vata Guide", href: "/vata" },
+  { label: "Pitta Guide", href: "/pitta" },
+  { label: "Kapha Guide", href: "/kapha" },
   { label: "Ayurvedic Tea Guide", href: "/blog/ayurvedic-tea-guide" },
   { label: "Morning Routine", href: "/blog/ayurvedic-morning-routine" },
   { label: "Digestion Guide", href: "/blog/why-am-i-always-bloated" },
