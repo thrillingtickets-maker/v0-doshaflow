@@ -143,12 +143,12 @@ export default function BlogPage() {
                 key={filter}
                 onClick={() => setSelectedFilter(filter)}
                 style={{
-                  padding: "6px 16px",
-                  fontSize: "13px",
+                  padding: "6px 20px",
+                  fontSize: "12px",
                   fontWeight: 400,
-                  border: selectedFilter === filter ? "none" : "1px solid rgba(0, 0, 0, 0.12)",
+                  border: selectedFilter === filter ? "none" : "1px solid rgba(0, 0, 0, 0.08)",
                   backgroundColor: selectedFilter === filter ? "#f5f0e8" : "transparent",
-                  color: selectedFilter === filter ? "#1a1a1a" : "#5a5048",
+                  color: selectedFilter === filter ? "#1a1a1a" : "#8a7a6e",
                   borderRadius: "20px",
                   cursor: "pointer",
                   transition: "all 0.2s ease",
