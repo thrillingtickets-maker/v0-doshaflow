@@ -38,7 +38,7 @@ export default function AyurvedaForMenPage() {
             </p>
 
             <p>
-              The imagery is women in linen. The language is gentle and soft-edged. The product photography is pastel. If you&apos;re a man who stumbled into Ayurveda looking for something that would actually help with your sleep, your gut, your weight, your anxiety, your energy levels, or your relationship with alcohol — you probably bounced off most of it immediately.
+              If you&apos;re a man who stumbled into Ayurveda looking for something that would actually help with your <Link href="/blog/best-ayurvedic-tea-sleep" className="text-[#C97F3D] hover:underline">sleep</Link>, your gut, your weight, your <Link href="/blog/best-herbs-for-anxiety" className="text-[#C97F3D] hover:underline">anxiety</Link>, your energy levels, or your relationship with alcohol — you probably bounced off most of it immediately.
             </p>
 
             <p>
@@ -64,7 +64,7 @@ export default function AyurvedaForMenPage() {
             </p>
 
             <p>
-              Burnout rates among men are at all-time highs. Sleep disorders are up. Gut problems are increasingly common. Anxiety is widespread but dramatically underreported. And a huge percentage of men are managing all of this with alcohol — a depressant that temporarily masks the symptoms while making the underlying issues significantly worse over time.
+              <Link href="/blog/nervous-system-burnout" className="text-[#C97F3D] hover:underline">Burnout</Link> rates among men are at all-time highs. Sleep disorders are up. Gut problems are increasingly common. Anxiety is widespread but dramatically underreported. And a huge percentage of men are managing all of this with alcohol — a depressant that temporarily masks the symptoms while making the underlying issues significantly worse over time.
             </p>
 
             <p>
