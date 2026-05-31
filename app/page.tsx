@@ -19,6 +19,7 @@ import { Workouts } from "@/components/workouts"
 import { DigestiveTracking } from "@/components/digestive-tracking"
 import { ExploreAyurveda } from "@/components/explore-ayurveda"
 import { ExploreByGoal } from "@/components/explore-by-goal"
+import { ExploreByDosha } from "@/components/explore-by-dosha"
 import { StartHere } from "@/components/start-here"
 import { PopularArticles } from "@/components/popular-articles"
 import { Testimonials } from "@/components/testimonials"
@@ -45,15 +46,18 @@ export default function Home() {
       <ExploreByGoal />
       
       {/* (4) Explore By Dosha section with Vata/Pitta/Kapha cards */}
+      <ExploreByDosha />
+      
+      {/* (5) General Explore Ayurveda section */}
       <ExploreAyurveda />
       
-      {/* (5) Featured Guides section (Start Here) */}
+      {/* (6) Featured Guides section (Start Here) */}
       <StartHere />
       
-      {/* (6) Sample Reports preview section */}
+      {/* (7) Sample Reports preview section */}
       <PopularArticles />
       
-      {/* (7) Retreat Journal preview */}
+      {/* (8) Retreat Journal preview */}
       <section id="testimonials">
         <Testimonials />
       </section>
