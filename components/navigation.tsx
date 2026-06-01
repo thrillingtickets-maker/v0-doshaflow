@@ -16,6 +16,7 @@ export function Navigation() {
     { label: "For Men", href: "/ayurveda-for-men" },
     { label: "For Women", href: "/ayurveda-for-women" },
     { label: "Reports", href: "/samples" },
+    { label: "Contact", href: "mailto:alex@doshaflow.com?subject=DoshaFlow%20Enquiry" },
   ]
 
   useEffect(() => {

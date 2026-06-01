@@ -69,6 +69,19 @@ export default function Home() {
       </section>
       
       <Waitlist />
+      
+      {/* Get in touch link */}
+      <section className="px-6 py-12 md:py-16 text-center bg-background">
+        <p className="text-sm md:text-base text-muted-foreground">
+          Questions? <a 
+            href="mailto:alex@doshaflow.com?subject=DoshaFlow%20Enquiry"
+            className="text-primary hover:text-primary/80 transition-colors duration-200 underline"
+          >
+            Get in touch
+          </a>
+        </p>
+      </section>
+      
       <Footer />
     </main>
   )
