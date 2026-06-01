@@ -492,7 +492,7 @@ export const posts: Post[] = [
   {
     slug: "retreat-day-4",
     category: "journal",
-    title: "The Doctor Told Me to Stop Moving",
+    title: "Day 4: The Doctor Told Me to Stop Moving",
     date: "May 28, 2026",
     excerpt: "Day four. The doctor sat across from me this morning and said: you need to stop moving. Everything. You are Vata through and through and you have been running at a pace that has depleted your nervous system reserves.",
     seoTitle: "The Doctor Told Me to Stop Moving — Ayurvedic Retreat Day 4",
