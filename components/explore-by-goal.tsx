@@ -15,7 +15,7 @@ const goalCards = [
 
 export function ExploreByGoal() {
   return (
-    <section className="px-6 py-20 md:py-24">
+    <section className="px-6 py-16 md:py-20">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -43,7 +43,7 @@ export function ExploreByGoal() {
             >
               <Link
                 href={card.href}
-                className="block h-full p-8 md:p-10 bg-card rounded-2xl border border-border/60 hover:border-primary/40 hover:shadow-md hover:shadow-primary/8 transition-all duration-300 ease-out group flex flex-col justify-center items-center text-center"
+                className="block h-full p-8 md:p-10 bg-card rounded-2xl border border-border/60 hover:border-primary/30 hover:shadow-md hover:shadow-primary/10 transition-all duration-250 ease-out group flex flex-col justify-center items-center text-center hover:translate-y-[-2px]"
               >
                 <span className="text-xl md:text-2xl font-semibold font-serif text-foreground group-hover:text-primary transition-colors duration-300 leading-snug tracking-tight">
                   {card.goal}

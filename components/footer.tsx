@@ -22,31 +22,30 @@ export function Footer() {
           <div>
             <h4 className="font-medium text-foreground mb-4">Get Started</h4>
             <ul className="space-y-3">
+              <li><a href="/" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Start Here</a></li>
               <li><a href="/quiz" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Free Dosha Quiz</a></li>
-              <li><a href="/blog" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Popular Guides</a></li>
+              <li><a href="/samples" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Sample Reports</a></li>
+              <li><a href="/journal" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Retreat Journal</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-medium text-foreground mb-4">Doshas</h4>
+            <ul className="space-y-3">
               <li><a href="/vata" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Vata Guide</a></li>
               <li><a href="/pitta" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Pitta Guide</a></li>
               <li><a href="/kapha" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Kapha Guide</a></li>
+              <li><a href="/blog?page=1" className="text-muted-foreground hover:text-foreground transition-colors text-sm">All Guides</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-medium text-foreground mb-4">Topics</h4>
             <ul className="space-y-3">
-              <li><a href="/blog/why-am-i-always-tired" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Sleep & Energy</a></li>
+              <li><a href="/blog/best-ayurvedic-tea-sleep" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Sleep & Energy</a></li>
               <li><a href="/blog/best-herbs-for-anxiety" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Anxiety & Stress</a></li>
               <li><a href="/blog/why-am-i-always-bloated" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Digestion</a></li>
-              <li><a href="/blog/nervous-system-burnout" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Burnout</a></li>
-              <li><a href="/blog/best-ayurvedic-tea-sleep" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Tea & Herbs</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-medium text-foreground mb-4">Company</h4>
-            <ul className="space-y-3">
-              <li><a href="/about" className="text-muted-foreground hover:text-foreground transition-colors text-sm">About</a></li>
-              <li><span className="text-muted-foreground text-sm">Privacy</span></li>
-              <li><span className="text-muted-foreground text-sm">Terms</span></li>
+              <li><a href="/blog/best-ayurvedic-tea-digestion" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Tea & Herbs</a></li>
             </ul>
           </div>
         </div>

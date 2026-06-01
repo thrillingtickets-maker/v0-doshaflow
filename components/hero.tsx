@@ -57,21 +57,27 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-4"
+            className="flex flex-col items-center justify-center gap-4"
           >
-            <Link
-              href="/quiz"
-              className="group inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-primary/20"
-            >
-              Take the Free Dosha Quiz
-              <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-            </Link>
-            <a
-              href="#how-it-works"
-              className="inline-flex items-center gap-2 px-8 py-4 text-foreground font-medium transition-colors hover:text-primary"
-            >
-              Learn more
-            </a>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Link
+                href="/quiz"
+                className="group inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-primary/20"
+              >
+                Take the Free Dosha Quiz
+                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+              </Link>
+              <a
+                href="#how-it-works"
+                className="inline-flex items-center gap-2 px-8 py-4 text-foreground font-medium transition-colors hover:text-primary"
+              >
+                Learn more
+              </a>
+            </div>
+            
+            <p className="text-sm text-muted-foreground mt-2 max-w-sm">
+              Discover your body type in 2 minutes. Personalized Ayurvedic guidance based on your symptoms.
+            </p>
           </motion.div>
 
           <motion.div
