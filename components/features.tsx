@@ -60,7 +60,7 @@ export function Features() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group relative p-8 md:p-10 bg-card rounded-2xl border border-border/50 hover:border-primary/20 hover:shadow-lg hover:shadow-primary/5 transition-all duration-500"
+              className="group relative p-8 md:p-10 bg-card rounded-2xl border border-border/50 hover:border-primary/20 hover:shadow-md hover:shadow-primary/5 transition-all duration-300 ease-out"
             >
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0 w-14 h-14 flex items-center justify-center bg-secondary rounded-xl group-hover:bg-primary/10 transition-colors duration-300">
