@@ -1,5 +1,7 @@
 "use client"
 import { useState, useMemo } from "react"
+import { useSearchParams, useRouter } from "next/navigation"
+import { Suspense } from "react"
 import { getAllPosts } from "@/lib/posts"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
@@ -28,6 +30,8 @@ const FILTER_CATEGORIES = [
 const EDITORIAL_CATEGORIES = [
   "Retreat Journal",
 ]
+
+const ARTICLES_PER_PAGE = 10
 function getArticleFilters(slug: string, category: string): string[] {
   const filters = ["All"]
   if (category === "journal") {
@@ -115,7 +119,21 @@ function parsePostDate(date: string): number {
   return new Date(Number(year), month, Number(day)).getTime()
 }
 export default function BlogPage() {
+  return (
+    <Suspense fallback={<div style={{ padding: "80px 24px" }}>Loading...</div>}>
+      <BlogContent />
+    </Suspense>
+  )
+}
+
+function BlogContent() {
+  const searchParams = useSearchParams()
+  const router = useRouter()
   const [selectedFilter, setSelectedFilter] = useState("All")
+  
+  // Get current page from URL, default to 1
+  const currentPage = parseInt(searchParams.get("page") || "1", 10)
+  
   const allPosts = getAllPosts()
     .filter((post) => post.category === "article" || post.category === "journal")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
@@ -142,6 +160,24 @@ export default function BlogPage() {
     
     return uniquePosts
   }, [selectedFilter, allPosts])
+  
+  // Calculate pagination
+  const totalPages = Math.ceil(filteredPosts.length / ARTICLES_PER_PAGE)
+  const validPage = Math.min(Math.max(currentPage, 1), Math.max(totalPages, 1))
+  const startIndex = (validPage - 1) * ARTICLES_PER_PAGE
+  const paginatedPosts = filteredPosts.slice(startIndex, startIndex + ARTICLES_PER_PAGE)
+  
+  // Handle filter change - reset to page 1
+  const handleFilterChange = (filter: string) => {
+    setSelectedFilter(filter)
+    router.push(`?page=1`)
+  }
+  
+  // Handle page change
+  const handlePageChange = (page: number) => {
+    const validPageNum = Math.max(1, Math.min(page, totalPages))
+    router.push(`?page=${validPageNum}`)
+  }
   return (
     <main>
       {/* Hero Section */}
@@ -163,7 +199,7 @@ export default function BlogPage() {
             {FILTER_CATEGORIES.map((filter) => (
               <button
                 key={filter}
-                onClick={() => setSelectedFilter(filter)}
+                onClick={() => handleFilterChange(filter)}
                 style={{
                   padding: "8px 22px",
                   fontSize: "13px",
@@ -200,7 +236,7 @@ export default function BlogPage() {
             {EDITORIAL_CATEGORIES.map((filter) => (
               <button
                 key={filter}
-                onClick={() => setSelectedFilter(filter)}
+                onClick={() => handleFilterChange(filter)}
                 style={{
                   padding: "8px 22px",
                   fontSize: "13px",
@@ -340,7 +376,7 @@ export default function BlogPage() {
             </div>
           )}
           <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "48px" }}>
-            {filteredPosts.map((post) => {
+            {paginatedPosts.map((post) => {
               const isRetreatJournal = post.slug.includes("retreat-day")
               const primaryCategory = getPrimaryCategory(post.slug, post.category)
               const categoryColor = CATEGORY_COLORS[primaryCategory]
@@ -451,6 +487,122 @@ export default function BlogPage() {
               <p style={{ color: "#5a5048", fontSize: "18px" }}>
                 No posts found in this category. Try another filter.
               </p>
+            </div>
+          )}
+          
+          {/* Pagination Controls */}
+          {filteredPosts.length > ARTICLES_PER_PAGE && (
+            <div style={{ marginTop: "64px", paddingTop: "40px", borderTop: "1px solid rgba(0, 0, 0, 0.06)" }}>
+              <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "12px" }}>
+                {/* Previous Button */}
+                <button
+                  onClick={() => handlePageChange(validPage - 1)}
+                  disabled={validPage === 1}
+                  style={{
+                    padding: "10px 20px",
+                    fontSize: "14px",
+                    fontWeight: 500,
+                    border: "1px solid #c9a876",
+                    backgroundColor: validPage === 1 ? "#f5f0e8" : "#ffffff",
+                    color: validPage === 1 ? "#b5a894" : "#8d6f4c",
+                    borderRadius: "6px",
+                    cursor: validPage === 1 ? "not-allowed" : "pointer",
+                    transition: "all 0.2s ease",
+                    fontFamily: "inherit",
+                    opacity: validPage === 1 ? 0.5 : 1,
+                  }}
+                  onMouseEnter={(e) => {
+                    if (validPage !== 1) {
+                      (e.target as HTMLButtonElement).style.backgroundColor = "#faf8f2";
+                      (e.target as HTMLButtonElement).style.borderColor = "#b5963a";
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (validPage !== 1) {
+                      (e.target as HTMLButtonElement).style.backgroundColor = "#ffffff";
+                      (e.target as HTMLButtonElement).style.borderColor = "#c9a876";
+                    }
+                  }}
+                >
+                  ← Previous
+                </button>
+
+                {/* Page Numbers */}
+                <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
+                  {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                    <button
+                      key={page}
+                      onClick={() => handlePageChange(page)}
+                      style={{
+                        width: "36px",
+                        height: "36px",
+                        padding: "0",
+                        fontSize: "14px",
+                        fontWeight: page === validPage ? 600 : 400,
+                        border: page === validPage ? "none" : "1px solid #e0d7ce",
+                        backgroundColor: page === validPage ? "#b5963a" : "#ffffff",
+                        color: page === validPage ? "#ffffff" : "#8d6f4c",
+                        borderRadius: "6px",
+                        cursor: "pointer",
+                        transition: "all 0.2s ease",
+                        fontFamily: "inherit",
+                      }}
+                      onMouseEnter={(e) => {
+                        if (page !== validPage) {
+                          (e.target as HTMLButtonElement).style.backgroundColor = "#faf8f2";
+                          (e.target as HTMLButtonElement).style.borderColor = "#b5963a";
+                        }
+                      }}
+                      onMouseLeave={(e) => {
+                        if (page !== validPage) {
+                          (e.target as HTMLButtonElement).style.backgroundColor = "#ffffff";
+                          (e.target as HTMLButtonElement).style.borderColor = "#e0d7ce";
+                        }
+                      }}
+                    >
+                      {page}
+                    </button>
+                  ))}
+                </div>
+
+                {/* Next Button */}
+                <button
+                  onClick={() => handlePageChange(validPage + 1)}
+                  disabled={validPage === totalPages}
+                  style={{
+                    padding: "10px 20px",
+                    fontSize: "14px",
+                    fontWeight: 500,
+                    border: "1px solid #c9a876",
+                    backgroundColor: validPage === totalPages ? "#f5f0e8" : "#ffffff",
+                    color: validPage === totalPages ? "#b5a894" : "#8d6f4c",
+                    borderRadius: "6px",
+                    cursor: validPage === totalPages ? "not-allowed" : "pointer",
+                    transition: "all 0.2s ease",
+                    fontFamily: "inherit",
+                    opacity: validPage === totalPages ? 0.5 : 1,
+                  }}
+                  onMouseEnter={(e) => {
+                    if (validPage !== totalPages) {
+                      (e.target as HTMLButtonElement).style.backgroundColor = "#faf8f2";
+                      (e.target as HTMLButtonElement).style.borderColor = "#b5963a";
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (validPage !== totalPages) {
+                      (e.target as HTMLButtonElement).style.backgroundColor = "#ffffff";
+                      (e.target as HTMLButtonElement).style.borderColor = "#c9a876";
+                    }
+                  }}
+                >
+                  Next →
+                </button>
+              </div>
+              
+              {/* Page Info */}
+              <div style={{ textAlign: "center", marginTop: "16px", fontSize: "13px", color: "#9a7a6e" }}>
+                Page {validPage} of {totalPages}
+              </div>
             </div>
           )}
         </div>
