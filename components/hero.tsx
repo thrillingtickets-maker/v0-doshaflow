@@ -62,10 +62,10 @@ export function Hero() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
                 href="/quiz"
-                className="group inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-primary/20"
+                className="group inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-medium rounded-full transition-all duration-250 hover:shadow-md hover:shadow-primary/20"
               >
                 Take the Free Dosha Quiz
-                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                <ArrowRight className="w-4 h-4 transition-transform duration-250 group-hover:translate-x-0.5" />
               </Link>
               <a
                 href="#how-it-works"

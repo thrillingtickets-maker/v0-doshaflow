@@ -16,7 +16,7 @@ const cards = [
 
 export function ExploreAyurveda() {
   return (
-    <section className="px-6 py-24 md:py-32">
+    <section className="px-6 py-20 md:py-28">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -44,7 +44,7 @@ export function ExploreAyurveda() {
             >
               <Link
                 href={card.href}
-                className="block h-full p-6 md:p-8 bg-card rounded-2xl border border-border/60 hover:border-primary/40 hover:shadow-md hover:shadow-primary/8 transition-all duration-300 ease-out group"
+                className="block h-full p-6 md:p-8 bg-card rounded-2xl border border-border/60 hover:border-primary/30 hover:shadow-md hover:shadow-primary/8 transition-all duration-250 ease-out group"
               >
                 <span className="text-base font-medium text-foreground group-hover:text-primary transition-colors duration-300 tracking-tight">
                   {card.label}

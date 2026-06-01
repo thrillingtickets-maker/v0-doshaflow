@@ -15,7 +15,7 @@ const goalCards = [
 
 export function ExploreByGoal() {
   return (
-    <section className="px-6 py-16 md:py-20">
+    <section className="px-6 py-14 md:py-18">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
