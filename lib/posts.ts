@@ -640,7 +640,57 @@ export const posts: Post[] = [
     excerpt: "The complete Kapha diet plan — best foods to stimulate Kapha metabolism, what to avoid, and a practical daily template including the most common Kapha mistakes.",
     seoTitle: "Kapha Diet Plan: How to Eat for Energy When Your Body Wants to Do Nothing",
     seoDescription: "The complete Kapha diet plan — best foods to stimulate Kapha metabolism, what to avoid, and a practical daily template including the most common Kapha mistakes.",
-    content: `<div style="background: #FEF3E2; padding: 32px; border-radius: 4px; margin: 32px 0; text-align: center;"><div style="font-size: 48px; font-weight: bold; color: #8A7660; line-height: 1.2;">, </div><p style="margin-top: 12px; font-size: 14px; color: #666;">Key metric</p></div><h2>What Kapha actually needs.</h2><p>Kapha is heavy slow cold oily dense — the diet needs to counterbalance with light warm dry stimulating. Three most important principles: eat light — Kapha digestion runs slow and heavy foods tax it; eat stimulating — spice is medicine for Kapha; eat early — breakfast can be skipped, largest meal at lunch.</p><h2>Best foods for Kapha.</h2><p>Grains: light barley millet buckwheat corn rye quinoa. Vegetables: almost all vegetables especially bitter and astringent — leafy greens cabbage broccoli cauliflower asparagus artichoke onion garlic radish. Fruits: light astringent — apples pears pomegranates cranberries, avoid heavy sweet fruits. Proteins: light — chicken turkey freshwater fish eggs legumes, tofu excellent. Fats: smallest fat intake of three doshas — small amounts ghee or sunflower oil. Sweeteners: raw honey only in small quantities — warming and drying. Spices: all warming pungent — ginger black pepper trikatu mustard seeds cinnamon cardamom turmeric garlic.</p><h2>Foods Kapha should avoid or reduce.</h2><p>Dairy most Kapha-increasing. Wheat and heavy grains. Sweets and sugar. Cold food and drinks. Heavy oily fried food. Excess salt. Large portions. Eating after 7pm.</p><h2>The Kapha daily food plan.</h2><p>Ginger tea or hot water with lemon and honey for morning or skip. Large well-spiced lunch between noon and 2pm. Lightest dinner before 7pm. Ginger tea throughout day no snacking.</p><h2>Movement is as important as diet for Kapha.</h2><p>Vigorous morning exercise before breakfast is non-negotiable for Kapha — stimulates metabolism in way diet alone cannot.</p>`,
+    content: `<p>Kapha is the earth element: stable, grounded, slow. In balance, Kapha provides strength, immunity, and emotional steadiness. Out of balance, Kapha becomes stagnation — producing weight gain, congestion, lethargy, and resistance to change. The Kapha diet is not about restriction but about stimulation — creating heat and movement in a system that naturally wants to settle.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:28px;">Kapha excess — the pattern that doesn't shift</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Weight that accumulates slowly and resists all effort to move</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Sleeping 8–9 hours and waking up still exhausted</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Congestion, sinus issues, mucus accumulation</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Slow, heavy digestion — food sits like a stone</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Emotional attachment, resistance to change</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Low motivation that exercise temporarily fixes</div>
+  </div>
+</div><h2>What Kapha actually needs.</h2><p>Kapha is heavy slow cold oily dense — the diet needs to counterbalance with light warm dry stimulating. Three most important principles: eat light — Kapha digestion runs slow and heavy foods tax it; eat stimulating — spice is medicine for Kapha; eat early — breakfast can be skipped, largest meal at lunch.</p><h2>Best foods for Kapha.</h2><p>Grains: light barley millet buckwheat corn rye quinoa. Vegetables: almost all vegetables especially bitter and astringent — leafy greens cabbage broccoli cauliflower asparagus artichoke onion garlic radish. Fruits: light astringent — apples pears pomegranates cranberries, avoid heavy sweet fruits. Proteins: light — chicken turkey freshwater fish eggs legumes, tofu excellent. Fats: smallest fat intake of three doshas — small amounts ghee or sunflower oil. Sweeteners: raw honey only in small quantities — warming and drying. Spices: all warming pungent — ginger black pepper trikatu mustard seeds cinnamon cardamom turmeric garlic.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Category</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#2d5a47;text-transform:uppercase;">Favour ✓</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#c0392b;text-transform:uppercase;">Reduce ✗</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Grains</div>
+    <div style="font-size:13px;color:#4a3728;">Millet, barley, rye, buckwheat</div>
+    <div style="font-size:13px;color:#4a3728;">Wheat, white rice, oats, bread</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Vegetables</div>
+    <div style="font-size:13px;color:#4a3728;">Bitter greens, radish, broccoli, peppers</div>
+    <div style="font-size:13px;color:#4a3728;">Sweet potato, avocado, tomato, squash</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Protein</div>
+    <div style="font-size:13px;color:#4a3728;">Legumes, white fish, chicken breast</div>
+    <div style="font-size:13px;color:#4a3728;">Red meat, cheese, eggs, tofu</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Fats</div>
+    <div style="font-size:13px;color:#4a3728;">Small amounts ghee, sunflower oil</div>
+    <div style="font-size:13px;color:#4a3728;">Sesame oil, coconut oil, dairy fat</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Drinks</div>
+    <div style="font-size:13px;color:#4a3728;">Ginger tea, hot water with lemon, trikatu tea</div>
+    <div style="font-size:13px;color:#4a3728;">Cold drinks, dairy, sweet juice, alcohol</div>
+  </div>
+</div><h2>Foods Kapha should avoid or reduce.</h2><p>Dairy most Kapha-increasing. Wheat and heavy grains. Sweets and sugar. Cold food and drinks. Heavy oily fried food. Excess salt. Large portions. Eating after 7pm.</p><h2>The Kapha daily food plan.</h2><p>Ginger tea or hot water with lemon and honey for morning or skip. Large well-spiced lunch between noon and 2pm. Lightest dinner before 7pm. Ginger tea throughout day no snacking.</p><h2>Movement is as important as diet for Kapha.</h2><p>Vigorous morning exercise before breakfast is non-negotiable for Kapha — stimulates metabolism in way diet alone cannot.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:8px;">The Kapha principle</div>
+  <div style="font-size:22px;font-weight:700;color:#f5f0e8;font-family:Georgia,serif;margin-bottom:20px;">Kapha needs to be provoked out of comfort, not nurtured into ease</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Wake before 6am</strong> — the Kapha window (6–10am) makes waking harder, not easier. Rising before it starts is the key.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Dry brushing</strong> — stimulates lymphatic movement, which is characteristically sluggish in Kapha types.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Intermittent fasting</strong> — one of the few dosha types where skipping breakfast (occasionally) is genuinely beneficial.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Vigorous exercise</strong> — not gentle yoga. Kapha needs to sweat. Intensity creates the metabolic shift gentle movement cannot.</div>
+  </div>
+</div>`,
   },
   {
     slug: "pitta-diet-plan",
