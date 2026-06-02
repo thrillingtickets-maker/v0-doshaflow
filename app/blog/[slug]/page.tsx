@@ -187,6 +187,48 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               background-color: #e8d9c5;
               margin: 48px 0;
             }
+
+            /* Founder article styled components */
+            article div [style*="background"] {
+              box-sizing: border-box;
+            }
+
+            article div [style*="display: grid"] {
+              box-sizing: border-box;
+            }
+
+            article div [style*="display: grid"] > div {
+              box-sizing: border-box;
+            }
+
+            article div [style*="padding: 32px"] {
+              box-sizing: border-box;
+            }
+
+            article div [style*="padding: 24px"] {
+              box-sizing: border-box;
+            }
+
+            article div [style*="border-left"] {
+              box-sizing: border-box;
+            }
+
+            article div [style*="border-radius"] ul {
+              margin: 0;
+              padding-left: 20px;
+            }
+
+            article div [style*="border-radius"] li {
+              margin: 8px 0;
+            }
+
+            article div [style*="font-size: 32px"] {
+              display: block;
+            }
+
+            article div [style*="font-size: 48px"] {
+              display: block;
+            }
           `}</style>
           <div
             style={{ color: "#2c1a0e", lineHeight: 1.85 }}
