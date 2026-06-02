@@ -611,7 +611,48 @@ export const posts: Post[] = [
     excerpt: "The complete Pitta diet plan — best foods to cool Pitta, what to avoid, and a practical daily template including the most common Pitta dietary mistakes.",
     seoTitle: "Pitta Diet Plan: How to Cool the Fire Without Losing the Edge",
     seoDescription: "The complete Pitta diet plan — best foods to cool Pitta, what to avoid, and a practical daily template including the most common Pitta dietary mistakes.",
-    content: `<div style="background: #FEF3E2; padding: 32px; border-radius: 4px; margin: 32px 0; text-align: center;"><div style="font-size: 48px; font-weight: bold; color: #8A7660; line-height: 1.2;">, </div><p style="margin-top: 12px; font-size: 14px; color: #666;">Key metric</p></div><h2>What Pitta actually needs.</h2><p>Pitta is hot sharp light intense — the diet needs to counterbalance with cool heavy sweet. Three most important principles: eat cooling food — not spicy sour salty or heating; eat on time — Pitta blood sugar sensitivity means skipped meal produces irritability headache intensity; do not eat to extremes — obsession with perfect diet is itself Pitta-aggravating.</p><h2>Best foods for Pitta.</h2><p>Grains: basmati rice oats wheat barley. Vegetables: sweet bitter astringent leafy greens cucumber zucchini asparagus broccoli sweet potato fennel — raw salads more appropriate for Pitta than Vata. Fruits: sweet ripe cooling coconut melons grapes pomegranates pears. Fats: ghee excellent cooling and clarifying, coconut oil most cooling, avoid sesame in large quantities. Spices: cooling or mild — coriander fennel cardamom saffron mint, avoid chilli cayenne mustard seeds.</p><h2>Foods Pitta should avoid or reduce.</h2><p>Spicy food adds heat to hot system. Alcohol most significant Pitta aggravator processed by liver. Coffee heating and acidic. Sour fermented foods. Red meat. Eating when angry or stressed.</p><h2>The Pitta daily food plan.</h2><p>Light cooling breakfast. Substantial satisfying lunch between noon and 1pm using Pitta digestion peak window. Lighter dinner. No eating past 8pm. Cool milk with cardamom in evening.</p><h2>The most important Pitta supplement.</h2><p>Shatavari and brahmi as supplements.</p>`,  },
+    content: `<p>Pitta is the fire element: intense, focused, driven. In balance, Pitta types are dynamic, ambitious, intelligent, and able to digest not just food but also complex information and emotions. Out of balance, Pitta becomes inflammatory — producing acne, reflux, ulcers, and emotional reactivity. The Pitta diet is not about restriction. It is about channelling intense fire productively rather than letting it burn destructively.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:28px;">You may be running hot — Pitta excess signals</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Acid reflux or heartburn after meals</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Skin that flushes, breaks out, or feels inflamed</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Irritability that seems disproportionate</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Strong hunger — feels like anger if meals are skipped</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Wired and alert 10pm–midnight when you should wind down</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Loose stool or diarrhoea, especially after spicy food or alcohol</div>
+  </div>
+</div><h2>What Pitta actually needs.</h2><p>Pitta is hot sharp light intense — the diet needs to counterbalance with cool heavy sweet. Three most important principles: eat cooling food — not spicy sour salty or heating; eat on time — Pitta blood sugar sensitivity means skipped meal produces irritability headache intensity; do not eat to extremes — obsession with perfect diet is itself Pitta-aggravating.</p><h2>Best foods for Pitta.</h2><p>Grains: basmati rice oats wheat barley. Vegetables: sweet bitter astringent leafy greens cucumber zucchini asparagus broccoli sweet potato fennel — raw salads more appropriate for Pitta than Vata. Fruits: sweet ripe cooling coconut melons grapes pomegranates pears. Fats: ghee excellent cooling and clarifying, coconut oil most cooling, avoid sesame in large quantities. Spices: cooling or mild — coriander fennel cardamom saffron mint, avoid chilli cayenne mustard seeds.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Category</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#2d5a47;text-transform:uppercase;">Favour ✓</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#c0392b;text-transform:uppercase;">Reduce ✗</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Grains</div>
+    <div style="font-size:13px;color:#4a3728;">Basmati rice, oats, barley</div>
+    <div style="font-size:13px;color:#4a3728;">Brown rice, corn, rye</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Vegetables</div>
+    <div style="font-size:13px;color:#4a3728;">Cucumber, zucchini, leafy greens, broccoli</div>
+    <div style="font-size:13px;color:#4a3728;">Tomatoes, peppers, onion raw, garlic</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Protein</div>
+    <div style="font-size:13px;color:#4a3728;">Chicken, white fish, tofu, legumes</div>
+    <div style="font-size:13px;color:#4a3728;">Red meat, egg yolks, shellfish</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Fats</div>
+    <div style="font-size:13px;color:#4a3728;">Ghee, coconut oil, sunflower oil</div>
+    <div style="font-size:13px;color:#4a3728;">Sesame oil, almond oil</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Drinks</div>
+    <div style="font-size:13px;color:#4a3728;">Coconut water, mint tea, rose water, fennel tea</div>
+    <div style="font-size:13px;color:#4a3728;">Alcohol, coffee, kombucha, citrus juice</div>
+  </div>
+</div><h2>Foods Pitta should avoid or reduce.</h2><p>Spicy food adds heat to hot system. Alcohol most significant Pitta aggravator processed by liver. Coffee heating and acidic. Sour fermented foods. Red meat. Eating when angry or stressed.</p><h2>The Pitta daily food plan.</h2><p>Light cooling breakfast. Substantial satisfying lunch between noon and 1pm using Pitta digestion peak window. Lighter dinner. No eating past 8pm. Cool milk with cardamom in evening.</p><h2>The most important Pitta supplement.</h2><p>Shatavari and brahmi as supplements.</p>`,  },
   {
     slug: "vata-diet-plan",
     category: "article",
