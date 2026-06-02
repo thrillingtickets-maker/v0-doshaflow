@@ -49,31 +49,41 @@ export function Navigation() {
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-10">
-              {navLinks.map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 relative"
-                  style={{
-                    letterSpacing: "0.01em",
-                  }}
-                >
-                  {link.label}
-                  <span 
-                    className="absolute bottom-0 left-0 h-px bg-foreground"
+              {navLinks.map((link) => {
+                const isStartHere = link.label === "Start Here"
+                return (
+                  <a
+                    key={link.label}
+                    href={link.href}
+                    className={`text-sm transition-colors duration-200 relative ${
+                      isStartHere
+                        ? "font-serif font-semibold text-foreground"
+                        : "text-muted-foreground hover:text-foreground"
+                    }`}
                     style={{
-                      width: "0%",
-                      transition: "width 0.3s ease",
+                      letterSpacing: "0.01em",
                     }}
-                    onMouseEnter={(e) => {
-                      (e.currentTarget as HTMLElement).style.width = "100%";
-                    }}
-                    onMouseLeave={(e) => {
-                      (e.currentTarget as HTMLElement).style.width = "0%";
-                    }}
-                  />
-                </a>
-              ))}
+                  >
+                    {link.label}
+                    <span 
+                      className={`absolute bottom-0 left-0 h-px ${
+                        isStartHere ? "bg-foreground" : "bg-foreground"
+                      }`}
+                      style={{
+                        width: isStartHere ? "40%" : "0%",
+                        transition: "width 0.3s ease",
+                      }}
+                      onMouseEnter={(e) => {
+                        (e.currentTarget as HTMLElement).style.width = "100%";
+                      }}
+                      onMouseLeave={(e) => {
+                        const el = e.currentTarget as HTMLElement
+                        el.style.width = isStartHere ? "40%" : "0%";
+                      }}
+                    />
+                  </a>
+                )
+              })}
               <a
                 href="/quiz"
                 className="px-5 py-2.5 bg-primary text-primary-foreground text-sm font-medium rounded-full hover:shadow-lg hover:shadow-primary/20 transition-all"
@@ -101,16 +111,23 @@ export function Navigation() {
               className="md:hidden absolute top-full left-0 right-0 bg-background border-b border-border p-6"
             >
               <div className="flex flex-col gap-4">
-                {navLinks.map((link) => (
-                  <a
-                    key={link.label}
-                    href={link.href}
-                    onClick={() => setIsOpen(false)}
-                    className="text-foreground py-2"
-                  >
-                    {link.label}
-                  </a>
-                ))}
+                {navLinks.map((link) => {
+                  const isStartHere = link.label === "Start Here"
+                  return (
+                    <a
+                      key={link.label}
+                      href={link.href}
+                      onClick={() => setIsOpen(false)}
+                      className={`py-2 ${
+                        isStartHere
+                          ? "font-serif font-semibold text-foreground"
+                          : "text-foreground"
+                      }`}
+                    >
+                      {link.label}
+                    </a>
+                  )
+                })}
                 <a
                   href="/quiz"
                   onClick={() => setIsOpen(false)}
