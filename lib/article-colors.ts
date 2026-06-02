@@ -80,6 +80,7 @@ export const highlightMap: Record<string, string> = {
   "best-tea-for-stress": "Tea",
   "best-tea-for-vata": "Vata",
   "brahmi-benefits": "Benefits",
+  "chronic-pain-management": "Healing",
   "eating-for-your-dosha": "Dosha",
   "how-to-improve-digestion-naturally": "Digestion",
   "i-cant-lose-weight": "Weight",
