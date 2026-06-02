@@ -127,7 +127,6 @@ export default function BlogPage() {
   const allPosts = getAllPosts()
     .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
-    .filter((post) => post.category !== "editorial")
   
   return (
     <>
@@ -292,11 +291,8 @@ function BlogContent() {
   const filteredPosts = useMemo(() => {
     let posts = allPosts
     
-    // When showing All, exclude editorial to keep main grid curated
-    // Editorial essays are discoverable through search
-    if (selectedFilter === "All") {
-      posts = posts.filter((post) => post.category !== "editorial")
-    } else {
+    // Apply category filter based on selection
+    if (selectedFilter !== "All") {
       posts = posts.filter((post) => {
         const filters = getArticleFilters(post.slug, post.category)
         return filters.includes(selectedFilter)
