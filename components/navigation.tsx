@@ -11,6 +11,7 @@ export function Navigation() {
   const [scrolled, setScrolled] = useState(false)
 
   const navLinks = [
+    { label: "Start Here", href: "/start-here" },
     { label: "Guides", href: "/blog" },
     { label: "Journal", href: "/journal" },
     { label: "For Men", href: "/ayurveda-for-men" },
