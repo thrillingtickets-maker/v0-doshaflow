@@ -1,7 +1,6 @@
 "use client"
-import { useState, useMemo } from "react"
+import { useState, useMemo, Suspense } from "react"
 import { useSearchParams, useRouter } from "next/navigation"
-import { Suspense } from "react"
 import { getAllPosts } from "@/lib/posts"
 import { Navigation } from "@/components/navigation"
 import { ArrowRight } from "lucide-react"
@@ -128,10 +127,156 @@ export default function BlogPage() {
   return (
     <>
       <Navigation />
-      <Suspense fallback={<div style={{ padding: "80px 24px" }}>Loading...</div>}>
+      <Suspense fallback={<InitialBlogContent />}>
         <BlogContent />
       </Suspense>
     </>
+  )
+}
+
+function InitialBlogContent() {
+  const allPosts = getAllPosts()
+    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial")
+    .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
+    .filter((post) => post.category !== "editorial")
+    .slice(0, 10)
+  
+  return (
+    <main>
+      {/* Hero Section */}
+      <section style={{ paddingTop: "80px", paddingBottom: "40px" }}>
+        <div style={{ textAlign: "center" }}>
+          <h1 style={{ fontSize: "36px", fontWeight: 700, marginBottom: "12px", color: "#1a1a1a" }}>
+            Ayurvedic Guides & Articles
+          </h1>
+          <p style={{ fontSize: "16px", color: "#8a7a6e", marginBottom: "0" }}>
+            Ayurvedic guides, research, and practical advice on digestion, sleep, stress, hormonal health, and daily wellness by dosha type.
+          </p>
+        </div>
+      </section>
+      
+      {/* Search Section Placeholder */}
+      <section style={{ paddingTop: "0", paddingBottom: "48px", backgroundColor: "#ffffff" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
+          <div
+            style={{
+              width: "100%",
+              maxWidth: "320px",
+              padding: "8px 12px",
+              fontSize: "14px",
+              fontFamily: "inherit",
+              border: "1px solid rgba(0, 0, 0, 0.06)",
+              borderRadius: "3px",
+              backgroundColor: "transparent",
+              color: "#9a8878",
+            }}
+          >
+            Search...
+          </div>
+        </div>
+      </section>
+      
+      {/* Filter Pills Placeholder */}
+      <section style={{ paddingTop: "40px", paddingBottom: "40px", backgroundColor: "#ffffff" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
+            {["All", "Doshas", "Tea", "Digestion", "Stress & Anxiety", "Sleep"].map((filter) => (
+              <div
+                key={filter}
+                style={{
+                  padding: "8px 22px",
+                  fontSize: "13px",
+                  fontWeight: 400,
+                  border: "1px solid rgba(0, 0, 0, 0.08)",
+                  backgroundColor: "transparent",
+                  color: "#8a7a6e",
+                  borderRadius: "20px",
+                  whiteSpace: "nowrap",
+                }}
+              >
+                {filter}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      
+      {/* Blog Posts Grid */}
+      <section style={{ backgroundColor: "#ffffff", paddingBottom: "64px" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "48px" }}>
+            {allPosts.map((post) => {
+              const primaryCategory = getPrimaryCategory(post.slug, post.category)
+              return (
+                <article
+                  key={post.slug}
+                  style={{
+                    backgroundColor: "#ffffff",
+                    border: "1px solid rgba(0, 0, 0, 0.06)",
+                    borderRadius: "8px",
+                    padding: "36px",
+                    marginBottom: "32px",
+                    boxShadow: "0 1px 3px rgba(0, 0, 0, 0.05)",
+                  }}
+                >
+                  <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
+                    <time style={{
+                      fontSize: "12px",
+                      color: "#9a8878",
+                      fontWeight: 400,
+                      letterSpacing: "0.05em",
+                      marginBottom: "10px",
+                    }}>
+                      {post.date}
+                    </time>
+                    <h2 style={{
+                      fontSize: "20px",
+                      fontWeight: 600,
+                      lineHeight: 1.35,
+                      marginBottom: "12px",
+                      color: "#1a1a1a",
+                    }}>
+                      <Link href={`/blog/${post.slug}`} style={{ color: "inherit", textDecoration: "none" }}>
+                        {post.title}
+                      </Link>
+                    </h2>
+                    <p style={{
+                      fontSize: "15px",
+                      fontWeight: 400,
+                      lineHeight: 1.7,
+                      color: "#5a5048",
+                      marginBottom: "20px",
+                      flex: 1,
+                      display: "-webkit-box",
+                      WebkitLineClamp: 3,
+                      WebkitBoxOrient: "vertical",
+                      overflow: "hidden",
+                    }}>
+                      {post.excerpt}
+                    </p>
+                    <Link
+                      href={`/blog/${post.slug}`}
+                      style={{
+                        display: "inline-flex",
+                        alignItems: "center",
+                        gap: "8px",
+                        color: "#b5763a",
+                        fontWeight: 500,
+                        fontSize: "13px",
+                        textDecoration: "none",
+                      }}
+                    >
+                      Read more
+                      <ArrowRight size={16} />
+                    </Link>
+                  </div>
+                </article>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+    </main>
   )
 }
 
