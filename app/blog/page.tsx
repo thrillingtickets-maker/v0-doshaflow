@@ -20,13 +20,11 @@ const CATEGORY_COLORS: Record<string, { accent: string; border: string; pill: st
 
 const FILTER_CATEGORIES = [
   "All",
-  "Editorial",
   "Doshas",
   "Tea",
   "Digestion",
   "Stress & Anxiety",
   "Sleep",
-  "Weight Loss",
 ]
 
 const EDITORIAL_CATEGORIES = [
@@ -146,14 +144,20 @@ function BlogContent() {
     .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
   const filteredPosts = useMemo(() => {
-    let posts = selectedFilter === "All" 
-      ? allPosts 
-      : allPosts.filter((post) => {
+    let posts = allPosts
+    
+    // When showing All, exclude editorial to keep main grid curated
+    // Editorial essays are discoverable through search
+    if (selectedFilter === "All") {
+      posts = posts.filter((post) => post.category !== "editorial")
+    } else {
+      posts = posts.filter((post) => {
         const filters = getArticleFilters(post.slug, post.category)
         return filters.includes(selectedFilter)
       })
+    }
     
-    // Search filter
+    // Search filter - includes editorial essays if searched
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase()
       posts = posts.filter((post) => 
@@ -164,7 +168,7 @@ function BlogContent() {
     }
     
     // When showing All articles and featured retreat section exists, exclude retreat-day from grid
-    if (selectedFilter === "All") {
+    if (selectedFilter === "All" && !searchQuery.trim()) {
       const hasRetreatFeatured = posts.some(p => p.slug.includes("retreat-day"))
       if (hasRetreatFeatured) {
         posts = posts.filter(p => !p.slug.includes("retreat-day"))
@@ -209,33 +213,34 @@ function BlogContent() {
           </p>
         </div>
       </section>
-      {/* Search Section */}
-      <section style={{ paddingTop: "0", paddingBottom: "32px", backgroundColor: "#ffffff" }}>
+      {/* Search Section - Subtle and Integrated */}
+      <section style={{ paddingTop: "0", paddingBottom: "48px", backgroundColor: "#ffffff" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
           <input
             type="text"
-            placeholder="Search articles..."
+            placeholder="Search..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             style={{
               width: "100%",
-              maxWidth: "400px",
-              padding: "10px 14px",
+              maxWidth: "320px",
+              padding: "8px 12px",
               fontSize: "14px",
-              border: "1px solid rgba(0, 0, 0, 0.08)",
-              borderRadius: "6px",
               fontFamily: "inherit",
-              backgroundColor: "#f9f9f9",
-              transition: "all 0.2s ease",
+              border: "1px solid rgba(0, 0, 0, 0.06)",
+              borderRadius: "3px",
+              backgroundColor: "transparent",
+              transition: "all 0.3s ease",
               outline: "none",
+              color: "#1a1a1a",
             }}
             onFocus={(e) => {
-              e.currentTarget.style.borderColor = "rgba(0, 0, 0, 0.16)"
-              e.currentTarget.style.backgroundColor = "#ffffff"
+              e.currentTarget.style.borderColor = "rgba(0, 0, 0, 0.12)"
+              e.currentTarget.style.backgroundColor = "rgba(255, 255, 255, 0.5)"
             }}
             onBlur={(e) => {
-              e.currentTarget.style.borderColor = "rgba(0, 0, 0, 0.08)"
-              e.currentTarget.style.backgroundColor = "#f9f9f9"
+              e.currentTarget.style.borderColor = "rgba(0, 0, 0, 0.06)"
+              e.currentTarget.style.backgroundColor = "transparent"
             }}
           />
         </div>
