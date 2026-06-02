@@ -26,15 +26,15 @@ export default function RetreatDay9Page() {
             </p>
 
             <p>
-              A small cut on my finger had gotten infected — nothing dramatic, but being in India in a wet, humid climate, with nine days of treatments and enemas and general physiological disruption, I decided not to mess around with it. I flagged it to my doctor here, she agreed, and I got in a car and went into town.
+              A small cut. Nothing dramatic. But being in India in a wet, humid climate with nine days of intensive treatment, I decided not to take chances with it. I flagged it to my retreat doctor, she agreed it was worth addressing, and I got in a car and went into town.
             </p>
 
             <p>
-              The hospital was a small building. One room, essentially. One nurse. A doctor. Very efficient. I got a tetanus shot (I could not remember when my last one was, which probably says something), started a course of antibiotics, and was back at the retreat within the hour.
+              The hospital was a small building. One room, essentially. One nurse. A doctor. I got a tetanus shot — I genuinely could not remember my last one, which probably says something about how I&apos;ve been living — started a course of antibiotics, and was back within the hour.
             </p>
 
             <p>
-              It cost approximately nothing. The care was immediate and competent. I am fine.
+              It cost almost nothing. The care was immediate and competent. I am fine.
             </p>
 
             <p>
@@ -47,7 +47,7 @@ export default function RetreatDay9Page() {
             </p>
 
             <p>
-              I asked her about ketamine therapy. About depression. About the treatments I&apos;d seen people using in the States that I&apos;d wondered whether I should explore.
+              I asked her about ketamine therapy. I want to be honest about why: it was the addict part of my brain looking for a loophole. A medical justification. Something that could get me high while technically being treatment. I know this about myself. I asked anyway.
             </p>
 
             <p>
@@ -153,9 +153,9 @@ export default function RetreatDay9Page() {
               I don&apos;t have a good answer to that. I&apos;m sitting with the question instead.
             </p>
 
-            <h2 className="font-serif text-3xl text-foreground mt-12 mb-6"><strong>Six days left.</strong></h2>
+            <h2 className="font-serif text-3xl text-foreground mt-12 mb-6"><strong>Leaving soon.</strong></h2>
             <p>
-              Six days. I&apos;ll be at the airport in less than a week.
+              The end of the retreat is close enough to feel now.
             </p>
 
             <p>
