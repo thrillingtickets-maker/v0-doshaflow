@@ -30,11 +30,23 @@ export default function RetreatDay9Page() {
             </p>
 
             <p>
-              The hospital was a small building. One room, essentially. One nurse. A doctor. I got a tetanus shot — I genuinely could not remember my last one, which probably says something about how I&apos;ve been living — started a course of antibiotics, and was back within the hour.
+              The hospital was a small building. One room, essentially — or maybe two, but it felt like one. There was a waiting area with plastic chairs, the kind you find everywhere in the world that has waiting areas with plastic chairs. I sat in one of them next to an older man being wheeled in who was clearly dealing with something significantly more serious than what I had come for. A child was crying in the corner. His mother was holding him and trying to calm him down and not quite managing it, the way mothers do when they are also trying not to fall apart themselves.
             </p>
 
             <p>
-              It cost almost nothing. The care was immediate and competent. I am fine.
+              I looked at my finger.
+            </p>
+
+            <p>
+              I don&apos;t know what I expected to feel — maybe nothing. But I felt something. Grateful in a way that I don&apos;t usually let myself feel grateful, because my particular brand of self-involvement tends to be more focused on what&apos;s wrong than what isn&apos;t. I was here for a small cut. Not for whatever that man in the wheelchair was here for. Not for whatever was making that child cry.
+            </p>
+
+            <p>
+              I got a tetanus shot — I genuinely could not remember my last one, which probably says something about how I&apos;ve been living — started a course of antibiotics, paid almost nothing, and was back at the retreat within the hour.
+            </p>
+
+            <p>
+              I am fine. Which today felt like more than it usually does.
             </p>
 
             <p>
