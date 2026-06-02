@@ -3,6 +3,7 @@ import { useState, useMemo } from "react"
 import { useSearchParams, useRouter } from "next/navigation"
 import { Suspense } from "react"
 import { getAllPosts } from "@/lib/posts"
+import { Navigation } from "@/components/navigation"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 
@@ -125,9 +126,12 @@ function parsePostDate(date: string): number {
 }
 export default function BlogPage() {
   return (
-    <Suspense fallback={<div style={{ padding: "80px 24px" }}>Loading...</div>}>
-      <BlogContent />
-    </Suspense>
+    <>
+      <Navigation />
+      <Suspense fallback={<div style={{ padding: "80px 24px" }}>Loading...</div>}>
+        <BlogContent />
+      </Suspense>
+    </>
   )
 }
 

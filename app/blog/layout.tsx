@@ -1,5 +1,4 @@
 import type { Metadata } from "next"
-import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
@@ -14,7 +13,6 @@ export default function BlogLayout({
 }) {
   return (
     <>
-      <Navigation />
       {children}
       <Footer />
     </>
