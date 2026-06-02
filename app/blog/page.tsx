@@ -180,7 +180,7 @@ function BlogPageStatic({ posts }: { posts: any[] }) {
       <section style={{ paddingTop: "40px", paddingBottom: "40px", backgroundColor: "#ffffff" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
-            {["All", "Doshas", "Tea", "Digestion", "Stress & Anxiety", "Sleep", "Retreat Journal"].map((filter) => (
+            {["All", "Doshas", "Tea", "Digestion", "Stress & Anxiety", "Sleep", "Editorial", "Retreat Journal"].map((filter) => (
               <div
                 key={filter}
                 style={{
