@@ -124,7 +124,6 @@ function parsePostDate(date: string): number {
   return new Date(Number(year), month, Number(day)).getTime()
 }
 export default function BlogPage() {
-  // Get initial posts for server rendering - these will be shown immediately
   const allPosts = getAllPosts()
     .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
@@ -133,14 +132,16 @@ export default function BlogPage() {
   return (
     <>
       <Navigation />
-      <Suspense fallback={<BlogContentDisplay posts={allPosts} isLoading={true} />}>
-        <BlogContent initialPosts={allPosts} />
+      <Suspense fallback={<BlogPageStatic posts={allPosts} />}>
+        <BlogContent />
       </Suspense>
     </>
   )
 }
 
-function BlogContentDisplay({ posts, isLoading }: { posts: any[]; isLoading?: boolean }) {
+
+
+function BlogPageStatic({ posts }: { posts: any[] }) {
   return (
     <main>
       {/* Hero Section */}
@@ -180,7 +181,7 @@ function BlogContentDisplay({ posts, isLoading }: { posts: any[]; isLoading?: bo
       <section style={{ paddingTop: "40px", paddingBottom: "40px", backgroundColor: "#ffffff" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
-            {["All", "Doshas", "Tea", "Digestion", "Stress & Anxiety", "Sleep"].map((filter) => (
+            {["All", "Doshas", "Tea", "Digestion", "Stress & Anxiety", "Sleep", "Retreat Journal"].map((filter) => (
               <div
                 key={filter}
                 style={{
@@ -204,8 +205,8 @@ function BlogContentDisplay({ posts, isLoading }: { posts: any[]; isLoading?: bo
       {/* Blog Posts Grid */}
       <section style={{ backgroundColor: "#ffffff", paddingBottom: "64px" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "48px" }}>
-            {posts.map((post) => (
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(400px, 1fr))", gap: "48px" }}>
+            {posts.slice(0, 20).map((post) => (
               <article
                 key={post.slug}
                 style={{
@@ -213,61 +214,60 @@ function BlogContentDisplay({ posts, isLoading }: { posts: any[]; isLoading?: bo
                   border: "1px solid rgba(0, 0, 0, 0.06)",
                   borderRadius: "8px",
                   padding: "36px",
-                  marginBottom: "32px",
                   boxShadow: "0 1px 3px rgba(0, 0, 0, 0.05)",
+                  display: "flex",
+                  flexDirection: "column",
                 }}
               >
-                <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
-                  <time style={{
-                    fontSize: "12px",
-                    color: "#9a8878",
-                    fontWeight: 400,
-                    letterSpacing: "0.05em",
-                    marginBottom: "10px",
-                  }}>
-                    {post.date}
-                  </time>
-                  <h2 style={{
-                    fontSize: "20px",
-                    fontWeight: 600,
-                    lineHeight: 1.35,
-                    marginBottom: "12px",
-                    color: "#1a1a1a",
-                  }}>
-                    <Link href={`/blog/${post.slug}`} style={{ color: "inherit", textDecoration: "none" }}>
-                      {post.title}
-                    </Link>
-                  </h2>
-                  <p style={{
-                    fontSize: "15px",
-                    fontWeight: 400,
-                    lineHeight: 1.7,
-                    color: "#5a5048",
-                    marginBottom: "20px",
-                    flex: 1,
-                    display: "-webkit-box",
-                    WebkitLineClamp: 3,
-                    WebkitBoxOrient: "vertical",
-                    overflow: "hidden",
-                  }}>
-                    {post.excerpt}
-                  </p>
-                  <Link
-                    href={`/blog/${post.slug}`}
-                    style={{
-                      display: "inline-flex",
-                      alignItems: "center",
-                      gap: "8px",
-                      color: "#b5763a",
-                      fontWeight: 500,
-                      fontSize: "13px",
-                      textDecoration: "none",
-                    }}
-                  >
-                    Read more
-                    <ArrowRight size={16} />
+                <time style={{
+                  fontSize: "12px",
+                  color: "#9a8878",
+                  fontWeight: 400,
+                  letterSpacing: "0.05em",
+                  marginBottom: "10px",
+                }}>
+                  {post.date}
+                </time>
+                <h2 style={{
+                  fontSize: "20px",
+                  fontWeight: 600,
+                  lineHeight: 1.35,
+                  marginBottom: "12px",
+                  color: "#1a1a1a",
+                }}>
+                  <Link href={`/blog/${post.slug}`} style={{ color: "inherit", textDecoration: "none" }}>
+                    {post.title}
                   </Link>
-                </div>
+                </h2>
+                <p style={{
+                  fontSize: "15px",
+                  fontWeight: 400,
+                  lineHeight: 1.7,
+                  color: "#5a5048",
+                  marginBottom: "20px",
+                  flex: 1,
+                  display: "-webkit-box",
+                  WebkitLineClamp: 3,
+                  WebkitBoxOrient: "vertical",
+                  overflow: "hidden",
+                }}>
+                  {post.excerpt}
+                </p>
+                <Link
+                  href={`/blog/${post.slug}`}
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: "8px",
+                    color: "#b5763a",
+                    fontWeight: 500,
+                    fontSize: "13px",
+                    textDecoration: "none",
+                  }}
+                >
+                  Read more
+                  <ArrowRight size={16} />
+                </Link>
               </article>
             ))}
           </div>
@@ -277,7 +277,7 @@ function BlogContentDisplay({ posts, isLoading }: { posts: any[]; isLoading?: bo
   )
 }
 
-function BlogContent({ initialPosts }: { initialPosts: any[] }) {
+function BlogContent() {
   const searchParams = useSearchParams()
   const router = useRouter()
   const [selectedFilter, setSelectedFilter] = useState("All")
@@ -286,7 +286,7 @@ function BlogContent({ initialPosts }: { initialPosts: any[] }) {
   // Get current page from URL, default to 1
   const currentPage = parseInt(searchParams.get("page") || "1", 10)
   
-  const allPosts = initialPosts.length > 0 ? initialPosts : getAllPosts()
+  const allPosts = getAllPosts()
     .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
   const filteredPosts = useMemo(() => {
