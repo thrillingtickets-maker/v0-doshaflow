@@ -9,7 +9,6 @@ const goalCards = [
   { goal: "I'm always bloated", href: "/blog/why-am-i-always-bloated" },
   { goal: "I can't lose weight", href: "/blog/ayurvedic-weight-loss" },
   { goal: "I'm burned out", href: "/blog/nervous-system-burnout" },
-  { goal: "I have no energy", href: "/blog/why-am-i-always-tired" },
   { goal: "Digestion problems", href: "/blog/best-ayurvedic-tea-digestion" },
 ]
 
