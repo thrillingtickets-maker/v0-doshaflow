@@ -10,7 +10,7 @@ export default function RetreatDay9Page() {
       <Navigation />
 
       <ArticleHero
-        title="Day 9: The Hospital, the Doctor Who Called It a Medical Mafia, and the Feeling I&apos;ve Been Running From"
+        title="Day 9: The Hospital, the Doctor Who Called It a Medical Mafia, and the Feeling I've Been Running From"
         category="journal"
         date="June 2, 2026"
         highlightWord="Day"
