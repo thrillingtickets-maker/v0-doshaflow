@@ -194,13 +194,21 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           />
           {/* Post Footer - Back Link */}
           <footer style={{ marginTop: "64px", paddingTop: "32px", borderTop: "1px solid #e8d9c5" }}>
-            <Link
-              href="/blog"
-              style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#8a7a5a", fontSize: "14px", textDecoration: "none", cursor: "pointer" }}
-            >
-              <ArrowLeft size={16} />
-              Back to all posts
-            </Link>
+            <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+              <Link
+                href="/blog"
+                style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#8a7a5a", fontSize: "14px", textDecoration: "none", cursor: "pointer" }}
+              >
+                <ArrowLeft size={16} />
+                Back to all posts
+              </Link>
+              <Link
+                href="/start-here"
+                style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#8a7a5a", fontSize: "14px", textDecoration: "none", cursor: "pointer", marginTop: "8px" }}
+              >
+                Explore more guides →
+              </Link>
+            </div>
           </footer>
         </div>
       </article>
