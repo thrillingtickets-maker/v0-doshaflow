@@ -124,23 +124,23 @@ function parsePostDate(date: string): number {
   return new Date(Number(year), month, Number(day)).getTime()
 }
 export default function BlogPage() {
+  // Get initial posts for server rendering - these will be shown immediately
+  const allPosts = getAllPosts()
+    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial")
+    .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
+    .filter((post) => post.category !== "editorial")
+  
   return (
     <>
       <Navigation />
-      <Suspense fallback={<InitialBlogContent />}>
-        <BlogContent />
+      <Suspense fallback={<BlogContentDisplay posts={allPosts} isLoading={true} />}>
+        <BlogContent initialPosts={allPosts} />
       </Suspense>
     </>
   )
 }
 
-function InitialBlogContent() {
-  const allPosts = getAllPosts()
-    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial")
-    .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
-    .filter((post) => post.category !== "editorial")
-    .slice(0, 10)
-  
+function BlogContentDisplay({ posts, isLoading }: { posts: any[]; isLoading?: boolean }) {
   return (
     <main>
       {/* Hero Section */}
@@ -155,7 +155,7 @@ function InitialBlogContent() {
         </div>
       </section>
       
-      {/* Search Section Placeholder */}
+      {/* Search Section */}
       <section style={{ paddingTop: "0", paddingBottom: "48px", backgroundColor: "#ffffff" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
           <div
@@ -176,7 +176,7 @@ function InitialBlogContent() {
         </div>
       </section>
       
-      {/* Filter Pills Placeholder */}
+      {/* Filter Pills */}
       <section style={{ paddingTop: "40px", paddingBottom: "40px", backgroundColor: "#ffffff" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
@@ -205,74 +205,71 @@ function InitialBlogContent() {
       <section style={{ backgroundColor: "#ffffff", paddingBottom: "64px" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "48px" }}>
-            {allPosts.map((post) => {
-              const primaryCategory = getPrimaryCategory(post.slug, post.category)
-              return (
-                <article
-                  key={post.slug}
-                  style={{
-                    backgroundColor: "#ffffff",
-                    border: "1px solid rgba(0, 0, 0, 0.06)",
-                    borderRadius: "8px",
-                    padding: "36px",
-                    marginBottom: "32px",
-                    boxShadow: "0 1px 3px rgba(0, 0, 0, 0.05)",
-                  }}
-                >
-                  <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
-                    <time style={{
-                      fontSize: "12px",
-                      color: "#9a8878",
-                      fontWeight: 400,
-                      letterSpacing: "0.05em",
-                      marginBottom: "10px",
-                    }}>
-                      {post.date}
-                    </time>
-                    <h2 style={{
-                      fontSize: "20px",
-                      fontWeight: 600,
-                      lineHeight: 1.35,
-                      marginBottom: "12px",
-                      color: "#1a1a1a",
-                    }}>
-                      <Link href={`/blog/${post.slug}`} style={{ color: "inherit", textDecoration: "none" }}>
-                        {post.title}
-                      </Link>
-                    </h2>
-                    <p style={{
-                      fontSize: "15px",
-                      fontWeight: 400,
-                      lineHeight: 1.7,
-                      color: "#5a5048",
-                      marginBottom: "20px",
-                      flex: 1,
-                      display: "-webkit-box",
-                      WebkitLineClamp: 3,
-                      WebkitBoxOrient: "vertical",
-                      overflow: "hidden",
-                    }}>
-                      {post.excerpt}
-                    </p>
-                    <Link
-                      href={`/blog/${post.slug}`}
-                      style={{
-                        display: "inline-flex",
-                        alignItems: "center",
-                        gap: "8px",
-                        color: "#b5763a",
-                        fontWeight: 500,
-                        fontSize: "13px",
-                        textDecoration: "none",
-                      }}
-                    >
-                      Read more
-                      <ArrowRight size={16} />
+            {posts.map((post) => (
+              <article
+                key={post.slug}
+                style={{
+                  backgroundColor: "#ffffff",
+                  border: "1px solid rgba(0, 0, 0, 0.06)",
+                  borderRadius: "8px",
+                  padding: "36px",
+                  marginBottom: "32px",
+                  boxShadow: "0 1px 3px rgba(0, 0, 0, 0.05)",
+                }}
+              >
+                <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
+                  <time style={{
+                    fontSize: "12px",
+                    color: "#9a8878",
+                    fontWeight: 400,
+                    letterSpacing: "0.05em",
+                    marginBottom: "10px",
+                  }}>
+                    {post.date}
+                  </time>
+                  <h2 style={{
+                    fontSize: "20px",
+                    fontWeight: 600,
+                    lineHeight: 1.35,
+                    marginBottom: "12px",
+                    color: "#1a1a1a",
+                  }}>
+                    <Link href={`/blog/${post.slug}`} style={{ color: "inherit", textDecoration: "none" }}>
+                      {post.title}
                     </Link>
-                  </div>
-                </article>
-              )
-            })}
+                  </h2>
+                  <p style={{
+                    fontSize: "15px",
+                    fontWeight: 400,
+                    lineHeight: 1.7,
+                    color: "#5a5048",
+                    marginBottom: "20px",
+                    flex: 1,
+                    display: "-webkit-box",
+                    WebkitLineClamp: 3,
+                    WebkitBoxOrient: "vertical",
+                    overflow: "hidden",
+                  }}>
+                    {post.excerpt}
+                  </p>
+                  <Link
+                    href={`/blog/${post.slug}`}
+                    style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "8px",
+                      color: "#b5763a",
+                      fontWeight: 500,
+                      fontSize: "13px",
+                      textDecoration: "none",
+                    }}
+                  >
+                    Read more
+                    <ArrowRight size={16} />
+                  </Link>
+                </div>
+              </article>
+            ))}
           </div>
         </div>
       </section>
@@ -280,7 +277,7 @@ function InitialBlogContent() {
   )
 }
 
-function BlogContent() {
+function BlogContent({ initialPosts }: { initialPosts: any[] }) {
   const searchParams = useSearchParams()
   const router = useRouter()
   const [selectedFilter, setSelectedFilter] = useState("All")
@@ -289,7 +286,7 @@ function BlogContent() {
   // Get current page from URL, default to 1
   const currentPage = parseInt(searchParams.get("page") || "1", 10)
   
-  const allPosts = getAllPosts()
+  const allPosts = initialPosts.length > 0 ? initialPosts : getAllPosts()
     .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
   const filteredPosts = useMemo(() => {
