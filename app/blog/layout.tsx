@@ -3,7 +3,11 @@ import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
   title: "Ayurvedic Guides & Articles | DoshaFlow",
-  description: "Ayurvedic guides, research, and practical advice on digestion, sleep, stress, hormonal health, and daily wellness by dosha type.",
+  description: "Ayurvedic guides on digestion, sleep, anxiety, hormonal health, and daily wellness by dosha type.",
+  openGraph: {
+    title: "Ayurvedic Guides & Articles | DoshaFlow",
+    description: "Ayurvedic guides on digestion, sleep, anxiety, hormonal health, and daily wellness by dosha type.",
+  },
 }
 
 export default function BlogLayout({
