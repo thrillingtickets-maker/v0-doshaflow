@@ -229,6 +229,138 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             article div [style*="font-size: 48px"] {
               display: block;
             }
+
+            /* Enhanced visual styling for all article elements */
+            article div h2 {
+              position: relative;
+              padding-bottom: 16px;
+              margin-bottom: 32px;
+            }
+
+            article div h2::after {
+              content: '';
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 40px;
+              height: 3px;
+              background: linear-gradient(90deg, #c49a6c 0%, #d4a876 100%);
+              border-radius: 2px;
+            }
+
+            /* Add subtle background to blockquotes with left border */
+            article div blockquote {
+              position: relative;
+              overflow: hidden;
+            }
+
+            article div blockquote::before {
+              content: '';
+              position: absolute;
+              left: 0;
+              top: 0;
+              bottom: 0;
+              width: 4px;
+              background: linear-gradient(180deg, #c49a6c 0%, #a67c52 100%);
+            }
+
+            /* Subtle accent for intro paragraphs */
+            article div p:first-of-type::first-letter {
+              font-size: 1.2em;
+              font-weight: 700;
+              color: #c49a6c;
+            }
+
+            /* Enhanced list styling */
+            article div ul li::before {
+              content: '◆';
+              margin-right: 12px;
+              color: #c49a6c;
+              font-size: 0.6em;
+              position: relative;
+              top: 2px;
+            }
+
+            article div ul {
+              list-style: none;
+              padding-left: 0;
+            }
+
+            /* Subtle background for strong emphasis within paragraphs */
+            article div p strong {
+              background: rgba(196, 154, 108, 0.08);
+              padding: 2px 6px;
+              border-radius: 3px;
+              font-weight: 600;
+            }
+
+            /* Section dividers */
+            article div > p:nth-of-type(3n) {
+              margin-bottom: 40px;
+              padding-bottom: 24px;
+              border-bottom: 1px solid rgba(196, 154, 108, 0.15);
+            }
+
+            /* Enhanced code/technical elements if present */
+            article div code {
+              background: rgba(196, 154, 108, 0.08);
+              padding: 2px 6px;
+              border-radius: 3px;
+              font-family: 'Monaco', 'Courier New', monospace;
+              font-size: 0.95em;
+              color: #8A7660;
+            }
+
+            /* Table styling if present */
+            article div table {
+              width: 100%;
+              border-collapse: collapse;
+              margin: 32px 0;
+              border: 1px solid #e8d9c5;
+              border-radius: 4px;
+              overflow: hidden;
+            }
+
+            article div table th {
+              background: rgba(196, 154, 108, 0.08);
+              padding: 16px;
+              text-align: left;
+              font-weight: 600;
+              color: #8A7660;
+              border-bottom: 2px solid #e8d9c5;
+            }
+
+            article div table td {
+              padding: 12px 16px;
+              border-bottom: 1px solid #e8d9c5;
+            }
+
+            article div table tr:hover {
+              background: rgba(196, 154, 108, 0.04);
+            }
+
+            /* Definition list styling */
+            article div dt {
+              font-weight: 600;
+              color: #8A7660;
+              margin-top: 16px;
+              margin-bottom: 8px;
+            }
+
+            article div dd {
+              margin-left: 16px;
+              margin-bottom: 16px;
+              color: #3a3a3a;
+              line-height: 1.85;
+            }
+
+            /* Add visual separation between major sections */
+            article div h2 + p {
+              font-size: 16px;
+              color: #666;
+              font-style: italic;
+              margin-bottom: 24px;
+            }
           `}</style>
           <div
             style={{ color: "#2c1a0e", lineHeight: 1.85 }}
