@@ -15,10 +15,12 @@ const CATEGORY_COLORS: Record<string, { accent: string; border: string; pill: st
   "Tea": { accent: "#9a8a5a", border: "#b0a070", pill: "#faf8f2" },
   "Doshas": { accent: "#8a7a6e", border: "#a09a8e", pill: "#f5f0e8" },
   "Weight Loss": { accent: "#8a8a5a", border: "#a0a070", pill: "#faf9f2" },
+  "Editorial": { accent: "#a89a7a", border: "#b0a890", pill: "#faf7f0" },
 }
 
 const FILTER_CATEGORIES = [
   "All",
+  "Editorial",
   "Doshas",
   "Tea",
   "Digestion",
@@ -36,6 +38,10 @@ function getArticleFilters(slug: string, category: string): string[] {
   const filters = ["All"]
   if (category === "journal") {
     filters.push("Retreat Journal")
+    return filters
+  }
+  if (category === "editorial") {
+    filters.push("Editorial")
     return filters
   }
   // Tea articles
@@ -85,6 +91,7 @@ function getArticleFilters(slug: string, category: string): string[] {
 }
 function getPrimaryCategory(slug: string, category: string): string {
   if (category === "journal") return "Retreat Journal"
+  if (category === "editorial") return "Editorial"
   if (slug.includes("tea")) return "Tea"
   if (slug.includes("dosha") || slug.includes("vata-") || slug.includes("pitta-") || slug.includes("kapha-")) return "Doshas"
   if (slug.includes("bloat") || slug.includes("digest") || slug.includes("ice-water")) return "Digestion"
@@ -130,12 +137,13 @@ function BlogContent() {
   const searchParams = useSearchParams()
   const router = useRouter()
   const [selectedFilter, setSelectedFilter] = useState("All")
+  const [searchQuery, setSearchQuery] = useState("")
   
   // Get current page from URL, default to 1
   const currentPage = parseInt(searchParams.get("page") || "1", 10)
   
   const allPosts = getAllPosts()
-    .filter((post) => post.category === "article" || post.category === "journal")
+    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
   const filteredPosts = useMemo(() => {
     let posts = selectedFilter === "All" 
@@ -144,6 +152,16 @@ function BlogContent() {
         const filters = getArticleFilters(post.slug, post.category)
         return filters.includes(selectedFilter)
       })
+    
+    // Search filter
+    if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase()
+      posts = posts.filter((post) => 
+        post.title.toLowerCase().includes(query) ||
+        post.excerpt.toLowerCase().includes(query) ||
+        post.slug.toLowerCase().includes(query)
+      )
+    }
     
     // When showing All articles and featured retreat section exists, exclude retreat-day from grid
     if (selectedFilter === "All") {
@@ -159,7 +177,7 @@ function BlogContent() {
     )
     
     return uniquePosts
-  }, [selectedFilter, allPosts])
+  }, [selectedFilter, allPosts, searchQuery])
   
   // Calculate pagination
   const totalPages = Math.ceil(filteredPosts.length / ARTICLES_PER_PAGE)
@@ -189,6 +207,37 @@ function BlogContent() {
           <p style={{ fontSize: "16px", color: "#8a7a6e", marginBottom: "0" }}>
             Ayurvedic guides, research, and practical advice on digestion, sleep, stress, hormonal health, and daily wellness by dosha type.
           </p>
+        </div>
+      </section>
+      {/* Search Section */}
+      <section style={{ paddingTop: "0", paddingBottom: "32px", backgroundColor: "#ffffff" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
+          <input
+            type="text"
+            placeholder="Search articles..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            style={{
+              width: "100%",
+              maxWidth: "400px",
+              padding: "10px 14px",
+              fontSize: "14px",
+              border: "1px solid rgba(0, 0, 0, 0.08)",
+              borderRadius: "6px",
+              fontFamily: "inherit",
+              backgroundColor: "#f9f9f9",
+              transition: "all 0.2s ease",
+              outline: "none",
+            }}
+            onFocus={(e) => {
+              e.currentTarget.style.borderColor = "rgba(0, 0, 0, 0.16)"
+              e.currentTarget.style.backgroundColor = "#ffffff"
+            }}
+            onBlur={(e) => {
+              e.currentTarget.style.borderColor = "rgba(0, 0, 0, 0.08)"
+              e.currentTarget.style.backgroundColor = "#f9f9f9"
+            }}
+          />
         </div>
       </section>
       {/* Filter Pills */}

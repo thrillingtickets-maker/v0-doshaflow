@@ -1,6 +1,6 @@
 export interface Post {
   slug: string
-  category: "journal" | "article"
+  category: "journal" | "article" | "editorial"
   title: string
   date: string
   excerpt: string
@@ -13,7 +13,7 @@ export interface Post {
 export const posts: Post[] = [
   {
     slug: "honest-beginners-guide-ayurveda-2026",
-    category: "article",
+    category: "editorial",
     title: "The Honest Beginner's Guide to Ayurveda in 2026",
     date: "June 2, 2026",
     excerpt: "What Ayurveda actually is, why it still matters for modern overwhelm, what you're probably misunderstanding, and how to approach it without becoming dogmatic or broke.",
@@ -23,7 +23,7 @@ export const posts: Post[] = [
   },
   {
     slug: "is-ayurveda-safe-heavy-metals",
-    category: "article",
+    category: "editorial",
     title: "Is Ayurveda Safe? What to Know About Heavy Metals, Claims, and Trust",
     date: "June 2, 2026",
     excerpt: "The heavy metal contamination issue in Ayurvedic supplements is real. Here is why it happens, why not all Ayurveda is unsafe, and how to choose products that won't hurt you.",
@@ -53,7 +53,7 @@ export const posts: Post[] = [
   },
   {
     slug: "what-western-wellness-gets-wrong-about-ayurveda",
-    category: "article",
+    category: "editorial",
     title: "What Western Wellness Gets Wrong About Ayurveda",
     date: "June 2, 2026",
     excerpt: "Western wellness has taken Ayurveda and turned it into something unrecognizable. Here is what got lost in translation and why it matters.",
@@ -63,7 +63,7 @@ export const posts: Post[] = [
   },
   {
     slug: "building-doshaflow-safety-sourcing-personalization",
-    category: "article",
+    category: "editorial",
     title: "Why I'm Building DoshaFlow Around Safety, Sourcing, and Personalization",
     date: "June 2, 2026",
     excerpt: "A founder manifesto. Why Ayurveda is growing, why trust is the bottleneck, and why DoshaFlow is not trying to be another generic wellness brand.",

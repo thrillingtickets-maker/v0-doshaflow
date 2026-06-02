@@ -22,6 +22,7 @@ import { ExploreByGoal } from "@/components/explore-by-goal"
 import { ExploreByDosha } from "@/components/explore-by-dosha"
 import { StartHere } from "@/components/start-here"
 import { PopularArticles } from "@/components/popular-articles"
+import { EditorialEssays } from "@/components/editorial-essays"
 import { Testimonials } from "@/components/testimonials"
 import { Waitlist } from "@/components/waitlist"
 import { Footer } from "@/components/footer"
@@ -62,6 +63,9 @@ export default function Home() {
       
       {/* (7) Sample Reports preview section */}
       <PopularArticles />
+      
+      {/* (7b) Editorial Essays section */}
+      <EditorialEssays />
       
       {/* (8) Retreat Journal preview */}
       <section id="testimonials">
