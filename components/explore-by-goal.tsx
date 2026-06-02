@@ -31,7 +31,7 @@ export function ExploreByGoal() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 justify-items-center lg:justify-items-start">
           {goalCards.map((card, index) => (
             <motion.div
               key={card.href}
@@ -39,6 +39,7 @@ export function ExploreByGoal() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.08 }}
+              className={index >= 4 ? "xl:col-span-1" : ""}
             >
               <Link
                 href={card.href}
