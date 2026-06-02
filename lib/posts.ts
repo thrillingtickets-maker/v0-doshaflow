@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">����� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">������ Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -611,7 +611,48 @@ export const posts: Post[] = [
     excerpt: "The complete Pitta diet plan — best foods to cool Pitta, what to avoid, and a practical daily template including the most common Pitta dietary mistakes.",
     seoTitle: "Pitta Diet Plan: How to Cool the Fire Without Losing the Edge",
     seoDescription: "The complete Pitta diet plan — best foods to cool Pitta, what to avoid, and a practical daily template including the most common Pitta dietary mistakes.",
-    content: `<div style="background: #FEF3E2; padding: 32px; border-radius: 4px; margin: 32px 0; text-align: center;"><div style="font-size: 48px; font-weight: bold; color: #8A7660; line-height: 1.2;">, </div><p style="margin-top: 12px; font-size: 14px; color: #666;">Key metric</p></div><h2>What Pitta actually needs.</h2><p>Pitta is hot sharp light intense — the diet needs to counterbalance with cool heavy sweet. Three most important principles: eat cooling food — not spicy sour salty or heating; eat on time — Pitta blood sugar sensitivity means skipped meal produces irritability headache intensity; do not eat to extremes — obsession with perfect diet is itself Pitta-aggravating.</p><h2>Best foods for Pitta.</h2><p>Grains: basmati rice oats wheat barley. Vegetables: sweet bitter astringent leafy greens cucumber zucchini asparagus broccoli sweet potato fennel — raw salads more appropriate for Pitta than Vata. Fruits: sweet ripe cooling coconut melons grapes pomegranates pears. Fats: ghee excellent cooling and clarifying, coconut oil most cooling, avoid sesame in large quantities. Spices: cooling or mild — coriander fennel cardamom saffron mint, avoid chilli cayenne mustard seeds.</p><h2>Foods Pitta should avoid or reduce.</h2><p>Spicy food adds heat to hot system. Alcohol most significant Pitta aggravator processed by liver. Coffee heating and acidic. Sour fermented foods. Red meat. Eating when angry or stressed.</p><h2>The Pitta daily food plan.</h2><p>Light cooling breakfast. Substantial satisfying lunch between noon and 1pm using Pitta digestion peak window. Lighter dinner. No eating past 8pm. Cool milk with cardamom in evening.</p><h2>The most important Pitta supplement.</h2><p>Shatavari and brahmi as supplements.</p>`,  },
+    content: `<p>Pitta is the fire element: intense, focused, driven. In balance, Pitta types are dynamic, ambitious, intelligent, and able to digest not just food but also complex information and emotions. Out of balance, Pitta becomes inflammatory — producing acne, reflux, ulcers, and emotional reactivity. The Pitta diet is not about restriction. It is about channelling intense fire productively rather than letting it burn destructively.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:28px;">You may be running hot — Pitta excess signals</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Acid reflux or heartburn after meals</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Skin that flushes, breaks out, or feels inflamed</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Irritability that seems disproportionate</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Strong hunger — feels like anger if meals are skipped</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Wired and alert 10pm–midnight when you should wind down</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Loose stool or diarrhoea, especially after spicy food or alcohol</div>
+  </div>
+</div><h2>What Pitta actually needs.</h2><p>Pitta is hot sharp light intense — the diet needs to counterbalance with cool heavy sweet. Three most important principles: eat cooling food — not spicy sour salty or heating; eat on time — Pitta blood sugar sensitivity means skipped meal produces irritability headache intensity; do not eat to extremes — obsession with perfect diet is itself Pitta-aggravating.</p><h2>Best foods for Pitta.</h2><p>Grains: basmati rice oats wheat barley. Vegetables: sweet bitter astringent leafy greens cucumber zucchini asparagus broccoli sweet potato fennel — raw salads more appropriate for Pitta than Vata. Fruits: sweet ripe cooling coconut melons grapes pomegranates pears. Fats: ghee excellent cooling and clarifying, coconut oil most cooling, avoid sesame in large quantities. Spices: cooling or mild — coriander fennel cardamom saffron mint, avoid chilli cayenne mustard seeds.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Category</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#2d5a47;text-transform:uppercase;">Favour ✓</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#c0392b;text-transform:uppercase;">Reduce ✗</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Grains</div>
+    <div style="font-size:13px;color:#4a3728;">Basmati rice, oats, barley</div>
+    <div style="font-size:13px;color:#4a3728;">Brown rice, corn, rye</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Vegetables</div>
+    <div style="font-size:13px;color:#4a3728;">Cucumber, zucchini, leafy greens, broccoli</div>
+    <div style="font-size:13px;color:#4a3728;">Tomatoes, peppers, onion raw, garlic</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Protein</div>
+    <div style="font-size:13px;color:#4a3728;">Chicken, white fish, tofu, legumes</div>
+    <div style="font-size:13px;color:#4a3728;">Red meat, egg yolks, shellfish</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Fats</div>
+    <div style="font-size:13px;color:#4a3728;">Ghee, coconut oil, sunflower oil</div>
+    <div style="font-size:13px;color:#4a3728;">Sesame oil, almond oil</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Drinks</div>
+    <div style="font-size:13px;color:#4a3728;">Coconut water, mint tea, rose water, fennel tea</div>
+    <div style="font-size:13px;color:#4a3728;">Alcohol, coffee, kombucha, citrus juice</div>
+  </div>
+</div><h2>Foods Pitta should avoid or reduce.</h2><p>Spicy food adds heat to hot system. Alcohol most significant Pitta aggravator processed by liver. Coffee heating and acidic. Sour fermented foods. Red meat. Eating when angry or stressed.</p><h2>The Pitta daily food plan.</h2><p>Light cooling breakfast. Substantial satisfying lunch between noon and 1pm using Pitta digestion peak window. Lighter dinner. No eating past 8pm. Cool milk with cardamom in evening.</p><h2>The most important Pitta supplement.</h2><p>Shatavari and brahmi as supplements.</p>`,  },
   {
     slug: "vata-diet-plan",
     category: "article",
@@ -932,7 +973,7 @@ export const posts: Post[] = [
     date: "May 22, 2026",
     excerpt: "Ayurveda identifies three distinct PMS patterns — Vata, Pitta, and Kapha — each with different causes and different remedies. Here's how to identify yours and what actually helps.",
     seoTitle: "The Ayurvedic Approach to PMS: Three Patterns and What to Do About Each",
-    seoDescription: "Ayurveda identifies three distinct PMS patterns — Vata, Pitta, and Kapha — each with different causes and different remedies. Here's how to identify yours and what actually helps.",
+    seoDescription: "Ayurveda identifies three distinct PMS patterns — Vata, Pitta, and Kapha ��� each with different causes and different remedies. Here's how to identify yours and what actually helps.",
     content: `<p>Premenstrual syndrome is typically discussed in Western medicine as a fixed hormonal condition requiring management (usually drugs) or lifestyle optimization. Ayurveda describes PMS as something different: an obstructed cleansing process. Each month, the body is designed to shed the uterine lining that built up during the cycle. When this shedding process meets resistance — from poor digestion, weak liver function, hormonal stagnation, or constitutional imbalance — PMS symptoms emerge. This framing changes everything because it means PMS is not a permanent feature of your body. It's a sign that something in the system is obstructed and preventing normal function. The obstruction is removable.</p><div style="background: #FEF3E2; padding: 32px; border-radius: 4px; margin: 32px 0; text-align: center;"><div style="font-size: 48px; font-weight: bold; color: #8A7660; line-height: 1.2;">, </div><p style="margin-top: 12px; font-size: 14px; color: #666;">Key metric</p></div><h2>What Ayurveda actually says about PMS.</h2><p>In Ayurvedic medicine, the menstrual cycle and the digestive system are intimately connected through agni (digestive fire) and the liver. When agni is strong and digestion is efficient, the monthly cleansing process is smooth and PMS symptoms are minimal. When agni is weak and digestion is compromised, the body cannot effectively process and clear the hormonal byproducts that need to be eliminated. These byproducts accumulate, creating inflammation, mood disturbance, physical pain, and the cascade of PMS symptoms. Additionally, the liver is the Pitta organ (the organ of transformation and metabolism). When the liver is burdened by poor diet, alcohol, inflammation, or hormonal load, its capacity to process and clear hormones is reduced. This creates stagnation. The solution is not to manage the symptoms but to restore liver and digestive function so the monthly cleansing happens efficiently.</p><h2>The three PMS patterns.</h2><p><strong>Vata PMS (anxiety, insomnia, pain, bloating):</strong> Vata PMS is characterized by anxiety spikes, insomnia (especially the week before), lower back pain, bloating, and constipation. There is often a feeling of being ungrounded or scattered. This pattern reflects the dry, irregular, mobile qualities of Vata. The luteal phase (the second half of the cycle) naturally has more Vata qualities, so Vata-predominant people often experience worse PMS in the luteal phase. The solution involves grounding, nourishing practices: consistent meals emphasizing warming fats, root vegetables, and cooked grains; oil massage; earlier sleep; calming practices like yoga nidra.</p><p><strong>Pitta PMS (irritability, anger, skin, heavy flow):</strong> Pitta PMS is characterized by intense irritability that can escalate to anger, breast tenderness and pain, skin flares and breakouts, heavier-than-normal flow, and often severe headaches. This pattern reflects the hot, sharp, intense qualities of Pitta. This is often the most disruptive PMS pattern because the mood symptoms are pronounced. The solution involves cooling practices: cooling foods (coconut, leafy greens, cooling spices like cilantro and fennel), reduced alcohol and spicy foods, meditation, and herbs that cool Pitta like brahmi. The liver support is also critical.</p><p><strong>Kapha PMS (water retention, heaviness, fatigue, cravings):</strong> Kapha PMS is characterized by water retention, breast heaviness and tenderness, emotional flatness or low mood, carbohydrate cravings, and fatigue. The body feels heavy and sluggish. This pattern reflects the heavy, damp, static qualities of Kapha. The solution involves stimulation and movement: morning exercise, warming spices, light meals, and stimulating practices like vigorous yoga or walking.</p><h2>The herbs.</h2><p>Shatavari is the foundation for all PMS patterns. It nourishes the reproductive system, balances hormones, and supports the body's natural cleansing process. It is not addressing one dosha pattern specifically but rather supporting the underlying system so it functions properly. Triphala is critical for elimination — it gently supports digestive elimination so that hormonal byproducts are cleared rather than reabsorbed. For Vata PMS specifically, ashwagandha provides grounding and nervous system support. For Pitta PMS, brahmi and additional shatavari work together to cool Pitta while supporting hormonal balance. For Kapha PMS, trikatu and guggul provide the stimulation needed to move stagnation. The herb protocol changes based on which pattern dominates your PMS, but all protocols include shatavari and triphala as the foundation.</p><h2>Diet in the two weeks before your period.</h2><p>The luteal phase (the two weeks before your period) is when most women experience increased Vata naturally. This means the body needs more nourishment and grounding, not less. This is when you need to emphasize warm meals, healthy fats, cooked foods, and avoid raw and cold foods. This is also when alcohol becomes more problematic because it further depletes the system and impairs the liver's capacity to clear hormones. A single glass of wine in the follicular phase might have no noticeable effect. The same glass in the luteal phase can noticeably worsen mood, bloating, and breast tenderness. This is not about restriction — it's about understanding timing and making intentional choices. Caffeine should also be reduced in the luteal phase because it amplifies anxiety and can worsen breast tenderness. Cold smoothies, salads, and raw vegetables should be replaced with warm soups, cooked vegetables, and warm grains.</p><h2>The lifestyle piece.</h2><p>The luteal phase is supposed to be different from the follicular phase. Your energy naturally shifts. Your nervous system is naturally more sensitive. Your body naturally wants slower pace and earlier sleep. Rather than fighting this and expecting to maintain the same schedule and intensity, the Ayurvedic approach is to work with it. Reduce intense exercise in the luteal phase — replace it with gentler movement like walking or yin yoga. Sleep earlier — the Kapha window for deep sleep closes at 10pm, and the luteal phase benefits most from sleep initiated during this window. Reduce intense work — if possible, schedule demanding tasks for the follicular phase and less demanding work for the luteal phase. Increase quiet time — meditation, journaling, time in nature. The body is naturally moving toward menstruation, and attempting to push through with the same intensity as the follicular phase usually backfires and worsens symptoms.</p><h2>What I've noticed.</h2><p>The most striking pattern is how quickly PMS symptoms shift when women make concrete dietary and lifestyle changes during the luteal phase. Within one cycle, most women notice reduction in anxiety and mood symptoms. Within two cycles, bloating and pain usually improve significantly. By three cycles, many women report that their PMS is barely noticeable if they maintain the practices. The key is consistency — the benefits only persist if you maintain the dietary and lifestyle practices. Interestingly, the improvement in PMS often coincides with other improvements: better digestion in general, more stable energy, clearer skin, and better sleep. This reflects the fact that PMS is not isolated — it is a symptom of overall poor digestion and liver function. When you fix the underlying system, PMS resolves as a side effect.</p>`,
   },
   {
@@ -1131,8 +1172,10 @@ export const posts: Post[] = [
     excerpt: "Ashwagandha and Brahmi are both adaptogens but they work completely differently. Here is the clear distinction — and when to use each one.",
     seoTitle: "Ashwagandha vs Brahmi: Which Ayurvedic Herb Do You Actually Need?",
     seoDescription: "Ashwagandha and Brahmi are both adaptogens but they work completely differently. Here is the clear distinction — and when to use each one.",
-    content: `<p>Both are among the most important herbs in the Ayurvedic pharmacopoeia. Both are adaptogens. Both are used for stress, cognitive function, and nervous system support. Both are increasingly well-researched in Western clinical literature. They are not the same thing, and using the wrong one for the wrong condition produces suboptimal results. Here is the clear distinction.</p>
-<div style="background: #FEF3E2; padding: 32px; border-radius: 4px; margin: 32px 0; text-align: center;"><div style="font-size: 48px; font-weight: bold; color: #8A7660; line-height: 1.2;">, </div><p style="margin-top: 12px; font-size: 14px; color: #666;">Key metric</p></div><h2>Ashwagandha: The Body-First Adaptogen.</h2>
+    content: `<p>Both are among the most important herbs in the Ayurvedic pharmacopoeia. Both are adaptogens. Both are used for stress, cognitive function, and nervous system support. Both are increasingly well-researched in Western clinical literature. They are not the same thing, and using the wrong one for the wrong condition produces suboptimal results. Here is the clear distinction.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">Ashwagandha and Brahmi are the two most clinically studied Ayurvedic herbs in the West. They work on different systems, for different patterns. Getting them confused is common and costly.</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">One is a body-first adaptogen. One is a mind-first nootropic. Both are mismarketed as interchangeable.</div>
+</div><h2>Ashwagandha: The Body-First Adaptogen.</h2>
 <p>Ashwagandha works primarily on the adrenal system and the HPA axis — the pathway that regulates the body's stress response. Its primary mechanism is cortisol modulation. Multiple clinical trials have demonstrated statistically significant reductions in serum cortisol, improvements in sleep quality, and reductions in anxiety scores with consistent use. In Ayurvedic terms it is a Rasayana — a rejuvenating tonic that nourishes ojas, builds tissue, and strengthens the body's reserves. It is warming, grounding, and deeply nourishing. The conditions it is most suited for: physical depletion and fatigue from overwork; cortisol dysregulation and the wired-but-tired pattern; testosterone and reproductive health in men; anxiety rooted in depletion. Dosha fit: primarily Vata, secondarily Kapha. Pitta types should use with caution.</p>
 <h2>Brahmi: The Mind-First Adaptogen.</h2>
 <p>Brahmi works primarily on the brain and cognitive function. Its mechanisms include antioxidant effects on neural tissue and modulation of neurotransmitter systems. In Ayurvedic terms it is the primary Medhya Rasayana — a brain-specific rejuvenator that enhances knowledge acquisition, retention, and recall. It is cooling, clarifying, and specific to the mental functions. The conditions it is most suited for: brain fog and cognitive sluggishness; mental anxiety — the specific pattern of overthinking, cycling thoughts, and mental restlessness; Pitta mental excess — the intense overheated quality of a Pitta mind; learning and study. The clinical evidence for Brahmi is among the strongest in the Ayurvedic literature. Dosha fit: primarily Pitta, secondarily Vata. More appropriate for Pitta than Ashwagandha.</p>
@@ -1142,6 +1185,47 @@ export const posts: Post[] = [
 <p>Ashwagandha: 300-600mg root extract or half a teaspoon of root powder in warm milk, taken at night before bed. Brahmi: 300mg standardised extract or Brahmi leaf tea, taken in the afternoon during the 2-6pm Vata window when mental activation tends to peak. Both herbs require consistency — meaningful results appear at 6-8 weeks of daily use. Neither is an acute intervention.</p>
 <h2>The Simple Decision Tree.</h2>
 <p>If the primary symptom is physical — fatigue, low energy, poor recovery, sleep disruption, depleted feeling — start with Ashwagandha. If the primary symptom is mental — brain fog, racing thoughts, anxiety that is more cognitive than physical, difficulty concentrating — start with Brahmi. If both are present, which is common in burnout — use both, with Ashwagandha at night and Brahmi in the afternoon. If you run hot, get angry easily, have inflammatory skin conditions or acid reflux — favour Brahmi over Ashwagandha.</p>
+<div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:160px 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;"></div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Ashwagandha</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Brahmi</div>
+  </div>
+  <div style="display:grid;grid-template-columns:160px 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Primary action</div>
+    <div style="font-size:13px;color:#4a3728;">Adrenal/HPA axis, cortisol, testosterone</div>
+    <div style="font-size:13px;color:#4a3728;">Hippocampus, serotonin, cognition</div>
+  </div>
+  <div style="display:grid;grid-template-columns:160px 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Best for</div>
+    <div style="font-size:13px;color:#4a3728;">Physical depletion, poor sleep, adrenal fatigue</div>
+    <div style="font-size:13px;color:#4a3728;">Overthinking, brain fog, cognitive anxiety</div>
+  </div>
+  <div style="display:grid;grid-template-columns:160px 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Dosha</div>
+    <div style="font-size:13px;color:#4a3728;">Primarily Vata; some Kapha</div>
+    <div style="font-size:13px;color:#4a3728;">Primarily Pitta; some Vata</div>
+  </div>
+  <div style="display:grid;grid-template-columns:160px 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Timing</div>
+    <div style="font-size:13px;color:#4a3728;">Evening — warm milk, before bed</div>
+    <div style="font-size:13px;color:#4a3728;">Afternoon — 2–4pm, Vata window</div>
+  </div>
+  <div style="display:grid;grid-template-columns:160px 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Research</div>
+    <div style="font-size:13px;color:#4a3728;">20–30% cortisol reduction in multiple RCTs</div>
+    <div style="font-size:13px;color:#4a3728;">Memory consolidation improvements at 12 weeks</div>
+  </div>
+  <div style="display:grid;grid-template-columns:160px 1fr 1fr;padding:14px 20px;background:#f5f0e8;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Take if</div>
+    <div style="font-size:13px;color:#4a3728;">Your body is depleted, sleep is poor</div>
+    <div style="font-size:13px;color:#4a3728;">Your mind is overheated, focus is scattered</div>
+  </div>
+</div>
+<div style="background:#2a1f14;border-radius:8px;padding:20px;margin-top:8px;display:flex;gap:12px;align-items:flex-start;">
+  <div style="font-size:11px;letter-spacing:0.12em;color:#b5763a;text-transform:uppercase;min-width:90px;padding-top:2px;">Burnout</div>
+  <div style="font-size:14px;color:#c4a882;">Take both — Ashwagandha at night, Brahmi in the afternoon. They address the same underlying depletion from two directions and compound each other's effects.</div>
+</div>
 <div style={{ marginTop: "48px", padding: "32px", backgroundColor: "#f5ede1", border: "1px solid #e8d9c5", borderLeft: "4px solid #8a7a5a", borderRadius: "6px" }}>
   <p style={{ fontSize: "16px", fontWeight: 600, color: "#2c1a0e", marginBottom: "16px" }}>Find your dosha and personalize your approach</p>
   <a href="/quiz" style={{ display: "inline-block", backgroundColor: "#8a7a5a", color: "#fdf8f3", padding: "12px 24px", borderRadius: "24px", textDecoration: "none", fontWeight: 600, fontSize: "14px" }}>Take the Free Dosha Quiz →</a>
