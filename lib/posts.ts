@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">���������������������������������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">����������������������������������������� Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -4044,6 +4044,39 @@ export const posts: Post[] = [
     </div>
   </div>
 </div><h2>What to Expect</h2><p>During a cleanse week, it is common to experience: increased congestion or drainage (this is the body moving accumulated material), changes in digestion or elimination (this is agni increasing), and energy shifts (some fatigue as the body directs energy to cleansing, then increased clarity afterward). These are not side effects. They are evidence that the cleansing is working.</p><p>After seven days, most people report feeling noticeably lighter, clearer, and more energetic. Digestion becomes more regular. Congestion resolves. The body feels recalibrated. From there, the goal is to maintain this lightness by continuing to eat well, exercise regularly, and avoid the accumulation of Kapha through the rest of the season.</p>`
+  },
+  {
+    slug: "ayurveda-for-endometriosis",
+    category: "article",
+    title: "Ayurveda and Endometriosis: Addressing Inflammation and Estrogen Accumulation",
+    date: "June 3, 2026",
+    excerpt: "Endometriosis in Ayurveda is Pitta excess and ama accumulation creating tissue misplacement. Here is the complete protocol for adjunct support.",
+    seoTitle: "Ayurveda and Endometriosis: Complete Support Protocol",
+    seoDescription: "Ayurvedic approach to endometriosis. Learn how to cool inflammation, clear ama, and support hormonal health through Ayurvedic herbs and lifestyle.",
+    content: `<p>Endometriosis is a condition where tissue similar to the uterine lining grows outside the uterus, causing pain, inflammation, and often infertility. Western medicine recognizes the inflammatory nature of the disease and increasingly the role of estrogen dysregulation, but treatment options remain limited — often hormonal suppression or surgery. Ayurveda offers a complementary perspective.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">Ayurveda describes endometriosis as a combination of Pitta excess (inflammation) and ama (toxin accumulation) creating tissue misplacement. The treatment addresses both simultaneously — cooling the fire and clearing the accumulation.</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">This is adjunct support — not a replacement for medical care. Ayurvedic interventions work alongside, not instead of, gynaecological treatment.</div>
+</div><h2>Understanding the Ayurvedic Picture</h2><p>In Ayurvedic terms, endometriosis represents a combination of pathology: Pitta excess creates the inflammatory environment that drives tissue growth and pain; ama (undigested, sticky toxins) accumulates in the reproductive channels, providing a substrate for aberrant tissue growth; and stagnation in the channels prevents normal tissue clearing and renewal.</p><p>This is why Ayurvedic treatment is multi-directional: cooling Pitta addresses inflammation directly; clearing ama removes the accumulated substrate; and stimulating lymphatic and reproductive flow prevents new accumulation. When all three are addressed simultaneously, the condition becomes manageable and often improves significantly.</p><h2>The Three-Pronged Approach</h2><p>Ayurvedic support for endometriosis works through three mechanisms: first, cooling the system to reduce inflammation; second, clearing accumulated ama through targeted herbs and practices; and third, supporting hormonal and reproductive function through specific herbs like Shatavari that work on the deepest tissue layers.</p><p>Unlike pharmaceutical approaches that attempt to suppress the disease, Ayurveda seeks to restore the system's capacity to regulate itself — to cool its own inflammation, clear its own accumulation, and reestablish normal tissue turnover.</p><h2>Cooling the Inflammation</h2><p>Pitta excess in endometriosis manifests as inflammation and pain. The first intervention is dietary: eliminating the foods that amplify Pitta — alcohol, red meat, spicy foods, and processed foods high in seed oils and sugar. In their place: anti-inflammatory foods including turmeric, leafy greens, cooling herbs like cilantro, and omega-3 rich foods like fish and flax.</p><p>Herbs that cool Pitta and reduce inflammation include: Shatavari (the primary female reproductive herb), Brahmi (cooling to the mind and nervous system), Manjistha (blood-cooling and lymphatic-moving), and Triphala (clearing without depleting). These are used together as part of a coordinated protocol, not individually.</p><h2>Clearing Ama from Reproductive Channels</h2><p>Ama accumulation in the reproductive channels prevents normal tissue turnover. The treatment is gentle but persistent: herbs that are both moving (activating the lymphatic system) and clearing (supporting detoxification), combined with practices that enhance circulation.</p><p>In Ayurveda, the reproductive channels share lymphatic pathways with the digestive system. Constipation allows reabsorption of estrogen from the bowel — a major driver of systemic estrogen excess. Regular, complete elimination is therefore essential. Triphala taken nightly ensures gentle, thorough clearing without depleting tissue.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:20px;">Foundational lifestyle support — all stages</div>
+  <div style="display:flex;flex-direction:column;gap:12px;">
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">1</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Alcohol out completely</strong><span style="font-size:13px;color:#c4a882;"> — the liver metabolises estrogen. Alcohol directly impairs this clearance, amplifying estrogen-driven tissue growth. This is not optional for endometriosis.</span></div>
+    </div>
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">2</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Shatavari daily</strong><span style="font-size:13px;color:#c4a882;"> — Ayurveda's primary female reproductive herb. Supports hormonal regulation and the gut lining through which estrogen is processed.</span></div>
+    </div>
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">3</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Cooling anti-inflammatory diet</strong><span style="font-size:13px;color:#c4a882;"> — reduce red meat, alcohol, and processed food. Increase turmeric, leafy greens, and omega-3 rich fish. Systemic inflammation directly worsens endo pain.</span></div>
+    </div>
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">4</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Triphala for elimination</strong><span style="font-size:13px;color:#c4a882;"> — constipation allows reabsorption of estrogen from the bowel. Regular, complete elimination is a non-negotiable part of hormone management.</span></div>
+    </div>
+  </div>
+</div><h2>Timeline and Expectations</h2><p>Endometriosis is a chronic condition that has typically developed over years. Ayurvedic support works gradually, building tissue quality and clearing accumulation systematically. Most people report noticeable pain reduction within 4–6 weeks of consistent practice. More significant changes in symptom severity take 3–6 months. The goal is not a cure but a managed condition with significantly reduced inflammation, pain, and progression.</p><p>The protocol requires consistency — daily herbs, sustained dietary changes, and regular practice. When adhered to, the majority of people report improved quality of life and reduced medical intervention requirements.</p>`
   }
 ]
 
