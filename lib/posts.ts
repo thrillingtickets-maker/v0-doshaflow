@@ -4484,6 +4484,49 @@ export const posts: Post[] = [
     </div>
   </div>
 </div><h2>The Path Forward</h2><p>Sobriety is achievable, and sustainable sobriety — where the person no longer experiences cravings because their nervous system no longer needs the substance — is common when the right support is provided. The key is understanding that this is not a battle of willpower. It is the creation of conditions under which the nervous system can heal. When those conditions are in place, recovery becomes natural.</p>`
+  },
+  {
+    slug: "ayurveda-for-jet-lag",
+    category: "article",
+    title: "Ayurveda and Jet Lag: Navigating Long-Haul Travel Without Losing Your Rhythm",
+    date: "June 3, 2026",
+    excerpt: "Jet lag is Vata aggravation. The Ayurvedic protocol addresses all the Vata disruption simultaneously — not just sleep timing, but grounding, hydration, digestion, and nervous system support.",
+    seoTitle: "Ayurveda and Jet Lag: Complete Travel Protocol",
+    seoDescription: "Ayurvedic approach to jet lag and travel. Learn how to prepare before travel, manage during flight, and recover quickly on arrival.",
+    content: `<p>Jet lag is one of the most misunderstood travel challenges. Most people think of it as a sleep problem and attempt to solve it solely through sleep timing. In Ayurveda, jet lag is understood as Vata aggravation — a complex derangement that involves not just sleep disruption, but nervous system dysregulation, digestive disruption, dehydration, and the loss of circadian grounding.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
+  <div style="font-size:64px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">Vata</div>
+  <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">The dosha of movement — and the one most disrupted by long-haul travel</div>
+  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">Jet lag is Vata aggravation from rapid movement across time zones combined with dry pressurised air, disrupted meals, disrupted sleep, and the dehydration that accumulates across a long flight. The Ayurvedic protocol addresses all of these simultaneously — not just sleep timing.</div>
+</div><h2>Understanding Jet Lag as Vata Aggravation</h2><p>Vata governs movement and circadian rhythm. When you cross multiple time zones rapidly, Vata is severely aggravated. The pressurised cabin of an aircraft further aggravates Vata through dryness and the lack of grounding. Irregular meal times and the disruption of sleep patterns deepen the problem. The person arrives not just tired, but genuinely dysregulated — their nervous system unable to synchronise with their new environment.</p><p>This is why jet lag affects people differently based on constitution. A Vata-dominant person will experience severe jet lag with anxiety, insomnia, and nervous system dysregulation. A Kapha-dominant person might experience primarily heaviness and sluggishness. A Pitta person might experience irritability and digestive problems. Understanding your constitution allows you to anticipate and prevent your specific jet lag pattern.</p><h2>The Ayurvedic Protocol for Travel</h2><p>The key to preventing jet lag is preparing before you leave, managing the flight itself, and supporting rapid recovery on arrival. This is not a single intervention but a coordinated approach that addresses every aspect of Vata aggravation.</p><p>The foundation is Ashwagandha in the days before travel — building nervous system resilience before the journey begins. During the flight, hydration and grounding are paramount. Warm water consumed consistently, sesame oil applied to the feet, and avoidance of alcohol prevent the severe drying that drives Vata aggravation. On arrival, warm food, natural light exposure, and continued nervous system support allow the body to synchronise quickly.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Before travel</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">During the flight</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">On arrival</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:20px;background:#faf7f2;">
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      <div style="font-size:13px;color:#4a3728;">• Ashwagandha for 3+ nights before</div>
+      <div style="font-size:13px;color:#4a3728;">• Eat a full warm meal before boarding</div>
+      <div style="font-size:13px;color:#4a3728;">• Pack sesame oil, ginger tea, Triphala</div>
+      <div style="font-size:13px;color:#4a3728;">• Get one extra night of sleep</div>
+      <div style="font-size:13px;color:#4a3728;">• No alcohol the night before</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      <div style="font-size:13px;color:#4a3728;">• Warm water every hour</div>
+      <div style="font-size:13px;color:#4a3728;">• No alcohol on the plane</div>
+      <div style="font-size:13px;color:#4a3728;">• Sesame oil on feet, socks on</div>
+      <div style="font-size:13px;color:#4a3728;">• Eat lightly or not at all inflight</div>
+      <div style="font-size:13px;color:#4a3728;">• Sleep on destination timezone</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      <div style="font-size:13px;color:#4a3728;">• Warm food immediately</div>
+      <div style="font-size:13px;color:#4a3728;">• Get outside in natural light</div>
+      <div style="font-size:13px;color:#4a3728;">• Ashwagandha at local bedtime</div>
+      <div style="font-size:13px;color:#4a3728;">• Triphala first night</div>
+      <div style="font-size:13px;color:#4a3728;">• No alcohol for 48 hours</div>
+    </div>
+  </div>
+</div><h2>The Recovery Timeline</h2><p>With this protocol, most people experience recovery within 2-3 days. The first night in the new timezone is the most critical — get the sleep right and Ashwagandha on board and the rest follows naturally. Without the protocol, jet lag typically persists for 5-7 days or longer.</p><p>The difference is not just comfort. It is the capacity to function clearly, make good decisions, and enjoy your travels. The investment of preparing correctly is far less than the cost of 5-7 days of Vata-aggravated dysfunction.</p>`
   }
 ]
 
