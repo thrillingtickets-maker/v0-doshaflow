@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">����������������������������������������������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">������������������������������������������������������ Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -4593,6 +4593,43 @@ export const posts: Post[] = [
     <div style="font-size:13px;color:#4a3728;">Vata, Pitta</div>
   </div>
 </div><h2>Fennel as Daily Practice</h2><p>The most important use of fennel is as a daily practice. Keeping fennel seeds accessible after meals and chewing them consistently transforms digestive capacity over weeks and months. This is not a treatment for acute problems. It is a prevention and optimization practice — one of the simplest and most effective interventions in Ayurveda.</p>`
+  },
+  {
+    slug: "cardamom-benefits",
+    category: "article",
+    title: "Cardamom: The Spice That Does What Other Digestive Herbs Cannot",
+    date: "June 3, 2026",
+    excerpt: "Cardamom is warming enough to stimulate digestion but cooling enough not to inflame Pitta. It is genuinely tridoshic, making it one of the most universally useful spices.",
+    seoTitle: "Cardamom Benefits: Complete Guide to the Queen of Spices",
+    seoDescription: "Complete guide to cardamom. Learn its Ayurvedic properties, digestive benefits, and how to use it daily for optimal health.",
+    content: `<p>Cardamom is called the queen of spices — not for its flavor alone, but for its remarkable ability to work across all constitutions and support multiple body systems simultaneously. In Ayurveda, it occupies a unique position: it is warming enough to stimulate weak digestion, yet cooling enough to calm Pitta aggravation. It is grounding enough to settle Vata, yet light enough not to aggravate Kapha. No other digestive herb possesses this balanced quality.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">Cardamom is the Ayurvedic herb that does what most digestive herbs cannot — it is warming enough to stimulate digestion but cooling enough not to inflame Pitta. It is genuinely tridoshic, making it one of the most universally useful spices in the kitchen-as-pharmacy.</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">Ela — its Sanskrit name. Used in every Ayurvedic kitchen for thousands of years.</div>
+</div><h2>Understanding Cardamom's Unique Properties</h2><p>Cardamom is classified in Ayurveda as having sweet, pungent, and slightly bitter tastes. This combination is extraordinarily rare and is why cardamom can balance all three doshas. The pungent taste stimulates agni — digestive fire — without creating the excessive heat that would aggravate Pitta. The sweet taste provides grounding for Vata. The bitter taste supports the clearing of ama — toxins.</p><p>What makes cardamom particularly valuable is its action on the subtle channels — the nadis — that carry prana (vital energy) through the body. Cardamom is one of the few herbs that opens and clarifies these channels, making it as much a meditation support as a digestive aid.</p><h2>Cardamom's Primary Benefits</h2><p>The most immediate benefit of cardamom is improved digestion. A single pod chewed after a meal significantly reduces the heaviness and gas that follows richer foods. Over time, consistent use of cardamom strengthens digestive capacity itself — the person finds they can eat heavier foods without discomfort.</p><p>Beyond digestion, cardamom benefits the respiratory system, calms the mind, supports healthy menstrual function, and improves circulation. It is one of the few herbs that is genuinely useful across all seasons and all ages.</p><h2>How Cardamom Works in the Body</h2><p>Cardamom works primarily on the digestive system and the mind. In the digestive system, it stimulates the secretion of digestive enzymes and bile, improving the breakdown and absorption of food. In the mind, its aromatic properties calm excess Vata, preventing the anxiety and scattered thinking that often accompanies poor digestion.</p><p>Most remarkably, cardamom is one of the few digestive herbs that improves digestion without depleting it the way strong bitters can. Someone using cardamom long-term finds their digestion gradually strengthens, not weakens.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:20px;">Five ways to use cardamom daily</div>
+  <div style="display:flex;flex-direction:column;gap:0;">
+    <div style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:100px;">Morning water</div>
+      <div style="font-size:14px;color:#c4a882;">Crack 2 pods into warm water. Stimulates agni before the first meal. Better than lemon for Pitta types.</div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:100px;">In coffee</div>
+      <div style="font-size:14px;color:#c4a882;">A pinch of cardamom in coffee partially mitigates its Vata-aggravating and acidic effects. The classic Middle Eastern preparation.</div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:100px;">Golden milk</div>
+      <div style="font-size:14px;color:#c4a882;">Cardamom + turmeric + ginger + ashwagandha in warm milk. Each spice amplifies the others and improves absorption.</div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:100px;">After heavy meals</div>
+      <div style="font-size:14px;color:#c4a882;">Chew one pod after heavy or oily food. Directly reduces the post-meal heaviness and gas that follows richer meals.</div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:100px;">In cooking</div>
+      <div style="font-size:14px;color:#c4a882;">Add to rice, lentils, and warming desserts. Makes every dish easier to digest. The foundation of chai spice blend.</div>
+    </div>
+  </div>
+</div><h2>Cardamom as Daily Practice</h2><p>The most effective use of cardamom is as a simple daily practice. Keeping cardamom pods accessible and chewing them after meals transforms digestive capacity more profoundly than most supplements or medications. This is not treating acute disease. This is precision prevention — using food as medicine in the most literal sense.</p>`
   }
 ]
 
