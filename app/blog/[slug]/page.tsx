@@ -1,6 +1,7 @@
 import { getPostBySlug, getAllPosts } from "@/lib/posts"
 import { Navigation } from "@/components/navigation"
 import { ArticleHero } from "@/components/article-hero"
+import { Footer } from "@/components/footer"
 import { highlightMap } from "@/lib/article-colors"
 import { processArticleContent } from "@/lib/process-article-content"
 import { calculateReadingTime, formatReadingTime } from "@/lib/reading-time"
@@ -418,6 +419,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         </div>
       </article>
     </main>
+    <Footer />
     </>
   )
 }
