@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">������������������������������������������������������ Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">������������������������������������������������������� Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -4089,7 +4089,7 @@ export const posts: Post[] = [
     content: `<p>Tulsi, also known as Holy Basil, occupies a unique position in Ayurveda and in Indian culture. It is not simply an herb — it is sacred. Found in almost every Hindu household, Tulsi is grown, tended, and consumed daily as both spiritual practice and medicine. The Sanskrit name Vishnu Priya means "beloved of Vishnu," reflecting the plant's elevated status in Hindu tradition.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
   <div style="font-size:48px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">Vishnu Priya</div>
   <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">"Beloved of Vishnu" — Tulsi's Sanskrit name reflects its sacred and medicinal status</div>
-  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">Tulsi is the only plant found in almost every Hindu household in India — grown, tended, and consumed daily as both spiritual practice and medicine. Modern research has validated its adaptogenic, antimicrobial, blood sugar-modulating, and cortisol-reducing properties. It is one of the most broadly beneficial herbs in the entire Ayurvedic pharmacopoeia.</div>
+  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">Tulsi is the only plant found in almost every Hindu household in India ��� grown, tended, and consumed daily as both spiritual practice and medicine. Modern research has validated its adaptogenic, antimicrobial, blood sugar-modulating, and cortisol-reducing properties. It is one of the most broadly beneficial herbs in the entire Ayurvedic pharmacopoeia.</div>
 </div><h2>The Science Behind the Sacred</h2><p>What makes Tulsi remarkable is that its traditional use has been validated by modern research. Studies have demonstrated that Tulsi is a powerful adaptogen — meaning it helps the body adapt to stress while maintaining normal function. It modulates cortisol, supports immune function, reduces inflammation, improves blood sugar control, and has antimicrobial properties against multiple bacterial and viral pathogens.</p><p>Unlike many traditional herbs relegated to the margins of healthcare, Tulsi has become the subject of serious scientific investigation. Research published in major journals has confirmed what Ayurveda has known for thousands of years.</p><h2>Tulsi for Different Conditions</h2><p>One of Tulsi's greatest strengths is its versatility. It addresses multiple systems simultaneously — the nervous system, immune system, metabolic system, and respiratory system. Different preparations suit different uses.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
     <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Use</div>
@@ -4630,6 +4630,50 @@ export const posts: Post[] = [
     </div>
   </div>
 </div><h2>Cardamom as Daily Practice</h2><p>The most effective use of cardamom is as a simple daily practice. Keeping cardamom pods accessible and chewing them after meals transforms digestive capacity more profoundly than most supplements or medications. This is not treating acute disease. This is precision prevention — using food as medicine in the most literal sense.</p>`
+  },
+  {
+    slug: "ayurvedic-anti-ageing",
+    category: "article",
+    title: "Ayurvedic Anti-Ageing: The Complete Protocol for Slowing Time",
+    date: "June 3, 2026",
+    excerpt: "Ayurveda understands ageing as the progressive increase of Vata across the lifespan. Anti-ageing practice is essentially Vata management: keeping the body warm, moist, nourished, and unhurried.",
+    seoTitle: "Ayurvedic Anti-Ageing: Complete Guide to Slowing Ageing",
+    seoDescription: "Complete guide to anti-ageing through Ayurveda. Learn how to manage Vata, build Ojas, and maintain vitality as you age.",
+    content: `<p>Ageing is inevitable. Rapid ageing is not. The difference between someone who is 60 and appears 70 and someone who is 60 and appears 50 is often not genetics. It is lifestyle — specifically, how well that person has managed Vata, maintained Ojas, and prevented the accumulation of ama over decades.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">Ayurveda understands ageing as the progressive increase of Vata — the dry, light, cold, mobile quality — across the lifespan. Anti-ageing practice is essentially Vata management: keeping the body warm, moist, nourished, and unhurried as it moves through time.</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">The visible markers of ageing — wrinkles, dryness, thinning — are the outside of the same process happening inside every tissue.</div>
+</div><h2>The Nature of Vata Ageing</h2><p>In Ayurveda, ageing is fundamentally a Vata process. Vata is the dosha of drying, thinning, and loss. As we age, Vata naturally increases. This is not a disease. It is a natural transition. But when Vata increases too rapidly, ageing accelerates. When Vata is managed, ageing slows dramatically.</p><p>The person with balanced Vata as they age maintains skin elasticity, hair thickness, bone density, cognitive function, and energy. The person with excess Vata ages rapidly — wrinkles deepen, hair greys and thins, joints stiffen, energy collapses, and cognitive function declines.</p><h2>The Role of Rasayana</h2><p>This is where Rasayana — Ayurvedic rejuvenation therapy — enters. Rasayana is not a treatment for existing age-related problems. It is a lifelong practice that prevents those problems from developing in the first place. The foundations of Rasayana are: consistent Ojas-building herbs (Ashwagandha, Shatavari, Brahmi), adequate rest before 10pm when cellular repair peaks, warm nourishing food, and the elimination of habits that deplete Ojas (alcohol, chronic stress, irregular eating).</p><p>Someone who begins Rasayana at 40 and continues consistently will age visibly more slowly than someone who does not. The difference becomes obvious by 60 or 70.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Visible sign</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">What it reflects internally</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Ayurvedic approach</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Fine lines, dry skin</div>
+    <div style="font-size:13px;color:#4a3728;">Vata increase, loss of moisture in tissues</div>
+    <div style="font-size:13px;color:#4a3728;">Ghee, Shatavari, abhyanga, warm food</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Hair thinning, grey</div>
+    <div style="font-size:13px;color:#4a3728;">Pitta excess burning the hair follicle</div>
+    <div style="font-size:13px;color:#4a3728;">Brahmi oil, Amla, cooling diet, no alcohol</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Joint stiffness</div>
+    <div style="font-size:13px;color:#4a3728;">Vata dryness in the joints</div>
+    <div style="font-size:13px;color:#4a3728;">Warm sesame oil, turmeric, Ashwagandha</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Brain fog, memory</div>
+    <div style="font-size:13px;color:#4a3728;">Declining Ojas, Vata in the nervous system</div>
+    <div style="font-size:13px;color:#4a3728;">Brahmi, consistent sleep, Ashwagandha</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Low energy</div>
+    <div style="font-size:13px;color:#4a3728;">Depleted Ojas across all seven tissues</div>
+    <div style="font-size:13px;color:#4a3728;">Triphala, Ashwagandha, early sleep, reduce alcohol</div>
+  </div>
+</div><h2>The Anti-Ageing Protocol</h2><p>The simplest anti-ageing protocol is this: sleep before 10pm every night without exception, eat warm nourishing food at consistent times, avoid alcohol, and take Ashwagandha and Triphala consistently. These four interventions address the root causes of rapid ageing and produce visible results within 3-6 months.</p><p>This is not a protocol that requires perfection. It requires consistency. The person who does these four things 80% of the time will age noticeably more slowly than someone who does not. The person who does them 95% of the time will age more slowly than almost everyone they know.</p><h2>The Long View</h2><p>Anti-ageing in Ayurveda is not about fighting time. It is about flowing with it gracefully. The goal is not to look 30 at 70. It is to look healthy, vibrant, and present at 70 — to have preserved the vitality and resilience that characterise true health at any age. This is achievable. It requires patience and consistency. But it is absolutely achievable.</p>`
   }
 ]
 
