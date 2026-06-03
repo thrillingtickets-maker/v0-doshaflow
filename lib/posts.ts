@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">����������������������������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">������������������������������������ Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -3663,6 +3663,50 @@ export const posts: Post[] = [
     <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Remove the stimulants and sedatives</strong> — coffee escalates sympathetic activation. Alcohol sedates then rebounds into sympathetic. Both prevent the nervous system from finding its own regulation.</div>
   </div>
 </div><h2>The Timeline of Healing</h2><p>Nervous system dysregulation took months or years to establish. It takes weeks to months to reverse. But the shift is noticeable quickly. Within days of consistent early sleep and removal of caffeine, many people report improved emotional resilience. Within weeks of herbal support and daily oil massage, baseline anxiety drops. Within months of sustained practice, most people experience a genuine shift in their nervous system's baseline state — not back to perfect, but back to functional, back to capable of feeling safe.</p><p>This is nervous system healing. Not forcing yourself to be calm. Not pushing through dysregulation with more willpower. But actually re-establishing the conditions under which the nervous system remembers it is safe.</p>`
+  },
+  {
+    slug: "ayurveda-vs-western-medicine",
+    category: "article",
+    title: "Ayurveda and Western Medicine: Different Questions, Not Competing Answers",
+    date: "June 3, 2026",
+    excerpt: "Western medicine asks: what is wrong and how do we fix it? Ayurveda asks: why did this go wrong, and what was the pattern that created the conditions for it? These are not competing answers. They are different questions.",
+    seoTitle: "Ayurveda vs Western Medicine: How Both Systems Work Together",
+    seoDescription: "Understanding the differences and complementary strengths of Ayurvedic and Western medicine. Where each excels and where integration matters.",
+    content: `<p>There is a persistent tension in the modern wellness world: Ayurveda versus Western medicine. The assumption is that they are competing systems — that choosing one means rejecting the other. This assumption is wrong. They are not competing answers to the same question. They are different answers to different questions.</p><p>Western medicine asks: what is wrong and how do we fix it? Ayurveda asks: why did this go wrong, and what was the pattern that created the conditions for it? These are fundamentally different frameworks. Neither is complete without the other.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">Western medicine asks: what is wrong and how do we fix it? Ayurveda asks: why did this go wrong, and what was the pattern that created the conditions for it?</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">These are not competing answers. They are different questions. Both are useful. Neither is complete without the other.</div>
+</div><h2>The Strength of Western Medicine</h2><p>Western medicine is extraordinary at acute care and diagnosis. A child breaks a bone — Western medicine will image it, set it, and prevent infection. Someone has an infection — antibiotics work. Someone has a heart attack — emergency intervention saves the life. Someone has cancer — oncology offers options that Ayurveda cannot. This is the domain where Western medicine is unmatched.</p><p>Western medicine is also rigorous. It requires evidence. It has built-in skepticism. It tolerates no claims without data. This is its genius and its requirement. When Western medicine is good, it is very good.</p><h2>Where Western Medicine Reaches Its Limit</h2><p>Western medicine is terrible at chronic disease prevention. It is inadequate at addressing root causes. It has almost no framework for the person who feels terrible and passes every test. The person with chronic fatigue that no scan explains. The anxiety that neurotransmitter theory cannot account for. The skin condition that is not an allergy or infection. The digestion that is unpredictably broken. The person with 500 minor symptoms that don't fit any diagnosis.</p><p>Western medicine excels at pathology — what is broken. It struggles with patterns — why the person is predisposed to breaking in the first place.</p><h2>The Strength of Ayurveda</h2><p>Ayurveda sees what Western medicine misses: the constitutional pattern. The person's individual susceptibility. Why two people eating the same food, living the same schedule, and experiencing the same stress will have completely different health outcomes. Ayurveda addresses this through the framework of dosha — the individual's unique pattern of imbalance.</p><p>Ayurveda excels at prevention. At recognizing the small imbalances before they become diseases. At addressing lifestyle factors that compound over years. At adapting treatment to the individual rather than applying standard protocols.</p><h2>Where Ayurveda Reaches Its Limit</h2><p>Ayurveda cannot diagnose appendicitis by palpation alone. It cannot deliver antibiotics or do surgery. It cannot image a broken bone or read an MRI. It does not have the diagnostic precision of Western medicine, and it should not be used in place of it for acute emergencies or structural problems that require intervention.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:140px 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;"></div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Western medicine</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Ayurveda</div>
+  </div>
+  <div style="display:grid;grid-template-columns:140px 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Primary focus</div>
+    <div style="font-size:13px;color:#4a3728;">Disease — diagnosing and treating what has gone wrong</div>
+    <div style="font-size:13px;color:#4a3728;">Constitution — understanding the individual and preventing imbalance</div>
+  </div>
+  <div style="display:grid;grid-template-columns:140px 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Strength</div>
+    <div style="font-size:13px;color:#4a3728;">Acute care, surgery, infectious disease, diagnostics</div>
+    <div style="font-size:13px;color:#4a3728;">Chronic disease prevention, lifestyle medicine, individual variation</div>
+  </div>
+  <div style="display:grid;grid-template-columns:140px 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Treatment unit</div>
+    <div style="font-size:13px;color:#4a3728;">The disease or symptom</div>
+    <div style="font-size:13px;color:#4a3728;">The person — same disease presents differently by dosha</div>
+  </div>
+  <div style="display:grid;grid-template-columns:140px 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Time horizon</div>
+    <div style="font-size:13px;color:#4a3728;">Symptom resolution — days to weeks</div>
+    <div style="font-size:13px;color:#4a3728;">Constitutional change — months to years</div>
+  </div>
+  <div style="display:grid;grid-template-columns:140px 1fr 1fr;padding:14px 20px;background:#faf7f2;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Best used for</div>
+    <div style="font-size:13px;color:#4a3728;">Emergency, infection, structural problems, clear diagnoses</div>
+    <div style="font-size:13px;color:#4a3728;">Chronic fatigue, gut issues, hormonal imbalance, stress, sleep</div>
+  </div>
+</div><h2>Integration, Not Competition</h2><p>The real opportunity is integration. Using Western medicine for acute diagnosis and intervention. Using Ayurveda for chronic disease prevention and constitutional understanding. Using Western diagnostics to confirm what Ayurvedic assessment suggests. Using Ayurvedic lifestyle medicine to prevent recurrence after Western medicine treats acute disease.</p><p>This requires practitioners on both sides who are willing to acknowledge the limits of their own system and the contributions of the other. It requires patients who can hold both frameworks simultaneously — not choosing one or the other, but using each where it is strongest.</p><p>The person with chronic fatigue benefits from Ayurvedic assessment of constitutional imbalance, dietary modification, and herbal support — and also benefits from Western blood work to rule out thyroid dysfunction or B12 deficiency. The person with anxiety benefits from Ayurvedic understanding of why the nervous system dysregulated — and also benefits from Western understanding of when medication is appropriate. The person managing diabetes benefits from Western insulin management and Western diagnostics — and also benefits from Ayurvedic dietary guidance tailored to their constitutional type.</p><p>Both systems are trying to restore health. They just ask different questions about how.</p>`
   }
 ]
 
