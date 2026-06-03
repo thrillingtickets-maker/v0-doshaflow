@@ -18,6 +18,8 @@ export const metadata: Metadata = {
   },
 }
 
+export const dynamic = 'force-dynamic'
+
 export default function AyurvedaForWomenPage() {
   return (
     <main className="min-h-screen bg-background">
