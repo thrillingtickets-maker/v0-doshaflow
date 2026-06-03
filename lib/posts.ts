@@ -4548,6 +4548,51 @@ export const posts: Post[] = [
     <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">No alcohol</strong> — alcohol feels like comfort and is the opposite. It amplifies the emotional volatility, disrupts sleep, and prevents the nervous system from processing what it needs to process.</div>
   </div>
 </div><h2>The Timeline of Grieving</h2><p>There is no timeline for grief. Some people metabolize it in weeks. Others take months or years. What matters is not the speed of grief but whether it is moving. The person who is eating, sleeping better than expected, and taking herbal support is grieving in a supported way. The person who is not eating, sleeping poorly, and sinking deeper into isolation is stuck — and needs more support, often from a therapist or grief counselor alongside the Ayurvedic protocols.</p><p>What distinguishes supported grief from pathological grief is whether the person is still functional, still able to care for themselves, and still moving — however slowly — toward integration of the loss. Ayurveda supports this movement by making the person robust enough to experience it.</p>`
+  },
+  {
+    slug: "fennel-benefits",
+    category: "article",
+    title: "Fennel: The Digestive Herb That Works for Every Body",
+    date: "June 3, 2026",
+    excerpt: "Fennel is one of the few herbs that is tridoshic — balancing for all three doshas. Here is the complete guide to using this essential digestive and reproductive herb.",
+    seoTitle: "Fennel Benefits: Complete Guide to Digestive and Reproductive Support",
+    seoDescription: "Complete guide to fennel benefits. Learn how to use fennel seeds and tea for digestion, gas, bloating, menstrual health, and more.",
+    content: `<p>Fennel is one of the most fundamental herbs in Ayurveda. It appears in every major digestive formula. It is used for every type of digestive problem from gas and bloating to acid reflux and IBS. It supports reproductive health in both men and women. And unlike many herbs that favor one or two doshas, fennel is tridoshic — meaning it works for everyone, regardless of constitution.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
+  <div style="font-size:48px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">Shatapushpa</div>
+  <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">Sanskrit: "hundred flowers" — a reference to its wide therapeutic reach</div>
+  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">Fennel is one of the few herbs used as food, medicine, and digestive aid in almost every Ayurvedic tradition. It is tridoshic — balancing for Vata, Pitta, and Kapha — and its primary action is on the digestive and reproductive systems simultaneously.</div>
+</div><h2>Understanding Fennel's Properties</h2><p>In Ayurveda, fennel is classified as sweet, pungent, and heating. This combination of qualities makes it unique. The sweetness gives it a grounding, nourishing quality. The pungency gives it digestive strength. The heating quality supports agni — the digestive fire. Together, these qualities make fennel both gentle and potent.</p><p>Fennel's primary action is on Vata — specifically on the apana vayu that governs elimination and reproductive function. When this vayu is regulated by fennel, both digestion and reproductive health improve.</p><h2>Fennel's Wide Range of Uses</h2><p>The most common use of fennel is post-meal digestion. Chewing ½ teaspoon of fennel seeds after eating prevents gas, bloating, and bad breath. This simple practice is one of the most effective interventions for anyone with digestive complaints.</p><p>Fennel tea provides deeper support. Brewed as a simple infusion, it calms acid reflux, relieves cramping, and supports the treatment of IBS. For those with multiple digestive issues, CCF tea — made from equal parts cumin, coriander, and fennel — is the classical Ayurvedic formula that addresses the root causes of poor digestion.</p><p>Fennel's reproductive applications are equally important. For women, fennel supports menstrual regularity, reduces PMS and cramp severity, and supports milk production in nursing mothers. For men, fennel supports reproductive tissue health and function. These applications make fennel essential for anyone seeking to optimize reproductive vitality.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Application</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">How to use</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Best for</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Dosha</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">After meals</div>
+    <div style="font-size:13px;color:#4a3728;">Chew ½ tsp seeds plain</div>
+    <div style="font-size:13px;color:#4a3728;">Gas, bloating, bad breath</div>
+    <div style="font-size:13px;color:#4a3728;">All doshas</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Fennel tea</div>
+    <div style="font-size:13px;color:#4a3728;">1 tsp seeds in hot water, 10 min</div>
+    <div style="font-size:13px;color:#4a3728;">Acid reflux, cramping, IBS</div>
+    <div style="font-size:13px;color:#4a3728;">Pitta, Vata</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">CCF tea</div>
+    <div style="font-size:13px;color:#4a3728;">Equal parts cumin, coriander, fennel</div>
+    <div style="font-size:13px;color:#4a3728;">General digestion, ama clearing</div>
+    <div style="font-size:13px;color:#4a3728;">All doshas</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Hormone support</div>
+    <div style="font-size:13px;color:#4a3728;">Seeds daily in food or tea</div>
+    <div style="font-size:13px;color:#4a3728;">PMS, menstrual cramps, milk supply</div>
+    <div style="font-size:13px;color:#4a3728;">Vata, Pitta</div>
+  </div>
+</div><h2>Fennel as Daily Practice</h2><p>The most important use of fennel is as a daily practice. Keeping fennel seeds accessible after meals and chewing them consistently transforms digestive capacity over weeks and months. This is not a treatment for acute problems. It is a prevention and optimization practice — one of the simplest and most effective interventions in Ayurveda.</p>`
   }
 ]
 
