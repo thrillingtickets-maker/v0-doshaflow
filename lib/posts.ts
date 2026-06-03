@@ -2668,6 +2668,80 @@ export const posts: Post[] = [
 </div><h2>The real solution</h2><p>Constipation is not something you fix once and it stays fixed. It is something you manage by staying close to your baseline. Vata constipation requires consistency — the same meal times, the same routine, warm oil daily. Pitta constipation requires cool foods and stress management. Kapha constipation requires vigorous movement and warming spices.</p><p>The mistake most people make is trying to fix constipation without addressing the underlying dosha type. They take fiber supplements, drink more water, and get worse. Then they blame Ayurveda for not working. Ayurveda works perfectly — when you understand what type you actually have.</p>`
   },
   {
+    slug: "ayurveda-nervous-system-burnout",
+    category: "article",
+    title: "Ayurveda for Nervous System Burnout: When Exhaustion Runs Deeper Than Tiredness",
+    date: "June 3, 2026",
+    excerpt: "Most burnout is not about working too hard. It is about a nervous system running on stimulation while its deeper reserves collapse underneath. Here is the Ayurvedic framework.",
+    seoTitle: "Nervous System Burnout: Ayurvedic Approach to Recovery from Exhaustion",
+    seoDescription: "Understand nervous system burnout through Ayurveda: why it happens, how it manifests, and the recovery protocol that actually addresses the root causes.",
+    content: `<p>Most people think they're tired. They're not tired. They're overstimulated. Too much caffeine. Too much scrolling. Too much stress. Too much artificial urgency. Too much information entering the nervous system without enough recovery.</p><p>In Ayurveda, burnout is rarely viewed as a single issue. It's usually a combination of aggravated vata, depleted ojas, disrupted sleep cycles, poor digestion, and excess nervous system activation over time.</p><p>Modern life creates the perfect conditions for this. You wake up and immediately check your phone. Cortisol spikes before your feet hit the floor. Notifications pull attention in every direction. Meals become rushed. Sleep becomes shallow. The body never fully exits fight or flight.</p><p>Eventually the symptoms start showing up.</p><div style="background:#f5f0e8;border-radius:12px;padding:36px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:24px;">Nervous system burnout — how it shows up</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Waking exhausted despite enough sleep</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Anxiety without a clear reason</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Overstimulation from noise or crowds</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Brain fog and difficulty concentrating</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Poor, unrestorative sleep</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Low motivation despite wanting to do things</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Digestive irregularity and bloating</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Emotionally numb but mentally wired</div>
+  </div>
+</div><p>Ayurveda sees this as depletion beneath stimulation. The nervous system looks energized on the surface while the deeper reserves are quietly collapsing underneath.</p><h2>The Vata Burnout Pattern</h2><p>Burnout is most commonly associated with excess vata. Vata governs the nervous system, movement, thought speed, sleep, anxiety, and sensory processing. When vata becomes aggravated, the mind loses grounding. Thoughts race. Sleep becomes fragmented. The body becomes hypersensitive to stress.</p><p>This is why many burned out people feel exhausted but unable to rest, tired but mentally overactive, emotionally flat yet anxious. The nervous system loses its ability to settle.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:40px 0;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">"The body is not running on energy. It is running on cortisol. The distinction matters because the recovery protocol is completely different."</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">Exhaustion beneath stimulation — the modern burnout pattern Ayurveda has always described</div>
+</div><h2>Why Modern Burnout Feels Different</h2><p>This isn't just working too hard. Digital overstimulation changes the rhythm of the mind itself. Constant scrolling trains the nervous system to expect novelty every few seconds. Attention becomes fragmented. Dopamine spikes and crashes repeatedly throughout the day.</p><p>Ayurveda has always emphasized sensory input as medicine. What you consume through your eyes, ears, conversations, and environment matters just as much as food. Most modern burnout is sensory overload disguised as productivity.</p><h2>Signs Your Nervous System Needs Recovery</h2><p>You may be experiencing nervous system burnout if you feel tired after being around people, wake up anxious, crave stimulation but feel overwhelmed by it, cannot fully relax without substances, feel emotionally detached, constantly multitask, sleep lightly, feel fried after screen time, or rely on caffeine to feel normal. The body is asking for grounding.</p><h2>Ayurvedic Recovery Principles</h2><p>Healing burnout is less about optimization and more about reducing friction inside the nervous system.</p><p><strong>Warm grounding foods.</strong> Favor cooked meals, soups, root vegetables, ghee, and warm herbal teas. Avoid excessive caffeine, cold food, stimulants, alcohol, and ultra-processed foods.</p><p><strong>Reduce sensory overload.</strong> Try no phone immediately after waking, lower brightness at night, walking without headphones, eating without screens, fewer tabs open, and slower evenings. The nervous system heals in simplicity.</p><p><strong>Rebuild sleep rhythm.</strong> Sleep is where the nervous system repairs itself. Ayurveda strongly emphasizes consistent sleep times, darkness at night, warm oil massage, calming herbs, and reducing stimulation after sunset.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:20px;">The recovery sequence — in order of impact</div>
+  <div style="display:flex;flex-direction:column;gap:0;">
+    <div style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:28px;text-align:center;">1</div>
+      <div style="font-size:14px;color:#c4a882;"><strong style="color:#f5f0e8;">Sleep before 10pm</strong> — the nervous system repairs itself during sleep. The timing matters as much as the duration. Earlier sleep produces more slow-wave restoration.</div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:28px;text-align:center;">2</div>
+      <div style="font-size:14px;color:#c4a882;"><strong style="color:#f5f0e8;">No phone for the first hour</strong> — cortisol spikes before the feet hit the floor when the phone is the first input. That spike sets the nervous system tone for the whole day.</div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:28px;text-align:center;">3</div>
+      <div style="font-size:14px;color:#c4a882;"><strong style="color:#f5f0e8;">Warm food at consistent times</strong> — irregular eating is a Vata aggravator. Three warm meals, same time daily, removes a significant nervous system burden most people never address.</div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:28px;text-align:center;">4</div>
+      <div style="font-size:14px;color:#c4a882;"><strong style="color:#f5f0e8;">Ashwagandha nightly</strong> — 600mg consistently for 8+ weeks. The HPA axis does not reset in a week. Give it the time it needs.</div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:28px;text-align:center;">5</div>
+      <div style="font-size:14px;color:#c4a882;"><strong style="color:#f5f0e8;">Reduce alcohol</strong> — alcohol simulates relaxation while preventing the nervous system recovery it needs. The net effect is more depletion, not less.</div>
+    </div>
+  </div>
+</div><h2>Helpful Ayurvedic Herbs</h2><p>Ashwagandha is traditionally used to support resilience, stress adaptation, and nervous system recovery. Brahmi is often used for mental cooling and excessive thought activity. Jatamansi is used traditionally for calming the mind and supporting sleep.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Herb</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Primary action</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Best for</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Timing</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Ashwagandha</div>
+    <div style="font-size:13px;color:#4a3728;">HPA axis regulation, cortisol reduction</div>
+    <div style="font-size:13px;color:#4a3728;">Physical depletion, poor sleep, Vata burnout</div>
+    <div style="font-size:13px;color:#4a3728;">Evening, warm milk, 8+ weeks</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Brahmi</div>
+    <div style="font-size:13px;color:#4a3728;">Cooling the overheated mind</div>
+    <div style="font-size:13px;color:#4a3728;">Mental overactivity, scattered thinking</div>
+    <div style="font-size:13px;color:#4a3728;">Afternoon (2–4pm Vata window)</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Jatamansi</div>
+    <div style="font-size:13px;color:#4a3728;">Deep nervous system calming</div>
+    <div style="font-size:13px;color:#4a3728;">Anxiety, insomnia, racing thoughts at night</div>
+    <div style="font-size:13px;color:#4a3728;">1 hour before bed</div>
+  </div>
+</div><h2>Burnout Is Not Weakness</h2><p>Many people experiencing burnout blame themselves. But most nervous systems were never designed for constant notifications, endless comparison, artificial light all night, high stress with no recovery, and nonstop stimulation. The body eventually pushes back. Burnout is often the nervous system asking for a slower rhythm, deeper nourishment, and less noise. Healing usually begins when stimulation decreases enough for the body to finally feel safe again.</p>`
+  },
+  {
     slug: "signs-of-pitta-imbalance",
     category: "article",
     title: "Signs of Pitta Imbalance: The Cost of Burning Out",
