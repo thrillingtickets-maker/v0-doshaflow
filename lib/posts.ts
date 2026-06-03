@@ -2371,6 +2371,55 @@ export const posts: Post[] = [
     </div>
   </div>
 </div><p>The consistency matters more than the duration. Daily five minutes beats weekly hour-long sessions. The nervous system responds to routine, to predictability, to the signal that you are safe enough to rest. Abhyanga sends that signal. After six to eight weeks of daily practice, the effect becomes cumulative. Your baseline cortisol drops. Your sleep improves. Your stress resilience increases. This is not placebo. This is the nervous system learning that you are taking care of it.</p>`
+  },
+  {
+    slug: "ayurveda-for-pcos",
+    category: "article",
+    title: "Ayurveda and PCOS: Why One Treatment Plan Doesn't Work for Everyone",
+    date: "June 3, 2026",
+    excerpt: "PCOS is not one condition — it expresses completely differently depending on your dominant dosha. The same intervention that works for Kapha PCOS can make Pitta PCOS worse. Ayurveda addresses the root cause, not just the symptom.",
+    seoTitle: "Ayurvedic Treatment for PCOS: Pitta, Kapha, and Vata PCOS Types",
+    seoDescription: "Complete guide to PCOS by dosha type. Pitta PCOS (inflammatory), Kapha PCOS (metabolic), Vata PCOS (stress-driven). Ayurvedic protocols that actually work.",
+    content: `<p>PCOS (Polycystic Ovary Syndrome) is one of the most misunderstood conditions in modern medicine. Conventional medicine approaches it as a single disease with a single treatment plan — usually metformin and birth control. But PCOS is not one disease. It is a collection of symptoms that can arise from completely different root causes. This is why some women respond brilliantly to inositol while others don't, why some benefit from a low-carb diet while others need more carbs, why some need stimulating herbs while others need calming ones. Ayurveda solves this problem by addressing the dosha type underneath the PCOS symptoms.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:28px;">PCOS is not one condition — it expresses differently by dominant dosha</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;">
+    <div style="background:white;border-radius:8px;padding:20px;">
+      <div style="font-size:15px;font-weight:700;color:#2a1f14;">Pitta PCOS</div>
+      <div style="font-size:12px;color:#b5763a;font-weight:600;margin:4px 0 10px;">Inflammatory type</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.6;">Acne, hair loss, irregular heavy periods. Liver is key — alcohol, dairy, and excess heat worsen it. Shatavari + cooling herbs.</div>
+    </div>
+    <div style="background:white;border-radius:8px;padding:20px;">
+      <div style="font-size:15px;font-weight:700;color:#2a1f14;">Kapha PCOS</div>
+      <div style="font-size:12px;color:#b5763a;font-weight:600;margin:4px 0 10px;">Metabolic type</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.6;">Weight gain, insulin resistance, infrequent periods. The most common presentation. Trikatu + exercise + reduced wheat and dairy.</div>
+    </div>
+    <div style="background:white;border-radius:8px;padding:20px;">
+      <div style="font-size:15px;font-weight:700;color:#2a1f14;">Vata PCOS</div>
+      <div style="font-size:12px;color:#b5763a;font-weight:600;margin:4px 0 10px;">Stress-driven type</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.6;">Absent or very irregular periods, anxiety, thin build. HPA axis dysregulation is primary. Ashwagandha + routine + nourishment.</div>
+    </div>
+  </div>
+</div><h2>Understanding your PCOS type</h2><p>Pitta PCOS is driven by inflammation and heat. The liver is congested. Androgens are elevated because the liver cannot process estrogen efficiently. The solution is cooling, not suppressing. Kapha PCOS is driven by sluggish metabolism and excess weight. Insulin resistance is primary. The digestive fire is low, so carbs and heavy foods stall in the system. The solution is stimulation, not restriction. Vata PCOS is driven by nervous system dysregulation. The HPA axis (hypothalamic-pituitary-adrenal) is exhausted from chronic stress. Periods stop because the body prioritizes survival over reproduction. The solution is grounding and nourishment, not forcing.</p><p>The distinction is crucial because the treatment is opposite. A Kapha type with PCOS needs vigorous herbs like Trikatu and stimulating exercise. A Pitta type with PCOS needs cooling herbs like Shatavari and gentle movement. A Vata type with PCOS needs grounding herbs like Ashwagandha and consistent routine. If you give a Pitta type the stimulating herbs meant for Kapha, you worsen inflammation. If you give a Vata type intensive exercise meant for Kapha, you deplete her further. This is why one-size-fits-all PCOS protocols fail for most women.</p><h2>The role of the liver</h2><p>In all three PCOS types, the liver is involved. The liver processes estrogen. If estrogen is not cleared efficiently, it recirculates and signals more androgen production. Alcohol stalls liver function. Excess heat (from spicy food, alcohol, stress) inflames the liver. Poor sleep prevents the liver from doing its nightly detoxification. These factors alone can trigger or worsen PCOS symptoms.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:20px;">Foundation protocol — all PCOS types</div>
+  <div style="display:flex;flex-direction:column;gap:12px;">
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">1</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Consistent meal times</strong><span style="font-size:13px;color:#c4a882;"> — blood sugar instability is a primary driver of hormonal dysregulation in all PCOS types. Eating at the same times every day is non-negotiable.</span></div>
+    </div>
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">2</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Reduce alcohol</strong><span style="font-size:13px;color:#c4a882;"> — the liver processes estrogen and alcohol. In PCOS, both pathways are already compromised. Alcohol makes every marker worse.</span></div>
+    </div>
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">3</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Shatavari nightly</strong><span style="font-size:13px;color:#c4a882;"> — Ayurveda's primary female reproductive tonic. Supports estrogen regulation, gut lining, and stress resilience simultaneously.</span></div>
+    </div>
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">4</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Sleep before 10pm</strong><span style="font-size:13px;color:#c4a882;"> — cortisol dysregulation from poor sleep directly worsens androgen levels and insulin sensitivity in PCOS.</span></div>
+    </div>
+  </div>
+</div><p>PCOS is treatable. But it is not treatable with a generic protocol. The Kapha woman needs stimulation and movement. The Pitta woman needs cooling and rest. The Vata woman needs grounding and routine. Once you understand which type you are, the intervention becomes clear. This is the Ayurvedic advantage.</p>`
   }
 ]
 
