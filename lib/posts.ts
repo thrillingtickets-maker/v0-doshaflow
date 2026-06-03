@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">������������������������������������������ Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">������������������������������������������� Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -4122,6 +4122,56 @@ export const posts: Post[] = [
     <div style="font-size:13px;color:#4a3728;">Classic remedy for coughs, colds, sinusitis</div>
   </div>
 </div><h2>How to Use Tulsi</h2><p>The simplest way to use Tulsi is as a tea. Fresh Tulsi leaves steeped in hot water create a gentle, accessible preparation that can be consumed daily. If fresh Tulsi is not available, dried leaves work well, and high-quality Tulsi capsules provide standardized dosing.</p><p>For stress and nervous system support, Tulsi is best taken in the morning or when stress is most active. For immunity support, it is most effective in winter and spring when respiratory challenges are most common. As an adaptogen, Tulsi becomes more effective with consistent use over weeks and months.</p><h2>Tulsi as a Lifestyle Herb</h2><p>What distinguishes Tulsi from many medicinal herbs is that it is safe, effective, and appropriate for daily use by almost everyone. It is not a symptomatic treatment — it is a tool for building resilience. The person who consumes Tulsi daily does not simply recover from stress more quickly; they become more resistant to stress overall.</p><p>This is the essence of Ayurvedic herbalism — not fighting disease, but building the conditions under which disease cannot arise.</p>`
+  },
+  {
+    slug: "ayurveda-for-menopause",
+    category: "article",
+    title: "Ayurveda and Menopause: Navigating the Vata Shift with Nourishment and Wisdom",
+    date: "June 3, 2026",
+    excerpt: "In Ayurveda, menopause is not a loss. It is a shift into the Vata phase of life. Here is the complete protocol for thriving through this transition.",
+    seoTitle: "Ayurveda and Menopause: Complete Support Protocol for the Vata Shift",
+    seoDescription: "Complete guide to menopause through Ayurveda. Learn how to nourish yourself through the Vata phase and resolve menopause symptoms.",
+    content: `<p>Menopause marks the most significant physiological shift a woman's body experiences. Western medicine frames it as a deficiency — the loss of estrogen production — and addresses it with replacement. Ayurveda frames it differently: as a natural life-phase transition from Pitta-dominated reproductive years to Vata-dominated postmenopausal years. Symptoms are not failures. They are the body's expression of a new dosha predominance.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">In Ayurveda, menopause is not a loss. It is a shift into the Vata phase of life — a time of increased lightness, creativity, and wisdom, but one that requires specific nourishment to navigate without the dryness, anxiety, and disruption Vata excess can bring.</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">The culture you live in determines how you experience menopause. The dosha you live in determines what you need.</div>
+</div><h2>Understanding the Physiological Shift</h2><p>Estrogen production declines in menopause, but this is not aberrant — it is the body's natural transition. What makes menopause challenging is not the absence of estrogen, but the speed and unpreparedness. The Vata phase of life is characterized by dryness, lightness, irregularity, and movement. When the body shifts into this phase without adequate nourishment and grounding, the result is the symptom complex we call menopause.</p><p>Different women experience different symptoms based on their constitutional type. A woman with significant Pitta constitution will experience primarily hot flashes and inflammation. A woman with Vata constitution will experience primarily anxiety, insomnia, and dryness. A woman with Kapha constitution might experience weight gain and sluggish metabolism. Understanding your constitution is the first step toward targeted support.</p><h2>Recognizing the Symptoms</h2><p>Menopause symptoms are not random. Each reflects a specific imbalance that has a specific Ayurvedic intervention. The conventional approach treats all women identically. Ayurveda recognizes that the woman with hot flashes needs different medicine than the woman with vaginal dryness or the woman experiencing primarily anxiety and mood disruption.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Symptom</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Dosha</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Root cause</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">First intervention</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Hot flashes</div>
+    <div style="font-size:13px;color:#4a3728;">Pitta</div>
+    <div style="font-size:13px;color:#4a3728;">Excess heat, liver burden</div>
+    <div style="font-size:13px;color:#4a3728;">No alcohol, cooling diet, Shatavari</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Insomnia</div>
+    <div style="font-size:13px;color:#4a3728;">Vata</div>
+    <div style="font-size:13px;color:#4a3728;">Depleted nervous system</div>
+    <div style="font-size:13px;color:#4a3728;">Ashwagandha, early bed, warm oil</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Vaginal dryness</div>
+    <div style="font-size:13px;color:#4a3728;">Vata</div>
+    <div style="font-size:13px;color:#4a3728;">Systemic dryness, Vata phase</div>
+    <div style="font-size:13px;color:#4a3728;">Shatavari, ghee, sesame oil topical</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Weight gain</div>
+    <div style="font-size:13px;color:#4a3728;">Kapha</div>
+    <div style="font-size:13px;color:#4a3728;">Metabolic shift, reduced estrogen</div>
+    <div style="font-size:13px;color:#4a3728;">Trikatu, reduce dairy/wheat, exercise</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Anxiety / mood</div>
+    <div style="font-size:13px;color:#4a3728;">Vata</div>
+    <div style="font-size:13px;color:#4a3728;">HPA axis, progesterone drop</div>
+    <div style="font-size:13px;color:#4a3728;">Ashwagandha, Brahmi, routine</div>
+  </div>
+</div><h2>The Comprehensive Support Protocol</h2><p>Menopause support in Ayurveda is multi-directional. The primary herbs are Shatavari (the supreme female reproductive herb), Ashwagandha (for nervous system support and stress), and Brahmi (for mood and anxiety). These are combined with dietary adjustments — increasing healthy fats and warm foods, reducing drying foods — and lifestyle practices that ground and nourish the newly-Vata system.</p><p>The goal is not to suppress menopause. It is to provide the nourishment and support the body needs to transition gracefully into this new life phase. Most women who implement comprehensive Ayurvedic support report significant symptom improvement within 4–8 weeks and full recalibration within 3–6 months.</p>`
   }
 ]
 
