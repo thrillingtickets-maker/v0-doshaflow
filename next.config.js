@@ -38,6 +38,21 @@ const nextConfig = {
         destination: '/blog/ayurveda-alcohol',
         permanent: true,
       },
+      {
+        source: '/for-men',
+        destination: '/ayurveda-for-men',
+        permanent: true,
+      },
+      {
+        source: '/for-women',
+        destination: '/ayurveda-for-women',
+        permanent: true,
+      },
+      {
+        source: '/blog/traveling-the-ayurvedic-way',
+        destination: '/blog/traveling-ayurvedic-way',
+        permanent: true,
+      },
     ]
   },
 }
