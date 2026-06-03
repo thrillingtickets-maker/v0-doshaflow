@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">�������������� Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -2256,6 +2256,62 @@ export const posts: Post[] = [
     </div>
   </div>
 </div><h2>The real solution</h2><p>Constipation is not something you fix once and it stays fixed. It is something you manage by staying close to your baseline. Vata constipation requires consistency — the same meal times, the same routine, warm oil daily. Pitta constipation requires cool foods and stress management. Kapha constipation requires vigorous movement and warming spices.</p><p>The mistake most people make is trying to fix constipation without addressing the underlying dosha type. They take fiber supplements, drink more water, and get worse. Then they blame Ayurveda for not working. Ayurveda works perfectly — when you understand what type you actually have.</p>`
+  },
+  {
+    slug: "signs-of-pitta-imbalance",
+    category: "article",
+    title: "Signs of Pitta Imbalance: The Cost of Burning Out",
+    date: "June 3, 2026",
+    excerpt: "Pitta imbalance looks like success from the outside. High-achieving, organised, articulate. Inside: inflamed, irritable, running on fumes. The hardest thing about excess Pitta is that it is socially rewarded until it suddenly isn't.",
+    seoTitle: "Pitta Imbalance Symptoms: Acid Reflux, Inflammation, and Burnout",
+    seoDescription: "Complete guide to Pitta dosha imbalance symptoms: physical signs (heartburn, inflammation), mental-emotional patterns (perfectionism, irritability), and how to restore balance.",
+    content: `<p>Pitta imbalance is the most dangerous dosha imbalance in modern life because it is initially rewarded. You are sharp, focused, driven, articulate — the exact qualities that produce results in competitive environments. Your digestion is efficient. You sleep very little and think you are thriving. You probably drink alcohol most nights to decompress, eat spicy food, and work through lunch. This is Pitta imbalance masquerading as success.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">"Pitta imbalance looks like success from the outside. High-achieving, organised, articulate, driven. Inside: inflamed, irritable, and running on fumes."</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">The hardest thing about Pitta excess is that it is socially rewarded until it isn't.</div>
+</div><h2>The physical signs</h2><p>Acid reflux and heartburn are the body's first language of Pitta excess. When the stomach acid rises to the throat, this is literally your internal heat looking for a way out. Skin rashes and acne appear because the inflammation is pushed to the surface. Hair greys early and thins because the heat is consuming what should nourish the tissues. Eyes become bloodshot from inflammation. Diarrhoea emerges when the digestive fire is too high to contain. Excessive sweating is the body's attempt to cool itself, but the effort is futile.</p><h2>The mental and emotional signature</h2><p>Irritability is not a personality trait in Pitta excess — it is a symptom of heat. When you are overheated, you are reactive. The smallest inefficiency creates disproportionate anger. Perfectionism emerges as a coping mechanism to control an environment that feels unstable. Competitiveness moves from motivation to compulsion. You need to win not because you want to succeed, but because losing feels intolerable. Sleep disruption follows — your mind is too wired to rest, especially at night when Pitta naturally peaks.</p><div style="background:#f5f0e8;border-radius:12px;padding:36px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:24px;">Pitta imbalance — full symptom picture</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;">
+    <div>
+      <div style="font-size:13px;font-weight:700;color:#2a1f14;margin-bottom:12px;">Physical</div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Acid reflux, heartburn</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Skin rashes, acne, rosacea</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Diarrhoea or loose stool</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Excessive sweating</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Hair thinning or early grey</div>
+      </div>
+    </div>
+    <div>
+      <div style="font-size:13px;font-weight:700;color:#2a1f14;margin-bottom:12px;">Mental / Emotional</div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Irritability under pressure</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Perfectionism and criticism</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Competitive to a fault</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Wired and alert at night</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Intolerance of inefficiency</div>
+      </div>
+    </div>
+    <div>
+      <div style="font-size:13px;font-weight:700;color:#2a1f14;margin-bottom:12px;">Lifestyle triggers</div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Alcohol (most Pitta-aggravating substance)</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Spicy, fermented, sour food</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Summer heat</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Skipping meals (rage hunger)</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Competitive environments</div>
+      </div>
+    </div>
+  </div>
+</div><h2>When Pitta excess becomes dangerous</h2><p>The danger of Pitta imbalance is that by the time you feel it, damage is already accumulating. Acid reflux becomes GERD. Skin inflammation becomes chronic. The liver becomes taxed. Sleep deprivation compounds. Alcohol consumption increases because it is the only way to cool the nervous system (until it becomes the primary aggravating factor). The perfectionism that once drove achievement now creates paralysis because nothing ever feels complete. By the time most people recognise they are burnt out, their body is already showing signs of inflammatory disease.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:8px;">The principle</div>
+  <div style="font-size:22px;font-weight:700;color:#f5f0e8;font-family:Georgia,serif;margin-bottom:20px;">Give Pitta what it lacks: coolness, sweetness, surrender of control</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Brahmi</strong> — cools the overheated mind. Afternoon, consistently, 8+ weeks</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">No alcohol</strong> — the liver is already taxed. Alcohol is fire poured onto fire</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Coconut oil self-massage</strong> — cooling, grounding, opposite of sesame for Vata</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Lunch as the largest meal</strong> — Pitta types need to feed the fire at its peak, not bank calories into the evening</div>
+  </div>
+</div><p>The recovery from Pitta imbalance is slower than the descent into it. The heat does not disappear overnight. But the recovery is certain if you are willing to stop feeding the fire. This means becoming the thing Pitta naturally resists: the person who stops, who limits, who says no to competition. This is not failure. This is the only actual success available to the Pitta type.</p>`
   }
 ]
 
