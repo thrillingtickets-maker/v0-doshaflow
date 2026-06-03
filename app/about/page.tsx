@@ -92,11 +92,6 @@ export default function AboutPage() {
             transition={{ duration: 0.6 }}
             className="mb-12"
           >
-            <img
-              src="https://source.unsplash.com/featured/800x500/?kerala,india,ayurveda,retreat"
-              alt="Ayurvedic retreat Kerala India"
-              style={{ width: "100%", borderRadius: "8px", margin: "32px 0" }}
-            />
           </motion.div>
 
           {/* Pull Quote */}
@@ -203,11 +198,6 @@ export default function AboutPage() {
             transition={{ duration: 0.6 }}
             className="mb-12"
           >
-            <img
-              src="https://source.unsplash.com/featured/800x500/?ayurvedic,treatment,massage,india"
-              alt="Ayurvedic treatment session"
-              style={{ width: "100%", borderRadius: "8px", margin: "32px 0" }}
-            />
           </motion.div>
 
           {/* What DoshaFlow Is */}
@@ -247,11 +237,6 @@ export default function AboutPage() {
             transition={{ duration: 0.6 }}
             className="mb-16"
           >
-            <img
-              src="https://source.unsplash.com/featured/800x500/?kerala,india,nature,green,tropical"
-              alt="Kerala India landscape"
-              style={{ width: "100%", borderRadius: "8px", margin: "32px 0" }}
-            />
           </motion.div>
         </div>
       </article>
