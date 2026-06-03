@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">�������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">��������������� Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -2312,6 +2312,65 @@ export const posts: Post[] = [
     <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Lunch as the largest meal</strong> — Pitta types need to feed the fire at its peak, not bank calories into the evening</div>
   </div>
 </div><p>The recovery from Pitta imbalance is slower than the descent into it. The heat does not disappear overnight. But the recovery is certain if you are willing to stop feeding the fire. This means becoming the thing Pitta naturally resists: the person who stops, who limits, who says no to competition. This is not failure. This is the only actual success available to the Pitta type.</p>`
+  },
+  {
+    slug: "abhyanga-benefits",
+    category: "article",
+    title: "Abhyanga: The Ayurvedic Self-Massage That Regulates Your Nervous System",
+    date: "June 3, 2026",
+    excerpt: "Five minutes of warm oil on your skin produces measurable nervous system effects. No tools required. No special equipment. Just oil, your hands, and a routine. This is abhyanga — and the science backs it.",
+    seoTitle: "Abhyanga Benefits: Ayurvedic Oil Massage for Nervous System and Skin Health",
+    seoDescription: "Complete guide to abhyanga self-massage benefits: cortisol reduction, nervous system regulation, lymphatic stimulation. Step-by-step guide for each dosha type.",
+    content: `<p>Abhyanga is the Ayurvedic practice of self-massage with warm oil. It is ancient technology that has been used for over three thousand years because it works. The research backs this up. Studies show that regular massage reduces cortisol, improves lymphatic circulation, reduces inflammation, and regulates the nervous system. Most importantly, the effect is measurable within weeks of consistent daily practice. You do not need an hour. Five minutes is the minimum effective dose.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
+  <div style="font-size:64px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">5 min</div>
+  <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">Daily self-massage — the minimum effective dose</div>
+  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">The research on massage and cortisol reduction, lymphatic stimulation, and nervous system regulation does not require an hour. Five minutes of warm oil on the skin — particularly the feet and scalp — produces measurable effects on the nervous system within weeks of consistent daily practice.</div>
+</div><h2>Why oil matters</h2><p>The oil carries the effect. This is not a pressure-based treatment like Swedish massage. The benefit comes from the oil penetrating the skin, the gentle warmth, and the nervous system response to touch. Different oils have different properties. Sesame oil is warming and grounding — ideal for Vata. Coconut oil is cooling — ideal for Pitta. Mustard oil is stimulating — ideal for Kapha. The oil is the vehicle. The warmth is the catalyst. The consistency is the cure.</p><h2>The dosha approach</h2><p>Vata types need warmth, so sesame oil is warmed before application. The massage is slower, more deliberate, with longer strokes. The focus is on the feet (where Vata accumulates), the scalp, and the lower back. The effect is grounding and calming. Pitta types need cooling, so coconut or sunflower oil is used at room temperature. The massage is moderate, with a focus on the scalp, belly, and heart centre. The effect is soothing and anti-inflammatory. Kapha types need stimulation, so the massage is vigorous, with dry brushing before the oil application. The focus is the full body, particularly the lymph nodes. The effect is energising and circulation-promoting.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Dosha</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Best oil</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Temperature</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Focus areas</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:14px;font-weight:700;color:#2a1f14;">Vata</div>
+    <div style="font-size:13px;color:#4a3728;">Warm sesame oil</div>
+    <div style="font-size:13px;color:#4a3728;">Warm — always</div>
+    <div style="font-size:13px;color:#4a3728;">Feet, scalp, lower back, joints</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:14px;font-weight:700;color:#2a1f14;">Pitta</div>
+    <div style="font-size:13px;color:#4a3728;">Coconut or sunflower oil</div>
+    <div style="font-size:13px;color:#4a3728;">Room temperature</div>
+    <div style="font-size:13px;color:#4a3728;">Scalp, belly, heart centre</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
+    <div style="font-size:14px;font-weight:700;color:#2a1f14;">Kapha</div>
+    <div style="font-size:13px;color:#4a3728;">Light mustard or sesame</div>
+    <div style="font-size:13px;color:#4a3728;">Warm, vigorous strokes</div>
+    <div style="font-size:13px;color:#4a3728;">Full body, lymph nodes, dry brush first</div>
+  </div>
+</div><h2>The nervous system effect</h2><p>Abhyanga works on the nervous system through multiple pathways. The pressure receptors in the skin send signals to the parasympathetic nervous system, activating the rest-and-digest state. The warmth of the oil opens the pores and allows deeper penetration. The rhythm and repetition of the massage create a meditative state. The result is measurable: cortisol drops, heart rate variability improves, inflammation markers decrease. This is not a luxury. This is maintenance.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:20px;">The 5-minute morning practice — start here</div>
+  <div style="display:flex;flex-direction:column;gap:0;">
+    <div style="display:flex;gap:16px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:70px;">Step 1</div>
+      <div style="font-size:14px;color:#c4a882;">Warm 2 tablespoons of sesame oil (or your dosha oil) — 20 seconds in warm water is enough</div>
+    </div>
+    <div style="display:flex;gap:16px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:70px;">Step 2</div>
+      <div style="font-size:14px;color:#c4a882;">Feet first — soles and between the toes. The nerve endings here have a direct calming effect on the nervous system</div>
+    </div>
+    <div style="display:flex;gap:16px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:70px;">Step 3</div>
+      <div style="font-size:14px;color:#c4a882;">Scalp and behind the ears — two minutes here produces the most noticeable nervous system effect</div>
+    </div>
+    <div style="display:flex;gap:16px;padding:12px 0;">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:70px;">Step 4</div>
+      <div style="font-size:14px;color:#c4a882;">Leave for 5–10 minutes minimum before showering. The absorption matters as much as the application</div>
+    </div>
+  </div>
+</div><p>The consistency matters more than the duration. Daily five minutes beats weekly hour-long sessions. The nervous system responds to routine, to predictability, to the signal that you are safe enough to rest. Abhyanga sends that signal. After six to eight weeks of daily practice, the effect becomes cumulative. Your baseline cortisol drops. Your sleep improves. Your stress resilience increases. This is not placebo. This is the nervous system learning that you are taking care of it.</p>`
   }
 ]
 
