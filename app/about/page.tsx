@@ -5,6 +5,8 @@ import { ArrowRight } from "lucide-react"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 
+export const dynamic = 'force-dynamic'
+
 export default function AboutPage() {
   return (
     <main className="min-h-screen">
