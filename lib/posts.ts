@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">���������������������������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">����������������������������������� Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -3628,6 +3628,41 @@ export const posts: Post[] = [
     <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">No cold drinks ever</strong> — the most Kapha-aggravating single habit. Cold immediately suppresses agni and creates the heaviness Kapha is already managing.</div>
   </div>
 </div><h2>The Long View</h2><p>Kapha pacification through food is not about deprivation. It is about eating in alignment with Kapha's actual nature. A Kapha person eating Kapha-pacifying food feels lighter, more energized, and genuinely more satisfied — not despite eating less, but because of it. The body knows what it needs.</p>`
+  },
+  {
+    slug: "nervous-system-healing",
+    category: "article",
+    title: "Nervous System Healing: The Ayurvedic Framework for Regulation and Recovery",
+    date: "June 3, 2026",
+    excerpt: "Your nervous system is not broken. It is stuck in an activation pattern that has become the new normal. Healing is not about fixing it. It is about re-establishing the capacity to settle.",
+    seoTitle: "Nervous System Healing: The Ayurvedic Framework for Regulation",
+    seoDescription: "Complete guide to nervous system healing through Ayurveda. Learn vagal states, dysregulation patterns, and evidence-based protocols for nervous system recovery.",
+    content: `<p>Your nervous system is not broken. It is stuck in an activation pattern that has become the new normal. Modern life keeps you in a constant state of low-grade threat detection — screens, schedules, uncertainty, financial pressure, social comparison. Your nervous system interprets this as perpetual danger. Over time, this activation becomes your baseline.</p><p>Ayurveda has a framework for understanding this. It is not couched in the language of the polyvagal theory or HPA axis dysregulation. But it describes the exact same phenomenon: a nervous system that has lost the capacity to settle into safety and restoration.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:28px;">Nervous system states — where are you living?</div>
+  <div style="display:flex;flex-direction:column;gap:10px;">
+    <div style="display:grid;grid-template-columns:140px 1fr;gap:16px;align-items:center;background:white;border-radius:8px;padding:16px;">
+      <div style="font-size:14px;font-weight:700;color:#2d5a47;">Ventral vagal</div>
+      <div style="font-size:13px;color:#4a3728;">Safe and social. Calm alertness, connection, digestion working, creative. The state Ayurveda calls Ojas — radiant vitality.</div>
+    </div>
+    <div style="display:grid;grid-template-columns:140px 1fr;gap:16px;align-items:center;background:white;border-radius:8px;padding:16px;">
+      <div style="font-size:14px;font-weight:700;color:#b5763a;">Sympathetic</div>
+      <div style="font-size:13px;color:#4a3728;">Fight or flight. Heart rate up, digestion suppressed, cortisol elevated, sleep shallow. Vata aggravation. Most modern people spend most of their day here.</div>
+    </div>
+    <div style="display:grid;grid-template-columns:140px 1fr;gap:16px;align-items:center;background:white;border-radius:8px;padding:16px;">
+      <div style="font-size:14px;font-weight:700;color:#8a5a3a;">Dorsal vagal</div>
+      <div style="font-size:13px;color:#4a3728;">Shutdown. Numbness, dissociation, flatness. The Kapha depression pattern. The nervous system has gone below sympathetic to complete withdrawal.</div>
+    </div>
+  </div>
+</div><h2>Understanding Nervous System States</h2><p>Modern neuroscience describes three distinct nervous system states, mapped onto the vagal system. The ventral vagal state is the parasympathetic state of safety — calm alertness, social connection, good digestion, restorative sleep. The sympathetic state is the mobilization response — activation, arousal, energy expenditure, preparation for threat. The dorsal vagal state is the shutdown response — dissociation, numbness, withdrawal, complete immobilization.</p><p>Most modern people alternate between sympathetic and dorsal vagal, spending very little time in the ventral vagal state. Work demands activate sympathetic. Evening overwhelm or depression represents dorsal vagal shutdown. Few people experience the baseline safety of sustained ventral vagal activation.</p><p>Ayurveda describes this pattern through the lens of Vata and Ojas. Vata is the force of activation and movement. In excess, Vata creates the scattered, anxious, hypervigilant state that characterizes sympathetic overdrive. Ojas is the deepest form of nourishment and resilience — essentially, the resources that allow the nervous system to return to safety. When Ojas is depleted, even small stressors keep you in sympathetic activation or push you into dorsal vagal collapse.</p><h2>The Mechanism of Dysregulation</h2><p>Nervous system dysregulation does not happen overnight. It accumulates through years of inadequate sleep, chronic stress without recovery, irregular eating patterns, stimulant overuse, and the constant low-grade threat of modern information density. Each stressor alone might be manageable. But accumulated without adequate parasympathetic recovery time, the system gradually loses its capacity to downregulate.</p><p>The key insight is that dysregulation is not a character flaw. It is a physiological adaptation to a dysregulating environment. Your nervous system is not broken. It is working exactly as designed — which means it is stuck protecting you from what it perceives as ongoing threat.</p><p>The question is not why you are dysregulated. The question is what conditions allow the nervous system to remember that it is safe enough to settle.</p><h2>The Path to Regulation</h2><p>Nervous system healing is not about forcing relaxation or using willpower to calm down. It is about creating the conditions under which the nervous system naturally returns to baseline safety. Ayurveda prescribes this through routine (especially sleep timing), herbal support for nervous system regulation, and practices that directly activate parasympathetic tone.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:8px;">The rebuild</div>
+  <div style="font-size:20px;font-weight:700;color:#f5f0e8;font-family:Georgia,serif;margin-bottom:20px;">The nervous system heals through repetition of safety, not through effort</div>
+  <div style="display:flex;flex-direction:column;gap:12px;">
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Same wake time daily</strong> — the most powerful single input to nervous system regulation. Cortisol anchors to light and clock time. Regularity is the medicine.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Ashwagandha 8+ weeks</strong> — directly modulates the HPA axis. The nervous system does not respond to a week of herbs; it responds to months of consistent input.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Warm oil daily</strong> — abhyanga directly activates the parasympathetic nervous system through the skin. Five minutes on feet and scalp. The most accessible nervous system intervention in Ayurveda.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Remove the stimulants and sedatives</strong> — coffee escalates sympathetic activation. Alcohol sedates then rebounds into sympathetic. Both prevent the nervous system from finding its own regulation.</div>
+  </div>
+</div><h2>The Timeline of Healing</h2><p>Nervous system dysregulation took months or years to establish. It takes weeks to months to reverse. But the shift is noticeable quickly. Within days of consistent early sleep and removal of caffeine, many people report improved emotional resilience. Within weeks of herbal support and daily oil massage, baseline anxiety drops. Within months of sustained practice, most people experience a genuine shift in their nervous system's baseline state — not back to perfect, but back to functional, back to capable of feeling safe.</p><p>This is nervous system healing. Not forcing yourself to be calm. Not pushing through dysregulation with more willpower. But actually re-establishing the conditions under which the nervous system remembers it is safe.</p>`
   }
 ]
 
