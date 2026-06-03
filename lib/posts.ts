@@ -3149,6 +3149,59 @@ export const posts: Post[] = [
     <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Luteal phase support</strong> — days 15–28. Reduce alcohol, increase sleep, reduce stimulation. This is the phase where the foundation you built either holds or doesn't.</div>
   </div>
 </div><h2>Menstrual Cycle and Kapha/Pitta/Vata</h2><p>Even within the reproductive years, the menstrual cycle itself reflects the doshas. The follicular phase (days 1-14) is Kapha-Pitta dominant — building, rising energy, increasing metabolism and activity capacity. The luteal phase (days 15-28) is Vata-Pitta dominant — more inward, more sensitive, more introverted, requiring more nourishment and rest. The ideal rhythm supports both: lighter movement during the follicular phase as energy is naturally rising, more restorative practices during the luteal phase as the body naturally wants to slow. Pushing the same intensity through both phases produces burnout and hormonal dysregulation.</p><h2>The Foundation: Before Supplementation</h2><p>Before adding herbs or supplements, the foundational practices matter most. Consistent sleep at the same time every night — this single practice addresses hormonal dysregulation more profoundly than any herb. Eating at regular times — the digestive system and reproductive system are intimately connected through the gut-brain-reproductive axis. Adequate hydration with warm water throughout the day — dehydration amplifies every hormonal symptom. Healthy elimination daily — constipation backs up estrogen metabolism. Movement appropriate to the season and phase — not excessive, not sedentary. These are not supplements. They are the ground on which everything else is built.</p>`
+  },
+  {
+    slug: "pitta-pacifying-foods",
+    category: "article",
+    title: "Pitta-Pacifying Foods: Cool, Mild, and Hydrating",
+    date: "June 3, 2026",
+    excerpt: "Pitta is drawn to intense foods. But intensity is exactly what aggravates Pitta. The food that pacifies Pitta is cooling, mild, and hydrating — the opposite of what Pitta craves.",
+    seoTitle: "Pitta-Pacifying Foods: Complete Eating Guide for Pitta Types",
+    seoDescription: "Complete guide to pitta-pacifying foods. What to eat and avoid when you are a pitta dosha type.",
+    content: `<p>Pitta is characterised by heat, intensity, and a powerful digestive fire. This expresses as strong appetite, strong opinions, strong reactions. The food that pacifies Pitta is counterintuitive because it is almost the opposite of what Pitta wants to eat. Pitta is drawn to heat, spice, and intensity. But these aggravate Pitta. The answer is cooling, mild, hydrating food — which feels boring to a typical Pitta person until they realise how much better they feel.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">Pitta's relationship with food is intense. Strong appetite, strong opinions, strong reactions when things go wrong. The food that pacifies Pitta is essentially the opposite of what Pitta is drawn to: cooling, mild, and hydrating.</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">Favour: sweet, bitter, astringent. Reduce: pungent, sour, salty.</div>
+</div><h2>Understanding Pitta and Food</h2><p>Pitta governs digestion and metabolism. When Pitta is in balance, digestion is efficient, energy is steady, and the mind is sharp and focused. When Pitta is aggravated, digestion becomes inflammatory, skin issues emerge, mood becomes irritable, and the tendency toward anger and criticism increases. What most people do not realise is that the food Pitta is drawn to — spicy, acidic, fermented, heavy — is exactly what aggravates Pitta further. The solution is to eat in the opposite direction: cooling foods that soothe rather than stimulate the Pitta metabolism.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Category</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#2d5a47;text-transform:uppercase;">Best choices ✓</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#c0392b;text-transform:uppercase;">Avoid ✗</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Grains</div>
+    <div style="font-size:13px;color:#4a3728;">Basmati rice, oats, barley, white pasta</div>
+    <div style="font-size:13px;color:#4a3728;">Buckwheat, millet, rye, corn</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Vegetables</div>
+    <div style="font-size:13px;color:#4a3728;">Cucumber, courgette, leafy greens, broccoli, asparagus</div>
+    <div style="font-size:13px;color:#4a3728;">Tomatoes, hot peppers, raw onion, garlic, radish</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Fruit</div>
+    <div style="font-size:13px;color:#4a3728;">Sweet grapes, melon, coconut, pears, figs</div>
+    <div style="font-size:13px;color:#4a3728;">Sour citrus, unripe fruit, sour cherries</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Protein</div>
+    <div style="font-size:13px;color:#4a3728;">Chicken, white fish, legumes, tofu</div>
+    <div style="font-size:13px;color:#4a3728;">Red meat, egg yolk, shellfish, aged cheese</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Drinks</div>
+    <div style="font-size:13px;color:#4a3728;">Coconut water, mint tea, rose water, fennel tea, cool milk</div>
+    <div style="font-size:13px;color:#4a3728;">Alcohol, coffee, kombucha, hot spiced drinks</div>
+  </div>
+</div><h2>The Specifics of Pitta Food Choices</h2><p>For grains, basmati rice is ideal because it is cooling and easy to digest. Oats and barley are also cooling. Avoid heating grains like buckwheat and millet. For vegetables, emphasise the cooling ones: cucumber, courgette, leafy greens. Avoid anything heating or pungent — tomatoes, hot peppers, raw onion are all Pitta-aggravating. For fruit, favour sweet fruits like grapes, melon, pears, and figs. Avoid sour citrus and unripe fruits. For protein, white fish and chicken are ideal — lighter than red meat and less heating. Legumes are fine in small quantities. Avoid red meat, shellfish, and aged cheese.</p><p>Hydration is critical for Pitta. Coconut water is the supreme drink for Pitta — cooling and naturally sweet. Herbal teas are excellent: mint tea is cooling and digestion-supporting, fennel tea is sweet and hydrating, rose water is cooling and calming. Avoid coffee and alcohol — both are Pitta-aggravating and will worsen every Pitta symptom.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:8px;">More important than what you eat</div>
+  <div style="font-size:20px;font-weight:700;color:#f5f0e8;font-family:Georgia,serif;margin-bottom:20px;">How Pitta eats is as inflammatory as what Pitta eats</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Never skip lunch</strong> — Pitta hunger becomes anger. The rage at a delayed meal is not personality, it is physiology. Eat on time.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Eat in a calm environment</strong> — Pitta digestion is already hot. Adding the heat of frustration or conflict to a meal amplifies every inflammatory effect.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Nothing after 8pm</strong> — Pitta types often feel alert and hungry late at night. This is Pitta activating, not actual hunger. Stop eating by 7:30pm.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Alcohol is the exception</strong> — not a treat or reward. Alcohol is the single most Pitta-aggravating substance. Every skin, gut, and mood issue is worsened by it.</div>
+  </div>
+</div><h2>The Bottom Line</h2><p>Pitta-pacifying eating requires going against Pitta's natural inclinations. Pitta wants intensity. Pitta needs the opposite. The good news is that when Pitta commits to cooling, mild food, the results are dramatic. Skin clears. Digestion settles. Mood becomes less reactive. Energy becomes more stable. Within 2-4 weeks on a Pitta-pacifying diet, most people notice significant change. The challenge is maintaining it when Pitta's natural drive toward heat and intensity reasserts itself. But the principle is simple: cool, mild, hydrating, and regular.</p>`
   }
 ]
 
