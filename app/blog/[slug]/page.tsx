@@ -366,6 +366,34 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             style={{ color: "#2c1a0e", lineHeight: 1.85 }}
             dangerouslySetInnerHTML={{ __html: processArticleContent(post.content) }}
           />
+          {/* Related Reading Section */}
+          <style>{`
+            .related-reading-links a {
+              display: block;
+              color: #2a1f14;
+              font-size: 18px;
+              font-weight: 600;
+              text-decoration: none;
+              transition: color 0.2s;
+            }
+            .related-reading-links a:hover {
+              color: #8a7a5a;
+            }
+          `}</style>
+          <div style={{ marginTop: "64px", padding: "32px", borderRadius: "12px", background: "#f5f0e8", border: "1px solid #e0d5c5" }}>
+            <div style={{ fontSize: "12px", letterSpacing: "0.12em", textTransform: "uppercase", color: "#b5763a", marginBottom: "18px" }}>
+              Related Reading
+            </div>
+            <div style={{ display: "grid", gap: "14px" }} className="related-reading-links">
+              <a href="/quiz">Discover Your Dosha →</a>
+              <a href="/blog/best-ayurvedic-tea">Best Ayurvedic Tea for Stress & Sleep →</a>
+              <a href="/blog/ayurveda-for-stress">Ayurveda for Nervous System Stress →</a>
+              <a href="/blog/ayurveda-for-sleep">Ayurveda for Deep Sleep →</a>
+              <a href="/dosha-diets">Vata, Pitta & Kapha Diet Plans →</a>
+              <a href="/blog/ayurveda-for-hair-loss">Ayurveda for Hair Loss →</a>
+            </div>
+          </div>
+
           {/* Post Footer - Back Link */}
           <footer style={{ marginTop: "64px", paddingTop: "32px", borderTop: "1px solid #e8d9c5" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
