@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">��������������������������������������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">���������������������������������������������� Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -4292,6 +4292,51 @@ export const posts: Post[] = [
     </div>
   </div>
 </div><h2>The Path Forward</h2><p>Heart disease is preventable and often reversible. The key is understanding what kind of heart disease you have, why it developed, and what specific interventions address that pattern. When treated appropriately with both medical support and targeted Ayurvedic protocol, most people see significant improvements in cardiovascular markers and symptoms.</p>`
+  },
+  {
+    slug: "amla-benefits",
+    category: "article",
+    title: "Amla: The Fruit of Immortality — Ayurveda's Most Powerful Antioxidant",
+    date: "June 3, 2026",
+    excerpt: "Amla (Indian gooseberry) is the highest natural source of Vitamin C in the world. Here is the complete guide to using this Rasayana fruit for longevity and health.",
+    seoTitle: "Amla Benefits: Vitamin C, Rasayana, and Complete Health Guide",
+    seoDescription: "Complete guide to Amla (Indian gooseberry). Learn its benefits for immunity, hair, liver health, and digestion with practical usage recommendations.",
+    content: `<p>Amla, also known as Indian gooseberry or Phyllanthus emblica, is one of the most revered fruits in Ayurveda. It occupies a sacred place in the Ayurvedic pharmacopoeia not because it is rare or expensive, but because its effects are so profound and universal. Amla works for every constitution, every age, and every season. It is the fruit that builds the foundation of health.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
+  <div style="font-size:64px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">20x</div>
+  <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">More Vitamin C than an orange — gram for gram</div>
+  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">Amla is the highest natural source of Vitamin C in the world. Unlike synthetic ascorbic acid, the Vitamin C in Amla is bound with bioflavonoids that enhance absorption and prevent oxidation. Ayurveda calls it the fruit of immortality — Amalaki — and considers it the single most important Rasayana food.</div>
+</div><h2>Understanding Amla's Power</h2><p>What makes Amla exceptional is the form in which its Vitamin C exists. In most fruits, Vitamin C oxidizes quickly and becomes unstable. In Amla, the Vitamin C is protected by bioflavonoids and tannins — compounds that not only prevent oxidation but that work synergistically with the Vitamin C to enhance its absorption and effectiveness.</p><p>This is why Amla has been used in Ayurveda for thousands of years and why it remains one of the most studied Ayurvedic herbs. Modern research consistently validates what traditional medicine has known: Amla is one of the most potent antioxidants available.</p><h2>The Benefits of Amla</h2><p>Amla's benefits span multiple systems because its fundamental action is strengthening. It strengthens immunity through its Vitamin C content and anti-inflammatory compounds. It strengthens hair by regulating Pitta excess that causes premature graying and hair loss. It strengthens the liver through its hepatoprotective compounds. It strengthens digestion as part of Triphala, one of Ayurveda's most important formulas.</p><p>Perhaps most importantly, Amla is a Rasayana — a rejuvenative that supports longevity and builds Ojas. Regular consumption of Amla is associated with increased vitality, improved energy, and a sense of resilience that characterizes true health.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Use</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Form</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Research</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Dosha</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Immunity</div>
+    <div style="font-size:13px;color:#4a3728;">Powder, juice, supplement</div>
+    <div style="font-size:13px;color:#4a3728;">Strong — vitamin C, antioxidant</div>
+    <div style="font-size:13px;color:#4a3728;">All doshas</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Hair and scalp</div>
+    <div style="font-size:13px;color:#4a3728;">Powder in oil, capsule</div>
+    <div style="font-size:13px;color:#4a3728;">Good — reduces hair fall, early grey</div>
+    <div style="font-size:13px;color:#4a3728;">Pitta (primary)</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Liver support</div>
+    <div style="font-size:13px;color:#4a3728;">Capsule, Triphala (contains Amla)</div>
+    <div style="font-size:13px;color:#4a3728;">Good — hepatoprotective, detoxifying</div>
+    <div style="font-size:13px;color:#4a3728;">Pitta, Kapha</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Digestion</div>
+    <div style="font-size:13px;color:#4a3728;">Powder with honey, Triphala</div>
+    <div style="font-size:13px;color:#4a3728;">Strong — part of the most studied Ayurvedic formula</div>
+    <div style="font-size:13px;color:#4a3728;">All doshas</div>
+  </div>
+</div><h2>How to Use Amla</h2><p>The simplest way to use Amla is as a dried powder mixed with honey or warm water. A teaspoon daily provides significant antioxidant support. Amla can also be taken as juice, as a capsule supplement, or as part of Triphala — the classical Ayurvedic formula that contains Amla, Haritaki, and Bibhitaki in equal proportions.</p><p>For immunity support, morning consumption is ideal. For hair health, mixing the powder with coconut oil and applying it as a paste to the scalp before washing creates a deeply nourishing treatment. Consistency matters more than dose — a small amount taken daily produces better results than occasional larger amounts.</p><h2>Amla as Rasayana</h2><p>The most important use of Amla is as a long-term rejuvenative. Taking Amla daily — whether as powder, juice, or as part of Triphala — builds Ojas gradually over months and years. This is not a supplement with immediate symptomatic relief. It is medicine for longevity. The person who takes Amla consistently over years reports improved energy, clearer skin, stronger immunity, and a sense of resilience that characterizes true vitality.</p>`
   }
 ]
 
