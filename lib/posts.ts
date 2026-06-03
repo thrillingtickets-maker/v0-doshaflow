@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">��������������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">���������������������� Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -2786,6 +2786,51 @@ export const posts: Post[] = [
     </div>
   </div>
 </div><p>The real work of managing stress is not in the emergency interventions. It is in the daily practices that keep your nervous system from reaching emergency mode in the first place. Sleep. Food. Routine. Movement. These are not luxuries. In Ayurveda, they are medicine.</p>`
+  },
+  {
+    slug: "neem-benefits",
+    category: "article",
+    title: "Neem: The Multi-System Herb That Works Across Everything",
+    date: "June 3, 2026",
+    excerpt: "Neem is known in Sanskrit as Sarva Roga Nivarini — the cure of all ailments. This is hyperbole, but the underlying truth is that neem has demonstrable activity across more systems than almost any other herb.",
+    seoTitle: "Neem Benefits: Oral Health, Skin, Blood Sugar, and Immunity",
+    seoDescription: "Complete guide to neem benefits and uses. Evidence-based applications for skin, dental health, blood sugar, immunity, and parasites.",
+    content: `<p>Neem is perhaps the most versatile herb in Ayurveda. It appears in formulas for skin, oral health, blood sugar, immunity, parasitic infection, and chronic inflammation. The reason it works across so many systems is that its primary action is anti-inflammatory and antimicrobial. Because chronic inflammation and dysbiotic microbes underlie most chronic disease, neem reaches into many conditions.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
+  <div style="font-size:64px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">130+</div>
+  <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">Biologically active compounds identified in neem</div>
+  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">Neem is known in Sanskrit as Sarva Roga Nivarini — "the cure of all ailments." This is hyperbole, but the underlying truth is that neem has demonstrable activity across more systems than almost any other herb: skin, oral health, blood sugar, immunity, and gut parasites.</div>
+</div><h2>Where Neem Works</h2><p>Neem's effectiveness comes from its density of bioactive compounds. Over 130 have been identified, including nimbin, nimbidin, salannin, and azadirachtin. These compounds are antimicrobial (inhibiting bacteria and fungi), anti-inflammatory (reducing prostaglandin production), and immunomodulating (strengthening immune response without causing autoimmunity). This combination makes neem effective across conditions that most herbs can only partially address.</p><h2>Forms and Application</h2><p>Neem comes in several forms: leaf (most versatile), oil (most practical for topical use), twig (traditional for oral health), and extract (most concentrated). The form you choose depends on what you are treating. For internal use, leaf extract or capsule is most practical. For oral health, the twig is traditional but neem oil or toothpaste is more convenient. For skin, neem oil is the standard form, though it should be diluted before applying to the face.</p><h2>The Research Context</h2><p>Neem has been subject to more clinical research than most Ayurvedic herbs. Studies confirm its effectiveness for oral plaque reduction (comparable to chlorhexidine without the side effects), for acne (anti-bacterial and anti-inflammatory), for blood sugar management (improves insulin sensitivity), and for parasitic infection (particularly effective against Giardia and roundworms). The research does not support neem as a cure for these conditions, but it does support its role as part of a comprehensive protocol.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Application</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Form</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Evidence</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Caution</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Oral health</div>
+    <div style="font-size:13px;color:#4a3728;">Twig, oil, toothpaste</div>
+    <div style="font-size:13px;color:#4a3728;">Strong — comparable to chlorhexidine for plaque</div>
+    <div style="font-size:13px;color:#4a3728;">None at topical doses</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Skin (acne)</div>
+    <div style="font-size:13px;color:#4a3728;">Topical oil or cream</div>
+    <div style="font-size:13px;color:#4a3728;">Good — anti-bacterial, anti-inflammatory</div>
+    <div style="font-size:13px;color:#4a3728;">Dilute before applying to face</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Blood sugar</div>
+    <div style="font-size:13px;color:#4a3728;">Leaf extract, capsule</div>
+    <div style="font-size:13px;color:#4a3728;">Moderate — improves insulin sensitivity</div>
+    <div style="font-size:13px;color:#4a3728;">Monitor if on medication</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Internal use</div>
+    <div style="font-size:13px;color:#4a3728;">Capsule, leaf</div>
+    <div style="font-size:13px;color:#4a3728;">Moderate — blood purification, gut parasites</div>
+    <div style="font-size:13px;color:#4a3728;">Not for pregnancy or trying to conceive</div>
+  </div>
+</div><h2>Neem for Oral Health</h2><p>The traditional Ayurvedic approach to oral health is neem twig. The twig is chewed at one end to fray it into bristles, then used to brush teeth. Modern alternatives include neem oil mixed with a carrier oil, or neem toothpaste. The mechanism is well-researched: neem inhibits the Streptococcus mutans bacteria that produce the acid that causes plaque and tooth decay. Studies comparing neem to chlorhexidine (the standard pharmaceutical mouthwash) show neem to be comparable in plaque reduction without the side effects of chlorhexidine (which disrupts oral microbiome balance and stains teeth).</p><h2>Neem for Skin</h2><p>Neem oil is traditionally used for all skin conditions rooted in inflammatory dysbiosis: acne, eczema, psoriasis, and chronic fungal infections. The anti-bacterial action reduces acne-causing bacteria. The anti-inflammatory action reduces redness and swelling. The key is to dilute neem oil — at full strength it is too strong for most skins. The traditional approach is to mix 1 part neem oil with 3-5 parts coconut oil before applying to the face. For body skin, undiluted neem oil can be used directly.</p><h2>Neem for Blood Sugar</h2><p>Neem leaf extract has been studied for diabetes management. The research shows that neem improves insulin sensitivity and reduces blood glucose spikes. The mechanism involves neem's effect on the gut microbiome — it increases beneficial bacteria and reduces dysbiotic species, which indirectly improves glucose regulation. Neem is not a substitute for medication or lifestyle changes, but it is a reasonable addition to a comprehensive protocol for blood sugar management. Typical dosing is 300-500mg of extract daily.</p><h2>Neem for Parasites</h2><p>In traditional Ayurveda, neem is used for parasitic infection, particularly intestinal parasites. Modern research confirms this application. Neem is effective against Giardia, roundworms, and other common parasites. The mechanism is direct anti-parasitic action, not just immune stimulation. For parasitic infection, neem is typically taken in higher doses (500-1000mg of extract or equivalent) for 4-6 weeks. This should be done under practitioner supervision as parasitic die-off produces detoxification symptoms.</p><h2>Quality and Sourcing</h2><p>Like all herbs, neem quality varies enormously. Poor quality neem is oxidized, contaminated, or collected from immature trees and will have minimal activity. Quality neem should have a pungent bitter taste and should be sourced from trees at least 7-10 years old. Leaf should be green, not brown. Oil should have a strong characteristic smell. If your neem tastes mild or has no smell, it is likely old or low quality. Source from practitioners or reputable herb suppliers who can verify the origin and harvest date.</p><p>Neem is one of the few herbs that is genuinely broad-spectrum. It works because it addresses fundamental problems — dysbiosis and inflammation — rather than targeting a single symptom. This is why it has survived 5000 years of use and why modern research continues to confirm what traditional practitioners have long known: neem works across multiple systems because those systems all share a common root problem that neem reliably addresses.</p>`
   }
 ]
 
