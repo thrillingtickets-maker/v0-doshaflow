@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">���������������������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">����������������������������� Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -3278,6 +3278,56 @@ export const posts: Post[] = [
     <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">If you are managing depression:</strong> work with a qualified practitioner. Use this framework as a complement, not an alternative, to professional support. The lifestyle interventions here have evidence behind them regardless of whether you are on medication or not.</div>
   </div>
 </div><h2>The Foundational Interventions</h2><p>Regardless of the dosha-specific presentation, certain foundational interventions apply universally. Sleep is the most critical. Depression and poor sleep are bidirectionally related — poor sleep worsens depression, and depression worsens sleep. Establishing consistent sleep at the same time every night, in a dark room, without screens, is often transformative on its own. Adequate nutrition matters profoundly. Certain nutritional deficiencies (particularly B vitamins, iron, and amino acids) directly contribute to depression. Movement is critical — not exercise that is punishing or performance-based, but movement that is joyful and regular. The type of movement should match the dosha: grounding movement for Vata, cooling for Pitta, stimulating for Kapha. Social connection cannot be overlooked. Depression thrives in isolation. Rebuilding connection, even simple connection, has profound effects.</p>`
+  },
+  {
+    slug: "ayurveda-circadian-rhythm",
+    category: "article",
+    title: "Ayurveda and Circadian Rhythm: The 3,000-Year-Old Clock",
+    date: "June 3, 2026",
+    excerpt: "Circadian rhythm research won the Nobel Prize in 2017. Ayurveda had been describing the same 24-hour biological clock for over 3,000 years — and prescribing behaviour around it.",
+    seoTitle: "Ayurveda and Circadian Rhythm: The Ancient Biological Clock",
+    seoDescription: "How Ayurvedic doshas align with modern circadian rhythm science. The parallel frameworks that describe the same 24-hour biological clock.",
+    content: `<p>Your body does not simply exist in time. It is synchronised to time. Every cell operates on a 24-hour cycle. Your cortisol rises before you wake. Your digestion peaks at midday. Your growth hormone surges while you sleep. Your temperature drops at night. These are not random fluctuations. They are expressions of a biological clock so fundamental that researchers won the Nobel Prize in 2017 for mapping its mechanics.</p><p>The remarkable thing is that Ayurveda described this exact clock 3,000 years ago. Not with the language of clock genes and circadian transcription factors. But with the language of doshas cycling through the day. The frameworks arrived independently, using different vocabularies, to describe the same reality. One is ancient. One is modern. Both say the same thing: your body has a 24-hour rhythm and honouring that rhythm is the foundation of health.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">Circadian rhythm research won the Nobel Prize in 2017. Ayurveda had been describing the same 24-hour biological clock — and prescribing behaviour around it — for over 3,000 years. The frameworks use different language for the same reality.</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">Modern science: clock genes, cortisol curves, melatonin windows. Ayurveda: Kapha, Pitta, Vata windows. Same clock.</div>
+</div><h2>The Dosha Clock and Modern Circadian Biology</h2><p>In Ayurveda, the 24-hour day is divided into six periods of four hours each, organised by dosha. Each dosha governs a particular window and brings particular qualities and capacities. Kapha (6–10am and 6–10pm) is heavy and stable — the body is slow to wake, digestion is building. Pitta (10am–2pm and 10pm–2am) is transformative and intense — digestion peaks, cellular repair accelerates. Vata (2–6pm and 2–6am) is mobile and variable — energy shifts, creativity emerges, sleep transitions.</p><p>Modern circadian biology describes these same windows using different language. Cortisol peaks around 5–6am (Vata-Kapha transition). Digestive enzymes surge around 10am–2pm (Pitta). Growth hormone and cellular repair peak from 10pm–2am (Pitta). Melatonin rises around 9–10pm (Kapha closing). These are not separate observations. They are expressions of the same biological rhythm.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Time window</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Ayurvedic dosha</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Circadian biology</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Optimal behaviour</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">5–6am</div>
+    <div style="font-size:13px;color:#4a3728;">Vata / Kapha transition</div>
+    <div style="font-size:13px;color:#4a3728;">Cortisol morning surge begins</div>
+    <div style="font-size:13px;color:#4a3728;">Wake, tongue scrape, warm water, move</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">10am–2pm</div>
+    <div style="font-size:13px;color:#4a3728;">Pitta</div>
+    <div style="font-size:13px;color:#4a3728;">Peak digestive enzyme output, core body temp rising</div>
+    <div style="font-size:13px;color:#4a3728;">Largest meal, complex cognitive work</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">2–6pm</div>
+    <div style="font-size:13px;color:#4a3728;">Vata</div>
+    <div style="font-size:13px;color:#4a3728;">Cortisol declining, alertness variable</div>
+    <div style="font-size:13px;color:#4a3728;">Creative work, herbs, light snack if needed</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">9–10pm</div>
+    <div style="font-size:13px;color:#4a3728;">Kapha closing</div>
+    <div style="font-size:13px;color:#4a3728;">Melatonin rising, core temp dropping</div>
+    <div style="font-size:13px;color:#4a3728;">Screens off, warm oil, Ashwagandha, to bed</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">10pm–2am</div>
+    <div style="font-size:13px;color:#4a3728;">Pitta</div>
+    <div style="font-size:13px;color:#4a3728;">Cellular repair, liver detox, growth hormone peak</div>
+    <div style="font-size:13px;color:#4a3728;">Asleep — this work only happens if you are unconscious</div>
+  </div>
+</div><h2>Why This Matters</h2><p>Most modern people are working against this clock. We eat breakfast at 7am when Pitta (peak digestion) does not arrive until 10am. We do our most creative work in the morning when Kapha-Vata still dominates. We eat our largest meal at night when digestive capacity is declining. We stay up late into Pitta hours, disrupting the sleep and cellular repair window. We stare at screens during the melatonin-rise window, suppressing the very hormone that initiates sleep.</p><p>The gap between your chronotype (your natural rhythm) and your current schedule creates stress that accumulates. This is why sleep studies show that shift workers develop metabolic disease, why night-eating is associated with weight gain independent of calories, why creativity and focus vary predictably through the day. Your body has not broken. It is simply being asked to work against its own timing.</p><h2>Aligning With Your Clock</h2><p>Ayurveda proposes the inverse. Wake early (5–6am) when Vata brings lightness and the nervous system is primed for movement. Do your physical work and movement during Kapha hours (6–10am) when you have strength and stability. Eat your largest meal around noon when Pitta (peak digestion) arrives. Do creative and focused work during peak Pitta (10am–2pm). Shift to lighter tasks and relaxation as Vata emerges (2–6pm). Begin winding down for sleep as Kapha returns (6–10pm). Sleep deeply during Pitta hours (10pm–2am) when cellular repair occurs. This is not rigid prescription. It is attention to the clock that is already running inside you.</p>`
   }
 ]
 
