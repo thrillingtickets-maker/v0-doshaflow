@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">����������������������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">������������������������������� Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -3328,6 +3328,45 @@ export const posts: Post[] = [
     <div style="font-size:13px;color:#4a3728;">Asleep — this work only happens if you are unconscious</div>
   </div>
 </div><h2>Why This Matters</h2><p>Most modern people are working against this clock. We eat breakfast at 7am when Pitta (peak digestion) does not arrive until 10am. We do our most creative work in the morning when Kapha-Vata still dominates. We eat our largest meal at night when digestive capacity is declining. We stay up late into Pitta hours, disrupting the sleep and cellular repair window. We stare at screens during the melatonin-rise window, suppressing the very hormone that initiates sleep.</p><p>The gap between your chronotype (your natural rhythm) and your current schedule creates stress that accumulates. This is why sleep studies show that shift workers develop metabolic disease, why night-eating is associated with weight gain independent of calories, why creativity and focus vary predictably through the day. Your body has not broken. It is simply being asked to work against its own timing.</p><h2>Aligning With Your Clock</h2><p>Ayurveda proposes the inverse. Wake early (5–6am) when Vata brings lightness and the nervous system is primed for movement. Do your physical work and movement during Kapha hours (6–10am) when you have strength and stability. Eat your largest meal around noon when Pitta (peak digestion) arrives. Do creative and focused work during peak Pitta (10am–2pm). Shift to lighter tasks and relaxation as Vata emerges (2–6pm). Begin winding down for sleep as Kapha returns (6–10pm). Sleep deeply during Pitta hours (10pm–2am) when cellular repair occurs. This is not rigid prescription. It is attention to the clock that is already running inside you.</p>`
+  },
+  {
+    slug: "ayurveda-for-hair-loss",
+    category: "article",
+    title: "Hair Loss in Ayurveda: Understanding the Dosha-Specific Roots",
+    date: "June 3, 2026",
+    excerpt: "Hair loss is not primarily a scalp issue in Ayurveda. It signals systemic imbalance — excess heat in the blood, poor nutrition, or nervous system depletion. Here is the complete framework.",
+    seoTitle: "Hair Loss in Ayurveda: Dosha-Specific Causes and Treatments",
+    seoDescription: "Complete guide to hair loss through Ayurveda. Identify your dosha type and the Ayurvedic approach to hair thinning, greying, and loss.",
+    content: `<p>Hair loss is one of the most psychologically distressing conditions people experience, yet modern medicine has almost no effective interventions. The only options are medications with side effects or expensive procedures. Ayurveda takes a completely different approach. It does not treat hair loss as a scalp problem. It treats it as a symptom of systemic imbalance.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
+  <div style="font-size:64px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">Pitta</div>
+  <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">The dosha most associated with premature hair thinning and early greying</div>
+  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">Hair is considered a by-product of bone tissue (asthi dhatu) in Ayurveda. Hair loss signals excess heat in the blood and toxin accumulation — not just a scalp issue. Pitta excess from alcohol, spicy food, and chronic stress is the most common pattern in modern cases.</div>
+</div><h2>Understanding Hair Loss Through the Doshas</h2><p>In Ayurveda, hair is classified as a by-product of bone tissue (asthi dhatu). This means hair health reflects bone health, which reflects deeper nutritional status and toxin accumulation. Hair loss is never simply a scalp problem. It indicates one of three systemic imbalances, depending on your constitution.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Dosha</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Pattern</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Root cause</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Primary intervention</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:14px;font-weight:700;color:#2a1f14;">Pitta</div>
+    <div style="font-size:13px;color:#4a3728;">Thinning, early grey, receding</div>
+    <div style="font-size:13px;color:#4a3728;">Excess heat, alcohol, inflammation</div>
+    <div style="font-size:13px;color:#4a3728;">Brahmi oil scalp massage, cooling diet, no alcohol</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:14px;font-weight:700;color:#2a1f14;">Vata</div>
+    <div style="font-size:13px;color:#4a3728;">Dry, brittle, breaks easily</div>
+    <div style="font-size:13px;color:#4a3728;">Dryness, poor nutrition, stress</div>
+    <div style="font-size:13px;color:#4a3728;">Warm sesame oil weekly, nourishing diet, Ashwagandha</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
+    <div style="font-size:14px;font-weight:700;color:#2a1f14;">Kapha</div>
+    <div style="font-size:13px;color:#4a3728;">Oily scalp, slow growth, dull</div>
+    <div style="font-size:13px;color:#4a3728;">Congestion, poor circulation</div>
+    <div style="font-size:13px;color:#4a3728;">Stimulating scalp massage, dry brushing, trikatu</div>
+  </div>
+</div><h2>Pitta Hair Loss</h2><p>Pitta hair loss is characterized by early thinning, premature greying, and receding hairlines. The underlying pattern is excess heat in the blood combined with inflammation. This typically comes from alcohol consumption, excessive spicy or acidic food, chronic stress, and overwork. The heat damages the hair follicles from within. The intervention is cooling at all levels: diet, lifestyle, and topical treatment.</p><h2>Vata Hair Loss</h2><p>Vata hair loss presents as dry, brittle hair that breaks easily. The underlying pattern is nervous system depletion from sustained stress without adequate recovery, combined with poor nutrition and insufficient healthy fat intake. The approach is nourishing and grounding: warm sesame oil massage weekly, consistent sleep, adequate ghee and healthy fats in the diet, and nervous system support through Ashwagandha and other tonics.</p><h2>Kapha Hair Loss</h2><p>Kapha hair loss is characterized by an oily scalp, slow hair growth, and dull texture. The underlying pattern is congestion and poor circulation in the scalp. The approach is stimulating: regular dry brushing before showering, scalp massage with warming oils, warming spices like trikatu, and movement to stimulate circulation.</p><h2>The Foundational Approach</h2><p>Regardless of dosha type, certain foundational practices support all hair health. Sleep is critical — hair growth is most active during sleep and requires adequate recovery. Digestion must be strong — poor digestion means poor nutrient absorption and accumulation of toxins that damage follicles. Stress must be managed — chronic stress is pro-inflammatory and anti-growth. And the scalp must be treated as an extension of the whole body, not as an isolated problem to be fixed with topical treatments.</p>`
   }
 ]
 
