@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">������������������������ Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">������������������������� Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -3061,6 +3061,57 @@ export const posts: Post[] = [
     <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Warm everything</strong> — the single fastest Vata intervention. Switch cold smoothies for warm oatmeal. Switch salads for cooked veg. Notice the difference within a week.</div>
   </div>
 </div><p>Vata-pacifying eating is not complicated. Warm, oily, heavy, and grounded. This is the framework. Everything else is detail.</p>`
+  },
+  {
+    slug: "what-are-adaptogens",
+    category: "article",
+    title: "What Are Adaptogens? Understanding Nature's Stress-Response Herbs",
+    date: "June 3, 2026",
+    excerpt: "Adaptogens are herbs that help the body adapt to stress and restore balance. Here is what they are, how they work, and which ones actually work.",
+    seoTitle: "Adaptogens: Definition, Benefits, and Science-Backed Herbs",
+    seoDescription: "Complete guide to adaptogens. What they are, how they work, and which adaptogenic herbs have real scientific evidence.",
+    content: `<p>Adaptogens are one of the most misunderstood categories in modern wellness. The term sounds modern, but the herbs are ancient. The concept is scientifically backed, but often marketed with pseudoscience. Understanding what adaptogens actually are — and what they actually do — separates the useful practices from the marketing.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
+  <div style="font-size:64px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">1947</div>
+  <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">When Soviet pharmacologist N.V. Lazarev coined the term "adaptogen"</div>
+  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">The concept was new. The herbs were not. Ashwagandha, Brahmi, Shatavari, and Tulsi had been classified in Ayurveda as Rasayanas — rejuvenating tonics — for over 2,000 years. Western science gave them a new category name and started measuring what India had been documenting since before the Common Era.</div>
+</div><h2>What Defines an Adaptogen</h2><p>An adaptogen is formally defined as a substance that increases the body's resilience to stress without producing harmful side effects. More practically, adaptogens are herbs that help normalise stress-response systems — lowering cortisol when it is too high, increasing it when it is too low, and generally supporting the nervous system's capacity to return to homeostasis after stress.</p><p>The key distinction is that adaptogens do not numb or suppress stress responses like pharmaceutical sedatives do. They do not make you feel calm by suppressing your nervous system. Instead, they improve your nervous system's ability to handle stress — a fundamentally different mechanism.</p><h2>How Adaptogens Work</h2><p>Adaptogens work primarily on what is called the hypothalamic-pituitary-adrenal (HPA) axis — the system that controls your stress-response cascade. When your nervous system is dysregulated and stress responses are stuck in an "on" position (as they are in most modern people), adaptogens help recalibrate the set point. They support the production and degradation of cortisol, they influence neurotransmitter production, and they can directly affect gene expression related to stress resilience.</p><p>This is why adaptogens take time to work. They are not pain relievers. They work at the level of system regulation. Most adaptogenic effects require 4-8 weeks of consistent use to become apparent.</p><h2>The Most Researched Adaptogens</h2><p>Not all adaptogens are equal. Some have significant research. Others are marketed as adaptogens without evidence. The ones with the strongest evidence base are those that Ayurveda identified as Rasayanas thousands of years ago.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Adaptogen</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Primary action</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Best for</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Ayurvedic dosha</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Ashwagandha</div>
+    <div style="font-size:13px;color:#4a3728;">HPA axis, cortisol, testosterone</div>
+    <div style="font-size:13px;color:#4a3728;">Physical depletion, poor sleep</div>
+    <div style="font-size:13px;color:#4a3728;">Vata primary</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Brahmi</div>
+    <div style="font-size:13px;color:#4a3728;">Cognition, serotonin, hippocampus</div>
+    <div style="font-size:13px;color:#4a3728;">Brain fog, overthinking</div>
+    <div style="font-size:13px;color:#4a3728;">Pitta primary</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Shatavari</div>
+    <div style="font-size:13px;color:#4a3728;">Reproductive system, gut lining</div>
+    <div style="font-size:13px;color:#4a3728;">Hormonal regulation, women's health</div>
+    <div style="font-size:13px;color:#4a3728;">Pitta, Vata</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Tulsi</div>
+    <div style="font-size:13px;color:#4a3728;">Immune modulation, blood sugar</div>
+    <div style="font-size:13px;color:#4a3728;">Immunity, mild anxiety, respiratory</div>
+    <div style="font-size:13px;color:#4a3728;">Vata, Kapha</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Triphala</div>
+    <div style="font-size:13px;color:#4a3728;">Gut-brain axis, elimination, antioxidant</div>
+    <div style="font-size:13px;color:#4a3728;">Gut health, whole-system tonic</div>
+    <div style="font-size:13px;color:#4a3728;">All doshas</div>
+  </div>
+</div><h2>The Timeline for Effect</h2><p>One of the most common mistakes with adaptogens is expecting immediate results. Adaptogens are not pain relievers. They work at the system level, recalibrating stress-response mechanisms. The timeline is typically: 2-4 weeks for subtle effects to become noticeable, 6-8 weeks for significant baseline shifts, and 3+ months for deep nervous system recalibration. If you take an adaptogen for two weeks and expect to feel dramatically different, you will be disappointed. If you commit to 8-12 weeks of consistent use, you will likely notice real change.</p><h2>Quality and Sourcing Matter</h2><p>Not all adaptogenic herbs are equal. Sourcing, storage, and freshness dramatically affect potency. Ashwagandha that is old or poorly stored will have minimal active withanolides. Brahmi that is oxidised will have reduced cognitive benefits. The best adaptogens come from practitioners or suppliers who can verify origin, harvest date, and potency testing. If your adaptogen was cheap, it is likely weak.</p>`
   }
 ]
 
