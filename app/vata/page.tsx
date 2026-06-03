@@ -71,11 +71,38 @@ export default function VataPage() {
               Vata is the dosha of movement and air. It governs the nervous system, circulation, and the quality of motion in the body and mind. When Vata is balanced, you feel creative, energetic, responsive, and adaptable. When Vata becomes aggravated, everything becomes chaotic.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              If you&apos;re Vata, you know this pattern: your mind is constantly moving. You have multiple thoughts happening simultaneously. You&apos;re interested in lots of things but finish few of them. You get excited quickly and lose interest quickly. Your sleep is often interrupted — you wake at 3am with racing thoughts or dreams. Your digestion is irregular; sometimes you&apos;re hungry, sometimes you forget to eat entirely.
+              If you&apos;re Vata, you know this pattern: your mind is constantly moving. You have multiple thoughts happening simultaneously. You&apos;re interested in lots of things but finish few of them. You get excited quickly and lose interest quickly. Your sleep is often interrupted — <a href="/blog/cant-sleep-when-exhausted" className="text-primary hover:underline font-medium">you wake at 3am with racing thoughts</a> or dreams. Your digestion is irregular; sometimes you&apos;re hungry, sometimes you forget to eat entirely.
+            </p>
+            <p className="text-lg leading-relaxed text-muted-foreground mb-6">
+              Your hands and feet are often cold. You&apos;re sensitive to loud noises and bright lights. You hate being still for long periods. You&apos;re drawn to stimulation — more music, more information, more experiences — yet this is exactly what makes <a href="/blog/ayurveda-nervous-system-burnout" className="text-primary hover:underline font-medium">your nervous system worse over time</a>.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
               Your hands and feet are often cold. You&apos;re sensitive to loud noises and bright lights. You hate being still for long periods. You&apos;re drawn to stimulation — more music, more information, more experiences — yet this is exactly what makes your nervous system worse.
             </p>
+          </motion.div>
+
+          {/* Related Symptom Patterns */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-12 p-6 bg-primary/5 border border-primary/20 rounded-lg"
+          >
+            <p className="text-sm font-medium uppercase tracking-wide text-primary mb-4">
+              Common Vata Symptom Clusters
+            </p>
+            <div className="space-y-3">
+              <p className="text-base text-foreground">
+                Many Vata types also experience <a href="/blog/ayurveda-for-anxiety" className="text-primary hover:underline font-medium">anxiety patterns</a> that show up as scattered thoughts and <a href="/blog/best-herbs-for-anxiety" className="text-primary hover:underline font-medium">nervous system reactivity</a>.
+              </p>
+              <p className="text-base text-foreground">
+                Sleep disruption is almost universal for imbalanced Vata — especially <a href="/blog/ayurveda-for-insomnia" className="text-primary hover:underline font-medium">insomnia from racing thoughts</a> and the 3am wakeup pattern.
+              </p>
+              <p className="text-base text-foreground">
+                If your anxiety is connected to <a href="/blog/signs-of-high-cortisol" className="text-primary hover:underline font-medium">elevated cortisol or stress hormones</a>, addressing your Vata imbalance becomes even more critical for recovery.
+              </p>
+            </div>
           </motion.div>
 
           {/* Energy Patterns */}
@@ -112,13 +139,13 @@ export default function VataPage() {
               The Vata Nervous System
             </h2>
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              Vata is the governing force of the nervous system. When Vata is balanced, your nervous system is responsive but not reactive. You can handle stress. You recover from it. When Vata is imbalanced, your nervous system is stuck in a state of partial activation.
+              Vata is the governing force of the nervous system. When Vata is balanced, your nervous system is responsive but not reactive. You can handle stress. You recover from it. When Vata is imbalanced, <a href="/blog/ayurveda-nervous-system-burnout" className="text-primary hover:underline font-medium">your nervous system is stuck in a state of partial activation</a>.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              You become hyper-vigilant. Your body perceives threats that don&apos;t exist. Anxiety becomes background noise. The worst part: you feel the energy to do things but lack the grounding to follow through. This creates more anxiety because you don&apos;t finish what you start.
+              You become hyper-vigilant. Your body perceives threats that don&apos;t exist. <a href="/blog/ayurveda-for-anxiety" className="text-primary hover:underline font-medium">Anxiety becomes background noise</a>. The worst part: you feel the energy to do things but lack the grounding to follow through. This creates more anxiety because you don&apos;t finish what you start.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              Excessive Vata manifests as: racing thoughts, inability to focus, restlessness, trembling, scattered feelings, difficulty sleeping, racing heartbeat, and a pervasive sense of being overwhelmed even when objectively things are fine.
+              Excessive Vata manifests as: racing thoughts, inability to focus, restlessness, trembling, scattered feelings, <a href="/blog/cant-sleep-when-exhausted" className="text-primary hover:underline font-medium">difficulty sleeping</a>, racing heartbeat, and a pervasive sense of being overwhelmed even when objectively things are fine.
             </p>
           </motion.div>
 
@@ -134,10 +161,10 @@ export default function VataPage() {
               How Modern Life Aggravates Vata
             </h2>
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              Modern life is designed to aggravate Vata. Constant notifications create constant stimulus. Irregular eating patterns disrupt Vata&apos;s need for rhythm. Screens before bed prevent sleep. Travel and jet lag create instability. The pace of work requires you to context-switch constantly — which is Vata in its most scattered form.
+              Modern life is designed to aggravate Vata. Constant notifications create constant stimulus. <a href="/blog/digital-overstimulation-ayurveda" className="text-primary hover:underline font-medium">Digital overstimulation and screen time</a> contribute heavily to Vata dysregulation. Irregular eating patterns disrupt Vata&apos;s need for rhythm. <a href="/blog/cant-sleep-when-exhausted" className="text-primary hover:underline font-medium">Screens before bed prevent sleep</a>. Travel and jet lag create instability. The pace of work requires you to context-switch constantly — which is Vata in its most scattered form.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              Add to this: excessive caffeine (which adds more movement to an already moving system), irregular sleep timing, skipped meals, cold foods, constant communication, and the pressure to be simultaneously available and high-performing. This is a recipe for Vata overwhelm.
+              Add to this: excessive <a href="/blog/ayurveda-caffeine-stress" className="text-primary hover:underline font-medium">caffeine (which adds more movement to an already moving system)</a>, irregular sleep timing, skipped meals, cold foods, constant communication, and the pressure to be simultaneously available and high-performing. This is a recipe for Vata overwhelm and eventual <a href="/blog/ayurveda-nervous-system-burnout" className="text-primary hover:underline font-medium">nervous system burnout</a>.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
               The irony is that Vata types are often the highest achievers because of their natural energy and adaptability. But this achievement comes at the cost of your nervous system. You achieve by running on fumes. Until you can&apos;t.
@@ -379,12 +406,12 @@ export default function VataPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               {[
+                { title: "Why Can't I Sleep When Exhausted?", href: "/blog/cant-sleep-when-exhausted" },
+                { title: "Nervous System Burnout", href: "/blog/ayurveda-nervous-system-burnout" },
+                { title: "Signs of High Cortisol", href: "/blog/signs-of-high-cortisol" },
                 { title: "Best Herbs for Anxiety", href: "/blog/best-herbs-for-anxiety" },
-                { title: "Why Am I Always Tired?", href: "/blog/why-am-i-always-tired" },
                 { title: "Ayurvedic Morning Routine", href: "/blog/ayurvedic-morning-routine" },
                 { title: "Best Tea for Sleep", href: "/blog/best-ayurvedic-tea-sleep" },
-                { title: "Cortisol & Stress", href: "/blog/ayurveda-cortisol-stress" },
-                { title: "Brahmi Benefits", href: "/blog/brahmi-benefits" },
               ].map((article) => (
                 <a
                   key={article.href}
