@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">������������������������������������������������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">�������������������������������������������������������� Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -4743,6 +4743,28 @@ export const posts: Post[] = [
     </div>
   </div>
 </div><p>With this protocol — eliminating trigger foods, supporting gut healing through Triphala, and addressing the specific dosha pattern through targeted herbs and diet — most chronic eczema resolves within 3-6 months. The skin, no longer needed as an eliminatory outlet, returns to normal function. This is not management. This is genuine resolution.</p>`
+  },
+  {
+    slug: "cumin-benefits",
+    category: "article",
+    title: "Cumin: The Spice That Primes Digestion Before the Meal Arrives",
+    date: "June 3, 2026",
+    excerpt: "Cumin is in the top five most universally used spices in Ayurvedic cooking because it stimulates digestive enzyme secretion before food arrives. Here is the complete guide.",
+    seoTitle: "Cumin Benefits: Complete Guide to Digestive Power",
+    seoDescription: "Complete guide to cumin benefits. Learn Ayurvedic uses and how to use cumin daily for optimal digestion.",
+    content: `<p>Cumin is one of the most fundamental spices in Ayurvedic cooking. It appears in nearly every traditional Indian kitchen preparation not because it is traditional or familiar, but because it does something no other single spice does as efficiently: it stimulates digestive enzyme secretion and bile production before food arrives. This is why it is toasted first in almost every Indian recipe — not for flavor alone, but because it is medicine before it is flavour.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
+  <div style="font-size:48px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">Jeeraka</div>
+  <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">Sanskrit: "that which promotes digestion" — the name is the therapeutic summary</div>
+  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">Cumin is in the top five most universally used spices in Ayurvedic cooking because it does something no other spice does as efficiently: it stimulates digestive enzyme secretion before food arrives, so agni is primed when the meal comes. This is why it is toasted first in almost every Indian recipe — it is medicine before it is flavour.</div>
+</div><h2>Understanding Cumin's Digestive Power</h2><p>In Ayurveda, cumin is classified as hot, pungent, and slightly bitter. The pungency stimulates agni — digestive fire — and awakens the liver and pancreas to produce the enzymes and bile needed for the meal to come. The heat carries these substances throughout the digestive tract. The bitterness supports the detoxification and clearing functions of the liver.</p><p>What makes cumin unique among digestive spices is that it works for all doshas. It is heating enough for Vata types whose digestion is weak and cold, yet not so heating that it aggravates Pitta. It is stimulating enough for Kapha types whose digestion is sluggish, yet gentle enough for sensitive constitutions. This universality is why it appears in virtually every Ayurvedic digestive blend.</p><h2>Cumin's Specific Benefits</h2><p>The most immediate benefit of cumin is improved digestion of heavier foods. A meal that would typically cause bloating and gas becomes significantly lighter when cumin is present. This is not about flavor masking the discomfort. It is about genuine improved digestion. Over time, consistent use of cumin strengthens digestive capacity itself — the person finds they tolerate foods that previously caused problems.</p><p>Beyond the digestive system, cumin supports nutrient absorption (if digestion is poor, nutrients do not enter circulation regardless of their presence in food), stimulates metabolism, and supports menstrual health in women. It is one of the few spices that is equally valuable in savory cooking and in warming beverages.</p><h2>How to Use Cumin Daily</h2><p>The most effective use of cumin is in food — toasted as the base spice in cooking, added to rice and lentils, and included in any warming dish. Cumin water is also valuable: boil 1 teaspoon of seeds in 2 cups of water for 5 minutes and drink warm first thing in the morning. This primes agni before the day begins.</p><p>For those with significant digestive complaints, CCF tea — equal parts cumin, coriander, and fennel simmered for 10 minutes — is the most universally effective post-meal digestive in Ayurveda. The three spices work synergistically, each addressing a different aspect of weak digestion.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:20px;">Four Ayurvedic uses of cumin you can start today</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Cumin water on waking</strong> — boil 1 tsp cumin seeds in 2 cups water for 5 minutes. Drink warm first thing. Kickstarts agni before the first meal.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Toast before cooking</strong> — dry toast in a pan for 30 seconds before adding to any dish. Activates the volatile oils that carry the digestive benefit.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">CCF tea after meals</strong> — equal parts cumin, coriander, fennel seeds simmered 10 minutes. The most universally effective post-meal digestive in Ayurveda.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">On bloated days</strong> — chew ½ tsp raw cumin seeds with a pinch of salt and a squeeze of lemon before a meal. Immediate gas and bloating prevention.</div>
+  </div>
+</div><p>The investment in learning to use cumin effectively is minimal. The return — significantly improved digestion, better nutrient absorption, and the capacity to eat foods that previously caused problems — makes cumin one of the most practically valuable spices in the Ayurvedic toolkit.</p>`
   }
 ]
 
