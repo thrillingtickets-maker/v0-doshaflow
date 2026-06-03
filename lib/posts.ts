@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">�������������������������������������������������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">��������������������������������������������������������� Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -3382,7 +3382,7 @@ export const posts: Post[] = [
     content: `<p>Hair loss is one of the most psychologically distressing conditions people experience, yet modern medicine has almost no effective interventions. The only options are medications with side effects or expensive procedures. Ayurveda takes a completely different approach. It does not treat hair loss as a scalp problem. It treats it as a symptom of systemic imbalance.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
   <div style="font-size:64px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">Pitta</div>
   <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">The dosha most associated with premature hair thinning and early greying</div>
-  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">Hair is considered a by-product of bone tissue (asthi dhatu) in Ayurveda. Hair loss signals excess heat in the blood and toxin accumulation — not just a scalp issue. Pitta excess from alcohol, spicy food, and chronic stress is the most common pattern in modern cases.</div>
+  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">Hair is considered a by-product of bone tissue (asthi dhatu) in Ayurveda. Hair loss signals excess heat in the blood and toxin accumulation ��� not just a scalp issue. Pitta excess from alcohol, spicy food, and chronic stress is the most common pattern in modern cases.</div>
 </div><h2>Understanding Hair Loss Through the Doshas</h2><p>In Ayurveda, hair is classified as a by-product of bone tissue (asthi dhatu). This means hair health reflects bone health, which reflects deeper nutritional status and toxin accumulation. Hair loss is never simply a scalp problem. It indicates one of three systemic imbalances, depending on your constitution.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
     <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Dosha</div>
@@ -4765,6 +4765,47 @@ export const posts: Post[] = [
     <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">On bloated days</strong> — chew ½ tsp raw cumin seeds with a pinch of salt and a squeeze of lemon before a meal. Immediate gas and bloating prevention.</div>
   </div>
 </div><p>The investment in learning to use cumin effectively is minimal. The return — significantly improved digestion, better nutrient absorption, and the capacity to eat foods that previously caused problems — makes cumin one of the most practically valuable spices in the Ayurvedic toolkit.</p>`
+  },
+  {
+    slug: "ayurveda-for-focus",
+    category: "article",
+    title: "Ayurveda and Focus: Why Cognitive Clarity is Downstream, Not Upstream",
+    date: "June 3, 2026",
+    excerpt: "Brain fog is not a cognitive problem. It is a digestive, sleep, or cortisol problem expressing as cognitive symptoms. Here is the complete protocol for genuine focus.",
+    seoTitle: "Ayurveda and Focus: Complete Guide to Cognitive Clarity",
+    seoDescription: "Complete guide to improving focus through Ayurveda. Learn the root causes of brain fog and how to restore clarity.",
+    content: `<p>Brain fog is one of the most common complaints of modern life. The person sits down to work and cannot focus. They cannot finish thoughts. They cannot remember what they were doing. They reach for another coffee. The industry responds with nootropics, smart drugs, meditation apps, and productivity systems. Almost none of it works because almost none of it addresses the root cause.</p><p>In Ayurveda, brain fog is not a cognitive problem. It is a downstream symptom of poor digestion, insufficient sleep, or dysregulated cortisol. Treat the gut, improve the sleep, stabilize the cortisol — and cognitive clarity returns naturally. This is why Ayurvedic approaches to focus do not involve forcing focus. They involve creating the conditions under which focus becomes unavoidable.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:28px;">Brain fog by dosha — the cause determines the fix</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;">
+    <div style="background:white;border-radius:8px;padding:22px;">
+      <div style="font-size:15px;font-weight:700;color:#2a1f14;">Vata fog</div>
+      <div style="font-size:12px;color:#b5763a;font-weight:600;margin:4px 0 10px;">Scattered, can't land</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.6;">Too many tabs open. Can't finish thoughts. Jumps between tasks. Underlying anxiety. Gets worse in the afternoon (Vata window).</div>
+      <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:10px;">Fix: Ashwagandha, warm food, single-task</div>
+    </div>
+    <div style="background:white;border-radius:8px;padding:22px;">
+      <div style="font-size:15px;font-weight:700;color:#2a1f14;">Pitta fog</div>
+      <div style="font-size:12px;color:#b5763a;font-weight:600;margin:4px 0 10px;">Sharp then crashes</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.6;">Intense focus in the morning, complete collapse by 3pm. Burnout pattern. Pushed too hard, too long. Liver burden common.</div>
+      <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:10px;">Fix: Brahmi afternoon, no alcohol, earlier sleep</div>
+    </div>
+    <div style="background:white;border-radius:8px;padding:22px;">
+      <div style="font-size:15px;font-weight:700;color:#2a1f14;">Kapha fog</div>
+      <div style="font-size:12px;color:#b5763a;font-weight:600;margin:4px 0 10px;">Heavy, slow, stuck</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.6;">Everything processed slowly. Difficulty starting. Heavy after eating. Worse in the morning. Gets better as the day progresses.</div>
+      <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:10px;">Fix: Early wake, vigorous exercise, trikatu, Brahmi</div>
+    </div>
+  </div>
+</div><h2>Understanding the Root Causes of Brain Fog</h2><p>Brain fog emerges from three primary sources: poor digestion that prevents proper nutrient absorption and allows ama (toxins) to cross the blood-brain barrier, insufficient sleep where the glymphatic system cannot clear metabolic waste from the brain, and dysregulated cortisol that depletes the neurotransmitters required for focus and memory.</p><p>The person with brain fog typically has all three problems simultaneously. Their digestion is poor because they are stressed. Their sleep is poor because of the stress and poor digestion. Their cortisol is dysregulated because of the poor sleep. The result is a cascade of cognitive dysfunction.</p><h2>The Role of Brahmi</h2><p>Brahmi is the primary Ayurvedic herb for cognitive support. Unlike stimulants that force focus, Brahmi works by supporting the nervous system and improving circulation to the brain. It is calming rather than stimulating. This seems paradoxical — how can a calming herb improve focus? Because most brain fog is not due to insufficient activation. It is due to dysregulated activation — the nervous system is too activated (from stress) or too suppressed (from poor sleep). Brahmi brings it into balance.</p><p>Brahmi is best taken in the afternoon — specifically in the 2-6pm Vata window when cognition typically drops. Taking it then prevents the cognitive collapse that most people experience mid-afternoon.</p><h2>The Digestion-Cognition Connection</h2><p>The gut-brain axis means that cognitive function is directly tied to digestive health. When digestion is poor, ama accumulates. This ama crosses the blood-brain barrier and directly impairs cognitive function. When digestion is excellent, the brain receives clean, nutrient-rich blood and cognition improves automatically.</p><p>This is why Triphala is one of the most valuable cognitive support tools. It addresses the upstream problem — poor digestion — rather than trying to force focus downstream.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:8px;">The focus protocol</div>
+  <div style="font-size:20px;font-weight:700;color:#f5f0e8;font-family:Georgia,serif;margin-bottom:20px;">Cognitive clarity is downstream of gut health, sleep, and cortisol — not upstream of them</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Brahmi in the afternoon</strong> — the 2–6pm Vata window is when cognition typically drops. Brahmi taken then supports memory consolidation and reduces the scatter that peaks here.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Consistent breakfast</strong> — blood sugar instability is the most underrated cognitive impairment. Eating at the same time daily removes a major variable from focus quality.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">No alcohol weekdays</strong> — even one drink the night before measurably impairs next-day processing speed and working memory. The effect is well-documented.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Triphala nightly</strong> — the gut-brain axis means cognitive function is directly tied to gut microbiome health. The most consistent long-term cognitive support in Ayurveda.</div>
+  </div>
+</div><h2>The Path to Genuine Focus</h2><p>Genuine cognitive clarity is achievable and surprisingly simple: digest your food well, sleep deeply before 10pm, keep cortisol stable through regular routine and stress management, and support the brain and gut with targeted herbs. Within 3-4 weeks of consistent practice, brain fog lifts. Within 8-12 weeks, cognitive capacity exceeds what most people experience on productivity systems and stimulants.</p>`
   }
 ]
 
