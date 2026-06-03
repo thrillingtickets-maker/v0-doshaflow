@@ -4674,6 +4674,75 @@ export const posts: Post[] = [
     <div style="font-size:13px;color:#4a3728;">Triphala, Ashwagandha, early sleep, reduce alcohol</div>
   </div>
 </div><h2>The Anti-Ageing Protocol</h2><p>The simplest anti-ageing protocol is this: sleep before 10pm every night without exception, eat warm nourishing food at consistent times, avoid alcohol, and take Ashwagandha and Triphala consistently. These four interventions address the root causes of rapid ageing and produce visible results within 3-6 months.</p><p>This is not a protocol that requires perfection. It requires consistency. The person who does these four things 80% of the time will age noticeably more slowly than someone who does not. The person who does them 95% of the time will age more slowly than almost everyone they know.</p><h2>The Long View</h2><p>Anti-ageing in Ayurveda is not about fighting time. It is about flowing with it gracefully. The goal is not to look 30 at 70. It is to look healthy, vibrant, and present at 70 — to have preserved the vitality and resilience that characterise true health at any age. This is achievable. It requires patience and consistency. But it is absolutely achievable.</p>`
+  },
+  {
+    slug: "ayurveda-for-eczema",
+    category: "article",
+    title: "Ayurveda and Eczema: The Gut-Immune Connection That Topical Treatment Misses",
+    date: "June 3, 2026",
+    excerpt: "Ayurveda has never treated eczema as a skin condition. It treats it as a gut-immune condition that expresses through the skin. Here is the complete protocol.",
+    seoTitle: "Ayurveda and Eczema: Complete Gut-Based Treatment Protocol",
+    seoDescription: "Complete guide to treating eczema through Ayurveda. Learn how to address the gut-immune root cause and prevent flares.",
+    content: `<p>Eczema is one of the most frustrating skin conditions because topical treatments manage flares but do not prevent them. The person clears their eczema with a steroid cream, stops using it, and the eczema returns within weeks or months. The skin never actually heals. It is managed but never resolved.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">Ayurveda has never treated eczema as a skin condition. It treats it as a gut-immune condition that expresses through the skin. The skin is the last organ to clear toxins — and the first to show that the clearing has failed.</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">Topical treatment manages the flare. Internal treatment prevents the next one.</div>
+</div><h2>Understanding Eczema Through Ayurveda</h2><p>In Ayurveda, eczema is understood as a condition of weak digestion and intestinal permeability — what modern medicine calls "leaky gut." When the intestinal barrier becomes compromised, undigested food particles and bacterial metabolites cross into circulation, triggering immune activation. The skin, being the largest eliminatory organ, becomes the outlet for this immune response. The rash is not the disease. It is the body's attempt to eliminate what the gut has allowed through.</p><p>This is why treating the skin without treating the gut never produces lasting results. You can suppress the immune reaction in the skin, but until the gut barrier heals and food sensitivities clear, the immune system will continue to react and the skin will continue to flare.</p><h2>The Three Patterns of Eczema</h2><p>Eczema presents differently based on dosha involvement. Understanding which pattern you have is critical because the treatment differs significantly. A person with Vata eczema given Pitta treatment will worsen. A person with Pitta eczema given Kapha treatment will worsen. Correct diagnosis followed by correct treatment produces resolution.</p><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin:40px 0;">
+  <div style="border-radius:8px;overflow:hidden;">
+    <div style="background:#2a1f14;padding:16px 20px;">
+      <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;">Vata eczema</div>
+      <div style="font-size:15px;font-weight:700;color:#f5f0e8;margin-top:4px;">Dry, rough, scaly</div>
+    </div>
+    <div style="background:#f5f0e8;padding:20px;display:flex;flex-direction:column;gap:8px;">
+      <div style="font-size:13px;color:#4a3728;">• Extremely dry, cracked skin</div>
+      <div style="font-size:13px;color:#4a3728;">• Worse in winter and cold</div>
+      <div style="font-size:13px;color:#4a3728;">• Moves around</div>
+      <div style="font-size:13px;color:#4a3728;">• Worse with stress and anxiety</div>
+      <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Warm sesame oil, ghee internally, Ashwagandha</div>
+    </div>
+  </div>
+  <div style="border-radius:8px;overflow:hidden;">
+    <div style="background:#2a1f14;padding:16px 20px;">
+      <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;">Pitta eczema</div>
+      <div style="font-size:15px;font-weight:700;color:#f5f0e8;margin-top:4px;">Red, inflamed, burning</div>
+    </div>
+    <div style="background:#f5f0e8;padding:20px;display:flex;flex-direction:column;gap:8px;">
+      <div style="font-size:13px;color:#4a3728;">• Hot, red, intensely itchy</div>
+      <div style="font-size:13px;color:#4a3728;">• Worse with heat, summer, alcohol</div>
+      <div style="font-size:13px;color:#4a3728;">• Weeping or oozing in flares</div>
+      <div style="font-size:13px;color:#4a3728;">• Better with cooling</div>
+      <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Coconut oil topically, no alcohol, Neem, cooling diet</div>
+    </div>
+  </div>
+  <div style="border-radius:8px;overflow:hidden;">
+    <div style="background:#2a1f14;padding:16px 20px;">
+      <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;">Kapha eczema</div>
+      <div style="font-size:15px;font-weight:700;color:#f5f0e8;margin-top:4px;">Thick, weeping, persistent</div>
+    </div>
+    <div style="background:#f5f0e8;padding:20px;display:flex;flex-direction:column;gap:8px;">
+      <div style="font-size:13px;color:#4a3728;">• Thick, moist, slow to resolve</div>
+      <div style="font-size:13px;color:#4a3728;">• Worse in spring and damp</div>
+      <div style="font-size:13px;color:#4a3728;">• Often on folds of skin</div>
+      <div style="font-size:13px;color:#4a3728;">• Associated with dairy and wheat</div>
+      <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Eliminate dairy, Triphala, dry brushing, light diet</div>
+    </div>
+  </div>
+</div><h2>The Root Cause Protocol</h2><p>Treating eczema requires addressing the root cause: healing the gut lining and eliminating the foods that are triggering the immune response. Topical oils can provide comfort during the healing phase, but they cannot substitute for internal treatment.</p><p>The most common trigger foods are dairy, gluten, and eggs. These are not universally problematic — but they are the three foods most commonly triggering eczema flares in susceptible individuals. Identifying your specific triggers through elimination and reintroduction is more diagnostic than any blood test.</p><h2>Long-Term Resolution</h2><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:20px;">Internal protocol — before any topical treatment</div>
+  <div style="display:flex;flex-direction:column;gap:12px;">
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">1</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Eliminate alcohol for 30 days minimum</strong><span style="font-size:13px;color:#c4a882;"> — the liver processes histamine and inflammatory compounds that drive skin reactions. Alcohol directly impairs this. Most eczema patients see significant improvement within 3–4 weeks.</span></div>
+    </div>
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">2</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Triphala nightly</strong><span style="font-size:13px;color:#c4a882;"> — gut permeability is the upstream cause in most chronic eczema cases. Triphala is the most accessible intervention for improving gut lining integrity.</span></div>
+    </div>
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">3</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Identify and remove trigger foods</strong><span style="font-size:13px;color:#c4a882;"> — dairy, gluten, and eggs are the most common. A 4-week elimination and reintroduction is more diagnostic than any test.</span></div>
+    </div>
+  </div>
+</div><p>With this protocol — eliminating trigger foods, supporting gut healing through Triphala, and addressing the specific dosha pattern through targeted herbs and diet — most chronic eczema resolves within 3-6 months. The skin, no longer needed as an eliminatory outlet, returns to normal function. This is not management. This is genuine resolution.</p>`
   }
 ]
 
