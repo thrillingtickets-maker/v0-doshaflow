@@ -1,4 +1,5 @@
 import { getPostBySlug, getAllPosts } from "@/lib/posts"
+import { Navigation } from "@/components/navigation"
 import { ArticleHero } from "@/components/article-hero"
 import { highlightMap } from "@/lib/article-colors"
 import { processArticleContent } from "@/lib/process-article-content"
@@ -40,7 +41,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const readingTime = calculateReadingTime(post.content)
 
   return (
-    <main style={{ minHeight: "100vh", backgroundColor: "#fdf8f3" }}>
+    <>
+      <Navigation />
+      <main style={{ minHeight: "100vh", backgroundColor: "#fdf8f3" }}>
       <ArticleHero
         title={post.title}
         category={post.category}
@@ -415,5 +418,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         </div>
       </article>
     </main>
+    </>
   )
 }
