@@ -12,6 +12,83 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "cant-sleep-when-exhausted",
+    category: "article",
+    title: "Why Can't I Sleep Even When Exhausted? The Ayurvedic Explanation",
+    date: "June 3, 2026",
+    excerpt: "Being deeply tired but unable to sleep is one of the most common and least understood burnout patterns. Ayurveda explains why the nervous system stays switched on even when the body is depleted.",
+    seoTitle: "Why Can't I Sleep When Exhausted? Ayurvedic Explanation of Vata Insomnia",
+    seoDescription: "Wired but exhausted: the science and Ayurvedic explanation of why you can't sleep despite being tired, plus evidence-based recovery protocols.",
+    content: `<p>One of the strangest forms of burnout is being deeply tired but unable to sleep. Your body feels exhausted. Your eyes burn. Your brain feels foggy. But the moment you lie down, your nervous system suddenly becomes active again. Thoughts speed up. Anxiety appears. You replay conversations. Scroll your phone. Check the clock. Try to force sleep.</p><p>In Ayurveda, this is usually viewed as aggravated vata combined with nervous system overstimulation. The body is depleted, but the mind never fully powers down.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
+  <div style="font-size:64px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">3am</div>
+  <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">The most common wakeup time in Vata-pattern insomnia</div>
+  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">Between 2–4am is the Vata window of the night — the period when the nervous system, if depleted, activates rather than deepens. Alcohol drunk earlier produces a cortisol rebound at exactly this time. These two causes account for the majority of chronic 3am wakeups.</div>
+</div><h2>Why This Happens</h2><p>Modern life overstimulates the nervous system constantly. Common triggers include excessive screen time, stress, emotional overwhelm, caffeine, alcohol, irregular sleep schedules, overworking, and social media overstimulation. The nervous system becomes stuck in alert mode. This creates a strange state where the body is tired but the mind remains hyperactive. Many people describe it as wired but exhausted.</p><h2>The Cortisol and Vata Connection</h2><p>Ayurveda describes excess movement and instability through vata dosha. When vata becomes excessive, thoughts increase, anxiety rises, sleep becomes lighter, and the nervous system becomes hypersensitive.</p><p>At the same time, modern stress elevates cortisol and adrenaline. The result: you feel exhausted during the day but mentally activated at night. This is why many people suddenly become awake the moment they try to sleep.</p><div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:40px 0;">
+  <div style="background:#f5f0e8;border-radius:8px;padding:24px;">
+    <div style="font-size:14px;font-weight:700;color:#2a1f14;margin-bottom:16px;">What the body is doing</div>
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      <div style="font-size:13px;color:#4a3728;padding:10px 12px;background:white;border-radius:6px;">Cortisol elevated from day's stress</div>
+      <div style="font-size:13px;color:#4a3728;padding:10px 12px;background:white;border-radius:6px;">Sympathetic nervous system still active</div>
+      <div style="font-size:13px;color:#4a3728;padding:10px 12px;background:white;border-radius:6px;">Body temperature not dropping</div>
+      <div style="font-size:13px;color:#4a3728;padding:10px 12px;background:white;border-radius:6px;">Digestive system still working</div>
+    </div>
+  </div>
+  <div style="background:#f5f0e8;border-radius:8px;padding:24px;">
+    <div style="font-size:14px;font-weight:700;color:#2a1f14;margin-bottom:16px;">What needs to happen for sleep</div>
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      <div style="font-size:13px;color:#4a3728;padding:10px 12px;background:white;border-radius:6px;">Cortisol declining, melatonin rising</div>
+      <div style="font-size:13px;color:#4a3728;padding:10px 12px;background:white;border-radius:6px;">Parasympathetic (rest and digest) active</div>
+      <div style="font-size:13px;color:#4a3728;padding:10px 12px;background:white;border-radius:6px;">Core temperature dropping</div>
+      <div style="font-size:13px;color:#4a3728;padding:10px 12px;background:white;border-radius:6px;">Digestion completed, gut quiet</div>
+    </div>
+  </div>
+</div><h2>Signs of a Vata-Type Insomnia Pattern</h2><p>Waking between 2–4am. Light, easily disrupted sleep. Anxiety before bed. Vivid or exhausting dreams. Restless, looping thoughts. Sensitivity to noise or light. Cold hands and feet at bedtime. Feeling mentally overstimulated even when physically done.</p><h2>Ayurveda for Deep Sleep</h2><p><strong>Warm the body.</strong> Ayurveda strongly favors warmth for calming vata. Helpful practices include warm showers, warm herbal tea before bed, warm cooked dinners, and sesame oil foot massage. The nervous system interprets physical warmth as safety.</p><p><strong>Reduce nighttime stimulation.</strong> The nervous system cannot settle while constantly receiving input. No laptop one hour before sleep. Dim lighting. Lower volume environments. Avoiding emotionally intense content at night.</p><p><strong>Avoid alcohol as a sleep tool.</strong> Alcohol may help you fall asleep temporarily but usually worsens sleep quality, nervous system recovery, and overnight cortisol regulation. Many people mistake sedation for true sleep.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:20px;">The wind-down sequence — 90 minutes before bed</div>
+  <div style="display:flex;flex-direction:column;gap:0;">
+    <div style="display:flex;gap:16px;align-items:center;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:72px;">8:30pm</div>
+      <div style="font-size:14px;color:#c4a882;">Last food and alcohol. Digestion needs to be settled before sleep can be restorative.</div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:center;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:72px;">9:00pm</div>
+      <div style="font-size:14px;color:#c4a882;">Screens off. Warm shower or sesame oil on feet. Signal to the nervous system: the day is over.</div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:center;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:72px;">9:15pm</div>
+      <div style="font-size:14px;color:#c4a882;">Ashwagandha in warm milk or water. Jatamansi if racing thoughts are the issue. Read something light.</div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:center;padding:14px 0;">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:72px;">9:45pm</div>
+      <div style="font-size:14px;color:#c4a882;">In bed. The Kapha window gives natural drowsiness 9:30–10pm. Use it — if you miss it, Pitta activates and you're awake until midnight.</div>
+    </div>
+  </div>
+</div><h2>Sleep Is a Nervous System State</h2><p>You cannot force sleep. You create the conditions for it. The nervous system sleeps best when it feels safe, warm, grounded, and unstimulated. For many people, healing insomnia is less about finding the perfect supplement and more about reducing the amount of stress and stimulation the body is carrying into the night.</p><div style="background:#f0ebe2;border-radius:12px;padding:36px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:24px;">Ayurvedic herbs traditionally used for sleep — matched to pattern</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+    <div style="background:white;border-radius:8px;padding:20px;">
+      <div style="font-size:15px;font-weight:700;color:#2a1f14;">Ashwagandha</div>
+      <div style="font-size:12px;color:#b5763a;margin:4px 0 8px;">For: cortisol-driven insomnia</div>
+      <div style="font-size:13px;color:#4a3728;">Wired but tired. Can't wind down. Takes 3–6 weeks to notice. Evening use, warm milk.</div>
+    </div>
+    <div style="background:white;border-radius:8px;padding:20px;">
+      <div style="font-size:15px;font-weight:700;color:#2a1f14;">Jatamansi</div>
+      <div style="font-size:12px;color:#b5763a;margin:4px 0 8px;">For: racing thoughts at bedtime</div>
+      <div style="font-size:13px;color:#4a3728;">The mind that won't stop at night. Himalayan root, 300–500mg, 1 hour before bed.</div>
+    </div>
+    <div style="background:white;border-radius:8px;padding:20px;">
+      <div style="font-size:15px;font-weight:700;color:#2a1f14;">Brahmi</div>
+      <div style="font-size:12px;color:#b5763a;margin:4px 0 8px;">For: overheated mind, Pitta insomnia</div>
+      <div style="font-size:13px;color:#4a3728;">Cannot wind down, too activated. Take in the afternoon to reduce nighttime activation.</div>
+    </div>
+    <div style="background:white;border-radius:8px;padding:20px;">
+      <div style="font-size:15px;font-weight:700;color:#2a1f14;">Triphala</div>
+      <div style="font-size:12px;color:#b5763a;margin:4px 0 8px;">For: gut-driven sleep disruption</div>
+      <div style="font-size:13px;color:#4a3728;">95% of serotonin is in the gut. Gut health and sleep quality are directly linked. Nightly use.</div>
+    </div>
+  </div>
+</div>`
+  },
+  {
     slug: "honest-beginners-guide-ayurveda-2026",
     category: "editorial",
     title: "The Honest Beginner's Guide to Ayurveda in 2026",
