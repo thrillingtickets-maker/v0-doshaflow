@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">����������������������������������������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">������������������������������������������������ Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -4370,6 +4370,45 @@ export const posts: Post[] = [
     </div>
   </div>
 </div><h2>The Path to Liver Restoration</h2><p>Liver restoration requires a multi-pronged approach: reducing burden through eliminating alcohol and processed foods, supporting regeneration through targeted herbs, and optimizing the circadian conditions that allow the liver to do its repair work — primarily through sleep before 10pm.</p><p>Most people who implement comprehensive liver support report significant improvements within 4–8 weeks. Energy improves. Digestion normalizes. Skin clears. Hormonal balance returns. The cascade of problems associated with Pitta excess begins to resolve as the primary organ of Pitta comes back online.</p>`
+  },
+  {
+    slug: "ayurveda-for-libido",
+    category: "article",
+    title: "Ayurveda and Libido: Understanding Shukra Dhatu and the Path to Sexual Vitality",
+    date: "June 3, 2026",
+    excerpt: "Low libido in Ayurveda is almost always a depletion issue, not a desire issue. Here is the complete protocol for restoring reproductive vitality.",
+    seoTitle: "Ayurveda and Libido: Complete Guide to Sexual Vitality and Shukra",
+    seoDescription: "Complete guide to libido through Ayurveda. Learn how to restore sexual vitality through understanding Shukra dhatu and addressing dosha imbalances.",
+    content: `<p>Sexual vitality is one of the most sensitive indicators of overall health. When the body is thriving, the desire for sex is typically strong. When the body is depleted, sexual desire is one of the first things to diminish. In modern life, this depletion is epidemic — and most people misinterpret low libido as a problem of desire or relationship when it is actually a problem of systemic depletion.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
+  <div style="font-size:64px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">Ojas</div>
+  <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">The refined essence of all tissues — and the foundation of sexual vitality</div>
+  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">In Ayurveda, low libido is almost always a depletion issue, not a desire issue. When the body is under chronic stress, poor sleep, and nutritional depletion, reproductive vitality is the first thing rationed. It is also the last thing restored — which is why it is such a reliable marker of genuine systemic recovery.</div>
+</div><h2>Understanding Shukra Dhatu</h2><p>In Ayurveda, Shukra is the reproductive tissue — not just the physical tissues, but the refined essence that governs sexual vitality, desire, and fertility. Shukra is the final tissue produced by digestion when the entire chain of tissue transformation is working optimally. This means that Shukra depends on every previous tissue layer being healthy.</p><p>When Shukra is depleted, the person experiences low libido, poor sexual function, reduced fertility, and often a sense of disconnection or dissatisfaction with sex. This depletion doesn't happen suddenly. It accumulates gradually through years of stress, poor sleep, inadequate nutrition, and insufficient recovery.</p><h2>The Causes of Low Libido</h2><p>The most common causes of low libido in Ayurveda are chronic stress (depleting Ojas), poor sleep (depleting all tissues), excessive exercise without adequate recovery (depleting Ojas), and inadequate nutrition — particularly healthy fats and warming foods that nourish Shukra.</p><p>Alcohol depletes Shukra directly. Poor digestion prevents the formation of Shukra. Chronic emotional depletion — from relationships, work, or life circumstances — manifests as sexual depletion. In all cases, the issue is not desire. It is depletion.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Dosha</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Low libido pattern</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Root cause</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Primary herbs</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Vata</div>
+    <div style="font-size:13px;color:#4a3728;">Anxiety, disconnection, dryness</div>
+    <div style="font-size:13px;color:#4a3728;">Nervous system depletion, fear</div>
+    <div style="font-size:13px;color:#4a3728;">Ashwagandha, Shatavari, ghee</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Pitta</div>
+    <div style="font-size:13px;color:#4a3728;">Drive present but irritability kills it</div>
+    <div style="font-size:13px;color:#4a3728;">Liver burden, excess heat, alcohol</div>
+    <div style="font-size:13px;color:#4a3728;">Shatavari, Brahmi, cooling diet</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Kapha</div>
+    <div style="font-size:13px;color:#4a3728;">Low desire, heaviness, disinterest</div>
+    <div style="font-size:13px;color:#4a3728;">Stagnation, low metabolic fire</div>
+    <div style="font-size:13px;color:#4a3728;">Trikatu, Ashwagandha, vigorous exercise</div>
+  </div>
+</div><h2>Building Sexual Vitality</h2><p>Restoring sexual vitality requires addressing the root cause: rebuilding Ojas and nourishing Shukra. This means adequate sleep, nourishing food (particularly healthy fats and warming spices), stress management, and the use of specific Rasayana herbs that rebuild reproductive tissue.</p><p>The timeline for recovery varies. Some people experience improvement within 2–3 weeks. Most see significant changes within 2–3 months of consistent practice. The key is recognizing that sexual vitality is not separate from overall health — it is one of the most reliable indicators of it.</p>`
   }
 ]
 
