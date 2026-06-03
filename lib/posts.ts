@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">��������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">���������������� Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -2420,13 +2420,55 @@ export const posts: Post[] = [
     </div>
   </div>
 </div><p>PCOS is treatable. But it is not treatable with a generic protocol. The Kapha woman needs stimulation and movement. The Pitta woman needs cooling and rest. The Vata woman needs grounding and routine. Once you understand which type you are, the intervention becomes clear. This is the Ayurvedic advantage.</p>`
+  },
+  {
+    slug: "ginger-benefits",
+    category: "article",
+    title: "Ginger: The Universal Medicine — Uses, Forms, and When to Use Each",
+    date: "June 3, 2026",
+    excerpt: "Ginger has 5,000 years of documented use. In Ayurveda it appears in Sanskrit texts as Vishwabheshaja — the universal medicine. But fresh ginger and dry ginger are not interchangeable. They are distinct medicines with opposite heat profiles and completely different uses.",
+    seoTitle: "Ginger Benefits: Fresh vs Dry, Ayurvedic Uses and Dosage",
+    seoDescription: "Complete guide to ginger in Ayurveda: fresh ginger (ardraka) vs dry ginger (shunthi), medicinal uses, best forms, and which works for your dosha type.",
+    content: `<p>Ginger is perhaps the most versatile herb in Ayurveda. It appears in virtually every herbal formula. It is considered so fundamental to Ayurvedic medicine that it is added to almost every formula not for its primary action, but to enhance the digestion and absorption of all the other herbs in the formula. In Ayurveda, ginger is called Vishwabheshaja — the universal medicine. This is not metaphorical. It means that ginger can be applied to almost any condition, across almost any dosha type.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
+  <div style="font-size:64px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">5,000+</div>
+  <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">Years of documented medicinal use — older than almost any other herb</div>
+  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">Ginger appears in Sanskrit texts as Vishwabheshaja — "the universal medicine." In Ayurveda it is considered so fundamental that it is added to almost every herbal formula to enhance digestion of the herbs themselves.</div>
+</div><h2>The Primary Actions of Ginger</h2><p>Ginger warms the digestive system. Ginger reduces ama (undigested matter that accumulates into toxicity). Ginger increases agni (digestive fire). These three properties make it universally applicable — most disease in Ayurveda traces back to poor digestion and ama accumulation. By strengthening digestive fire and preventing ama formation, ginger prevents the root cause of most illness.</p><p>Ginger also moves stagnation. It increases circulation. It promotes the movement of blood and nutrients through the body. This is why it works for joint pain, poor circulation, and sluggish digestion — all are conditions of stagnation that ginger addresses.</p><h2>Uses by dosha type</h2><p>Vata types benefit from ginger because it warms the cold, dry Vata system and stimulates weak digestive fire. Pitta types can use ginger carefully — it is warming, but its ability to move inflammation is more important than its heat. Kapha types benefit from ginger because the warming, moving quality directly opposes Kapha's cold, sluggish nature.</p><p>The key distinction in ginger use is this: fresh ginger and dry ginger are not two forms of the same medicine. They are two different medicines with opposite therapeutic profiles. This is where most Western herbal use goes wrong.</p><div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:40px 0;">
+  <div style="border-radius:8px;overflow:hidden;">
+    <div style="background:#2a1f14;padding:16px 20px;text-align:center;">
+      <div style="font-size:20px;font-weight:700;color:#f5f0e8;font-family:Georgia,serif;">Fresh ginger</div>
+      <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;margin-top:4px;">Ardraka</div>
+    </div>
+    <div style="background:#f5f0e8;padding:24px;display:flex;flex-direction:column;gap:10px;">
+      <div style="font-size:14px;color:#4a3728;">Action: warming, stimulating, aids fresh digestion</div>
+      <div style="font-size:14px;color:#4a3728;">Best for: nausea, sluggish digestion, cold</div>
+      <div style="font-size:14px;color:#4a3728;">Dosha: Vata and Kapha</div>
+      <div style="font-size:14px;color:#4a3728;">Use: tea, cooking, chewing before meals</div>
+      <div style="font-size:14px;font-weight:600;color:#b5763a;margin-top:8px;">Season: autumn and winter</div>
+    </div>
+  </div>
+  <div style="border-radius:8px;overflow:hidden;">
+    <div style="background:#2a1f14;padding:16px 20px;text-align:center;">
+      <div style="font-size:20px;font-weight:700;color:#f5f0e8;font-family:Georgia,serif;">Dry ginger</div>
+      <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;margin-top:4px;">Shunthi</div>
+    </div>
+    <div style="background:#f5f0e8;padding:24px;display:flex;flex-direction:column;gap:10px;">
+      <div style="font-size:14px;color:#4a3728;">Action: deeper heating, anti-inflammatory, penetrating</div>
+      <div style="font-size:14px;color:#4a3728;">Best for: chronic inflammation, joint pain, old ama</div>
+      <div style="font-size:14px;color:#4a3728;">Dosha: primarily Kapha; use carefully with Pitta</div>
+      <div style="font-size:14px;color:#4a3728;">Use: powder in trikatu, supplements, herbal formulas</div>
+      <div style="font-size:14px;font-weight:600;color:#b5763a;margin-top:8px;">Season: spring, chronic conditions year-round</div>
+    </div>
+  </div>
+</div>
+<div style="background:#f0ebe2;border-radius:8px;padding:16px 20px;text-align:center;font-size:14px;color:#4a3728;font-style:italic;">In Ayurveda these are considered distinct medicines, not the same substance in different forms. The Sanskrit terms are different. The applications are different. Most Western use conflates them.</div><h2>Fresh ginger — immediate and surface</h2><p>Fresh ginger is lighter and less heating than dry ginger. It works on the acute, immediate condition. If you have nausea right now, chewing on fresh ginger will address it. If your digestion feels sluggish this morning, fresh ginger tea will warm and move it. If you have a cold that just arrived, fresh ginger is the herb you reach for. Fresh ginger addresses Vata and Kapha conditions that are recent and active.</p><h2>Dry ginger — deep and chronic</h2><p>Dry ginger is heavier, more concentrated, more penetrating. It has been in the sun for months. The water has been removed. What remains is the most powerful form of ginger. Dry ginger reaches deep into the tissues. It addresses old inflammation that fresh ginger cannot touch. Chronic joint pain, old injuries, deep-seated ama — these are the domain of dry ginger. It is also more heating than fresh ginger, so Pitta types must use it with more caution.</p><h2>When to use which</h2><p>The seasonal shift is important. In autumn and winter, when Vata and Kapha are naturally elevated, fresh ginger is appropriate. In spring, when Kapha is naturally at its peak and needs to be moved out of the system, dry ginger is the medicine. For acute problems, choose fresh. For chronic problems, choose dry. For Pitta types, fresh is safer. For Kapha types with chronic issues, dry is more effective.</p><p>The mistake most people make is treating all ginger the same. They have ginger supplements, or they buy ginger powder, and they assume one ginger is interchangeable with another. This misses the entire point. In Ayurveda, the form matters as much as the herb itself. Fresh ginger and dry ginger are different medicines. Choose the right one and the effect is amplified. Get the choice wrong and you may either overheat yourself or miss addressing the depth of your problem.</p>`
   }
 ]
 
-export function getPostBySlug(slug: string): Post | undefined {
-  return posts.find((p) => p.slug === slug)
-}
-
 export function getAllPosts(): Post[] {
   return posts
+}
+
+export function getPostBySlug(slug: string): Post | undefined {
+  return posts.find((post) => post.slug === slug)
 }
