@@ -185,10 +185,13 @@ export default function AboutPage() {
             className="bg-primary/10 border border-primary/20 rounded-2xl p-8 my-16"
           >
             <p className="text-sm font-medium uppercase tracking-wide text-primary mb-3">
-              Right now — May 2026
+              Back in Los Angeles — June 2026
+            </p>
+            <p className="text-lg leading-relaxed text-foreground mb-4">
+              I just returned from two weeks at an Ayurvedic retreat in Kerala. The retreat journal is here — I wrote about it every day. This blog is where I share what I learned and what I am continuing to practice.
             </p>
             <p className="text-lg leading-relaxed text-foreground">
-              I'm in the middle of a two-week Ayurvedic retreat — deepening my practice, studying with teachers, and documenting everything. This blog is my attempt to share that journey in real time.
+              DoshaFlow is what I wished had existed when I started this journey. It is dosha-based nutrition that actually tastes good. Grounding movement that does not require a gym membership. Herbal recommendations, daily rituals, and practical protocols that fit into a real life.
             </p>
           </motion.div>
 
@@ -281,7 +284,7 @@ export default function AboutPage() {
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </a>
             <a
-              href="#"
+              href="/blog"
               className="inline-flex items-center gap-2 px-8 py-4 border-2 border-foreground/20 text-foreground font-medium rounded-full transition-all duration-300 hover:border-foreground/40"
             >
               Read the Blog
