@@ -33,6 +33,11 @@ const nextConfig = {
         destination: '/kapha',
         permanent: true,
       },
+      {
+        source: '/blog/alcohol-and-ayurveda',
+        destination: '/blog/ayurveda-alcohol',
+        permanent: true,
+      },
     ]
   },
 }
