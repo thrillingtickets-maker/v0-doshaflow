@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">�������������������������������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">��������������������������������������� Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -560,7 +560,7 @@ export const posts: Post[] = [
     </div>
   </div>
 </div><p><strong>Vata types use alcohol to ground themselves.</strong> Vata is by nature scattered, anxious, and ungrounded. Alcohol temporarily creates a sense of stability and heaviness. It slows down the racing mind. For a few hours, Vata feels okay. This is why Vata types often describe drinking as &apos;finally being able to relax&apos; or &apos;feeling grounded for the first time all day.&apos; They are literally self-medicating their Vata imbalance.</p><p><strong>Pitta types use alcohol to release heat.</strong> Pitta is intense, driven, and builds pressure. Alcohol provides a release valve. It allows Pitta to decompress and let go of the day&apos;s intensity. After drinking, Pitta feels lighter and less burdened.</p><p><strong>Kapha types use alcohol as stimulation.</strong> Kapha is heavy, sluggish, and lacks motivation. Alcohol provides stimulation and social engagement. It temporarily alleviates the heaviness and creates a sense of aliveness.</p><p>The addiction is not to the alcohol itself but to the relief from constitutional imbalance that alcohol temporarily provides. This is why willpower alone rarely works. You are asking someone to suffer their baseline constitutional state without the thing that has been numbing it.</p><h2>What Withdrawal Looks Like in Ayurvedic Terms</h2><p>When alcohol is removed, the constitutional imbalance that was being masked suddenly becomes acute. This is primarily experienced as a Vata crisis.</p><p>The nervous system, which had been dampened by alcohol, suddenly activates. There is acute anxiety, insomnia, racing thoughts, and physical restlessness. The body feels like it is vibrating. Sleep becomes nearly impossible. Appetite disappears. Digestion revolts. Physical anxiety symptoms appear — chest tightness, trembling, racing heart.</p><p>For many people, this acute Vata crisis is so uncomfortable that they return to drinking just to make it stop. From an Ayurvedic perspective, you have not failed; you have experienced what happens when the constitutional imbalance is suddenly unmasked without adequate support.</p><h2>The Recovery Protocol</h2><p><strong>Ashwagandha is the most important herb.</strong> It does what alcohol was doing (grounding, calming) but without the damage. It supports the nervous system through the acute withdrawal phase and helps the body rebuild its own capacity to regulate itself. Dosage: 500-1000mg twice daily. Some people benefit from even higher doses during acute withdrawal — up to 1500mg twice daily.</p><p><strong>Brahmi supports the cognitive effects of withdrawal.</strong> Withdrawal creates brain fog, difficulty concentrating, and mental fog. Brahmi specifically supports cognitive function and mental clarity. Dosage: 300-500mg twice daily.</p><p><strong>Triphala supports digestive restoration.</strong> Alcohol damages the gut lining and weakens digestive function. Triphala rebuilds this. Dosage: 1/2 teaspoon in warm water before bed.</p><p><strong>Shatavari is essential for women.</strong> Alcohol particularly depletes women&apos;s reproductive and nervous systems. Shatavari specifically rebuilds this. Dosage: 1 teaspoon in warm milk daily.</p><p><strong>Warm, regular food is non-negotiable.</strong> The digestive system is already compromised. Feed it warm, cooked, easily digestible food at consistent times. No raw food, no cold food, no stimulating food. Simple nourishment.</p><p><strong>Sleep before 10pm every night.</strong> Sleep is when the nervous system heals. Consistent sleep initiation during the Kapha window (6-10pm) is the foundation of nervous system recovery.</p><p><strong>Daily warm oil massage (abhyanga)</strong> grounds the nervous system and supports the parasympathetic activation that recovery requires. 10-15 minutes daily of warm sesame oil massage is profoundly grounding.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
-  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:24px;">Recovery herb protocol — timeline</div>
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:24px;">Recovery herb protocol ��� timeline</div>
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
     <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:20px;">
       <div style="font-size:13px;font-weight:700;color:#b5763a;margin-bottom:10px;">Week 1–2 (hardest phase)</div>
@@ -3912,6 +3912,50 @@ export const posts: Post[] = [
     <div style="font-size:13px;color:#4a3728;">Every night — no supplement replaces this</div>
   </div>
 </div><h2>The Path Forward</h2><p>True immunity is built over months and years, not days. It is the result of consistent nourishment, adequate rest, stress management, and the removal of depleting habits. Once these foundations are in place, targeted herbal support accelerates the process. But the foundation is what matters most.</p>`
+  },
+  {
+    slug: "ayurveda-blood-sugar",
+    category: "article",
+    title: "Ayurveda and Blood Sugar: Metabolic Fire and the Path to Insulin Sensitivity",
+    date: "June 3, 2026",
+    excerpt: "Type 2 diabetes in Ayurveda is not about restricting sugar. It is about restoring metabolic fire. Here is the complete protocol for insulin sensitivity.",
+    seoTitle: "Ayurveda and Blood Sugar: Complete Protocol for Insulin Sensitivity",
+    seoDescription: "Complete guide to blood sugar management through Ayurveda. Learn how to restore metabolic fire and achieve insulin sensitivity.",
+    content: `<p>The modern approach to blood sugar management is nearly entirely focused on restriction — limiting carbohydrates, counting grams, avoiding specific foods. Ayurveda approaches it from a different angle: restoration of metabolic fire. When agni — digestive and metabolic fire — is strong, the body handles carbohydrates efficiently. When agni is weak, even small amounts of food create blood sugar dysregulation and weight gain.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">Type 2 diabetes maps almost exactly to Kapha excess in Ayurveda — slow metabolism, sweet cravings, weight accumulation, sluggish digestion. The Ayurvedic approach to blood sugar has always been metabolic stimulation, not sugar replacement.</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">Insulin resistance is ama in the metabolic channels. The treatment is agni restoration — not counting carbohydrates.</div>
+</div><h2>Understanding the Metabolic Picture</h2><p>In Ayurveda, weak agni creates ama — undigested, sticky residue that accumulates throughout the body. When ama accumulates specifically in the metabolic channels that regulate sugar and insulin, the result is what modern medicine calls insulin resistance. The tissues cannot respond to insulin signals. The pancreas becomes overworked. Eventually, glucose dysregulation becomes chronic.</p><p>But this is a tissue state, not a permanent condition. The tissue responds to what builds it. Weak agni built the problem. Strong agni can reverse it.</p><h2>Interventions for Metabolic Restoration</h2><p>The first and most important intervention is the restoration of agni. This requires: removal of foods and habits that suppress it (cold food, raw food, alcohol, late eating, skipped meals), inclusion of foods and spices that stimulate it (warm, cooked, well-spiced food, ginger, black pepper), and consistency of meal timing that allows digestive capacity to rebuild.</p><p>Once agni is strengthening, specific herbs that both stimulate metabolic fire and reduce blood glucose become effective. The classical formula for metabolic support is Trikatu — three hot spices combined that ignite digestive fire. Used before meals, Trikatu sends a signal to the digestive system: prepare for food. Over time, this rebuilds the system's capacity to handle carbohydrates efficiently.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Herb / Practice</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Mechanism</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Notes</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Bitter melon</div>
+    <div style="font-size:13px;color:#4a3728;">Mimics insulin, reduces glucose absorption</div>
+    <div style="font-size:13px;color:#4a3728;">Strongest evidence; use with medical supervision if on medication</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Fenugreek</div>
+    <div style="font-size:13px;color:#4a3728;">Slows glucose absorption, improves insulin sensitivity</div>
+    <div style="font-size:13px;color:#4a3728;">Seeds soaked overnight; consistent use required</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Trikatu</div>
+    <div style="font-size:13px;color:#4a3728;">Stimulates agni, improves metabolic fire</div>
+    <div style="font-size:13px;color:#4a3728;">Before meals; the metabolic foundation</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Consistent meal times</div>
+    <div style="font-size:13px;color:#4a3728;">Anchors insulin response, prevents reactive hypoglycaemia</div>
+    <div style="font-size:13px;color:#4a3728;">The most impactful single lifestyle change</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Vigorous exercise</div>
+    <div style="font-size:13px;color:#4a3728;">Directly improves insulin sensitivity independent of weight loss</div>
+    <div style="font-size:13px;color:#4a3728;">After meals especially; 20–30 min daily minimum</div>
+  </div>
+</div><h2>The Timeline of Improvement</h2><p>Metabolic restoration is not quick. It took months or years of weak agni to create insulin resistance. It takes weeks to months of consistent practice to reverse it. But the shift begins almost immediately. Within days of removing the foods that suppressed agni and beginning to eat consistently warm, cooked food, many people report improved energy and reduced blood sugar crashes. Within weeks, hunger patterns stabilize and weight loss can begin. Within 3–6 months of consistent practice — meal timing, agni-supporting foods and herbs, regular exercise — most people report significant improvement in how their body handles carbohydrates.</p><p>The key is consistency. One meal does not create metabolic change. One week does not. One month might. Three months of unbroken consistency rebuilds the tissue state. Once rebuilt, it remains stable as long as the practices continue.</p>`
   }
 ]
 
