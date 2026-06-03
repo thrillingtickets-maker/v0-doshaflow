@@ -3808,6 +3808,60 @@ export const posts: Post[] = [
     </div>
   </div>
 </div><h2>The Timeline of Sleep Restoration</h2><p>Sleep restoration is not a single-intervention process. Like all nervous system healing, it takes time. Removing alcohol produces noticeable improvement within days. Screens off at 9pm often produces improvement in sleep onset quality within a week. Ashwagandha and consistent sleep timing take weeks to months. But the trajectory changes immediately. Within a week of consistent practice, most people report that their sleep feels less fragile. Within a month, the baseline anxiety that kept them sleepless begins to diminish. Within 3 months of consistent adherence to the protocol, most people experience sleep that is genuinely restored.</p>`
+  },
+  {
+    slug: "ayurvedic-gut-healing",
+    category: "article",
+    title: "Ayurvedic Gut Healing: The Protocol for Restoring Digestive Fire and Clearing Ama",
+    date: "June 3, 2026",
+    excerpt: "The gut is not just a digestive organ in Ayurveda — it is the seat of all tissue building and immunity. Here is the protocol for true gut healing.",
+    seoTitle: "Ayurvedic Gut Healing: Complete Protocol for Restoring Digestive Health",
+    seoDescription: "Complete protocol for gut healing through Ayurveda. Learn how to restore agni, clear ama, and heal intestinal permeability.",
+    content: `<p>The gut is not just a digestive organ in Ayurveda. It is the seat of all tissue building and immunity. The integrity of the intestinal barrier, the strength of digestive fire, and the absence of accumulated toxins — these three factors determine not just digestive health but overall resilience and longevity.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
+  <div style="font-size:64px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">95%</div>
+  <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">Of serotonin produced in the gut — not the brain</div>
+  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">Ayurveda has always treated the gut as the seat of consciousness and emotion — not a metaphor, but a clinical reality. The gut-brain axis is now one of the most active research areas in medicine. Treating anxiety, depression, and fatigue through gut healing is not alternative. It is upstream medicine.</div>
+</div><h2>Understanding Agni and Ama</h2><p>In Ayurvedic medicine, two concepts form the foundation of gut health: agni (digestive fire) and ama (undigested residue). Agni is the metabolic intelligence that transforms food into tissue, energy, and waste. When agni is weak — what Ayurveda calls manda agni — food is not properly broken down. The result is ama: sticky, undigested residue that accumulates in the gut and systemically, creating inflammation, brain fog, autoimmune dysfunction, and disease.</p><p>The path to gut healing is fundamentally about restoring agni and clearing ama. Without addressing agni, supplements and protocols address symptoms but not root cause. With proper agni, the gut heals naturally.</p><h2>The Three-Phase Healing Approach</h2><p>Ayurvedic gut healing works in three phases. Phase 1 is removal — stopping the behaviors and foods that maintain weak agni and continued ama accumulation. Phase 2 is restoration — actively strengthening digestive fire and clearing accumulated toxins. Phase 3 is maintenance — establishing practices and dietary patterns that keep agni strong and prevent ama from returning.</p><h2>Protocol for Restoring Agni</h2><p>The first step is to assess your agni. Signs of weak agni include: fatigue after eating, bloating or gas within two hours of food, inconsistent hunger, irregular bowel movements, and white or yellow tongue coating. If these are present, begin with agni-strengthening practices.</p><p>Strengthening agni requires three things: the removal of foods that suppress it (cold food, raw food, heavy food, overeating), the inclusion of foods and spices that stimulate it (ginger, black pepper, mustard seed, easily-digested grains), and the establishment of eating times that allow digestive capacity to rebuild.</p><h2>Clearing Ama</h2><p>Once agni is beginning to strengthen, ama-clearing herbs become effective. The classical formula for ama clearing is Triphala — three fruits combined that gently clear the accumulated residue without depleting tissue. Taken nightly in warm water, Triphala works gradually over weeks and months to restore intestinal integrity and reduce systemic ama.</p><p>CCF tea (cumin, coriander, fennel) taken after meals also supports agni and prevents new ama from forming. These are not aggressive interventions. They work by supporting the body's natural capacity to clear itself.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:20px;">The 30-day gut healing sequence</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:20px;">
+      <div style="font-size:13px;font-weight:700;color:#b5763a;margin-bottom:12px;">Week 1 — Remove</div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <div style="font-size:13px;color:#c4a882;">• Alcohol out completely</div>
+        <div style="font-size:13px;color:#c4a882;">• Cold food and drinks out</div>
+        <div style="font-size:13px;color:#c4a882;">• Irregular meal times out</div>
+        <div style="font-size:13px;color:#c4a882;">• Late eating out (7pm cutoff)</div>
+      </div>
+    </div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:20px;">
+      <div style="font-size:13px;font-weight:700;color:#b5763a;margin-bottom:12px;">Week 2 — Add</div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <div style="font-size:13px;color:#c4a882;">• Tongue scraping + warm water daily</div>
+        <div style="font-size:13px;color:#c4a882;">• Triphala every night</div>
+        <div style="font-size:13px;color:#c4a882;">• CCF tea after meals</div>
+        <div style="font-size:13px;color:#c4a882;">• Ghee in cooking</div>
+      </div>
+    </div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:20px;">
+      <div style="font-size:13px;font-weight:700;color:#b5763a;margin-bottom:12px;">Week 3 — Stabilise</div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <div style="font-size:13px;color:#c4a882;">• Agni strengthening: ginger before meals</div>
+        <div style="font-size:13px;color:#c4a882;">• Consistent meal times locked in</div>
+        <div style="font-size:13px;color:#c4a882;">• Tongue coating visibly reducing</div>
+        <div style="font-size:13px;color:#c4a882;">• Ashwagandha added if sleep poor</div>
+      </div>
+    </div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:20px;">
+      <div style="font-size:13px;font-weight:700;color:#b5763a;margin-bottom:12px;">Week 4 — Assess</div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <div style="font-size:13px;color:#c4a882;">• Bloating reduced or resolved</div>
+        <div style="font-size:13px;color:#c4a882;">• Elimination regular and complete</div>
+        <div style="font-size:13px;color:#c4a882;">• Energy more stable through day</div>
+        <div style="font-size:13px;color:#c4a882;">• This is now the new baseline — maintain</div>
+      </div>
+    </div>
+  </div>
+</div><h2>Long-Term Maintenance</h2><p>Gut healing is not a single protocol followed once. It is a foundation for all health. Once agni is restored and ama cleared, maintaining these qualities through consistent practices ensures long-term resilience. Eating warm, cooked, well-spiced food in consistent patterns; avoiding alcohol and late eating; and regular use of Triphala or other gentle digestive support tools keeps the gut functional and prevents regression.</p>`
   }
 ]
 
