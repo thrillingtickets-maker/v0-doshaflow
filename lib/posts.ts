@@ -3956,6 +3956,57 @@ export const posts: Post[] = [
     <div style="font-size:13px;color:#4a3728;">After meals especially; 20–30 min daily minimum</div>
   </div>
 </div><h2>The Timeline of Improvement</h2><p>Metabolic restoration is not quick. It took months or years of weak agni to create insulin resistance. It takes weeks to months of consistent practice to reverse it. But the shift begins almost immediately. Within days of removing the foods that suppressed agni and beginning to eat consistently warm, cooked food, many people report improved energy and reduced blood sugar crashes. Within weeks, hunger patterns stabilize and weight loss can begin. Within 3–6 months of consistent practice — meal timing, agni-supporting foods and herbs, regular exercise — most people report significant improvement in how their body handles carbohydrates.</p><p>The key is consistency. One meal does not create metabolic change. One week does not. One month might. Three months of unbroken consistency rebuilds the tissue state. Once rebuilt, it remains stable as long as the practices continue.</p>`
+  },
+  {
+    slug: "pranayama-for-anxiety",
+    category: "article",
+    title: "Pranayama for Anxiety: Breath Patterns, the Vagus Nerve, and Nervous System Restoration",
+    date: "June 3, 2026",
+    excerpt: "Pranayama is not breathing meditation. It is a precise technology for nervous system regulation. Here is the complete guide to using breath to resolve anxiety.",
+    seoTitle: "Pranayama for Anxiety: Complete Guide to Breathing Techniques",
+    seoDescription: "Learn how to use Ayurvedic breathing practices (pranayama) to resolve anxiety. Understand the 4:7:8 ratio, techniques for acute anxiety, and dosha-specific practices.",
+    content: `<p>Pranayama is one of the most direct interventions in Ayurveda for anxiety. Unlike meditation, which requires mental effort, pranayama is purely mechanical — you manipulate the breath pattern and the nervous system follows. The autonomic nervous system does not distinguish between "I am anxious" and "I am breathing like an anxious person." The physiology responds to pattern.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
+  <div style="font-size:64px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">4.7.8</div>
+  <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">The ratio — inhale 4, hold 7, exhale 8</div>
+  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">The exhale activates the vagus nerve and shifts the autonomic nervous system toward parasympathetic. An exhale longer than the inhale is the physiological mechanism behind every breath-based anxiety intervention — ancient or modern. The ratio varies; the principle does not.</div>
+</div><h2>Understanding the Breath-Anxiety Connection</h2><p>Anxiety expresses itself as a specific breath pattern: shallow, rapid, high in the chest, held during the inhale. This pattern is both a symptom and a cause — the anxiety creates the pattern, and the pattern sustains the anxiety. Breaking the pattern breaks the cycle.</p><p>The vagus nerve is the primary highway between the brain and the body. When it is activated, it sends a signal: you are safe. The nervous system shifts toward the parasympathetic mode. Digestion resumes. Heart rate slows. Breath becomes slower and deeper. Anxiety resolves.</p><p>Pranayama activates the vagus nerve specifically through the exhale. When the exhale is longer than the inhale, vagal tone increases. When practiced regularly, this alone reshapes the nervous system's baseline responsiveness.</p><h2>Pranayama Techniques for Anxiety</h2><p>The following techniques address different presentations of anxiety. Some are for acute use — in the moment when anxiety is active. Some are for daily practice to prevent anxiety from arising. All are evidence-based and effective.</p><p><strong>Extended exhale (4:2 ratio):</strong> Inhale for 4 counts, exhale for 8. This is the most direct vagus nerve activation. Use immediately when anxiety arises. Within 2–3 minutes, the nervous system will shift. This is not a long-term practice; it is an acute intervention.</p><p><strong>Nadi Shodhana (alternate nostril breathing):</strong> This technique balances the nervous system by alternating stimulation of the left and right vagal branches. Five to ten minutes daily produces measurable improvements in anxiety baseline. It is the most balanced and preventive practice.</p><p><strong>Bhramari (bee breath):</strong> A humming breath that creates vibration in the vagus nerve itself. Used immediately for acute anxiety or panic, it provides rapid relief. The vibration interrupts the anxiety pattern and resets the system.</p><p><strong>Sitali (cooling breath):</strong> Particularly useful for Pitta-type anxiety — the racing mind and overheating sensation. Taken in the heat of the day or when anxiety is aggravated by heat, it cools and calms the system.</p><p><strong>Kapalabhati (skull-shining breath):</strong> This is not for acute anxiety. It is energising and clearing. Used in the morning by people with Kapha-type anxiety and depression, it activates the system. Never use in the evening or before bed.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Practice</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Best for</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Dosha</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">When</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Nadi Shodhana</div>
+    <div style="font-size:13px;color:#4a3728;">Balancing, nervous system regulation</div>
+    <div style="font-size:13px;color:#4a3728;">All doshas</div>
+    <div style="font-size:13px;color:#4a3728;">Morning or before bed, 5–10 min</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Bhramari</div>
+    <div style="font-size:13px;color:#4a3728;">Acute anxiety, racing mind, panic</div>
+    <div style="font-size:13px;color:#4a3728;">Vata, Pitta</div>
+    <div style="font-size:13px;color:#4a3728;">Any time; immediate effect</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Sitali</div>
+    <div style="font-size:13px;color:#4a3728;">Cooling, summer, Pitta heat</div>
+    <div style="font-size:13px;color:#4a3728;">Pitta</div>
+    <div style="font-size:13px;color:#4a3728;">Midday, after exercise, in heat</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Kapalabhati</div>
+    <div style="font-size:13px;color:#4a3728;">Energising, clearing, depression</div>
+    <div style="font-size:13px;color:#4a3728;">Kapha</div>
+    <div style="font-size:13px;color:#4a3728;">Morning only; not before bed</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Extended exhale</div>
+    <div style="font-size:13px;color:#4a3728;">Sleep onset, bedtime anxiety</div>
+    <div style="font-size:13px;color:#4a3728;">Vata</div>
+    <div style="font-size:13px;color:#4a3728;">In bed; 5 minutes before sleep</div>
+  </div>
+</div><h2>Building a Pranayama Practice</h2><p>For immediate anxiety, use extended exhale or Bhramari when the anxiety arises. For anxiety prevention and nervous system baseline improvement, practice Nadi Shodhana daily — morning or evening, 5–10 minutes. Consistency matters more than duration. Five minutes every day produces more change than 30 minutes once a week.</p><p>The timeline for change varies. Some people feel the shift within one practice session. Most notice measurable baseline improvement within 2–3 weeks of consistent daily practice. After 8–12 weeks, the nervous system's responsiveness to stress is fundamentally altered — anxiety arises less easily, resolves more quickly, and feels less overwhelming.</p>`
   }
 ]
 
