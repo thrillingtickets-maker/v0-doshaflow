@@ -22,7 +22,7 @@ export default function JournalPage() {
       // Extract day number from slug (e.g., "retreat-day-3" -> 3)
       const dayA = parseInt(a.slug.match(/\d+/)?.[0] || "0")
       const dayB = parseInt(b.slug.match(/\d+/)?.[0] || "0")
-      return dayA - dayB
+      return dayB - dayA // Reverse order to show newest first
     })
 
   return (
