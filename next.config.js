@@ -17,6 +17,22 @@ const nextConfig = {
         destination: '/blog/why-am-i-always-tired',
         permanent: true,
       },
+      // Redirect /doshas/* to the correct route (e.g., /doshas/vata -> /vata)
+      {
+        source: '/doshas/vata',
+        destination: '/vata',
+        permanent: true,
+      },
+      {
+        source: '/doshas/pitta',
+        destination: '/pitta',
+        permanent: true,
+      },
+      {
+        source: '/doshas/kapha',
+        destination: '/kapha',
+        permanent: true,
+      },
     ]
   },
 }
