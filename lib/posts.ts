@@ -2626,7 +2626,7 @@ export const posts: Post[] = [
     content: `<p>Kapha imbalance is deceptive. It does not announce itself with pain or crisis the way Pitta imbalance does. It does not create obvious instability the way Vata imbalance does. Instead, it arrives as heaviness. As sluggishness. As a gradual loss of motivation that feels indistinguishable from rest. By the time someone realises they are in Kapha excess, months have often passed.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
   <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">"Kapha imbalance is the one that feels comfortable. The sluggishness, the heaviness, the resistance to change — it all feels like rest. Until you realise it has been months."</div>
   <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">Kapha accumulates slowly and resists all effort to shift — until the right provocation.</div>
-</div><h2>The Kapha Profile</h2><p>Kapha is the dosha of earth and water — heavy, stable, structural, grounding. In balance, Kapha provides resilience, strength, immunity, stability. Out of balance, it becomes weight. Sluggishness. Resistance to change. Lethargy that nothing seems to lift.</p><p>The challenge with recognising Kapha imbalance is that it does not feel wrong. It feels like finally having permission to rest. It is only when the person tries to move — to exercise, to change, to initiate anything — that they encounter resistance. And by then, the Kapha accumulation has often deepened significantly.</p><div style="background:#f5f0e8;border-radius:12px;padding:36px;margin:40px 0;">
+</div><h2>The Kapha Profile</h2><p>Kapha is the dosha of earth and water — heavy, stable, structural, grounding. In balance, Kapha provides resilience, strength, immunity, stability. Out of balance, it becomes weight. Sluggishness. Resistance to change. Lethargy that nothing seems to lift.</p><p>The challenge with recognising Kapha imbalance is that it does not feel wrong. It feels like finally having permission to rest. It is only when the person tries to move — to exercise, to change, to initiate anything ��� that they encounter resistance. And by then, the Kapha accumulation has often deepened significantly.</p><div style="background:#f5f0e8;border-radius:12px;padding:36px;margin:40px 0;">
   <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:24px;">Kapha imbalance — full symptom picture</div>
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;">
     <div>
@@ -2956,6 +2956,58 @@ export const posts: Post[] = [
     <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;"><strong style="color:#b5763a;">Month 3+:</strong><span style="font-size:13px;color:#c4a882;"> Sustained effects. Testosterone data shows greatest change here for men. Keep going — the benefit compounds.</span></div>
   </div>
 </div><h2>The Bottom Line</h2><p>Ashwagandha works. The research is robust. But it works only when you take it correctly: at least 300-600mg of a standardised extract, consistently at the same time every day, for at least 8 weeks. Anything less and you will get minimal benefit. Anything inconsistent and you will be wasting your money.</p><p>The first 2-4 weeks will feel subtle or nothing. This is when most people quit. Do not. The real benefit emerges between weeks 4-8, and compounds thereafter. If you have cortisol dysregulation, chronic stress, or sleep disruption, ashwagandha is worth trying. Just do it right.</p>`
+  },
+  {
+    slug: "ayurveda-for-headaches",
+    category: "article",
+    title: "Ayurvedic Understanding of Headaches: The Dosha-Specific Approach",
+    date: "June 3, 2026",
+    excerpt: "Headaches are not all the same. Ayurveda identifies three distinct patterns — Vata, Pitta, and Kapha — each with different causes and completely different treatments.",
+    seoTitle: "Ayurvedic Headache Types and Treatment by Dosha",
+    seoDescription: "Understanding headaches through Ayurveda. Identify your headache type (Vata, Pitta, Kapha) and learn specific treatments.",
+    content: `<p>Headaches are one of the most common complaints in modern medicine, and also one of the most poorly understood. Modern medicine tends to treat all headaches similarly — with pain medication — regardless of cause. Ayurveda takes a different approach. It identifies the underlying imbalance causing the headache and addresses that specifically. This is why the same treatment that stops a Vata headache might make a Pitta headache worse.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:28px;">Ayurveda identifies three headache patterns — the intervention is completely different for each</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;">
+    <div style="background:white;border-radius:8px;padding:22px;">
+      <div style="font-size:15px;font-weight:700;color:#2a1f14;">Vata headache</div>
+      <div style="font-size:12px;color:#b5763a;font-weight:600;margin:4px 0 10px;">Throbbing, pulsing</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.6;">Moves around. Worse with cold, wind, stress, skipped meals. Often at base of skull or temples. Dehydration-driven.</div>
+      <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:10px;">Fix: Warm oil scalp massage, hydration, rest</div>
+    </div>
+    <div style="background:white;border-radius:8px;padding:22px;">
+      <div style="font-size:15px;font-weight:700;color:#2a1f14;">Pitta headache</div>
+      <div style="font-size:12px;color:#b5763a;font-weight:600;margin:4px 0 10px;">Sharp, burning, intense</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.6;">Behind the eyes or forehead. Worse with heat, alcohol, skipping meals, bright light. Often with nausea.</div>
+      <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:10px;">Fix: Cool cloth, coconut oil, dark room, fennel tea</div>
+    </div>
+    <div style="background:white;border-radius:8px;padding:22px;">
+      <div style="font-size:15px;font-weight:700;color:#2a1f14;">Kapha headache</div>
+      <div style="font-size:12px;color:#b5763a;font-weight:600;margin:4px 0 10px;">Dull, heavy, sinus</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.6;">Forehead or sinus area. Worse in morning, damp weather, after dairy. Associated with congestion.</div>
+      <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:10px;">Fix: Nasya, ginger tea, steam inhalation</div>
+    </div>
+  </div>
+</div><h2>Understanding Vata Headaches</h2><p>Vata headaches are characterised by their moving, pulsing quality. They typically begin at the base of the skull or temples and can move around. Vata headaches are almost always related to two root causes: dehydration and irregular meals. Because Vata governs the nervous system and circulation, when Vata is aggravated, blood vessels constrict irregularly, producing the throbbing quality. The intervention is to ground Vata: warm oil scalp massage (abhyanga on the head), consistent hydration with warm water throughout the day, and regular meals. A Vata headache responds best to rest and warmth, not stimulation or cold.</p><h2>Understanding Pitta Headaches</h2><p>Pitta headaches are typically sharp, burning, and concentrated. They are often behind the eyes or concentrated in the forehead. Pitta headaches are triggered by heat, alcohol, bright light, and — paradoxically — by skipping meals, which causes a metabolic dysregulation that heats the system. The intervention is to cool Pitta: cool (not cold) compresses on the forehead, a dark room, fennel tea which is cooling and calming to the eyes, and coconut oil topically. Pitta headaches often come with nausea or light sensitivity, which resolves as the heat reduces.</p><h2>Understanding Kapha Headaches</h2><p>Kapha headaches are dull and heavy, often associated with sinus congestion or heaviness. They are worst in the morning, in damp weather, and after consuming dairy products. The cause is typically congestion and stagnation. The intervention is different from both Vata and Pitta — Kapha needs movement and heat, not rest or cooling. Nasya (nasal oil application) is particularly effective for Kapha headaches because it clears the sinus passages. Ginger tea and steam inhalation also work well because they create internal heat and movement.</p><h2>The Acute Treatment</h2><p>When a headache is acute, the first step is identification. Is it throbbing (Vata), sharp and burning (Pitta), or dull and heavy (Kapha)? Once identified, the treatment follows immediately: for Vata, warm oil massage and rest; for Pitta, cooling and darkness; for Kapha, movement and heat. Most acute headaches resolve within 1-2 hours with the correct dosha-specific intervention. The common mistake is using one intervention for all three types — rest might help a Vata headache but will make a Kapha headache worse.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:20px;">Prevention — the triggers that account for most chronic headaches</div>
+  <div style="display:flex;flex-direction:column;gap:12px;">
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">1</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Dehydration</strong><span style="font-size:13px;color:#c4a882;"> — the most common avoidable cause. Warm water consistently throughout the day, not cold water reactively when thirsty.</span></div>
+    </div>
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">2</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Skipped meals</strong><span style="font-size:13px;color:#c4a882;"> — blood sugar drops trigger cortisol, which triggers vascular changes. Consistent meal times prevent this entirely.</span></div>
+    </div>
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">3</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Alcohol</strong><span style="font-size:13px;color:#c4a882;"> — vasodilating and dehydrating simultaneously. The most reliable headache trigger across all three doshas.</span></div>
+    </div>
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">4</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Irregular sleep</strong><span style="font-size:13px;color:#c4a882;"> — both too little and too much sleep trigger headaches. The circadian rhythm governs vascular tone.</span></div>
+    </div>
+  </div>
+</div><p>Most chronic headaches are not idiopathic. They are the result of a repeating pattern — dehydration, irregular meals, alcohol, or disrupted sleep. These are entirely preventable. The Ayurvedic approach to headaches is fundamentally different from pain management: it is prevention-first. Identify your headache type, understand its cause, and address the pattern before the next headache begins.</p>`
   }
 ]
 
