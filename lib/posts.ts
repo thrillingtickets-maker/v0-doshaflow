@@ -12,6 +12,65 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "not-losing-weight-calorie-deficit",
+    category: "article",
+    title: "Why Am I Not Losing Weight in a Calorie Deficit? The Stress and Metabolism Explanation",
+    date: "June 3, 2026",
+    excerpt: "Eating less and moving more but the body won't shift. Ayurveda explains why a chronically stressed, under-slept nervous system holds onto weight — and what to do about it.",
+    seoTitle: "Why Weight Loss Stalls: Stress, Metabolism, and Ayurvedic Approaches",
+    seoDescription: "Understanding why calorie deficits fail: how stress, sleep, and nervous system regulation affect weight loss more than calories alone.",
+    content: `<p>One of the most frustrating experiences is doing everything correct and still not losing weight. You eat less. You walk more. You train harder. But the body refuses to respond the way you expected. Ayurveda looks at weight differently than modern calorie math alone. It asks: what state is the nervous system in? Because a chronically stressed body behaves differently than a regulated one.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">Ayurveda does not ask how much you ate. It asks what state your body was in when you ate it — and whether it was safe enough to process what you gave it.</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">A calorie deficit in a chronically stressed body produces a different result than the same deficit in a regulated one.</div>
+</div><h2>Stress Changes Metabolism</h2><p>Many people trying to lose weight are sleeping poorly, overstimulated, chronically stressed, under-eating, overtraining, or relying heavily on caffeine. This creates a survival response inside the body. Stress hormones increase. Sleep quality drops. Recovery decreases. Hunger signaling changes. Water retention increases. The body stops feeling safe.</p><h2>The Cortisol Connection</h2><p>Cortisol is not inherently bad. But chronically elevated cortisol changes appetite, sleep, inflammation, cravings, insulin sensitivity, and fat storage patterns. This is why some people plateau despite dieting, hold lower belly fat, wake up bloated, feel inflamed, and lose muscle tone during aggressive deficits.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">What chronic stress does</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">The mechanism</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">What you feel</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Raises cortisol</div>
+    <div style="font-size:13px;color:#4a3728;">Signals body to store fat, especially visceral</div>
+    <div style="font-size:13px;color:#4a3728;">Lower belly fat that won't shift</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Disrupts sleep</div>
+    <div style="font-size:13px;color:#4a3728;">Ghrelin rises, leptin drops — hunger increases</div>
+    <div style="font-size:13px;color:#4a3728;">Cravings despite eating enough</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Impairs insulin</div>
+    <div style="font-size:13px;color:#4a3728;">Cells become resistant — more goes to fat</div>
+    <div style="font-size:13px;color:#4a3728;">Bloating, energy crashes</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Weakens digestion</div>
+    <div style="font-size:13px;color:#4a3728;">Agni suppressed — food incompletely processed</div>
+    <div style="font-size:13px;color:#4a3728;">Heaviness, ama accumulation, plateau</div>
+  </div>
+</div><h2>Ayurveda and Weight Retention</h2><p>Ayurveda often associates stubborn weight gain with kapha imbalance. But many modern cases are actually vata burnout layered on top of kapha stagnation. Meaning the nervous system is depleted while metabolism becomes sluggish. This creates a body that feels simultaneously tired, inflamed, bloated, stressed, and resistant to change.</p><h2>Signs Stress May Be Affecting Your Weight Loss</h2><p>Poor sleep. Waking tired. Lower belly fat that won't shift. Persistent bloating and water retention. Emotional eating and cravings after stress. Caffeine dependence. Feeling cold or exhausted during calorie restriction. Plateau despite consistent effort over weeks.</p><h2>Ayurvedic Support for Metabolism</h2><p><strong>Improve digestion first.</strong> Ayurveda places enormous importance on agni — digestive fire. Weak digestion often shows up as bloating, heaviness, fatigue after meals, and sluggishness. Helpful practices include warm meals, ginger tea, eating slowly, reducing processed food, and regular meal timing.</p><p><strong>Sleep more.</strong> Poor sleep directly affects hunger hormones, recovery, cravings, cortisol, and insulin sensitivity. Many people underestimate how much sleep affects body composition. One consistent early bedtime matters more than most supplements.</p><p><strong>Stop treating the body like an enemy.</strong> Extreme restriction often backfires. The body responds better to consistency, nourishment, recovery, lower stress, and sustainable habits.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:8px;">The reframe</div>
+  <div style="font-size:20px;font-weight:700;color:#f5f0e8;font-family:Georgia,serif;margin-bottom:20px;">Fix the conditions. The weight follows.</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Sleep before 10pm</strong> — more impactful on body composition than most training changes. Cortisol, growth hormone, and hunger hormones all depend on sleep timing.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Consistent meal times</strong> — irregular eating produces insulin spikes that override calorie math. Same times daily stabilises the hormonal environment.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Largest meal at lunch</strong> — agni peaks 10am–2pm. Calories consumed at peak digestive fire are processed differently than the same calories at 9pm.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Reduce alcohol</strong> — directly impairs fat metabolism, raises cortisol, disrupts sleep, and drives late-night eating. The single highest-leverage change for most people.</div>
+  </div>
+</div><h2>Weight Loss Is Not Just Math</h2><p>Calories matter. But hormones, stress, sleep, inflammation, digestion, and nervous system regulation matter too. Ayurveda views the body as an interconnected system. Sometimes the reason weight loss stalls is not because the body is broken. It's because the body no longer feels safe enough to let go.</p><div style="background:#f0ebe2;border-radius:12px;padding:36px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:24px;">Signs you need to regulate before you restrict</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;">
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Plateau despite consistent deficit for 3+ weeks</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Waking more tired than when you went to sleep</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Strong cravings for salt, sugar, or fat</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Bloating that doesn't respond to dietary changes</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Feeling cold, exhausted, or flat during restriction</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Relying on caffeine to function through the day</div>
+  </div>
+  <div style="margin-top:16px;padding:16px;background:white;border-radius:8px;font-size:14px;color:#4a3728;text-align:center;">If three or more of these apply, the nervous system needs support before restriction will work. Start with sleep, meal timing, and Ashwagandha — then revisit calories in 4–6 weeks.</div>
+</div>`
+  },
+  {
     slug: "cant-sleep-when-exhausted",
     category: "article",
     title: "Why Can't I Sleep Even When Exhausted? The Ayurvedic Explanation",
