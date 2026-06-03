@@ -182,10 +182,10 @@ export default function AboutPage() {
             className="bg-primary/10 border border-primary/20 rounded-2xl p-8 my-16"
           >
             <p className="text-sm font-medium uppercase tracking-wide text-primary mb-3">
-              Back in Los Angeles — June 2026
+              What I'm Documenting Right Now
             </p>
             <p className="text-lg leading-relaxed text-foreground mb-4">
-              I just returned from two weeks at an Ayurvedic retreat in Kerala. The retreat journal is here — I wrote about it every day. This blog is where I share what I learned and what I am continuing to practice.
+              I'm currently documenting my experience living through an Ayurvedic retreat in India while exploring nervous system recovery, burnout, sleep, digestion, and modern overstimulation through an Ayurvedic lens. The daily journal is here — this blog is where I share what I'm learning and what I'm continuing to practice.
             </p>
             <p className="text-lg leading-relaxed text-foreground">
               DoshaFlow is what I wished had existed when I started this journey. It is dosha-based nutrition that actually tastes good. Grounding movement that does not require a gym membership. Herbal recommendations, daily rituals, and practical protocols that fit into a real life.
@@ -211,9 +211,6 @@ export default function AboutPage() {
             className="mb-12"
           >
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              DoshaFlow is what I wished had existed when I started this journey. It's dosha-based nutrition that actually tastes good. Grounding movement that doesn't require a gym membership. Herbal blends, oils, and rituals that fit into a real life.
-            </p>
-            <p className="text-lg leading-relaxed text-muted-foreground">
               I'm not a guru. I'm not a doctor. I'm someone who was struggling and found something that worked — and I want to make it accessible to others who might be where I was.
             </p>
           </motion.div>
