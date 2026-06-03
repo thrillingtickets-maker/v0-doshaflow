@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">����������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">������������������ Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -2499,6 +2499,62 @@ export const posts: Post[] = [
   </div>
 </div>
 <div style="background:#f0ebe2;border-radius:8px;padding:16px 20px;text-align:center;font-size:14px;color:#4a3728;font-style:italic;">In Ayurveda these are considered distinct medicines, not the same substance in different forms. The Sanskrit terms are different. The applications are different. Most Western use conflates them.</div><h2>Fresh ginger — immediate and surface</h2><p>Fresh ginger is lighter and less heating than dry ginger. It works on the acute, immediate condition. If you have nausea right now, chewing on fresh ginger will address it. If your digestion feels sluggish this morning, fresh ginger tea will warm and move it. If you have a cold that just arrived, fresh ginger is the herb you reach for. Fresh ginger addresses Vata and Kapha conditions that are recent and active.</p><h2>Dry ginger — deep and chronic</h2><p>Dry ginger is heavier, more concentrated, more penetrating. It has been in the sun for months. The water has been removed. What remains is the most powerful form of ginger. Dry ginger reaches deep into the tissues. It addresses old inflammation that fresh ginger cannot touch. Chronic joint pain, old injuries, deep-seated ama — these are the domain of dry ginger. It is also more heating than fresh ginger, so Pitta types must use it with more caution.</p><h2>When to use which</h2><p>The seasonal shift is important. In autumn and winter, when Vata and Kapha are naturally elevated, fresh ginger is appropriate. In spring, when Kapha is naturally at its peak and needs to be moved out of the system, dry ginger is the medicine. For acute problems, choose fresh. For chronic problems, choose dry. For Pitta types, fresh is safer. For Kapha types with chronic issues, dry is more effective.</p><p>The mistake most people make is treating all ginger the same. They have ginger supplements, or they buy ginger powder, and they assume one ginger is interchangeable with another. This misses the entire point. In Ayurveda, the form matters as much as the herb itself. Fresh ginger and dry ginger are different medicines. Choose the right one and the effect is amplified. Get the choice wrong and you may either overheat yourself or miss addressing the depth of your problem.</p>`
+  },
+  {
+    slug: "signs-of-kapha-imbalance",
+    category: "article",
+    title: "Signs of Kapha Imbalance: Why Heaviness Feels Like Rest",
+    date: "June 3, 2026",
+    excerpt: "Kapha imbalance is deceptive because it feels comfortable. The sluggishness, the heaviness, the resistance to change — it all feels like rest. Until you realise it has been months.",
+    seoTitle: "Signs of Kapha Imbalance: Symptoms by Constitution",
+    seoDescription: "Complete guide to Kapha imbalance symptoms: physical, mental, emotional signs and lifestyle triggers. How to recognize and restore balance.",
+    content: `<p>Kapha imbalance is deceptive. It does not announce itself with pain or crisis the way Pitta imbalance does. It does not create obvious instability the way Vata imbalance does. Instead, it arrives as heaviness. As sluggishness. As a gradual loss of motivation that feels indistinguishable from rest. By the time someone realises they are in Kapha excess, months have often passed.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">"Kapha imbalance is the one that feels comfortable. The sluggishness, the heaviness, the resistance to change — it all feels like rest. Until you realise it has been months."</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">Kapha accumulates slowly and resists all effort to shift — until the right provocation.</div>
+</div><h2>The Kapha Profile</h2><p>Kapha is the dosha of earth and water — heavy, stable, structural, grounding. In balance, Kapha provides resilience, strength, immunity, stability. Out of balance, it becomes weight. Sluggishness. Resistance to change. Lethargy that nothing seems to lift.</p><p>The challenge with recognising Kapha imbalance is that it does not feel wrong. It feels like finally having permission to rest. It is only when the person tries to move — to exercise, to change, to initiate anything — that they encounter resistance. And by then, the Kapha accumulation has often deepened significantly.</p><div style="background:#f5f0e8;border-radius:12px;padding:36px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:24px;">Kapha imbalance — full symptom picture</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;">
+    <div>
+      <div style="font-size:13px;font-weight:700;color:#2a1f14;margin-bottom:12px;">Physical</div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Weight gain, slow metabolism</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Chronic congestion or mucus</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Water retention, puffiness</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Heavy, slow digestion</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Oversleeping, still tired</div>
+      </div>
+    </div>
+    <div>
+      <div style="font-size:13px;font-weight:700;color:#2a1f14;margin-bottom:12px;">Mental / Emotional</div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Low motivation, flat affect</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Attachment and resistance to change</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Difficulty starting things</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Depression, heaviness of mood</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Sentimental, hard to let go</div>
+      </div>
+    </div>
+    <div>
+      <div style="font-size:13px;font-weight:700;color:#2a1f14;margin-bottom:12px;">Lifestyle triggers</div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Dairy, wheat, heavy food</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Daytime sleeping</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Sedentary routine</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Spring and cold damp weather</div>
+        <div style="font-size:13px;color:#4a3728;padding:8px 12px;background:white;border-radius:6px;">Sweet, salty, sour tastes in excess</div>
+      </div>
+    </div>
+  </div>
+</div><h2>The Progression of Kapha Imbalance</h2><p>Kapha imbalance follows a predictable progression. It begins with weight gain and sluggish digestion — the most obvious early signs. A person might wake up with congestion. Digestion becomes sluggish, especially after heavy foods. Morning fatigue becomes normal. Over time, if the Kapha-building habits continue (late waking, daytime naps, heavy foods, sedentary routine), the accumulation deepens.</p><p>The second phase involves emotional stagnation. Motivation drops. Resistance to change emerges. Tasks that were once simple now feel impossible to initiate. People become more attached to routines, more resistant to novelty, more sentimental and less willing to let things go. This is where Kapha imbalance becomes more than a physical problem — it becomes a psychological and lifestyle stagnation.</p><h2>Why Standard Approaches Fail</h2><p>Most people who are Kapha-imbalanced respond to their sluggishness by trying to rest more. They see their heaviness as a sign they need recovery. But this is a misreading of the signal. Kapha excess is not a deficit that rest will repair. It is an accumulation that requires active clearing.</p><p>This is why a Kapha-imbalanced person who does a relaxation retreat comes back no better, or sometimes worse. The problem is not their activity level. The problem is that their system needs movement, heat, and stimulation — not more rest. A Kapha-imbalanced person who tries meditation alone will deepen the sluggishness. The medicine is the opposite of what feels good.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:8px;">The principle</div>
+  <div style="font-size:22px;font-weight:700;color:#f5f0e8;font-family:Georgia,serif;margin-bottom:20px;">Kapha needs friction, not comfort. The medicine is the opposite of what feels good.</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Wake at 5:30am</strong> — rising before the Kapha window (6–10am) is the single most impactful structural change</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Vigorous daily exercise</strong> — not gentle stretching. Kapha needs to sweat. 30–45 minutes minimum</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Trikatu before meals</strong> — the three-pepper blend that stokes digestive fire. Particularly effective for Kapha weight and congestion</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Dry brushing daily</strong> — stimulates the lymphatic system, which is characteristically sluggish in Kapha excess</div>
+  </div>
+</div><h2>The Recovery Timeline</h2><p>Kapha imbalance responds slowly to intervention, but when the right interventions are in place, it shifts reliably. Most people experience noticeable change within 2-3 weeks of consistent practice of the Kapha-clearing protocol. Within 6-8 weeks, the transformation is usually significant. Weight begins to shift, congestion clears, motivation returns, and the heaviness that felt permanent resolves.</p><p>The key is that the interventions must be consistent and they must be stimulating. Intermittent effort will not clear established Kapha excess. But sustained vigorous action — early waking, daily exercise, digestive support through Trikatu or similar heating spices, seasonal cleansing — reliably restores Kapha balance.</p><p>Kapha imbalance is the most reversible of the imbalances if addressed correctly. The system responds to the right provocation with remarkable consistency. But nothing will change without action. The medicine for Kapha is always effort. Always heat. Always movement. Never more rest.</p>`
   }
 ]
 
