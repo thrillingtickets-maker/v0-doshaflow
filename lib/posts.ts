@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">�������������������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">��������������������������� Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -3202,6 +3202,45 @@ export const posts: Post[] = [
     <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Alcohol is the exception</strong> — not a treat or reward. Alcohol is the single most Pitta-aggravating substance. Every skin, gut, and mood issue is worsened by it.</div>
   </div>
 </div><h2>The Bottom Line</h2><p>Pitta-pacifying eating requires going against Pitta's natural inclinations. Pitta wants intensity. Pitta needs the opposite. The good news is that when Pitta commits to cooling, mild food, the results are dramatic. Skin clears. Digestion settles. Mood becomes less reactive. Energy becomes more stable. Within 2-4 weeks on a Pitta-pacifying diet, most people notice significant change. The challenge is maintaining it when Pitta's natural drive toward heat and intensity reasserts itself. But the principle is simple: cool, mild, hydrating, and regular.</p>`
+  },
+  {
+    slug: "ayurveda-for-depression",
+    category: "article",
+    title: "Ayurveda and Depression: Understanding the Dosha-Specific Roots",
+    date: "June 3, 2026",
+    excerpt: "Depression does not present the same way in all people. Ayurveda identifies three distinct presentations — Vata, Pitta, and Kapha — each with different causes and completely different approaches.",
+    seoTitle: "Ayurveda and Depression: Understanding the Dosha-Specific Roots",
+    seoDescription: "Complete guide to depression through Ayurveda. Identify your depression type (Vata, Pitta, Kapha) and the Ayurvedic approach.",
+    content: `<p>Depression is one of the most common mental health conditions in modern medicine, and also one of the most poorly understood. It is often treated as a single condition with a single treatment path. Ayurveda takes a different approach. It identifies the underlying imbalance causing the depression and addresses that specifically. This is why certain practices help some people and have no effect on others.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:28px;">Low mood presents differently across the doshas — the root cause differs entirely</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;">
+    <div style="background:white;border-radius:8px;padding:22px;">
+      <div style="font-size:15px;font-weight:700;color:#2a1f14;">Vata depression</div>
+      <div style="font-size:12px;color:#b5763a;font-weight:600;margin:4px 0 10px;">Anxious, fearful, scattered</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.6;">Grief, fear, disconnection. Often presents as anxiety more than sadness. Cannot settle. Depleted nervous system. Insomnia is common.</div>
+      <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:10px;">Approach: nourish and ground</div>
+    </div>
+    <div style="background:white;border-radius:8px;padding:22px;">
+      <div style="font-size:15px;font-weight:700;color:#2a1f14;">Pitta depression</div>
+      <div style="font-size:12px;color:#b5763a;font-weight:600;margin:4px 0 10px;">Critical, angry, defeated</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.6;">Anger turned inward. Self-criticism, perfectionism, sense of failure. Often follows burnout. The drive remains but turns corrosive.</div>
+      <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:10px;">Approach: cool and release</div>
+    </div>
+    <div style="background:white;border-radius:8px;padding:22px;">
+      <div style="font-size:15px;font-weight:700;color:#2a1f14;">Kapha depression</div>
+      <div style="font-size:12px;color:#b5763a;font-weight:600;margin:4px 0 10px;">Heavy, withdrawn, numb</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.6;">Classic melancholy. Flat affect, withdrawal, oversleeping, overeating. Low motivation. The heaviness is physical as much as emotional.</div>
+      <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:10px;">Approach: stimulate and move</div>
+    </div>
+  </div>
+</div><h2>Understanding Vata Depression</h2><p>Vata depression is characterized by anxiety, fear, and a scattered quality. The person may describe it as disconnection — a feeling of being ungrounded, unable to settle, with a mind that will not be still. Sleep is typically disrupted. There is often insomnia or restless sleep. The underlying pattern is nervous system depletion through sustained stress without adequate recovery and nourishment. The Ayurvedic approach is to nourish the nervous system through warm, oily, grounding foods; consistent routine; adequate sleep; warm oil massage; and practices that rebuild Vata rather than further deplete it.</p><h2>Understanding Pitta Depression</h2><p>Pitta depression is characterized by anger turned inward. The person often does not identify this as depression. It feels more like self-criticism, perfectionism, a sense of failure, and a corrosive internal dialogue. It often follows a period of burnout — the drive that previously produced achievement is now turned against the self. The Ayurvedic approach is to cool the excess Pitta through diet, to release the perfectionism through acceptance practices, and to address the underlying burnout through genuine rest and the redirection of that intense drive toward recovery rather than further output.</p><h2>Understanding Kapha Depression</h2><p>Kapha depression is the classic melancholy. Flat affect, withdrawal, heaviness, low motivation, oversleeping, overeating, a sense of physical weight that is as real as the emotional weight. The underlying pattern is stagnation and heaviness. The Ayurvedic approach is to stimulate the system through movement, through warming and drying practices, through heat and stimulation, and through breaking the inertia that characterizes Kapha excess.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:8px;">An important note</div>
+  <div style="font-size:20px;font-weight:700;color:#f5f0e8;font-family:Georgia,serif;margin-bottom:20px;">Ayurveda does not treat clinical depression. It addresses the lifestyle conditions that create and maintain it.</div>
+  <div style="display:flex;flex-direction:column;gap:12px;">
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;">The Ayurvedic position is not that medication is wrong — it is that medication without addressing the underlying lifestyle is a category error. Food, sleep, movement, gut health, and substance use all directly modulate the same neurotransmitters that antidepressants target.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">If you are managing depression:</strong> work with a qualified practitioner. Use this framework as a complement, not an alternative, to professional support. The lifestyle interventions here have evidence behind them regardless of whether you are on medication or not.</div>
+  </div>
+</div><h2>The Foundational Interventions</h2><p>Regardless of the dosha-specific presentation, certain foundational interventions apply universally. Sleep is the most critical. Depression and poor sleep are bidirectionally related — poor sleep worsens depression, and depression worsens sleep. Establishing consistent sleep at the same time every night, in a dark room, without screens, is often transformative on its own. Adequate nutrition matters profoundly. Certain nutritional deficiencies (particularly B vitamins, iron, and amino acids) directly contribute to depression. Movement is critical — not exercise that is punishing or performance-based, but movement that is joyful and regular. The type of movement should match the dosha: grounding movement for Vata, cooling for Pitta, stimulating for Kapha. Social connection cannot be overlooked. Depression thrives in isolation. Rebuilding connection, even simple connection, has profound effects.</p>`
   }
 ]
 
