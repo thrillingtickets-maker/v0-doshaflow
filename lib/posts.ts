@@ -2555,6 +2555,57 @@ export const posts: Post[] = [
     <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Dry brushing daily</strong> — stimulates the lymphatic system, which is characteristically sluggish in Kapha excess</div>
   </div>
 </div><h2>The Recovery Timeline</h2><p>Kapha imbalance responds slowly to intervention, but when the right interventions are in place, it shifts reliably. Most people experience noticeable change within 2-3 weeks of consistent practice of the Kapha-clearing protocol. Within 6-8 weeks, the transformation is usually significant. Weight begins to shift, congestion clears, motivation returns, and the heaviness that felt permanent resolves.</p><p>The key is that the interventions must be consistent and they must be stimulating. Intermittent effort will not clear established Kapha excess. But sustained vigorous action — early waking, daily exercise, digestive support through Trikatu or similar heating spices, seasonal cleansing — reliably restores Kapha balance.</p><p>Kapha imbalance is the most reversible of the imbalances if addressed correctly. The system responds to the right provocation with remarkable consistency. But nothing will change without action. The medicine for Kapha is always effort. Always heat. Always movement. Never more rest.</p>`
+  },
+  {
+    slug: "panchakarma-guide",
+    category: "article",
+    title: "Panchakarma: The Five-Action Protocol for Deep Detoxification",
+    date: "June 3, 2026",
+    excerpt: "Panchakarma is not a detox. It is a systematic protocol for drawing accumulated toxins out of deep tissue and eliminating them through specific pathways. Each of the five actions addresses a different elimination channel.",
+    seoTitle: "Panchakarma Guide: The Five Actions of Ayurvedic Detoxification",
+    seoDescription: "Complete guide to Panchakarma protocol: the five therapeutic actions for eliminating deep ama, restoring agni, and addressing the root causes of disease.",
+    content: `<p>Panchakarma is perhaps the most misunderstood term in Ayurveda. In the West, it has been translated as detox. But this translation misses the entire point. Panchakarma is not a cleanse that flushes your system in five days. It is not a reset button. It is a systematic protocol for drawing deeply accumulated toxins out of the tissues and eliminating them through specific pathways — each of the five actions addressing a different elimination channel.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
+  <div style="font-size:64px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">5</div>
+  <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">The five actions — pancha (five) karma (actions)</div>
+  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">Panchakarma is not a detox. It is a systematic protocol for drawing accumulated toxins out of deep tissue and eliminating them through specific pathways. Each of the five actions addresses a different elimination channel.</div>
+</div><h2>Why Panchakarma Exists</h2><p>In modern life, we accumulate ama — undigested matter that gets stored in the tissues. This happens when digestion is compromised, when we eat foods our system cannot fully process, when stress prevents proper assimilation of nutrients. Over time, this ama clogs the channels and becomes the root of disease. Standard detoxes do not reach this level. They work on the surface — the digestive tract, occasionally the liver. But Panchakarma is designed to reach into the deepest tissues and bring ama to the surface where it can be eliminated.</p><h2>The Five Treatments</h2><p>Each of the five Panchakarma actions is designed to mobilise and eliminate ama through a specific pathway. Some draw toxins through the lungs and respiratory system. Some through the digestive tract. Some through the skin. Some through the urinary system. The combination of all five creates a comprehensive elimination protocol.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Treatment</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Method</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Addresses</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Dosha</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Vamana</div>
+    <div style="font-size:13px;color:#4a3728;">Therapeutic emesis</div>
+    <div style="font-size:13px;color:#4a3728;">Lungs, upper GI, congestion</div>
+    <div style="font-size:13px;color:#4a3728;">Kapha</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Virechana</div>
+    <div style="font-size:13px;color:#4a3728;">Purgation</div>
+    <div style="font-size:13px;color:#4a3728;">Liver, small intestine, skin</div>
+    <div style="font-size:13px;color:#4a3728;">Pitta</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Basti</div>
+    <div style="font-size:13px;color:#4a3728;">Medicated enema</div>
+    <div style="font-size:13px;color:#4a3728;">Colon, nervous system, joints</div>
+    <div style="font-size:13px;color:#4a3728;">Vata</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Nasya</div>
+    <div style="font-size:13px;color:#4a3728;">Nasal administration</div>
+    <div style="font-size:13px;color:#4a3728;">Head, sinuses, nervous system</div>
+    <div style="font-size:13px;color:#4a3728;">Vata, Kapha</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Raktamokshana</div>
+    <div style="font-size:13px;color:#4a3728;">Blood purification</div>
+    <div style="font-size:13px;color:#4a3728;">Blood, skin, liver</div>
+    <div style="font-size:13px;color:#4a3728;">Pitta</div>
+  </div>
+</div><h2>Vamana — Therapeutic Emesis</h2><p>Vamana uses specific herbal combinations to induce therapeutic vomiting. This is not the violent expulsion we experience with food poisoning. It is controlled and measured, designed to clear the lungs and upper digestive system of accumulated Kapha. It is used for chronic congestion, persistent cough, asthma, chronic sinusitis, and accumulated mucus in the respiratory system. After vamana, many people experience dramatic clearing of congestion and improved respiratory function.</p><h2>Virechana — Purgation</h2><p>Virechana uses specific laxative herbs to induce bowel movements that clear the small intestine and liver. Unlike standard laxatives that merely loosen stool, virechana removes deeper ama from the intestinal walls and moves bile out of the liver. It is the primary treatment for Pitta diseases, skin conditions rooted in liver congestion, and chronic digestive inflammation. Virechana is often reported as the most transformative of the five treatments.</p><h2>Basti — Medicated Enema</h2><p>Basti involves administration of medicated oils or decoctions through the colon. The colon is where Vata naturally resides, and this treatment directly addresses the nervous system. Basti is used for Vata conditions — chronic pain, joint degeneration, nervous system dysregulation, constipation. Unlike standard enemas that flush the colon, basti deposits therapeutic oils that are absorbed into the systemic circulation and nourish the nervous system from within.</p><h2>Nasya — Nasal Administration</h2><p>Nasya involves administration of herbal oils through the nasal passages. This may sound strange to Western practitioners, but the nasal passages are considered a primary gateway to the brain and nervous system in Ayurveda. Nasya is used for sinus conditions, headaches, mental fog, and for addressing accumulated ama in the head. It is also used prophylactically to maintain mental clarity and nervous system health.</p><h2>Raktamokshana — Blood Purification</h2><p>Raktamokshana literally means blood release. In ancient Ayurveda this was done through bloodletting, but in modern practice it is typically done through the use of leech therapy or non-invasive blood-purifying herbs. Raktamokshana is used for chronic skin conditions, liver diseases, and for clearing deep Pitta imbalances that show up in the blood tissue itself.</p><h2>The Timeline</h2><p>A complete Panchakarma protocol typically lasts 21 days, though some traditions use 14 days or 28 days depending on the condition being addressed and the individual's capacity. The protocol is not done all at once — each person receives the treatment most appropriate to their dosha and condition. Some may receive primarily virechana and basti. Others may focus on vamana and nasya. The combination is individualised based on the initial assessment.</p><h2>The Mobilisation Period</h2><p>Before any of the five treatments begin, there is a preparation phase of 3-7 days. During this time, the person receives daily abhyanga (oil massage) and is guided to eat simple, warm, easily digestible foods. This preparation phase mobilises ama — bringing it from the deep tissues toward the surface where it can be eliminated. Many people report feeling worse during this phase as the ama begins to circulate. This is not a sign that something is wrong. It is a sign that the protocol is working.</p><h2>After Panchakarma</h2><p>After the five treatments are complete, there is a recovery phase of similar length to the treatment phase. During this time, the person is gradually reintroduced to normal eating and activity. The digestive fire has been reset. The tissues have been cleared. But the system is delicate and needs time to reorient. This is why Panchakarma is traditionally done at an Ayurvedic clinic under practitioner supervision. The protocol requires guidance and oversight to be done safely and effectively.</p><p>Panchakarma is not a shortcut. It is not a weekend detox. It is a serious protocol for serious ama accumulation. But when done properly, its effects are profound and lasting. People report not just physical changes — weight loss, clearer skin, better digestion — but fundamental shifts in their baseline. Clearer thinking. More stable moods. Better sleep. Improved immunity. The tissues have been cleaned. The channels have been opened. The system has been reset.</p>`
   }
 ]
 
