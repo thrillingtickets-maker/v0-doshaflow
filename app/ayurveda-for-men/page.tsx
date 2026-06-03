@@ -431,7 +431,7 @@ export default function AyurvedaForMenPage() {
             <hr className="border-border my-12" />
 
             <p className="text-sm text-muted-foreground italic">
-              Alex is the founder of DoshaFlow and is currently documenting a two-week Ayurvedic retreat in India. Follow along on the{" "}
+              Alex is the founder of DoshaFlow and is currently documenting an Ayurvedic retreat in India. Follow along on the{" "}
               <Link href="/blog" className="text-[#C97F3D] hover:underline">
                 blog
               </Link>

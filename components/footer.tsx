@@ -67,7 +67,7 @@ export function Footer() {
           className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4"
         >
           <p className="text-sm text-muted-foreground">
-            © 2026 DoshaFlow. All rights reserved. <a href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors underline">Privacy</a> · <a href="/terms" className="text-muted-foreground hover:text-foreground transition-colors underline">Terms</a>
+            © 2026 DoshaFlow. All rights reserved. <a href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors underline">Privacy</a> · <a href="/terms" className="text-muted-foreground hover:text-foreground transition-colors underline">Terms</a> · <a href="/contact" className="text-muted-foreground hover:text-foreground transition-colors underline">Contact</a>
           </p>
           <div className="flex items-center gap-6">
             <a href="https://www.instagram.com/doshaflow_" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
