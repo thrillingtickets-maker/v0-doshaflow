@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">����������������������������������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">������������������������������������������ Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -4077,6 +4077,51 @@ export const posts: Post[] = [
     </div>
   </div>
 </div><h2>Timeline and Expectations</h2><p>Endometriosis is a chronic condition that has typically developed over years. Ayurvedic support works gradually, building tissue quality and clearing accumulation systematically. Most people report noticeable pain reduction within 4–6 weeks of consistent practice. More significant changes in symptom severity take 3–6 months. The goal is not a cure but a managed condition with significantly reduced inflammation, pain, and progression.</p><p>The protocol requires consistency — daily herbs, sustained dietary changes, and regular practice. When adhered to, the majority of people report improved quality of life and reduced medical intervention requirements.</p>`
+  },
+  {
+    slug: "tulsi-benefits",
+    category: "article",
+    title: "Tulsi: The Sacred Herb — Ancient Medicine Validated by Modern Science",
+    date: "June 3, 2026",
+    excerpt: "Tulsi is grown in almost every Hindu household in India. Modern research has validated its adaptogenic, antimicrobial, and stress-modulating properties. Here is the complete guide.",
+    seoTitle: "Tulsi Benefits: Complete Guide to Holy Basil's Medicinal Uses",
+    seoDescription: "Complete guide to Tulsi (Holy Basil) benefits. Learn how to use this adaptogenic herb for stress, immunity, blood sugar, and respiratory health.",
+    content: `<p>Tulsi, also known as Holy Basil, occupies a unique position in Ayurveda and in Indian culture. It is not simply an herb — it is sacred. Found in almost every Hindu household, Tulsi is grown, tended, and consumed daily as both spiritual practice and medicine. The Sanskrit name Vishnu Priya means "beloved of Vishnu," reflecting the plant's elevated status in Hindu tradition.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
+  <div style="font-size:48px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">Vishnu Priya</div>
+  <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">"Beloved of Vishnu" — Tulsi's Sanskrit name reflects its sacred and medicinal status</div>
+  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">Tulsi is the only plant found in almost every Hindu household in India — grown, tended, and consumed daily as both spiritual practice and medicine. Modern research has validated its adaptogenic, antimicrobial, blood sugar-modulating, and cortisol-reducing properties. It is one of the most broadly beneficial herbs in the entire Ayurvedic pharmacopoeia.</div>
+</div><h2>The Science Behind the Sacred</h2><p>What makes Tulsi remarkable is that its traditional use has been validated by modern research. Studies have demonstrated that Tulsi is a powerful adaptogen — meaning it helps the body adapt to stress while maintaining normal function. It modulates cortisol, supports immune function, reduces inflammation, improves blood sugar control, and has antimicrobial properties against multiple bacterial and viral pathogens.</p><p>Unlike many traditional herbs relegated to the margins of healthcare, Tulsi has become the subject of serious scientific investigation. Research published in major journals has confirmed what Ayurveda has known for thousands of years.</p><h2>Tulsi for Different Conditions</h2><p>One of Tulsi's greatest strengths is its versatility. It addresses multiple systems simultaneously — the nervous system, immune system, metabolic system, and respiratory system. Different preparations suit different uses.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Use</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Form</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Research</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Notes</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Stress and anxiety</div>
+    <div style="font-size:13px;color:#4a3728;">Tea, tincture, capsule</div>
+    <div style="font-size:13px;color:#4a3728;">Good — cortisol modulation</div>
+    <div style="font-size:13px;color:#4a3728;">Daily use; pairs well with Ashwagandha</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Blood sugar</div>
+    <div style="font-size:13px;color:#4a3728;">Fresh leaves, capsule</div>
+    <div style="font-size:13px;color:#4a3728;">Moderate — improves fasting glucose</div>
+    <div style="font-size:13px;color:#4a3728;">Particularly effective for Kapha types</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Immunity</div>
+    <div style="font-size:13px;color:#4a3728;">Tea, especially with ginger</div>
+    <div style="font-size:13px;color:#4a3728;">Strong — antiviral, antibacterial</div>
+    <div style="font-size:13px;color:#4a3728;">Most useful in winter and spring</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Respiratory</div>
+    <div style="font-size:13px;color:#4a3728;">Steam inhalation, tea</div>
+    <div style="font-size:13px;color:#4a3728;">Good — expectorant, anti-inflammatory</div>
+    <div style="font-size:13px;color:#4a3728;">Classic remedy for coughs, colds, sinusitis</div>
+  </div>
+</div><h2>How to Use Tulsi</h2><p>The simplest way to use Tulsi is as a tea. Fresh Tulsi leaves steeped in hot water create a gentle, accessible preparation that can be consumed daily. If fresh Tulsi is not available, dried leaves work well, and high-quality Tulsi capsules provide standardized dosing.</p><p>For stress and nervous system support, Tulsi is best taken in the morning or when stress is most active. For immunity support, it is most effective in winter and spring when respiratory challenges are most common. As an adaptogen, Tulsi becomes more effective with consistent use over weeks and months.</p><h2>Tulsi as a Lifestyle Herb</h2><p>What distinguishes Tulsi from many medicinal herbs is that it is safe, effective, and appropriate for daily use by almost everyone. It is not a symptomatic treatment — it is a tool for building resilience. The person who consumes Tulsi daily does not simply recover from stress more quickly; they become more resistant to stress overall.</p><p>This is the essence of Ayurvedic herbalism — not fighting disease, but building the conditions under which disease cannot arise.</p>`
   }
 ]
 
