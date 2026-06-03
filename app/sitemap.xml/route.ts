@@ -40,6 +40,7 @@ export async function GET() {
     { loc: "https://www.doshaflow.com/blog/nervous-system-burnout", lastmod: missingPostsLastmod },
     { loc: "https://www.doshaflow.com/blog/why-am-i-always-tired", lastmod: missingPostsLastmod },
     { loc: "https://www.doshaflow.com/blog/ayurveda-alcohol-recovery", lastmod: missingPostsLastmod },
+    { loc: "https://www.doshaflow.com/blog/ayurveda-alcohol", lastmod: missingPostsLastmod },
     { loc: "https://www.doshaflow.com/blog/vata-foods-to-avoid", lastmod: missingPostsLastmod },
     { loc: "https://www.doshaflow.com/blog/kapha-foods-to-avoid", lastmod: missingPostsLastmod },
     { loc: "https://www.doshaflow.com/blog/best-ayurvedic-tea-anxiety", lastmod: missingPostsLastmod },
