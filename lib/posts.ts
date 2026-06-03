@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">��������������������������������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">���������������������������������������� Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -4007,6 +4007,43 @@ export const posts: Post[] = [
     <div style="font-size:13px;color:#4a3728;">In bed; 5 minutes before sleep</div>
   </div>
 </div><h2>Building a Pranayama Practice</h2><p>For immediate anxiety, use extended exhale or Bhramari when the anxiety arises. For anxiety prevention and nervous system baseline improvement, practice Nadi Shodhana daily — morning or evening, 5–10 minutes. Consistency matters more than duration. Five minutes every day produces more change than 30 minutes once a week.</p><p>The timeline for change varies. Some people feel the shift within one practice session. Most notice measurable baseline improvement within 2–3 weeks of consistent daily practice. After 8–12 weeks, the nervous system's responsiveness to stress is fundamentally altered — anxiety arises less easily, resolves more quickly, and feels less overwhelming.</p>`
+  },
+  {
+    slug: "ayurvedic-spring-cleanse",
+    category: "article",
+    title: "Ayurvedic Spring Cleanse: Working With Seasonal Kapha to Reset Your System",
+    date: "June 3, 2026",
+    excerpt: "Spring is when the body wants to cleanse. Ayurveda has a precise protocol for working with this seasonal shift. Here is the 7-day reset.",
+    seoTitle: "Ayurvedic Spring Cleanse: 7-Day Protocol for Seasonal Reset",
+    seoDescription: "Complete 7-day Ayurvedic spring cleanse protocol. Learn how to work with seasonal Kapha to detoxify and reset your system.",
+    content: `<p>Spring is the season of Kapha — and the season when accumulated Kapha begins to liquefy and move out of the body. This is why colds, allergies, and congestion peak in spring — the body is naturally trying to cleanse. Ayurveda's spring protocol does not fight this process. It accelerates and directs it.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">Spring is when winter's accumulated Kapha begins to liquefy and move. This is why colds, allergies, and congestion peak in spring — the body is already trying to cleanse. Ayurveda's spring protocol accelerates and supports this natural release.</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">The goal is not restriction. It is stimulation — of digestion, lymphatic flow, and elimination.</div>
+</div><h2>Understanding the Spring Shift</h2><p>Winter is Kapha season — cold, heavy, inward. The body naturally becomes heavier, slower, and more grounded. This is healthy. But by the end of winter, Kapha has accumulated. The body feels sluggish. Digestion becomes slow. Congestion develops. This is the signal: time to cleanse.</p><p>Spring is the season when this accumulated Kapha begins to liquefy in response to the increasing warmth and light. The body's own intelligence initiates the cleansing. Allergies are not failures of immunity; they are evidence that the body is moving accumulated material. Colds are not pathogens; they are the body's natural cleansing process. Ayurveda works with this, not against it.</p><h2>The Spring Cleansing Protocol</h2><p>Spring cleansing in Ayurveda is not a juice fast or a restrictive diet. It is a week of focused practices designed to stimulate and support the body's natural cleansing process. The goal is to move Kapha, ignite digestive fire, and support the lymphatic system's natural drainage.</p><p>The protocol is simple: wake early in the Kapha window (before 6am when it is still light and the air is clear), stimulate digestion with bitter and pungent foods and herbs, move the body with vigorous exercise to activate the lymphatic system, and avoid the foods and behaviors that re-accumulate Kapha. This is not permanent restriction. It is a seven-day recalibration.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:20px;">The 7-day Ayurvedic spring cleanse — what to do daily</div>
+  <div style="display:flex;flex-direction:column;gap:0;">
+    <div style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:90px;">Morning</div>
+      <div style="font-size:14px;color:#c4a882;">Tongue scraping + warm lemon water + dry brushing. Wake before 6am — rising in the Kapha window makes the heaviness worse.</div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:90px;">Food</div>
+      <div style="font-size:14px;color:#c4a882;">Kitchari (mung dal and rice with spices) as the main meal. Light, easy to digest, deeply nourishing. No dairy, wheat, or raw food this week.</div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:90px;">Herbs</div>
+      <div style="font-size:14px;color:#c4a882;">Trikatu before meals. Triphala at night. Tulsi tea through the day. Ginger in warm water between meals.</div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:90px;">Movement</div>
+      <div style="font-size:14px;color:#c4a882;">Vigorous exercise daily — Kapha needs to sweat. 30–45 minutes minimum. No gentle yoga this week; that is Vata medicine.</div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:90px;">Avoid</div>
+      <div style="font-size:14px;color:#c4a882;">Alcohol, dairy, cold food, daytime sleeping, screens after 9pm. These seven days are a reset — not a restriction, a recalibration.</div>
+    </div>
+  </div>
+</div><h2>What to Expect</h2><p>During a cleanse week, it is common to experience: increased congestion or drainage (this is the body moving accumulated material), changes in digestion or elimination (this is agni increasing), and energy shifts (some fatigue as the body directs energy to cleansing, then increased clarity afterward). These are not side effects. They are evidence that the cleansing is working.</p><p>After seven days, most people report feeling noticeably lighter, clearer, and more energetic. Digestion becomes more regular. Congestion resolves. The body feels recalibrated. From there, the goal is to maintain this lightness by continuing to eat well, exercise regularly, and avoid the accumulation of Kapha through the rest of the season.</p>`
   }
 ]
 
