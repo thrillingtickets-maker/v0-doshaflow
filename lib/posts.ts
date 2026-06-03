@@ -2092,7 +2092,79 @@ export const posts: Post[] = [
     <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Stack</strong> — Ashwagandha nightly + Triphala nightly + consistent sleep before 10pm. These three together produce compounding effects.</div>
     <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Alcohol</strong> — the single most impactful lifestyle change for testosterone is reducing alcohol. It directly suppresses testosterone and burdens the liver.</div>
   </div>
-</div><h2>The real work</h2><p>Ayurveda for men is not complicated. It is straightforward: identify the dosha pattern, support the nervous system, restore sleep, eliminate alcohol, add consistent movement, and give herbs 8-12 weeks to work. The hard part is not understanding the system. The hard part is implementing it when your work culture says sleep is optional and your social life is built around alcohol. Ayurveda cannot fix that. But it can show you what is actually happening physiologically when you do these things, and sometimes that knowledge is enough to make a change.</p>` }
+</div><h2>The real work</h2><p>Ayurveda for men is not complicated. It is straightforward: identify the dosha pattern, support the nervous system, restore sleep, eliminate alcohol, add consistent movement, and give herbs 8-12 weeks to work. The hard part is not understanding the system. The hard part is implementing it when your work culture says sleep is optional and your social life is built around alcohol. Ayurveda cannot fix that. But it can show you what is actually happening physiologically when you do these things, and sometimes that knowledge is enough to make a change.</p>`   },
+  {
+    slug: "vata-pitta-kapha-explained",
+    category: "article",
+    title: "Vata, Pitta, Kapha Explained: The Three Doshas and How They Work",
+    date: "June 2, 2026",
+    excerpt: "The three doshas are not personality types. They are the three fundamental biological forces moving through every body. Understanding them is understanding Ayurveda.",
+    seoTitle: "Doshas Explained: Vata, Pitta, Kapha - Ayurvedic Constitutional Types",
+    seoDescription: "Complete guide to the three Ayurvedic doshas: Vata (air + ether), Pitta (fire + water), and Kapha (earth + water). Learn qualities, balance, and imbalance signs.",
+    content: `<p>Ayurveda describes the human body as composed of five elements: earth, water, fire, air, and ether. These five elements combine into three fundamental forces called doshas. Vata is air and ether. Pitta is fire and water. Kapha is earth and water. Every person is born with a unique combination of these three doshas. This combination is your constitution, your baseline. Understanding your dosha means understanding the patterns your body is most likely to fall into, the imbalances you are most vulnerable to, and the conditions under which you actually feel well.</p><p>The three doshas are not personality types. They are biological forces. They govern digestion, metabolism, movement, temperature, thinking speed, emotional tone, immune response, and structural integrity. They move through seasons. They change with age. They respond to stress, diet, sleep, and life events. The doshas are always moving in and out of balance.</p><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin:48px 0;">
+  <div style="border-radius:8px;overflow:hidden;">
+    <div style="background:#2a1f14;padding:20px;text-align:center;">
+      <div style="font-size:24px;font-weight:700;color:#f5f0e8;font-family:Georgia,serif;">Vata</div>
+      <div style="font-size:12px;letter-spacing:0.12em;color:#b5763a;text-transform:uppercase;margin-top:6px;">Air + Ether</div>
+    </div>
+    <div style="background:#f5f0e8;padding:24px;">
+      <div style="font-size:13px;font-weight:700;color:#2a1f14;margin-bottom:12px;">Qualities</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.8;">Dry · Light · Cold · Mobile · Subtle · Rough</div>
+      <div style="font-size:13px;font-weight:700;color:#2a1f14;margin:16px 0 8px;">In balance</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.6;">Creative, enthusiastic, quick-thinking, adaptable</div>
+      <div style="font-size:13px;font-weight:700;color:#2a1f14;margin:16px 0 8px;">Out of balance</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.6;">Anxious, scattered, insomniac, constipated, cold</div>
+      <div style="font-size:13px;font-weight:700;color:#b5763a;margin:16px 0 8px;">Season of aggravation</div>
+      <div style="font-size:13px;color:#4a3728;">Late autumn and winter</div>
+    </div>
+  </div>
+  <div style="border-radius:8px;overflow:hidden;">
+    <div style="background:#2a1f14;padding:20px;text-align:center;">
+      <div style="font-size:24px;font-weight:700;color:#f5f0e8;font-family:Georgia,serif;">Pitta</div>
+      <div style="font-size:12px;letter-spacing:0.12em;color:#b5763a;text-transform:uppercase;margin-top:6px;">Fire + Water</div>
+    </div>
+    <div style="background:#f5f0e8;padding:24px;">
+      <div style="font-size:13px;font-weight:700;color:#2a1f14;margin-bottom:12px;">Qualities</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.8;">Hot · Sharp · Light · Oily · Liquid · Spreading</div>
+      <div style="font-size:13px;font-weight:700;color:#2a1f14;margin:16px 0 8px;">In balance</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.6;">Focused, driven, articulate, warm, sharp digestion</div>
+      <div style="font-size:13px;font-weight:700;color:#2a1f14;margin:16px 0 8px;">Out of balance</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.6;">Irritable, inflamed, perfectionist, reflux, skin issues</div>
+      <div style="font-size:13px;font-weight:700;color:#b5763a;margin:16px 0 8px;">Season of aggravation</div>
+      <div style="font-size:13px;color:#4a3728;">Summer</div>
+    </div>
+  </div>
+  <div style="border-radius:8px;overflow:hidden;">
+    <div style="background:#2a1f14;padding:20px;text-align:center;">
+      <div style="font-size:24px;font-weight:700;color:#f5f0e8;font-family:Georgia,serif;">Kapha</div>
+      <div style="font-size:12px;letter-spacing:0.12em;color:#b5763a;text-transform:uppercase;margin-top:6px;">Earth + Water</div>
+    </div>
+    <div style="background:#f5f0e8;padding:24px;">
+      <div style="font-size:13px;font-weight:700;color:#2a1f14;margin-bottom:12px;">Qualities</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.8;">Heavy · Slow · Cold · Oily · Smooth · Dense</div>
+      <div style="font-size:13px;font-weight:700;color:#2a1f14;margin:16px 0 8px;">In balance</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.6;">Calm, loyal, grounded, strong endurance, steady</div>
+      <div style="font-size:13px;font-weight:700;color:#2a1f14;margin:16px 0 8px;">Out of balance</div>
+      <div style="font-size:13px;color:#4a3728;line-height:1.6;">Sluggish, resistant to change, weight gain, congestion</div>
+      <div style="font-size:13px;font-weight:700;color:#b5763a;margin:16px 0 8px;">Season of aggravation</div>
+      <div style="font-size:13px;color:#4a3728;">Late winter and spring</div>
+    </div>
+  </div>
+</div><h2>Prakruti and Vikruti</h2><p>The distinction between prakruti and vikruti is the foundation of Ayurvedic diagnosis and treatment. Prakruti is your constitutional type — the unique proportion of doshas you were born with. This is fixed. It does not change. Understanding your prakruti tells you your natural baseline, your strengths, and the imbalances you are most vulnerable to.</p><p>Vikruti is your current state — where you are right now. It is determined by season, stress, diet, sleep, life events, and daily habits. Vikruti changes constantly. This is what treatment addresses. When you go to an Ayurvedic practitioner, they are not trying to change your prakruti. They are trying to address your vikruti — to bring you back into balance from your current imbalanced state.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:8px;">The most important distinction in Ayurveda</div>
+  <div style="font-size:22px;font-weight:700;color:#f5f0e8;font-family:Georgia,serif;margin-bottom:20px;">Prakruti is who you were born as. Vikruti is who you are right now.</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:20px;">
+      <div style="font-size:14px;font-weight:700;color:#b5763a;margin-bottom:10px;">Prakruti — your constitution</div>
+      <div style="font-size:13px;color:#c4a882;line-height:1.7;">Fixed at birth. Your baseline proportions of Vata, Pitta, and Kapha. This never changes. Understanding it tells you what you tend toward and what you need to protect against.</div>
+    </div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:20px;">
+      <div style="font-size:14px;font-weight:700;color:#b5763a;margin-bottom:10px;">Vikruti — your current state</div>
+      <div style="font-size:13px;color:#c4a882;line-height:1.7;">Changes constantly based on season, stress, diet, sleep, and life events. Treatment addresses the vikruti — the current imbalance — not the prakruti. Most online quizzes conflate the two.</div>
+    </div>
+  </div>
+</div><p>The doshas are always moving. The goal is not to eliminate one and amplify another. The goal is to understand your baseline and notice when you are drifting from it. The closer you stay to your prakruti, the better you feel.</p>`
+  }
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {
