@@ -78,6 +78,30 @@ export default function PittaPage() {
             </p>
           </motion.div>
 
+          {/* Related Symptom Patterns for Pitta */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-12 p-6 bg-primary/5 border border-primary/20 rounded-lg"
+          >
+            <p className="text-sm font-medium uppercase tracking-wide text-primary mb-4">
+              Common Pitta Symptom Clusters
+            </p>
+            <div className="space-y-3">
+              <p className="text-base text-foreground">
+                <a href="/blog/signs-of-high-cortisol" className="text-primary hover:underline font-medium">High cortisol patterns</a> are especially common in Pitta types because your high-drive nature produces sustained stress hormone elevation.
+              </p>
+              <p className="text-base text-foreground">
+                <a href="/blog/alcohol-ayurveda-recovery" className="text-primary hover:underline font-medium">Alcohol recovery and heat regulation</a> are critical for Pitta balance — Pitta types often use alcohol to cool down, creating a cycle that eventually worsens inflammation.
+              </p>
+              <p className="text-base text-foreground">
+                <a href="/blog/hair-loss-ayurveda" className="text-primary hover:underline font-medium">Hair loss and premature thinning</a> are common Pitta imbalance signs, often triggered by stress and internal heat.
+              </p>
+            </div>
+          </motion.div>
+
           {/* Energy Patterns */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -112,10 +136,10 @@ export default function PittaPage() {
               The Pitta Burning Pattern
             </h2>
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              Pitta burnout is different than Vata exhaustion. Vata is scattered and unable to settle. Pitta is intensely focused on all the wrong things — perfecting what doesn&apos;t matter, fixing problems that aren&apos;t solvable, pushing toward goals at any cost.
+              Pitta burnout is different than Vata exhaustion. Vata is scattered and unable to settle. Pitta is intensely focused on all the wrong things — perfecting what doesn&apos;t matter, fixing problems that aren&apos;t solvable, pushing toward goals at any cost. This pattern often leads to <a href="/blog/ayurveda-nervous-system-burnout" className="text-primary hover:underline font-medium">nervous system burnout</a> and <a href="/blog/signs-of-high-cortisol" className="text-primary hover:underline font-medium">chronically elevated cortisol</a>.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              You develop this internal pressure that becomes toxic. You judge yourself harshly. You judge others harshly. Everything needs to be better, faster, more optimized. The fire of your ambition turns inward and creates inflammation: skin issues, acid reflux, digestive problems, hormonal irregularities, and a pervasive sense of dissatisfaction no matter what you accomplish.
+              You develop this internal pressure that becomes toxic. You judge yourself harshly. You judge others harshly. Everything needs to be better, faster, more optimized. The fire of your ambition turns inward and creates <a href="/blog/pitta-inflammation-ayurveda" className="text-primary hover:underline font-medium">inflammation: skin issues, acid reflux, digestive problems</a>, hormonal irregularities, and a pervasive sense of dissatisfaction no matter what you accomplish.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
               What makes this pattern particularly painful for Pitta is that your discipline and willpower — your greatest strengths — become your greatest liabilities. You push through fatigue when you should rest. You ignore your body&apos;s signals. You believe if you just try harder, you&apos;ll solve the unsolvable. Until one day, your body simply stops cooperating.
@@ -134,10 +158,10 @@ export default function PittaPage() {
               How Modern Life Aggravates Pitta
             </h2>
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              Modern work culture is designed to reward Pitta. Hustle culture. Performance metrics. Constant competition. The requirement to be always available and always solving. This is Pitta heaven — until it&apos;s hell.
+              Modern work culture is designed to reward Pitta. Hustle culture. Performance metrics. Constant competition. The requirement to be always available and always solving. This is Pitta heaven — until it&apos;s hell and you experience <a href="/blog/ayurveda-nervous-system-burnout" className="text-primary hover:underline font-medium">nervous system burnout</a>.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              Add to this: alcohol (a heating substance that Pitta is drawn to), spicy food, caffeine, skipped meals, stress eating, competitive exercise, and the pressure to look perfect while achieving perfection. This is a recipe for accelerated Pitta burnout.
+              Add to this: <a href="/blog/alcohol-pitta-inflammation" className="text-primary hover:underline font-medium">alcohol (a heating substance that Pitta is drawn to)</a>, spicy food, <a href="/blog/ayurveda-caffeine-stress" className="text-primary hover:underline font-medium">excessive caffeine</a>, skipped meals, stress eating, competitive exercise, and the pressure to look perfect while achieving perfection. This is a recipe for accelerated Pitta burnout and <a href="/blog/not-losing-weight-calorie-deficit" className="text-primary hover:underline font-medium">metabolic dysfunction</a>.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
               The system rewards exactly the behaviors that destroy your health. By the time you realize something needs to change, you&apos;re already burned out. And your Pitta nature makes it hard to admit you need help or that rest is anything other than weakness.
@@ -379,11 +403,11 @@ export default function PittaPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               {[
-                { title: "I'm Burned Out", href: "/blog/im-burned-out" },
-                { title: "Pitta Foods to Avoid", href: "/blog/pitta-foods-to-avoid" },
-                { title: "Cortisol & Stress", href: "/blog/ayurveda-cortisol-stress" },
+                { title: "Nervous System Burnout", href: "/blog/ayurveda-nervous-system-burnout" },
+                { title: "Signs of High Cortisol", href: "/blog/signs-of-high-cortisol" },
                 { title: "Best Herbs for Anxiety", href: "/blog/best-herbs-for-anxiety" },
-                { title: "Brahmi Benefits", href: "/blog/brahmi-benefits" },
+                { title: "Hair Loss Ayurveda", href: "/blog/hair-loss-ayurveda" },
+                { title: "Brahmi for Mental Clarity", href: "/blog/brahmi-benefits" },
                 { title: "Best Tea for Sleep", href: "/blog/best-ayurvedic-tea-sleep" },
               ].map((article) => (
                 <a

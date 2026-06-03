@@ -78,6 +78,30 @@ export default function KaphaPage() {
             </p>
           </motion.div>
 
+          {/* Related Symptom Patterns for Kapha */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-12 p-6 bg-primary/5 border border-primary/20 rounded-lg"
+          >
+            <p className="text-sm font-medium uppercase tracking-wide text-primary mb-4">
+              Common Kapha Symptom Clusters
+            </p>
+            <div className="space-y-3">
+              <p className="text-base text-foreground">
+                <a href="/blog/ayurveda-bloating-gas" className="text-primary hover:underline font-medium">Chronic bloating and digestive heaviness</a> are core Kapha patterns that worsen stagnation and feed into weight retention.
+              </p>
+              <p className="text-base text-foreground">
+                <a href="/blog/not-losing-weight-calorie-deficit" className="text-primary hover:underline font-medium">Weight loss resistance despite calorie deficit</a> is especially common in Kapha types because metabolism itself is suppressed, not just willpower.
+              </p>
+              <p className="text-base text-foreground">
+                <a href="/blog/emotional-eating-heaviness" className="text-primary hover:underline font-medium">Emotional heaviness and food as comfort</a> often accompanies Kapha stagnation, creating a cycle of weight gain and deeper emotional/metabolic dysfunction.
+              </p>
+            </div>
+          </motion.div>
+
           {/* Energy Patterns */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -112,10 +136,10 @@ export default function KaphaPage() {
               The Kapha Stagnation Pattern
             </h2>
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              Kapha stagnation is different from Vata anxiety or Pitta burnout. You&apos;re not anxious and you&apos;re not burning out. You&apos;re stuck. Your body holds onto weight. Your digestion is slow. Your mind is sluggish. Things feel hard even when they&apos;re easy.
+              Kapha stagnation is different from Vata anxiety or Pitta burnout. You&apos;re not anxious and you&apos;re not burning out. You&apos;re stuck. Your body holds onto weight. Your <a href="/blog/ayurveda-bloating-gas" className="text-primary hover:underline font-medium">digestion is slow</a>. Your mind is sluggish. Things feel hard even when they&apos;re easy.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              The blame pattern: you blame yourself for not having enough discipline. You think if you just tried harder, you&apos;d have more energy. So you push. You attempt extreme diets and intense exercise. This works for a week or two. Then you crash back into stagnation. The cycle reinforces the belief that you&apos;re lazy — when actually your system is too heavy to move at the intensity you&apos;re demanding.
+              The blame pattern: you blame yourself for not having enough discipline. You think if you just tried harder, you&apos;d have more energy. So you push. You attempt <a href="/blog/not-losing-weight-calorie-deficit" className="text-primary hover:underline font-medium">extreme diets and intense exercise</a>. This works for a week or two. Then you crash back into stagnation. The cycle reinforces the belief that you&apos;re lazy — when actually <a href="/blog/kapha-metabolism-slowness" className="text-primary hover:underline font-medium">your system is too heavy to move at the intensity you&apos;re demanding</a>.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
               What makes this pattern particularly insidious for Kapha is that you don&apos;t get the feedback that Vata and Pitta get. Vata gets anxious (clear feedback something is wrong). Pitta gets burned out (clear feedback something is wrong). Kapha just gets heavier and slower. You might not realize anything is wrong until you&apos;ve gained 30 pounds and can&apos;t climb stairs without effort.
@@ -134,13 +158,13 @@ export default function KaphaPage() {
               How Modern Life Aggravates Kapha
             </h2>
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              Modern life is designed to aggravate Kapha. Sedentary work. Cars instead of walking. Heating and air conditioning that create stable, unchanging environments. Food engineered to be hyper-palatable and easy to overeat. Work that requires sitting all day. All of this creates stagnation.
+              Modern life is designed to aggravate Kapha. Sedentary work. Cars instead of walking. Heating and air conditioning that create stable, unchanging environments. Food engineered to be <a href="/blog/digital-food-modern-stagnation" className="text-primary hover:underline font-medium">hyper-palatable and easy to overeat</a>. Work that requires sitting all day. All of this creates stagnation.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-              Add to this: cold foods (smoothies, salads), excessive dairy, heavy comfort foods, sleeping long hours, minimal movement, and the cultural acceptance of Kapha behavior (being easygoing is celebrated, even when it becomes stagnation). The system doesn&apos;t push back on Kapha excess the way it does with Vata and Pitta.
+              Add to this: <a href="/blog/cold-foods-kapha-stagnation" className="text-primary hover:underline font-medium">cold foods (smoothies, salads)</a>, excessive dairy, heavy comfort foods, sleeping long hours, minimal movement, and the cultural acceptance of Kapha behavior (being easygoing is celebrated, even when it becomes stagnation). The system doesn&apos;t push back on Kapha excess the way it does with Vata and Pitta.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              The result is that Kapha imbalance often goes unaddressed longer than other doshas. By the time you realize something needs to change, you&apos;re significantly heavier, slower, and more stuck than you were years ago.
+              The result is that Kapha imbalance often goes unaddressed longer than other doshas. <a href="/blog/ayurveda-nervous-system-burnout" className="text-primary hover:underline font-medium">Emotional stagnation combines with physical heaviness</a>, creating both metabolic and psychological inertia. By the time you realize something needs to change, you&apos;re significantly heavier, slower, and more stuck than you were years ago.
             </p>
           </motion.div>
 
@@ -382,11 +406,11 @@ export default function KaphaPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               {[
-                { title: "I Can't Lose Weight", href: "/blog/i-cant-lose-weight" },
-                { title: "Ayurvedic Morning Routine", href: "/blog/ayurvedic-morning-routine" },
+                { title: "Not Losing Weight in Calorie Deficit", href: "/blog/not-losing-weight-calorie-deficit" },
+                { title: "Ayurvedic Bloating and Gas", href: "/blog/ayurveda-bloating-gas" },
                 { title: "How to Improve Digestion", href: "/blog/how-to-improve-digestion-naturally" },
+                { title: "Best Herbs for Energy", href: "/blog/best-herbs-for-energy" },
                 { title: "Triphala Benefits", href: "/blog/triphala-benefits" },
-                { title: "Why Am I Always Tired?", href: "/blog/why-am-i-always-tired" },
                 { title: "Best Ayurvedic Tea for Digestion", href: "/blog/best-ayurvedic-tea-digestion" },
               ].map((article) => (
                 <a
