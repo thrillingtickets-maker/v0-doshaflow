@@ -102,7 +102,7 @@ export const posts: Post[] = [
       <div style="font-size:13px;color:#4a3728;">• Diarrhoea-predominant</div>
       <div style="font-size:13px;color:#4a3728;">• Burning, urgency</div>
       <div style="font-size:13px;color:#4a3728;">• Worse after alcohol</div>
-      <div style="font-size:13px;color:#4a3728;">���������������������������������������������� Inflammation-driven</div>
+      <div style="font-size:13px;color:#4a3728;">����������������������������������������������� Inflammation-driven</div>
       <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Shatavari, cooling foods</div>
     </div>
   </div>
@@ -4337,6 +4337,39 @@ export const posts: Post[] = [
     <div style="font-size:13px;color:#4a3728;">All doshas</div>
   </div>
 </div><h2>How to Use Amla</h2><p>The simplest way to use Amla is as a dried powder mixed with honey or warm water. A teaspoon daily provides significant antioxidant support. Amla can also be taken as juice, as a capsule supplement, or as part of Triphala — the classical Ayurvedic formula that contains Amla, Haritaki, and Bibhitaki in equal proportions.</p><p>For immunity support, morning consumption is ideal. For hair health, mixing the powder with coconut oil and applying it as a paste to the scalp before washing creates a deeply nourishing treatment. Consistency matters more than dose — a small amount taken daily produces better results than occasional larger amounts.</p><h2>Amla as Rasayana</h2><p>The most important use of Amla is as a long-term rejuvenative. Taking Amla daily — whether as powder, juice, or as part of Triphala — builds Ojas gradually over months and years. This is not a supplement with immediate symptomatic relief. It is medicine for longevity. The person who takes Amla consistently over years reports improved energy, clearer skin, stronger immunity, and a sense of resilience that characterizes true vitality.</p>`
+  },
+  {
+    slug: "ayurveda-liver-health",
+    category: "article",
+    title: "Ayurveda and Liver Health: Understanding Pitta's Primary Seat and the Path to Regeneration",
+    date: "June 3, 2026",
+    excerpt: "The liver is the primary seat of Pitta in Ayurveda. Every Pitta symptom traces back in part to liver function. Here is the complete protocol for liver restoration.",
+    seoTitle: "Ayurveda and Liver Health: Complete Detoxification and Support Guide",
+    seoDescription: "Complete guide to liver health through Ayurveda. Learn how to support Pitta, reduce liver burden, and restore hepatic function.",
+    content: `<p>The liver is one of the most overburdened organs in modern life. It processes toxins from the air we breathe, the water we drink, the food we eat, and the medications and supplements we consume. It metabolizes hormones, processes fats, produces bile, regulates blood sugar, and manufactures the proteins that sustain life. When the liver becomes compromised, everything else suffers.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">In Ayurveda, the liver is the primary seat of Pitta. Every Pitta symptom — inflammation, skin issues, irritability, acid reflux, hormonal imbalance — traces back in part to the liver's capacity to process heat, hormones, and toxins.</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">Support the liver and you support every system that depends on it: skin, hormones, immunity, mood, digestion.</div>
+</div><h2>Understanding the Liver in Ayurveda</h2><p>The liver, called Yakrit in Sanskrit, is the seat of Pitta — the transformative fire that processes everything the body takes in. When the liver is healthy and strong, Pitta is balanced. When the liver becomes burdened or damaged, Pitta becomes aggravated. The result is inflammation, irritability, hormonal imbalance, and all the cascade of problems associated with Pitta excess.</p><p>More importantly, the liver is the primary organ of detoxification. In Ayurveda, accumulation of ama (toxins) is considered the root of disease. The liver is the organ primarily responsible for preventing ama accumulation and moving accumulated ama out of the body. When the liver is overwhelmed, ama begins to accumulate throughout the body.</p><h2>Common Liver Patterns</h2><p>Liver dysfunction in modern life typically falls into three categories: the liver overwhelmed by toxin processing (from alcohol, medications, pollutants), the liver burdened by poor diet and metabolic stress (fatty liver disease), and the liver exhausted from chronic stress and inadequate sleep.</p><p>In each case, the liver loses its capacity to do its primary jobs — hormone clearance, bile production, detoxification, and blood sugar regulation. The person develops symptoms they often don't connect to the liver: skin problems, hormonal imbalance, irritability, brain fog, digestive problems, and fatigue.</p><h2>Herbs for Liver Support</h2><p>Ayurveda has a rich collection of herbs that specifically support liver function and regeneration. The classical herb for liver support is Kutki (Picrorhiza kurroa), which strengthens liver function and supports detoxification. Milk thistle (Silymarin) protects hepatocytes and supports regeneration. Turmeric reduces liver inflammation and supports bile flow. Bhumy Amla (Phyllanthus niruri) is specifically hepatoprotective and used in liver disease.</p><p>These herbs work best when combined with lifestyle changes that reduce liver burden. No herb can compensate for ongoing exposure to toxins and inflammatory foods.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:20px;">What burdens the liver most — ranked</div>
+  <div style="display:flex;flex-direction:column;gap:12px;">
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">1</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Alcohol</strong><span style="font-size:13px;color:#c4a882;"> — the liver's primary job during drinking is processing alcohol. Every other liver function — hormone clearance, blood sugar regulation, immune function — takes a back seat. There is no safe level for liver health.</span></div>
+    </div>
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">2</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Processed food and seed oils</strong><span style="font-size:13px;color:#c4a882;"> — ultra-processed food drives non-alcoholic fatty liver disease, now the most common liver condition in the developed world.</span></div>
+    </div>
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">3</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Chronic stress</strong><span style="font-size:13px;color:#c4a882;"> — cortisol instructs the liver to produce glucose continuously, contributing to insulin resistance and liver fat accumulation.</span></div>
+    </div>
+    <div style="display:flex;gap:14px;padding:14px;background:rgba(255,255,255,0.05);border-radius:8px;">
+      <div style="background:#b5763a;color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;min-width:24px;text-align:center;height:fit-content;">4</div>
+      <div><strong style="color:#f5f0e8;font-size:14px;">Late eating</strong><span style="font-size:13px;color:#c4a882;"> — the liver's repair and detoxification functions peak in the Pitta window (10pm–2am). Eating late means it is processing food instead of doing this work.</span></div>
+    </div>
+  </div>
+</div><h2>The Path to Liver Restoration</h2><p>Liver restoration requires a multi-pronged approach: reducing burden through eliminating alcohol and processed foods, supporting regeneration through targeted herbs, and optimizing the circadian conditions that allow the liver to do its repair work — primarily through sleep before 10pm.</p><p>Most people who implement comprehensive liver support report significant improvements within 4–8 weeks. Energy improves. Digestion normalizes. Skin clears. Hormonal balance returns. The cascade of problems associated with Pitta excess begins to resolve as the primary organ of Pitta comes back online.</p>`
   }
 ]
 
