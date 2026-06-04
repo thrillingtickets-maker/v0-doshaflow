@@ -12,7 +12,7 @@ export interface Post {
 
 export const posts: Post[] = [
   {
-    slug: "stress-hair-loss-ayurveda",
+    slug: "can-stress-cause-hair-loss",
     category: "article",
     title: "Can Stress Cause Hair Loss? Ayurveda's View on Cortisol, Burnout, and Thinning Hair",
     date: "June 3, 2026",
