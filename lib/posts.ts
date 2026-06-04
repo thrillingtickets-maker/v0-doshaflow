@@ -12,6 +12,68 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "tired-but-wired-at-night",
+    category: "article",
+    title: "Tired But Wired at Night: Why You Feel Exhausted but Can't Sleep",
+    date: "June 3, 2026",
+    excerpt: "Your body is done. Your brain is not. The tired-but-wired pattern is one of the most common signs of a dysregulated nervous system. Here is the Ayurvedic explanation.",
+    seoTitle: "Tired But Wired at Night: Why You Feel Exhausted but Can't Sleep",
+    seoDescription: "Your body is done. Your brain is not. The tired-but-wired pattern is one of the most common signs of a dysregulated nervous system. Here is the Ayurvedic explanation.",
+    content: `<p>Being tired but wired is one of the clearest signs that the body and mind are no longer moving at the same speed. Your body is exhausted. Your eyes burn. You want sleep. But the moment you lie down, your brain turns on. Thoughts speed up. Your chest feels tight. You replay the day. You reach for your phone. You watch the clock. You feel tired, but not safe enough to rest. In Ayurveda, this is often a Vata nervous system pattern.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
+  <div style="font-size:64px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">3am</div>
+  <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">The Vata window — when a dysregulated nervous system wakes instead of deepens</div>
+  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;">Between 2–4am is when Vata naturally rises. A nervous system that is depleted or over-activated does not continue sleeping through this window — it activates. Alcohol consumed earlier produces a cortisol rebound at exactly this time. Both cause the same wakeup for different reasons.</div>
+</div><h2>Why Tired But Wired Happens</h2><p>Modern life creates a strange rhythm. During the day, you run on caffeine, stress, deadlines, screens, adrenaline, and notifications. Then at night, you expect the nervous system to instantly soften. But the body does not work like a light switch. If the nervous system has been in activation all day, it may stay activated even when the body is depleted. This is the tired-but-wired state.</p><h2>Ayurveda's Explanation</h2><p>Vata dosha governs movement, thought, sleep, and the nervous system. When Vata is balanced, the mind is creative, clear, and adaptable. When Vata is aggravated, the mind becomes fast, restless, and difficult to settle. The signs overlap heavily with nighttime anxiety and nervous system burnout: racing thoughts, waking between 2 and 4am, light sleep, anxiety at night, cold hands or feet, irregular appetite, sensitivity to noise, and feeling ungrounded.</p><h2>Why Forcing Sleep Does Not Work</h2><p>You cannot force the nervous system into safety. You have to create the conditions for safety. That means warmth, darkness, rhythm, and less stimulation.</p><div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:40px 0;">
+  <div style="background:#f5f0e8;border-radius:8px;padding:24px;">
+    <div style="font-size:14px;font-weight:700;color:#2a1f14;margin-bottom:16px;">What the body needs for sleep</div>
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      <div style="font-size:13px;color:#4a3728;padding:10px 12px;background:white;border-radius:6px;">Cortisol declining, melatonin rising</div>
+      <div style="font-size:13px;color:#4a3728;padding:10px 12px;background:white;border-radius:6px;">Parasympathetic system active</div>
+      <div style="font-size:13px;color:#4a3728;padding:10px 12px;background:white;border-radius:6px;">Core body temperature dropping</div>
+      <div style="font-size:13px;color:#4a3728;padding:10px 12px;background:white;border-radius:6px;">Digestion completed and quiet</div>
+    </div>
+  </div>
+  <div style="background:#f5f0e8;border-radius:8px;padding:24px;">
+    <div style="font-size:14px;font-weight:700;color:#2a1f14;margin-bottom:16px;">What keeps the nervous system activated</div>
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      <div style="font-size:13px;color:#4a3728;padding:10px 12px;background:white;border-radius:6px;">Cortisol still elevated from day</div>
+      <div style="font-size:13px;color:#4a3728;padding:10px 12px;background:white;border-radius:6px;">Sympathetic system still firing</div>
+      <div style="font-size:13px;color:#4a3728;padding:10px 12px;background:white;border-radius:6px;">Screen light suppressing melatonin</div>
+      <div style="font-size:13px;color:#4a3728;padding:10px 12px;background:white;border-radius:6px;">Alcohol creating cortisol rebound</div>
+    </div>
+  </div>
+</div><h2>What Helps</h2><p><strong>Warm your body before bed.</strong> Try a warm shower, warm herbal tea, foot massage with sesame oil, socks in bed, and dim lighting. Vata calms when the body feels warm and contained.</p><p><strong>Stop working earlier than feels necessary.</strong> If you work until the last minute, your mind may still be processing when your body wants to sleep. Create a buffer. Even 30 minutes helps.</p><p><strong>Avoid alcohol as a sleep strategy.</strong> Alcohol may sedate you, but it often worsens sleep quality and increases overnight wakeups — producing the cortisol rebound that wakes most people at 3am.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:20px;">Herbs traditionally used for the tired-but-wired pattern</div>
+  <div style="border:1px solid rgba(255,255,255,0.1);border-radius:8px;overflow:hidden;">
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;background:rgba(255,255,255,0.05);padding:10px 16px;">
+      <div style="font-size:11px;color:#b5763a;text-transform:uppercase;letter-spacing:0.08em;">Herb</div>
+      <div style="font-size:11px;color:#b5763a;text-transform:uppercase;letter-spacing:0.08em;">Best for</div>
+      <div style="font-size:11px;color:#b5763a;text-transform:uppercase;letter-spacing:0.08em;">Timing</div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:12px 16px;border-top:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:13px;font-weight:600;color:#f5f0e8;">Ashwagandha</div>
+      <div style="font-size:13px;color:#c4a882;">Cortisol-driven wired state, depletion</div>
+      <div style="font-size:13px;color:#c4a882;">Evening, warm milk</div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:12px 16px;border-top:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:13px;font-weight:600;color:#f5f0e8;">Jatamansi</div>
+      <div style="font-size:13px;color:#c4a882;">Racing thoughts at bedtime</div>
+      <div style="font-size:13px;color:#c4a882;">1 hour before bed</div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:12px 16px;border-top:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:13px;font-weight:600;color:#f5f0e8;">Brahmi</div>
+      <div style="font-size:13px;color:#c4a882;">Overheated Pitta mind</div>
+      <div style="font-size:13px;color:#c4a882;">Afternoon (not before bed)</div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:12px 16px;border-top:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:13px;font-weight:600;color:#f5f0e8;">Nutmeg</div>
+      <div style="font-size:13px;color:#c4a882;">Mild sedative, promotes deep sleep</div>
+      <div style="font-size:13px;color:#c4a882;">Pinch in warm milk at bedtime</div>
+    </div>
+  </div>
+</div><h2>The Real Goal</h2><p>The goal is not just falling asleep. The goal is teaching the nervous system that night is safe again. When the body begins to trust rest, sleep becomes less of a battle.</p>`
+  },
+  {
     slug: "digital-burnout-symptoms",
     category: "article",
     title: "Digital Burnout Symptoms: Ayurveda's View on Screen Fatigue, Overstimulation, and a Fried Nervous System",
