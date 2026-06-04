@@ -174,17 +174,17 @@ export default function KaphaPage() {
             </h2>
             <div className="space-y-3">
               <p className="text-muted-foreground">
-                <Link href="/blog/why-weight-loss-isnt-working" className="text-[#C97F3D] hover:underline font-medium">
+                <Link href="/blog/i-cant-lose-weight" className="text-[#C97F3D] hover:underline font-medium">
                   Why Weight Loss Isn't Working: The Kapha Factor
                 </Link>
               </p>
               <p className="text-muted-foreground">
-                <Link href="/blog/why-you-sleep-too-much" className="text-[#C97F3D] hover:underline font-medium">
+                <Link href="/blog/cant-sleep-when-exhausted" className="text-[#C97F3D] hover:underline font-medium">
                   Why You Sleep Too Much and Still Feel Tired
                 </Link>
               </p>
               <p className="text-muted-foreground">
-                <Link href="/blog/kapha-depression-lethargy" className="text-[#C97F3D] hover:underline font-medium">
+                <Link href="/blog/ayurveda-depression-anxiety" className="text-[#C97F3D] hover:underline font-medium">
                   Kapha, Depression, and Low Motivation
                 </Link>
               </p>

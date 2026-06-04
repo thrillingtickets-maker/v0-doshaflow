@@ -201,8 +201,8 @@ export default function RetreatDay9Page() {
               </Link>
             </p>
             <p className="text-muted-foreground">
-              <Link href="/blog/panchakarma-what-to-expect" className="text-[#C97F3D] hover:underline">
-                Panchakarma: What to Expect
+              <Link href="/blog/birth-recovery-postpartum" className="text-[#C97F3D] hover:underline">
+                Recovery and Renewal Protocols
               </Link>
             </p>
           </div>
