@@ -1,29 +1,43 @@
 import { NextResponse } from 'next/server'
+import { posts } from '@/lib/posts'
 
 export async function GET() {
+  // Static pages
+  const staticPages = [
+    { loc: 'https://www.doshaflow.com', lastmod: '2026-06-04', priority: '1.0' },
+    { loc: 'https://www.doshaflow.com/quiz', lastmod: '2026-06-04', priority: '0.9' },
+    { loc: 'https://www.doshaflow.com/about', lastmod: '2026-06-04', priority: '0.8' },
+    { loc: 'https://www.doshaflow.com/blog', lastmod: '2026-06-04', priority: '0.9' },
+    { loc: 'https://www.doshaflow.com/samples', lastmod: '2026-06-04', priority: '0.8' },
+    { loc: 'https://www.doshaflow.com/ayurveda-for-men', lastmod: '2026-06-04', priority: '0.9' },
+    { loc: 'https://www.doshaflow.com/ayurveda-for-women', lastmod: '2026-06-04', priority: '0.9' },
+    { loc: 'https://www.doshaflow.com/vata', lastmod: '2026-06-04', priority: '0.8' },
+    { loc: 'https://www.doshaflow.com/pitta', lastmod: '2026-06-04', priority: '0.8' },
+    { loc: 'https://www.doshaflow.com/kapha', lastmod: '2026-06-04', priority: '0.8' },
+    { loc: 'https://www.doshaflow.com/dosha-diets', lastmod: '2026-06-04', priority: '0.8' },
+    { loc: 'https://www.doshaflow.com/start-here', lastmod: '2026-06-04', priority: '0.9' },
+  ]
+
+  // Dynamic blog articles from posts.ts
+  const blogArticles = posts.map(post => ({
+    loc: `https://www.doshaflow.com/blog/${post.slug}`,
+    lastmod: '2026-06-04',
+    priority: '0.7'
+  }))
+
+  // Combine all URLs
+  const allUrls = [...staticPages, ...blogArticles]
+
+  // Generate XML
+  const urlElements = allUrls
+    .map(url => 
+      `  <url><loc>${url.loc}</loc><lastmod>${url.lastmod}</lastmod><priority>${url.priority}</priority></url>`
+    )
+    .join('\n')
+
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.doshaflow.com</loc><lastmod>2026-05-28</lastmod><priority>1.0</priority></url>
-  <url><loc>https://www.doshaflow.com/quiz</loc><lastmod>2026-05-28</lastmod><priority>0.9</priority></url>
-  <url><loc>https://www.doshaflow.com/about</loc><lastmod>2026-05-28</lastmod><priority>0.8</priority></url>
-  <url><loc>https://www.doshaflow.com/blog</loc><lastmod>2026-05-28</lastmod><priority>0.9</priority></url>
-  <url><loc>https://www.doshaflow.com/samples</loc><lastmod>2026-05-28</lastmod><priority>0.8</priority></url>
-  <url><loc>https://www.doshaflow.com/ayurveda-for-men</loc><lastmod>2026-05-28</lastmod><priority>0.9</priority></url>
-  <url><loc>https://www.doshaflow.com/ayurveda-for-women</loc><lastmod>2026-05-28</lastmod><priority>0.9</priority></url>
-  <url><loc>https://www.doshaflow.com/blog/what-happens-ayurvedic-retreat-day-3</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.doshaflow.com/blog/ayurvedic-herbs-guide</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.doshaflow.com/blog/vata-dosha-guide</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.doshaflow.com/blog/pitta-dosha-guide</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.doshaflow.com/blog/kapha-dosha-guide</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.doshaflow.com/blog/ayurveda-cold-smoothies</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.doshaflow.com/blog/ayurveda-coffee</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.doshaflow.com/blog/ayurveda-hormonal-balance</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.doshaflow.com/blog/eating-for-your-dosha</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.doshaflow.com/blog/ayurveda-pms</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.doshaflow.com/blog/ayurveda-no-time</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.doshaflow.com/blog/ayurveda-30-days</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.doshaflow.com/blog/ayurveda-burnout</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.doshaflow.com/blog/retreat-day-4</loc><lastmod>2026-05-28</lastmod><priority>0.7</priority></url>
+${urlElements}
 </urlset>`
 
   return new NextResponse(xml, {
