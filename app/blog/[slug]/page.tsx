@@ -393,7 +393,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               <a href="/blog/best-ayurvedic-tea">Best Ayurvedic Tea for Stress & Sleep →</a>
               <a href="/blog/ayurveda-for-stress">Ayurveda for Nervous System Stress →</a>
               <a href="/blog/ayurveda-for-sleep">Ayurveda for Deep Sleep →</a>
-              <a href="/dosha-diets">Vata, Pitta & Kapha Diet Plans →</a>
+              <a href="/start-here">Vata, Pitta & Kapha Diet Plans →</a>
               <a href="/blog/ayurveda-for-hair-loss">Ayurveda for Hair Loss →</a>
             </div>
           </div>
