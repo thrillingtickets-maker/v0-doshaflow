@@ -18,8 +18,17 @@ export async function GET() {
     { loc: 'https://www.doshaflow.com/start-here', lastmod: '2026-06-04', priority: '0.9' },
   ]
 
-  // Dynamic blog articles from posts.ts
-  const blogArticles = posts.map(post => ({
+  // Dynamic blog articles from posts.ts - filter duplicates by slug
+  const seenSlugs = new Set<string>()
+  const uniquePosts = posts.filter(post => {
+    if (seenSlugs.has(post.slug)) {
+      return false // Skip duplicate
+    }
+    seenSlugs.add(post.slug)
+    return true
+  })
+
+  const blogArticles = uniquePosts.map(post => ({
     loc: `https://www.doshaflow.com/blog/${post.slug}`,
     lastmod: '2026-06-04',
     priority: '0.7'
