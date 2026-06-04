@@ -12,6 +12,51 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "digital-burnout-symptoms",
+    category: "article",
+    title: "Digital Burnout Symptoms: Ayurveda's View on Screen Fatigue, Overstimulation, and a Fried Nervous System",
+    date: "June 3, 2026",
+    excerpt: "Digital burnout does not feel like collapse. It feels like 14 tabs open, knowing what to do, and being unable to begin. Here is the Ayurvedic framework for screen fatigue.",
+    seoTitle: "Digital Burnout Symptoms: Ayurveda's View on Screen Fatigue, Overstimulation, and a Fried Nervous System",
+    seoDescription: "Digital burnout does not feel like collapse. It feels like 14 tabs open, knowing what to do, and being unable to begin. Here is the Ayurvedic framework for screen fatigue.",
+    content: `<p>Digital burnout does not always feel like collapse. Sometimes it feels like staring at your laptop with 14 tabs open, knowing exactly what you need to do, but being unable to begin. Your brain feels full. Your eyes feel tired. Your body feels restless. Your attention keeps splitting into smaller pieces. You are not lazy. Your nervous system may be overstimulated.</p><div style="background:#f5f0e8;border-radius:12px;padding:36px;margin:48px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:24px;">Digital burnout — how it shows up</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Screen fatigue — eyes burn after an hour of work</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Anxiety or agitation after scrolling</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Trouble focusing — attention fractures every few minutes</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Emotional numbness — flat despite no clear reason</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Tired but wired — exhausted body, active mind</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Needing constant stimulation — silence feels unbearable</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Poor sleep despite being tired</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Irritability that seems disproportionate to events</div>
+  </div>
+</div><h2>What Digital Burnout Feels Like</h2><p>Digital burnout can show up as screen fatigue, anxiety after scrolling, trouble focusing, emotional numbness, shallow breathing, poor sleep, eye strain, irritability, feeling tired but wired, and needing constant stimulation. In Ayurveda, this pattern often looks like aggravated Vata dosha. Vata governs movement, the nervous system, sensory processing, attention, and sleep. Modern screens constantly increase movement in the mind: notifications, scrolling, messages, tabs, videos, and endless input. The result is not just distraction. It is nervous system depletion.</p><h2>Why Screens Aggravate Vata</h2><p>Ayurveda has always treated sensory input as part of health. What you see, hear, read, and absorb becomes part of your inner environment. Digital life creates constant micro-stimulation: bright light, rapid visual changes, social comparison, information overload, emotional content, and artificial urgency. Over time, the body can begin to feel unsafe even while sitting still. This is why many people feel exhausted after a day of just being on the computer. The body did not run a marathon. The nervous system did.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:40px 0;text-align:center;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">"The body did not run a marathon. The nervous system did. Digital work is not passive — it is a constant stream of micro-decisions, micro-threats, and micro-stimulations that the brain has to process as if each one matters."</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">Ayurveda has always included sensory input as part of what the body must digest. What enters through the eyes is medicine — or its opposite.</div>
+</div><h2>The Ayurvedic Recovery</h2><p><strong>Start the morning without your phone.</strong> The first input of the day sets the tone of the nervous system. Even 20 minutes without screens can make the day feel less reactive.</p><p><strong>Eat warm, grounding meals.</strong> Vata is calmed by warmth, oil, rhythm, and nourishment. Favour soups, stews, cooked grains, ghee, and root vegetables. Avoid living on cold snacks, caffeine, and scattered meals.</p><p><strong>Take visual rest seriously.</strong> Look away from screens. Step outside. Walk without headphones. The nervous system heals through lower stimulation.</p><p><strong>Use evening darkness as medicine.</strong> Screens at night can keep the brain in a daytime state. Dim lights, reduce blue light, and make the last hour of the day boring on purpose.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:20px;">The daily digital detox — small, structural, effective</div>
+  <div style="display:flex;flex-direction:column;gap:0;">
+    <div style="display:flex;gap:16px;align-items:center;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:90px;">On waking</div>
+      <div style="font-size:14px;color:#c4a882;">No phone for the first 20 minutes. Tongue scraping and warm water first. The nervous system sets its tone from the first input of the day.</div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:center;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:90px;">At meals</div>
+      <div style="font-size:14px;color:#c4a882;">Eat without screens. This is a nervous system regulation practice, not a productivity hack. The gut cannot fully digest when the brain is distracted.</div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:center;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:90px;">Afternoon</div>
+      <div style="font-size:14px;color:#c4a882;">One walk without headphones. Let the nervous system process without adding more input. 15 minutes is enough.</div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:center;padding:14px 0;">
+      <div style="font-size:12px;font-weight:700;color:#b5763a;min-width:90px;">Evening</div>
+      <div style="font-size:14px;color:#c4a882;">Screens off 9pm. Dim lights. Make the last hour boring on purpose. The nervous system needs darkness to begin the melatonin shift.</div>
+    </div>
+  </div>
+</div><h2>The Deeper Message</h2><p>Digital burnout is not a productivity issue. It is a nervous system issue. Ayurveda reminds us that the mind was never meant to digest infinite input. Sometimes the most healing thing is not another tool, supplement, or app. It is less noise.</p>`
+  },
+  {
     slug: "stress-hair-loss-ayurveda",
     category: "article",
     title: "Stress and Hair Loss: The Ayurvedic Connection",
@@ -1959,7 +2004,7 @@ export const posts: Post[] = [
 <h2>Why Overthinking Worsens at Night.</h2>
 <p>Vata time is 2-6am and 2-6pm. The afternoon window is when most overthinkers notice their first significant peak of mental cycling. The night window is when the 3am spiral happens. This is not coincidence or psychology — it is the Vata energy of those windows amplifying an already-elevated Vata nervous system. The person without elevated Vata moves through these windows without disruption. The person with elevated Vata experiences them as the periods when the mind accelerates most dramatically.</p>
 <h2>The Herbs.</h2>
-<p>Brahmi (Bacopa monnieri) is the primary herb for overthinking — the classical Ayurvedic brain tonic used for the cooling and settling of mental activity. Its action is specifically on the mind: it reduces the sharp, active quality of Rajasic mental excess without dulling or sedating. Brahmi tea in the afternoon — during the 2-6pm Vata window when overthinking peaks — is a consistent recommendation. Give it 6-8 weeks. Ashwagandha addresses the adrenal and cortisol component of overthinking — the stress response feeds the mental activation which produces more cortisol which feeds more activation. Take nightly. Jatamansi is used specifically for mental unrest — the particular quality of mental agitation that does not correspond to external circumstances. Shankhpushpi is one of the most specific classical herbs for mental agitation and the cycling quality of an overactive mind.</p>
+<p>Brahmi (Bacopa monnieri) is the primary herb for overthinking — the classical Ayurvedic brain tonic used for the cooling and settling of mental activity. Its action is specifically on the mind: it reduces the sharp, active quality of Rajasic mental excess without dulling or sedating. Brahmi tea in the afternoon — during the 2-6pm Vata window when overthinking peaks ��� is a consistent recommendation. Give it 6-8 weeks. Ashwagandha addresses the adrenal and cortisol component of overthinking — the stress response feeds the mental activation which produces more cortisol which feeds more activation. Take nightly. Jatamansi is used specifically for mental unrest — the particular quality of mental agitation that does not correspond to external circumstances. Shankhpushpi is one of the most specific classical herbs for mental agitation and the cycling quality of an overactive mind.</p>
 <h2>Lifestyle Interventions.</h2>
 <p>Move the body before trying to settle the mind — physical movement reduces mental activation more reliably than any other intervention. A 20-minute walk before attempting meditation or sleep produces better outcomes than attempting either without it. Reduce information input deliberately — news, social media, stimulating conversations in the evening all provide material for the Rajasic mind to cycle through. Eat at regular times — blood sugar instability produces cortisol spikes throughout the day and night that are a significant driver of mental restlessness. Write it down — giving the mobile Vata quality a direction by recording whatever is circling before bed reduces the load on the mind during sleep.</p>
 <h2>What Does Not Help.</h2>
