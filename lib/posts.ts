@@ -12,6 +12,54 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "alcohol-and-sleep",
+    category: "article",
+    title: "Alcohol and Sleep: Why Drinking Makes Your Nervous System More Tired",
+    date: "June 3, 2026",
+    excerpt: "Alcohol makes you fall asleep faster. It does not make you sleep well. Ayurveda explains why sedation and restoration are not the same thing.",
+    seoTitle: "Alcohol and Sleep: Why Drinking Makes Your Nervous System More Tired",
+    seoDescription: "Alcohol makes you fall asleep faster. It does not make you sleep well. Ayurveda explains why sedation and restoration are not the same thing.",
+    content: `<p>Alcohol can make you fall asleep faster. That does not mean it helps you sleep well. Many people use alcohol to shut the mind off. It softens anxiety, lowers inhibition, and creates temporary sedation. But Ayurveda would not confuse sedation with restoration. The body may go unconscious. The nervous system may not truly recover.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">"Alcohol is anxiolytic going in and anxiogenic coming out. The net effect over time is more anxiety, not less — and worse sleep, not better. For most people it postpones the nervous system problem rather than resolving it."</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">Sedation and restoration are not the same thing. Ayurveda has never confused them.</div>
+</div><h2>Why Alcohol Sleep Feels Different</h2><p>After drinking, many people notice waking at 3am, sweating, dry mouth, anxiety the next morning, shallow sleep, mood swings, cravings, and fatigue that persists through the day. Alcohol disrupts the body's ability to move through deep sleep smoothly. It also increases heat, dehydration, and inflammation — all of which create the restless, unrestorative quality of alcohol-induced sleep.</p><h2>Ayurveda's View</h2><p>Alcohol often aggravates Pitta first — the dosha of heat, metabolism, and intensity. When Pitta becomes excessive, the body runs hot at night, feels inflamed, wakes restlessly, and experiences the irritability that many people attribute to poor sleep rather than its actual cause. Alcohol may also aggravate Vata later, especially after the initial sedating effect wears off. That creates the classic pattern: sedated at first, anxious later.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">What alcohol does</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">The mechanism</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">What you notice</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Suppresses REM sleep</div>
+    <div style="font-size:13px;color:#4a3728;">Brain cannot complete memory consolidation cycles</div>
+    <div style="font-size:13px;color:#4a3728;">Groggy, poor recall, brain fog next day</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Cortisol rebound</div>
+    <div style="font-size:13px;color:#4a3728;">Blood sugar drops, cortisol spikes 4–6 hours later</div>
+    <div style="font-size:13px;color:#4a3728;">3am wakeup with anxiety, racing heart</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Aggravates Pitta</div>
+    <div style="font-size:13px;color:#4a3728;">Body temperature rises, liver works overtime</div>
+    <div style="font-size:13px;color:#4a3728;">Night sweats, irritability on waking</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Dehydrates the body</div>
+    <div style="font-size:13px;color:#4a3728;">Suppresses vasopressin, increases urination</div>
+    <div style="font-size:13px;color:#4a3728;">Dry mouth, headache, thirst on waking</div>
+  </div>
+</div><h2>Why You Wake at 3am After Drinking</h2><p>In Ayurveda, early-morning waking connects to Vata disturbance and internal heat during the 2–4am Vata window. Modern stress physiology points to the same cause: cortisol rebound, blood sugar shifts, and nervous system activation as alcohol metabolism completes. This is why alcohol and high cortisol patterns consistently overlap, and why the 3am wakeup is so predictable.</p><h2>What Helps After Drinking</h2><p><strong>Hydration and minerals.</strong> Alcohol dries the body. Support with water, electrolytes, and mineral-rich foods the following day.</p><p><strong>Cooling foods.</strong> Favour cucumber, coconut water, rice, cooked greens, fennel tea, and coriander. These cool the Pitta aggravation alcohol creates.</p><p><strong>Avoid punishing workouts.</strong> The body needs recovery, not more stress. Walk, stretch, sweat lightly if needed.</p><p><strong>Rebuild sleep rhythm over the following nights.</strong> Prioritise darkness, early dinner, no late caffeine, warm shower, and phone-free wind-down.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:8px;">The question worth asking</div>
+  <div style="font-size:20px;font-weight:700;color:#f5f0e8;font-family:Georgia,serif;margin-bottom:20px;">What does alcohol feel like it is solving — and what would address that directly?</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">If it quiets anxiety:</strong> Ashwagandha addresses cortisol. Consistent meal times stabilise blood sugar. Sesame oil on feet before bed activates the parasympathetic system.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">If it helps you decompress:</strong> Screens off at 9pm. Warm shower. Fennel or chamomile tea. Jatamansi for the racing thoughts. These address the activation directly.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">If it helps socially:</strong> The social benefit is real — but the sleep cost is real too. Even 1–2 drinks measurably reduces next-day cognitive function and sleep quality.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">The 2-week experiment:</strong> Two alcohol-free weeks shows most people what their baseline sleep quality actually is. Most find it meaningfully better than they remembered.</div>
+  </div>
+</div><h2>The Deeper Truth</h2><p>Alcohol often feels like nervous system relief. For many people, it postpones the anxiety rather than resolving it. Ayurveda asks a better question: what would help the body feel safe enough to sleep without needing to be sedated?</p>`
+  },
+  {
     slug: "overstimulation-ayurveda",
     category: "article",
     title: "Overstimulation Ayurveda: How Modern Life Aggravates Vata and Burns Out the Nervous System",
