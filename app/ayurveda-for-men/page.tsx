@@ -384,15 +384,15 @@ export default function AyurvedaForMenPage() {
             </h2>
 
             <p>
-              I'm not going to tell you Ayurveda will fix everything. I'm 14 days into my second week at an Ayurvedic retreat in Kerala, and it is hard work — physically, emotionally, and mentally. The treatments are intense. The diet is restrictive. The early mornings are brutal.
+              I'm not going to tell you Ayurveda will fix everything. What I will tell you is this: Ayurveda offers something genuinely different than what most men ever encounter around health. It's not another biohack. It's not another supplement stack. It's a framework built around your specific nature — and that framework actually works if you use it.
             </p>
 
             <p>
-              But I'm sleeping better than I have in years. My resting heart rate is dropping. The anxiety that has been my constant companion for most of my thirties has quieted noticeably. And I understand my body — its patterns, its tendencies, its signals — in a way I simply didn't before.
+              I'm sleeping better than I have in years. My resting heart rate has improved. The anxiety that was my constant companion for most of my thirties has quieted noticeably. And I understand my body — its patterns, its tendencies, its signals — in a way I simply didn't before.
             </p>
 
             <p>
-              For men who are high-functioning but quietly exhausted, for men who are managing their nervous system with alcohol or stimulants, for men who have tried all the generic wellness advice and found it doesn't hold — Ayurveda offers something different. A framework built around your specific nature. Tools calibrated to your type.
+              For men who are high-functioning but quietly exhausted, for men who are managing their nervous system with alcohol or stimulants, for men who have tried all the generic wellness advice and found it doesn't hold — Ayurveda offers a framework that is actually built around how your body works.
             </p>
 
             <blockquote className="border-l-4 border-[#C97F3D] pl-6 py-2 my-8 text-foreground italic text-lg">
@@ -431,11 +431,7 @@ export default function AyurvedaForMenPage() {
             <hr className="border-border my-12" />
 
             <p className="text-sm text-muted-foreground italic">
-              Alex is the founder of DoshaFlow and is currently documenting an Ayurvedic retreat in India. Follow along on the{" "}
-              <Link href="/blog" className="text-[#C97F3D] hover:underline">
-                blog
-              </Link>
-              .
+              Alex is the founder of DoshaFlow. Follow along on the <Link href="/journal" className="text-[#C97F3D] hover:underline">retreat journal</Link> or explore the <Link href="/blog" className="text-[#C97F3D] hover:underline">blog</Link>.
             </p>
           </div>
         </div>
@@ -445,3 +441,4 @@ export default function AyurvedaForMenPage() {
     </main>
   )
 }
+
