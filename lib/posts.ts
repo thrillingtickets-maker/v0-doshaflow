@@ -12,6 +12,62 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "overstimulation-ayurveda",
+    category: "article",
+    title: "Overstimulation Ayurveda: How Modern Life Aggravates Vata and Burns Out the Nervous System",
+    date: "June 3, 2026",
+    excerpt: "You want rest but silence feels uncomfortable. You are exhausted by your phone but keep checking it. Ayurveda has a 3,000-year framework for exactly this pattern.",
+    seoTitle: "Overstimulation Ayurveda: How Modern Life Aggravates Vata and Burns Out the Nervous System",
+    seoDescription: "You want rest but silence feels uncomfortable. You are exhausted by your phone but keep checking it. Ayurveda has a 3,000-year framework for exactly this pattern.",
+    content: `<p>Overstimulation is one of the most important modern health problems that most people do not name. You feel tired, but your brain keeps reaching for input. You want rest, but silence feels uncomfortable. You are exhausted by your phone, but you keep checking it. You are not weak. Your nervous system may be overloaded.</p><div style="background:#f5f0e8;border-radius:12px;padding:36px;margin:48px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:24px;">Signs of nervous system overstimulation</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;">
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Racing thoughts even at rest</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Poor sleep despite being tired</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Anxiety without a specific cause</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Irritability that seems disproportionate</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Inability to focus for more than a few minutes</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Emotional numbness alongside agitation</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Sound or light sensitivity</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Needing constant distraction — silence uncomfortable</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Tired but wired — body exhausted, mind won't stop</div>
+  </div>
+</div><h2>Why Vata Is the Overstimulation Dosha</h2><p>Vata governs movement — that includes thoughts, nerve impulses, sensory input, breath, speech, circulation, and sleep rhythms. Modern life constantly increases movement in the mind: scrolling, switching tabs, texting, driving, working, comparing, planning, responding. The nervous system rarely gets still. Eventually, Vata becomes aggravated. The mind begins to feel unsafe in its own quiet.</p><h2>Overstimulation Is Not the Same as Productivity</h2><p>Many people mistake stimulation for energy. But stimulation borrows from the nervous system. True energy feels steady. Overstimulation feels urgent. That difference matters. You can feel very busy and very activated and be depleting rapidly at the same time.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:24px;">Stimulation vs genuine energy — how to tell the difference</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+    <div style="background:white;border-radius:8px;padding:20px;">
+      <div style="font-size:15px;font-weight:700;color:#2a1f14;margin-bottom:12px;">Stimulation-driven state</div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <div style="font-size:13px;color:#4a3728;">• Feels urgent and activated</div>
+        <div style="font-size:13px;color:#4a3728;">• Crashes when input stops</div>
+        <div style="font-size:13px;color:#4a3728;">• Needs caffeine, novelty, noise to sustain</div>
+        <div style="font-size:13px;color:#4a3728;">• Feels anxious without a screen</div>
+        <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Borrows from the nervous system</div>
+      </div>
+    </div>
+    <div style="background:white;border-radius:8px;padding:20px;">
+      <div style="font-size:15px;font-weight:700;color:#2a1f14;margin-bottom:12px;">Genuine Ojas energy</div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <div style="font-size:13px;color:#4a3728;">• Feels steady and sustainable</div>
+        <div style="font-size:13px;color:#4a3728;">• Present in silence and stillness</div>
+        <div style="font-size:13px;color:#4a3728;">• Does not require external input to maintain</div>
+        <div style="font-size:13px;color:#4a3728;">• Wakes feeling ready, not needing to be activated</div>
+        <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Built through rest, nourishment, rhythm</div>
+      </div>
+    </div>
+  </div>
+</div><h2>Ayurveda for Overstimulation</h2><p><strong>Reduce input before adding treatment.</strong> Before adding herbs, supplements, routines, or protocols, reduce noise. The body cannot heal while constantly defending itself from input.</p><p><strong>Build rhythm.</strong> Vata calms with predictability. The most effective anchors: same wake time, regular meals, evening routine, warm breakfast, consistent bedtime. Not because rigidity is good but because Vata needs the nervous system to stop bracing for the unexpected.</p><p><strong>Use grounding foods.</strong> Favour cooked food, warm drinks, healthy fats, root vegetables, rice, and soups. Avoid excess caffeine, raw cold food, skipping meals, and late-night screen use.</p><p><strong>Walk without stimulation.</strong> No podcast. No music. No calls. Let the nervous system process. Ten minutes of genuinely unstimulated walking is more restorative than an hour of walking with headphones.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:8px;">The principle</div>
+  <div style="font-size:22px;font-weight:700;color:#f5f0e8;font-family:Georgia,serif;margin-bottom:20px;">To heal overstimulation, create less movement — not more management</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Less noise</strong> — before adding any protocol, reduce the inputs. No supplement compensates for constant overstimulation.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">More rhythm</strong> — Vata is pacified by predictability. Same mealtimes, same bedtime, same wake time. The nervous system stops bracing.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">More warmth</strong> — warm food, warm drinks, warm showers, warm oil. The body interprets warmth as safety. Safety is the opposite of activation.</div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">More stillness</strong> — walking without headphones, meals without screens, mornings without the phone. The nervous system needs practice being unstimulated.</div>
+  </div>
+</div><h2>The Real Medicine</h2><p>The modern nervous system does not just need more hacks. It needs fewer signals. Ayurveda's wisdom is simple here: to heal overstimulation, create less movement. Less noise. Less speed. Less input. More rhythm. More warmth. More stillness.</p>`
+  },
+  {
     slug: "burnout-vs-depression-ayurveda",
     category: "article",
     title: "Burnout vs Depression: Ayurveda's View on Emotional Exhaustion, Heaviness, and Nervous System Collapse",
