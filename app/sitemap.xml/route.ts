@@ -1,59 +1,42 @@
 import { NextResponse } from "next/server"
+import { posts } from "@/lib/posts"
 
 export async function GET() {
-  const lastmod = "2026-05-29"
-  const newPostsLastmod = "2026-06-06"
-  const dietPostsLastmod = "2026-06-13"
-  const missingPostsLastmod = "2026-05-31"
-
-  const urls = [
-    { loc: "https://www.doshaflow.com", lastmod },
-    { loc: "https://www.doshaflow.com/quiz", lastmod },
-    { loc: "https://www.doshaflow.com/blog/vata-dosha-guide", lastmod },
-    { loc: "https://www.doshaflow.com/blog/pitta-dosha-guide", lastmod },
-    { loc: "https://www.doshaflow.com/blog/kapha-dosha-guide", lastmod },
-    { loc: "https://www.doshaflow.com/blog/ayurveda-cold-smoothies", lastmod },
-    { loc: "https://www.doshaflow.com/blog/eating-for-your-dosha", lastmod },
-    { loc: "https://www.doshaflow.com/blog/ayurveda-coffee", lastmod },
-    { loc: "https://www.doshaflow.com/blog/ayurveda-hormonal-balance", lastmod },
-    { loc: "https://www.doshaflow.com/blog/ayurveda-pms", lastmod },
-    { loc: "https://www.doshaflow.com/blog/ayurveda-no-time", lastmod },
-    { loc: "https://www.doshaflow.com/blog/ayurveda-30-days", lastmod },
-    { loc: "https://www.doshaflow.com/blog/ayurveda-burnout", lastmod },
-    { loc: "https://www.doshaflow.com/blog/retreat-day-4", lastmod },
-    { loc: "https://www.doshaflow.com/blog/ayurvedic-tea-guide", lastmod: newPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/why-am-i-always-bloated", lastmod: newPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/ashwagandha-benefits", lastmod: newPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/ayurvedic-morning-routine", lastmod: newPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/best-herbs-for-anxiety", lastmod: newPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/signs-of-high-cortisol", lastmod: newPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/vata-diet-plan", lastmod: dietPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/pitta-diet-plan", lastmod: dietPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/kapha-diet-plan", lastmod: dietPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/best-ayurvedic-tea-anxiety", lastmod: dietPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/best-ayurvedic-tea-sleep", lastmod: dietPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/best-ayurvedic-tea-digestion", lastmod: dietPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/ayurvedic-weight-loss", lastmod: dietPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/signs-of-vata-imbalance", lastmod: missingPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/pitta-anger-sleep", lastmod: missingPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/kapha-morning-routine", lastmod: missingPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/nervous-system-burnout", lastmod: missingPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/why-am-i-always-tired", lastmod: missingPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/ayurveda-alcohol-recovery", lastmod: missingPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/ayurveda-alcohol", lastmod: missingPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/vata-foods-to-avoid", lastmod: missingPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/kapha-foods-to-avoid", lastmod: missingPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/best-ayurvedic-tea-anxiety", lastmod: missingPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/best-tea-for-bloating", lastmod: missingPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/best-tea-for-vata", lastmod: missingPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/best-tea-for-stress", lastmod: missingPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/perimenopause-ayurveda", lastmod: missingPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/ayurvedic-skin-guide", lastmod: missingPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/retreat-day-5", lastmod: missingPostsLastmod },
-    { loc: "https://www.doshaflow.com/blog/retreat-day-6", lastmod: missingPostsLastmod },
+  // Static pages
+  const staticPages = [
+    { loc: "https://www.doshaflow.com", lastmod: "2026-06-04" },
+    { loc: "https://www.doshaflow.com/quiz", lastmod: "2026-06-04" },
+    { loc: "https://www.doshaflow.com/about", lastmod: "2026-06-04" },
+    { loc: "https://www.doshaflow.com/blog", lastmod: "2026-06-04" },
+    { loc: "https://www.doshaflow.com/samples", lastmod: "2026-06-04" },
+    { loc: "https://www.doshaflow.com/ayurveda-for-men", lastmod: "2026-06-04" },
+    { loc: "https://www.doshaflow.com/ayurveda-for-women", lastmod: "2026-06-04" },
+    { loc: "https://www.doshaflow.com/vata", lastmod: "2026-06-04" },
+    { loc: "https://www.doshaflow.com/pitta", lastmod: "2026-06-04" },
+    { loc: "https://www.doshaflow.com/kapha", lastmod: "2026-06-04" },
+    { loc: "https://www.doshaflow.com/dosha-diets", lastmod: "2026-06-04" },
+    { loc: "https://www.doshaflow.com/start-here", lastmod: "2026-06-04" },
   ]
 
-  const urlEntries = urls
+  // Dynamic blog articles from posts.ts - filter duplicates by slug
+  const seenSlugs = new Set<string>()
+  const uniquePosts = posts.filter(post => {
+    if (seenSlugs.has(post.slug)) {
+      return false // Skip duplicate
+    }
+    seenSlugs.add(post.slug)
+    return true
+  })
+
+  const blogArticles = uniquePosts.map(post => ({
+    loc: `https://www.doshaflow.com/blog/${post.slug}`,
+    lastmod: "2026-06-04",
+  }))
+
+  // Combine all URLs
+  const allUrls = [...staticPages, ...blogArticles]
+
+  const urlEntries = allUrls
     .map(
       (entry) => `  <url>
     <loc>${entry.loc}</loc>
