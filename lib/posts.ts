@@ -12,6 +12,67 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "why-am-i-always-exhausted",
+    category: "article",
+    title: "Why Am I Always Exhausted? Ayurveda's View on Deep Fatigue, Burnout, and Low Ojas",
+    date: "June 3, 2026",
+    excerpt: "Tired improves with sleep. Exhausted follows you into the morning. Ayurveda identifies depleted Ojas as the pattern beneath most chronic exhaustion — and has a specific protocol for rebuilding it.",
+    seoTitle: "Why Am I Always Exhausted? Ayurveda's View on Deep Fatigue, Burnout, and Low Ojas",
+    seoDescription: "Tired improves with sleep. Exhausted follows you into the morning. Ayurveda identifies depleted Ojas as the pattern beneath most chronic exhaustion — and has a specific protocol for rebuilding it.",
+    content: `<p>There is tired, and then there is exhausted. Tired improves with sleep. Exhausted follows you into the morning. You wake up already behind. Coffee helps for an hour, then disappears. You push through the day, but your body feels like it is running on emergency power. In Ayurveda, this kind of exhaustion often points to depleted Ojas.</p><div style="background:#f0ebe2;border-radius:12px;padding:48px;text-align:center;margin:48px 0;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">"Ojas is not a concept. It is a physiological state that modern science increasingly recognises as the cumulative result of consistent sleep, nourishing food, reduced stress load, and time. It cannot be purchased. It can only be built."</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">When Ojas is depleted, every system runs on reserve power. The body keeps functioning — but nothing restores.</div>
+</div><h2>What Is Ojas?</h2><p>Ojas is often described as the subtle essence of vitality, immunity, resilience, and deep nourishment. It is produced at the end of a 35-day tissue refinement cycle — the most refined product of healthy digestion and good living. When Ojas is strong, you feel steady, grounded, resilient, emotionally stable, well-rested, and able to recover. When Ojas is low, you feel fragile, drained, anxious, depleted, easily overwhelmed, slow to recover, and emotionally thin.</p><h2>Why Exhaustion Happens</h2><p>Modern exhaustion usually comes from repeated withdrawals without deposits. The body spends energy on stress, screens, alcohol, poor sleep, overworking, overthinking, under-eating, overtraining, and emotional strain. But the deposits — nourishing food, deep sleep, rest, rhythm, warmth — never match the withdrawals. Eventually the body stops responding to motivation. It asks for restoration.</p><div style="background:#f5f0e8;border-radius:12px;padding:36px;margin:40px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:24px;">The most common Ojas drains — ranked by how much people underestimate them</div>
+  <div style="display:flex;flex-direction:column;gap:10px;">
+    <div style="display:grid;grid-template-columns:32px 1fr;gap:14px;align-items:center;background:white;border-radius:8px;padding:14px 16px;">
+      <div style="font-size:16px;font-weight:700;color:#b5763a;text-align:center;">1</div>
+      <div><strong style="font-size:14px;color:#2a1f14;">Poor sleep timing</strong><span style="font-size:13px;color:#4a3728;"> — the hours before midnight are more restorative than the same hours after. Most chronically exhausted people sleep late, not too little.</span></div>
+    </div>
+    <div style="display:grid;grid-template-columns:32px 1fr;gap:14px;align-items:center;background:white;border-radius:8px;padding:14px 16px;">
+      <div style="font-size:16px;font-weight:700;color:#b5763a;text-align:center;">2</div>
+      <div><strong style="font-size:14px;color:#2a1f14;">Alcohol</strong><span style="font-size:13px;color:#4a3728;"> — suppresses growth hormone, fragments deep sleep, creates cortisol rebound. Drains Ojas faster than almost any other single input.</span></div>
+    </div>
+    <div style="display:grid;grid-template-columns:32px 1fr;gap:14px;align-items:center;background:white;border-radius:8px;padding:14px 16px;">
+      <div style="font-size:16px;font-weight:700;color:#b5763a;text-align:center;">3</div>
+      <div><strong style="font-size:14px;color:#2a1f14;">Irregular eating</strong><span style="font-size:13px;color:#4a3728;"> — blood sugar instability creates repeated cortisol spikes that burn through adrenal reserves around the clock.</span></div>
+    </div>
+    <div style="display:grid;grid-template-columns:32px 1fr;gap:14px;align-items:center;background:white;border-radius:8px;padding:14px 16px;">
+      <div style="font-size:16px;font-weight:700;color:#b5763a;text-align:center;">4</div>
+      <div><strong style="font-size:14px;color:#2a1f14;">Chronic low-grade stress</strong><span style="font-size:13px;color:#4a3728;"> — it is not the acute stress events that deplete Ojas. It is the constant background activation that never fully resolves.</span></div>
+    </div>
+  </div>
+</div><h2>Ayurveda's View by Dosha</h2><p><strong>Vata exhaustion</strong> feels wired, anxious, scattered, and unable to rest even when exhausted. The nervous system is depleted but cannot down-regulate.</p><p><strong>Pitta exhaustion</strong> feels irritable, inflamed, intense, and burned out from over-performance. The fire has consumed its own fuel.</p><p><strong>Kapha exhaustion</strong> feels heavy, slow, foggy, and stuck. The metabolism has slowed to the point where even sleep does not restore.</p><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin:40px 0;">
+  <div style="border-radius:8px;overflow:hidden;">
+    <div style="background:#2a1f14;padding:16px 20px;"><div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;">Vata exhaustion</div><div style="font-size:15px;font-weight:700;color:#f5f0e8;margin-top:4px;">Wired and depleted</div></div>
+    <div style="background:#f5f0e8;padding:20px;display:flex;flex-direction:column;gap:8px;">
+      <div style="font-size:13px;color:#4a3728;">Tired but can't rest</div>
+      <div style="font-size:13px;color:#4a3728;">Anxious underneath the fatigue</div>
+      <div style="font-size:13px;color:#4a3728;">Digestion irregular</div>
+      <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Ashwagandha, warmth, early bed</div>
+    </div>
+  </div>
+  <div style="border-radius:8px;overflow:hidden;">
+    <div style="background:#2a1f14;padding:16px 20px;"><div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;">Pitta exhaustion</div><div style="font-size:15px;font-weight:700;color:#f5f0e8;margin-top:4px;">Burned and inflamed</div></div>
+    <div style="background:#f5f0e8;padding:20px;display:flex;flex-direction:column;gap:8px;">
+      <div style="font-size:13px;color:#4a3728;">Crashed after intensity</div>
+      <div style="font-size:13px;color:#4a3728;">Irritable, hot, brain fog</div>
+      <div style="font-size:13px;color:#4a3728;">Alcohol and overwork history</div>
+      <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Brahmi, no alcohol, cooling foods</div>
+    </div>
+  </div>
+  <div style="border-radius:8px;overflow:hidden;">
+    <div style="background:#2a1f14;padding:16px 20px;"><div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;">Kapha exhaustion</div><div style="font-size:15px;font-weight:700;color:#f5f0e8;margin-top:4px;">Heavy and stuck</div></div>
+    <div style="background:#f5f0e8;padding:20px;display:flex;flex-direction:column;gap:8px;">
+      <div style="font-size:13px;color:#4a3728;">Sleeps a lot, still tired</div>
+      <div style="font-size:13px;color:#4a3728;">Heavy, foggy, flat motivation</div>
+      <div style="font-size:13px;color:#4a3728;">Slow metabolism, weight</div>
+      <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">Fix: Early wake, trikatu, vigorous movement</div>
+    </div>
+  </div>
+</div><h2>What Helps</h2><p><strong>Stop under-recovering.</strong> Recovery is not optional — it is where Ojas is rebuilt. A week off after months of depletion is not enough. The rebuilding takes the same duration as the depletion.</p><p><strong>Eat real meals.</strong> Warm, nourishing food rebuilds more than cold snacks and stimulants. Ojas is literally produced from food — but only when digestion is strong and the food is genuinely nourishing.</p><p><strong>Protect sleep.</strong> Sleep is the primary Ojas-building window. Sleep before 10pm consistently. This one change, held for weeks, produces more restoration than most supplements.</p><p><strong>Reduce alcohol and late-night screens.</strong> Both drain recovery even when they feel temporarily relieving. Alcohol suppresses growth hormone during sleep. Screens delay melatonin onset. Both cost Ojas.</p><h2>The Deeper Truth</h2><p>Constant exhaustion is not a character flaw. It is often the body telling the truth about a life that has demanded too much and restored too little. Ayurveda does not ask you to push harder. It asks you to rebuild.</p>`
+  },
+  {
     slug: "nervous-system-dysregulation-ayurveda",
     category: "article",
     title: "Nervous System Dysregulation: Ayurveda's View on Feeling Anxious, Numb, Wired, and Exhausted",
@@ -1328,7 +1389,7 @@ export const posts: Post[] = [
     excerpt: "Pitta imbalance causes anger, skin inflammation, acid reflux, and the 10pm-2am sleep disruption pattern. Here is what is happening and what actually helps.",
     seoTitle: "Pitta and Anger: Why You Are Irritable, Inflamed, and Not Sleeping",
     seoDescription: "Pitta imbalance causes anger, skin inflammation, acid reflux, and the 10pm-2am sleep disruption pattern. Here is what is happening and what actually helps.",
-    content: `<h2>Why Pitta produces anger.</h2><p>Anger in Ayurveda is understood as excess heat with nowhere to go. Pitta is fire and water — the transformative, intense dosha. When Pitta is in balance, this fire produces clarity and decisive action. When Pitta accumulates beyond productive use, it expresses as irritability and anger. The anger is not emotional — it is physiological. It is excess heat in the system manifesting as a sharp, cutting emotion. The triggers are predictable: heat, hunger (Pitta's blood sugar sensitivity is acute — a skipped meal produces irritability clockwork), alcohol, spicy food, overwork, frustration of high standards not met.</p><h2>Why Pitta disrupts sleep.</h2><p>Pitta time is 10pm-2am — the body is processing and the mind engages in focused analytical processing, producing the second wind phenomenon and the 10pm-2am waking. Second Pitta sleep pattern is light easily disturbed sleep — physical heat fragments Pitta sleep directly.</p><h2>The physical signs that Pitta is elevated.</h2><p>Skin inflammation correlating with stress/alcohol/diet, acid reflux gastritis loose stool burning, excessive sweating, heavy menstrual flow and heightened PMS.</p><h2>What elevates Pitta.</h2><p>Alcohol most consistent, spicy sour salty food, hot weather midday sun, overwork and competitive pressure, criticism and injustice.</p><h2>What to do about it.</h2><p>Cool the system with cucumber coconut greens coriander fennel, sleep before 10pm, brahmi for mind, shatavari for women, reduce competition with yourself — restorative yoga swimming.</p>`,
+    content: `<h2>Why Pitta produces anger.</h2><p>Anger in Ayurveda is understood as excess heat with nowhere to go. Pitta is fire and water — the transformative, intense dosha. When Pitta is in balance, this fire produces clarity and decisive action. When Pitta accumulates beyond productive use, it expresses as irritability and anger. The anger is not emotional — it is physiological. It is excess heat in the system manifesting as a sharp, cutting emotion. The triggers are predictable: heat, hunger (Pitta's blood sugar sensitivity is acute — a skipped meal produces irritability clockwork), alcohol, spicy food, overwork, frustration of high standards not met.</p><h2>Why Pitta disrupts sleep.</h2><p>Pitta time is 10pm-2am — the body is processing and the mind engages in focused analytical processing, producing the second wind phenomenon and the 10pm-2am waking. Second Pitta sleep pattern is light easily disturbed sleep — physical heat fragments Pitta sleep directly.</p><h2>The physical signs that Pitta is elevated.</h2><p>Skin inflammation correlating with stress/alcohol/diet, acid reflux gastritis loose stool burning, excessive sweating, heavy menstrual flow and heightened PMS.</p><h2>What elevates Pitta.</h2><p>Alcohol most consistent, spicy sour salty food, hot weather midday sun, overwork and competitive pressure, criticism and injustice.</p><h2>What to do about it.</h2><p>Cool the system with cucumber coconut greens coriander fennel, sleep before 10pm, brahmi for mind, shatavari for women, reduce competition with yourself ��� restorative yoga swimming.</p>`,
   },
   {
     slug: "signs-of-vata-imbalance",
