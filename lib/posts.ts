@@ -223,6 +223,73 @@ export const posts: Post[] = [
 </div><h2>The Real Medicine</h2><p>The modern nervous system does not just need more hacks. It needs fewer signals. Ayurveda's wisdom is simple here: to heal overstimulation, create less movement. Less noise. Less speed. Less input. More rhythm. More warmth. More stillness.</p>`
   },
   {
+    slug: "burnout-vs-depression",
+    category: "article",
+    title: "Burnout vs Depression: Ayurveda's View on Emotional Exhaustion, Heaviness, and Nervous System Collapse",
+    date: "June 3, 2026",
+    excerpt: "Burnout and depression look similar from the outside. Ayurveda identifies them as distinct patterns requiring opposite interventions. Here is how to tell them apart.",
+    seoTitle: "Burnout vs Depression: Ayurveda's View on Emotional Exhaustion, Heaviness, and Nervous System Collapse",
+    seoDescription: "Burnout and depression look similar from the outside. Ayurveda identifies them as distinct patterns requiring opposite interventions. Here is how to tell them apart.",
+    content: `<p>Burnout and depression can look similar from the outside. Low motivation. Exhaustion. Withdrawal. Brain fog. Irritability. Difficulty caring. But they are not always the same pattern, and treating them as identical produces the wrong intervention.</p><p>Burnout often begins as too much. Too much stress. Too much output. Too much stimulation. Too much responsibility. Too much holding it together.</p><p>Depression often feels like not enough. Not enough energy. Not enough pleasure. Not enough hope. Not enough movement inside.</p><p>Ayurveda looks at both through the lens of dosha, nervous system state, digestion, sleep, and depletion.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
+  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">"Burnout is a depletion problem. Depression is often a stagnation problem. Treating depletion with stimulation makes it worse. Treating stagnation with rest makes it worse. The intervention depends entirely on which pattern you are in."</div>
+  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">Ayurveda identifies these as fundamentally different states requiring opposite approaches.</div>
+</div><h2>Burnout Is Often Depletion After Overdrive</h2><p>Burnout frequently begins with chronic activation. You push through stress for too long. The body adapts until it cannot. The pattern is often Vata-Pitta: nervous system agitation combined with the heat, pressure, and over-performance of Pitta. The body looks energised on the surface while its deeper reserves quietly collapse. This connects directly to nervous system burnout and high cortisol — the body has been running on stress hormones and eventually the reserves run out.</p><h2>Kapha Heaviness and Depression</h2><p>In Ayurveda, emotional heaviness is often associated with Kapha imbalance. Kapha governs structure, stability, and groundedness. When balanced, Kapha is calm, loyal, and loving. When stagnant, Kapha can feel like lethargy, emotional heaviness, oversleeping, low motivation, comfort eating, isolation, and feeling stuck. This does not mean all depression is Kapha — but many heavy emotional states have Kapha qualities that respond to different interventions than burnout does.</p><h2>Where They Overlap — and How to Tell Them Apart</h2><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:120px 1fr 1fr;background:#2a1f14;padding:12px 20px;">
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;"></div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Burnout (Vata-Pitta)</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Heavy low mood (Kapha)</div>
+  </div>
+  <div style="display:grid;grid-template-columns:120px 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Origin</div>
+    <div style="font-size:13px;color:#4a3728;">Gave too much for too long</div>
+    <div style="font-size:13px;color:#4a3728;">Accumulated heaviness, inertia</div>
+  </div>
+  <div style="display:grid;grid-template-columns:120px 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Energy feel</div>
+    <div style="font-size:13px;color:#4a3728;">Wired then crashed — fried</div>
+    <div style="font-size:13px;color:#4a3728;">Heavy, slow, doesn't want to move</div>
+  </div>
+  <div style="display:grid;grid-template-columns:120px 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Sleep</div>
+    <div style="font-size:13px;color:#4a3728;">Poor — can't wind down</div>
+    <div style="font-size:13px;color:#4a3728;">Excessive — never feels enough</div>
+  </div>
+  <div style="display:grid;grid-template-columns:120px 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">The fix</div>
+    <div style="font-size:13px;color:#4a3728;">Restoration — reduce, nourish, rest</div>
+    <div style="font-size:13px;color:#4a3728;">Activation — move, stimulate, lighten</div>
+  </div>
+  <div style="display:grid;grid-template-columns:120px 1fr 1fr;padding:14px 20px;background:#faf7f2;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Key herb</div>
+    <div style="font-size:13px;color:#4a3728;">Ashwagandha, Brahmi</div>
+    <div style="font-size:13px;color:#4a3728;">Trikatu, ginger, movement</div>
+  </div>
+</div><p>The difference is often in the origin. Burnout often says: I gave too much. Kapha depression often says: I cannot move. Getting this right matters because the interventions are almost opposite: burnout needs restoration and reduction of stimulation, while Kapha heaviness needs gentle activation and stimulation.</p><h2>Ayurvedic Support</h2><div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:40px 0;">
+  <div style="border-radius:8px;overflow:hidden;">
+    <div style="background:#2a1f14;padding:16px 20px;"><div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;">For burnout</div><div style="font-size:15px;font-weight:700;color:#f5f0e8;margin-top:4px;">Restore and reduce</div></div>
+    <div style="background:#f5f0e8;padding:20px;display:flex;flex-direction:column;gap:8px;">
+      <div style="font-size:13px;color:#4a3728;">• Reduce stimulation and inputs first</div>
+      <div style="font-size:13px;color:#4a3728;">• Rebuild sleep before anything else</div>
+      <div style="font-size:13px;color:#4a3728;">• Warm meals at consistent times</div>
+      <div style="font-size:13px;color:#4a3728;">• Less caffeine and alcohol</div>
+      <div style="font-size:13px;color:#4a3728;">• Ashwagandha nightly — 8+ weeks</div>
+      <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">The body needs to feel safe, not pushed</div>
+    </div>
+  </div>
+  <div style="border-radius:8px;overflow:hidden;">
+    <div style="background:#2a1f14;padding:16px 20px;"><div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;">For Kapha depression</div><div style="font-size:15px;font-weight:700;color:#f5f0e8;margin-top:4px;">Activate and lighten</div></div>
+    <div style="background:#f5f0e8;padding:20px;display:flex;flex-direction:column;gap:8px;">
+      <div style="font-size:13px;color:#4a3728;">• Daily movement — walks, gentle yoga</div>
+      <div style="font-size:13px;color:#4a3728;">• Warming, stimulating spices — ginger, cayenne</div>
+      <div style="font-size:13px;color:#4a3728;">• Lighter meals, more vegetables</div>
+      <div style="font-size:13px;color:#4a3728;">• Social connection and engagement</div>
+      <div style="font-size:13px;color:#4a3728;">• Trikatu to kindle digestion</div>
+      <div style="font-size:13px;font-weight:600;color:#b5763a;margin-top:8px;">The body needs to feel mobilised, not rested</div>
+    </div>
+  </div>
+</div><h2>Important Note</h2><p>If you feel persistently hopeless, unsafe, or unable to function, seek professional support. Ayurveda can support the body and nervous system, but it should not replace mental health care when deeper help is needed. Both burnout and depression can benefit from working with a qualified practitioner alongside the lifestyle interventions described here.</p><h2>The Deeper Distinction</h2><p>Burnout often needs restoration. Kapha heaviness often needs gentle activation. Both need compassion. Neither improves through shame.</p><p><em>Take the <a href="/quiz" style="color:#b5763a;text-decoration:underline;">dosha quiz</a> to understand your constitution. Or explore more on <a href="/blog/ashwagandha-burnout" style="color:#b5763a;text-decoration:underline;">ashwagandha for burnout</a>, <a href="/blog/tired-but-wired" style="color:#b5763a;text-decoration:underline;">nervous system dysregulation</a>, and <a href="/blog/best-ayurvedic-tea-sleep" style="color:#b5763a;text-decoration:underline;">sleep recovery</a>.</em></p>`,
+  },
+  {
     slug: "burnout-vs-depression-ayurveda",
     category: "article",
     title: "Burnout vs Depression: Ayurveda's View on Emotional Exhaustion, Heaviness, and Nervous System Collapse",
