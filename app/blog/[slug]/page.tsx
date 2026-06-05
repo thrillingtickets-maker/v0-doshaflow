@@ -2,9 +2,11 @@ import { getPostBySlug, getAllPosts } from "@/lib/posts"
 import { Navigation } from "@/components/navigation"
 import { ArticleHero } from "@/components/article-hero"
 import { Footer } from "@/components/footer"
+import { ArticleEmailCapture } from "@/components/article-email-capture"
 import { highlightMap } from "@/lib/article-colors"
 import { processArticleContent } from "@/lib/process-article-content"
 import { calculateReadingTime, formatReadingTime } from "@/lib/reading-time"
+import { getRelatedArticles } from "@/lib/related-articles"
 import { ArrowLeft } from "lucide-react"
 import { notFound } from "next/navigation"
 import Link from "next/link"
@@ -40,6 +42,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   
   const highlightWord = highlightMap[slug]
   const readingTime = calculateReadingTime(post.content)
+  const relatedArticles = getRelatedArticles(slug)
 
   return (
     <>
@@ -370,6 +373,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             style={{ color: "#2c1a0e", lineHeight: 1.85 }}
             dangerouslySetInnerHTML={{ __html: processArticleContent(post.content) }}
           />
+
+          {/* Email Capture Section */}
+          <ArticleEmailCapture articleTitle={post.title} />
+
           {/* Related Reading Section */}
           <style>{`
             .related-reading-links a {
@@ -386,15 +393,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           `}</style>
           <div style={{ marginTop: "64px", padding: "32px", borderRadius: "12px", background: "#f5f0e8", border: "1px solid #e0d5c5" }}>
             <div style={{ fontSize: "12px", letterSpacing: "0.12em", textTransform: "uppercase", color: "#b5763a", marginBottom: "18px" }}>
-              Related Reading
+              Continue Reading
             </div>
             <div style={{ display: "grid", gap: "14px" }} className="related-reading-links">
-              <a href="/quiz">Discover Your Dosha →</a>
-              <a href="/blog/best-ayurvedic-tea">Best Ayurvedic Tea for Stress & Sleep →</a>
-              <a href="/blog/ayurveda-for-stress">Ayurveda for Nervous System Stress →</a>
-              <a href="/blog/ayurveda-for-sleep">Ayurveda for Deep Sleep →</a>
-              <a href="/start-here">Vata, Pitta & Kapha Diet Plans →</a>
-              <a href="/blog/ayurveda-for-hair-loss">Ayurveda for Hair Loss →</a>
+              {relatedArticles.map((article) => (
+                <a key={article.href} href={article.href}>
+                  {article.title} →
+                </a>
+              ))}
             </div>
           </div>
 
