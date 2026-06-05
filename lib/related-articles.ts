@@ -18,7 +18,7 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
   ],
   "nervous-system-burnout": [
     { title: "Best Herbs for Anxiety", href: "/blog/best-herbs-for-anxiety" },
-    { title: "Alcohol and Sleep", href: "/blog/alcohol-and-sleep" },
+    { title: "Alcohol and Sleep", href: "/blog/alcohol-ayurveda" },
     { title: "Sleep Recovery", href: "/blog/ayurveda-for-sleep" },
     { title: "Why I'm Building DoshaFlow", href: "/blog/why-building-doshaflow" },
     { title: "Retreat Journal: Day 10", href: "/blog/retreat-day-10" },
@@ -29,7 +29,7 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
   "sleep": [
     { title: "Best Ayurvedic Tea for Sleep", href: "/blog/best-ayurvedic-tea-sleep" },
     { title: "Stress and Nervous System Recovery", href: "/blog/ayurveda-for-stress" },
-    { title: "Why Alcohol Ruins Sleep", href: "/blog/alcohol-and-sleep" },
+    { title: "Why Alcohol Ruins Sleep", href: "/blog/alcohol-ayurveda" },
     { title: "Vata Dosha Guide", href: "/vata" },
     { title: "Discover Your Dosha", href: "/quiz" },
   ],
@@ -117,7 +117,7 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
   
   // Retreat journal
   "retreat-day": [
-    { title: "Alcohol and Sleep", href: "/blog/alcohol-and-sleep" },
+    { title: "Alcohol and Sleep", href: "/blog/alcohol-ayurveda" },
     { title: "Sleep and Healing", href: "/blog/ayurveda-for-sleep" },
     { title: "Chronic Pain and Rest", href: "/blog/chronic-pain-management" },
     { title: "Why I'm Building DoshaFlow", href: "/blog/why-building-doshaflow" },
