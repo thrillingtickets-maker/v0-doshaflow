@@ -571,6 +571,78 @@ function BlogContent() {
               )}
             </div>
           )}
+
+          {/* Editorial Essays Featured Section */}
+          {selectedFilter === "All" && !searchQuery.trim() && (
+            <div style={{ marginBottom: "72px" }}>
+              <div style={{ marginBottom: "40px" }}>
+                <h2 style={{ fontSize: "20px", fontWeight: 700, color: "#1a1a1a", marginBottom: "12px" }}>
+                  Editorial Essays
+                </h2>
+                <p style={{ fontSize: "14px", color: "#8a7a6e" }}>
+                  Founder essays exploring lived experience with Ayurveda, burnout, healing, and modern wellness.
+                </p>
+              </div>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "32px" }}>
+                {paginatedPosts
+                  .filter(p => p.category === "editorial")
+                  .slice(0, 3)
+                  .map((post) => (
+                    <article
+                      key={post.slug}
+                      style={{
+                        backgroundColor: "#faf7f0",
+                        border: "1px solid #e8d9c5",
+                        borderLeft: "3px solid #a89a7a",
+                        borderRadius: "8px",
+                        padding: "32px",
+                        display: "flex",
+                        flexDirection: "column",
+                        transition: "all 0.3s ease",
+                        cursor: "pointer",
+                        boxShadow: "0 2px 8px rgba(0, 0, 0, 0.04)",
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.boxShadow = "0 8px 20px rgba(0, 0, 0, 0.08)";
+                        e.currentTarget.style.transform = "translateY(-2px)";
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.boxShadow = "0 2px 8px rgba(0, 0, 0, 0.04)";
+                        e.currentTarget.style.transform = "translateY(0)";
+                      }}
+                    >
+                      <div style={{ fontSize: "11px", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: "#a89a7a", marginBottom: "12px" }}>
+                        Essay
+                      </div>
+                      <h3 style={{ fontSize: "18px", fontWeight: 700, lineHeight: 1.4, marginBottom: "12px", color: "#1a1a1a", flex: 1 }}>
+                        <Link href={`/blog/${post.slug}`} style={{ color: "inherit", textDecoration: "none" }}>
+                          {post.title}
+                        </Link>
+                      </h3>
+                      <p style={{ fontSize: "14px", lineHeight: 1.6, color: "#5a5048", marginBottom: "20px", flex: 1 }}>
+                        {post.excerpt}
+                      </p>
+                      <Link
+                        href={`/blog/${post.slug}`}
+                        style={{
+                          display: "inline-flex",
+                          alignItems: "center",
+                          gap: "6px",
+                          color: "#b5763a",
+                          fontWeight: 600,
+                          fontSize: "13px",
+                          textDecoration: "none",
+                        }}
+                      >
+                        Read essay
+                        <ArrowRight size={14} />
+                      </Link>
+                    </article>
+                  ))}
+              </div>
+            </div>
+          )}
+
           <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "48px" }}>
             {paginatedPosts.map((post) => {
               const isRetreatJournal = post.slug.includes("retreat-day")
