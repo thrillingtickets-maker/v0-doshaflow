@@ -4,21 +4,21 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
   "anxiety": [
     { title: "Stress and the Nervous System", href: "/blog/ayurveda-for-stress" },
     { title: "Burnout vs Depression: A Dosha Perspective", href: "/blog/nervous-system-burnout" },
-    { title: "Sleep Recovery After Burnout", href: "/blog/ayurveda-for-sleep" },
+    { title: "Sleep Recovery After Burnout", href: "/blog/ayurveda-for-insomnia" },
     { title: "Best Herbs for Anxiety", href: "/blog/best-herbs-for-anxiety" },
     { title: "Vata Dosha Guide", href: "/vata" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
   "stress": [
-    { title: "Anxiety and Overstimulation", href: "/blog/anxiety" },
-    { title: "Nervous System Dysregulation", href: "/blog/nervous-system-dysregulation-ayurveda" },
+    { title: "Anxiety and Overstimulation", href: "/blog/ayurveda-for-anxiety" },
+    { title: "Nervous System Dysregulation", href: "/blog/ayurveda-for-anxiety" },
     { title: "Best Ayurvedic Tea for Sleep", href: "/blog/best-ayurvedic-tea-sleep" },
     { title: "Pitta Dosha Guide", href: "/pitta" },
     { title: "Discover Your Dosha", href: "/quiz" },
   ],
   "nervous-system-burnout": [
     { title: "Best Herbs for Anxiety", href: "/blog/best-herbs-for-anxiety" },
-    { title: "Alcohol and Ayurveda", href: "/blog/alcohol-ayurveda" },
+    { title: "Alcohol and Sleep", href: "/blog/alcohol-and-sleep" },
     { title: "Sleep Recovery", href: "/blog/ayurveda-for-sleep" },
     { title: "Why I'm Building DoshaFlow", href: "/blog/why-building-doshaflow" },
     { title: "Retreat Journal: Day 10", href: "/blog/retreat-day-10" },
@@ -29,36 +29,36 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
   "sleep": [
     { title: "Best Ayurvedic Tea for Sleep", href: "/blog/best-ayurvedic-tea-sleep" },
     { title: "Stress and Nervous System Recovery", href: "/blog/ayurveda-for-stress" },
-    { title: "Why Alcohol Ruins Sleep", href: "/blog/alcohol-ayurveda" },
+    { title: "Why Alcohol Ruins Sleep", href: "/blog/alcohol-and-sleep" },
     { title: "Vata Dosha Guide", href: "/vata" },
     { title: "Discover Your Dosha", href: "/quiz" },
   ],
   "tired": [
-    { title: "Sleep Recovery Protocols", href: "/blog/ayurveda-for-sleep" },
+    { title: "Sleep Recovery Protocols", href: "/blog/ayurveda-for-insomnia" },
     { title: "Kapha Imbalance and Lethargy", href: "/kapha" },
     { title: "Burnout vs Depression", href: "/blog/nervous-system-burnout" },
-    { title: "Chronic Exhaustion", href: "/blog/chronic-pain-management" },
+    { title: "Chronic Exhaustion", href: "/blog/ayurveda-burnout" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
   
   // Digestive cluster
   "digest": [
     { title: "Why Am I Always Bloated", href: "/blog/why-am-i-always-bloated" },
-    { title: "Ice Water and Digestion", href: "/blog/ice-water-ayurveda" },
-    { title: "Best Herbs for Digestion", href: "/blog/best-herbs-digestion" },
+    { title: "Ice Water and Digestion", href: "/blog/ayurveda-ice-water" },
+    { title: "Best Herbs for Digestion", href: "/blog/best-ayurvedic-tea-digestion" },
     { title: "Pitta Dosha Guide", href: "/pitta" },
     { title: "Discover Your Dosha", href: "/quiz" },
   ],
   "bloat": [
-    { title: "Digestion and Vata", href: "/blog/ayurveda-digestion" },
-    { title: "Ice Water Destroys Digestion", href: "/blog/ice-water-ayurveda" },
-    { title: "Tea for Digestive Health", href: "/blog/best-ayurvedic-tea" },
+    { title: "Digestion and Vata", href: "/blog/ayurveda-for-ibs" },
+    { title: "Ice Water Destroys Digestion", href: "/blog/ayurveda-ice-water" },
+    { title: "Tea for Digestive Health", href: "/blog/best-ayurvedic-tea-digestion" },
     { title: "Kapha Dosha Guide", href: "/kapha" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
   
   // Alcohol cluster
-  "alcohol-ayurveda": [
+  "alcohol": [
     { title: "Sleep Recovery", href: "/blog/ayurveda-for-sleep" },
     { title: "Burnout and Nervous System", href: "/blog/nervous-system-burnout" },
     { title: "Honest Beginner's Guide to Ayurveda", href: "/blog/honest-beginners-guide-ayurveda-2026" },
@@ -77,7 +77,7 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
   
   // Herb articles
   "herb": [
-    { title: "Ashwagandha Benefits", href: "/blog/ashwagandha-ayurveda" },
+    { title: "Ashwagandha Benefits", href: "/blog/ashwagandha-benefits" },
     { title: "Best Herbs for Anxiety", href: "/blog/best-herbs-for-anxiety" },
     { title: "Dosha-Specific Herbs", href: "/start-here" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
@@ -108,16 +108,16 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
   
   // Chronic pain/healing
   "chronic-pain": [
-    { title: "Sleep and Recovery", href: "/blog/ayurveda-for-sleep" },
+    { title: "Sleep and Recovery", href: "/blog/ayurveda-for-insomnia" },
     { title: "Stress Causes Pain", href: "/blog/ayurveda-for-stress" },
-    { title: "Nervous System and Chronic Pain", href: "/blog/nervous-system-dysregulation-ayurveda" },
-    { title: "Retreat Experience", href: "/blog/retreat-day-10" },
+    { title: "Nervous System and Chronic Pain", href: "/blog/ayurveda-for-anxiety" },
+    { title: "Retreat Experience", href: "/journal" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
   
   // Retreat journal
   "retreat-day": [
-    { title: "Alcohol and Recovery", href: "/blog/alcohol-ayurveda" },
+    { title: "Alcohol and Sleep", href: "/blog/alcohol-and-sleep" },
     { title: "Sleep and Healing", href: "/blog/ayurveda-for-sleep" },
     { title: "Chronic Pain and Rest", href: "/blog/chronic-pain-management" },
     { title: "Why I'm Building DoshaFlow", href: "/blog/why-building-doshaflow" },
@@ -128,21 +128,21 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
   "honest-beginners-guide": [
     { title: "Why I'm Building DoshaFlow", href: "/blog/why-building-doshaflow" },
     { title: "Is Ayurveda Safe?", href: "/blog/is-ayurveda-safe-heavy-metals" },
-    { title: "Ayurveda for Men", href: "/ayurveda-for-men" },
+    { title: "Ayurveda for Men", href: "/blog/ayurveda-for-men" },
     { title: "Retreat Journal", href: "/journal" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
   "why-building": [
-    { title: "Honest Beginner's Guide", href: "/blog/honest-beginners-guide-ayurveda-2026" },
-    { title: "Chronic Pain Changed My Perspective", href: "/blog/chronic-pain-management" },
+    { title: "Honest Beginner's Guide", href: "/blog/ayurveda-beginners-guide" },
+    { title: "Chronic Pain Changed My Perspective", href: "/blog/ayurveda-burnout" },
     { title: "Retreat Journal", href: "/journal" },
-    { title: "Ayurveda for Men", href: "/ayurveda-for-men" },
+    { title: "Ayurveda for Men", href: "/blog/ayurveda-for-men" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
   "is-ayurveda-safe": [
-    { title: "Honest Beginner's Guide", href: "/blog/honest-beginners-guide-ayurveda-2026" },
+    { title: "Honest Beginner's Guide", href: "/blog/ayurveda-beginners-guide" },
     { title: "Why I'm Building DoshaFlow", href: "/blog/why-building-doshaflow" },
-    { title: "Traveling the Ayurvedic Way", href: "/blog/traveling-ayurvedic-way" },
+    { title: "Traveling the Ayurvedic Way", href: "/blog/ayurveda-for-travel" },
     { title: "About DoshaFlow", href: "/about" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
