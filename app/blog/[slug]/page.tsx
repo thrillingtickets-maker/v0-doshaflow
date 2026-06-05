@@ -2,6 +2,7 @@ import { getPostBySlug, getAllPosts } from "@/lib/posts"
 import { Navigation } from "@/components/navigation"
 import { ArticleHero } from "@/components/article-hero"
 import { Footer } from "@/components/footer"
+import { ArticleEmailCapture } from "@/components/article-email-capture"
 import { highlightMap } from "@/lib/article-colors"
 import { processArticleContent } from "@/lib/process-article-content"
 import { calculateReadingTime, formatReadingTime } from "@/lib/reading-time"
@@ -372,6 +373,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             style={{ color: "#2c1a0e", lineHeight: 1.85 }}
             dangerouslySetInnerHTML={{ __html: processArticleContent(post.content) }}
           />
+
+          {/* Email Capture Section */}
+          <ArticleEmailCapture articleTitle={post.title} />
+
           {/* Related Reading Section */}
           <style>{`
             .related-reading-links a {
