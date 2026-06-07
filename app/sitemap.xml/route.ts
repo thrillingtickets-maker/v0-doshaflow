@@ -1,26 +1,30 @@
 import { NextResponse } from "next/server"
-import { posts } from "@/lib/posts"
+import { getAllPosts } from "@/lib/posts"
 
 export async function GET() {
-  // Static pages
+  const today = new Date().toISOString().split("T")[0]
+
+  // Static pages with priorities for SEO
   const staticPages = [
-    { loc: "https://www.doshaflow.com", lastmod: "2026-06-04" },
-    { loc: "https://www.doshaflow.com/quiz", lastmod: "2026-06-04" },
-    { loc: "https://www.doshaflow.com/about", lastmod: "2026-06-04" },
-    { loc: "https://www.doshaflow.com/blog", lastmod: "2026-06-04" },
-    { loc: "https://www.doshaflow.com/samples", lastmod: "2026-06-04" },
-    { loc: "https://www.doshaflow.com/ayurveda-for-men", lastmod: "2026-06-04" },
-    { loc: "https://www.doshaflow.com/ayurveda-for-women", lastmod: "2026-06-04" },
-    { loc: "https://www.doshaflow.com/vata", lastmod: "2026-06-04" },
-    { loc: "https://www.doshaflow.com/pitta", lastmod: "2026-06-04" },
-    { loc: "https://www.doshaflow.com/kapha", lastmod: "2026-06-04" },
-    { loc: "https://www.doshaflow.com/dosha-diets", lastmod: "2026-06-04" },
-    { loc: "https://www.doshaflow.com/start-here", lastmod: "2026-06-04" },
+    { loc: "https://www.doshaflow.com", lastmod: today, priority: "1.0" },
+    { loc: "https://www.doshaflow.com/quiz", lastmod: today, priority: "0.9" },
+    { loc: "https://www.doshaflow.com/about", lastmod: today, priority: "0.8" },
+    { loc: "https://www.doshaflow.com/blog", lastmod: today, priority: "0.8" },
+    { loc: "https://www.doshaflow.com/journal", lastmod: today, priority: "0.9" },
+    { loc: "https://www.doshaflow.com/samples", lastmod: today, priority: "0.7" },
+    { loc: "https://www.doshaflow.com/vata", lastmod: today, priority: "0.8" },
+    { loc: "https://www.doshaflow.com/pitta", lastmod: today, priority: "0.8" },
+    { loc: "https://www.doshaflow.com/kapha", lastmod: today, priority: "0.8" },
+    { loc: "https://www.doshaflow.com/start-here", lastmod: today, priority: "0.8" },
+    { loc: "https://www.doshaflow.com/contact", lastmod: today, priority: "0.5" },
+    { loc: "https://www.doshaflow.com/privacy", lastmod: today, priority: "0.3" },
+    { loc: "https://www.doshaflow.com/terms", lastmod: today, priority: "0.3" },
   ]
 
   // Dynamic blog articles from posts.ts - filter duplicates by slug
+  const allPosts = getAllPosts()
   const seenSlugs = new Set<string>()
-  const uniquePosts = posts.filter(post => {
+  const uniquePosts = allPosts.filter(post => {
     if (seenSlugs.has(post.slug)) {
       return false // Skip duplicate
     }
@@ -30,7 +34,8 @@ export async function GET() {
 
   const blogArticles = uniquePosts.map(post => ({
     loc: `https://www.doshaflow.com/blog/${post.slug}`,
-    lastmod: "2026-06-04",
+    lastmod: post.date ? new Date(post.date).toISOString().split("T")[0] : today,
+    priority: post.category === "journal" ? "0.7" : "0.8",
   }))
 
   // Combine all URLs
@@ -41,6 +46,7 @@ export async function GET() {
       (entry) => `  <url>
     <loc>${entry.loc}</loc>
     <lastmod>${entry.lastmod}</lastmod>
+    <priority>${entry.priority}</priority>
   </url>`,
     )
     .join("\n")
@@ -51,6 +57,6 @@ ${urlEntries}
 </urlset>`
 
   return new NextResponse(xml, {
-    headers: { "Content-Type": "application/xml" },
+    headers: { "Content-Type": "application/xml; charset=utf-8" },
   })
 }
