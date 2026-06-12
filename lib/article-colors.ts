@@ -81,6 +81,7 @@ export const highlightMap: Record<string, string> = {
   "best-tea-for-vata": "Vata",
   "brahmi-benefits": "Benefits",
   "chronic-pain-management": "Healing",
+  "dopamine-detox-vs-ayurveda": "Ayurveda",
   "eating-for-your-dosha": "Dosha",
   "how-to-improve-digestion-naturally": "Digestion",
   "i-cant-lose-weight": "Weight",

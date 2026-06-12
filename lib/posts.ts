@@ -12,6 +12,18 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "dopamine-detox-vs-ayurveda",
+    category: "article",
+    title: "Dopamine Detox vs. Ayurveda: Why Rest Isn't the Same as Restriction",
+    date: "2026-06-03",
+    excerpt:
+      "Dopamine detox and Ayurveda both address overstimulation, but their frameworks are completely different. Ayurveda targets the dosha root cause. Here's how to use both intelligently.",
+    seoTitle: "Dopamine Detox vs. Ayurveda: Why Rest Isn't the Same as Restriction",
+    seoDescription:
+      "Dopamine detox and Ayurveda both address overstimulation, but their frameworks are completely different. Ayurveda targets the dosha root cause. Here's how to use both intelligently.",
+    content: `<p>If you have ever ended a long scroll feeling more depleted than when you started, you already understand the impulse behind a dopamine detox. Dopamine detox strips away the inputs to let the brain reset. Ayurveda offers a different answer to the same problem of overstimulation, and the two are often confused. This is educational information, not medical advice.</p><h2>What a Dopamine Detox Actually Is</h2><p>Interrupting compulsive loops and giving an overstimulated attention system a chance to settle is genuinely useful. But a detox is an event with an end date — it removes the input without changing the state that made you reach for it.</p><h2>What Ayurveda Does Differently</h2><p>Ayurveda frames overstimulation as aggravated vata — the mobile, airy principle that governs the nervous system. The goal is not to subtract stimulation for a weekend but to add the qualities that are missing: warmth, weight, rhythm, and routine.</p><h2>Why Rest Isn't the Same as Restriction</h2><p>Restriction empties the room; rest makes it somewhere you can settle. Warm food, a regular sleep window, slow mornings, and single-tasking supply the grounding a fast, depleted nervous system is craving.</p><h2>How to Use Both Intelligently</h2><p>Use a detox as the on-ramp to interrupt a loop, then use routine to make it stick. Replace inputs rather than only removing them. If you cannot interrupt the behaviour, or anxiety persists once the screens are gone, talk to a qualified professional — Ayurveda complements that care, it does not replace it.</p>`,
+  },
+  {
     slug: "stress-hair-loss-ayurveda",
     category: "article",
     title: "Stress and Hair Loss: The Ayurvedic Explanation (And What to Do About It)",
