@@ -31,7 +31,7 @@ const EDITORIAL_CATEGORIES = [
   "Retreat Journal",
 ]
 
-const ARTICLES_PER_PAGE = 10
+const ARTICLES_PER_PAGE = 20
 function getArticleFilters(slug: string, category: string): string[] {
   const filters = ["All"]
   if (category === "journal") {
