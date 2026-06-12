@@ -106,6 +106,7 @@ export const highlightMap: Record<string, string> = {
   "retreat-day-5": "Day",
   "retreat-day-6": "Day",
   "signs-of-high-cortisol": "Cortisol",
+  "stress-hair-loss-ayurveda": "Hair",
   "triphala-benefits": "Herbs",
   "vata-anxiety-guide": "Anxiety",
   "vata-diet-plan": "Vata",
