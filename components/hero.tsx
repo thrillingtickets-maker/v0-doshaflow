@@ -78,6 +78,10 @@ export function Hero() {
             <p className="text-sm text-muted-foreground mt-2 max-w-sm">
               Discover your body type in 2 minutes. Personalized Ayurvedic guidance based on your symptoms.
             </p>
+
+            <p className="text-xs text-muted-foreground/80 mt-3 max-w-md text-balance">
+              DoshaFlow is educational wellness guidance, not medical advice.
+            </p>
           </motion.div>
 
           <motion.div

@@ -18,6 +18,7 @@ export function Navigation() {
     { label: "For Women", href: "/ayurveda-for-women" },
     { label: "Reports", href: "/samples" },
     { label: "FAQ", href: "/faq" },
+    { label: "Transparency", href: "/transparency" },
     { label: "Contact", href: "/contact" },
   ]
 
