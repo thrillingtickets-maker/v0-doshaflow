@@ -4,12 +4,12 @@ import Link from "next/link"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Kapha Dosha Guide: The Complete Guide to Kapha Imbalance",
+  title: "Kapha Dosha Guide: Weight, Fatigue & Motivation | DoshaFlow",
   description: "Understanding Kapha dosha — what it is, how it manifests, and the practical protocols for Kapha balance. Weight, lethargy, stagnation, and nervous system recovery.",
   openGraph: {
-    title: "Kapha Dosha Guide: The Complete Guide to Kapha Imbalance",
-    description: "Understanding Kapha dosha — weight, lethargy, stagnation, and nervous system recovery.",
-    type: "website",
+    title: "Kapha Dosha Guide: Weight, Fatigue & Motivation | DoshaFlow",
+    description: "Understand Kapha dosha — the causes of weight gain, fatigue, and stagnation. Stimulating foods, movement protocols, and herbs to restore energy and clarity.",
+    type: "article",
     url: "https://www.doshaflow.com/kapha",
   },
 }
