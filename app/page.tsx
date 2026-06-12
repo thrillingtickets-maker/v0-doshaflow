@@ -24,6 +24,11 @@ import { StartHere } from "@/components/start-here"
 import { PopularArticles } from "@/components/popular-articles"
 import { EditorialEssays } from "@/components/editorial-essays"
 import { Testimonials } from "@/components/testimonials"
+import { TrustBar } from "@/components/trust-bar"
+import { ScientificIntegrity } from "@/components/scientific-integrity"
+import { SafetyFramework } from "@/components/safety-framework"
+import { Founder } from "@/components/founder"
+import { FAQ } from "@/components/faq"
 import { Waitlist } from "@/components/waitlist"
 import { Footer } from "@/components/footer"
 
@@ -33,6 +38,9 @@ export default function Home() {
       <Navigation />
       {/* (1) Hero with headline and quiz CTA button */}
       <Hero />
+
+      {/* (1b) Trust signal bar */}
+      <TrustBar />
       
       {/* (2) Emotional positioning — Ayurveda for modern overstimulated people */}
       <section className="px-6 py-10 md:py-14 text-center bg-background">
@@ -71,6 +79,18 @@ export default function Home() {
       <section id="testimonials">
         <Testimonials />
       </section>
+
+      {/* (9) Scientific integrity — Ancient Wisdom, Modern Evidence */}
+      <ScientificIntegrity />
+
+      {/* (10) Safety framework — How We Make Recommendations */}
+      <SafetyFramework />
+
+      {/* (11) Meet the Founder + advisory board */}
+      <Founder />
+
+      {/* (12) FAQ */}
+      <FAQ />
       
       <Waitlist />
       

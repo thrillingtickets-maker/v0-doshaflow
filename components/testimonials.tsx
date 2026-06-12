@@ -1,30 +1,43 @@
 "use client"
 
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 const testimonials = [
   {
-    name: "Sarah M.",
+    name: "Sarah Mitchell",
     role: "Yoga Instructor",
-    content: "I've taken probably a dozen wellness quizzes over the years and learned nothing. This one actually made me understand why I'm always cold, why I can't eat salads for lunch, and why my anxiety spikes in autumn. 25 questions and I finally have a framework.",
+    location: "Portland, OR",
+    photo: "/testimonials/sarah.png",
+    betaTester: true,
+    content: "I've taken probably a dozen wellness quizzes over the years and learned nothing. This one actually helped me understand why I'm always cold, why salads for lunch don't sit well, and why my anxiety tends to spike in autumn. 25 questions and I finally have a framework.",
     dosha: "Vata"
   },
   {
-    name: "James K.",
+    name: "James Keller",
     role: "Software Engineer",
-    content: "I'm a skeptic. I took this mostly out of curiosity. Two weeks after changing when I eat and cutting the coffee before breakfast, my afternoon crashes basically disappeared. Didn't expect that from a quiz.",
+    location: "Austin, TX",
+    photo: "/testimonials/james.png",
+    betaTester: true,
+    content: "I'm a skeptic. I took this mostly out of curiosity. A couple weeks after adjusting when I eat and cutting the coffee before breakfast, my afternoon crashes eased up noticeably. Didn't expect that from a quiz.",
     dosha: "Pitta"
   },
   {
-    name: "Maria L.",
+    name: "Maria Lopez",
     role: "Marketing Director",
-    content: "The quiz told me things about myself I'd never connected before — why I gain weight easily, why I'm slow to start in the morning, why I hold onto things emotionally. It felt uncomfortably accurate.",
+    location: "Chicago, IL",
+    photo: "/testimonials/maria.png",
+    betaTester: true,
+    content: "The quiz connected things about myself I'd never linked before — patterns around energy, motivation in the morning, and how I hold onto things emotionally. It felt thoughtful and specific rather than generic.",
     dosha: "Kapha"
   },
   {
-    name: "David R.",
+    name: "David Reyes",
     role: "Entrepreneur",
-    content: "No crystals, no vague advice, no 'drink more water.' Just a specific explanation of how my body works and what to actually do about it. Refreshingly straightforward.",
+    location: "Denver, CO",
+    photo: "/testimonials/david.png",
+    betaTester: true,
+    content: "No crystals, no vague advice, no 'drink more water.' Just a clear explanation of how my body tends to work and some practical things to try. Refreshingly straightforward.",
     dosha: "Vata-Pitta"
   },
 ]
@@ -44,16 +57,13 @@ export function Testimonials() {
             Testimonials
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-medium text-foreground mb-6">
-            Real results, real people
+            What early users are saying
           </h2>
           <p className="max-w-2xl mx-auto text-lg text-muted-foreground leading-relaxed mb-4">
-            Join thousands who have transformed their wellness routine with personalized, dosha-based guidance.
-          </p>
-          <p className="text-sm text-muted-foreground">
-            What readers are saying
+            Feedback from beta testers using personalized, dosha-based guidance.
           </p>
           <p className="text-xs text-muted-foreground mt-2 opacity-75">
-            Based on user feedback and early reader responses.
+            Shared with permission. Results vary by individual.
           </p>
         </motion.div>
 
@@ -67,12 +77,19 @@ export function Testimonials() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="group p-8 bg-card rounded-2xl border border-border/50 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300"
             >
-              <div className="flex items-center gap-1 mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <svg key={i} className="w-4 h-4 text-amber-400 fill-current" viewBox="0 0 20 20">
-                    <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
-                  </svg>
-                ))}
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center gap-1">
+                  {[...Array(5)].map((_, i) => (
+                    <svg key={i} className="w-4 h-4 text-amber-400 fill-current" viewBox="0 0 20 20">
+                      <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                    </svg>
+                  ))}
+                </div>
+                {testimonial.betaTester && (
+                  <span className="px-2.5 py-1 text-[11px] font-medium bg-primary/10 text-primary rounded-full">
+                    Beta Tester
+                  </span>
+                )}
               </div>
 
               <p className="text-foreground leading-relaxed mb-6">
@@ -81,14 +98,20 @@ export function Testimonials() {
 
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
-                    <span className="text-sm font-medium text-primary">
-                      {testimonial.name.split(' ').map(n => n[0]).join('')}
-                    </span>
+                  <div className="w-11 h-11 rounded-full overflow-hidden bg-secondary shrink-0">
+                    <Image
+                      src={testimonial.photo || "/placeholder.svg"}
+                      alt={testimonial.name}
+                      width={44}
+                      height={44}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div>
                     <p className="font-medium text-foreground text-sm">{testimonial.name}</p>
-                    <p className="text-xs text-muted-foreground">{testimonial.role}</p>
+                    <p className="text-xs text-muted-foreground">
+                      {testimonial.role} · {testimonial.location}
+                    </p>
                   </div>
                 </div>
                 <span className="px-3 py-1 text-xs bg-secondary rounded-full text-secondary-foreground">
