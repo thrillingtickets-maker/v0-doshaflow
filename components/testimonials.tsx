@@ -63,7 +63,7 @@ export function Testimonials() {
             Feedback from beta testers using personalized, dosha-based guidance.
           </p>
           <p className="text-xs text-muted-foreground mt-2 opacity-75">
-            Shared with permission. Results vary by individual.
+            Shared with permission. Individual experiences vary.
           </p>
         </motion.div>
 

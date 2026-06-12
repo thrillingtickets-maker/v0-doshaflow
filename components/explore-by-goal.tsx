@@ -4,12 +4,12 @@ import { motion } from "framer-motion"
 import Link from "next/link"
 
 const goalCards = [
-  { goal: "I can't sleep", href: "/blog/best-ayurvedic-tea-sleep" },
-  { goal: "I'm always anxious", href: "/blog/best-herbs-for-anxiety" },
-  { goal: "I'm always bloated", href: "/blog/why-am-i-always-bloated" },
-  { goal: "I can't lose weight", href: "/blog/ayurvedic-weight-loss" },
-  { goal: "I'm burned out", href: "/blog/nervous-system-burnout" },
-  { goal: "Digestion problems", href: "/blog/best-ayurvedic-tea-digestion" },
+  { goal: "Sleep support", href: "/blog/best-ayurvedic-tea-sleep" },
+  { goal: "Stress support", href: "/blog/best-herbs-for-anxiety" },
+  { goal: "Digestion support", href: "/blog/best-ayurvedic-tea-digestion" },
+  { goal: "Weight & metabolism support", href: "/blog/ayurvedic-weight-loss" },
+  { goal: "Burnout recovery support", href: "/blog/nervous-system-burnout" },
+  { goal: "Daily routine support", href: "/blog/ayurvedic-morning-routine" },
 ]
 
 export function ExploreByGoal() {
@@ -24,10 +24,10 @@ export function ExploreByGoal() {
           className="text-center mb-16"
         >
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-medium text-foreground mb-6">
-            <span className="text-balance">Start with your symptom.</span>
+            <span className="text-balance">Start with what you want to support.</span>
           </h2>
           <p className="max-w-2xl mx-auto text-lg text-muted-foreground leading-relaxed">
-            Most people don't know their dosha yet. They know how they feel.
+            Most people don't know their dosha yet. They know how they want to feel.
           </p>
         </motion.div>
 
