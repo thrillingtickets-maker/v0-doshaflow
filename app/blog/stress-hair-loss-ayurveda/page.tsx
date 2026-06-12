@@ -9,11 +9,11 @@ import Link from "next/link"
 
 export const dynamic = "force-dynamic"
 
-const TITLE = "Stress and Hair Loss: The Ayurvedic Explanation (And What to Do About It)"
+const TITLE = "Can Stress Cause Hair Loss? Ayurveda's View on Cortisol, Burnout, and Thinning Hair"
 const CATEGORY = "Stress & Anxiety"
 const DATE = "June 3, 2026"
 const DESCRIPTION =
-  "Chronic stress causes hair loss through cortisol, DHT, and poor circulation. Ayurveda identifies the dosha-specific root cause and offers a protocol that goes deeper than scalp treatments."
+  "Hair loss is often treated as a scalp problem. Ayurveda treats it as a whole-body problem. Here is the cortisol-hair connection, the Pitta pattern, and what actually helps."
 
 export const metadata = {
   title: `${TITLE} | DoshaFlow`,
