@@ -31,7 +31,7 @@ export default function DoshaDietsPage() {
             Eat for Your Constitution, Not Your Calories
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Your dosha determines what foods heal you and what foods create imbalance. Here are the complete diet guides for optimal digestion, energy, and health.
+            Your dosha may influence which foods feel supportive and which leave you feeling out of balance. Here are educational diet guides commonly used to support digestion and steady energy.
           </p>
         </div>
       </section>
