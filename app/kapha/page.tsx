@@ -174,12 +174,12 @@ export default function KaphaPage() {
             </h2>
             <div className="space-y-3">
               <p className="text-muted-foreground">
-                <Link href="/blog/i-cant-lose-weight" className="text-[#C97F3D] hover:underline font-medium">
+                <Link href="/blog/kapha-weight-loss-guide" className="text-[#C97F3D] hover:underline font-medium">
                   Why Weight Loss Isn't Working: The Kapha Factor
                 </Link>
               </p>
               <p className="text-muted-foreground">
-                <Link href="/blog/cant-sleep-when-exhausted" className="text-[#C97F3D] hover:underline font-medium">
+                <Link href="/blog/why-am-i-always-tired" className="text-[#C97F3D] hover:underline font-medium">
                   Why You Sleep Too Much and Still Feel Tired
                 </Link>
               </p>

@@ -55,7 +55,7 @@ export function StartHereHero() {
             Take the Dosha Quiz
           </Link>
           <Link
-            href="/blog/honest-beginners-guide-ayurveda-2026"
+            href="/blog/ayurveda-beginners-guide"
             className="px-8 py-3 border border-border text-foreground rounded-lg font-medium text-sm hover:bg-background/50 transition-colors duration-200"
           >
             Read the Beginner's Guide
