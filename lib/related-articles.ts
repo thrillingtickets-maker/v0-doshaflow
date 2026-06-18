@@ -19,8 +19,8 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
   "nervous-system-burnout": [
     { title: "Best Herbs for Anxiety", href: "/blog/best-herbs-for-anxiety" },
     { title: "Alcohol and Sleep", href: "/blog/alcohol-ayurveda" },
-    { title: "Sleep Recovery", href: "/blog/ayurveda-for-sleep" },
-    { title: "Why I'm Building DoshaFlow", href: "/blog/why-building-doshaflow" },
+    { title: "Sleep Recovery", href: "/blog/ayurveda-for-insomnia" },
+    { title: "Why I'm Building DoshaFlow", href: "/blog/why-im-building-doshaflow" },
     { title: "Retreat Journal: Day 10", href: "/blog/retreat-day-10" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
@@ -59,9 +59,9 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
   
   // Alcohol cluster
   "alcohol": [
-    { title: "Sleep Recovery", href: "/blog/ayurveda-for-sleep" },
+    { title: "Sleep Recovery", href: "/blog/ayurveda-for-insomnia" },
     { title: "Burnout and Nervous System", href: "/blog/nervous-system-burnout" },
-    { title: "Honest Beginner's Guide to Ayurveda", href: "/blog/honest-beginners-guide-ayurveda-2026" },
+    { title: "Honest Beginner's Guide to Ayurveda", href: "/blog/ayurveda-beginners-guide" },
     { title: "Retreat Journal: Sobriety", href: "/blog/retreat-day-11" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
@@ -87,7 +87,7 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
   "vata": [
     { title: "Pitta Dosha Guide", href: "/pitta" },
     { title: "Kapha Dosha Guide", href: "/kapha" },
-    { title: "Anxiety and Vata", href: "/blog/anxiety" },
+    { title: "Anxiety and Vata", href: "/blog/vata-anxiety-guide" },
     { title: "Sleep for Vata Types", href: "/blog/best-ayurvedic-tea-sleep" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
@@ -101,8 +101,8 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
   "kapha": [
     { title: "Vata Dosha Guide", href: "/vata" },
     { title: "Pitta Dosha Guide", href: "/pitta" },
-    { title: "Weight Loss and Kapha", href: "/blog/ayurveda-weight-loss" },
-    { title: "Movement for Kapha", href: "/blog/ayurveda-movement" },
+    { title: "Weight Loss and Kapha", href: "/blog/kapha-weight-loss-guide" },
+    { title: "Movement for Kapha", href: "/blog/ayurveda-exercise" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
   
@@ -118,16 +118,16 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
   // Retreat journal
   "retreat-day": [
     { title: "Alcohol and Sleep", href: "/blog/alcohol-ayurveda" },
-    { title: "Sleep and Healing", href: "/blog/ayurveda-for-sleep" },
+    { title: "Sleep and Healing", href: "/blog/ayurveda-for-insomnia" },
     { title: "Chronic Pain and Rest", href: "/blog/chronic-pain-management" },
-    { title: "Why I'm Building DoshaFlow", href: "/blog/why-building-doshaflow" },
+    { title: "Why I'm Building DoshaFlow", href: "/blog/why-im-building-doshaflow" },
     { title: "Read More Retreat Entries", href: "/journal" },
   ],
   
   // Editorial/founder
   "honest-beginners-guide": [
-    { title: "Why I'm Building DoshaFlow", href: "/blog/why-building-doshaflow" },
-    { title: "Is Ayurveda Safe?", href: "/blog/is-ayurveda-safe-heavy-metals" },
+    { title: "Why I'm Building DoshaFlow", href: "/blog/why-im-building-doshaflow" },
+    { title: "Is Ayurveda Safe?", href: "/transparency" },
     { title: "Ayurveda for Men", href: "/blog/ayurveda-for-men" },
     { title: "Retreat Journal", href: "/journal" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
@@ -141,7 +141,7 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
   ],
   "is-ayurveda-safe": [
     { title: "Honest Beginner's Guide", href: "/blog/ayurveda-beginners-guide" },
-    { title: "Why I'm Building DoshaFlow", href: "/blog/why-building-doshaflow" },
+    { title: "Why I'm Building DoshaFlow", href: "/blog/why-im-building-doshaflow" },
     { title: "Traveling the Ayurvedic Way", href: "/blog/ayurveda-for-travel" },
     { title: "About DoshaFlow", href: "/about" },
     { title: "Take the Dosha Quiz", href: "/quiz" },

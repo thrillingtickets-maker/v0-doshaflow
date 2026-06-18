@@ -315,7 +315,7 @@ export default function AyurvedaForWomenPage() {
 
             <div className="space-y-3">
               <p className="text-muted-foreground">
-                <Link href="/blog/ayurveda-hormonal-balance" className="text-[#C97F3D] hover:underline">
+                <Link href="/blog/ayurveda-hormones-women" className="text-[#C97F3D] hover:underline">
                   Ayurveda for Hormonal Balance
                 </Link>
                 {" "}→ Dosha-specific approaches to hormonal health across the lifespan.

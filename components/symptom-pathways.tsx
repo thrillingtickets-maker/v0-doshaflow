@@ -46,7 +46,7 @@ const pathways = [
     description: "Burnout is your body's signal that something fundamental needs to change.",
     links: [
       { label: "Burnout essay", href: "/blog/nervous-system-burnout" },
-      { label: "The beginner's guide", href: "/blog/honest-beginners-guide-ayurveda-2026" },
+      { label: "The beginner's guide", href: "/blog/ayurveda-beginners-guide" },
       { label: "Take the quiz", href: "/quiz" },
     ],
   },
@@ -54,7 +54,7 @@ const pathways = [
     symptom: "I don't know where to begin",
     description: "Start with the fundamentals: sleep, routine, and understanding your dosha.",
     links: [
-      { label: "The honest guide", href: "/blog/honest-beginners-guide-ayurveda-2026" },
+      { label: "The honest guide", href: "/blog/ayurveda-beginners-guide" },
       { label: "Free dosha quiz", href: "/quiz" },
       { label: "All guides", href: "/blog" },
     ],

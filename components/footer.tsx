@@ -50,10 +50,10 @@ export function Footer() {
           <div>
             <h4 className="font-medium text-foreground mb-4">Editorial</h4>
             <ul className="space-y-3">
-              <li><a href="/blog/honest-beginners-guide-ayurveda-2026" className="text-muted-foreground hover:text-foreground transition-colors text-sm">The Honest Beginner's Guide</a></li>
-              <li><a href="/blog/is-ayurveda-safe-heavy-metals" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Is Ayurveda Safe?</a></li>
-              <li><a href="/blog/what-western-wellness-gets-wrong-about-ayurveda" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Western Wellness Critique</a></li>
-              <li><a href="/blog/building-doshaflow-safety-sourcing-personalization" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Building DoshaFlow</a></li>
+              <li><a href="/blog/ayurveda-beginners-guide" className="text-muted-foreground hover:text-foreground transition-colors text-sm">The Honest Beginner's Guide</a></li>
+              <li><a href="/transparency" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Is Ayurveda Safe?</a></li>
+              <li><a href="/blog/ayurveda-vs-western-medicine" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Western Wellness Critique</a></li>
+              <li><a href="/blog/why-im-building-doshaflow" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Building DoshaFlow</a></li>
             </ul>
           </div>
 
