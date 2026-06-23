@@ -5,7 +5,7 @@ import { ArticleEmailCapture } from "@/components/article-email-capture"
 import { highlightMap } from "@/lib/article-colors"
 import { processArticleContent } from "@/lib/process-article-content"
 import { calculateReadingTime, formatReadingTime } from "@/lib/reading-time"
-import { getRelatedArticles } from "@/lib/related-articles"
+import { RelatedReading } from "@/components/related-reading"
 import { ArrowLeft } from "lucide-react"
 import { notFound } from "next/navigation"
 import Link from "next/link"
@@ -41,7 +41,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   
   const highlightWord = highlightMap[slug]
   const readingTime = calculateReadingTime(post.content)
-  const relatedArticles = getRelatedArticles(slug)
 
   return (
     <>
@@ -377,31 +376,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <ArticleEmailCapture articleTitle={post.title} />
 
           {/* Related Reading Section */}
-          <style>{`
-            .related-reading-links a {
-              display: block;
-              color: #2a1f14;
-              font-size: 18px;
-              font-weight: 600;
-              text-decoration: none;
-              transition: color 0.2s;
-            }
-            .related-reading-links a:hover {
-              color: #8a7a5a;
-            }
-          `}</style>
-          <div style={{ marginTop: "64px", padding: "32px", borderRadius: "12px", background: "#f5f0e8", border: "1px solid #e0d5c5" }}>
-            <div style={{ fontSize: "12px", letterSpacing: "0.12em", textTransform: "uppercase", color: "#b5763a", marginBottom: "18px" }}>
-              Continue Reading
-            </div>
-            <div style={{ display: "grid", gap: "14px" }} className="related-reading-links">
-              {relatedArticles.map((article) => (
-                <a key={article.href} href={article.href}>
-                  {article.title} →
-                </a>
-              ))}
-            </div>
-          </div>
+          <RelatedReading currentSlug={slug} />
 
           {/* Post Footer - Back Link */}
           <footer style={{ marginTop: "64px", paddingTop: "32px", borderTop: "1px solid #e8d9c5" }}>

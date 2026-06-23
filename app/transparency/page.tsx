@@ -1,7 +1,6 @@
 import type { Metadata } from "next"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
-import { Linkedin } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Transparency — DoshaFlow",
@@ -29,10 +28,9 @@ const sections = [
     id: "founder",
     title: "Founder Information",
     body: [
-      "DoshaFlow was founded by [Founder Full Name], [Professional Title]. [Short, honest background: relevant experience and what led to building DoshaFlow. Avoid implying clinical credentials unless they are real.]",
+      "DoshaFlow was founded by someone who needed it first — not a doctor or a credentialed Ayurvedic practitioner, and we don't claim otherwise. The founder's background is in lived experience: years of being overstimulated and under-rested, and the work of researching, testing, and writing down what actually helped.",
       "The platform was built after a personal experience at an Ayurvedic retreat in Bengaluru, India, and a frustration with how Ayurveda is often marketed in the West.",
     ],
-    link: { label: "Connect on LinkedIn", href: "https://www.linkedin.com/" },
   },
   {
     id: "methodology",
@@ -54,7 +52,7 @@ const sections = [
     id: "review",
     title: "Content Review Process",
     body: [
-      "Content is drafted in-house and reviewed for accuracy and safety. Health-related guidance is reviewed by qualified members of our advisory board across Ayurveda, nutrition, and integrative medicine.",
+      "Content is drafted and edited in-house, checked against the evidence sources described above, and framed conservatively for safety. We are actively building relationships with qualified professionals across Ayurveda, nutrition, and integrative medicine to formalize independent review, and we'll name them here once that's in place rather than imply it before it's true.",
       "We update content as understanding evolves and welcome corrections at hello@doshaflow.com.",
     ],
   },
@@ -143,17 +141,6 @@ export default function TransparencyPage() {
                     </p>
                   ))}
                 </div>
-                {section.link && (
-                  <a
-                    href={section.link.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 mt-5 px-5 py-2.5 bg-primary text-primary-foreground text-sm font-medium rounded-full hover:shadow-lg hover:shadow-primary/20 transition-all"
-                  >
-                    <Linkedin className="w-4 h-4" aria-hidden="true" />
-                    {section.link.label}
-                  </a>
-                )}
               </section>
             ))}
           </div>
