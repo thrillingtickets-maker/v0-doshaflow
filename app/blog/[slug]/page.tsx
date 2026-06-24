@@ -27,9 +27,27 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title: "Post Not Found | DoshaFlow",
     }
   }
+
+  const title = post.seoTitle || `${post.title} | DoshaFlow Blog`
+  const description = post.seoDescription || post.excerpt
+  const url = `https://www.doshaflow.com/blog/${slug}`
+
   return {
-    title: post.seoTitle || `${post.title} | DoshaFlow Blog`,
-    description: post.seoDescription || post.excerpt,
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      title,
+      description,
+      url,
+      type: "article",
+      siteName: "DoshaFlow",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
   }
 }
 
