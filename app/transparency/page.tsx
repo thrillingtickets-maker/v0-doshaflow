@@ -28,8 +28,8 @@ const sections = [
     id: "founder",
     title: "Founder Information",
     body: [
-      "DoshaFlow was founded by someone who needed it first — not a doctor or a credentialed Ayurvedic practitioner, and we don't claim otherwise. The founder's background is in lived experience: years of being overstimulated and under-rested, and the work of researching, testing, and writing down what actually helped.",
-      "The platform was built after a personal experience at an Ayurvedic retreat in Bengaluru, India, and a frustration with how Ayurveda is often marketed in the West.",
+      "DoshaFlow was founded by Alex, Founder — someone who needed it first, not a doctor or a credentialed Ayurvedic practitioner, and we don't claim otherwise. The founder's background is in lived experience: years of being overstimulated and under-rested, and the work of researching, testing, and writing down what actually helped.",
+      "The platform was built after a personal experience at an Ayurvedic retreat in Kerala, India, and a frustration with how Ayurveda is often marketed in the West.",
     ],
   },
   {
