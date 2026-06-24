@@ -1,8 +1,20 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Kapha Dosha: Signs of Imbalance, Diet, and How to Build Energy",
-  description: "Complete guide to Kapha dosha — signs of imbalance, the best foods for Kapha, morning routine for energy, weight loss approach, and the herbs that stimulate a slow metabolism.",
+  title: "Kapha Dosha: Complete Guide to the Earth & Water Constitution | DoshaFlow",
+  description: "Everything you need to know about Kapha dosha — characteristics, imbalance signs, diet, daily routine, and herbs. Personalised guidance for Kapha types.",
+  openGraph: {
+    title: "Kapha Dosha: Complete Guide to the Earth & Water Constitution | DoshaFlow",
+    description: "Everything you need to know about Kapha dosha — characteristics, imbalance signs, diet, daily routine, and herbs.",
+    url: "https://www.doshaflow.com/kapha",
+    type: "website",
+    siteName: "DoshaFlow",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Kapha Dosha: Complete Guide to the Earth & Water Constitution | DoshaFlow",
+    description: "Everything you need to know about Kapha dosha — characteristics, imbalance signs, diet, daily routine, and herbs.",
+  },
 };
 
 export default function Layout({
