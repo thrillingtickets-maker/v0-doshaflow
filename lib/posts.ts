@@ -197,7 +197,7 @@ export const posts: Post[] = [
     excerpt: "The clinical evidence for ashwagandha in men — cortisol reduction, testosterone support, recovery, sleep. What the research shows and how to take it correctly.",
     seoTitle: "Men's Guide to Ashwagandha: What It Does, Who Needs It, and How to Take It",
     seoDescription: "The clinical evidence for ashwagandha in men — cortisol reduction, testosterone support, recovery, sleep. What the research shows and how to take it correctly.",
-    content: `<p>Ashwagandha has become the most commercially successful Ayurvedic herb in Western markets. It has also been stripped of most of its clinical nuance in the process — marketed as a testosterone booster, a muscle builder, a general wellness supplement, and a stress reliever all at once, without much clarity about which claims are well-supported and which are speculative. For men specifically, the picture is clearer than the marketing suggests. Here is what the research actually shows and what Ayurveda has known for considerably longer.</p><h2>What Ashwagandha Does for Men</h2><p>Cortisol and stress response: multiple randomised controlled trials have shown statistically significant reductions in serum cortisol — in the range of 20-30% reduction from baseline. For men whose primary health challenge is the accumulated cortisol load of high-output professional life, this is the most directly impactful finding. Testosterone and reproductive health: several well-designed studies have shown improvements in testosterone levels, sperm count, and sperm motility. The effect is most significant in men under chronic stress whose testosterone is typically suppressed by elevated cortisol. Physical performance and recovery: a 2015 study showed significant improvements in muscle strength, recovery, and VO2 max in resistance-trained men. Sleep quality: a 2019 clinical trial showed significant improvements in sleep onset, sleep quality, and morning alertness.</p><h2>The Ayurvedic Framework for Why It Works</h2><p>Ayurveda classifies ashwagandha as a Rasayana — a rejuvenating tonic that nourishes ojas and the seven bodily tissues, particularly muscle, bone, and reproductive tissue. The Ayurvedic explanation for why cortisol and testosterone are inversely related is the concept of tissue competition: both are produced from the same precursor compound (cholesterol). Chronic stress diverts the pathway toward cortisol production, suppressing testosterone synthesis. Ashwagandha nourishes the deeper tissues and reduces the demand on the stress pathway.</p><h2>Who Needs It Most</h2><p>The high-output professional: sustained cognitive work, significant responsibility, irregular schedules, travel, inadequate sleep. The recovering athlete. The man navigating alcohol reduction or recovery. Men over 40 whose testosterone has declined alongside chronic stress.</p><h2>How to Take It</h2><p>Form: root powder or full-spectrum root extract. Look for KSM-66 or Sensoril branded extracts — these are the standardised forms used in clinical trials. Dose: 300-600mg of standardised root extract daily. Timing: evening, taken with warm milk or warm water. Duration: give it 8-12 weeks minimum. The cortisol studies show significant effects at 8 weeks. Do not evaluate at 2 weeks. Contraindications: contraindicated in pregnancy. Men on thyroid medication or with autoimmune conditions should consult their physician.</p><h2>What It Is Not</h2><p>Not a stimulant — it does not produce the immediate effect of caffeine. Not primarily a testosterone booster in the marketing sense — it supports testosterone by reducing the cortisol that suppresses it. Not a substitute for sleep, exercise, or reducing the stressors driving the depletion. It works most effectively as a complement to lifestyle changes.</p><div style="background-color: #f5ede1; padding: 24px; border-radius: 8px; margin-top: 40px; margin-bottom: 40px; border-left: 4px solid #c49a6c"><p style="margin-bottom: 16px; line-height: 1.75; font-weight: 500">Take the Free Dosha Quiz</p><a href="/quiz" style="display: inline-block; background-color: #8a7a5a; color: #fdf8f3; padding: 12px 24px; border-radius: 24px; text-decoration: none; font-weight: 600; font-size: 14px">Take the Free Dosha Quiz →</a></div>`,
+    content: `<p>Ashwagandha has become the most commercially successful Ayurvedic herb in Western markets. It has also been stripped of most of its clinical nuance in the process — marketed as a testosterone booster, a muscle builder, a general wellness supplement, and a stress reliever all at once, without much clarity about which claims are well-supported and which are speculative. For men specifically, the picture is clearer than the marketing suggests. Here is what the research actually shows and what Ayurveda has known for considerably longer.</p><h2>What Ashwagandha Does for Men</h2><p>Cortisol and stress response: multiple randomised controlled trials have shown statistically significant reductions in serum cortisol — in the range of 20-30% reduction from baseline. For men whose primary health challenge is the accumulated cortisol load of high-output professional life, this is the most directly impactful finding. Testosterone and reproductive health: several well-designed studies have shown improvements in testosterone levels, sperm count, and sperm motility. The effect is most significant in men under chronic stress whose testosterone is typically suppressed by elevated cortisol. Physical performance and recovery: a 2015 study showed significant improvements in muscle strength, recovery, and VO2 max in resistance-trained men. Sleep quality: a 2019 clinical trial showed significant improvements in sleep onset, sleep quality, and morning alertness.</p><h2>The Ayurvedic Framework for Why It Works</h2><p>Ayurveda classifies ashwagandha as a Rasayana — a rejuvenating tonic that nourishes ojas and the seven bodily tissues, particularly muscle, bone, and reproductive tissue. The Ayurvedic explanation for why cortisol and testosterone are inversely related is the concept of tissue competition: both are produced from the same precursor compound (cholesterol). Chronic stress diverts the pathway toward cortisol production, suppressing testosterone synthesis. Ashwagandha nourishes the deeper tissues and reduces the demand on the stress pathway.</p><h2>Who Needs It Most</h2><p>The high-output professional: sustained cognitive work, significant responsibility, irregular schedules, travel, inadequate sleep. The recovering athlete. The man navigating alcohol reduction or recovery. Men over 40 whose testosterone has declined alongside chronic stress.</p><h2>How to Take It</h2><p>Form: root powder or full-spectrum root extract. Look for KSM-66 or Sensoril branded extracts — these are the standardised forms used in clinical trials. Dose: 300-600mg of standardised root extract daily. Timing: evening, taken with warm milk or warm water. Duration: give it 8-12 weeks minimum. The cortisol studies show significant effects at 8 weeks. Do not evaluate at 2 weeks. Contraindications: contraindicated in pregnancy. Men on thyroid medication or with autoimmune conditions should consult their physician.</p><h2>What It Is Not</h2><p>Not a stimulant — it does not produce the immediate effect of caffeine. Not primarily a testosterone booster in the marketing sense — it supports testosterone by reducing the cortisol that suppresses it. Not a substitute for sleep, exercise, or reducing the stressors driving the depletion. It works most effectively as a complement to lifestyle changes.</p><div style="background-color: #f5ede1; padding: 24px; border-radius: 8px; margin-top: 40px; margin-bottom: 40px; border-left: 4px solid #c49a6c"><p style="margin-bottom: 16px; line-height: 1.75; font-weight: 500">Take the Free Dosha Quiz</p><a href="/quiz" style="display: inline-block; background-color: #8a7a5a; color: #fdf8f3; padding: 12px 24px; border-radius: 24px; text-decoration: none; font-weight: 600; font-size: 14px">Take the Free Dosha Quiz ���</a></div>`,
   },
   {
     slug: "why-men-burn-out",
@@ -378,7 +378,7 @@ export const posts: Post[] = [
     category: "article",
     title: "Kapha Foods to Avoid: Why You Feel Heavy, Tired, and Stuck",
     date: "May 18, 2026",
-    excerpt: "The complete list of foods that aggravate Kapha dosha �� dairy, wheat, sweets, cold food, and large portions. Why each one makes Kapha fatigue and weight gain worse.",
+    excerpt: "The complete list of foods that aggravate Kapha dosha — dairy, wheat, sweets, cold food, and large portions. Why each one makes Kapha fatigue and weight gain worse.",
     seoTitle: "Kapha Foods to Avoid: Why You Feel Heavy, Tired, and Stuck",
     seoDescription: "The complete list of foods that aggravate Kapha dosha — dairy, wheat, sweets, cold food, and large portions. Why each one makes Kapha fatigue and weight gain worse.",
     content: `<p>Kapha dosha becomes imbalanced when fed heavy, cold, oily, and sweet foods. These foods increase the qualities that are already dominant in Kapha — heaviness, lethargy, sluggishness, and weight gain. The solution is to eat the opposite qualities: light, warm, stimulating, and dry.</p><h2>Dairy to Avoid</h2><p>Dairy is heavy, cold, and congesting. It increases Kapha mucus and sluggishness. If you consume dairy, use warm milk with spices like ginger and black pepper to make it less congesting. Better alternatives include herbal teas and warm broths.</p><h2>Wheat to Limit</h2><p>Wheat is heavy and mucus-forming. For Kapha types struggling with weight and congestion, barley and quinoa are lighter alternatives that don't create the same sluggishness.</p><h2>Sweets and Cold Foods</h2><p>Sugar increases Kapha directly. Cold foods slow digestion and reduce the metabolic fire. Room temperature or warm foods eaten in smaller portions, with warming spices like cayenne and ginger, support Kapha balance and steady weight.</p>`,
@@ -643,63 +643,152 @@ export const posts: Post[] = [
   },
   {
     slug: "kapha-diet-plan",
-    category: "article",
+    category: "Nutrition",
     title: "Kapha Diet Plan: How to Eat for Energy When Your Body Wants to Do Nothing",
-    date: "April 24, 2026",
-    excerpt: "The complete Kapha diet plan — best foods to stimulate Kapha metabolism, what to avoid, and a practical daily template including the most common Kapha mistakes.",
+    date: "June 24, 2026",
+    excerpt: "The complete Kapha diet plan — best foods to stimulate Kapha metabolism, what to avoid, and a practical daily template. Includes the most common Kapha dietary mistakes.",
     seoTitle: "Kapha Diet Plan: How to Eat for Energy When Your Body Wants to Do Nothing",
-    seoDescription: "The complete Kapha diet plan — best foods to stimulate Kapha metabolism, what to avoid, and a practical daily template including the most common Kapha mistakes.",
-    content: `<p>Kapha is the earth element: stable, grounded, slow. In balance, Kapha provides strength, immunity, and emotional steadiness. Out of balance, Kapha becomes stagnation — producing weight gain, congestion, lethargy, and resistance to change. The Kapha diet is not about restriction but about stimulation — creating heat and movement in a system that naturally wants to settle.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;">
-  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:28px;">Kapha excess �� the pattern that doesn't shift</div>
+    seoDescription: "The complete Kapha diet plan — best foods to stimulate Kapha metabolism, what to avoid, and a practical daily template. Includes the most common Kapha dietary mistakes.",
+    content: `<p>If you are Kapha, you already know the feeling: you wake up after eight or nine hours and still feel like you are dragging your body through wet sand. You eat a "healthy" breakfast and an hour later you need a nap. Weight creeps on slowly and refuses to come off. The mornings are the hardest part of the day. None of this is a willpower problem — it is a metabolism that runs cool, slow, and heavy by nature, and a diet that is almost certainly making it heavier.</p><p>Here is the thing nobody tells Kapha types: most mainstream "wellness" food is wrong for you. The smoothie bowls, the avocado toast, the nut butters, the protein shakes, the cheese-and-cracker "balanced snacks" — they are cold, heavy, oily, and sweet, which is exactly what a Kapha body already has too much of. You do not need to be nourished and soothed. You need to be stimulated, lightened, and woken up. That is what the Kapha diet does.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:28px;">Kapha excess — the pattern that doesn't shift</div>
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
     <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Weight that accumulates slowly and resists all effort to move</div>
     <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Sleeping 8–9 hours and waking up still exhausted</div>
     <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Congestion, sinus issues, mucus accumulation</div>
     <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Slow, heavy digestion — food sits like a stone</div>
     <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Emotional attachment, resistance to change</div>
-    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Low motivation that exercise temporarily fixes</div>
+    <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Low motivation that movement temporarily fixes</div>
   </div>
-</div><h2>What Kapha actually needs.</h2><p>Kapha is heavy slow cold oily dense — the diet needs to counterbalance with light warm dry stimulating. Three most important principles: eat light — Kapha digestion runs slow and heavy foods tax it; eat stimulating — spice is medicine for Kapha; eat early — breakfast can be skipped, largest meal at lunch.</p><h2>Best foods for Kapha.</h2><p>Grains: light barley millet buckwheat corn rye quinoa. Vegetables: almost all vegetables especially bitter and astringent — leafy greens cabbage broccoli cauliflower asparagus artichoke onion garlic radish. Fruits: light astringent — apples pears pomegranates cranberries, avoid heavy sweet fruits. Proteins: light — chicken turkey freshwater fish eggs legumes, tofu excellent. Fats: smallest fat intake of three doshas — small amounts ghee or sunflower oil. Sweeteners: raw honey only in small quantities — warming and drying. Spices: all warming pungent — ginger black pepper trikatu mustard seeds cinnamon cardamom turmeric garlic.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+</div><h2>What Kapha actually needs</h2><p>Kapha is heavy, slow, cold, oily, and dense. The entire strategy is to counterbalance those qualities with food that is <strong>light, warm, dry, and stimulating</strong>. If you remember nothing else, remember that single sentence — it tells you what to do with almost any food you pick up.</p><p>Three principles do the heavy lifting. First, <strong>eat light</strong>. Kapha digestion is genuinely slow, so heavy meals sit and turn into more heaviness. Smaller portions of lighter food keep things moving. Second, <strong>eat stimulating</strong>. Spice is medicine for Kapha — ginger, black pepper, and mustard seed literally kindle the digestive fire that runs low in your constitution. Bitter, pungent, and astringent flavours are your friends; sweet, sour, and salty are what you already have too much of. Third, <strong>eat early and eat less often</strong>. This is the one constitution where skipping or delaying breakfast genuinely helps, and where snacking between meals is the fastest way to stall your metabolism.</p><h2>Best foods for Kapha</h2><p>The Kapha plate is light, dry, warm, and aggressively spiced. <strong>Light grains</strong> are your base: barley, millet, buckwheat, corn, and rye, rather than heavy wheat. <strong>Vegetables</strong> are where Kapha can eat freely — almost all of them work, and the bitter and astringent ones are ideal: leafy greens, broccoli, sprouts, peppers, green beans, cabbage, cauliflower, asparagus, and radish.</p><p><strong>Astringent fruits</strong> like apples, pears, pomegranates, and cranberries suit Kapha far better than heavy, watery, sweet fruit. <strong>Legumes</strong> — most beans and lentils — are light and drying, which makes them an excellent everyday protein. When you want animal protein, keep it <strong>lean and in small amounts</strong>: chicken, turkey, and fish rather than red meat. And then there are the <strong>warming spices</strong>, which matter more for Kapha than for any other type: ginger, black pepper, mustard seeds, trikatu, turmeric, and chilli. Use them generously.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
     <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Category</div>
     <div style="font-size:11px;letter-spacing:0.1em;color:#2d5a47;text-transform:uppercase;">Favour ✓</div>
-    <div style="font-size:11px;letter-spacing:0.1em;color:#c0392b;text-transform:uppercase;">Reduce ���</div>
+    <div style="font-size:11px;letter-spacing:0.1em;color:#c0392b;text-transform:uppercase;">Reduce ✗</div>
   </div>
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
     <div style="font-size:13px;font-weight:700;color:#2a1f14;">Grains</div>
-    <div style="font-size:13px;color:#4a3728;">Millet, barley, rye, buckwheat</div>
+    <div style="font-size:13px;color:#4a3728;">Barley, millet, buckwheat, corn, rye</div>
     <div style="font-size:13px;color:#4a3728;">Wheat, white rice, oats, bread</div>
   </div>
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
     <div style="font-size:13px;font-weight:700;color:#2a1f14;">Vegetables</div>
-    <div style="font-size:13px;color:#4a3728;">Bitter greens, radish, broccoli, peppers</div>
-    <div style="font-size:13px;color:#4a3728;">Sweet potato, avocado, tomato, squash</div>
+    <div style="font-size:13px;color:#4a3728;">Leafy greens, broccoli, sprouts, peppers, green beans</div>
+    <div style="font-size:13px;color:#4a3728;">Sweet potato, avocado, tomato, cucumber</div>
   </div>
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
-    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Protein</div>
-    <div style="font-size:13px;color:#4a3728;">Legumes, white fish, chicken breast</div>
-    <div style="font-size:13px;color:#4a3728;">Red meat, cheese, eggs, tofu</div>
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Fruits</div>
+    <div style="font-size:13px;color:#4a3728;">Apples, pears, pomegranates, cranberries</div>
+    <div style="font-size:13px;color:#4a3728;">Bananas, melons, dates, coconut</div>
   </div>
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Protein</div>
+    <div style="font-size:13px;color:#4a3728;">Most beans &amp; lentils, lean chicken, turkey, fish</div>
+    <div style="font-size:13px;color:#4a3728;">Red meat, hard cheese, excess nuts</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
     <div style="font-size:13px;font-weight:700;color:#2a1f14;">Fats</div>
     <div style="font-size:13px;color:#4a3728;">Small amounts ghee, sunflower oil</div>
-    <div style="font-size:13px;color:#4a3728;">Sesame oil, coconut oil, dairy fat</div>
+    <div style="font-size:13px;color:#4a3728;">Heavy oil, butter, dairy fat, fried food</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Spices</div>
+    <div style="font-size:13px;color:#4a3728;">Ginger, black pepper, mustard seed, trikatu, chilli</div>
+    <div style="font-size:13px;color:#4a3728;">(Kapha can use almost all spices freely)</div>
   </div>
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
     <div style="font-size:13px;font-weight:700;color:#2a1f14;">Drinks</div>
     <div style="font-size:13px;color:#4a3728;">Ginger tea, hot water with lemon, trikatu tea</div>
     <div style="font-size:13px;color:#4a3728;">Cold drinks, dairy, sweet juice, alcohol</div>
   </div>
-</div><h2>Foods Kapha should avoid or reduce.</h2><p>Dairy most Kapha-increasing. Wheat and heavy grains. Sweets and sugar. Cold food and drinks. Heavy oily fried food. Excess salt. Large portions. Eating after 7pm.</p><h2>The Kapha daily food plan.</h2><p>Ginger tea or hot water with lemon and honey for morning or skip. Large well-spiced lunch between noon and 2pm. Lightest dinner before 7pm. Ginger tea throughout day no snacking.</p><h2>Movement is as important as diet for Kapha.</h2><p>Vigorous morning exercise before breakfast is non-negotiable for Kapha — stimulates metabolism in way diet alone cannot.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:40px 0;">
-  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:8px;">The Kapha principle</div>
-  <div style="font-size:22px;font-weight:700;color:#f5f0e8;font-family:Georgia,serif;margin-bottom:20px;">Kapha needs to be provoked out of comfort, not nurtured into ease</div>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
-    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Wake before 6am</strong> — the Kapha window (6–10am) makes waking harder, not easier. Rising before it starts is the key.</div>
-    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Dry brushing</strong> — stimulates lymphatic movement, which is characteristically sluggish in Kapha types.</div>
-    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Intermittent fasting</strong> — one of the few dosha types where skipping breakfast (occasionally) is genuinely beneficial.</div>
-    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Vigorous exercise</strong> — not gentle yoga. Kapha needs to sweat. Intensity creates the metabolic shift gentle movement cannot.</div>
+</div><h2>Foods Kapha should avoid or reduce</h2><p>The reduce list is, frustratingly, full of foods marketed as comforting and wholesome — because comfort is exactly the quality Kapha needs less of. <strong>Dairy</strong> is the single most Kapha-aggravating food group: milk, cheese, and yoghurt are cold, heavy, and mucus-forming. <strong>Wheat</strong> and heavy breads sit like ballast. <strong>Red meat</strong> is dense and slow to digest. <strong>Cold food and drinks</strong> — anything straight from the fridge, iced water, frozen smoothies — smother an already-low digestive fire.</p><p>Then there is the sweet-and-heavy category: <strong>fried food, sugar, sweet or rich desserts, white rice, and processed food</strong> all feed stagnation directly. Even some otherwise "healthy" foods are wrong for Kapha in quantity — <strong>bananas and avocados</strong> are heavy and oily, <strong>nuts in excess</strong> are dense and fatty, and <strong>ghee and oil in excess</strong> tip the scale even though small amounts are fine. None of this has to be all-or-nothing. The goal is to lighten the daily load, not to live in fear of a slice of bread.</p><h2>The Kapha daily food plan</h2><p>Kapha is the one constitution that does best on <strong>two real meals a day</strong>, anchored by a substantial, well-spiced lunch. Unlike Vata — who needs a warm breakfast to stay grounded — Kapha can skip or delay breakfast entirely and feel lighter and clearer for it. The body has plenty of stored energy; the job is to stop adding to it first thing in the morning.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:48px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:28px;">The Kapha daily rhythm</div>
+  <div style="display:grid;grid-template-columns:1fr;gap:16px;">
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:18px;">
+      <div style="font-size:13px;font-weight:700;color:#e8dcc8;margin-bottom:4px;">Morning · skip or go very light</div>
+      <div style="font-size:13px;color:#c4a882;">Start with hot ginger tea or hot water with lemon and a little raw honey. If you genuinely need food, keep it to stewed astringent fruit or a small bowl of spiced barley — never a heavy breakfast.</div>
+    </div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:18px;">
+      <div style="font-size:13px;font-weight:700;color:#e8dcc8;margin-bottom:4px;">Lunch · 12–1pm, the main meal</div>
+      <div style="font-size:13px;color:#c4a882;">Make this the largest meal, when digestion is strongest. Plenty of vegetables, legumes or lean protein, a light grain, and generous warming spice. Eat until satisfied, not stuffed.</div>
+    </div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:18px;">
+      <div style="font-size:13px;font-weight:700;color:#e8dcc8;margin-bottom:4px;">Dinner · before 7pm, very light</div>
+      <div style="font-size:13px;color:#c4a882;">A simple spiced vegetable soup or sautéed greens. Nothing heavy, nothing late. Then stop — no evening snacking, which is where most Kapha diets quietly fall apart.</div>
+    </div>
   </div>
-</div>`,
+</div><h2>Kapha breakfast ideas</h2><ul style="margin:0 0 28px;padding-left:0;list-style:none;">
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Hot ginger tea with a teaspoon of raw honey (often enough on its own)</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Stewed apples or pears with cinnamon, ginger, and clove</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Small bowl of spiced barley or millet porridge (no milk, no sugar)</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Warm spiced pomegranate or cranberry compote</li>
+  <li style="padding:10px 0;color:#3a2a1a;font-size:15px;">Or — most days — simply nothing until lunch</li>
+</ul><h2>Kapha lunch ideas</h2><ul style="margin:0 0 28px;padding-left:0;list-style:none;">
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Spiced lentil dal with sautéed bitter greens and a little millet</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Grilled chicken breast with broccoli, green beans, and ginger</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Chickpea and vegetable curry with plenty of black pepper and chilli</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Buckwheat bowl with roasted peppers, sprouts, and mustard dressing</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">White fish with a warm cabbage, radish, and leafy-green sauté</li>
+  <li style="padding:10px 0;color:#3a2a1a;font-size:15px;">Spiced mung bean and vegetable kitchari (light on ghee)</li>
+</ul><h2>Kapha dinner ideas</h2><ul style="margin:0 0 28px;padding-left:0;list-style:none;">
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Clear, gingery vegetable broth with greens and a pinch of chilli</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Sautéed broccoli, green beans, and peppers with mustard seed</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Light spiced lentil soup (no cream, no heavy oil)</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Warm astringent-vegetable stir-fry with ginger and turmeric</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Small portion of steamed greens with trikatu and lemon</li>
+  <li style="padding:10px 0;color:#3a2a1a;font-size:15px;">Or skip dinner entirely if lunch was substantial and it is past 7pm</li>
+</ul><h2>A 7-day Kapha meal plan</h2><p>This is a template, not a rulebook. Repeat what works, swap what does not, keep lunch the main event, and stay light in the mornings and evenings.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:0.6fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 16px;">
+    <div style="font-size:11px;letter-spacing:0.08em;color:#b5763a;text-transform:uppercase;">Day</div>
+    <div style="font-size:11px;letter-spacing:0.08em;color:#e8dcc8;text-transform:uppercase;">Morning</div>
+    <div style="font-size:11px;letter-spacing:0.08em;color:#e8dcc8;text-transform:uppercase;">Lunch</div>
+    <div style="font-size:11px;letter-spacing:0.08em;color:#e8dcc8;text-transform:uppercase;">Dinner</div>
+  </div>
+  <div style="display:grid;grid-template-columns:0.6fr 1fr 1fr 1fr;padding:12px 16px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Mon</div>
+    <div style="font-size:12px;color:#4a3728;">Ginger tea only</div>
+    <div style="font-size:12px;color:#4a3728;">Lentil dal, bitter greens, millet</div>
+    <div style="font-size:12px;color:#4a3728;">Gingery vegetable broth</div>
+  </div>
+  <div style="display:grid;grid-template-columns:0.6fr 1fr 1fr 1fr;padding:12px 16px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Tue</div>
+    <div style="font-size:12px;color:#4a3728;">Stewed spiced apples</div>
+    <div style="font-size:12px;color:#4a3728;">Chicken, broccoli, green beans</div>
+    <div style="font-size:12px;color:#4a3728;">Sautéed greens with mustard seed</div>
+  </div>
+  <div style="display:grid;grid-template-columns:0.6fr 1fr 1fr 1fr;padding:12px 16px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Wed</div>
+    <div style="font-size:12px;color:#4a3728;">Hot water with lemon</div>
+    <div style="font-size:12px;color:#4a3728;">Chickpea-vegetable curry</div>
+    <div style="font-size:12px;color:#4a3728;">Light spiced lentil soup</div>
+  </div>
+  <div style="display:grid;grid-template-columns:0.6fr 1fr 1fr 1fr;padding:12px 16px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Thu</div>
+    <div style="font-size:12px;color:#4a3728;">Skip breakfast</div>
+    <div style="font-size:12px;color:#4a3728;">Buckwheat bowl, peppers, sprouts</div>
+    <div style="font-size:12px;color:#4a3728;">Vegetable stir-fry with ginger</div>
+  </div>
+  <div style="display:grid;grid-template-columns:0.6fr 1fr 1fr 1fr;padding:12px 16px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Fri</div>
+    <div style="font-size:12px;color:#4a3728;">Spiced barley porridge</div>
+    <div style="font-size:12px;color:#4a3728;">White fish, cabbage-radish sauté</div>
+    <div style="font-size:12px;color:#4a3728;">Steamed greens with trikatu</div>
+  </div>
+  <div style="display:grid;grid-template-columns:0.6fr 1fr 1fr 1fr;padding:12px 16px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Sat</div>
+    <div style="font-size:12px;color:#4a3728;">Ginger tea, honey</div>
+    <div style="font-size:12px;color:#4a3728;">Mung bean kitchari (light)</div>
+    <div style="font-size:12px;color:#4a3728;">Clear vegetable broth</div>
+  </div>
+  <div style="display:grid;grid-template-columns:0.6fr 1fr 1fr 1fr;padding:12px 16px;background:#faf7f2;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Sun</div>
+    <div style="font-size:12px;color:#4a3728;">Cranberry compote</div>
+    <div style="font-size:12px;color:#4a3728;">Turkey with roasted vegetables</div>
+    <div style="font-size:12px;color:#4a3728;">Skip or small soup</div>
+  </div>
+</div><h2>Foods that secretly aggravate Kapha</h2><p>This is where most well-meaning Kapha types go wrong, because the culprits are the foods sold to us as the healthiest options. <strong>Cold smoothies and smoothie bowls</strong> are the worst offender — cold, sweet, heavy, and usually built on banana and milk, a perfect Kapha-aggravating storm. <strong>Avocado toast</strong> pairs heavy wheat with oily fruit. <strong>Nut butters</strong> are dense, fatty, and impossibly easy to over-eat. <strong>Granola</strong> looks virtuous but is sweet, heavy, and often loaded with oil and dried fruit. And <strong>heavy protein shakes</strong> — especially the creamy, milk-or-whey-based kind taken daily — are cold and cloying for a system that needs the opposite. If you eat "clean" and still feel heavy and congested, this is the first list to audit.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:16px;">Seasonal note · Kapha peaks in late winter and spring</div>
+  <p style="margin:0;font-size:15px;line-height:1.7;color:#4a3728;text-align:center;">Kapha accumulates through the cold, damp months and crests in late winter and early spring — exactly when colds, congestion, sluggishness, and that heavy, foggy feeling tend to spike. This is the season to be strictest: lean hardest into light, warm, spiced food, cut dairy and sugar aggressively, and let spring be a natural lightening rather than a time to comfort-eat through the grey. If your symptoms flare every February and March, that is Kapha meeting its own season.</p>
+</div><p>None of this requires willpower so much as a different default. Skip the heavy breakfast, make lunch the real meal, spice everything, drop the cold smoothies and the dairy, and stop eating in the evening. Do that consistently and the heaviness, the brain fog, and the stuck weight tend to start shifting on their own.</p><p style="font-size:13px;color:#8a7a5a;font-style:italic;">This article is educational wellness information, not medical advice. If you have a diagnosed metabolic, thyroid, or respiratory condition, speak with a qualified healthcare professional before making significant dietary changes.</p>`,
   },
   {
     slug: "pitta-diet-plan",
