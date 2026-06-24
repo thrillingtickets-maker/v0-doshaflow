@@ -12,6 +12,18 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "why-you-wake-up-at-3am",
+    category: "article",
+    title: "Why You Wake Up at 3am: The Ayurvedic Explanation",
+    date: "2026-06-24",
+    excerpt:
+      "If you wake between 2 and 4am and can't get back to sleep, Ayurveda has a specific explanation — and it's not insomnia. It's Vata. Here's the mechanism and the protocol that actually works.",
+    seoTitle: "Why You Wake Up at 3am: The Ayurvedic Explanation",
+    seoDescription:
+      "If you wake between 2 and 4am and can't get back to sleep, Ayurveda has a specific explanation — and it's not insomnia. It's Vata. Here's the mechanism and the protocol that actually works.",
+    content: `<p>Waking at 3am is not insomnia. Insomnia is difficulty falling asleep. What happens at 3am is different — you fall asleep fine, you may sleep deeply for the first few hours, and then, reliably, something brings you back. Ayurveda has a specific explanation: the 2–6am window is Vata time, and when Vata is elevated, its natural pre-dawn peak wakes you.</p><h2>What's Actually Happening at 2am</h2><p>Cortisol begins its pre-dawn rise, the liver reaches peak processing activity, and blood sugar drops after the overnight fast. In a balanced system you sleep through all of it. Elevated Vata makes the nervous system hypersensitive, so it interprets these normal nocturnal processes as threats and activates.</p><h2>The 3am Pattern by Dosha</h2><p>Vata waking is sudden with racing thoughts and a feeling of cold; Pitta waking comes with heat and an urgent problem to solve; Kapha waking is groggy and heavy rather than mentally activated. The pattern points to the root cause.</p><h2>The Fix</h2><p>A layered protocol works best: light early dinner before 7pm, a consistent bedtime, warm oil on the feet, Jatamansi before bed for Vata-driven waking, and Ashwagandha over 8+ weeks for the underlying cortisol pattern. When you do wake, stay off your phone and breathe slowly to re-engage the parasympathetic system. This is educational information, not medical advice.</p>`,
+  },
+  {
     slug: "dopamine-detox-vs-ayurveda",
     category: "article",
     title: "Dopamine Detox vs. Ayurveda: Why Rest Isn't the Same as Restriction",
