@@ -25,3 +25,24 @@ export function processArticleContent(html: string): string {
     return match
   })
 }
+
+/**
+ * Splits processed article HTML into an intro block and the remaining body so a
+ * CTA can be inserted after the introduction. Splits at the first <h2> (the start
+ * of the first content section). Falls back to splitting after the first
+ * paragraph when no headings exist, and returns an empty body if neither is found.
+ */
+export function splitArticleIntro(html: string): { intro: string; body: string } {
+  const headingIndex = html.search(/<h2[\s>]/i)
+  if (headingIndex !== -1) {
+    return { intro: html.slice(0, headingIndex), body: html.slice(headingIndex) }
+  }
+
+  const paraEnd = html.indexOf("</p>")
+  if (paraEnd !== -1) {
+    const cut = paraEnd + "</p>".length
+    return { intro: html.slice(0, cut), body: html.slice(cut) }
+  }
+
+  return { intro: html, body: "" }
+}

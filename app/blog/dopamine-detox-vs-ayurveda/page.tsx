@@ -1,7 +1,8 @@
 import { Navigation } from "@/components/navigation"
 import { ArticleHero } from "@/components/article-hero"
 import { ArticleEmailCapture } from "@/components/article-email-capture"
-import { processArticleContent } from "@/lib/process-article-content"
+import { ArticleQuizCta } from "@/components/article-quiz-cta"
+import { processArticleContent, splitArticleIntro } from "@/lib/process-article-content"
 import { calculateReadingTime, formatReadingTime } from "@/lib/reading-time"
 import { RelatedReading } from "@/components/related-reading"
 import { ArrowLeft } from "lucide-react"
@@ -99,6 +100,7 @@ const content = `<p>If you have ever ended a long scroll feeling more depleted t
 
 export default function DopamineDetoxPage() {
   const readingTime = calculateReadingTime(content)
+  const { intro, body } = splitArticleIntro(processArticleContent(content))
 
   return (
     <>
@@ -402,13 +404,40 @@ export default function DopamineDetoxPage() {
               font-style: italic;
               margin-bottom: 24px;
             }
+
+            /* Body continues after the inline CTA: don't re-apply lead/drop-cap styling */
+            article div.article-body-continued p:first-of-type {
+              font-size: 17px;
+              line-height: 1.85;
+              color: #3a3a3a;
+              font-weight: 400;
+              margin-top: 20px;
+              margin-bottom: 20px;
+            }
+
+            article div.article-body-continued p:first-of-type::first-letter {
+              font-size: inherit;
+              font-weight: inherit;
+              color: inherit;
+            }
           `}</style>
             <div
               style={{ color: "#2c1a0e", lineHeight: 1.85 }}
-              dangerouslySetInnerHTML={{ __html: processArticleContent(content) }}
+              dangerouslySetInnerHTML={{ __html: intro }}
             />
 
-            {/* Email Capture Section */}
+            {/* Inline Conversion CTA - after intro */}
+            <ArticleQuizCta />
+
+            {body && (
+              <div
+                className="article-body-continued"
+                style={{ color: "#2c1a0e", lineHeight: 1.85 }}
+                dangerouslySetInnerHTML={{ __html: body }}
+              />
+            )}
+
+            {/* Email Capture Section - near end, before related reading */}
             <ArticleEmailCapture articleTitle={TITLE} />
 
             {/* Related Reading Section */}
