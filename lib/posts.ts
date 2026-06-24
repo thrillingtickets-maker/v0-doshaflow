@@ -1,6 +1,6 @@
 export interface Post {
   slug: string
-  category: "journal" | "article" | "editorial" | "founder"
+  category: "journal" | "article" | "editorial" | "founder" | "Nutrition"
   title: string
   date: string
   excerpt: string
@@ -703,13 +703,13 @@ export const posts: Post[] = [
   },
   {
     slug: "pitta-diet-plan",
-    category: "article",
+    category: "Nutrition",
     title: "Pitta Diet Plan: How to Cool the Fire Without Losing the Edge",
-    date: "April 20, 2026",
-    excerpt: "The complete Pitta diet plan — best foods to cool Pitta, what to avoid, and a practical daily template including the most common Pitta dietary mistakes.",
+    date: "June 24, 2026",
+    excerpt: "The complete Pitta diet plan — best foods to cool Pitta dosha, what to avoid, and a practical daily template. Includes the most common Pitta dietary mistakes.",
     seoTitle: "Pitta Diet Plan: How to Cool the Fire Without Losing the Edge",
-    seoDescription: "The complete Pitta diet plan — best foods to cool Pitta, what to avoid, and a practical daily template including the most common Pitta dietary mistakes.",
-    content: `<p>Pitta is the fire element: intense, focused, driven. In balance, Pitta types are dynamic, ambitious, intelligent, and able to digest not just food but also complex information and emotions. Out of balance, Pitta becomes inflammatory — producing acne, reflux, ulcers, and emotional reactivity. The Pitta diet is not about restriction. It is about channelling intense fire productively rather than letting it burn destructively.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;">
+    seoDescription: "The complete Pitta diet plan — best foods to cool Pitta dosha, what to avoid, and a practical daily template. Includes the most common Pitta dietary mistakes.",
+    content: `<p>Pitta is the fire element — intense, focused, driven. In balance, Pitta types are sharp, ambitious, and able to digest not just food but complex ideas and emotions. Out of balance, Pitta turns inflammatory: acid reflux, breakouts, loose stools, and a temper that runs hotter than the situation deserves. The Pitta diet is not a punishment and not a cleanse. It is the simple, daily work of cooling the fire enough that it powers you instead of burning you.</p><p>Here is the thing most Pitta people get wrong: they treat food like a performance. They chase the "optimal" diet, the spiciest hot sauce, the strongest coffee, the most aggressive protein powder — and then wonder why their skin is angry and their stomach is on fire. Pitta does not need more intensity. It needs the opposite of what it craves. Cooling, not heating. Moderate, not extreme. Sweet, bitter, and astringent — not spicy, sour, and salty.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;">
   <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:28px;">You may be running hot — Pitta excess signals</div>
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
     <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Acid reflux or heartburn after meals</div>
@@ -719,7 +719,7 @@ export const posts: Post[] = [
     <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Wired and alert 10pm–midnight when you should wind down</div>
     <div style="background:white;border-radius:6px;padding:14px;font-size:13px;color:#4a3728;">Loose stool or diarrhoea, especially after spicy food or alcohol</div>
   </div>
-</div><h2>What Pitta actually needs.</h2><p>Pitta is hot sharp light intense — the diet needs to counterbalance with cool heavy sweet. Three most important principles: eat cooling food — not spicy sour salty or heating; eat on time — Pitta blood sugar sensitivity means skipped meal produces irritability headache intensity; do not eat to extremes — obsession with perfect diet is itself Pitta-aggravating.</p><h2>Best foods for Pitta.</h2><p>Grains: basmati rice oats wheat barley. Vegetables: sweet bitter astringent leafy greens cucumber zucchini asparagus broccoli sweet potato fennel — raw salads more appropriate for Pitta than Vata. Fruits: sweet ripe cooling coconut melons grapes pomegranates pears. Fats: ghee excellent cooling and clarifying, coconut oil most cooling, avoid sesame in large quantities. Spices: cooling or mild — coriander fennel cardamom saffron mint, avoid chilli cayenne mustard seeds.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+</div><h2>What Pitta actually needs</h2><p>Pitta is hot, sharp, light, and intense, so the diet has to counterbalance with cool, heavy, and sweet. Three principles do most of the work.</p><p>First, <strong>eat cooling food</strong> — not spicy, sour, salty, or fried. Second, <strong>eat on time</strong>. Pitta runs the strongest digestive fire of the three doshas, which means a skipped meal does not just make you hungry — it makes you irritable, shaky, and headachey within an hour. Pitta cannot fast the way Kapha can. Third, <strong>do not eat to extremes</strong>. The obsessive pursuit of a perfect diet is itself a Pitta imbalance. Eighty percent right, eaten calmly, beats one hundred percent right eaten with stress.</p><h2>Best foods for Pitta</h2><p>The Pitta plate is green, sweet, and cool. <strong>Sweet fruits</strong> — ripe pears, sweet apples, melons, grapes, pomegranates, mango, and dates — soothe the system better than sour citrus ever will. <strong>Cooling vegetables</strong> are the backbone of the diet: cucumber, zucchini, leafy greens, asparagus, broccoli, fennel, celery, and sweet potato. Pitta is the one dosha that genuinely does well with raw salads, especially in summer.</p><p><strong>Dairy</strong> is cooling and grounding for Pitta when it is fresh and unfermented: cool (not boiling) milk, ghee, and unsalted butter all pacify heat. <strong>Grains</strong> should be cooling and easy — basmati rice, oats, wheat, and barley. <strong>Coconut</strong> in every form — water, flesh, and oil — is among the most cooling foods available. And the Pitta spice cabinet leans gentle and green: <strong>coriander, fennel, mint, cardamom, and saffron</strong> cool and aid digestion without adding fire.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
     <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Category</div>
     <div style="font-size:11px;letter-spacing:0.1em;color:#2d5a47;text-transform:uppercase;">Favour ✓</div>
@@ -727,30 +727,130 @@ export const posts: Post[] = [
   </div>
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
     <div style="font-size:13px;font-weight:700;color:#2a1f14;">Grains</div>
-    <div style="font-size:13px;color:#4a3728;">Basmati rice, oats, barley</div>
-    <div style="font-size:13px;color:#4a3728;">Brown rice, corn, rye</div>
+    <div style="font-size:13px;color:#4a3728;">Basmati rice, oats, wheat, barley</div>
+    <div style="font-size:13px;color:#4a3728;">Brown rice, corn, rye, millet</div>
   </div>
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
     <div style="font-size:13px;font-weight:700;color:#2a1f14;">Vegetables</div>
-    <div style="font-size:13px;color:#4a3728;">Cucumber, zucchini, leafy greens, broccoli</div>
-    <div style="font-size:13px;color:#4a3728;">Tomatoes, peppers, onion raw, garlic</div>
+    <div style="font-size:13px;color:#4a3728;">Cucumber, zucchini, leafy greens, broccoli, fennel</div>
+    <div style="font-size:13px;color:#4a3728;">Tomatoes, chillies, raw onion, garlic</div>
   </div>
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
-    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Protein</div>
-    <div style="font-size:13px;color:#4a3728;">Chicken, white fish, tofu, legumes</div>
-    <div style="font-size:13px;color:#4a3728;">Red meat, egg yolks, shellfish</div>
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Fruits</div>
+    <div style="font-size:13px;color:#4a3728;">Sweet ripe pears, melons, grapes, pomegranate</div>
+    <div style="font-size:13px;color:#4a3728;">Sour citrus, grapefruit, unripe fruit</div>
   </div>
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
-    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Fats</div>
-    <div style="font-size:13px;color:#4a3728;">Ghee, coconut oil, sunflower oil</div>
-    <div style="font-size:13px;color:#4a3728;">Sesame oil, almond oil</div>
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Protein</div>
+    <div style="font-size:13px;color:#4a3728;">Chicken, white fish, tofu, mung dal, legumes</div>
+    <div style="font-size:13px;color:#4a3728;">Red meat, egg yolks, shellfish</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Dairy &amp; Fats</div>
+    <div style="font-size:13px;color:#4a3728;">Cool milk, ghee, butter, coconut oil</div>
+    <div style="font-size:13px;color:#4a3728;">Sour cream, hard cheese, sesame oil</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Spices</div>
+    <div style="font-size:13px;color:#4a3728;">Coriander, fennel, mint, cardamom, saffron</div>
+    <div style="font-size:13px;color:#4a3728;">Chilli, cayenne, mustard seed, black pepper</div>
   </div>
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
     <div style="font-size:13px;font-weight:700;color:#2a1f14;">Drinks</div>
     <div style="font-size:13px;color:#4a3728;">Coconut water, mint tea, rose water, fennel tea</div>
     <div style="font-size:13px;color:#4a3728;">Alcohol, coffee, kombucha, citrus juice</div>
   </div>
-</div><h2>Foods Pitta should avoid or reduce.</h2><p>Spicy food adds heat to hot system. Alcohol most significant Pitta aggravator processed by liver. Coffee heating and acidic. Sour fermented foods. Red meat. Eating when angry or stressed.</p><h2>The Pitta daily food plan.</h2><p>Light cooling breakfast. Substantial satisfying lunch between noon and 1pm using Pitta digestion peak window. Lighter dinner. No eating past 8pm. Cool milk with cardamom in evening.</p><h2>The most important Pitta supplement.</h2><p>Shatavari and brahmi as supplements.</p>`,  },
+</div><h2>Foods Pitta should avoid or reduce</h2><p>If the favour list is green and sweet, the reduce list is everything hot, sharp, and sour. <strong>Chilli, cayenne, garlic, and raw onion</strong> add fire to an already-hot system. <strong>Fermented foods</strong> — vinegar, pickles, aged cheese, kombucha — are sour and heating. <strong>Red meat</strong> is dense and warming. <strong>Alcohol</strong> is the single most aggravating substance for Pitta because the liver, a Pitta organ, has to process it. <strong>Coffee</strong> is both heating and acidic. <strong>Sour citrus and tomatoes</strong> round out the list. None of this has to be absolute — the goal is to reduce the daily heat load, not to live in fear of a squeeze of lemon.</p><h2>The Pitta daily food plan</h2><p>Pitta does best on a steady three-meal rhythm anchored around a real midday lunch. The digestive fire peaks between noon and 1pm, so that is when the largest, most satisfying meal belongs. Never skip it — a skipped Pitta lunch is a guaranteed afternoon of irritability.</p><div style="background:#2a1f14;border-radius:12px;padding:40px;margin:48px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:28px;">The Pitta daily rhythm</div>
+  <div style="display:grid;grid-template-columns:1fr;gap:16px;">
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:18px;">
+      <div style="font-size:13px;font-weight:700;color:#e8dcc8;margin-bottom:4px;">Morning · 7–8am</div>
+      <div style="font-size:13px;color:#c4a882;">Light and cooling. Stewed sweet fruit, soaked oats, or a cool (not iced) smoothie. Never start the day on an empty stomach and black coffee.</div>
+    </div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:18px;">
+      <div style="font-size:13px;font-weight:700;color:#e8dcc8;margin-bottom:4px;">Lunch · 12–1pm</div>
+      <div style="font-size:13px;color:#c4a882;">The main meal. Basmati rice, vegetables, a cooling protein, ghee, and coriander. Eat it calmly and away from your screen.</div>
+    </div>
+    <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:18px;">
+      <div style="font-size:13px;font-weight:700;color:#e8dcc8;margin-bottom:4px;">Dinner · before 7:30pm</div>
+      <div style="font-size:13px;color:#c4a882;">Lighter than lunch. A simple soup, kitchari, or steamed vegetables. Finish with cool cardamom milk to wind down the 10pm Pitta surge.</div>
+    </div>
+  </div>
+</div><h2>Pitta breakfast ideas</h2><ul style="margin:0 0 28px;padding-left:0;list-style:none;">
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Soaked oats with sweet pear, dates, and a spoon of ghee</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Cool coconut-and-mango smoothie with cardamom (no ice)</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Stewed sweet apples and pears with cinnamon and fennel</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Wheat or oat porridge with milk, soaked raisins, and a little maple</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Fresh figs or sweet grapes with a handful of soaked almonds</li>
+  <li style="padding:10px 0;color:#3a2a1a;font-size:15px;">Coconut yoghurt (fresh, not sour) with melon and mint</li>
+</ul><h2>Pitta lunch ideas</h2><ul style="margin:0 0 28px;padding-left:0;list-style:none;">
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Basmati rice with mung dal, coriander, ghee, and steamed greens</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Cucumber, fennel, and leafy-green salad with grilled white fish</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Zucchini and sweet potato curry (mild) over basmati rice</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Tofu and broccoli stir-fry with coconut oil and coriander</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Chicken with cooling herb sauce, basmati, and a cucumber side</li>
+  <li style="padding:10px 0;color:#3a2a1a;font-size:15px;">Barley bowl with roasted asparagus, peas, mint, and ghee</li>
+</ul><h2>Pitta dinner ideas</h2><ul style="margin:0 0 28px;padding-left:0;list-style:none;">
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Mung-and-rice kitchari with fennel, coriander, and ghee</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Cooling cucumber and zucchini soup with mint</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Steamed vegetables over basmati with a spoon of ghee</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Sweet potato and spinach mash with coriander</li>
+  <li style="padding:10px 0;border-bottom:1px solid #e8e0d4;color:#3a2a1a;font-size:15px;">Light vegetable and barley broth with fresh herbs</li>
+  <li style="padding:10px 0;color:#3a2a1a;font-size:15px;">Simple dal with rice, finished with cool cardamom milk after</li>
+</ul><h2>A 7-day Pitta meal plan</h2><p>This is a template, not a prescription. Repeat what you like, swap what you do not, and keep lunch the largest meal of the day.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
+  <div style="display:grid;grid-template-columns:0.6fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 16px;">
+    <div style="font-size:11px;letter-spacing:0.08em;color:#b5763a;text-transform:uppercase;">Day</div>
+    <div style="font-size:11px;letter-spacing:0.08em;color:#e8dcc8;text-transform:uppercase;">Breakfast</div>
+    <div style="font-size:11px;letter-spacing:0.08em;color:#e8dcc8;text-transform:uppercase;">Lunch</div>
+    <div style="font-size:11px;letter-spacing:0.08em;color:#e8dcc8;text-transform:uppercase;">Dinner</div>
+  </div>
+  <div style="display:grid;grid-template-columns:0.6fr 1fr 1fr 1fr;padding:12px 16px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Mon</div>
+    <div style="font-size:12px;color:#4a3728;">Soaked oats with pear</div>
+    <div style="font-size:12px;color:#4a3728;">Rice, mung dal, greens</div>
+    <div style="font-size:12px;color:#4a3728;">Kitchari with fennel</div>
+  </div>
+  <div style="display:grid;grid-template-columns:0.6fr 1fr 1fr 1fr;padding:12px 16px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Tue</div>
+    <div style="font-size:12px;color:#4a3728;">Coconut-mango smoothie</div>
+    <div style="font-size:12px;color:#4a3728;">White fish, cucumber salad</div>
+    <div style="font-size:12px;color:#4a3728;">Cucumber-zucchini soup</div>
+  </div>
+  <div style="display:grid;grid-template-columns:0.6fr 1fr 1fr 1fr;padding:12px 16px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Wed</div>
+    <div style="font-size:12px;color:#4a3728;">Stewed apple and pear</div>
+    <div style="font-size:12px;color:#4a3728;">Zucchini-sweet potato curry</div>
+    <div style="font-size:12px;color:#4a3728;">Steamed veg over rice</div>
+  </div>
+  <div style="display:grid;grid-template-columns:0.6fr 1fr 1fr 1fr;padding:12px 16px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Thu</div>
+    <div style="font-size:12px;color:#4a3728;">Oat porridge with raisins</div>
+    <div style="font-size:12px;color:#4a3728;">Tofu-broccoli stir-fry</div>
+    <div style="font-size:12px;color:#4a3728;">Sweet potato-spinach mash</div>
+  </div>
+  <div style="display:grid;grid-template-columns:0.6fr 1fr 1fr 1fr;padding:12px 16px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Fri</div>
+    <div style="font-size:12px;color:#4a3728;">Figs and soaked almonds</div>
+    <div style="font-size:12px;color:#4a3728;">Chicken, basmati, cucumber</div>
+    <div style="font-size:12px;color:#4a3728;">Vegetable-barley broth</div>
+  </div>
+  <div style="display:grid;grid-template-columns:0.6fr 1fr 1fr 1fr;padding:12px 16px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Sat</div>
+    <div style="font-size:12px;color:#4a3728;">Coconut yoghurt and melon</div>
+    <div style="font-size:12px;color:#4a3728;">Barley bowl with asparagus</div>
+    <div style="font-size:12px;color:#4a3728;">Simple dal with rice</div>
+  </div>
+  <div style="display:grid;grid-template-columns:0.6fr 1fr 1fr 1fr;padding:12px 16px;background:#faf7f2;">
+    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Sun</div>
+    <div style="font-size:12px;color:#4a3728;">Sweet grapes and almonds</div>
+    <div style="font-size:12px;color:#4a3728;">Kitchari with extra greens</div>
+    <div style="font-size:12px;color:#4a3728;">Light cooling soup</div>
+  </div>
+</div><h2>Foods that secretly aggravate Pitta</h2><p>Some of the worst offenders for Pitta are marketed as health foods, which is exactly why they slip past. <strong>Hot sauce</strong> on everything is pure fire. <strong>Apple cider vinegar</strong> taken as a daily "tonic" is intensely sour and heating — the opposite of what Pitta needs. <strong>Citrus-heavy green juices</strong>, especially anything built on lemon, grapefruit, or pineapple, are acidic enough to stoke reflux. <strong>Protein powders</strong> — particularly heating whey isolates taken in large daily scoops — are dense and inflammatory for many Pitta types. Even "clean" fermented foods like kombucha and large amounts of vinegar-based dressing quietly add to the heat load. If you are doing everything right and still feel inflamed, look here first.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;">
+  <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;text-align:center;margin-bottom:16px;">Seasonal note · Pitta peaks in summer</div>
+  <p style="margin:0;font-size:15px;line-height:1.7;color:#4a3728;text-align:center;">Pitta accumulates in the heat of summer, so this is the season to lean hardest into cooling food — more raw salads, more coconut water, more sweet fruit, and far less spice, alcohol, and grilling. If your symptoms flare reliably from June to September, that is not a coincidence; it is Pitta meeting its own season. Ease off the fire and let the food do the cooling.</p>
+</div><p>None of this requires perfection. Cool the plate, keep lunch sacred, drop the hot sauce and the daily ACV, and let summer be the season you slow down rather than push harder. Do that consistently and the reflux, the breakouts, and the short fuse tend to settle on their own.</p><p style="font-size:13px;color:#8a7a5a;font-style:italic;">This article is educational wellness information, not medical advice. If you have a diagnosed digestive or liver condition, or persistent reflux, speak with a qualified healthcare professional before making significant dietary changes.</p>`,
+  },
   {
     slug: "vata-diet-plan",
     category: "article",
