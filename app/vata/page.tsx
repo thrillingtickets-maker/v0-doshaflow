@@ -6,6 +6,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Vata Dosha Guide: Anxiety, Sleep & Nervous System | DoshaFlow",
   description: "Understanding Vata dosha — what it is, how it manifests, and the practical protocols for Vata balance. Anxiety, poor sleep, digestive issues, and nervous system recovery.",
+  alternates: { canonical: "https://www.doshaflow.com/vata" },
   openGraph: {
     title: "Vata Dosha Guide: Anxiety, Sleep & Nervous System | DoshaFlow",
     description: "Understand Vata dosha — the causes of anxiety, poor sleep, and nervous system depletion. Daily routines, foods, herbs, and the Ayurvedic path to balance.",

@@ -6,6 +6,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Pitta Dosha Guide: Burnout, Inflammation & Stress | DoshaFlow",
   description: "Understanding Pitta dosha — what it is, how it manifests, and the practical protocols for Pitta balance. Burnout, inflammation, irritability, and nervous system recovery.",
+  alternates: { canonical: "https://www.doshaflow.com/pitta" },
   openGraph: {
     title: "Pitta Dosha Guide: Burnout, Inflammation & Stress | DoshaFlow",
     description: "Understand Pitta dosha — the causes of burnout, inflammation, and driven exhaustion. Cooling foods, herbs, and daily practices for sustainable energy.",
