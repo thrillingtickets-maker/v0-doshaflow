@@ -14,10 +14,24 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.doshaflow.com'),
   title: 'DoshaFlow | Personalized Wellness for How Your Body Actually Feels',
   description: 'Meal plans, movement, digestion, and recovery — all adapted to your body and routine. Experience Ayurvedic wellness meets modern science.',
   keywords: ['wellness', 'ayurveda', 'dosha', 'meal planning', 'digestion', 'workouts', 'personalized health'],
   generator: 'v0.app',
+  alternates: { canonical: '/' },
+  openGraph: {
+    title: 'DoshaFlow | Personalized Wellness for How Your Body Actually Feels',
+    description: 'Meal plans, movement, digestion, and recovery — all adapted to your body and routine. Experience Ayurvedic wellness meets modern science.',
+    url: 'https://www.doshaflow.com',
+    siteName: 'DoshaFlow',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'DoshaFlow | Personalized Wellness for How Your Body Actually Feels',
+    description: 'Meal plans, movement, digestion, and recovery — all adapted to your body and routine.',
+  },
   icons: {
     icon: [
       {
@@ -37,6 +51,32 @@ export const metadata: Metadata = {
   },
 }
 
+const siteSchema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Organization',
+      '@id': 'https://www.doshaflow.com/#organization',
+      name: 'DoshaFlow',
+      url: 'https://www.doshaflow.com',
+      description:
+        'Personalized Ayurvedic wellness guidance — meal plans, movement, digestion, and recovery adapted to your body and routine.',
+      founder: {
+        '@type': 'Person',
+        name: 'Alex Osborne',
+        url: 'https://www.doshaflow.com/founder',
+      },
+    },
+    {
+      '@type': 'WebSite',
+      '@id': 'https://www.doshaflow.com/#website',
+      url: 'https://www.doshaflow.com',
+      name: 'DoshaFlow',
+      publisher: { '@id': 'https://www.doshaflow.com/#organization' },
+    },
+  ],
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -45,6 +85,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable} bg-background`}>
       <body className="font-sans antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteSchema) }}
+        />
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>

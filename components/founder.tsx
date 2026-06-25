@@ -28,29 +28,35 @@ export function Founder() {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <h3 className="font-serif text-2xl md:text-3xl font-medium text-foreground mb-1 text-center">
-            Founder of DoshaFlow
+            Alex Osborne
           </h3>
+          <p className="text-sm text-muted-foreground text-center uppercase tracking-wide">
+            Founder of DoshaFlow
+          </p>
 
           <div className="mt-8 space-y-4 text-foreground/90 leading-relaxed">
             <p>
-              I&apos;m not a doctor, an Ayurvedic physician, or a credentialed
-              practitioner — and DoshaFlow doesn&apos;t pretend otherwise. I&apos;m
-              someone who spent years overstimulated, under-rested, and frustrated by
-              wellness advice that was either vague mysticism or aggressive
-              optimization, and who went looking for something more practical.
+              I&apos;m Alex Osborne. I&apos;m not a doctor, an Ayurvedic physician, or a
+              credentialed practitioner — and DoshaFlow doesn&apos;t pretend otherwise.
+              I&apos;m someone who spent years overstimulated, under-rested, and
+              frustrated by wellness advice that was either vague mysticism or
+              aggressive optimization, and who went looking for something more
+              practical.
             </p>
             <p>
-              I built DoshaFlow after going to an Ayurvedic retreat in Bengaluru,
-              India, expecting very little. What I found was a practical framework for
-              recovery — and a gap between that tradition and how it&apos;s sold in the
-              West. I started writing things down, testing routines, and reading
-              widely to separate what holds up from what doesn&apos;t.
+              I built DoshaFlow after burning out and spending time at an Ayurvedic
+              retreat in Bengaluru, India, expecting very little. What I found was a
+              practical framework for recovery — and a gap between that tradition and
+              how it&apos;s sold in the West. I started writing things down, testing
+              routines, and reading widely to separate what holds up from what
+              doesn&apos;t.
             </p>
             <p>
               DoshaFlow exists to translate Ayurvedic principles into clear,
               evidence-aware guidance — without the guru act, the fear-mongering, or
-              the promises no one can keep. It is educational, not medical, and it
-              points you toward qualified professionals for anything that needs one.
+              the promises no one can keep. It is educational wellness content, not
+              medical advice, and it points you toward qualified professionals for
+              anything that needs one.
             </p>
           </div>
         </motion.div>

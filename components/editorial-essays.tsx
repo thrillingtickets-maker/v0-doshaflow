@@ -4,9 +4,25 @@ import { ArrowRight } from "lucide-react"
 
 export function EditorialEssays() {
   const allPosts = getAllPosts()
+
+  // Founder reflections + editorial essays, newest first.
+  // Dedupe by slug AND by normalized title so near-duplicate entries
+  // (e.g. two "Traveling the Ayurvedic Way" posts) can never both render.
+  const seenSlugs = new Set<string>()
+  const seenTitles = new Set<string>()
   const editorialEssays = allPosts
-    .filter(post => post.category === "editorial")
+    .filter((post) => post.category === "editorial" || post.category === "founder")
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .filter((post) => {
+      const titleKey = post.title.trim().toLowerCase()
+      if (seenSlugs.has(post.slug) || seenTitles.has(titleKey)) {
+        return false
+      }
+      seenSlugs.add(post.slug)
+      seenTitles.add(titleKey)
+      return true
+    })
+    .slice(0, 4)
 
   if (editorialEssays.length === 0) {
     return null

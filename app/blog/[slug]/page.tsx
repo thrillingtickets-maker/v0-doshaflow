@@ -62,8 +62,34 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const readingTime = calculateReadingTime(post.content)
   const { intro, body } = splitArticleIntro(processArticleContent(post.content))
 
+  const url = `https://www.doshaflow.com/blog/${slug}`
+  const blogPostingSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.seoDescription || post.excerpt,
+    datePublished: new Date(post.date).toISOString(),
+    dateModified: new Date(post.date).toISOString(),
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    url,
+    author: {
+      "@type": "Person",
+      name: "Alex Osborne",
+      url: "https://www.doshaflow.com/founder",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "DoshaFlow",
+      "@id": "https://www.doshaflow.com/#organization",
+    },
+  }
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }}
+      />
       <Navigation />
       <main style={{ minHeight: "100vh", backgroundColor: "#fdf8f3" }}>
       <ArticleHero
