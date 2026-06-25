@@ -97,6 +97,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         category={post.category}
         date={post.date}
         highlightWord={highlightWord}
+        heroImage={post.heroImage}
+        heroImageAlt={post.heroImageAlt}
       />
       <article style={{ paddingBottom: "96px" }}>
         <div style={{ maxWidth: "680px", margin: "0 auto", padding: "0 24px" }}>

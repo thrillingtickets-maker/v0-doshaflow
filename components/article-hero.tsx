@@ -4,6 +4,8 @@ interface ArticleHeroProps {
   date: string
   author?: string
   highlightWord?: string
+  heroImage?: string
+  heroImageAlt?: string
 }
 
 import { getCategoryColor } from "@/lib/article-colors"
@@ -14,6 +16,8 @@ export function ArticleHero({
   date,
   author = "Alex",
   highlightWord,
+  heroImage,
+  heroImageAlt,
 }: ArticleHeroProps) {
   const accentColor = getCategoryColor(category)
   
@@ -29,6 +33,20 @@ export function ArticleHero({
   return (
     <header className="px-6 py-16 md:py-24 bg-background border-b border-border">
       <div className="max-w-4xl mx-auto">
+        {/* Optional editorial hero illustration */}
+        {heroImage && (
+          <div className="mb-10 overflow-hidden rounded-2xl border border-border">
+            <img
+              src={heroImage || "/placeholder.svg"}
+              alt={heroImageAlt || ""}
+              width={1024}
+              height={1024}
+              className="w-full h-auto object-cover"
+              style={{ aspectRatio: "16 / 9" }}
+            />
+          </div>
+        )}
+
         {/* Category pill */}
         <div className="mb-6">
           <span
