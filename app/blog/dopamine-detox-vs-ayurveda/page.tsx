@@ -98,12 +98,39 @@ const content = `<p>If you have ever ended a long scroll feeling more depleted t
 <h2>The Takeaway</h2>
 <p>A dopamine detox is a useful interruption. Ayurveda is a way of keeping the system regulated so you need the interruption less often. One is an event; the other is a practice. If the detox shows you how overstimulated you have become, let the Ayurvedic part — rhythm, warmth, rest that actually restores — be what you build afterward. Rest isn't restriction. It is what you give a tired nervous system so it can finally stop bracing.</p>`
 
+const PAGE_URL = "https://www.doshaflow.com/blog/dopamine-detox-vs-ayurveda"
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: TITLE,
+    description: DESCRIPTION,
+    datePublished: new Date(DATE).toISOString(),
+    dateModified: new Date(DATE).toISOString(),
+    mainEntityOfPage: { "@type": "WebPage", "@id": PAGE_URL },
+    url: PAGE_URL,
+    author: { "@type": "Person", name: "Alex Osborne", url: "https://www.doshaflow.com/founder" },
+    publisher: { "@type": "Organization", name: "DoshaFlow", "@id": "https://www.doshaflow.com/#organization" },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.doshaflow.com" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.doshaflow.com/blog" },
+      { "@type": "ListItem", position: 3, name: TITLE, item: PAGE_URL },
+    ],
+  },
+]
+
 export default function DopamineDetoxPage() {
   const readingTime = calculateReadingTime(content)
   const { intro, body } = splitArticleIntro(processArticleContent(content))
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Navigation />
       <main style={{ minHeight: "100vh", backgroundColor: "#fdf8f3" }}>
         <ArticleHero title={TITLE} category={CATEGORY} date={DATE} highlightWord="Ayurveda" />

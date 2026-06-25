@@ -2,9 +2,10 @@ import type { Metadata } from "next"
 import { Navigation } from "@/components/navigation"
 
 export const metadata: Metadata = {
-  title: "DoshaFlow — Ayurvedic Dosha Quiz, Personalized Wellness Plans & Herbal Guides",
+  title: "DoshaFlow — Ayurvedic Dosha Quiz & Wellness Plans",
   description:
-    "Take the free Ayurvedic dosha quiz to discover your Vata, Pitta, or Kapha body type. Get personalized meal guides, herbal recommendations, digestion protocols, sleep plans, and stress relief based on your Ayurvedic constitution.",
+    "Take the free Ayurvedic dosha quiz to find your Vata, Pitta, or Kapha type, then get personalized meal guides, herbal picks, and sleep and stress plans.",
+  alternates: { canonical: "/" },
   openGraph: {
     title: "DoshaFlow — Personalized Ayurvedic Wellness for Your Body Type",
     description: "Discover your dosha and get a personalized Ayurvedic Dosha Report with meal guides, movement routines, and herbal recommendations.",

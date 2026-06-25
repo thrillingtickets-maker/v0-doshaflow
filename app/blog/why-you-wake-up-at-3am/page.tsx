@@ -175,12 +175,39 @@ const content = `<p>Waking at 3am is not insomnia. Insomnia is difficulty fallin
   <a href="/quiz" style="display:inline-block;background:#2a1f14;color:#f5f0e8;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:600;font-size:15px;">Take the Free Dosha Quiz →</a>
 </div>`
 
+const PAGE_URL = "https://www.doshaflow.com/blog/why-you-wake-up-at-3am"
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: TITLE,
+    description: DESCRIPTION,
+    datePublished: new Date(DATE).toISOString(),
+    dateModified: new Date(DATE).toISOString(),
+    mainEntityOfPage: { "@type": "WebPage", "@id": PAGE_URL },
+    url: PAGE_URL,
+    author: { "@type": "Person", name: "Alex Osborne", url: "https://www.doshaflow.com/founder" },
+    publisher: { "@type": "Organization", name: "DoshaFlow", "@id": "https://www.doshaflow.com/#organization" },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.doshaflow.com" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.doshaflow.com/blog" },
+      { "@type": "ListItem", position: 3, name: TITLE, item: PAGE_URL },
+    ],
+  },
+]
+
 export default function WhyYouWakeUpAt3amPage() {
   const readingTime = calculateReadingTime(content)
   const { intro, body } = splitArticleIntro(processArticleContent(content))
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Navigation />
       <main style={{ minHeight: "100vh", backgroundColor: "#fdf8f3" }}>
         <ArticleHero title={TITLE} category={CATEGORY} date={DATE} highlightWord="3am" />

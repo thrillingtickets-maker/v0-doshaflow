@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.doshaflow.com/api/sitemap
+Sitemap: https://www.doshaflow.com/sitemap.xml

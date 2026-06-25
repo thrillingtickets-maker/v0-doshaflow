@@ -110,12 +110,39 @@ const content = `<p>Most people notice it in the shower, or in the extra strands
 <h2>The Reassuring Part</h2>
 <p>Stress-related shedding is, in most cases, one of the more reversible forms of hair loss. The follicles are usually not dead; they are dormant, waiting for conditions to improve. When the nervous system settles, digestion strengthens, and reserves rebuild, the cycle tends to recover — though it takes patience, because hair grows on a timescale of months, not days. The work is less about chasing the hair and more about giving the body, finally, enough margin to grow it.</p>`
 
+const PAGE_URL = "https://www.doshaflow.com/blog/stress-hair-loss-ayurveda"
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: TITLE,
+    description: DESCRIPTION,
+    datePublished: new Date(DATE).toISOString(),
+    dateModified: new Date(DATE).toISOString(),
+    mainEntityOfPage: { "@type": "WebPage", "@id": PAGE_URL },
+    url: PAGE_URL,
+    author: { "@type": "Person", name: "Alex Osborne", url: "https://www.doshaflow.com/founder" },
+    publisher: { "@type": "Organization", name: "DoshaFlow", "@id": "https://www.doshaflow.com/#organization" },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.doshaflow.com" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.doshaflow.com/blog" },
+      { "@type": "ListItem", position: 3, name: TITLE, item: PAGE_URL },
+    ],
+  },
+]
+
 export default function StressHairLossPage() {
   const readingTime = calculateReadingTime(content)
   const { intro, body } = splitArticleIntro(processArticleContent(content))
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Navigation />
       <main style={{ minHeight: "100vh", backgroundColor: "#fdf8f3" }}>
         <ArticleHero title={TITLE} category={CATEGORY} date={DATE} highlightWord="Hair" />
