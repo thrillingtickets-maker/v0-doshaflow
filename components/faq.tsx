@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { motion, AnimatePresence } from "framer-motion"
+import { motion } from "framer-motion"
 import { Plus, Minus } from "lucide-react"
 import { faqItems } from "@/lib/faq-data"
 
@@ -40,26 +40,29 @@ export function FAQ({ withHeader = true }: { withHeader?: boolean }) {
                   onClick={() => setOpenIndex(isOpen ? null : index)}
                   className="w-full flex items-center justify-between gap-4 p-6 text-left"
                   aria-expanded={isOpen}
+                  id={`faq-question-${index}`}
+                  aria-controls={`faq-answer-${index}`}
                 >
                   <span className="font-medium text-foreground">{item.question}</span>
                   <span className="shrink-0 text-primary">
                     {isOpen ? <Minus className="w-5 h-5" /> : <Plus className="w-5 h-5" />}
                   </span>
                 </button>
-                <AnimatePresence initial={false}>
-                  {isOpen && (
-                    <motion.div
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: "auto", opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.3 }}
-                    >
-                      <p className="px-6 pb-6 text-muted-foreground leading-relaxed">
-                        {item.answer}
-                      </p>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
+                {/* Answer is always rendered in the DOM (crawlable + accessible);
+                    the grid-rows transition handles the visual expand/collapse. */}
+                <div
+                  id={`faq-answer-${index}`}
+                  role="region"
+                  aria-labelledby={`faq-question-${index}`}
+                  className="grid transition-[grid-template-rows] duration-300 ease-out"
+                  style={{ gridTemplateRows: isOpen ? "1fr" : "0fr" }}
+                >
+                  <div className="overflow-hidden">
+                    <p className="px-6 pb-6 text-muted-foreground leading-relaxed">
+                      {item.answer}
+                    </p>
+                  </div>
+                </div>
               </div>
             )
           })}

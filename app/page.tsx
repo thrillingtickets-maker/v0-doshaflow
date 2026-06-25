@@ -86,7 +86,7 @@ export default function Home() {
       {/* (10) Safety framework — How We Make Recommendations */}
       <SafetyFramework />
 
-      {/* (11) Meet the Founder + advisory board */}
+      {/* (11) Meet the Founder */}
       <Founder />
 
       {/* (12) FAQ */}

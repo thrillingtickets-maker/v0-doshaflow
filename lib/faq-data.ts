@@ -7,7 +7,7 @@ export const faqItems = [
   {
     question: "Who created DoshaFlow?",
     answer:
-      "DoshaFlow was founded by [Founder Name], who built it after personally experiencing the gap between modern wellness culture and traditional Ayurvedic practice. Our content is reviewed by an advisory board spanning Ayurveda, nutrition, and integrative medicine. You can read more on our Transparency page.",
+      "DoshaFlow was founded by Alex Osborne, who built it after personal burnout, overstimulation, and time spent at an Ayurvedic retreat in Bengaluru, India. Alex is not a doctor or a credentialed Ayurvedic practitioner, and we don't claim otherwise — DoshaFlow is educational wellness content, not medical advice. You can read the full story on our Founder and Transparency pages.",
   },
   {
     question: "How is my data used?",
