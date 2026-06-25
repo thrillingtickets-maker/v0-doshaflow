@@ -10,7 +10,8 @@ import { EmailCapture } from "@/components/email-capture"
 export const metadata: Metadata = {
   title: "Start Here — DoshaFlow",
   description:
-    "Begin your Ayurvedic wellness journey. If you're exhausted, anxious, bloated, or burned out, this page is designed to guide you toward calm.",
+    "Begin your Ayurvedic wellness journey. If you're exhausted, anxious, bloated, or burned out, this page is designed to guide you toward lasting calm.",
+  alternates: { canonical: "/start-here" },
   openGraph: {
     title: "Start Here — DoshaFlow",
     description:

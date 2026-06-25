@@ -7,7 +7,8 @@ import { faqItems } from "@/lib/faq-data"
 export const metadata: Metadata = {
   title: "FAQ — DoshaFlow",
   description:
-    "Frequently asked questions about DoshaFlow: is it medical advice, who created it, how your data is used, working with your doctor, supplement personalization, and supporting evidence.",
+    "Frequently asked questions about DoshaFlow: is it medical advice, who created it, how your data is used, and the evidence behind our wellness guidance.",
+  alternates: { canonical: "/faq" },
   openGraph: {
     title: "FAQ — DoshaFlow",
     description:
