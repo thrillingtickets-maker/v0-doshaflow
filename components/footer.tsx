@@ -31,6 +31,7 @@ export function Footer() {
             <h4 className="font-medium text-foreground mb-4">Get Started</h4>
             <ul className="space-y-3">
               <li><a href="/start-here" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Start Here</a></li>
+              <li><a href="/guides" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Guides Library</a></li>
               <li><a href="/quiz" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Free Dosha Quiz</a></li>
               <li><a href="/samples" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Sample Reports</a></li>
               <li><a href="/journal" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Retreat Journal</a></li>

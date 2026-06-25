@@ -10,6 +10,7 @@ export async function GET() {
     { loc: "https://www.doshaflow.com/quiz", lastmod: today, priority: "0.9" },
     { loc: "https://www.doshaflow.com/about", lastmod: today, priority: "0.8" },
     { loc: "https://www.doshaflow.com/blog", lastmod: today, priority: "0.8" },
+    { loc: "https://www.doshaflow.com/guides", lastmod: today, priority: "0.9" },
     { loc: "https://www.doshaflow.com/journal", lastmod: today, priority: "0.9" },
     { loc: "https://www.doshaflow.com/samples", lastmod: today, priority: "0.7" },
     { loc: "https://www.doshaflow.com/vata", lastmod: today, priority: "0.8" },
