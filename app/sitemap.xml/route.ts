@@ -16,6 +16,8 @@ export async function GET() {
     { loc: "https://www.doshaflow.com/pitta", lastmod: today, priority: "0.8" },
     { loc: "https://www.doshaflow.com/kapha", lastmod: today, priority: "0.8" },
     { loc: "https://www.doshaflow.com/start-here", lastmod: today, priority: "0.8" },
+    { loc: "https://www.doshaflow.com/faq", lastmod: today, priority: "0.6" },
+    { loc: "https://www.doshaflow.com/founder", lastmod: today, priority: "0.6" },
     { loc: "https://www.doshaflow.com/contact", lastmod: today, priority: "0.5" },
     { loc: "https://www.doshaflow.com/privacy", lastmod: today, priority: "0.3" },
     { loc: "https://www.doshaflow.com/terms", lastmod: today, priority: "0.3" },
