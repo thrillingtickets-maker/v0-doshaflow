@@ -44,6 +44,8 @@ export const collections: GuideCollection[] = [
     title: "Anxiety & Burnout",
     description: "Calm an overstimulated nervous system and recover from chronic stress and burnout.",
     links: [
+      { title: "How to Calm Your Nervous System", href: "/blog/how-to-calm-your-nervous-system" },
+      { title: "High Cortisol Symptoms", href: "/blog/high-cortisol-symptoms" },
       { title: "Nervous System Regulation", href: "/blog/nervous-system-regulation-ayurveda" },
       { title: "Healing After Chronic Stress", href: "/blog/healing-after-chronic-stress" },
       { title: "Best Herbs for Anxiety", href: "/blog/best-herbs-for-anxiety" },
@@ -72,6 +74,7 @@ export const collections: GuideCollection[] = [
     links: [
       { title: "Ayurvedic Weight Loss", href: "/blog/ayurvedic-weight-loss" },
       { title: "Kapha Weight Loss Guide", href: "/blog/kapha-weight-loss-guide" },
+      { title: "The Best Morning Routine for Energy", href: "/blog/best-morning-routine-for-energy" },
       { title: "The Ayurvedic Morning Routine", href: "/blog/ayurvedic-morning-routine" },
       { title: "Intermittent Fasting & Metabolism", href: "/blog/ayurveda-intermittent-fasting" },
     ],
@@ -129,7 +132,7 @@ export const goals: GoalLink[] = [
   { label: "Better Sleep", href: "#collection-sleep" },
   { label: "Less Anxiety", href: "#collection-anxiety" },
   { label: "Better Digestion", href: "#collection-digestion" },
-  { label: "More Energy", href: "/blog/ayurveda-for-energy" },
+  { label: "More Energy", href: "/blog/why-you-feel-tired-all-the-time" },
   { label: "Lose Weight", href: "#collection-weight" },
   { label: "Reduce Stress", href: "/blog/ayurveda-for-stress" },
   { label: "Hormonal Balance", href: "/blog/ayurveda-hormones-symptoms" },

@@ -19,7 +19,12 @@ export const metadata: Metadata = {
   description: 'Meal plans, movement, digestion, and recovery — all adapted to your body and routine. Experience Ayurvedic wellness meets modern science.',
   keywords: ['wellness', 'ayurveda', 'dosha', 'meal planning', 'digestion', 'workouts', 'personalized health'],
   generator: 'v0.app',
-  alternates: { canonical: '/' },
+  alternates: {
+    canonical: '/',
+    types: {
+      'application/rss+xml': [{ url: '/feed.xml', title: 'DoshaFlow — Ayurvedic Guides & Journal' }],
+    },
+  },
   openGraph: {
     title: 'DoshaFlow | Personalized Wellness for How Your Body Actually Feels',
     description: 'Meal plans, movement, digestion, and recovery — all adapted to your body and routine. Experience Ayurvedic wellness meets modern science.',
