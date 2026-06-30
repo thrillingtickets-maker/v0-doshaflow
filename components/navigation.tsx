@@ -42,7 +42,7 @@ export function Navigation() {
       >
         <nav className="max-w-6xl mx-auto px-6 py-[20px]">
           <div className="flex items-center justify-between">
-            <a href="/" className="flex items-center gap-2">
+            <a href="/" className="flex items-center gap-2.5 flex-shrink-0">
               <span className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
                 <span className="text-primary-foreground font-serif font-bold text-sm">D</span>
               </span>
@@ -50,14 +50,14 @@ export function Navigation() {
             </a>
 
             {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center gap-10">
+            <div className="hidden lg:flex items-center gap-x-7 xl:gap-x-8 ml-12 xl:ml-16">
               {navLinks.map((link) => {
                 const isStartHere = link.label === "Start Here"
                 return (
                   <a
                     key={link.label}
                     href={link.href}
-                    className={`text-sm transition-colors duration-200 relative ${
+                    className={`text-sm transition-colors duration-200 relative whitespace-nowrap ${
                       isStartHere
                         ? "font-serif font-semibold text-foreground"
                         : "text-muted-foreground hover:text-foreground"
@@ -97,7 +97,7 @@ export function Navigation() {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="md:hidden p-2 text-foreground"
+              className="lg:hidden p-2 text-foreground"
               aria-label="Toggle menu"
             >
               {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -110,7 +110,7 @@ export function Navigation() {
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
-              className="md:hidden absolute top-full left-0 right-0 bg-background border-b border-border p-6"
+              className="lg:hidden absolute top-full left-0 right-0 bg-background border-b border-border p-6"
             >
               <div className="flex flex-col gap-4">
                 {navLinks.map((link) => {
