@@ -509,7 +509,38 @@ export default function QuizPage() {
           .dosha-icons { gap: 1.25rem; }
           .dosha-icon-symbol { width: 48px; height: 48px; }
         }
+
+        /* SEO / EDUCATIONAL CONTENT */
+        .quiz-content { background: #f5f0e8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Georgia, serif; color: #2c2218; }
+        .quiz-content-inner { max-width: 720px; margin: 0 auto; padding: 4rem 1.5rem; }
+        .quiz-content h2 { font-size: clamp(1.5rem, 3.5vw, 2rem); font-weight: 800; color: #3d2e1e; letter-spacing: -0.5px; line-height: 1.25; margin: 0 0 1.25rem; }
+        .quiz-content-below h2 { margin-top: 3rem; }
+        .quiz-content-below h2:first-child { margin-top: 0; }
+        .quiz-content p { font-size: 1.05rem; line-height: 1.75; color: #55483a; margin: 0 0 1.25rem; }
+        .quiz-content p:last-child { margin-bottom: 0; }
+        .quiz-content p strong { color: #3d2e1e; font-weight: 700; }
+        .quiz-faq-item { margin-bottom: 1.75rem; }
+        .quiz-faq-item:last-child { margin-bottom: 0; }
+        .quiz-faq-item h3 { font-size: 1.1rem; font-weight: 700; color: #3d2e1e; margin: 0 0 0.5rem; letter-spacing: -0.2px; }
+        .quiz-faq-item p { margin: 0; }
       `}</style>
+
+      <section className="quiz-content">
+        <div className="quiz-content-inner">
+          <h2>Free Ayurvedic Dosha Quiz — Find Your Body Type in 2 Minutes</h2>
+          <p>
+            Your dosha is your Ayurvedic body type — the combination of physical, mental, and
+            emotional tendencies that shapes how you digest food, handle stress, sleep, and
+            recover. There are three doshas: Vata (air and space), Pitta (fire and water), and
+            Kapha (earth and water). Most people are a combination, with one dominant.
+          </p>
+          <p>
+            This free dosha quiz asks about your digestion, sleep, energy patterns, stress
+            response, and physical build to identify your primary dosha — and what it means for
+            your diet, daily routine, and recovery.
+          </p>
+        </div>
+      </section>
 
       <div className="quiz-page" style={showResult ? { backgroundColor: 'transparent' } : undefined}>
         <div className="quiz-container">
@@ -775,6 +806,54 @@ export default function QuizPage() {
           )}
         </div>
       </div>
+
+      <section className="quiz-content">
+        <div className="quiz-content-inner quiz-content-below">
+          <h2>What Your Dosha Type Tells You</h2>
+          <p>
+            <strong>Vata dominant:</strong> You tend toward anxiety, irregular digestion, and
+            light sleep. Cold, dry, and variable by nature — you need grounding, warmth, and
+            routine.
+          </p>
+          <p>
+            <strong>Pitta dominant:</strong> You tend toward inflammation, strong hunger, and
+            intensity. Hot and sharp by nature — you need cooling, moderation, and release.
+          </p>
+          <p>
+            <strong>Kapha dominant:</strong> You tend toward sluggishness, slow digestion, and
+            steady mood. Heavy and cool by nature — you need stimulation, lightness, and movement.
+          </p>
+          <p>
+            Most people are a combination. The quiz identifies your primary dosha and secondary
+            dosha so you get guidance that reflects your actual pattern, not a generic type.
+          </p>
+
+          <h2>Frequently Asked Questions</h2>
+          <div className="quiz-faq-item">
+            <h3>How accurate is the dosha quiz?</h3>
+            <p>
+              The quiz assesses physical and psychological tendencies across digestion, sleep,
+              stress response, and body type. It is not a clinical assessment — it is an
+              educational starting point for understanding your Ayurvedic constitution.
+            </p>
+          </div>
+          <div className="quiz-faq-item">
+            <h3>What happens after I take the quiz?</h3>
+            <p>
+              You get your dosha result with an explanation of what it means and what to do about
+              it — starting with diet, daily routine, and the most common imbalances for your type.
+            </p>
+          </div>
+          <div className="quiz-faq-item">
+            <h3>Can my dosha change?</h3>
+            <p>
+              Your core constitution (prakriti) stays consistent throughout your life. Your
+              current state (vikriti) shifts with stress, diet, season, and lifestyle. The quiz
+              captures your current pattern.
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
