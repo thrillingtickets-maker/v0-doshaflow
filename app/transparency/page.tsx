@@ -28,7 +28,7 @@ const sections = [
     id: "founder",
     title: "Founder Information",
     body: [
-      "DoshaFlow was founded by Alex, Founder — someone who needed it first, not a doctor or a credentialed Ayurvedic practitioner, and we don't claim otherwise. The founder's background is in lived experience: years of being overstimulated and under-rested, and the work of researching, testing, and writing down what actually helped.",
+      "DoshaFlow was founded by Alex Osborne, Founder — someone who needed it first, not a doctor or a credentialed Ayurvedic practitioner, and we don't claim otherwise. Alex built DoshaFlow after personal burnout and time spent at an Ayurvedic retreat in Kerala, India — frustrated with how wellness advice was either vague mysticism or aggressive optimization.",
       "The platform was built after a personal experience at an Ayurvedic retreat in Kerala, India, and a frustration with how Ayurveda is often marketed in the West.",
     ],
   },
