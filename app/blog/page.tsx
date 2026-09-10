@@ -42,6 +42,10 @@ function getArticleFilters(slug: string, category: string): string[] {
     filters.push("Editorial")
     return filters
   }
+  if (category === "Sleep") {
+    filters.push("Sleep")
+    return filters
+  }
   // Tea articles
   if (slug.includes("tea")) {
     filters.push("Tea")
@@ -90,6 +94,7 @@ function getArticleFilters(slug: string, category: string): string[] {
 function getPrimaryCategory(slug: string, category: string): string {
   if (category === "journal") return "Retreat Journal"
   if (category === "editorial") return "Editorial"
+  if (category === "Sleep") return "Sleep"
   if (slug.includes("tea")) return "Tea"
   if (slug.includes("dosha") || slug.includes("vata-") || slug.includes("pitta-") || slug.includes("kapha-")) return "Doshas"
   if (slug.includes("bloat") || slug.includes("digest") || slug.includes("ice-water")) return "Digestion"
@@ -125,7 +130,7 @@ function parsePostDate(date: string): number {
 }
 export default function BlogPage() {
   const allPosts = getAllPosts()
-    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial")
+    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial" || post.category === "Sleep")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
   
   return (
@@ -286,7 +291,7 @@ function BlogContent() {
   const currentPage = parseInt(searchParams.get("page") || "1", 10)
   
   const allPosts = getAllPosts()
-    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial")
+    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial" || post.category === "Sleep")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
   const filteredPosts = useMemo(() => {
     let posts = allPosts
