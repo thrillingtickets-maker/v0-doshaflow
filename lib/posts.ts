@@ -14,7 +14,7 @@ export interface Post {
 
 export const posts: Post[] = [
   {
-    slug: "why-do-i-wake-up-at-3am",
+    slug: "why-you-wake-up-at-3am",
     category: "Sleep",
     title: "Why You Wake Up at 3am: The Ayurvedic Explanation Nobody Talks About",
     date: "2026-09-10",
@@ -2762,7 +2762,7 @@ export const posts: Post[] = [
     seoDescription: "Overstimulation is a Vata disorder — the nervous system flooded with more input than it can process. Here is the Ayurvedic explanation and what actually helps.",
     content: `<p>There is a specific quality of exhaustion that is increasingly common and poorly understood. It is not tiredness from physical exertion. It is the particular depletion that comes from too much input — too much information, too much noise, too much connectivity, too many decisions, too many demands on attention from too many simultaneous directions. Ayurveda has a name for the constitutional type most vulnerable to this pattern, a clear explanation of its mechanism, and specific interventions that address it.</p>
 <h2>The Vata Architecture of Overstimulation.</h2>
-<p>Vata is the dosha of air and ether — the principle of movement, communication, and the nervous system's capacity to receive and process sensory information. Its vulnerability is this: it has no natural saturation point. Where Kapha has density that slows input and Pitta has fire that burns through it, Vata is genuinely open — it continues receiving stimulation without natural filtering. In an environment with limited stimulation, this openness is an asset. In modern life — which delivers a historically unprecedented volume of stimulation through screens, notifications, information, and ambient noise — it is a liability. The result is Vata excess: the nervous system remains in sustained activation with no natural off switch. The inputs keep coming. The reserves deplete. The threshold for overwhelm drops. The anxiety rises without a clear object.</p>
+<p>Vata is the dosha of air and ether ��� the principle of movement, communication, and the nervous system's capacity to receive and process sensory information. Its vulnerability is this: it has no natural saturation point. Where Kapha has density that slows input and Pitta has fire that burns through it, Vata is genuinely open — it continues receiving stimulation without natural filtering. In an environment with limited stimulation, this openness is an asset. In modern life — which delivers a historically unprecedented volume of stimulation through screens, notifications, information, and ambient noise — it is a liability. The result is Vata excess: the nervous system remains in sustained activation with no natural off switch. The inputs keep coming. The reserves deplete. The threshold for overwhelm drops. The anxiety rises without a clear object.</p>
 <h2>The Modern Amplifiers.</h2>
 <p>Screens before bed — specifically designed to engage Vata's pattern-recognition and novelty-seeking tendencies. The algorithm does not stop. Social media specifically — the variable reward structure is the most reliably activating input available to modern humans. Remote and async work — the always-on quality maintains the nervous system in a state of low-level activation throughout the day that, over months and years, produces the Vata depletion underlying burnout. Commuting in stimulating environments — cities, airports, crowded spaces, noise — all genuine Vata aggravators that accumulate across the day.</p>
 <h2>The Physical Signs That Overstimulation Has Gone Too Far.</h2>
