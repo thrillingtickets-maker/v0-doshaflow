@@ -1,6 +1,6 @@
 export interface Post {
   slug: string
-  category: "journal" | "article" | "editorial" | "founder" | "Nutrition" | "Sleep"
+  category: "journal" | "article" | "editorial" | "founder" | "Nutrition" | "Sleep" | "Doshas"
   title: string
   date: string
   excerpt: string
@@ -13,6 +13,94 @@ export interface Post {
 }
 
 export const posts: Post[] = [
+  {
+    slug: "signs-of-vata-imbalance",
+    category: "Doshas",
+    title: "Signs of Vata Imbalance: What Your Body Is Trying to Tell You",
+    date: "2026-09-15",
+    excerpt: "Vata imbalance doesn't always look like anxiety. It looks like forgetting why you walked into a room, waking at 2am with a racing mind, and feeling ungrounded even when nothing is wrong.",
+    seoTitle: "Signs of Vata Imbalance: 15 Symptoms to Know",
+    seoDescription: "Anxiety, poor sleep, constipation, cold hands, racing thoughts — these are the classic signs of Vata imbalance. Here's what's causing it and how to bring Vata back into balance.",
+    content: `<p>Vata imbalance is probably the most common and least recognized pattern in modern life. It looks like anxiety but isn't quite anxiety. It looks like burnout but isn't quite burnout. It looks like being scattered, ungrounded, and unable to land — and it's quietly epidemic.</p>
+
+<p>Here's how to recognize it.</p>
+
+<h2 id="what-is-vata-imbalance">What Is Vata Imbalance?</h2>
+
+<p>In Ayurveda, Vata is the dosha of air and space. It governs all movement in the body — nerve impulses, circulation, breathing, digestion, the movement of thoughts. When Vata is balanced, you feel creative, alert, energized, and clear. When Vata becomes aggravated, everything that governs movement becomes dysregulated.</p>
+
+<p>You don't have to be a Vata type to experience Vata imbalance. Anyone under chronic stress, irregular schedule, or excessive stimulation can develop it. But if Vata is your dominant dosha, you're more susceptible — and the pattern tends to be more persistent.</p>
+
+<h2 id="physical-signs">The Physical Signs of Vata Imbalance</h2>
+
+<p>Constipation or irregular digestion. Vata governs the movement of food through the digestive tract. When Vata is elevated, digestion becomes inconsistent — sometimes fine, sometimes sluggish, rarely predictable. Constipation is one of the most reliable physical indicators of Vata imbalance.</p>
+
+<p>Cold hands and feet. Vata is cold and dry by nature. Elevated Vata reduces circulation to the extremities. If your hands and feet are consistently cold even in warm environments, Vata is likely involved.</p>
+
+<p>Dry skin, lips, and hair. The dryness quality of Vata affects the skin directly. Flaky skin, chapped lips, brittle hair, and dry eyes are all classic signs — especially when they worsen in autumn and winter, the Vata seasons.</p>
+
+<p>Joint cracking and stiffness. Vata governs the spaces in the body, including joints. When Vata is elevated, joints become dry and crackly. Morning stiffness that improves with movement is a classic pattern.</p>
+
+<p>Light, interrupted sleep. Vata types tend toward light sleep — waking easily, unable to return to sleep, or lying awake with a racing mind between 2am and 4am. The 2-4am window is governed by Vata in the Ayurvedic clock.</p>
+
+<p>Involuntary movements. Twitching, trembling, restless legs, and eye twitches are all Vata movement dysregulation.</p>
+
+<p>Low body weight or difficulty maintaining weight. Vata's light, mobile quality can manifest as difficulty holding weight even with adequate food intake.</p>
+
+<h2 id="mental-emotional-signs">The Mental and Emotional Signs of Vata Imbalance</h2>
+
+<p>Racing, scattered thoughts. The most recognizable mental sign. Vata imbalance produces a mind that moves too fast — jumping between topics, unable to settle, generating worry without resolution.</p>
+
+<p>Anxiety and fear. Unresolved Vata energy becomes anxiety. It's not always diagnosable anxiety disorder — it can be a low-level background nervousness, a sense of something being slightly wrong, or a disproportionate worry response.</p>
+
+<p>Forgetfulness and poor concentration. Elevated Vata scatters mental energy. You walk into a room and forget why. You start four things and finish none. You read the same paragraph three times.</p>
+
+<p>Decision paralysis. Vata imbalance can produce an inability to commit to decisions — constantly second-guessing, looping, unable to land on a choice and stick with it.</p>
+
+<p>Feeling ungrounded or unreal. This is harder to name but common: a sense of not quite being present, of watching your life rather than living it, of floating without an anchor. In more extreme cases it edges toward dissociation.</p>
+
+<p>Talking too fast, or too much. Vata governs speech. Elevated Vata speeds up and scatters communication — rapid talking, losing the thread, difficulty organizing thoughts into words.</p>
+
+<h2 id="why-vata-goes-out-of-balance">Why Vata Goes Out of Balance in the Modern World</h2>
+
+<p>The modern environment is almost perfectly designed to aggravate Vata. Irregular schedules, skipped meals, constant screen stimulation, travel, cold and dry climates, stress, overstimulation — all of these increase Vata. The result is a baseline of elevated Vata that many people have normalized as just how they are.</p>
+
+<p>The most common Vata-aggravating patterns:</p>
+
+<p>Irregular eating. Skipping meals or eating at inconsistent times removes the regularity that Vata needs to stay grounded. Vata runs on rhythm. Remove the rhythm and Vata destabilizes.</p>
+
+<p>Too much screen time. Screens are Vata-aggravating by nature — fast-moving, stimulating, cold light, constant novelty. Hours of daily screen exposure keeps Vata elevated continuously.</p>
+
+<p>Irregular sleep. Going to bed and waking at inconsistent times aggravates Vata more than almost anything else. The nervous system needs regularity to settle. Variable sleep timing prevents it.</p>
+
+<p>Travel and constant movement. Vata is movement. Excessive travel — especially air travel — dramatically increases Vata. People who travel frequently for work often develop persistent Vata imbalance.</p>
+
+<p>Cold, dry, windy weather. Autumn and early winter are Vata seasons. Even people with no Vata imbalance the rest of the year will often notice anxiety, dry skin, and sleep disruption in October and November.</p>
+
+<h2 id="how-to-rebalance-vata">How to Bring Vata Back Into Balance</h2>
+
+<p>The antidote to Vata is its opposite: warm, heavy, oily, slow, regular, and grounding.</p>
+
+<p>Establish a consistent daily routine. This is the single most powerful Vata intervention. Same wake time, same meal times, same bedtime. Vata stabilizes with predictability. Even a rough routine — within 30 minutes of the same time each day — has a measurable effect on anxiety and sleep.</p>
+
+<p>Eat warm, cooked, oily foods. Raw salads, cold smoothies, and dry foods increase Vata. Warm soups, dal, kitchari, cooked grains with ghee, and root vegetables decrease it. The food should be warm, soft, and slightly fatty.</p>
+
+<p>Warm oil self-massage (Abhyanga). Five minutes of warm sesame oil on the skin before a shower is one of the fastest-acting Vata interventions. It works directly on the nervous system — the skin is considered a Vata organ, and warm oil counteracts Vata's cold, dry quality immediately. Many people notice a reduction in anxiety within a few days of consistent practice.</p>
+
+<p>Reduce stimulation before bed. Screens, news, intense conversation, and social media in the hour before bed directly aggravate Vata and prevent sleep. The 9-10pm window is critical for Vata. Dim lights, quiet, warm drinks (golden milk or ashwagandha in warm milk), and low stimulation allow Vata to settle.</p>
+
+<p>Grounding herbs. Ashwagandha is the primary Vata herb — it reduces cortisol, calms the nervous system, and directly targets the anxiety pattern of elevated Vata. Brahmi supports mental clarity and reduces racing thoughts. Shatavari nourishes and grounds Vata, particularly in women.</p>
+
+<p>Warmth. Hot showers, warm rooms, warm clothing, warm drinks. Cold aggravates Vata. Warmth settles it. This sounds too simple to matter — it isn't.</p>
+
+<h2 id="how-long-to-rebalance">How Long Does It Take to Rebalance Vata?</h2>
+
+<p>With consistent lifestyle changes, most people notice improvement within two to three weeks. Sleep tends to improve first. Anxiety and scattered thinking usually follow in weeks two through four. Digestive regularity and skin quality often take four to six weeks.</p>
+
+<p>The key word is consistent. Vata is destabilized by inconsistency and healed by regularity. Doing the right things intermittently produces little result. Doing them daily produces a compounding effect.</p>
+
+<p>If you recognize several of these signs and haven't addressed them, the good news is that Vata responds well to relatively simple interventions. You don't need an elaborate protocol. You need routine, warmth, and grounding — applied consistently.</p>`
+  },
   {
     slug: "why-you-wake-up-at-3am",
     category: "Sleep",

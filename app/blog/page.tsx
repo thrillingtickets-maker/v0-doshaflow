@@ -130,7 +130,7 @@ function parsePostDate(date: string): number {
 }
 export default function BlogPage() {
   const allPosts = getAllPosts()
-    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial" || post.category === "Sleep")
+    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial" || post.category === "Sleep" || post.category === "Doshas")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
   
   return (
@@ -291,7 +291,7 @@ function BlogContent() {
   const currentPage = parseInt(searchParams.get("page") || "1", 10)
   
   const allPosts = getAllPosts()
-    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial" || post.category === "Sleep")
+    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial" || post.category === "Sleep" || post.category === "Doshas")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
   const filteredPosts = useMemo(() => {
     let posts = allPosts
