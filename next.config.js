@@ -14,7 +14,7 @@ const nextConfig = {
       },
       {
         source: '/blog/i-have-no-energy',
-        destination: '/blog/why-am-i-always-tired',
+        destination: '/blog/why-am-i-always-exhausted',
         permanent: true,
       },
       // Redirect /doshas/* to the correct route (e.g., /doshas/vata -> /vata)
@@ -35,7 +35,7 @@ const nextConfig = {
       },
       {
         source: '/blog/alcohol-and-ayurveda',
-        destination: '/blog/ayurveda-alcohol',
+        destination: '/blog/alcohol-ayurveda',
         permanent: true,
       },
       {
