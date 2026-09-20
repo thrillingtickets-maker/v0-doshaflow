@@ -1,6 +1,8 @@
 "use client"
 
 import { useState } from "react"
+import { Navigation } from "@/components/navigation"
+import { Footer } from "@/components/footer"
 
 export default function SamplesPage() {
   const [activeDosha, setActiveDosha] = useState<"vata" | "pitta" | "kapha">("vata")
@@ -113,6 +115,8 @@ export default function SamplesPage() {
           .other-doshas { padding-bottom: 3rem; }
         }
       `}</style>
+
+      <Navigation />
 
       <div className="samples-page">
         <div className="page-header">
@@ -401,6 +405,8 @@ export default function SamplesPage() {
           </div>
         )}
       </div>
+
+      <Footer />
     </>
   )
 }
