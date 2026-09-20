@@ -14,12 +14,14 @@ const CATEGORY_COLORS: Record<string, { accent: string; border: string; pill: st
   "Retreat Journal": { accent: "#b5763a", border: "#d4a574", pill: "#fdf6ee" },
   "Tea": { accent: "#9a8a5a", border: "#b0a070", pill: "#faf8f2" },
   "Doshas": { accent: "#8a7a6e", border: "#a09a8e", pill: "#f5f0e8" },
+  "Guides": { accent: "#6e8a7a", border: "#8ea99a", pill: "#eef4f0" },
   "Weight Loss": { accent: "#8a8a5a", border: "#a0a070", pill: "#faf9f2" },
   "Editorial": { accent: "#a89a7a", border: "#b0a890", pill: "#faf7f0" },
 }
 
 const FILTER_CATEGORIES = [
   "All",
+  "Guides",
   "Doshas",
   "Tea",
   "Digestion",
@@ -34,6 +36,10 @@ const EDITORIAL_CATEGORIES = [
 const ARTICLES_PER_PAGE = 20
 function getArticleFilters(slug: string, category: string): string[] {
   const filters = ["All"]
+  if (category === "Guides") {
+    filters.push("Guides")
+    return filters
+  }
   if (category === "journal") {
     filters.push("Retreat Journal")
     return filters
@@ -92,6 +98,7 @@ function getArticleFilters(slug: string, category: string): string[] {
   return filters
 }
 function getPrimaryCategory(slug: string, category: string): string {
+  if (category === "Guides") return "Guides"
   if (category === "journal") return "Retreat Journal"
   if (category === "editorial") return "Editorial"
   if (category === "Sleep") return "Sleep"
@@ -130,7 +137,7 @@ function parsePostDate(date: string): number {
 }
 export default function BlogPage() {
   const allPosts = getAllPosts()
-    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial" || post.category === "Sleep" || post.category === "Doshas")
+    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial" || post.category === "Sleep" || post.category === "Doshas" || post.category === "Guides")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
   
   return (
@@ -291,7 +298,7 @@ function BlogContent() {
   const currentPage = parseInt(searchParams.get("page") || "1", 10)
   
   const allPosts = getAllPosts()
-    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial" || post.category === "Sleep" || post.category === "Doshas")
+    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial" || post.category === "Sleep" || post.category === "Doshas" || post.category === "Guides")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
   const filteredPosts = useMemo(() => {
     let posts = allPosts

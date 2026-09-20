@@ -1,6 +1,6 @@
 export interface Post {
   slug: string
-  category: "journal" | "article" | "editorial" | "founder" | "Nutrition" | "Sleep" | "Doshas" | "Stress & Anxiety"
+  category: "journal" | "article" | "editorial" | "founder" | "Nutrition" | "Sleep" | "Doshas" | "Stress & Anxiety" | "Guides"
   title: string
   date: string
   excerpt: string
@@ -15,7 +15,7 @@ export interface Post {
 export const posts: Post[] = [
   {
     slug: "vata-pitta-dosha",
-    category: "Doshas",
+    category: "Guides",
     title: "Vata Pitta Dosha: Understanding Your Dual Constitution",
     date: "2026-09-20",
     excerpt: "Vata-Pitta is the most common dual dosha — creative and driven, but prone to burnout, anxiety, and digestive volatility when either element gets aggravated.",
@@ -101,7 +101,7 @@ export const posts: Post[] = [
   },
   {
     slug: "how-to-reduce-cortisol-naturally",
-    category: "Stress & Anxiety",
+    category: "Guides",
     title: "How to Reduce Cortisol Naturally: The Ayurvedic Protocol",
     date: "2026-09-20",
     excerpt: "Cortisol isn't the enemy — dysregulated cortisol is. Here's the Ayurvedic protocol for bringing it back into rhythm without suppressing your stress response entirely.",
@@ -1319,7 +1319,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ayurvedic-gut-health",
-    category: "article",
+    category: "Guides",
     title: "Ayurveda for Gut Health: The Ancient System Understands Your Microbiome",
     date: "May 25, 2026",
     excerpt: "Ayurveda has been working with gut health for 5,000 years under different language. Here's what the classical framework tells us about microbiome, inflammation, and digestive resilience.",
