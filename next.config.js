@@ -103,6 +103,16 @@ const nextConfig = {
         destination: '/blog/ayurvedic-herbs-guide',
         permanent: true,
       },
+      {
+        source: '/blog/ashwagandha-burnout',
+        destination: '/blog/ashwagandha-benefits',
+        permanent: true,
+      },
+      {
+        source: '/blog/ayurveda-hormonal-balance',
+        destination: '/blog/ayurveda-hormones-symptoms',
+        permanent: true,
+      },
     ]
   },
 }
