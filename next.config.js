@@ -90,7 +90,7 @@ const nextConfig = {
       },
       {
         source: '/blog/is-ayurveda-safe-heavy-metals',
-        destination: '/blog/transparency',
+        destination: '/transparency',
         permanent: true,
       },
       {
