@@ -53,6 +53,56 @@ const nextConfig = {
         destination: '/blog/traveling-ayurvedic-way',
         permanent: true,
       },
+      {
+        source: '/blog/best-ayurvedic-tea',
+        destination: '/blog/ayurvedic-tea-guide',
+        permanent: true,
+      },
+      {
+        source: '/blog/best-ayurvedic-tea-for-sleep',
+        destination: '/blog/best-ayurvedic-tea-sleep',
+        permanent: true,
+      },
+      {
+        source: '/blog/can-stress-cause-hair-loss',
+        destination: '/blog/stress-hair-loss-ayurveda',
+        permanent: true,
+      },
+      {
+        source: '/blog/dopamine-exhaustion-ayurveda',
+        destination: '/blog/dopamine-detox-vs-ayurveda',
+        permanent: true,
+      },
+      {
+        source: '/blog/honest-beginners-guide-ayurveda-2026',
+        destination: '/blog/ayurveda-beginners-guide',
+        permanent: true,
+      },
+      {
+        source: '/blog/alcohol-and-sleep',
+        destination: '/blog/alcohol-ayurveda',
+        permanent: true,
+      },
+      {
+        source: '/blog/not-losing-weight-calorie-deficit',
+        destination: '/blog/kapha-weight-loss-guide',
+        permanent: true,
+      },
+      {
+        source: '/blog/is-ayurveda-safe-heavy-metals',
+        destination: '/blog/transparency',
+        permanent: true,
+      },
+      {
+        source: '/blog/brahmi-benefits',
+        destination: '/blog/ashwagandha-vs-brahmi',
+        permanent: true,
+      },
+      {
+        source: '/blog/triphala-benefits',
+        destination: '/blog/ayurvedic-herbs-guide',
+        permanent: true,
+      },
     ]
   },
 }
