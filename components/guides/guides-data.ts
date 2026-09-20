@@ -62,7 +62,7 @@ export const collections: GuideCollection[] = [
       { title: "Why Am I Always Bloated?", href: "/blog/why-am-i-always-bloated" },
       { title: "Leaky Gut & Ayurveda", href: "/blog/leaky-gut-ayurveda" },
       { title: "Improve Digestion Naturally", href: "/blog/how-to-improve-digestion-naturally" },
-      { title: "Ayurveda for Gut Health", href: "/blog/ayurveda-for-gut-health" },
+      { title: "Ayurveda for Gut Health", href: "/blog/ayurvedic-gut-health" },
       { title: "Best Spices for Digestion", href: "/blog/best-spices-for-digestion" },
     ],
   },
