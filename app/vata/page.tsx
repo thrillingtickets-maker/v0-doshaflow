@@ -174,6 +174,11 @@ export default function VataPage() {
             </h2>
             <div className="space-y-3">
               <p className="text-muted-foreground">
+                <Link href="/blog/signs-of-vata-imbalance" className="text-[#C97F3D] hover:underline font-medium">
+                  Signs of Vata Imbalance: What Your Body Is Trying to Tell You
+                </Link>
+              </p>
+              <p className="text-muted-foreground">
                 <Link href="/blog/best-ayurvedic-tea-sleep" className="text-[#C97F3D] hover:underline font-medium">
                   Best Ayurvedic Tea for Sleep
                 </Link>
