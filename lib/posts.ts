@@ -14,6 +14,92 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "vata-pitta-dosha",
+    category: "Doshas",
+    title: "Vata Pitta Dosha: Understanding Your Dual Constitution",
+    date: "2026-09-20",
+    excerpt: "Vata-Pitta is the most common dual dosha — creative and driven, but prone to burnout, anxiety, and digestive volatility when either element gets aggravated.",
+    seoTitle: "Vata Pitta Dosha: Characteristics, Imbalance & Balance Guide",
+    seoDescription: "Vata-Pitta types are creative, ambitious, and intense — and prone to burnout when both doshas flare. Here's what it means, how it goes out of balance, and exactly how to rebalance it.",
+    content: `<p>Most people are not a single dosha. If you've taken a dosha quiz and found yourself split between Vata and Pitta — with one slightly dominant — you're a Vata-Pitta type. This is the most common dual constitution, and understanding it changes how you approach everything from diet to stress management to sleep.</p>
+
+<p>Vata and Pitta are opposing in some ways — Vata is cold and dry, Pitta is hot and sharp — which means a Vata-Pitta type can experience symptoms that seem contradictory. You might run cold physically but run hot emotionally. You might have a sharp, fast mind (Pitta) that constantly overthinks and worries (Vata). You might have periods of intense productivity (Pitta) followed by crashes into anxiety and exhaustion (Vata). All of this is coherent within the Vata-Pitta framework.</p>
+
+<h2 id="characteristics-of-vata-pitta-types">Characteristics of Vata-Pitta Types</h2>
+
+<p>Vata-Pitta types tend to be lean and wiry in build, with sharp features. They're typically creative and analytical simultaneously — the combination of Vata's imaginative, idea-generating energy and Pitta's focused, execution-oriented drive makes for people who can both envision and build things. They're often found in creative industries, entrepreneurship, writing, medicine, law — fields that reward both original thinking and disciplined follow-through.</p>
+
+<p>At their best, Vata-Pitta types are among the most dynamic and effective people around. At their worst, they're anxious perfectionists who can't stop working, can't sleep, and eventually burn out spectacularly.</p>
+
+<div class="stat-callout">
+<span class="stat-number">Vata + Pitta</span>
+<span class="stat-label">The creative and the driven. When balanced: visionary and effective. When imbalanced: anxious, inflamed, and exhausted.</span>
+</div>
+
+<h2 id="how-vata-pitta-goes-out-of-balance">How Vata-Pitta Goes Out of Balance</h2>
+
+<p>The challenge with dual doshas is that both can become aggravated, and they aggravate differently. Understanding which dosha is currently imbalanced — or whether both are — guides what you do about it.</p>
+
+<h3 id="vata-dominant-imbalance">Vata-Dominant Imbalance</h3>
+<p>Anxiety, insomnia, scattered thinking, constipation, cold extremities, racing mind, inability to finish things. This typically happens during autumn and winter (Vata seasons), during periods of instability or travel, or after prolonged stress depletes the nervous system. The system is dysregulated and needs grounding.</p>
+
+<h3 id="pitta-dominant-imbalance">Pitta-Dominant Imbalance</h3>
+<p>Irritability, inflammation, acid reflux, skin flares, early waking (4-5am), intensity that tips into aggression, perfectionism that becomes destructive. This typically happens in summer (Pitta season), during high-output work periods, or when the drive for achievement overtakes the system's capacity. The system is overheated and needs cooling.</p>
+
+<h3 id="both-aggravated">Both Aggravated Simultaneously</h3>
+<p>This is the classic Vata-Pitta burnout: you're anxious AND inflamed, scattered AND irritable, exhausted but unable to sleep. The system is simultaneously running hot (Pitta) and dysregulated (Vata). This requires addressing both, but typically Pitta first — cooling the fire creates the conditions for Vata to settle.</p>
+
+<h2 id="vata-pitta-diet-guidelines">Diet Guidelines for Vata-Pitta Types</h2>
+
+<p>Diet for Vata-Pitta requires navigation because some foods that pacify Vata aggravate Pitta and vice versa. The general principle: eat warm and regular (for Vata) but not spicy or heating (for Pitta). The constitution that's currently more aggravated takes priority.</p>
+
+<table>
+<thead><tr><th>Food type</th><th>Effect on Vata</th><th>Effect on Pitta</th><th>Recommendation</th></tr></thead>
+<tbody>
+<tr><td>Warm cooked grains</td><td>Pacifying</td><td>Neutral</td><td>✓ Eat freely</td></tr>
+<tr><td>Ghee</td><td>Pacifying</td><td>Mildly cooling</td><td>✓ Excellent for both</td></tr>
+<tr><td>Leafy greens (cooked)</td><td>Neutral</td><td>Pacifying</td><td>✓ Good choice</td></tr>
+<tr><td>Spicy food</td><td>Slightly pacifying</td><td>Strongly aggravating</td><td>✗ Avoid</td></tr>
+<tr><td>Raw salads</td><td>Aggravating</td><td>Slightly pacifying</td><td>✗ Avoid</td></tr>
+<tr><td>Alcohol</td><td>Aggravating</td><td>Strongly aggravating</td><td>✗ Avoid</td></tr>
+<tr><td>Coconut</td><td>Neutral</td><td>Strongly pacifying</td><td>✓ Eat regularly</td></tr>
+<tr><td>Sweet fruit</td><td>Pacifying</td><td>Pacifying</td><td>✓ Excellent</td></tr>
+<tr><td>Red meat</td><td>Slightly pacifying</td><td>Aggravating</td><td>Use sparingly</td></tr>
+<tr><td>Basmati rice</td><td>Pacifying</td><td>Pacifying</td><td>✓ Best grain choice</td></tr>
+</tbody>
+</table>
+
+<h2 id="daily-routine-for-vata-pitta">Daily Routine for Vata-Pitta Types</h2>
+
+<p><strong>Morning:</strong> Wake by 6am (before Kapha hour). Warm water with lime — not lemon, which is too heating for Pitta. Brief meditation or breathwork before screens. Warm, grounding breakfast: oatmeal with ghee and sweet spices (cardamom, cinnamon), or warm rice porridge. No coffee on an empty stomach — this is particularly aggravating for Vata-Pitta.</p>
+
+<p><strong>Midday:</strong> Largest meal between 12–1pm when digestive fire peaks. Cooling foods — rice, dal, cooked vegetables, coconut-based dishes. Brief walk after eating to support digestion without overheating.</p>
+
+<p><strong>Afternoon:</strong> Vata-Pitta types typically have a 3–4pm energy dip. Don't override it with caffeine. A short rest (10–20 minutes) or sweet fruit snack is more sustainable. Creative and complex work in morning; administrative and routine tasks in afternoon when Pitta drive is waning.</p>
+
+<p><strong>Evening:</strong> Wind down by 9pm. Release the day — Pitta holds onto unresolved work problems and Vata spins them into anxiety. Journaling, light reading, or gentle yoga helps discharge both. Abhyanga (warm sesame oil) before shower. Bed by 10pm without negotiation.</p>
+
+<h2 id="herbs-for-vata-pitta">Herbs for Vata-Pitta Types</h2>
+
+<p><strong>Ashwagandha</strong> is the primary herb — it addresses both Vata's nervous system dysregulation and Pitta's cortisol-driven burnout. It's warming, which slightly favors Vata, but its cortisol-reducing properties benefit Pitta significantly. Best taken in the evening.</p>
+
+<p><strong>Brahmi</strong> is cooling and calming — excellent for the Vata-Pitta mind that runs fast and hot. It reduces anxiety (Vata) while cooling mental inflammation (Pitta). Useful for focus without intensity.</p>
+
+<p><strong>Shatavari</strong> nourishes and cools — particularly useful when Pitta is aggravated, or for Vata-Pitta women dealing with hormonal volatility.</p>
+
+<p><strong>Avoid stimulating herbs</strong> like ginseng, cayenne, and most warming tonics — these help Kapha and Vata but will overheat an already hot Pitta component.</p>
+
+<h2 id="seasonal-adjustments">Seasonal Adjustments</h2>
+
+<p>Vata-Pitta types need to shift their protocol significantly with the seasons because the season itself aggravates one dosha or the other.</p>
+
+<p><strong>Summer (Pitta season):</strong> Prioritize cooling. Reduce intensity of exercise, eat more cooling foods, increase coconut and sweet fruit, avoid alcohol and spice. Even if Vata is your primary type, summer aggravates Pitta and you'll feel it.</p>
+
+<p><strong>Autumn and early winter (Vata season):</strong> Prioritize grounding and warmth. More routine, earlier bedtime, heavier and oilier foods, ashwagandha, warm oil massage. This is when Vata-Pitta types are most susceptible to anxiety and insomnia.</p>
+
+<p><strong>Late winter and spring (Kapha season):</strong> The easiest season for Vata-Pitta types. Neither dosha is being particularly aggravated. Maintain routine and enjoy the relative stability.</p>`
+  },
+  {
     slug: "how-to-reduce-cortisol-naturally",
     category: "Stress & Anxiety",
     title: "How to Reduce Cortisol Naturally: The Ayurvedic Protocol",
