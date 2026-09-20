@@ -30,7 +30,8 @@ export default function SamplesPage() {
     <>
       <style>{`
         .samples-page { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Georgia, serif; background: #faf8f4; color: #2c2218; line-height: 1.7; }
-        .page-header { max-width: 760px; margin: 0 auto; padding: 4rem 2rem 2.5rem; text-align: center; }
+        .page-header { max-width: 760px; margin: 0 auto; padding: 8rem 2rem 2.5rem; text-align: center; }
+        @media (max-width: 600px) { .page-header { padding-top: 7rem; } }
         .page-tag { display: inline-block; background: #f5f0e8; color: #7a5c3e; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.3rem 0.9rem; border-radius: 2rem; margin-bottom: 1.25rem; }
         .page-header h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 800; color: #3d2e1e; line-height: 1.2; letter-spacing: -0.5px; margin-bottom: 1rem; }
         .page-header p { color: #7a6a58; font-size: 1.05rem; max-width: 540px; margin: 0 auto; }
