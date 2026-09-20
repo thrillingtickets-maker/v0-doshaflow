@@ -13,6 +13,7 @@ export function Navigation() {
   const navLinks = [
     { label: "Start Here", href: "/start-here" },
     { label: "Guides", href: "/guides" },
+    { label: "Blog", href: "/blog" },
     { label: "Journal", href: "/journal" },
     { label: "For Men", href: "/ayurveda-for-men" },
     { label: "For Women", href: "/ayurveda-for-women" },
