@@ -1321,7 +1321,7 @@ export const posts: Post[] = [
     slug: "ayurvedic-gut-health",
     category: "Guides",
     title: "Ayurveda for Gut Health: The Ancient System Understands Your Microbiome",
-    date: "May 25, 2026",
+    date: "2026-09-20",
     excerpt: "Ayurveda has been working with gut health for 5,000 years under different language. Here's what the classical framework tells us about microbiome, inflammation, and digestive resilience.",
     seoTitle: "Ayurveda for Gut Health",
     seoDescription: "Ayurveda has been working with gut health for 5,000 years under different language. Here's what the classical framework tells us about microbiome",
