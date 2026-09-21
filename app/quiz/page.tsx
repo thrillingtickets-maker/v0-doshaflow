@@ -501,10 +501,8 @@ export default function QuizPage() {
         .dosha-icon-label { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #7a6a58; }
         .intro-title { font-size: clamp(2rem, 5.5vw, 2.8rem); font-weight: 800; color: #3d2e1e; margin-bottom: 1rem; letter-spacing: -0.5px; line-height: 1.15; }
         .intro-desc { font-size: 1.05rem; color: #7a6a58; line-height: 1.7; max-width: 500px; margin: 0 auto 2.5rem; }
-        .start-btn { background: linear-gradient(135deg, #c8843a 0%, #b5732a 100%); color: white; font-size: 1.25rem; font-weight: 800; padding: 1.3rem 3rem; border-radius: 2rem; border: none; cursor: pointer; transition: all 0.25s; font-family: inherit; letter-spacing: 0.2px; box-shadow: 0 6px 24px rgba(200,132,58,0.38); animation: startPulse 2.8s ease-in-out infinite; }
-        .start-btn:hover { background: linear-gradient(135deg, #b5732a 0%, #a5621a 100%); transform: translateY(-2px); box-shadow: 0 10px 32px rgba(200,132,58,0.5); animation: none; }
-        @keyframes startPulse { 0%, 100% { box-shadow: 0 6px 24px rgba(200,132,58,0.32); } 50% { box-shadow: 0 8px 30px rgba(200,132,58,0.55); } }
-        @media (prefers-reduced-motion: reduce) { .start-btn { animation: none; } }
+        .start-btn { background: linear-gradient(135deg, #c8843a 0%, #b5732a 100%); color: white; font-size: 1.25rem; font-weight: 800; padding: 1.3rem 3rem; border-radius: 2rem; border: none; cursor: pointer; transition: all 0.25s; font-family: inherit; letter-spacing: 0.2px; box-shadow: 0 6px 24px rgba(200,132,58,0.38); }
+        .start-btn:hover { background: linear-gradient(135deg, #b5732a 0%, #a5621a 100%); transform: translateY(-2px); box-shadow: 0 10px 32px rgba(200,132,58,0.5); }
         @media (max-width: 600px) {
           .result-grid { grid-template-columns: 1fr; }
           .quiz-container { padding: 1.5rem 1.25rem 3rem; }
