@@ -1,0 +1,15 @@
+#!/bin/sh
+# Pre-commit encoding guard. Blocks a commit if lib/posts.ts contains any
+# non-ASCII byte, so a corrupted working tree can never be committed (the
+# `build` script only runs the guard at deploy time, which is too late).
+#
+# Enable once per clone with:  git config core.hooksPath .githooks
+# (this repo is already configured that way).
+#
+# Zero dependencies: runs the same Node guard used by `lint` and `build`.
+node scripts/check-encoding.mjs || {
+  echo ""
+  echo "[pre-commit] Commit blocked: lib/posts.ts failed the encoding guard."
+  echo "[pre-commit] Fix the reported characters, then commit again."
+  exit 1
+}
