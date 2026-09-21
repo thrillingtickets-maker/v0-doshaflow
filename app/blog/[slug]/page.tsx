@@ -403,6 +403,44 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               background: rgba(196, 154, 108, 0.04);
             }
 
+            /* Stat callout styling if present */
+            article div .stat-callout {
+              display: flex;
+              flex-direction: column;
+              gap: 6px;
+              margin: 32px 0;
+              padding: 24px 28px;
+              background: rgba(196, 154, 108, 0.08);
+              border-left: 3px solid #c49a6c;
+              border-radius: 4px;
+            }
+
+            article div .stat-number {
+              font-family: Lora, serif;
+              font-size: 42px;
+              line-height: 1.05;
+              font-weight: 600;
+              color: #2c1a0e;
+            }
+
+            article div .stat-label {
+              font-size: 15px;
+              line-height: 1.5;
+              color: #8a7660;
+            }
+
+            @media (max-width: 640px) {
+              article div .stat-callout { padding: 20px 22px; }
+              article div .stat-number { font-size: 32px; }
+            }
+
+            /* Responsive inline SVG (e.g. charts) */
+            article svg {
+              max-width: 100%;
+              height: auto;
+              display: block;
+            }
+
             /* Definition list styling */
             article div dt {
               font-weight: 600;
