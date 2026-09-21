@@ -49,9 +49,10 @@ export function ArticleHero({
           </div>
         )}
 
-        {/* Category pill - links to the category landing page */}
-        <div className="mb-6">
-          {isCategory(category) ? (
+        {/* Category pill - links to the category landing page. Unassigned
+            posts (category not in the taxonomy) render no pill. */}
+        {isCategory(category) && (
+          <div className="mb-6">
             <Link
               href={`/blog/category/${categoryToSlug(category)}`}
               className="inline-block px-3 py-1 rounded-full text-xs font-medium capitalize transition-opacity hover:opacity-80"
@@ -59,15 +60,8 @@ export function ArticleHero({
             >
               {category}
             </Link>
-          ) : (
-            <span
-              className="inline-block px-3 py-1 rounded-full text-xs font-medium capitalize"
-              style={{ backgroundColor: `${accentColor}15`, color: accentColor }}
-            >
-              {category}
-            </span>
-          )}
-        </div>
+          </div>
+        )}
 
         {/* Title with potential highlighting */}
         <h1 className="text-2xl md:text-5xl font-serif font-bold leading-tight mb-6 text-foreground text-balance">

@@ -40,8 +40,9 @@ function parsePostDate(date: string): number {
   return new Date(Number(year), month, Number(day)).getTime()
 }
 export default function BlogPage() {
+  // "article" = unassigned / needs manual review. These stay visible under
+  // "All" but never match a category pill (pills only list real CATEGORIES).
   const allPosts = getAllPosts()
-    .filter((post) => post.category !== "article")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
   
   return (
@@ -205,8 +206,9 @@ function BlogContent() {
   // Get current page from URL, default to 1
   const currentPage = parseInt(searchParams.get("page") || "1", 10)
   
+  // "article" = unassigned / needs manual review. These stay visible under
+  // "All" but never match a category pill (pills only list real CATEGORIES).
   const allPosts = getAllPosts()
-    .filter((post) => post.category !== "article")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
 
   // Only show pills for categories that actually have posts.
