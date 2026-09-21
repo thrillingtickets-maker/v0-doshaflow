@@ -501,8 +501,8 @@ export default function QuizPage() {
         .dosha-icon-label { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #7a6a58; }
         .intro-title { font-size: clamp(2rem, 5.5vw, 2.8rem); font-weight: 800; color: #3d2e1e; margin-bottom: 1rem; letter-spacing: -0.5px; line-height: 1.15; }
         .intro-desc { font-size: 1.05rem; color: #7a6a58; line-height: 1.7; max-width: 500px; margin: 0 auto 2.5rem; }
-        .start-btn { background: linear-gradient(135deg, #c8843a 0%, #b5732a 100%); color: white; font-size: 1.15rem; font-weight: 700; padding: 1.15rem 2.5rem; border-radius: 2rem; border: none; cursor: pointer; transition: all 0.25s; font-family: inherit; box-shadow: 0 4px 20px rgba(200,132,58,0.3); }
-        .start-btn:hover { background: linear-gradient(135deg, #b5732a 0%, #a5621a 100%); transform: translateY(-2px); box-shadow: 0 6px 24px rgba(200,132,58,0.4); }
+        .start-btn { background: linear-gradient(135deg, #c8843a 0%, #b5732a 100%); color: white; font-size: 1.25rem; font-weight: 800; padding: 1.3rem 3rem; border-radius: 2rem; border: none; cursor: pointer; transition: all 0.25s; font-family: inherit; letter-spacing: 0.2px; box-shadow: 0 6px 24px rgba(200,132,58,0.38); }
+        .start-btn:hover { background: linear-gradient(135deg, #b5732a 0%, #a5621a 100%); transform: translateY(-2px); box-shadow: 0 10px 32px rgba(200,132,58,0.5); }
         @media (max-width: 600px) {
           .result-grid { grid-template-columns: 1fr; }
           .quiz-container { padding: 1.5rem 1.25rem 3rem; }
@@ -527,8 +527,9 @@ export default function QuizPage() {
 
       <section className="quiz-content">
         <div className="quiz-content-inner">
-          <h2>Free Ayurvedic Dosha Quiz — Find Your Body Type in 2 Minutes</h2>
+          <h1>Free Dosha Quiz: Discover Your Ayurvedic Body Type — Vata, Pitta, or Kapha</h1>
           <p>
+            Take this free dosha quiz to discover your Ayurvedic body type in about 3 minutes.
             Your dosha is your Ayurvedic body type — the combination of physical, mental, and
             emotional tendencies that shapes how you digest food, handle stress, sleep, and
             recover. There are three doshas: Vata (air and space), Pitta (fire and water), and
@@ -537,7 +538,7 @@ export default function QuizPage() {
           <p>
             This free dosha quiz asks about your digestion, sleep, energy patterns, stress
             response, and physical build to identify your primary dosha — and what it means for
-            your diet, daily routine, and recovery.
+            your diet, daily routine, and recovery. No sign-up and no email required to start.
           </p>
         </div>
       </section>
@@ -585,12 +586,12 @@ export default function QuizPage() {
                     <span className="dosha-icon-label">Kapha</span>
                   </div>
                 </div>
-                <h1 className="intro-title">Find your Ayurvedic constitution</h1>
+                <h2 className="intro-title">Discover Your Ayurvedic Body Type</h2>
                 <p className="intro-desc">
-                  25 questions across body, mind, digestion, sleep, and stress. Discover whether you're Vata, Pitta, Kapha — or a combination — with a full percentage breakdown and personalized kit.
+                  This free dosha quiz walks through 25 quick questions across body, mind, digestion, sleep, and stress to reveal your Ayurvedic body type — whether you're Vata, Pitta, Kapha, or a combination — with a full percentage breakdown and personalized recommendations.
                 </p>
                 <button className="start-btn" onClick={() => setShowIntro(false)}>
-                  Start the Quiz →
+                  Start My Free Dosha Quiz →
                 </button>
                 <div style={{ fontSize: "0.8rem", color: "#a89880", marginTop: "1rem", letterSpacing: "0.05em" }}>
                   25 questions  ·  Personalized report  ·  Meal plan  ·  Movement plan  ·  Herbal recommendations
@@ -828,32 +829,89 @@ export default function QuizPage() {
             dosha so you get guidance that reflects your actual pattern, not a generic type.
           </p>
 
-          <h2>Frequently Asked Questions</h2>
+          <h2>Dosha Quiz: Frequently Asked Questions</h2>
           <div className="quiz-faq-item">
             <h3>How accurate is the dosha quiz?</h3>
             <p>
-              The quiz assesses physical and psychological tendencies across digestion, sleep,
-              stress response, and body type. It is not a clinical assessment — it is an
-              educational starting point for understanding your Ayurvedic constitution.
-            </p>
-          </div>
-          <div className="quiz-faq-item">
-            <h3>What happens after I take the quiz?</h3>
-            <p>
-              You get your dosha result with an explanation of what it means and what to do about
-              it — starting with diet, daily routine, and the most common imbalances for your type.
+              This dosha quiz assesses physical and psychological tendencies across digestion,
+              sleep, stress response, energy, and body type. It is not a clinical assessment — it
+              is an educational starting point for understanding your Ayurvedic body type. The more
+              honestly you answer about your lifelong patterns (rather than how you feel today), the
+              more useful your result.
             </p>
           </div>
           <div className="quiz-faq-item">
             <h3>Can my dosha change?</h3>
             <p>
-              Your core constitution (prakriti) stays consistent throughout your life. Your
-              current state (vikriti) shifts with stress, diet, season, and lifestyle. The quiz
-              captures your current pattern.
+              Your core constitution (prakriti) stays consistent throughout your life. Your current
+              state (vikriti) shifts with stress, diet, season, and lifestyle. This free dosha quiz
+              captures your current pattern, which is what you can actively rebalance.
+            </p>
+          </div>
+          <div className="quiz-faq-item">
+            <h3>What happens after I take the quiz?</h3>
+            <p>
+              You get your Ayurvedic body type result instantly — with a Vata, Pitta, and Kapha
+              percentage breakdown, an explanation of what it means, and personalized guidance on
+              diet, daily routine, movement, and the most common imbalances for your type. No email
+              is required to see your results.
+            </p>
+          </div>
+          <div className="quiz-faq-item">
+            <h3>Is this medical advice?</h3>
+            <p>
+              No. This dosha quiz is for education and self-understanding only — it is not medical
+              advice, diagnosis, or treatment. Ayurveda is a complementary practice, so consult a
+              qualified healthcare professional for any medical concern or before changing your
+              diet, supplements, or routine.
             </p>
           </div>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "How accurate is the dosha quiz?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "This dosha quiz assesses physical and psychological tendencies across digestion, sleep, stress response, energy, and body type. It is not a clinical assessment; it is an educational starting point for understanding your Ayurvedic body type. The more honestly you answer about your lifelong patterns, the more useful your result.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can my dosha change?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Your core constitution (prakriti) stays consistent throughout your life. Your current state (vikriti) shifts with stress, diet, season, and lifestyle. This free dosha quiz captures your current pattern, which is what you can actively rebalance.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What happens after I take the quiz?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "You get your Ayurvedic body type result instantly, with a Vata, Pitta, and Kapha percentage breakdown, an explanation of what it means, and personalized guidance on diet, daily routine, movement, and the most common imbalances for your type. No email is required to see your results.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Is this medical advice?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "No. This dosha quiz is for education and self-understanding only; it is not medical advice, diagnosis, or treatment. Ayurveda is a complementary practice, so consult a qualified healthcare professional for any medical concern or before changing your diet, supplements, or routine.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </>
   )
 }
