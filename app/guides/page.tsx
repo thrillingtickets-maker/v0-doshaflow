@@ -35,12 +35,10 @@ export const metadata: Metadata = {
   },
 }
 
-const CATEGORY_LABELS: Record<string, string> = {
-  journal: "Retreat Journal",
-  editorial: "Editorial",
-  founder: "Founder",
-  Nutrition: "Nutrition",
-  article: "Guide",
+// post.category is now a human-readable label; the deprecated "article"
+// placeholder still renders as "Guide".
+function categoryLabel(category: string): string {
+  return category === "article" ? "Guide" : category
 }
 
 function parsePostDate(date: string): number {
@@ -68,7 +66,7 @@ function toCard(slug: string): GuideArticleCard | null {
     title: post.title,
     excerpt: post.excerpt,
     date: formatDate(post.date),
-    categoryLabel: CATEGORY_LABELS[post.category] ?? "Guide",
+    categoryLabel: categoryLabel(post.category),
   }
 }
 
@@ -78,7 +76,7 @@ export default function GuidesPage() {
     .filter((card): card is GuideArticleCard => card !== null)
 
   const newArticles = getAllPosts()
-    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial")
+    .filter((post) => post.category !== "article")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
     .slice(0, 6)
     .map((post) => ({
@@ -86,7 +84,7 @@ export default function GuidesPage() {
       title: post.title,
       excerpt: post.excerpt,
       date: formatDate(post.date),
-      categoryLabel: CATEGORY_LABELS[post.category] ?? "Guide",
+      categoryLabel: categoryLabel(post.category),
     }))
 
   const jsonLd = {

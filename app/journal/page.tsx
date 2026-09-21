@@ -17,7 +17,7 @@ export const metadata = {
 
 export default function JournalPage() {
   const journalPosts = getAllPosts()
-    .filter((post) => post.category === "journal")
+    .filter((post) => post.category === "Retreat Journal")
     .sort((a, b) => {
       // Extract day number from slug (e.g., "retreat-day-3" -> 3)
       const dayA = parseInt(a.slug.match(/\d+/)?.[0] || "0")

@@ -9,6 +9,8 @@ interface ArticleHeroProps {
 }
 
 import { getCategoryColor } from "@/lib/article-colors"
+import { isCategory, categoryToSlug } from "@/lib/categories"
+import Link from "next/link"
 
 export function ArticleHero({
   title,
@@ -47,14 +49,24 @@ export function ArticleHero({
           </div>
         )}
 
-        {/* Category pill */}
+        {/* Category pill - links to the category landing page */}
         <div className="mb-6">
-          <span
-            className="inline-block px-3 py-1 rounded-full text-xs font-medium capitalize"
-            style={{ backgroundColor: `${accentColor}15`, color: accentColor }}
-          >
-            {category}
-          </span>
+          {isCategory(category) ? (
+            <Link
+              href={`/blog/category/${categoryToSlug(category)}`}
+              className="inline-block px-3 py-1 rounded-full text-xs font-medium capitalize transition-opacity hover:opacity-80"
+              style={{ backgroundColor: `${accentColor}15`, color: accentColor }}
+            >
+              {category}
+            </Link>
+          ) : (
+            <span
+              className="inline-block px-3 py-1 rounded-full text-xs font-medium capitalize"
+              style={{ backgroundColor: `${accentColor}15`, color: accentColor }}
+            >
+              {category}
+            </span>
+          )}
         </div>
 
         {/* Title with potential highlighting */}
