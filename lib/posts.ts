@@ -29,6 +29,161 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "ayurvedic-herb-safety",
+    title: "Ayurvedic Herb Safety: Interactions, Contamination, and Who Should Not Take What",
+    date: "September 21, 2026",
+    category: "Herbs",
+    excerpt:
+      "Almost nobody selling Ayurvedic herbs will tell you when not to take them. Here is the interaction list, the contamination problem, and how to read a label properly.",
+    seoTitle: "Ayurvedic Herb Safety: The Honest Guide | DoshaFlow",
+    seoDescription:
+      "Ayurvedic herb safety, covered properly: drug interactions, heavy metal contamination, who should avoid which herbs, and how to vet a supplement label.",
+    content: `
+<p>Ayurvedic herb safety is the part of this tradition almost nobody writes about honestly, because the people producing most of the content are also selling the herbs. The result is a genre where every plant is gentle, every formula is suitable for everyone, and the only caution offered is to "consult your practitioner" — which tells you nothing about what to consult them about.</p>
+
+<p>So here is the version I wish I had read before I started. Three risks matter, they are different in kind, and only one of them is about the herbs themselves.</p>
+
+<h2 id="three-risks">The Three Real Risks</h2>
+
+<p><strong>Interactions.</strong> Herbs contain active compounds. Active compounds interact with drugs. This is not a fringe concern — it is the same pharmacology that makes grapefruit juice a problem with certain medications.</p>
+
+<p><strong>Contamination.</strong> This is the biggest risk and the least discussed. It has nothing to do with the plants and everything to do with manufacturing, sourcing and a specific category of traditional preparation.</p>
+
+<p><strong>Contraindications.</strong> Some herbs are genuinely inappropriate for particular conditions or life stages, regardless of dose or quality.</p>
+
+<div class="stat-callout"><span class="stat-number">3</span><span class="stat-label">distinct risk categories — most safety advice collapses them into one vague warning</span></div>
+
+<h2 id="decision">Before You Take Anything</h2>
+
+<p>Work down this before buying. Most people can clear it in thirty seconds; the ones who cannot are exactly the ones who need to.</p>
+
+<svg viewBox="0 0 780 600" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;margin:32px 0;" role="img" aria-label="Decision flowchart for whether to take an Ayurvedic herb, covering prescription medication, pregnancy, thyroid and autoimmune conditions, and third-party testing">
+  <rect width="780" height="600" fill="#FBF9F5" rx="4"/>
+  <g font-family="Inter, system-ui, sans-serif" font-size="13" fill="#2c1a0e">
+    <rect x="40" y="20" width="280" height="56" rx="4" fill="#ffffff" stroke="#e8d9c5"/>
+    <text x="180" y="53" text-anchor="middle" font-weight="600">Considering an Ayurvedic herb</text>
+
+    <rect x="40" y="110" width="280" height="56" rx="4" fill="#ffffff" stroke="#e8d9c5"/>
+    <text x="180" y="143" text-anchor="middle">On any prescription medication?</text>
+    <rect x="440" y="110" width="300" height="56" rx="4" fill="rgba(196,154,108,0.10)" stroke="#e8d9c5"/>
+    <text x="590" y="135" text-anchor="middle" font-size="12" fill="#8a7660">YES</text>
+    <text x="590" y="153" text-anchor="middle" font-size="12">Check the interaction table below first</text>
+
+    <rect x="40" y="200" width="280" height="56" rx="4" fill="#ffffff" stroke="#e8d9c5"/>
+    <text x="180" y="233" text-anchor="middle">Pregnant or trying to conceive?</text>
+    <rect x="440" y="200" width="300" height="56" rx="4" fill="rgba(196,154,108,0.10)" stroke="#e8d9c5"/>
+    <text x="590" y="225" text-anchor="middle" font-size="12" fill="#8a7660">YES</text>
+    <text x="590" y="243" text-anchor="middle" font-size="12">Avoid — safety is not established</text>
+
+    <rect x="40" y="290" width="280" height="56" rx="4" fill="#ffffff" stroke="#e8d9c5"/>
+    <text x="180" y="316" text-anchor="middle">Thyroid, autoimmune or</text>
+    <text x="180" y="334" text-anchor="middle">hormone-sensitive condition?</text>
+    <rect x="440" y="290" width="300" height="56" rx="4" fill="rgba(196,154,108,0.10)" stroke="#e8d9c5"/>
+    <text x="590" y="315" text-anchor="middle" font-size="12" fill="#8a7660">YES</text>
+    <text x="590" y="333" text-anchor="middle" font-size="12">Clinician sign-off before starting</text>
+
+    <rect x="40" y="380" width="280" height="56" rx="4" fill="#ffffff" stroke="#e8d9c5"/>
+    <text x="180" y="406" text-anchor="middle">Third-party tested for</text>
+    <text x="180" y="424" text-anchor="middle">heavy metals?</text>
+    <rect x="440" y="380" width="300" height="56" rx="4" fill="rgba(196,154,108,0.10)" stroke="#e8d9c5"/>
+    <text x="590" y="405" text-anchor="middle" font-size="12" fill="#8a7660">NO</text>
+    <text x="590" y="423" text-anchor="middle" font-size="12">Do not take it. Find one that is.</text>
+
+    <rect x="40" y="480" width="280" height="64" rx="4" fill="#c49a6c"/>
+    <text x="180" y="508" text-anchor="middle" fill="#ffffff" font-weight="600">Start ONE herb, lowest dose</text>
+    <text x="180" y="528" text-anchor="middle" fill="#ffffff" font-size="12">Hold it for four weeks before adding anything</text>
+  </g>
+  <g stroke="#c49a6c" stroke-width="1.5" fill="none">
+    <path d="M180 76 L180 110"/><path d="M180 166 L180 200"/>
+    <path d="M180 256 L180 290"/><path d="M180 346 L180 380"/>
+    <path d="M180 436 L180 480"/>
+    <path d="M320 138 L440 138"/><path d="M320 228 L440 228"/>
+    <path d="M320 318 L440 318"/><path d="M320 408 L440 408"/>
+  </g>
+  <g font-family="Inter, system-ui, sans-serif" font-size="11" fill="#8a7660">
+    <text x="190" y="97">No</text><text x="190" y="187">No</text>
+    <text x="190" y="277">No</text><text x="190" y="367">No</text>
+  </g>
+</svg>
+
+<h2 id="contamination">The Contamination Problem</h2>
+
+<p>This deserves to be first because it is the risk most likely to actually harm you, and the one the wellness internet is quietest about.</p>
+
+<p>A subset of traditional Ayurvedic preparations — the category known as rasa shastra, which includes bhasma and some classical compound formulas — deliberately incorporates processed metals. In traditional practice these undergo elaborate purification, and practitioners in that lineage consider the result transformed rather than toxic. Whatever one makes of that claim, the practical reality is that testing of traditional-preparation products sold internationally has repeatedly found detectable lead, mercury and arsenic, sometimes at levels well above food safety limits.</p>
+
+<p>Separately, and more mundanely, plant material grown in contaminated soil concentrates heavy metals regardless of anyone's intentions. Roots are worse than leaves for this, and several of the most popular Ayurvedic herbs are roots.</p>
+
+<p>The practical rule: buy single-herb products from suppliers who publish third-party test results for heavy metals, and be sceptical of classical compound formulas unless you know the manufacturer well. "Ayurvedic" on a label is not a quality signal. A certificate of analysis is.</p>
+
+<div class="stat-callout"><span class="stat-number">0</span><span class="stat-label">Amount of heavy metal contamination that is acceptable in something you take daily for months</span></div>
+
+<h2 id="interactions">Interactions Worth Knowing</h2>
+
+<p>This is not exhaustive, and it is not a substitute for asking whoever prescribes your medication. It is the set of interaction classes that come up most often.</p>
+
+<table>
+  <thead>
+    <tr><th>Herb</th><th>Interacts with</th><th>Mechanism, broadly</th><th>What to do</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ashwagandha</td><td>Thyroid medication, sedatives, immunosuppressants</td><td>May raise thyroid hormone levels; additive sedation; immune stimulation</td><td>Clinician first if any apply</td></tr>
+    <tr><td>Triphala</td><td>Iron and mineral supplements, drugs with narrow therapeutic windows</td><td>Tannins bind minerals and can slow absorption</td><td>Separate by at least two hours</td></tr>
+    <tr><td>Turmeric (high-dose extract)</td><td>Blood thinners, some diabetes medication</td><td>Mild antiplatelet effect; may lower blood sugar</td><td>Culinary amounts are fine; extracts need a conversation</td></tr>
+    <tr><td>Brahmi</td><td>Sedatives, thyroid medication</td><td>Additive calming effect</td><td>Watch for excess drowsiness</td></tr>
+    <tr><td>Tagara (valerian)</td><td>Alcohol, sedatives, sleep medication</td><td>Additive CNS depression</td><td>Do not combine</td></tr>
+    <tr><td>Licorice (in many formulas)</td><td>Blood pressure medication, diuretics, corticosteroids</td><td>Can raise blood pressure and lower potassium</td><td>Check compound formulas for it — it hides in blends</td></tr>
+    <tr><td>Guggulu</td><td>Thyroid medication, blood thinners</td><td>Affects thyroid function and clotting</td><td>Clinician first</td></tr>
+  </tbody>
+</table>
+
+<p>The licorice line is the one most people miss. It appears in a great many classical compound formulas as a supporting ingredient, so someone avoiding it deliberately can still end up taking it daily without knowing. Read the full ingredient list of any blend, not just its name.</p>
+
+<h2 id="contraindications">Who Should Avoid What</h2>
+
+<table>
+  <thead>
+    <tr><th>If you are</th><th>Be cautious with</th><th>Why</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Pregnant or trying to conceive</td><td>Most herbs, particularly haritaki, guggulu, ashwagandha</td><td>Safety in pregnancy is largely unestablished rather than disproven — but unestablished is reason enough</td></tr>
+    <tr><td>Breastfeeding</td><td>Same list</td><td>Transfer into milk is mostly unstudied</td></tr>
+    <tr><td>Managing a thyroid condition</td><td>Ashwagandha, guggulu, brahmi</td><td>Several influence thyroid hormone levels in both directions</td></tr>
+    <tr><td>Living with an autoimmune condition</td><td>Ashwagandha, tulsi, guduchi</td><td>Immune-modulating effects can cut either way</td></tr>
+    <tr><td>On blood thinners</td><td>Turmeric extract, guggulu, ginger in therapeutic doses</td><td>Additive antiplatelet effect</td></tr>
+    <tr><td>Scheduled for surgery</td><td>Most herbs</td><td>Stop two weeks beforehand and tell your surgeon what you were taking</td></tr>
+    <tr><td>Under 18</td><td>Most therapeutic-dose herbs</td><td>Dosing and safety data are largely absent for children</td></tr>
+  </tbody>
+</table>
+
+<h2 id="labels">How to Read a Label</h2>
+
+<p>Four things, in order of importance.</p>
+
+<p><strong>Does it say how much of each ingredient?</strong> "Proprietary blend" means the manufacturer will not tell you the doses. There is no legitimate formulation reason for this. Put it back.</p>
+
+<p><strong>Is there a certificate of analysis?</strong> Good suppliers publish third-party testing for heavy metals and microbial contamination, with a batch number you can match to the tub in your hand. A generic "tested for purity" claim on the label is not this.</p>
+
+<p><strong>Is it standardised, and to what?</strong> For extracts, the label should name the marker compound and its percentage. Without that, potency between batches is a lottery.</p>
+
+<p><strong>Where was the plant grown?</strong> Suppliers who know are usually proud to say. Silence here is not damning, but combined with an absent certificate of analysis it tells you enough.</p>
+
+<h2 id="protocol">Starting Safely</h2>
+
+<p><strong>One herb at a time.</strong> If you begin three at once and something disagrees with you, you have no way of knowing which. This is also how you learn what actually works rather than what you hope works.</p>
+
+<p><strong>Lowest effective dose, held for four weeks.</strong> Most adverse reactions to these herbs are dose-related and appear within the first week. Starting low turns a potential problem into a mild, reversible one.</p>
+
+<p><strong>Write down what you are taking.</strong> If you do end up in front of a clinician with an unexplained symptom, "some Ayurvedic thing" is useless to them and a written list is diagnostic.</p>
+
+<p><strong>Stop if something is wrong.</strong> Persistent nausea, headaches, rashes, unusual fatigue, or heart palpitations after starting an herb are reasons to stop, not to push through. The tradition contains a great deal of wisdom about persistence; none of it applies to ignoring an adverse reaction.</p>
+
+<p>None of this is an argument against Ayurvedic herbs. It is an argument for treating them as what they are — substances with real effects, which is the entire reason to take them. Anything strong enough to help is strong enough to require care, and a tradition that has used these plants for two thousand years has always understood that better than the supplement industry currently selling them.</p>
+
+<p>If you take prescription medication, have a diagnosed condition, or are pregnant, treat this article as a list of questions to bring to your clinician rather than a set of answers.</p>
+`,
+  },
+  {
     slug: "triphala-benefits",
     category: "Digestion",
     title: "Triphala Benefits: What the Three-Fruit Formula Actually Does to Your Gut",
