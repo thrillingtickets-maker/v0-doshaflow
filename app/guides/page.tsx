@@ -10,6 +10,7 @@ import { GuidesEmailSignup } from "@/components/guides/guides-email-signup"
 import { GuidesFaq } from "@/components/guides/guides-faq"
 import { guidesFaqs, popularSlugs } from "@/components/guides/guides-data"
 import { getAllPosts, getPostBySlug } from "@/lib/posts"
+import { parsePostDate, formatPostDate } from "@/lib/dates"
 
 const SITE = "https://www.doshaflow.com"
 const PAGE_URL = `${SITE}/guides`
@@ -41,23 +42,6 @@ function categoryLabel(category: string): string {
   return category === "article" ? "Guide" : category
 }
 
-function parsePostDate(date: string): number {
-  const named = date.trim().match(/^([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})$/)
-  if (named) {
-    const [, monthName, day, year] = named
-    const month = new Date(`${monthName} 1, 2000`).getMonth()
-    return new Date(Number(year), month, Number(day)).getTime()
-  }
-  const fallback = new Date(date).getTime()
-  return Number.isNaN(fallback) ? 0 : fallback
-}
-
-function formatDate(date: string): string {
-  const ts = parsePostDate(date)
-  if (!ts) return date
-  return new Date(ts).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })
-}
-
 function toCard(slug: string): GuideArticleCard | null {
   const post = getPostBySlug(slug)
   if (!post) return null
@@ -65,7 +49,7 @@ function toCard(slug: string): GuideArticleCard | null {
     href: `/blog/${post.slug}`,
     title: post.title,
     excerpt: post.excerpt,
-    date: formatDate(post.date),
+    date: formatPostDate(post.date),
     categoryLabel: categoryLabel(post.category),
   }
 }
@@ -83,7 +67,7 @@ export default function GuidesPage() {
       href: `/blog/${post.slug}`,
       title: post.title,
       excerpt: post.excerpt,
-      date: formatDate(post.date),
+      date: formatPostDate(post.date),
       categoryLabel: categoryLabel(post.category),
     }))
 

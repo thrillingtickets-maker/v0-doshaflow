@@ -10,6 +10,7 @@ interface ArticleHeroProps {
 
 import { getCategoryColor } from "@/lib/article-colors"
 import { isCategory, categoryToSlug } from "@/lib/categories"
+import { formatPostDate } from "@/lib/dates"
 import Link from "next/link"
 
 export function ArticleHero({
@@ -84,7 +85,7 @@ export function ArticleHero({
         <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4 text-sm text-muted-foreground">
           <span>{author}</span>
           <span className="hidden md:inline">·</span>
-          <span>{date}</span>
+          <span>{formatPostDate(date)}</span>
         </div>
       </div>
     </header>
