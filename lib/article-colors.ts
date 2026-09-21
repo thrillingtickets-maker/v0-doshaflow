@@ -6,10 +6,15 @@ const DEFAULT_ACCENT = "#C97F3D"
 
 export const CATEGORY_COLORS: Record<string, { accent: string; border: string; pill: string }> = {
   Doshas: { accent: "#8a7a6e", border: "#a09a8e", pill: "#f5f0e8" },
-  Tea: { accent: "#9a8a5a", border: "#b0a070", pill: "#faf8f2" },
   Digestion: { accent: "#b5963a", border: "#c4a655", pill: "#faf8f2" },
-  "Stress & Anxiety": { accent: "#8fa88e", border: "#a8b8a7", pill: "#f0f4f0" },
   Sleep: { accent: "#7a8fa8", border: "#8fa3b8", pill: "#f0f4fa" },
+  "Stress & Anxiety": { accent: "#8fa88e", border: "#a8b8a7", pill: "#f0f4f0" },
+  "Weight Loss": { accent: "#8a9a55", border: "#a3b072", pill: "#f3f5ea" },
+  "Skin & Hair": { accent: "#b57f7a", border: "#c99a95", pill: "#faf1ef" },
+  "Body & Systems": { accent: "#5f938c", border: "#7fa9a2", pill: "#edf4f3" },
+  Herbs: { accent: "#6f8f4a", border: "#88a366", pill: "#eff4e6" },
+  Tea: { accent: "#9a8a5a", border: "#b0a070", pill: "#faf8f2" },
+  "Daily Practices": { accent: "#8a7fa8", border: "#a396bd", pill: "#f2f0f7" },
   Editorial: { accent: "#a89a7a", border: "#b0a890", pill: "#faf7f0" },
   "Retreat Journal": { accent: "#b5763a", border: "#d4a574", pill: "#fdf6ee" },
 }
