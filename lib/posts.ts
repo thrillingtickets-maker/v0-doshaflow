@@ -4560,52 +4560,186 @@ export const posts: Post[] = [
   {
     slug: "ayurvedic-herbs-for-sleep",
     category: "Sleep",
-    title: "Ayurvedic Herbs for Sleep: The Right Herb for Your Sleep Pattern",
-    date: "June 3, 2026",
-    excerpt: "There is no single Ayurvedic herb for sleep. The right herb depends on why you are not sleeping — which is different for each dosha and each pattern of disruption.",
-    seoTitle: "Best Ayurvedic Herbs for Sleep",
-    seoDescription: "A guide to Ayurvedic sleep herbs for each dosha — when to use Ashwagandha, Brahmi, Jatamansi, Shankhpushpi, and Triphala for deeper, calmer sleep.",
-    content: `<p>Sleep problems are different depending on why you cannot sleep. Someone who lies awake with racing thoughts has a different problem than someone who falls asleep but wakes at 3am and cannot return to sleep. Someone who is physically exhausted but mentally wired has a different problem than someone who is calm but too heavy to move into deep sleep. Ayurveda addresses each of these patterns with different herbs.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
-  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">There is no single Ayurvedic herb for sleep. The right herb depends on why you are not sleeping — which is different for each dosha and each pattern of disruption.</div>
-  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">Ashwagandha for the depleted. Brahmi for the overheated mind. Jatamansi for the deeply anxious. Shankhpushpi for the racing thoughts.</div>
-</div><h2>Understanding Sleep Disruption by Dosha</h2><p>Vata types typically struggle with sleep onset. Their minds race. Their bodies feel restless. They fall asleep briefly but wake multiple times. Pitta types typically struggle with waking at 3-4am and staying awake, or with heat preventing the transition into sleep. Kapha types typically sleep too heavily or too long, or struggle with grogginess that prevents them from waking. Each pattern points to a different herb and protocol.</p><h2>The Primary Sleep Herbs</h2><p>Ayurveda has several primary herbs for sleep, each with a specific application. Understanding which herb matches which sleep disruption pattern is the key to actually resolving the problem.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
-    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Herb</div>
-    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Best for</div>
-    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Dosha</div>
-    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Timing</div>
-  </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
-    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Ashwagandha</div>
-    <div style="font-size:13px;color:#4a3728;">Wired-but-tired, cortisol-driven insomnia</div>
-    <div style="font-size:13px;color:#4a3728;">Vata</div>
-    <div style="font-size:13px;color:#4a3728;">30 min before bed in warm milk</div>
-  </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
-    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Brahmi</div>
-    <div style="font-size:13px;color:#4a3728;">Overheated mind, can&apos;t wind down</div>
-    <div style="font-size:13px;color:#4a3728;">Pitta</div>
-    <div style="font-size:13px;color:#4a3728;">Afternoon; not at bedtime</div>
-  </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
-    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Jatamansi</div>
-    <div style="font-size:13px;color:#4a3728;">Deep anxiety, emotional insomnia</div>
-    <div style="font-size:13px;color:#4a3728;">Vata, Pitta</div>
-    <div style="font-size:13px;color:#4a3728;">Evening, 1–2 hours before bed</div>
-  </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
-    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Shankhpushpi</div>
-    <div style="font-size:13px;color:#4a3728;">Racing thoughts, mental loop</div>
-    <div style="font-size:13px;color:#4a3728;">Vata</div>
-    <div style="font-size:13px;color:#4a3728;">Evening with warm water</div>
-  </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
-    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Triphala</div>
-    <div style="font-size:13px;color:#4a3728;">Poor sleep from gut-brain axis disruption</div>
-    <div style="font-size:13px;color:#4a3728;">All doshas</div>
-    <div style="font-size:13px;color:#4a3728;">Nightly, with Ashwagandha</div>
-  </div>
-</div><h2>Ashwagandha for the Depleted</h2><p>Ashwagandha is the primary Ayurvedic herb for Vata sleep disruption. It is used for the person who is exhausted but cannot wind down, the person whose mind continues working after their body is tired, the person whose cortisol is high at night. Ashwagandha is warm and grounding. It settles the nervous system and supports the transition from sympathetic (alert) to parasympathetic (rest) state. The dose is typically 500-1000mg in warm milk 30 minutes before bed.</p><h2>Brahmi for the Overheated Mind</h2><p>Brahmi is the primary herb for Pitta sleep disruption. It is cooling. It calms mental heat. It is used for the person whose mind is overactive, the person who cannot stop analysing or planning, the person who wakes at 3am with thoughts. Brahmi should be taken in the afternoon (not at bedtime) so it can cool the mind gradually throughout the evening. By bedtime, the person has naturally transitioned into a calmer state. The dose is typically 500mg with water or coconut milk in the afternoon, around 3-4pm.</p><h2>Jatamansi for Deep Anxiety</h2><p>Jatamansi is the most grounding of the sleep herbs. It is used for deep anxiety-driven insomnia, for emotional disruption that prevents sleep, for the person whose mind is stuck in worry or fear loops. Jatamansi is particularly effective for sleep disruption rooted in unresolved emotional material. It settles both Vata and Pitta, and is most effective when taken 1-2 hours before bed. The dose is typically 500-1000mg in warm water with a touch of ghee.</p><h2>Shankhpushpi for Racing Thoughts</h2><p>Shankhpushpi is the herb for the mind that will not slow down. For racing thoughts. For mental loops. For the person who lies in bed and their mind jumps from thought to thought to thought with no landing place. Shankhpushpi quiets mental activity. It is primarily used for Vata types but can benefit anyone struggling with mental restlessness. The dose is 500-1000mg in the evening with warm water.</p><h2>Triphala as the Foundation</h2><p>Triphala deserves special mention because poor sleep is often rooted in a compromised gut-brain axis. When digestion is sluggish or irregular, the nervous system remains activated. Triphala taken nightly supports regular elimination and thereby supports the nervous system. This is why Triphala is often recommended alongside the acute sleep herb. Take Triphala nightly (500-1000mg) in warm water, and add your specific sleep herb on top of that foundation.</p><h2>Combining Herbs</h2><p>For many people, combining two herbs works better than using a single herb. Ashwagandha with Triphala. Brahmi with Jatamansi. The combination addresses both the immediate sleep disruption and the underlying digestive or nervous system dysregulation. Test one herb for 2-3 weeks before combining, so you understand what effect each herb is having. Then if needed, combine.</p><h2>Timing Matters</h2><p>The timing of when you take the herb is as important as which herb you choose. Brahmi should not be taken at bedtime — it needs time to cool the system before sleep arrives. Ashwagandha and Jatamansi should be taken 30 minutes to 2 hours before bed. Shankhpushpi in the evening. Triphala as the very last thing before sleep or first thing on waking. The herb's action depends on timing.</p>`
+    title: "Ayurvedic Herbs for Sleep: Which One Matches Your Specific Sleep Problem",
+    date: "September 21, 2026",
+    excerpt: "Most people take the wrong sleep herb because they never defined what kind of bad sleep they have. Here is how to match the herb to the actual failure point.",
+    seoTitle: "Ayurvedic Herbs for Sleep: What Works | DoshaFlow",
+    seoDescription: "Ayurvedic herbs for sleep, matched to your real problem: trouble falling asleep, 3am waking, or unrefreshing nights. Doses and timing included.",
+    content: `
+<p>Ayurvedic herbs for sleep get recommended the way painkillers get recommended — as if "sleep" were one problem with one solution. It is not. Failing to fall asleep and waking at 3:40am with your heart going are two different physiological events, and the herb that fixes one can be useless or counterproductive for the other. That is the single most common reason people conclude ayurvedic herbs for sleep "don't work on them": they took a sedating herb for a cortisol problem, or an adaptogen for a nervous system that simply would not switch off.</p>
+
+<p>So this article is organized backwards from most. We start with the failure point, not the herb.</p>
+
+<h2 id="four-failures">The Four Ways Sleep Actually Fails</h2>
+
+<p>Before you buy anything, identify which of these is yours. If you genuinely have two, treat the earlier one in the night first — fixing sleep onset often resolves the rest by itself.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Failure point</th>
+      <th>What it feels like</th>
+      <th>Usual driver</th>
+      <th>Ayurvedic reading</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sleep onset</td>
+      <td>Body is tired, mind will not stop; 45+ minutes to drop off</td>
+      <td>Sympathetic overdrive, late stimulation, unfinished mental loops</td>
+      <td>Vata in the mind — movement without a place to land</td>
+    </tr>
+    <tr>
+      <td>Early-morning waking</td>
+      <td>Awake between 2am and 4am, alert, often warm, hard to return</td>
+      <td>Cortisol curve shifted early; blood sugar dip; alcohol metabolism</td>
+      <td>Pitta peak hours — heat surfacing overnight</td>
+    </tr>
+    <tr>
+      <td>Wired-tired</td>
+      <td>Exhausted all day, second wind at 10pm, then cannot sleep</td>
+      <td>Flattened or inverted cortisol rhythm after prolonged stress</td>
+      <td>Depleted ojas with vata compensating</td>
+    </tr>
+    <tr>
+      <td>Unrefreshing sleep</td>
+      <td>Eight hours logged, wake groggy and heavy, need 40 minutes to boot</td>
+      <td>Fragmented architecture, late heavy meals, sleeping past the kapha window</td>
+      <td>Kapha accumulation — quantity without quality</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="stat-callout"><span class="stat-number">4</span><span class="stat-label">distinct sleep failures — one herb cannot address all of them</span></div>
+
+<h2 id="the-herbs">The Herbs, Honestly Rated</h2>
+
+<p>Five are worth your attention. Several popular ones are not, and we will get to those.</p>
+
+<h3 id="tagara">Tagara (Indian valerian)</h3>
+
+<p>The closest thing Ayurveda has to a true sedative. Tagara is directly calming rather than adaptogenic — it does not modulate your stress response over weeks, it makes you sleepy tonight. It appears to work on GABA signaling, the same system benzodiazepines target far more aggressively, and research on valerian-family preparations generally shows sleep latency reductions in the range of 15–20 minutes with consistent use.</p>
+
+<p><strong>Best for:</strong> sleep onset. <strong>Dose:</strong> 300–600 mg, 45–60 minutes before bed. <strong>Caveats:</strong> it smells like a wet gym bag, and roughly one in ten people get a paradoxical stimulant response. If you feel alert 30 minutes after taking it, tagara is not your herb — stop rather than increasing the dose. Do not combine with alcohol or prescription sedatives.</p>
+
+<h3 id="jatamansi">Jatamansi (spikenard)</h3>
+
+<p>The most underrated herb on this list and the best fit for the specific state of being mentally overactive but not physically agitated. Jatamansi is calming without being heavily sedating — it quiets rumination rather than knocking you out, which means it is usable in the late evening without leaving you foggy at 7am. It is the one to reach for when the problem is that your brain starts drafting emails the moment your head hits the pillow.</p>
+
+<p><strong>Best for:</strong> sleep onset driven by mental churn; also helpful for returning to sleep after early waking. <strong>Dose:</strong> 250–500 mg, or 1/2 tsp powder in warm milk, 1 hour before bed. <strong>Caveats:</strong> hard to source at good quality; the plant is under pressure in the wild, so buy from suppliers who say where it came from.</p>
+
+<h3 id="ashwagandha-sleep">Ashwagandha</h3>
+
+<p>Covered in depth elsewhere on this site, but its role here needs clarifying because it is routinely misused. Ashwagandha is not a sedative. Taking it at 10pm expecting drowsiness will disappoint you. What it does is lower the overall amplitude of your stress response over weeks, which indirectly improves sleep — studies of standardized extracts commonly report cortisol reductions around 20–30% over 8 weeks.</p>
+
+<p><strong>Best for:</strong> early-morning waking and wired-tired patterns — both of which are cortisol-rhythm problems, not sleepiness problems. <strong>Dose:</strong> 300–600 mg standardized extract. <strong>Timing matters more than people think:</strong> for 3am waking, take it in the evening. For wired-tired, take it in the morning, because the goal is to restore the daytime curve rather than sedate the night. <strong>Caveats:</strong> thyroid conditions and autoimmune conditions warrant a conversation with your clinician first.</p>
+
+<h3 id="brahmi">Brahmi (bacopa)</h3>
+
+<p>Not a sleep herb in the conventional sense, and that is exactly why it belongs here. Brahmi reduces cognitive agitation over a period of weeks — the cumulative low-grade mental noise that makes lying still feel intolerable. Its effects are famously slow; nothing much happens in week one, and the research on bacopa consistently uses 8–12 week windows for a reason.</p>
+
+<p><strong>Best for:</strong> chronic onset insomnia in people who describe their mind as "always on." <strong>Dose:</strong> 300 mg standardized extract daily, taken with food and some fat. <strong>Caveats:</strong> can cause nausea or stomach upset on an empty stomach. Do not expect anything for a month.</p>
+
+<h3 id="shankhpushpi">Shankhpushpi</h3>
+
+<p>Gentle, underused, and the right choice for people who react badly to stronger herbs. It calms without any sedative weight, which makes it usable for those who wake up groggy from almost everything else, and for people who need something they can take at 8pm and still function.</p>
+
+<p><strong>Best for:</strong> anxious sleepers who are sensitive to sedation. <strong>Dose:</strong> 1–2 tsp syrup or 500 mg powder in the evening. <strong>Caveats:</strong> mild enough that if your sleep problem is severe, it will likely be insufficient on its own.</p>
+
+<h2 id="matching">Matching Herb to Problem</h2>
+
+<p>The whole article in one table.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Your problem</th>
+      <th>First choice</th>
+      <th>Second choice</th>
+      <th>Avoid</th>
+      <th>Realistic timeline</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cannot fall asleep — racing mind</td>
+      <td>Jatamansi</td>
+      <td>Tagara</td>
+      <td>Morning ashwagandha alone</td>
+      <td>3–7 nights</td>
+    </tr>
+    <tr>
+      <td>Cannot fall asleep — physically restless</td>
+      <td>Tagara</td>
+      <td>Nutmeg (tiny pinch in warm milk)</td>
+      <td>Brahmi alone</td>
+      <td>1–5 nights</td>
+    </tr>
+    <tr>
+      <td>Waking at 2–4am</td>
+      <td>Ashwagandha, evening</td>
+      <td>Jatamansi to return to sleep</td>
+      <td>Tagara — it will not keep you asleep</td>
+      <td>2–4 weeks</td>
+    </tr>
+    <tr>
+      <td>Wired-tired</td>
+      <td>Ashwagandha, morning</td>
+      <td>Shatavari if also depleted</td>
+      <td>Any sedative at night — it deepens the inversion</td>
+      <td>4–8 weeks</td>
+    </tr>
+    <tr>
+      <td>Sleep long, wake unrefreshed</td>
+      <td>Triphala + earlier dinner</td>
+      <td>Trikatu with the evening meal</td>
+      <td>Sedatives entirely</td>
+      <td>2–3 weeks</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="stat-callout"><span class="stat-number">15–20 min</span><span class="stat-label">Typical reduction in time-to-sleep from valerian-family herbs — real, but modest</span></div>
+
+<h2 id="overrated">The Overrated Ones</h2>
+
+<p>Three things routinely sold as ayurvedic sleep support that do less than advertised.</p>
+
+<p><strong>Generic "sleep blends."</strong> Most contain six to nine herbs at doses too low for any of them to be effective. Underdosing across a long ingredient list is a marketing decision, not a formulation one. Check whether the label discloses the amount of each herb; if it says "proprietary blend," you are buying a label.</p>
+
+<p><strong>Melatonin-plus-ayurvedic-herb combinations.</strong> The melatonin is doing the work, usually at 5 or 10 mg, which is five to twenty times the amount most sleep research supports. The herbs are decoration.</p>
+
+<p><strong>Kapikacchu and other dopaminergic herbs marketed for sleep.</strong> Interesting compounds, but the mechanism points toward alertness and motivation. Taking them at night is working against yourself.</p>
+
+<h2 id="what-herbs-cannot">What No Herb Can Fix</h2>
+
+<p>This part matters more than the herb selection, and the honest answer is that if these are broken, nothing on the list will save you.</p>
+
+<p><strong>An inconsistent wake time.</strong> Your circadian rhythm is anchored by when you get up and see light, not by when you go to bed. A wake time that moves by more than an hour across the week will defeat any herb.</p>
+
+<p><strong>Caffeine after noon.</strong> Caffeine's half-life runs roughly five to six hours, meaning a 3pm coffee still has a quarter of its dose circulating at midnight. Many people who "sleep fine on coffee" are sleeping shallowly and have simply forgotten what rested feels like.</p>
+
+<p><strong>Alcohol as a sleep aid.</strong> It shortens sleep onset and then wrecks the second half of the night as it metabolizes. If you drink in the evening and wake at 3am, you have found your cause and it is not a herb deficiency.</p>
+
+<p><strong>Eating late.</strong> Digestion and deep sleep compete for the same window. Ayurveda puts the last meal three hours before bed for the same reason sleep researchers do.</p>
+
+<h2 id="protocol">The 4-Week Sleep Herb Protocol</h2>
+
+<p>Run this in order. The sequencing is the point.</p>
+
+<p><strong>Week 1 — measure, change nothing else.</strong> No herbs yet. Fix your wake time to a single hour, seven days a week, and cut caffeine off at noon. Record sleep onset, wake episodes and a 1–10 morning grogginess score. Most people find one of the four failure patterns becomes obvious by day five, and a meaningful minority find that the wake-time fix alone resolves it.</p>
+
+<p><strong>Week 2 — introduce one herb.</strong> One. Your first choice from the matching table, at the lower end of the dose range. Same time every night. If it is a sedating herb, take it 45–60 minutes before your target sleep time; if it is ashwagandha, follow the timing note above, since that is the variable people most often get backwards.</p>
+
+<p><strong>Week 3 — adjust, do not stack.</strong> If it is partially working, raise to the upper dose. If nothing has changed and it is a fast-acting herb, switch to your second choice. If it is a slow herb like brahmi or ashwagandha, hold — you are not far enough in to judge.</p>
+
+<p><strong>Week 4 — consolidate or combine.</strong> Only now consider a second herb, and only if it addresses a different failure point than the first. A legitimate pairing looks like evening ashwagandha for the cortisol curve plus jatamansi for onset. An illegitimate one is two sedatives stacked because one was not strong enough.</p>
+
+<p>After week four, if nothing has moved at all, the problem is probably not one an herb solves. Persistent insomnia has causes — sleep apnea, thyroid function, medication timing, iron status — that are worth investigating properly rather than layering more supplements over.</p>
+
+<p>The realistic outcome here is not dramatic. It is falling asleep in fifteen minutes instead of fifty, and staying down until your alarm. That is a large change in how a life feels, delivered by a small change in physiology, and it almost always comes from matching the right herb to the right failure rather than from finding a stronger one.</p>
+`,
   },
   {
     slug: "ayurveda-for-stress",
