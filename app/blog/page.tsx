@@ -5,111 +5,15 @@ import { getAllPosts } from "@/lib/posts"
 import { Navigation } from "@/components/navigation"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
+import { CATEGORIES, isCategory } from "@/lib/categories"
+import { CATEGORY_COLORS } from "@/lib/article-colors"
 
-// Category accent color system - subtle and elegant
-const CATEGORY_COLORS: Record<string, { accent: string; border: string; pill: string }> = {
-  "Stress & Anxiety": { accent: "#8fa88e", border: "#a8b8a7", pill: "#f0f4f0" },
-  "Digestion": { accent: "#b5963a", border: "#c4a655", pill: "#faf8f2" },
-  "Sleep": { accent: "#7a8fa8", border: "#8fa3b8", pill: "#f0f4fa" },
-  "Retreat Journal": { accent: "#b5763a", border: "#d4a574", pill: "#fdf6ee" },
-  "Tea": { accent: "#9a8a5a", border: "#b0a070", pill: "#faf8f2" },
-  "Doshas": { accent: "#8a7a6e", border: "#a09a8e", pill: "#f5f0e8" },
-  "Guides": { accent: "#6e8a7a", border: "#8ea99a", pill: "#eef4f0" },
-  "Weight Loss": { accent: "#8a8a5a", border: "#a0a070", pill: "#faf9f2" },
-  "Editorial": { accent: "#a89a7a", border: "#b0a890", pill: "#faf7f0" },
-}
-
-const FILTER_CATEGORIES = [
-  "All",
-  "Guides",
-  "Doshas",
-  "Tea",
-  "Digestion",
-  "Stress & Anxiety",
-  "Sleep",
-]
-
-const EDITORIAL_CATEGORIES = [
-  "Retreat Journal",
-]
+// Category colors (CATEGORY_COLORS) and the ordered category list (CATEGORIES)
+// now come from lib/article-colors.ts and lib/categories.ts.
 
 const ARTICLES_PER_PAGE = 20
-function getArticleFilters(slug: string, category: string): string[] {
-  const filters = ["All"]
-  if (category === "Guides") {
-    filters.push("Guides")
-    return filters
-  }
-  if (category === "journal") {
-    filters.push("Retreat Journal")
-    return filters
-  }
-  if (category === "editorial") {
-    filters.push("Editorial")
-    return filters
-  }
-  if (category === "Sleep") {
-    filters.push("Sleep")
-    return filters
-  }
-  // Tea articles
-  if (slug.includes("tea")) {
-    filters.push("Tea")
-  }
-  // Dosha guide articles
-  if (
-    slug.includes("dosha") ||
-    slug.includes("vata-") ||
-    slug.includes("pitta-") ||
-    slug.includes("kapha-")
-  ) {
-    filters.push("Doshas")
-  }
-  // Digestion and bloating
-  if (
-    slug.includes("bloat") ||
-    slug.includes("digest") ||
-    slug.includes("ice-water")
-  ) {
-    filters.push("Digestion")
-  }
-  // Stress and anxiety
-  if (
-    slug.includes("anxiety") ||
-    slug.includes("stress") ||
-    slug.includes("cortisol") ||
-    slug.includes("burnout") ||
-    slug.includes("anger")
-  ) {
-    filters.push("Stress & Anxiety")
-  }
-  // Sleep
-  if (slug.includes("sleep") || slug.includes("tired")) {
-    filters.push("Sleep")
-  }
-  // Weight loss
-  if (
-    slug.includes("weight") ||
-    slug.includes("diet-plan") ||
-    slug.includes("foods-to-avoid")
-  ) {
-    filters.push("Weight Loss")
-  }
-  return filters
-}
-function getPrimaryCategory(slug: string, category: string): string {
-  if (category === "Guides") return "Guides"
-  if (category === "journal") return "Retreat Journal"
-  if (category === "editorial") return "Editorial"
-  if (category === "Sleep") return "Sleep"
-  if (slug.includes("tea")) return "Tea"
-  if (slug.includes("dosha") || slug.includes("vata-") || slug.includes("pitta-") || slug.includes("kapha-")) return "Doshas"
-  if (slug.includes("bloat") || slug.includes("digest") || slug.includes("ice-water")) return "Digestion"
-  if (slug.includes("anxiety") || slug.includes("stress") || slug.includes("cortisol") || slug.includes("burnout") || slug.includes("anger")) return "Stress & Anxiety"
-  if (slug.includes("sleep") || slug.includes("tired")) return "Sleep"
-  if (slug.includes("weight") || slug.includes("diet-plan") || slug.includes("foods-to-avoid")) return "Weight Loss"
-  return "Doshas"
-}
+// Category is now a real field on each post (post.category); the previous
+// slug-based label heuristics have been removed.
 const MONTHS: Record<string, number> = {
   january: 0,
   february: 1,
@@ -136,8 +40,9 @@ function parsePostDate(date: string): number {
   return new Date(Number(year), month, Number(day)).getTime()
 }
 export default function BlogPage() {
+  // "article" = unassigned / needs manual review. These stay visible under
+  // "All" but never match a category pill (pills only list real CATEGORIES).
   const allPosts = getAllPosts()
-    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial" || post.category === "Sleep" || post.category === "Doshas" || post.category === "Guides")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
   
   return (
@@ -192,7 +97,7 @@ function BlogPageStatic({ posts }: { posts: any[] }) {
       <section style={{ paddingTop: "40px", paddingBottom: "40px", backgroundColor: "#ffffff" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
-            {["All", "Doshas", "Tea", "Digestion", "Stress & Anxiety", "Sleep", "Editorial", "Retreat Journal"].map((filter) => (
+            {["All", ...CATEGORIES].map((filter) => (
               <div
                 key={filter}
                 style={{
@@ -291,24 +196,34 @@ function BlogPageStatic({ posts }: { posts: any[] }) {
 function BlogContent() {
   const searchParams = useSearchParams()
   const router = useRouter()
-  const [selectedFilter, setSelectedFilter] = useState("All")
   const [searchQuery, setSearchQuery] = useState("")
-  
+
+  // Selected category is driven by the URL (?category=) so a filtered view is
+  // linkable, shareable, and survives a page reload.
+  const categoryParam = searchParams.get("category")
+  const selectedFilter = categoryParam && isCategory(categoryParam) ? categoryParam : "All"
+
   // Get current page from URL, default to 1
   const currentPage = parseInt(searchParams.get("page") || "1", 10)
   
+  // "article" = unassigned / needs manual review. These stay visible under
+  // "All" but never match a category pill (pills only list real CATEGORIES).
   const allPosts = getAllPosts()
-    .filter((post) => post.category === "article" || post.category === "journal" || post.category === "editorial" || post.category === "Sleep" || post.category === "Doshas" || post.category === "Guides")
     .sort((a, b) => parsePostDate(b.date) - parsePostDate(a.date))
+
+  // Only show pills for categories that actually have posts.
+  const pillCategories = useMemo(() => {
+    const counts: Record<string, number> = {}
+    for (const p of allPosts) counts[p.category] = (counts[p.category] || 0) + 1
+    return ["All", ...CATEGORIES.filter((c) => (counts[c] || 0) > 0)]
+  }, [allPosts])
+
   const filteredPosts = useMemo(() => {
     let posts = allPosts
     
     // Apply category filter based on selection
     if (selectedFilter !== "All") {
-      posts = posts.filter((post) => {
-        const filters = getArticleFilters(post.slug, post.category)
-        return filters.includes(selectedFilter)
-      })
+      posts = posts.filter((post) => post.category === selectedFilter)
     }
     
     // Search filter - includes editorial essays if searched
@@ -343,16 +258,20 @@ function BlogContent() {
   const startIndex = (validPage - 1) * ARTICLES_PER_PAGE
   const paginatedPosts = filteredPosts.slice(startIndex, startIndex + ARTICLES_PER_PAGE)
   
-  // Handle filter change - reset to page 1
+  // Handle filter change - write category to the URL and reset to page 1
   const handleFilterChange = (filter: string) => {
-    setSelectedFilter(filter)
-    router.push(`?page=1`)
+    const params = new URLSearchParams()
+    if (filter !== "All") params.set("category", filter)
+    router.push(params.toString() ? `/blog?${params.toString()}` : "/blog")
   }
-  
-  // Handle page change
+
+  // Handle page change - preserve the active category filter
   const handlePageChange = (page: number) => {
     const validPageNum = Math.max(1, Math.min(page, totalPages))
-    router.push(`?page=${validPageNum}`)
+    const params = new URLSearchParams()
+    if (selectedFilter !== "All") params.set("category", selectedFilter)
+    params.set("page", String(validPageNum))
+    router.push(`/blog?${params.toString()}`)
   }
   return (
     <main>
@@ -402,78 +321,49 @@ function BlogContent() {
       {/* Filter Pills */}
       <section style={{ paddingTop: "40px", paddingBottom: "40px", backgroundColor: "#ffffff" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto", paddingLeft: "24px", paddingRight: "24px" }}>
-          {/* Main filter row */}
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "10px", WebkitOverflowScrolling: "touch", paddingBottom: "20px", scrollBehavior: "smooth", justifyContent: "flex-start" }}>
-            {FILTER_CATEGORIES.map((filter) => (
-              <button
-                key={filter}
-                onClick={() => handleFilterChange(filter)}
-                style={{
-                  padding: "8px 22px",
-                  fontSize: "13px",
-                  fontWeight: 400,
-                  border: selectedFilter === filter ? "none" : `1px solid ${CATEGORY_COLORS[filter]?.border || "rgba(0, 0, 0, 0.08)"}`,
-                  backgroundColor: selectedFilter === filter ? (CATEGORY_COLORS[filter]?.pill || "#f5f0e8") : "transparent",
-                  color: selectedFilter === filter ? (CATEGORY_COLORS[filter]?.accent || "#1a1a1a") : "#8a7a6e",
-                  borderRadius: "20px",
-                  cursor: "pointer",
-                  transition: "all 0.2s ease",
-                  fontFamily: "inherit",
-                  whiteSpace: "nowrap",
-                }}
-                onMouseEnter={(e) => {
-                  if (selectedFilter !== filter) {
-                    (e.target as HTMLButtonElement).style.backgroundColor = "#f5f0e8";
-                    (e.target as HTMLButtonElement).style.borderColor = CATEGORY_COLORS[filter]?.accent || "#8a7a6e";
-                  }
-                }}
-                onMouseLeave={(e) => {
-                  if (selectedFilter !== filter) {
-                    (e.target as HTMLButtonElement).style.backgroundColor = "transparent";
-                    (e.target as HTMLButtonElement).style.borderColor = CATEGORY_COLORS[filter]?.border || "rgba(0, 0, 0, 0.08)";
-                  }
-                }}
-              >
-                {filter}
-              </button>
-            ))}
-          </div>
-          
-          {/* Editorial categories row */}
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "10px", WebkitOverflowScrolling: "touch", paddingTop: "16px", borderTop: "1px solid rgba(0, 0, 0, 0.06)", scrollBehavior: "smooth", justifyContent: "flex-start" }}>
-            {EDITORIAL_CATEGORIES.map((filter) => (
-              <button
-                key={filter}
-                onClick={() => handleFilterChange(filter)}
-                style={{
-                  padding: "8px 22px",
-                  fontSize: "13px",
-                  fontWeight: 400,
-                  border: selectedFilter === filter ? "none" : `1px solid ${CATEGORY_COLORS[filter]?.border || "rgba(0, 0, 0, 0.08)"}`,
-                  backgroundColor: selectedFilter === filter ? (CATEGORY_COLORS[filter]?.pill || "#f5f0e8") : "transparent",
-                  color: selectedFilter === filter ? (CATEGORY_COLORS[filter]?.accent || "#1a1a1a") : "#8a7a6e",
-                  borderRadius: "20px",
-                  cursor: "pointer",
-                  transition: "all 0.2s ease",
-                  fontFamily: "inherit",
-                  whiteSpace: "nowrap",
-                }}
-                onMouseEnter={(e) => {
-                  if (selectedFilter !== filter) {
-                    (e.target as HTMLButtonElement).style.backgroundColor = "#f5f0e8";
-                    (e.target as HTMLButtonElement).style.borderColor = CATEGORY_COLORS[filter]?.accent || "#8a7a6e";
-                  }
-                }}
-                onMouseLeave={(e) => {
-                  if (selectedFilter !== filter) {
-                    (e.target as HTMLButtonElement).style.backgroundColor = "transparent";
-                    (e.target as HTMLButtonElement).style.borderColor = CATEGORY_COLORS[filter]?.border || "rgba(0, 0, 0, 0.08)";
-                  }
-                }}
-              >
-                {filter}
-              </button>
-            ))}
+          <div
+            role="group"
+            aria-label="Filter articles by category"
+            style={{ display: "flex", flexWrap: "nowrap", gap: "10px", overflowX: "auto", WebkitOverflowScrolling: "touch", paddingBottom: "20px", scrollBehavior: "smooth", justifyContent: "flex-start" }}
+          >
+            {pillCategories.map((filter) => {
+              const active = selectedFilter === filter
+              return (
+                <button
+                  key={filter}
+                  onClick={() => handleFilterChange(filter)}
+                  aria-pressed={active}
+                  style={{
+                    padding: "8px 22px",
+                    fontSize: "13px",
+                    fontWeight: active ? 600 : 400,
+                    border: active ? "none" : `1px solid ${CATEGORY_COLORS[filter]?.border || "rgba(0, 0, 0, 0.08)"}`,
+                    backgroundColor: active ? (CATEGORY_COLORS[filter]?.pill || "#f5f0e8") : "transparent",
+                    color: active ? (CATEGORY_COLORS[filter]?.accent || "#1a1a1a") : "#8a7a6e",
+                    borderRadius: "20px",
+                    cursor: "pointer",
+                    transition: "all 0.2s ease",
+                    fontFamily: "inherit",
+                    whiteSpace: "nowrap",
+                    boxShadow: active ? `inset 0 0 0 1px ${CATEGORY_COLORS[filter]?.accent || "#1a1a1a"}` : "none",
+                  }}
+                  onMouseEnter={(e) => {
+                    if (!active) {
+                      (e.target as HTMLButtonElement).style.backgroundColor = "#f5f0e8";
+                      (e.target as HTMLButtonElement).style.borderColor = CATEGORY_COLORS[filter]?.accent || "#8a7a6e";
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (!active) {
+                      (e.target as HTMLButtonElement).style.backgroundColor = "transparent";
+                      (e.target as HTMLButtonElement).style.borderColor = CATEGORY_COLORS[filter]?.border || "rgba(0, 0, 0, 0.08)";
+                    }
+                  }}
+                >
+                  {filter}
+                </button>
+              )
+            })}
           </div>
           <style>{`
             div:has(button) {
@@ -597,7 +487,7 @@ function BlogContent() {
               </div>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "32px" }}>
                 {paginatedPosts
-                  .filter(p => p.category === "editorial")
+                  .filter(p => p.category === "Editorial")
                   .slice(0, 3)
                   .map((post) => (
                     <article
@@ -658,8 +548,6 @@ function BlogContent() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "48px" }}>
             {paginatedPosts.map((post) => {
               const isRetreatJournal = post.slug.includes("retreat-day")
-              const primaryCategory = getPrimaryCategory(post.slug, post.category)
-              const categoryColor = CATEGORY_COLORS[primaryCategory]
               return (
                 <article
                   key={post.slug}

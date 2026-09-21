@@ -99,11 +99,6 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/blog/triphala-benefits',
-        destination: '/blog/ayurvedic-herbs-guide',
-        permanent: true,
-      },
-      {
         source: '/blog/ashwagandha-burnout',
         destination: '/blog/ashwagandha-benefits',
         permanent: true,

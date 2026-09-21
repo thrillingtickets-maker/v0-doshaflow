@@ -8,7 +8,7 @@ import { getAllPosts } from "@/lib/posts"
 export function StartHereEditorials() {
   const allPosts = getAllPosts()
   const editorialEssays = allPosts
-    .filter((post) => post.category === "editorial")
+    .filter((post) => post.category === "Editorial")
     .slice(0, 2) // Show top 2 essays
 
   return (

@@ -1,42 +1,28 @@
-// Category-based accent colors for article heroes
-// These colors align with DoshaFlow's color system and article categories
+// Category-based accent colors for article heroes and filter pills.
+// Keyed by the real topic categories in lib/categories.ts — one entry per
+// category. These preserve the palette the blog used previously.
 
+const DEFAULT_ACCENT = "#C97F3D"
+
+export const CATEGORY_COLORS: Record<string, { accent: string; border: string; pill: string }> = {
+  Doshas: { accent: "#8a7a6e", border: "#a09a8e", pill: "#f5f0e8" },
+  Digestion: { accent: "#b5963a", border: "#c4a655", pill: "#faf8f2" },
+  Sleep: { accent: "#7a8fa8", border: "#8fa3b8", pill: "#f0f4fa" },
+  "Stress & Anxiety": { accent: "#8fa88e", border: "#a8b8a7", pill: "#f0f4f0" },
+  "Weight Loss": { accent: "#8a9a55", border: "#a3b072", pill: "#f3f5ea" },
+  "Skin & Hair": { accent: "#b57f7a", border: "#c99a95", pill: "#faf1ef" },
+  "Body & Systems": { accent: "#5f938c", border: "#7fa9a2", pill: "#edf4f3" },
+  Herbs: { accent: "#6f8f4a", border: "#88a366", pill: "#eff4e6" },
+  Tea: { accent: "#9a8a5a", border: "#b0a070", pill: "#faf8f2" },
+  "Daily Practices": { accent: "#8a7fa8", border: "#a396bd", pill: "#f2f0f7" },
+  Editorial: { accent: "#a89a7a", border: "#b0a890", pill: "#faf7f0" },
+  "Retreat Journal": { accent: "#b5763a", border: "#d4a574", pill: "#fdf6ee" },
+}
+
+// Accent color for a given category. Reads the category-keyed map above and
+// falls back to the brand ochre for any unassigned/legacy value.
 export function getCategoryColor(category: string): string {
-  const colorMap: Record<string, string> = {
-    // Dosha guides
-    vata: "#C97F3D", // Ochre/rust
-    pitta: "#C97F3D", // Terracotta
-    kapha: "#8B9D6F", // Olive
-    
-    // Wellness topics
-    journal: "#C97F3D", // Retreat journal - ochre
-    sleep: "#8B9D6F", // Sleep - calm olive
-    digestion: "#8B9D6F", // Digestion - earthy
-    stress: "#C97F3D", // Stress/anxiety - warming ochre
-    "men's health": "#C97F3D", // Warm earth tone
-    "women's health": "#C97F3D", // Warm earth tone
-    hormones: "#C97F3D", // Hormonal - warm
-    
-    // Default fallback
-    default: "#C97F3D",
-  }
-
-  const normalized = category.toLowerCase()
-  
-  // Check for direct match
-  if (colorMap[normalized]) {
-    return colorMap[normalized]
-  }
-  
-  // Check for partial matches
-  for (const [key, color] of Object.entries(colorMap)) {
-    if (key !== "default" && normalized.includes(key)) {
-      return color
-    }
-  }
-  
-  // Fallback
-  return colorMap.default
+  return CATEGORY_COLORS[category]?.accent ?? DEFAULT_ACCENT
 }
 
 // Map of articles with their highlight words

@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server"
 import { getAllPosts } from "@/lib/posts"
+import { CATEGORIES, categoryToSlug } from "@/lib/categories"
 
 export async function GET() {
   const today = new Date().toISOString().split("T")[0]
@@ -41,11 +42,18 @@ export async function GET() {
   const blogArticles = uniquePosts.map(post => ({
     loc: `https://www.doshaflow.com/blog/${post.slug}`,
     lastmod: post.date ? new Date(post.date).toISOString().split("T")[0] : today,
-    priority: post.category === "journal" ? "0.7" : "0.8",
+    priority: post.category === "Retreat Journal" ? "0.7" : "0.8",
+  }))
+
+  // Blog category landing pages
+  const categoryPages = CATEGORIES.map((category) => ({
+    loc: `https://www.doshaflow.com/blog/category/${categoryToSlug(category)}`,
+    lastmod: today,
+    priority: "0.7",
   }))
 
   // Combine all URLs
-  const allUrls = [...staticPages, ...blogArticles]
+  const allUrls = [...staticPages, ...categoryPages, ...blogArticles]
 
   const urlEntries = allUrls
     .map(

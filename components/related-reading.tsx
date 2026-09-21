@@ -1,13 +1,6 @@
 import Link from "next/link"
 import { getRelatedPosts } from "@/lib/related-articles"
 
-const CATEGORY_LABELS: Record<string, string> = {
-  article: "Article",
-  journal: "Journal",
-  editorial: "Editorial",
-  founder: "Founder Note",
-}
-
 export function RelatedReading({ currentSlug }: { currentSlug: string }) {
   const related = getRelatedPosts(currentSlug)
 
@@ -113,7 +106,7 @@ export function RelatedReading({ currentSlug }: { currentSlug: string }) {
       <div className="keep-reading-grid">
         {related.map((post) => (
           <Link key={post.slug} href={`/blog/${post.slug}`} className="keep-reading-card">
-            <span className="keep-reading-eyebrow">{CATEGORY_LABELS[post.category] ?? "Article"}</span>
+            <span className="keep-reading-eyebrow">{post.category === "article" ? "Article" : post.category}</span>
             <h3 className="keep-reading-card-title">{post.title}</h3>
             <p className="keep-reading-excerpt">{post.excerpt}</p>
             <span className="keep-reading-more">Read article →</span>

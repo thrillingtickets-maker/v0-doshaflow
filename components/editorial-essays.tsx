@@ -11,7 +11,7 @@ export function EditorialEssays() {
   const seenSlugs = new Set<string>()
   const seenTitles = new Set<string>()
   const editorialEssays = allPosts
-    .filter((post) => post.category === "editorial" || post.category === "founder")
+    .filter((post) => post.category === "Editorial")
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     .filter((post) => {
       const titleKey = post.title.trim().toLowerCase()
