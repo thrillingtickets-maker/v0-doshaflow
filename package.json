@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/check-encoding.mjs && next build",
     "start": "next start",
-    "lint": "eslint ."
+    "check-encoding": "node scripts/check-encoding.mjs",
+    "lint": "node scripts/check-encoding.mjs && eslint ."
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",

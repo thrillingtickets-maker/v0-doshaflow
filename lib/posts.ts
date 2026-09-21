@@ -1,3 +1,10 @@
+// ENCODING CONTRACT: this file is UTF-8 and contains multi-byte punctuation
+// (em dashes, curly quotes, bullets, arrows). Any script that rewrites it MUST
+// read and write with explicit UTF-8 encoding, and MUST assert the U+FFFD
+// (Unicode REPLACEMENT CHARACTER) count is unchanged before and after — a bad
+// encoding round-trip silently turns those characters into U+FFFD. The guard in
+// scripts/check-encoding.mjs (wired into `lint` and `build`) fails the push if
+// any U+FFFD is present.
 import type { Category } from "./categories"
 
 export interface Post {
