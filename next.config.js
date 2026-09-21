@@ -3,6 +3,21 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: '/blog/heart-health-circulation',
+        destination: '/blog/ayurveda-for-heart-health',
+        permanent: true,
+      },
+      {
+        source: '/blog/liver-detoxification',
+        destination: '/blog/ayurveda-liver-health',
+        permanent: true,
+      },
+      {
+        source: '/blog/abhyanga-daily-oil-massage',
+        destination: '/blog/abhyanga-benefits',
+        permanent: true,
+      },
+      {
         source: '/blog/day-3-my-body-is-detoxing',
         destination: '/blog/what-happens-ayurvedic-retreat-day-3',
         permanent: true,
