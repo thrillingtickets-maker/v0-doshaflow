@@ -1,14 +1,30 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Free Dosha Quiz — Find Your Ayurvedic Type | DoshaFlow",
-  description: "Take the 5-minute dosha quiz to discover whether you're Vata, Pitta, or Kapha — and get a personalized wellness kit recommendation for your type.",
+  title: "Free Dosha Quiz: Discover Your Ayurvedic Body Type | DoshaFlow",
+  description:
+    "Take our free dosha quiz — a quick ayurvedic body type quiz to discover whether you're Vata, Pitta, or Kapha. 25 questions, personalized results, about 3 minutes. No email required to start.",
+  keywords: [
+    "dosha quiz",
+    "free dosha quiz",
+    "ayurvedic body type quiz",
+    "ayurvedic body type",
+    "vata pitta kapha quiz",
+    "dosha test",
+  ],
   alternates: { canonical: "/quiz" },
   openGraph: {
-    title: "Free Dosha Quiz — Find Your Ayurvedic Type | DoshaFlow",
-    description: "Take the 5-minute dosha quiz to discover whether you're Vata, Pitta, or Kapha.",
+    title: "Free Dosha Quiz: Discover Your Ayurvedic Body Type",
+    description:
+      "A free ayurvedic body type quiz to discover whether you're Vata, Pitta, or Kapha. 25 questions, personalized results, about 3 minutes.",
     type: "website",
     url: "https://www.doshaflow.com/quiz",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Free Dosha Quiz: Discover Your Ayurvedic Body Type",
+    description:
+      "A free ayurvedic body type quiz to discover whether you're Vata, Pitta, or Kapha. 25 questions, personalized results, about 3 minutes.",
   },
 }
 
