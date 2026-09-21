@@ -6,6 +6,7 @@ import { ArticleQuizCta } from "@/components/article-quiz-cta"
 import { highlightMap } from "@/lib/article-colors"
 import { processArticleContent, splitArticleIntro } from "@/lib/process-article-content"
 import { calculateReadingTime, formatReadingTime } from "@/lib/reading-time"
+import { parsePostDate, formatPostDate } from "@/lib/dates"
 import { RelatedReading } from "@/components/related-reading"
 import { ArrowLeft } from "lucide-react"
 import { notFound } from "next/navigation"
@@ -68,8 +69,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     "@type": "BlogPosting",
     headline: post.title,
     description: post.seoDescription || post.excerpt,
-    datePublished: new Date(post.date).toISOString(),
-    dateModified: new Date(post.date).toISOString(),
+    datePublished: new Date(parsePostDate(post.date)).toISOString(),
+    dateModified: new Date(parsePostDate(post.date)).toISOString(),
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     url,
     author: {
@@ -116,7 +117,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <div style={{ paddingTop: "56px", paddingBottom: "40px", borderBottom: "1px solid #e8d9c5", marginBottom: "48px" }}>
             {/* Metadata with Reading Time */}
             <div style={{ display: "flex", gap: "24px", flexWrap: "wrap", fontSize: "14px", color: "#8a7a5a", marginBottom: "28px" }}>
-              <span>{post.date}</span>
+              <span>{formatPostDate(post.date)}</span>
               <span>{formatReadingTime(readingTime)}</span>
             </div>
             

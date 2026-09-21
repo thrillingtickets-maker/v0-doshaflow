@@ -23,6 +23,7 @@ import { ExploreByGoal } from "@/components/explore-by-goal"
 import { ExploreByDosha } from "@/components/explore-by-dosha"
 import { StartHere } from "@/components/start-here"
 import { PopularArticles } from "@/components/popular-articles"
+import { LatestArticles } from "@/components/latest-articles"
 import { EditorialEssays } from "@/components/editorial-essays"
 import { Testimonials } from "@/components/testimonials"
 import { TrustBar } from "@/components/trust-bar"
@@ -72,6 +73,9 @@ export default function Home() {
       
       {/* (7) Sample Reports preview section */}
       <PopularArticles />
+
+      {/* (7a) Latest Articles — 6 most recent posts, sorted by date */}
+      <LatestArticles />
       
       {/* (7b) Editorial Essays section */}
       <EditorialEssays />

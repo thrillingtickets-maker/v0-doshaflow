@@ -13,6 +13,7 @@ import {
   CATEGORY_META_DESCRIPTIONS,
 } from "@/lib/categories"
 import { CATEGORY_COLORS } from "@/lib/article-colors"
+import { parsePostDate, formatPostDate } from "@/lib/dates"
 
 const SITE = "https://www.doshaflow.com"
 
@@ -36,22 +37,6 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
     openGraph: { title, description, url, type: "website", siteName: "DoshaFlow" },
     twitter: { card: "summary_large_image", title, description },
   }
-}
-
-const MONTHS: Record<string, number> = {
-  january: 0, february: 1, march: 2, april: 3, may: 4, june: 5,
-  july: 6, august: 7, september: 8, october: 9, november: 10, december: 11,
-}
-function parsePostDate(date: string): number {
-  const match = date.trim().match(/^([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})$/)
-  if (!match) {
-    const fallback = new Date(date).getTime()
-    return Number.isNaN(fallback) ? 0 : fallback
-  }
-  const [, monthName, day, year] = match
-  const month = MONTHS[monthName.toLowerCase()]
-  if (month === undefined) return 0
-  return new Date(Number(year), month, Number(day)).getTime()
 }
 
 export default async function BlogCategoryPage({ params }: { params: Promise<{ category: string }> }) {
@@ -133,7 +118,7 @@ export default async function BlogCategoryPage({ params }: { params: Promise<{ c
                     }}
                   >
                     <time style={{ fontSize: "12px", color: "#9a8878", letterSpacing: "0.05em", marginBottom: "10px" }}>
-                      {post.date}
+                      {formatPostDate(post.date)}
                     </time>
                     <h2 style={{ fontSize: "19px", fontWeight: 600, lineHeight: 1.35, marginBottom: "12px", color: "#1a1a1a" }}>
                       <Link href={`/blog/${post.slug}`} style={{ color: "inherit", textDecoration: "none" }}>

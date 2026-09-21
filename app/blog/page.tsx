@@ -7,38 +7,15 @@ import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 import { CATEGORIES, isCategory } from "@/lib/categories"
 import { CATEGORY_COLORS } from "@/lib/article-colors"
+import { parsePostDate, formatPostDate } from "@/lib/dates"
 
 // Category colors (CATEGORY_COLORS) and the ordered category list (CATEGORIES)
 // now come from lib/article-colors.ts and lib/categories.ts.
 
 const ARTICLES_PER_PAGE = 20
 // Category is now a real field on each post (post.category); the previous
-// slug-based label heuristics have been removed.
-const MONTHS: Record<string, number> = {
-  january: 0,
-  february: 1,
-  march: 2,
-  april: 3,
-  may: 4,
-  june: 5,
-  july: 6,
-  august: 7,
-  september: 8,
-  october: 9,
-  november: 10,
-  december: 11,
-}
-function parsePostDate(date: string): number {
-  const match = date.trim().match(/^([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})$/)
-  if (!match) {
-    const fallback = new Date(date).getTime()
-    return Number.isNaN(fallback) ? 0 : fallback
-  }
-  const [, monthName, day, year] = match
-  const month = MONTHS[monthName.toLowerCase()]
-  if (month === undefined) return 0
-  return new Date(Number(year), month, Number(day)).getTime()
-}
+// slug-based label heuristics have been removed. Date parsing/formatting now
+// lives in lib/dates.ts (parsePostDate / formatPostDate).
 export default function BlogPage() {
   // "article" = unassigned / needs manual review. These stay visible under
   // "All" but never match a category pill (pills only list real CATEGORIES).
@@ -142,7 +119,7 @@ function BlogPageStatic({ posts }: { posts: any[] }) {
                   letterSpacing: "0.05em",
                   marginBottom: "10px",
                 }}>
-                  {post.date}
+                  {formatPostDate(post.date)}
                 </time>
                 <h2 style={{
                   fontSize: "20px",
@@ -593,7 +570,7 @@ function BlogContent() {
                       letterSpacing: "0.05em",
                       marginBottom: "10px",
                     }}>
-                      {post.date}
+                      {formatPostDate(post.date)}
                     </time>
                     <h2 style={{
                       fontSize: "20px",
