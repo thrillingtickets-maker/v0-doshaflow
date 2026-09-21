@@ -45,8 +45,8 @@ export const posts: Post[] = [
 
 <h2 id="timeline">The Timelines</h2>
 
-<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;margin:32px 0;" role="img" aria-label="Chart of typical time to first noticeable change across Ayurvedic interventions, from three days for digestion changes to six months for body composition">
-  <rect width="800" height="420" fill="#FBF9F5" rx="4"/>
+<svg viewBox="-60 0 860 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;margin:32px 0;" role="img" aria-label="Chart of typical time to first noticeable change across Ayurvedic interventions, from three days for digestion changes to six months for body composition">
+  <rect x="-60" width="860" height="420" fill="#FBF9F5" rx="4"/>
   <text x="120" y="24" font-family="Lora, serif" font-size="15" fill="#2c1a0e" font-weight="600">Time to first noticeable change</text>
   <g stroke="#e8d9c5" stroke-width="1">
     <line x1="120" y1="40" x2="120" y2="356"/><line x1="227" y1="40" x2="227" y2="356"/>
