@@ -44,7 +44,7 @@ export const posts: Post[] = [
       "Adrenal fatigue isn't a medical diagnosis, but the exhaustion is real. What's actually happening, how Ayurveda reads it, and a 12-week recovery plan.",
     content: `<p>If you've searched "adrenal fatigue", you've probably seen the same story: chronic stress wears out your adrenal glands until they can't make enough cortisol, and you're left exhausted, foggy and craving salt. It's a tidy explanation, and there's a whole supplement industry built on it. The problem is that it isn't what the evidence shows. That doesn't mean you're imagining how tired you are.</p>
 
-<p>This article separates the parts of the adrenal fatigue story that hold up from the parts that don't. It also explains why Ayurveda's older framework, which describes nervous-system depletion rather than organ failure, describes the problem more accurately. Then it gives you a recovery plan built on that understanding.</p>
+<p>So the first question to settle is the obvious one: is adrenal fatigue real? This article separates the parts of the adrenal fatigue story that hold up from the parts that don't, and explains why the adrenal fatigue Ayurveda perspective \u2014 which describes nervous-system depletion rather than organ failure \u2014 describes the problem more accurately. Then it gives you a recovery plan built on that understanding.</p>
 
 <h2 id="the-myth">What's Wrong With the "Adrenal Fatigue" Story</h2>
 
@@ -146,6 +146,24 @@ export const posts: Post[] = [
 </table>
 
 <p>Rhythm comes back well before resilience does. Once sleep and mornings improve, it's tempting to go straight back to the life that caused the problem. The stress-tolerance line on the chart is the longest for a reason. Protect the first three months, even when you feel better at week six.</p>
+
+<p>Because this pattern shows up differently depending on your constitution \u2014 Vata-dominant people tend to crash into a wired-but-tired exhaustion, while Pitta types burn hot before they burn out \u2014 knowing your baseline makes the plan far easier to tailor. You can <a href="/quiz">take the free dosha quiz</a> to find your type and get rhythm, food and herb guidance matched to it.</p>
+
+<h2 id="faq">Frequently asked questions</h2>
+
+<h3>Is adrenal fatigue a real diagnosis?</h3>
+<p>No. "Adrenal fatigue" isn't recognised by endocrinology societies, and a systematic review of 58 studies found no consistent evidence that the symptoms are caused by adrenals that underproduce cortisol. The exhaustion is real, but it's driven by a dysregulated stress rhythm (the HPA axis), not by worn-out glands. A rare, genuine condition called adrenal insufficiency (Addison's disease) does exist and is diagnosed with specific blood tests.</p>
+
+<h3>How long does recovery take?</h3>
+<p>Rhythm returns before resilience. Most people see sleep timing and morning energy improve within the first four to twelve weeks of anchoring their routine, while stress tolerance rebuilds more slowly \u2014 commonly three to twelve months after severe burnout. Recovery isn't linear, and a stressful week can set you back temporarily.</p>
+
+<h3>What's the difference between adrenal fatigue and burnout?</h3>
+<p>They describe overlapping experiences from different angles. "Adrenal fatigue" is an unproven mechanism (tired glands); burnout is a recognised occupational syndrome of exhaustion, cynicism and reduced performance driven by chronic stress. Burnout research is where much of the evidence for a flattened cortisol curve actually comes from, so it's the more accurate label for what most people mean.</p>
+
+<h3>Does Ayurveda help with adrenal fatigue?</h3>
+<p>Ayurveda reads this as vata aggravation depleting ojas, and its treatment starts with dinacharya \u2014 a fixed daily routine \u2014 before any herbs. That rhythm-first approach lines up with the modern fix of restoring sleep, light and meal timing. Herbs such as ashwagandha come third, not first.</p>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is adrenal fatigue a real diagnosis?","acceptedAnswer":{"@type":"Answer","text":"No. Adrenal fatigue is not recognised by endocrinology societies, and a systematic review of 58 studies found no consistent evidence that the symptoms are caused by adrenals that underproduce cortisol. The exhaustion is real, but it is driven by a dysregulated stress rhythm (the HPA axis), not by worn-out glands. A rare genuine condition called adrenal insufficiency, or Addisons disease, does exist and is diagnosed with specific blood tests."}},{"@type":"Question","name":"How long does adrenal fatigue recovery take?","acceptedAnswer":{"@type":"Answer","text":"Rhythm returns before resilience. Most people see sleep timing and morning energy improve within the first four to twelve weeks of anchoring their routine, while stress tolerance rebuilds more slowly, commonly three to twelve months after severe burnout. Recovery is not linear and a stressful week can set you back temporarily."}},{"@type":"Question","name":"What is the difference between adrenal fatigue and burnout?","acceptedAnswer":{"@type":"Answer","text":"They describe overlapping experiences from different angles. Adrenal fatigue is an unproven mechanism of tired glands, while burnout is a recognised occupational syndrome of exhaustion, cynicism and reduced performance driven by chronic stress. Burnout research is where much of the evidence for a flattened cortisol curve comes from, so it is the more accurate label for what most people mean."}},{"@type":"Question","name":"Does Ayurveda help with adrenal fatigue?","acceptedAnswer":{"@type":"Answer","text":"Ayurveda reads this as vata aggravation depleting ojas, and its treatment starts with dinacharya, a fixed daily routine, before any herbs. That rhythm-first approach lines up with the modern fix of restoring sleep, light and meal timing. Herbs such as ashwagandha come third, not first."}}]}</script>
 
 <p>If your exhaustion comes with unexplained weight loss, dizziness on standing, darkening skin, or symptoms that don't improve over a few months, see your clinician to rule out thyroid disease, anaemia, adrenal insufficiency or depression. Ashwagandha isn't recommended during pregnancy and can interact with thyroid, sedative and immunosuppressant medications, so check with your clinician before taking it.</p>`,
   },
