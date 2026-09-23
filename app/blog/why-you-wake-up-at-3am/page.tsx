@@ -169,6 +169,8 @@ const content = `<p>Waking at 3am is not insomnia. Insomnia is difficulty fallin
 
 <p>The pattern usually takes 3–6 weeks of consistent intervention to shift. But it does shift. The mechanism is real, the interventions are specific, and 3am does not have to be your regular companion.</p>
 
+<p>If cortisol is driving your waking, read the fuller protocol to <a href="/blog/how-to-reduce-cortisol-naturally">reduce cortisol naturally</a> and what the research says about <a href="/blog/ashwagandha-benefits">ashwagandha</a>. To match a remedy to your exact pattern, see which <a href="/blog/ayurvedic-herbs-for-sleep">Ayurvedic herbs for sleep</a> fit best.</p>
+
 <h2>Frequently asked questions</h2>
 <h3>Why do I keep waking up at 3am?</h3>
 <p>In Ayurveda, 2am to 6am is Vata time, the hours when the dosha of movement and the nervous system naturally rises. If your Vata is elevated, the normal pre-dawn cortisol rise, liver processing and blood sugar dip are enough to wake you, reliably, around 3am.</p>
