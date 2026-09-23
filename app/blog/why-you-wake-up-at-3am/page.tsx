@@ -169,6 +169,16 @@ const content = `<p>Waking at 3am is not insomnia. Insomnia is difficulty fallin
 
 <p>The pattern usually takes 3–6 weeks of consistent intervention to shift. But it does shift. The mechanism is real, the interventions are specific, and 3am does not have to be your regular companion.</p>
 
+<h2>Frequently asked questions</h2>
+<h3>Why do I keep waking up at 3am?</h3>
+<p>In Ayurveda, 2am to 6am is Vata time, the hours when the dosha of movement and the nervous system naturally rises. If your Vata is elevated, the normal pre-dawn cortisol rise, liver processing and blood sugar dip are enough to wake you, reliably, around 3am.</p>
+<h3>Is waking up at 3am a sign of anxiety?</h3>
+<p>Not always. A racing but non-specific mind is classic Vata waking. A hot, problem-solving mind closer to 3 to 5am is more Pitta, and waking groggy and heavy without racing thoughts is more Kapha. The quality of the waking tells you the cause.</p>
+<h3>How do I stop waking up at 3am?</h3>
+<p>Prepare the night before: a light dinner before 7pm, no alcohol, warm oil on the soles of the feet, and the same bedtime every night to steady the cortisol rhythm. Jatamansi or ashwagandha taken consistently for several weeks addresses the deeper Vata and cortisol pattern.</p>
+<h3>What should I do when I wake at 3am?</h3>
+<p>Do not look at your phone, which fully activates Vata. Instead breathe in for 4 counts and out for 6 to 8 counts, ten times, to switch on the parasympathetic nervous system, and give your mind something slow and non-urgent rather than fighting it.</p>
+
 <div style="background:#f0ebe2;border-radius:12px;padding:36px;margin:48px 0;text-align:center;">
   <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:12px;">Understand your pattern</div>
   <div style="font-size:18px;font-weight:700;color:#2a1f14;font-family:Georgia,serif;margin-bottom:16px;">Your dosha determines why you wake at 3am — and which interventions will actually work for your constitution.</div>
@@ -197,6 +207,44 @@ const jsonLd = [
       { "@type": "ListItem", position: 1, name: "Home", item: "https://www.doshaflow.com" },
       { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.doshaflow.com/blog" },
       { "@type": "ListItem", position: 3, name: TITLE, item: PAGE_URL },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "Why do I keep waking up at 3am?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "In Ayurveda, 2am to 6am is Vata time, the hours when the dosha of movement and the nervous system naturally rises. If your Vata is elevated, the normal pre-dawn cortisol rise, liver processing and blood sugar dip are enough to wake you, reliably, around 3am.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Is waking up at 3am a sign of anxiety?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Not always. A racing but non-specific mind is classic Vata waking. A hot, problem-solving mind closer to 3 to 5am is more Pitta, and waking groggy and heavy without racing thoughts is more Kapha. The quality of the waking tells you the cause.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How do I stop waking up at 3am?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Prepare the night before: a light dinner before 7pm, no alcohol, warm oil on the soles of the feet, and the same bedtime every night to steady the cortisol rhythm. Jatamansi or ashwagandha taken consistently for several weeks addresses the deeper Vata and cortisol pattern.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What should I do when I wake at 3am?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Do not look at your phone, which fully activates Vata. Instead breathe in for 4 counts and out for 6 to 8 counts, ten times, to switch on the parasympathetic nervous system, and give your mind something slow and non-urgent rather than fighting it.",
+        },
+      },
     ],
   },
 ]
