@@ -185,6 +185,16 @@ const content = `<p>Most people who get into Ayurvedic herbs start with ashwagan
 
 <p>The herb has been in continuous use for thousands of years and is well-characterised in both traditional and modern literature. If you have been using ashwagandha and found it too heating, or if you recognise yourself in the Pitta portrait — running hot, burning bright, and quietly depleting your reserves — shatavari is the herb you have been missing.</p>
 
+<h2 id="faq">FAQ</h2>
+<h3>What is shatavari good for?</h3>
+<p>Shatavari is a cooling, nourishing adaptogen used in Ayurveda for hormonal balance, gut and digestive inflammation, immune regulation, and rebuilding vitality after burnout. It suits hot, driven, inflamed patterns of stress rather than the cold, depleted patterns ashwagandha addresses.</p>
+<h3>Shatavari vs ashwagandha: which should I take?</h3>
+<p>Choose shatavari if you run hot, get acid reflux or skin flare-ups under stress, or found ashwagandha too stimulating or overheating. Choose ashwagandha if you run cold, scattered and low on drive. Some people with combined burnout use both, since one cools and nourishes while the other builds strength.</p>
+<h3>How long does shatavari take to work?</h3>
+<p>Shatavari works gradually, so assess at six to eight weeks rather than two. The first signs are usually improved digestion, less skin reactivity, and a quieting of the burning quality that Pitta imbalance produces.</p>
+<h3>Who should not take shatavari?</h3>
+<p>Because shatavari has mild phytoestrogenic activity, anyone with an oestrogen-sensitive condition or on hormonal medication should consult a qualified practitioner first. Kapha types also tend to need it only in small doses, since its building quality can add heaviness.</p>
+
 <div style="background:#f0ebe2;border-radius:12px;padding:36px;margin:48px 0;text-align:center;">
   <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:12px;">Find your dosha</div>
   <div style="font-size:18px;font-weight:700;color:#2a1f14;font-family:Georgia,serif;margin-bottom:16px;">Knowing whether you're primarily Vata, Pitta, or Kapha tells you which adaptogen your body actually needs — and which one to avoid.</div>
@@ -213,6 +223,44 @@ const jsonLd = [
       { "@type": "ListItem", position: 1, name: "Home", item: "https://www.doshaflow.com" },
       { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.doshaflow.com/blog" },
       { "@type": "ListItem", position: 3, name: TITLE, item: PAGE_URL },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "What is shatavari good for?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Shatavari is a cooling, nourishing adaptogen used in Ayurveda for hormonal balance, gut and digestive inflammation, immune regulation, and rebuilding vitality after burnout. It suits hot, driven, inflamed patterns of stress rather than the cold, depleted patterns ashwagandha addresses.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Shatavari vs ashwagandha: which should I take?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Choose shatavari if you run hot, get acid reflux or skin flare-ups under stress, or found ashwagandha too stimulating or overheating. Choose ashwagandha if you run cold, scattered and low on drive. Some people with combined burnout use both, since one cools and nourishes while the other builds strength.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How long does shatavari take to work?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Shatavari works gradually, so assess at six to eight weeks rather than two. The first signs are usually improved digestion, less skin reactivity, and a quieting of the burning quality that Pitta imbalance produces.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Who should not take shatavari?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Because shatavari has mild phytoestrogenic activity, anyone with an oestrogen-sensitive condition or on hormonal medication should consult a qualified practitioner first. Kapha types also tend to need it only in small doses, since its building quality can add heaviness.",
+        },
+      },
     ],
   },
 ]
