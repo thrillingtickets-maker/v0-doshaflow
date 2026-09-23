@@ -1998,12 +1998,14 @@ export const posts: Post[] = [
   {
     slug: "best-tea-for-bloating",
     category: "Tea",
-    title: "Best Tea for Bloating: The Ayurvedic Approach to a Digestive System That Won't Quit",
+    title: "Best Tea for Bloating: Ayurvedic Teas That Actually Work by Dosha",
     date: "May 28, 2026",
     excerpt: "The best teas for bloating depend on the type \u2014 CCF tea for Vata gas, fennel for Pitta inflammation, trikatu for Kapha heaviness. The Ayurvedic guide to fixing bloating for good.",
-    seoTitle: "Best Tea for Bloating",
+    seoTitle: "Best Tea for Bloating: Ayurvedic Teas That Work by Dosha",
     seoDescription: "The best teas for bloating depend on the type \u2014 CCF tea for Vata gas, fennel for Pitta inflammation, trikatu for Kapha heaviness. The Ayurvedic guide to",
-    content: `<p>Bloating is one of the most common complaints in Ayurveda, and the solution depends entirely on your dosha type. Different doshas create bloating through different mechanisms, so the tea that works for one type can make another worse.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
+    content: `<p>If you deal with chronic bloating, trapped gas, and that heavy, distended feeling after almost every meal, you have probably tried a dozen "digestive" teas that did nothing. The reason is simple: the best tea for bloating is not one single tea. Bloating is one of the most common complaints in Ayurveda, and the right remedy depends entirely on your dosha type, because different doshas create bloating through different mechanisms \u2014 so an ayurvedic tea for bloating that soothes one type can actually make another worse.</p>
+<p>This guide matches the best ayurvedic tea for bloating to each dosha and each pattern of digestive discomfort: gassy, mobile bloating (Vata), sharp, inflamed bloating (Pitta), and heavy, sluggish bloating (Kapha). Find your type below, or take the quiz first to know for sure.</p>
+<div style="background:#f0ebe2;border-radius:12px;padding:32px;margin:48px 0;text-align:center;"><p style="margin:0 0 6px;font-size:12px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Free Dosha Quiz</p><p style="margin:0 0 16px;font-size:22px;font-weight:600;color:#2c1a0e;font-family:Georgia,serif;">Not sure which type of bloating is yours?</p><p style="margin:0 0 24px;font-size:16px;color:#5a4a38;line-height:1.6;">The right tea depends on your dominant dosha. Take the free dosha quiz \u2014 25 questions, about 3 minutes, no email required to start \u2014 then match your result to the teas below.</p><a href="/quiz" style="display:inline-block;background:#b5763a;color:#fff;text-decoration:none;font-weight:600;padding:14px 32px;border-radius:9999px;">Take the Free Dosha Quiz</a></div><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
   <div style="font-size:48px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">CCF</div>
   <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">Cumin \u00b7 Coriander \u00b7 Fennel \u2014 Ayurveda's foundational digestive tea</div>
   <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:520px;margin-left:auto;margin-right:auto;">Equal parts of three seeds, simmered 10 minutes, strained. Works across all three doshas. Reduces gas and bloating, stimulates agni, clears ama. The single recipe that has existed in Ayurvedic medicine for over a thousand years because it works for almost everyone.</div>
