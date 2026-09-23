@@ -1621,7 +1621,7 @@ export const posts: Post[] = [
 <li style="margin:8px 0;"><a href="#vata">Brain fog as a Vata imbalance</a></li>
 <li style="margin:8px 0;"><a href="#tomorrow">What to do tomorrow morning</a></li>
 <li style="margin:8px 0;"><a href="#mistakes">Common mistakes</a></li>
-<li style="margin:8px 0;"><a href="#faq">Frequently asked questions</a></li>
+<li style="margin:8px 0;"><a href="#faq">FAQ</a></li>
 </ul>
 </div>
 
@@ -1709,7 +1709,7 @@ export const posts: Post[] = [
 <li><strong>Chasing supplements before fixing inputs.</strong> No nootropic outperforms consistent sleep, light, and meal timing.</li>
 </ul>
 
-<h2 id="faq">Frequently asked questions</h2>
+<h2 id="faq">FAQ</h2>
 
 <h3>Is brain fog a medical condition?</h3>
 <p>Brain fog is a symptom, not a diagnosis. It can accompany many conditions, so persistent or severe fog should be discussed with a doctor. For the common, lifestyle-driven kind, sleep, digestion, stress, and rhythm are the usual levers.</p>
@@ -2014,7 +2014,7 @@ export const posts: Post[] = [
     seoTitle: "The Ayurvedic Guide to Healing After Chronic Stress",
     seoDescription:
       "A gentle, practical Ayurvedic roadmap for recovering after chronic stress and burnout \u2014 calming cortisol, rebuilding digestion and sleep, and restoring",
-    content: `<p>By the time most people start looking for help, the acute crisis is already over. The deadline passed, the hard season ended, the thing you were bracing against resolved. And yet you do not feel better. You feel hollowed out, foggy, and strangely fragile, as though the stress used up something that has not come back. This is the part nobody prepares you for: the recovery after chronic stress is often harder than the stress itself.</p><p>Here is why. Chronic stress is a withdrawal from your body's reserves \u2014 what Ayurveda calls <em>ojas</em>, the subtle essence of vitality, immunity, and resilience. While the pressure is on, adrenaline and cortisol mask the deficit. You run on borrowed energy. When the pressure lifts, the bill comes due, and you discover how depleted you actually are. Healing is not about doing more. It is about slowly repaying what was borrowed.</p><p>This is a roadmap for that repayment \u2014 calming the stress chemistry, repairing the two systems that always break first (digestion and sleep), and rebuilding energy in an order that actually works. It is educational wellness content, not medical advice.</p><div style="background:#f0ebe2;border-radius:12px;padding:28px 32px;margin:44px 0;">
+    content: `<p>By the time most people start looking for help, the acute crisis is already over. The deadline passed, the hard season ended, the thing you were bracing against resolved. And yet you do not feel better. You feel hollowed out, foggy, and strangely fragile, as though the stress used up something that has not come back. This is the part nobody prepares you for: healing after chronic stress, the real recovery, is often harder than the stress itself.</p><p>Here is why. Chronic stress is a withdrawal from your body's reserves \u2014 what Ayurveda calls <em>ojas</em>, the subtle essence of vitality, immunity, and resilience. While the pressure is on, adrenaline and cortisol mask the deficit. You run on borrowed energy. When the pressure lifts, the bill comes due, and you discover how depleted you actually are. Healing is not about doing more. It is about slowly repaying what was borrowed.</p><p>This is a roadmap for that repayment \u2014 calming the stress chemistry, repairing the two systems that always break first (digestion and sleep), and rebuilding energy in an order that actually works. It is educational wellness content, not medical advice.</p><div style="background:#f0ebe2;border-radius:12px;padding:28px 32px;margin:44px 0;">
   <div style="font-size:11px;letter-spacing:0.15em;color:#b5763a;text-transform:uppercase;margin-bottom:16px;">In this article</div>
   <ul style="margin:0;padding-left:18px;color:#4a3728;font-size:15px;line-height:1.9;">
     <li><a href="#debt">Why you feel worse after the stress ends</a></li>
@@ -2045,7 +2045,20 @@ export const posts: Post[] = [
   <li><strong>Eating cold and raw to be healthy.</strong> A weak digestive fire cannot process raw food well; warm and cooked is what rebuilds.</li>
   <li><strong>Expecting linear progress.</strong> Recovery has flat days and small setbacks. Judging it day-to-day leads people to quit just as it is working.</li>
   <li><strong>Skipping the foundation for the supplement.</strong> No adaptogen outperforms consistent sleep, warm food, and rhythm \u2014 see the <a href="/blog/ayurveda-beginners-guide">beginner's guide</a> for the honest version of what herbs can and cannot do.</li>
-</ul><p>If you want to know which dosha is driving your particular pattern of depletion, the <a href="/quiz">dosha quiz</a> is the place to start, and the <a href="/vata">Vata</a> and <a href="/pitta">Pitta</a> guides go deeper on the two constitutions most prone to stress burnout. Be patient with yourself. You are not behind. You are healing, and healing keeps its own time.</p><p style="font-size:13px;color:#8a7a5a;font-style:italic;">This article is educational wellness information, not medical advice. Persistent exhaustion can have medical causes; please consult a qualified healthcare professional if your symptoms are severe or do not improve.</p>`,
+</ul><p>If you want to know which dosha is driving your particular pattern of depletion, the <a href="/quiz">dosha quiz</a> is the place to start, and the <a href="/vata">Vata</a> and <a href="/pitta">Pitta</a> guides go deeper on the two constitutions most prone to stress burnout. Be patient with yourself. You are not behind. You are healing, and healing keeps its own time.</p><p>Healing after chronic stress is faster when your recovery plan fits your constitution. <a href="/quiz">Take the free dosha quiz</a> to find your type and get a recovery plan matched to it.</p>
+
+<h2 id="faq">FAQ</h2>
+<h3>How long does it take to recover from chronic stress?</h3>
+<p>For most people, meaningful recovery from chronic stress takes two to three months of consistent routine, not days. Sleep and digestion usually steady first, within a few weeks, while deep energy and resilience rebuild more slowly because the reserves take time to refill.</p>
+<h3>Why do I still feel exhausted after the stress is over?</h3>
+<p>Because the depletion outlasts the trigger. Chronic stress drains your reserves faster than they refill, so once the crisis passes you are left running on empty. Recovery is about actively rebuilding, not just removing the stressor.</p>
+<h3>What helps the body heal after chronic stress?</h3>
+<p>Regular sleep and meals, warm and nourishing food, a slower daily pace, gentle rather than intense exercise, and grounding herbs like ashwagandha. Ayurveda treats rhythm and nourishment as the foundation, with herbs as support once the basics are steady.</p>
+<h3>When should I see a doctor about post-stress exhaustion?</h3>
+<p>If exhaustion is severe, lasts beyond a few months of good self-care, or comes with symptoms like weight change, low mood or hormonal disruption, see a clinician to rule out medical causes such as thyroid or adrenal problems.</p>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How long does it take to recover from chronic stress?","acceptedAnswer":{"@type":"Answer","text":"For most people, meaningful recovery from chronic stress takes two to three months of consistent routine, not days. Sleep and digestion usually steady first, within a few weeks, while deep energy and resilience rebuild more slowly because the reserves take time to refill."}},{"@type":"Question","name":"Why do I still feel exhausted after the stress is over?","acceptedAnswer":{"@type":"Answer","text":"Because the depletion outlasts the trigger. Chronic stress drains your reserves faster than they refill, so once the crisis passes you are left running on empty. Recovery is about actively rebuilding, not just removing the stressor."}},{"@type":"Question","name":"What helps the body heal after chronic stress?","acceptedAnswer":{"@type":"Answer","text":"Regular sleep and meals, warm and nourishing food, a slower daily pace, gentle rather than intense exercise, and grounding herbs like ashwagandha. Ayurveda treats rhythm and nourishment as the foundation, with herbs as support once the basics are steady."}},{"@type":"Question","name":"When should I see a doctor about post-stress exhaustion?","acceptedAnswer":{"@type":"Answer","text":"If exhaustion is severe, lasts beyond a few months of good self-care, or comes with symptoms like weight change, low mood or hormonal disruption, see a clinician to rule out medical causes such as thyroid or adrenal problems."}}]}</script>
+
+<p style="font-size:13px;color:#8a7a5a;font-style:italic;">This article is educational wellness information, not medical advice. Persistent exhaustion can have medical causes; please consult a qualified healthcare professional if your symptoms are severe or do not improve.</p>`,
   },
   {
     slug: "nervous-system-regulation-ayurveda",
@@ -2295,7 +2308,7 @@ export const posts: Post[] = [
     seoTitle: "Best Tea for Stress",
     seoDescription: "The best teas for stress depend on the type \u2014 Vata needs ashwagandha and brahmi, Pitta needs rose and brahmi, Kapha needs tulsi and ginger. The complete",
     content: `<h2>The Problem With Standard Stress Teas</h2>
-<p>Most Western stress teas are chamomile-based. Chamomile works for some people, but if you're still wired after a cup, you're probably not using the right herb for your constitution. Ayurveda recognizes that stress manifests differently depending on your dosha, and the herbs that address one type of stress can actually worsen another.</p>
+<p>Choosing the best tea for stress is not as simple as reaching for chamomile. Most Western stress teas are chamomile-based. Chamomile works for some people, but if you're still wired after a cup, you're probably not using the right herb for your constitution. Ayurveda recognizes that stress manifests differently depending on your dosha, and the herbs that address one type of stress can actually worsen another.</p>
 
 <h2>The Founder's Observation</h2>
 <p>When I first started exploring Ayurveda, I noticed something strange about my anxiety patterns. Coffee made me worse. Meditation made me worse. And chamomile tea \u2014 which everyone swore by \u2014 made me feel more anxious. I was trying to treat Pitta stress (burnout, reactivity) with Vata-focused calming herbs. The mismatch was the problem, not the herbs themselves. Once I started using the right herbs for my constitution, stress tea actually worked.</p>
@@ -2325,6 +2338,17 @@ export const posts: Post[] = [
 <p>Ashwagandha should not be used during pregnancy. Brahmi can thin blood if used long-term, so check with a practitioner if you are on blood thinners. Rose and tulsi are generally safe for everyone. If you have a known plant allergy, start with small amounts to test tolerance. Most importantly: these herbs support stress management but do not replace professional mental health care for serious anxiety or depression.</p>
 
 <h2>Next Steps: Know Your Dosha</h2>
+<h2 id="faq">FAQ</h2>
+<h3>What is the best tea for stress?</h3>
+<p>There is no single best tea for stress, because the right herb depends on how stress shows up in you. Tulsi (holy basil) suits anxious, scattered stress, rose and brahmi cool hot, irritable stress, and chamomile suits mild tension. Matching the tea to your dosha matters more than picking the strongest one.</p>
+<h3>Is chamomile actually good for stress?</h3>
+<p>Chamomile is gently calming and works well for mild, warm-natured tension, but it is cooling, so it does not suit everyone. If chamomile leaves you still wired or feeling cold and ungrounded, a warming, grounding herb like tulsi is usually a better fit.</p>
+<h3>What tea is best for stress and sleep at night?</h3>
+<p>For evening stress that disrupts sleep, choose warming, grounding, non-caffeinated blends such as tulsi, ashwagandha or nutmeg in warm milk, or a chamomile and rose blend for hot types. Avoid green and black tea in the evening because the caffeine keeps cortisol elevated.</p>
+<h3>How often should I drink stress tea?</h3>
+<p>Daily is fine for gentle herbs like tulsi and chamomile, and a consistent nightly cup often works better than occasional use because the calming effect is partly a routine and ritual. Rotate stronger herbs rather than relying on one continuously.</p>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the best tea for stress?","acceptedAnswer":{"@type":"Answer","text":"There is no single best tea for stress, because the right herb depends on how stress shows up in you. Tulsi (holy basil) suits anxious, scattered stress, rose and brahmi cool hot, irritable stress, and chamomile suits mild tension. Matching the tea to your dosha matters more than picking the strongest one."}},{"@type":"Question","name":"Is chamomile actually good for stress?","acceptedAnswer":{"@type":"Answer","text":"Chamomile is gently calming and works well for mild, warm-natured tension, but it is cooling, so it does not suit everyone. If chamomile leaves you still wired or feeling cold and ungrounded, a warming, grounding herb like tulsi is usually a better fit."}},{"@type":"Question","name":"What tea is best for stress and sleep at night?","acceptedAnswer":{"@type":"Answer","text":"For evening stress that disrupts sleep, choose warming, grounding, non-caffeinated blends such as tulsi, ashwagandha or nutmeg in warm milk, or a chamomile and rose blend for hot types. Avoid green and black tea in the evening because the caffeine keeps cortisol elevated."}},{"@type":"Question","name":"How often should I drink stress tea?","acceptedAnswer":{"@type":"Answer","text":"Daily is fine for gentle herbs like tulsi and chamomile, and a consistent nightly cup often works better than occasional use because the calming effect is partly a routine and ritual. Rotate stronger herbs rather than relying on one continuously."}}]}</script>
+
 <p>The best stress tea for you depends on your constitution. If you haven't determined your dosha type yet, <a href="/quiz">take the dosha quiz</a> to find your pattern. For deeper understanding of how your dosha responds to stress, explore the <a href="/guides">Ayurvedic guides</a> or <a href="/pitta">specific dosha information</a>. The right tea for your type can transform your relationship with stress.</p>`,
   },
   {
@@ -5064,7 +5088,20 @@ export const posts: Post[] = [
     <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Coconut oil self-massage</strong> \u2014 cooling, grounding, opposite of sesame for Vata</div>
     <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:16px;font-size:13px;color:#c4a882;"><strong style="color:#b5763a;">Lunch as the largest meal</strong> \u2014 Pitta types need to feed the fire at its peak, not bank calories into the evening</div>
   </div>
-</div><p>The recovery from Pitta imbalance is slower than the descent into it. The heat does not disappear overnight. But the recovery is certain if you are willing to stop feeding the fire. This means becoming the thing Pitta naturally resists: the person who stops, who limits, who says no to competition. This is not failure. This is the only actual success available to the Pitta type.</p>`
+</div><p>The recovery from Pitta imbalance is slower than the descent into it. The heat does not disappear overnight. But the recovery is certain if you are willing to stop feeding the fire. This means becoming the thing Pitta naturally resists: the person who stops, who limits, who says no to competition. This is not failure. This is the only actual success available to the Pitta type.</p>
+
+<p>Not sure whether Pitta is really your dominant dosha, or how strongly it is aggravated right now? <a href="/quiz">Take the free dosha quiz</a> to find your type and get a cooling, Pitta-balancing plan matched to your constitution.</p>
+
+<h2 id="faq">FAQ</h2>
+<h3>What are the most common signs of Pitta imbalance?</h3>
+<p>The classic signs are irritability and a short fuse, acid reflux or heartburn, skin inflammation like rashes and acne, waking hot around 1 to 3am, perfectionism and impatience, and burnout hidden behind high performance. Pitta governs heat and transformation, so imbalance shows up as too much heat, physical and emotional.</p>
+<h3>What causes Pitta to go out of balance?</h3>
+<p>Overwork and competition, skipping meals, spicy, sour, salty and fried food, alcohol, heat and long hours of intense focus all aggravate Pitta. It is the imbalance most often rewarded by modern work culture, which is why it builds unnoticed.</p>
+<h3>How do I bring Pitta back into balance?</h3>
+<p>Cool and slow down: eat regular, mild, cooling meals, stop working through lunch, cut alcohol and chilli, get out of the heat, and build in genuine rest and play. Cooling herbs like shatavari and brahmi help once the pace itself has changed.</p>
+<h3>How long does it take to calm a Pitta imbalance?</h3>
+<p>Digestive and sleep symptoms often ease within two to three weeks of cooling routine, while the deeper pattern of drive and burnout takes one to three months to unwind, because the recovery is slower than the descent.</p>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the most common signs of Pitta imbalance?","acceptedAnswer":{"@type":"Answer","text":"The classic signs are irritability and a short fuse, acid reflux or heartburn, skin inflammation like rashes and acne, waking hot around 1 to 3am, perfectionism and impatience, and burnout hidden behind high performance. Pitta governs heat and transformation, so imbalance shows up as too much heat, physical and emotional."}},{"@type":"Question","name":"What causes Pitta to go out of balance?","acceptedAnswer":{"@type":"Answer","text":"Overwork and competition, skipping meals, spicy, sour, salty and fried food, alcohol, heat and long hours of intense focus all aggravate Pitta. It is the imbalance most often rewarded by modern work culture, which is why it builds unnoticed."}},{"@type":"Question","name":"How do I bring Pitta back into balance?","acceptedAnswer":{"@type":"Answer","text":"Cool and slow down: eat regular, mild, cooling meals, stop working through lunch, cut alcohol and chilli, get out of the heat, and build in genuine rest and play. Cooling herbs like shatavari and brahmi help once the pace itself has changed."}},{"@type":"Question","name":"How long does it take to calm a Pitta imbalance?","acceptedAnswer":{"@type":"Answer","text":"Digestive and sleep symptoms often ease within two to three weeks of cooling routine, while the deeper pattern of drive and burnout takes one to three months to unwind, because the recovery is slower than the descent."}}]}</script>`
   },
   {
     slug: "abhyanga-benefits",
