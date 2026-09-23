@@ -33,6 +33,123 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "adrenal-fatigue-ayurveda",
+    title: "Adrenal Fatigue and Ayurveda: What's Really Going On When You're Running on Empty",
+    date: "September 23, 2026",
+    category: "Stress & Anxiety",
+    excerpt:
+      "Adrenal fatigue isn't a real medical diagnosis \u2014 but the exhaustion people describe with it absolutely is. Here's what's actually happening in your body, and why Ayurveda's explanation is closer to the truth than the supplement aisle's.",
+    seoTitle: "Adrenal Fatigue & Ayurveda: What's Really Wrong | DoshaFlow",
+    seoDescription:
+      "Adrenal fatigue isn't a medical diagnosis, but the exhaustion is real. What's actually happening, how Ayurveda reads it, and a 12-week recovery plan.",
+    content: `<p>If you've searched "adrenal fatigue", you've probably seen the same story: chronic stress wears out your adrenal glands until they can't make enough cortisol, and you're left exhausted, foggy and craving salt. It's a tidy explanation, and there's a whole supplement industry built on it. The problem is that it isn't what the evidence shows. That doesn't mean you're imagining how tired you are.</p>
+
+<p>This article separates the parts of the adrenal fatigue story that hold up from the parts that don't. It also explains why Ayurveda's older framework, which describes nervous-system depletion rather than organ failure, describes the problem more accurately. Then it gives you a recovery plan built on that understanding.</p>
+
+<h2 id="the-myth">What's Wrong With the "Adrenal Fatigue" Story</h2>
+
+<p>The adrenal fatigue theory says your adrenal glands become physically exhausted and stop producing enough cortisol. Endocrinology societies don't recognise it as a diagnosis. A systematic review of 58 studies found no consistent evidence that people with the symptoms have adrenals that underproduce cortisol.</p>
+
+<p>There is a real condition in which the adrenal glands fail. It's called adrenal insufficiency (Addison's disease). It's rare, affecting roughly 1 in 10,000 people, and it's serious: symptoms include weight loss, low blood pressure, skin darkening and, left untreated, a life-threatening crisis. It's diagnosed with specific blood tests and treated with medication. It isn't what someone means when they say they've been burnt out since their last job.</p>
+
+<div class="stat-callout"><span class="stat-number">58</span><span class="stat-label">Studies in one systematic review \u2014 none consistently showed that people with "adrenal fatigue" symptoms have failing adrenal glands</span></div>
+
+<h2 id="what-is-happening">What's Actually Happening</h2>
+
+<p>The glands aren't worn out. What changes is how the brain regulates them. Cortisol release is controlled by the HPA axis, a signalling loop between the hypothalamus, the pituitary and the adrenals. In long-term stress that loop becomes dysregulated. The glands can still produce cortisol, but the timing goes wrong.</p>
+
+<p>In a healthy day, cortisol rises sharply in the first 30\u201345 minutes after waking (the cortisol awakening response, typically a 50\u201375% jump). Then it falls steadily until it's lowest around midnight. That curve is what makes you alert in the morning and sleepy at night.</p>
+
+<p>With prolonged stress and burnout, research often finds the curve flattening. The morning rise is blunted and evening levels stay higher than they should. The result matches what people describe as adrenal fatigue:</p>
+
+<table>
+<thead><tr><th>What you feel</th><th>"Adrenal fatigue" explanation</th><th>What the evidence suggests</th></tr></thead>
+<tbody>
+<tr><td>Can't get going in the morning</td><td>Adrenals too tired to produce cortisol</td><td>Blunted cortisol awakening response \u2014 a timing problem</td></tr>
+<tr><td>Tired but wired at night</td><td>Not explained</td><td>Evening cortisol stays high when it should be falling</td></tr>
+<tr><td>Afternoon crash</td><td>Adrenal output "runs out"</td><td>Flattened daily rhythm plus unstable blood sugar</td></tr>
+<tr><td>Salt and sugar cravings</td><td>Adrenal mineral imbalance</td><td>Sleep loss raises hunger hormones and drives cravings for dense energy</td></tr>
+<tr><td>Everything feels harder</td><td>Glands depleted</td><td>A sensitised stress system: the threshold for triggering a stress response has dropped</td></tr>
+</tbody>
+</table>
+
+<p>This distinction matters in practice. If the glands were exhausted, the fix would be to support the glands, which is what "adrenal support" supplements claim to do. Some even contain small amounts of animal adrenal tissue or hormones, and those can suppress your own production further. If the problem is regulation and rhythm, the fix is to restore the signals that set the rhythm: light, sleep timing, meal timing and a real reduction in stress load.</p>
+
+<h2 id="ayurveda-view">How Ayurveda Reads the Same Picture</h2>
+
+<p>Ayurveda doesn't talk about adrenals, but it has described this pattern for a long time. In classical terms it's vata aggravation leading to ojas depletion. Vata governs movement and the nervous system. Chronic overwork, irregular meals, poor sleep, constant stimulation and too much travel all aggravate it. When vata stays high long enough, it depletes ojas, the body's reserve capacity.</p>
+
+<p>The overlap with modern research is striking:</p>
+
+<ul>
+<li><strong>Vata is aggravated by irregularity.</strong> Irregular sleep and meal times are exactly what disrupts the cortisol rhythm.</li>
+<li><strong>The prescription is rhythm first.</strong> Classical treatment starts with dinacharya, a fixed daily routine, before any herbs. That's the same as restoring the signals that set the rhythm.</li>
+<li><strong>Warm, grounding, regular food.</strong> Blood sugar swings are a stressor in their own right. Regular warm meals with protein and fat keep them small.</li>
+<li><strong>Rebuilding takes time.</strong> Ayurveda treats ojas as slow to rebuild, which fits the months-long recovery timelines seen in burnout research.</li>
+</ul>
+
+<p>Ayurveda doesn't have better physiology. Its advantage is that it starts from the right premise: the system is dysregulated, not broken.</p>
+
+<h2 id="what-doesnt-help">What Doesn't Help (and Can Make It Worse)</h2>
+
+<ul>
+<li><strong>More caffeine.</strong> It masks the blunted morning rise and pushes evening cortisol further out of rhythm. A single morning coffee is fine. Relying on caffeine through the afternoon keeps the curve flat.</li>
+<li><strong>High-intensity exercise as a fix.</strong> Hard training is a stressor. When your stress system is already sensitised, daily HIIT often makes the crash worse. Walking, easy strength work and yoga help. Punishing workouts usually don't.</li>
+<li><strong>"Adrenal support" glandulars.</strong> Their contents aren't well regulated, and some contain active hormone.</li>
+<li><strong>Waiting for a holiday to fix it.</strong> Short breaks help briefly, but the benefit usually fades within a few weeks if the daily load hasn't changed.</li>
+</ul>
+
+<h2 id="herbs">Where Herbs Fit</h2>
+
+<p>Ashwagandha is the best-studied Ayurvedic herb here. Trials in stressed adults typically report serum cortisol falling by roughly 11\u201330% over eight weeks, alongside better sleep and lower perceived stress. It fits the Ayurvedic picture well because it's warm, grounding and nourishing, which is the opposite of aggravated vata. Tulsi and brahmi are gentler options with smaller evidence bases.</p>
+
+<p>Herbs are the third step, though, not the first. Taking ashwagandha while you sleep six irregular hours and drink coffee until 4pm is like treating a leak with a better bucket.</p>
+
+<div class="stat-callout"><span class="stat-number">11\u201330%</span><span class="stat-label">Typical reduction in cortisol reported in ashwagandha trials in stressed adults over about eight weeks</span></div>
+
+<h2 id="recovery-timeline">What Recovery Actually Looks Like</h2>
+
+<p>The chart below shows typical ranges, not guarantees. Recovery isn't linear, and a stressful week can set you back temporarily. The order is fairly consistent, though: rhythm returns before resilience.</p>
+
+<svg viewBox="0 0 800 330" role="img" aria-label="Typical recovery timeline from burnout-type exhaustion: sleep timing stabilises in weeks 1 to 3, afternoon crashes ease in weeks 2 to 6, morning energy returns in weeks 4 to 12, and stress tolerance rebuilds from week 8 to 24 and beyond" style="width:100%;height:auto;margin:32px 0;">
+<rect x="0" y="0" width="800" height="330" fill="#FBF9F5"/>
+<text x="24" y="36" font-family="Lora, serif" font-size="18" fill="#2c1a0e">Typical recovery sequence (weeks)</text>
+<g stroke="#e8d9c5" stroke-width="1">
+<line x1="260" y1="60" x2="260" y2="270"/><line x1="346" y1="60" x2="346" y2="270"/><line x1="432" y1="60" x2="432" y2="270"/><line x1="518" y1="60" x2="518" y2="270"/><line x1="604" y1="60" x2="604" y2="270"/><line x1="690" y1="60" x2="690" y2="270"/><line x1="776" y1="60" x2="776" y2="270"/>
+</g>
+<g font-family="Inter, system-ui, sans-serif" font-size="14" fill="#2c1a0e">
+<text x="24" y="100">Sleep timing stabilises</text>
+<text x="24" y="150">Afternoon crashes ease</text>
+<text x="24" y="200">Morning energy returns</text>
+<text x="24" y="250">Stress tolerance rebuilds</text>
+</g>
+<rect x="282" y="84" width="43" height="22" rx="4" fill="#c49a6c"/>
+<rect x="303" y="134" width="86" height="22" rx="4" fill="#c49a6c"/>
+<rect x="346" y="184" width="172" height="22" rx="4" fill="#c49a6c"/>
+<rect x="432" y="234" width="344" height="22" rx="4" fill="#c49a6c" opacity="0.75"/>
+<g font-family="Inter, system-ui, sans-serif" font-size="12" fill="#8a7660" text-anchor="middle">
+<text x="260" y="292">0</text><text x="346" y="292">4</text><text x="432" y="292">8</text><text x="518" y="292">12</text><text x="604" y="292">16</text><text x="690" y="292">20</text><text x="776" y="292">24+</text>
+</g>
+<text x="24" y="318" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#8a7660">Typical ranges only. Full recovery from severe burnout commonly takes 3\u201312 months.</text>
+</svg>
+
+<h2 id="twelve-week-plan">A 12-Week Recovery Plan</h2>
+
+<table>
+<thead><tr><th>Weeks</th><th>Focus</th><th>What to do</th><th>Why it works</th></tr></thead>
+<tbody>
+<tr><td>1\u20133</td><td>Anchor the rhythm</td><td>Get up at the same time every day, weekends included. Get outdoor light within 30 minutes of waking. No caffeine after noon.</td><td>Light and a fixed wake time are the strongest signals for resetting the cortisol curve.</td></tr>
+<tr><td>2\u20136</td><td>Stabilise fuel</td><td>Eat three warm meals at fixed times, each with protein and fat. Have a real breakfast within an hour of waking.</td><td>Takes blood sugar swings out as a hidden stressor. Calms vata through regularity.</td></tr>
+<tr><td>4\u20138</td><td>Downshift the evening</td><td>Screens off 60 minutes before bed. Warm oil on the feet or a short self-massage. Slow breathing with a longer exhale than inhale.</td><td>Helps evening cortisol fall on time. Longer exhales activate the parasympathetic "rest" response.</td></tr>
+<tr><td>6\u201312</td><td>Add support, then load</td><td>Consider ashwagandha (typically 300\u2013600mg of a standardised extract). Rebuild exercise gradually. Change at least one structural cause of the stress.</td><td>Herbs work best once rhythm is back. Lasting recovery needs a lighter stress load, not just more capacity.</td></tr>
+</tbody>
+</table>
+
+<p>Rhythm comes back well before resilience does. Once sleep and mornings improve, it's tempting to go straight back to the life that caused the problem. The stress-tolerance line on the chart is the longest for a reason. Protect the first three months, even when you feel better at week six.</p>
+
+<p>If your exhaustion comes with unexplained weight loss, dizziness on standing, darkening skin, or symptoms that don't improve over a few months, see your clinician to rule out thyroid disease, anaemia, adrenal insufficiency or depression. Ashwagandha isn't recommended during pregnancy and can interact with thyroid, sedative and immunosuppressant medications, so check with your clinician before taking it.</p>`,
+  },
+  {
     slug: "pitta-kapha-dosha",
     title: "Pitta Kapha Dosha: The Strong, Driven Type That Runs Hot and Heavy at Once",
     date: "September 23, 2026",
