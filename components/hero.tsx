@@ -30,7 +30,7 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="font-serif text-5xl md:text-7xl lg:text-8xl font-medium leading-[1.1] tracking-tight text-foreground mb-8"
           >
-            <span className="text-balance">Personalized wellness for how your body actually feels.</span>
+            <span className="text-balance">Personalized Wellness Based on Your Ayurvedic Body Type</span>
           </motion.h1>
 
           <motion.p
@@ -39,7 +39,8 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground leading-relaxed mb-12"
           >
-            Meal plans, movement, digestion, and recovery — all adapted to your body and routine.
+            Take the free dosha quiz to discover your Ayurvedic body type, then get personalized meal plans,
+            movement, digestion, and recovery guidance adapted to your body and routine.
           </motion.p>
 
           <motion.p
@@ -48,9 +49,9 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.25 }}
             className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground leading-relaxed mb-12"
           >
-            DoshaFlow offers personalized Ayurvedic wellness — dosha quizzes, meal guides, herbal tea
-            recommendations, digestion support, sleep protocols, and stress relief plans based on your unique Vata,
-            Pitta, or Kapha body type.
+            DoshaFlow offers personalized Ayurvedic wellness — a free dosha quiz, meal guides, herbal tea
+            recommendations, digestion support, sleep protocols, and stress relief plans based on your unique
+            Ayurvedic body type, whether you're Vata, Pitta, or Kapha.
           </motion.p>
 
           <motion.div
