@@ -19,12 +19,12 @@ const nextConfig = {
       },
       {
         source: '/blog/day-3-my-body-is-detoxing',
-        destination: '/blog/what-happens-ayurvedic-retreat-day-3',
+        destination: '/blog/retreat-day-3',
         permanent: true,
       },
       {
         source: '/blog/day-3-detox-mood-steps',
-        destination: '/blog/what-happens-ayurvedic-retreat-day-3',
+        destination: '/blog/retreat-day-3',
         permanent: true,
       },
       {
