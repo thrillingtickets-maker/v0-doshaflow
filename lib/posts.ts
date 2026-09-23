@@ -33,6 +33,107 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "pitta-kapha-dosha",
+    title: "Pitta Kapha Dosha: The Strong, Driven Type That Runs Hot and Heavy at Once",
+    date: "September 23, 2026",
+    category: "Doshas",
+    excerpt:
+      "Pitta kapha types have the most stamina of any dosha combination \u2014 and the most stubborn imbalances. When heat and heaviness pile up together, the usual single-dosha advice cancels itself out.",
+    seoTitle: "Pitta Kapha Dosha: Traits, Imbalance & Diet | DoshaFlow",
+    seoDescription:
+      "Pitta kapha dosha explained: why this strong, driven type runs hot and heavy at once, what to eat, and a 4-week plan to rebalance both.",
+    content: `<p>If you're a pitta kapha dosha type, you probably don't think of yourself as someone with a health problem. You have stamina, a strong appetite, a solid build and the drive to finish what you start. That is exactly why pitta kapha imbalance tends to go unnoticed for years. It builds slowly, and when it shows up it has two layers: heat on top of heaviness.</p>
+<p>Most dosha advice is written for one dosha at a time. Pitta advice says eat cooling, sweet, grounding food. Kapha advice says eat light, pungent, stimulating food. Follow both and you get a diet that contradicts itself. This guide covers what pitta and kapha have in common, where they conflict, and how to eat and live so you're working with both.</p>
+<h2 id="what-pitta-kapha-means">What Pitta Kapha Actually Means</h2>
+<p>In Ayurveda, your prakruti is your baseline constitution. Most people are dominated by two doshas rather than one. Pitta kapha (sometimes written kapha pitta, depending on which leads) combines pitta's fire and water with kapha's water and earth. Look at what the two share and what they don't:</p>
+<table>
+<thead><tr><th>Quality</th><th>Pitta</th><th>Kapha</th><th>Pitta Kapha result</th></tr></thead>
+<tbody>
+<tr><td>Temperature</td><td>Hot</td><td>Cool</td><td>Variable \u2014 runs hot under stress, sluggish at rest</td></tr>
+<tr><td>Weight</td><td>Light</td><td>Heavy</td><td>Solid, muscular build; gains weight steadily</td></tr>
+<tr><td>Moisture</td><td>Oily</td><td>Oily</td><td>Oily skin and hair \u2014 the most consistent trait</td></tr>
+<tr><td>Stability</td><td>Intense</td><td>Stable</td><td>Sustained drive; hard to knock off course</td></tr>
+<tr><td>Digestion</td><td>Sharp</td><td>Slow</td><td>Strong appetite, but food sits heavily when stressed</td></tr>
+</tbody>
+</table>
+<p>The one quality they share, oiliness (snigdha), is the one that most often goes too far. Oily skin, congestion, cystic breakouts and sticky digestion all come from it.</p>
+<div class="stat-callout"><span class="stat-number">1 of 3</span><span class="stat-label">Pitta and kapha share only one core quality \u2014 oiliness \u2014 and it is the one that most often goes out of balance</span></div>
+<h2 id="strengths">Why This Combination Is So Resilient</h2>
+<p>Vata is the dosha that tends to crack under pressure, and a pitta kapha constitution has very little of it. That usually means steady energy, good immunity, reliable sleep and emotions that are hard to rattle. Pitta brings focus and ambition. Kapha brings endurance and loyalty. This is the colleague who runs the marathon, runs the team and still shows up on Monday.</p>
+<p>The downside is that this resilience hides the early warning signs. A vata type feels an imbalance within days and has to change course. A pitta kapha type can push through for months. By the time something forces a change, the imbalance has usually settled into both digestion and weight.</p>
+<h2 id="imbalance-patterns">The Three Imbalance Patterns</h2>
+<p>Pitta kapha imbalance usually takes one of three forms. Working out which one you're in matters, because the fixes pull in different directions.</p>
+<h3 id="pitta-leading">Pattern 1: Pitta leading (heat on top)</h3>
+<p>Irritability, acid reflux, inflamed skin (redness, rosacea, hot cystic acne), loose stools, waking hot at night and impatience with people who move slower than you. Typical triggers are summer, high-pressure work, alcohol, spicy food and competitive exercise in the heat.</p>
+<h3 id="kapha-leading">Pattern 2: Kapha leading (heaviness on top)</h3>
+<p>Weight gain around the middle, morning sluggishness that coffee barely touches, sinus congestion, a coated tongue, low motivation and comfort eating. Typical triggers are late winter and spring, sitting all day, heavy dinners and too much sleep.</p>
+<h3 id="both-at-once">Pattern 3: Both at once (the stuck-hot pattern)</h3>
+<p>This one is specific to the combination. You're heavy and inflamed at the same time. Examples are weight gain alongside reflux, oily congested skin with angry breakouts, or feeling sluggish and irritable together. Ayurveda describes this as pitta trapped under kapha. The heat has no outlet, so it smoulders. Modern physiology describes something similar: carrying extra visceral fat goes with chronic low-grade inflammation, so the heavy and inflamed states tend to feed each other.</p>
+<h2 id="taste-map">The Taste Map: Where the Two Doshas Agree and Conflict</h2>
+<p>Ayurveda sorts food into six tastes (rasas), each with predictable effects. This is the most useful tool for a pitta kapha type because it shows where you can eat freely and where you have to choose.</p>
+<table>
+<thead><tr><th>Taste</th><th>Effect on Pitta</th><th>Effect on Kapha</th><th>Verdict for Pitta Kapha</th></tr></thead>
+<tbody>
+<tr><td>Bitter</td><td>Reduces</td><td>Reduces</td><td>Eat freely \u2014 common ground</td></tr>
+<tr><td>Astringent</td><td>Reduces</td><td>Reduces</td><td>Eat freely \u2014 common ground</td></tr>
+<tr><td>Pungent</td><td>Aggravates</td><td>Reduces</td><td>Conflict \u2014 mild spices only</td></tr>
+<tr><td>Sweet</td><td>Reduces</td><td>Aggravates</td><td>Conflict \u2014 whole-food sweet, small portions</td></tr>
+<tr><td>Sour</td><td>Aggravates</td><td>Aggravates</td><td>Minimise</td></tr>
+<tr><td>Salty</td><td>Aggravates</td><td>Aggravates</td><td>Minimise</td></tr>
+</tbody>
+</table>
+<div class="stat-callout"><span class="stat-number">2 of 6</span><span class="stat-label">Tastes that calm both pitta and kapha \u2014 bitter and astringent should anchor every meal</span></div>
+<p>Bitter and astringent foods are leafy greens, legumes, pomegranate, apples, green tea, turmeric and most vegetables in the cabbage family. They take up the whole table because they calm both doshas. There's also a modern angle. Many bitter plant compounds and the fibre in astringent foods support blood sugar control and gut health, and both help with the kapha tendency toward weight gain.</p>
+<p>For pungent foods, pitta kapha types do best with warming spices that aren't hot: ginger, cumin, coriander, fennel, black pepper in small amounts and turmeric. These wake up sluggish kapha digestion without adding pitta heat. Chilli, raw garlic and hot sauces add heat without balancing anything.</p>
+<h2 id="what-to-eat">What a Pitta Kapha Plate Looks Like</h2>
+<table>
+<thead><tr><th>Food group</th><th>Favour</th><th>Reduce</th></tr></thead>
+<tbody>
+<tr><td>Grains</td><td>Barley, quinoa, basmati rice (moderate), millet, oats (dry-cooked)</td><td>Wheat bread in quantity, pastries, heavy pasta</td></tr>
+<tr><td>Proteins</td><td>Mung beans, lentils, chickpeas, chicken, white fish, egg whites</td><td>Red meat, shellfish, fried foods, hard cheeses</td></tr>
+<tr><td>Vegetables</td><td>Leafy greens, broccoli, cauliflower, asparagus, celery, zucchini</td><td>Tomatoes, raw onion, nightshades in excess</td></tr>
+<tr><td>Fruit</td><td>Apples, pears, pomegranate, berries</td><td>Bananas, citrus, very sweet dried fruit</td></tr>
+<tr><td>Fats</td><td>Small amounts of ghee, sunflower oil</td><td>Large amounts of any oil, butter, nuts in handfuls</td></tr>
+<tr><td>Drinks</td><td>Warm water, coriander-fennel tea, green tea</td><td>Alcohol, iced drinks, sweetened coffee</td></tr>
+</tbody>
+</table>
+<p>Beans and legumes deserve a special mention. They are astringent, filling, high in fibre and light on pitta heat, and they may be the single most useful food group for this constitution. Cook them with cumin and ginger to avoid the gas that some people get.</p>
+<h2 id="daily-routine">Daily Routine: Working With Your Energy Curve</h2>
+<p>Ayurveda divides the day into dosha windows. Kapha peaks from roughly 6 to 10am and pitta from roughly 10am to 2pm. That explains a lot about the pitta kapha day: a groggy morning if you sleep past 6, then a burst of drive and hunger around midday.</p>
+<ul>
+<li><strong>Wake before 6:30am.</strong> Getting up before kapha time peaks makes it far easier to avoid the heavy morning fog. Oversleeping is the most common trigger of the kapha-leading pattern.</li>
+<li><strong>Move vigorously in the morning, not at noon.</strong> Kapha needs real intensity, the kind where you're sweating and breathing hard. Pitta needs to avoid midday heat and competitive over-exertion. Morning intensity serves both.</li>
+<li><strong>Make lunch the main meal.</strong> Digestion is strongest when pitta peaks at midday. A big lunch and a light, early dinner deal with the heavy-food problem more effectively than cutting calories does.</li>
+<li><strong>Eat dinner by 7pm, and keep it light.</strong> Soups, steamed vegetables and dal. Heavy late dinners leave kapha heaviness sitting overnight and often add a pitta-driven hot, restless first half of the night.</li>
+<li><strong>Do a dry massage (garshana) instead of oil massage.</strong> Daily oil massage suits vata but tends to add oiliness to an already oily constitution. A dry brush or raw-silk gloves before showering stimulates circulation without that problem.</li>
+</ul>
+<h2 id="herbs">Herbs Worth Knowing</h2>
+<p>Four classical herbs fit the pitta kapha profile well because they are bitter or astringent without adding heat:</p>
+<ul>
+<li><strong>Triphala</strong> \u2014 the three-fruit blend is balanced across all doshas and helps with sluggish elimination without the harshness of a stimulant laxative.</li>
+<li><strong>Neem</strong> \u2014 strongly bitter. Traditionally used for hot, oily, inflamed skin.</li>
+<li><strong>Guduchi</strong> \u2014 cooling but not heavy. Traditionally used when heat and congestion appear together.</li>
+<li><strong>Turmeric</strong> \u2014 mildly heating but strongly bitter and astringent. It is well tolerated in cooking amounts, and its anti-inflammatory effects are among the best researched of any culinary spice.</li>
+</ul>
+<p>Ashwagandha, the most popular Ayurvedic herb in the West, is heavy and sweet by classical standards. It suits vata depletion better than pitta kapha congestion. That doesn't make it harmful for you, but it is rarely the right first choice.</p>
+<h2 id="seasons">Your Hardest Seasons</h2>
+<p>Kapha builds through late winter and peaks in spring. Pitta builds through late spring and peaks in summer. That makes the stretch from March to August the hardest part of the year for a pitta kapha type, because one dosha's season runs straight into the other's. Spring congestion becomes summer inflammation. Two adjustments make the biggest difference: lighten your diet in March, and cool it down in June.</p>
+<h2 id="four-week-plan">A 4-Week Rebalancing Plan</h2>
+<p>Adjustments that stick work better than a dramatic cleanse. Each week adds one layer:</p>
+<table>
+<thead><tr><th>Week</th><th>Focus</th><th>What to do</th><th>Why it works</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Timing</td><td>Wake by 6:30am. Make lunch the main meal. Finish dinner by 7pm.</td><td>Matches eating to when digestion is strongest. Takes the pressure off without calorie counting.</td></tr>
+<tr><td>2</td><td>Taste</td><td>Add a bitter or astringent food to every meal. Swap chilli for ginger and cumin.</td><td>Calms both doshas at once. Fibre and bitter compounds support blood sugar control.</td></tr>
+<tr><td>3</td><td>Movement</td><td>20\u201340 minutes of vigorous morning exercise, 5 days a week. Nothing competitive at noon.</td><td>Deals with kapha's inertia while keeping pitta's heat out of the hottest hours.</td></tr>
+<tr><td>4</td><td>Subtraction</td><td>Cut alcohol and iced drinks for the week. Replace the evening drink with coriander-fennel tea.</td><td>Alcohol is sour, heating and heavy, so it aggravates both doshas at once.</td></tr>
+</tbody>
+</table>
+<div class="stat-callout"><span class="stat-number">4 weeks</span><span class="stat-label">Typical time before pitta kapha types notice lighter mornings and calmer digestion \u2014 changes compound after that</span></div>
+<p>Many people notice the first signs within two to three weeks: lighter mornings, less reflux and less afternoon irritability. Weight and skin change more slowly, over two to three months, because they reflect tissue-level change rather than day-to-day function.</p>
+<p>If you have diagnosed reflux, a skin condition or a metabolic condition, or you take any regular medication, talk to your clinician before adding herbs such as neem or guduchi.</p>`,
+  },
+  {
     slug: "how-long-does-ayurveda-take-to-work",
     title: "How Long Does Ayurveda Take to Work? Realistic Timelines by Intervention",
     date: "September 21, 2026",
