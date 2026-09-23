@@ -1980,12 +1980,14 @@ export const posts: Post[] = [
   {
     slug: "best-tea-for-vata",
     category: "Tea",
-    title: "Best Tea for Vata Dosha: Daily Drinks That Ground an Overactive Nervous System",
+    title: "Best Tea for Vata Dosha: Warming Teas That Calm Anxiety & Digestion",
     date: "May 29, 2026",
     excerpt: "The best teas for Vata \u2014 ashwagandha, ginger, cardamom, jatamansi \u2014 and when to drink them for digestion, anxiety, and sleep. The complete Vata tea guide.",
-    seoTitle: "Best Tea for Vata Dosha",
+    seoTitle: "Best Tea for Vata Dosha: Warming Teas for Anxiety & Digestion",
     seoDescription: "The best teas for Vata \u2014 ashwagandha, ginger, cardamom, jatamansi \u2014 and when to drink them for digestion, anxiety, and sleep. The complete Vata tea guide.",
-    content: `<p>Vata dosha is the dosha of air and space \u2014 quick, creative, anxious, and prone to overthinking. Vata types need grounding, nourishing teas that settle the nervous system and support digestion. The best teas for Vata are warming, slightly heavy, and calming.</p>
+    content: `<p>If your mind races the moment your head hits the pillow, your digestion swings from bloating to constipation with no pattern, and your hands and feet are always cold, that is classic Vata. Vata dosha is the dosha of air and space \u2014 quick, creative, anxious, and prone to overthinking \u2014 and it is easily thrown off by cold, dry, and irregular habits. The right cup of tea is one of the simplest ways to bring it back into balance.</p>
+<p>The best tea for Vata is warming, slightly heavy, grounding, and calming \u2014 the opposite of Vata's light, cold, mobile nature. A good Vata tea settles a racing mind, warms you from the inside, and gently rekindles irregular digestion. Below are the teas that work best at each time of day, and why each one suits Vata specifically.</p>
+<div style="background:#f0ebe2;border-radius:12px;padding:32px;margin:48px 0;text-align:center;"><p style="margin:0 0 6px;font-size:12px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Free Dosha Quiz</p><p style="margin:0 0 16px;font-size:22px;font-weight:600;color:#2c1a0e;font-family:Georgia,serif;">Not sure if you&apos;re Vata?</p><p style="margin:0 0 24px;font-size:16px;color:#5a4a38;line-height:1.6;">These teas are tuned to a Vata constitution, so confirm your dominant dosha first. Take the free dosha quiz \u2014 25 questions, about 3 minutes, no email required to start.</p><a href="/quiz" style="display:inline-block;background:#b5763a;color:#fff;text-decoration:none;font-weight:600;padding:14px 32px;border-radius:9999px;">Take the Free Dosha Quiz</a></div>
 <h2>Morning: Ashwagandha Ginger Tea</h2>
 <p>Start the day with ashwagandha and ginger. Ashwagandha strengthens and nourishes the nervous system, reducing the tendency toward scattered anxiety. Ginger ignites the digestive fire. A pinch of cardamom aids digestion. Drink warm 20 minutes before food.</p>
 <h2>Afternoon: Brahmi Tea</h2>
