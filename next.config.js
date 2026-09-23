@@ -84,8 +84,13 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/blog/why-do-i-wake-up-at-3am',
+        destination: '/blog/why-you-wake-up-at-3am',
+        permanent: true,
+      },
+      {
         source: '/blog/dopamine-exhaustion-ayurveda',
-        destination: '/blog/dopamine-detox-vs-ayurveda',
+        destination: '/blog/modern-wellness-rest',
         permanent: true,
       },
       {
@@ -105,7 +110,7 @@ const nextConfig = {
       },
       {
         source: '/blog/is-ayurveda-safe-heavy-metals',
-        destination: '/transparency',
+        destination: '/blog/ayurvedic-herb-safety',
         permanent: true,
       },
       {
