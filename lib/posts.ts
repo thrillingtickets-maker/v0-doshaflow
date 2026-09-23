@@ -4088,7 +4088,125 @@ export const posts: Post[] = [
   { slug: "evening-wind-down", category: "Sleep", title: "The Evening Wind Down: How to Prepare Your System for Sleep", date: "March 24, 2026", excerpt: "The evening routine is as important as the morning routine. Here is how to prepare your system for genuine rest.", seoTitle: "The Evening Wind Down: How to Prepare Your System for Sleep", seoDescription: "The evening routine is as important as the morning routine. Here is how to prepare your system for genuine rest.", content: "<p>Sleep quality depends on the hour or two before sleep. Here is the protocol for wind down that actually works.</p>" },
   { slug: "meditation-types-dosha", category: "Doshas", title: "Meditation Types: Which Meditation Practice Is Right For Your Dosha", date: "March 23, 2026", excerpt: "Different meditation approaches work for different constitutional types. Here is which practice works best for you.", seoTitle: "Meditation Types: Which Meditation Practice Is Right For Your Dosha", seoDescription: "Different meditation approaches work for different constitutional types. Here is which practice works best for you.", content: "<p>Not all meditation practices are equally effective for all people. In fact, the wrong meditation practice can make some constitutional types worse.</p>" },
   { slug: "stress-response-system", category: "Stress & Anxiety", title: "Your Stress Response System: Why Some People Recover Faster", date: "March 22, 2026", excerpt: "The nervous system's recovery from stress differs by dosha type. Here is why and what to do about it.", seoTitle: "Your Stress Response System: Why Some People Recover Faster", seoDescription: "The nervous system's recovery from stress differs by dosha type. Here is why and what to do about it.", content: "<p>The stress response is universal, but the recovery from stress is highly individual and dosha-dependent.</p>" },
-  { slug: "immune-system-ojas", category: "Body & Systems", title: "Ojas: The Essence of Immunity and Vitality", date: "March 21, 2026", excerpt: "Ojas is the refined essence of all seven tissues \u2014 the source of immunity, vitality, and resilience. Here is how to build and protect it.", seoTitle: "Ojas: The Essence of Immunity and Vitality", seoDescription: "Ojas is the refined essence of all seven tissues \u2014 the source of immunity, vitality, and resilience. Here is how to build and protect it.", content: "<p>Ojas in Ayurveda is the most refined product of digestion and tissue building. It is the source of immunity, resilience, and the capacity to handle stress.</p>" },
+  {
+    slug: "immune-system-ojas",
+    title: "Ojas in Ayurveda: What It Actually Means and How to Rebuild It",
+    date: "September 23, 2026",
+    category: "Body & Systems",
+    excerpt:
+      "Ojas is Ayurveda's word for the reserve that lets you absorb stress, fight off a cold and bounce back. Strip away the mysticism and it maps onto something very real \u2014 and very depletable.",
+    seoTitle: "Ojas in Ayurveda: What It Is & How to Build It | DoshaFlow",
+    seoDescription:
+      "What ojas in Ayurveda actually means, the modern signs it's depleted, and a practical 8-week plan to rebuild your reserves without the mysticism.",
+    content: `<p>Ojas in Ayurveda is usually translated as "vigour" or "vital essence", and those translations explain almost nothing. A more useful way to think of it: ojas is your reserve capacity. It's the buffer that decides whether a bad week of sleep leaves you tired or leaves you ill, and whether a stressful month makes you sharper or wears you down.</p>
+
+<p>Most wellness writing about ojas either makes it sound mystical or skips over it. This article does neither. It covers what the classical texts actually describe, how that lines up with what modern physiology knows about resilience, how to tell when you're running low, and what rebuilds it. Rebuilding is slower than depleting, so it's worth understanding why.</p>
+
+<h2 id="what-ojas-is">What the Classical Texts Actually Say</h2>
+
+<p>Classical Ayurveda describes digestion as a chain of seven tissues (dhatus). Each tissue is nourished by the one before it, and ojas is the refined end-product of the whole process. It isn't a tissue itself. It's what's left over when every tissue has been well fed.</p>
+
+<svg viewBox="0 0 800 230" role="img" aria-label="Diagram of the classical Ayurvedic tissue chain: rasa (plasma) nourishes rakta (blood), then mamsa (muscle), meda (fat), asthi (bone), majja (marrow and nerve), shukra (reproductive tissue), with ojas as the refined end-product" style="width:100%;height:auto;margin:32px 0;">
+<rect x="0" y="0" width="800" height="230" fill="#FBF9F5"/>
+<text x="22" y="36" font-family="Lora, serif" font-size="18" fill="#2c1a0e">The classical tissue chain: how food becomes ojas</text>
+<g font-family="Inter, system-ui, sans-serif" text-anchor="middle">
+<rect x="22" y="70" width="84" height="64" rx="6" fill="#fff" stroke="#e8d9c5"/><text x="64" y="98" font-size="13" fill="#2c1a0e">Rasa</text><text x="64" y="116" font-size="11" fill="#8a7660">plasma</text>
+<rect x="118" y="70" width="84" height="64" rx="6" fill="#fff" stroke="#e8d9c5"/><text x="160" y="98" font-size="13" fill="#2c1a0e">Rakta</text><text x="160" y="116" font-size="11" fill="#8a7660">blood</text>
+<rect x="214" y="70" width="84" height="64" rx="6" fill="#fff" stroke="#e8d9c5"/><text x="256" y="98" font-size="13" fill="#2c1a0e">Mamsa</text><text x="256" y="116" font-size="11" fill="#8a7660">muscle</text>
+<rect x="310" y="70" width="84" height="64" rx="6" fill="#fff" stroke="#e8d9c5"/><text x="352" y="98" font-size="13" fill="#2c1a0e">Meda</text><text x="352" y="116" font-size="11" fill="#8a7660">fat</text>
+<rect x="406" y="70" width="84" height="64" rx="6" fill="#fff" stroke="#e8d9c5"/><text x="448" y="98" font-size="13" fill="#2c1a0e">Asthi</text><text x="448" y="116" font-size="11" fill="#8a7660">bone</text>
+<rect x="502" y="70" width="84" height="64" rx="6" fill="#fff" stroke="#e8d9c5"/><text x="544" y="98" font-size="13" fill="#2c1a0e">Majja</text><text x="544" y="116" font-size="11" fill="#8a7660">marrow, nerve</text>
+<rect x="598" y="70" width="84" height="64" rx="6" fill="#fff" stroke="#e8d9c5"/><text x="640" y="98" font-size="13" fill="#2c1a0e">Shukra</text><text x="640" y="116" font-size="11" fill="#8a7660">reproductive</text>
+<rect x="694" y="70" width="84" height="64" rx="6" fill="#c49a6c"/><text x="736" y="98" font-size="13" fill="#fff">Ojas</text><text x="736" y="116" font-size="11" fill="#fff">reserve</text>
+</g>
+<g stroke="#c49a6c" stroke-width="2"><line x1="106" y1="102" x2="118" y2="102"/><line x1="202" y1="102" x2="214" y2="102"/><line x1="298" y1="102" x2="310" y2="102"/><line x1="394" y1="102" x2="406" y2="102"/><line x1="490" y1="102" x2="502" y2="102"/><line x1="586" y1="102" x2="598" y2="102"/><line x1="682" y1="102" x2="694" y2="102"/></g>
+<text x="22" y="172" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#8a7660">Each tissue is fed by the one before it. Weak digestion at the start starves everything downstream \u2014</text>
+<text x="22" y="192" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#8a7660">which is why Ayurveda treats ojas as the last thing to build and the first thing to show depletion.</text>
+</svg>
+
+<p>This model has two practical consequences, whether or not you take the tissue chain literally. First, ojas is downstream of everything. You can't supplement your way to it if digestion, sleep and nutrition are poor. Second, it takes time. The classical texts describe the full chain as taking about a month to complete. That's a traditional estimate, not a measured one, but it fits a real pattern: recovering from long-term depletion takes weeks to months, not days.</p>
+
+<h2 id="modern-map">What Ojas Maps Onto Today</h2>
+
+<p>There's no blood test for ojas, and anyone who says otherwise is selling something. But the qualities the texts attribute to it (stable immunity, steady mood, good skin, restful sleep, recovery from exertion) line up closely with what modern research calls physiological resilience. That's a system with enough reserve to absorb stress and return to baseline.</p>
+
+<table>
+<thead><tr><th>Classical description of strong ojas</th><th>Closest modern equivalent</th></tr></thead>
+<tbody>
+<tr><td>Rarely falls ill; recovers quickly</td><td>Robust immune function; good nutrient status</td></tr>
+<tr><td>Steady, content mind</td><td>A well-regulated stress response; cortisol returns to baseline after challenges</td></tr>
+<tr><td>Lustrous skin and eyes</td><td>Adequate protein, fats and micronutrients; good sleep</td></tr>
+<tr><td>Stamina and strength</td><td>Healthy muscle mass and metabolic reserve</td></tr>
+<tr><td>Sound sleep</td><td>Consolidated, restorative sleep with a stable circadian rhythm</td></tr>
+</tbody>
+</table>
+
+<p>Framed this way, the evidence for what depletes ojas is extensive. People who sleep less than six hours a night are around four times more likely to develop a cold after exposure to the virus than those sleeping seven or more. Chronic psychological stress has been shown to slow wound healing by roughly 25\u201340%. Ayurveda was describing the same pattern when it said grief, worry, overwork and poor sleep "burn" ojas.</p>
+
+<div class="stat-callout"><span class="stat-number">~4x</span><span class="stat-label">Higher likelihood of catching a cold after virus exposure in people sleeping under six hours, compared with seven or more</span></div>
+
+<h2 id="signs-of-low-ojas">Signs Your Ojas Is Running Low</h2>
+
+<p>Depletion is rarely dramatic. It shows up as a gradual loss of buffer: things you used to absorb easily now knock you over.</p>
+
+<ul>
+<li>You catch every cold going around, and each one lingers for two weeks instead of four days.</li>
+<li>Small stressors feel disproportionately big. You cry or snap at things you'd normally shrug off.</li>
+<li>Your skin looks dull or dry, and your eyes look tired even after a full night's sleep.</li>
+<li>You're tired but wired. You're exhausted but can't settle into deep sleep.</li>
+<li>Recovery from exercise takes days instead of hours.</li>
+<li>You've lost interest in things, including sex, food and people, without feeling clearly depressed.</li>
+</ul>
+
+<p>If you recognise three or more of these, and they have lasted more than a few weeks, you're probably dealing with depletion rather than a single bad week.</p>
+
+<h2 id="what-depletes-it">What Depletes Ojas Fastest</h2>
+
+<table>
+<thead><tr><th>Depleting factor</th><th>Classical explanation</th><th>Modern mechanism</th></tr></thead>
+<tbody>
+<tr><td>Chronic short sleep</td><td>Tissues aren't rebuilt at night</td><td>Impaired immune signalling; raised evening cortisol</td></tr>
+<tr><td>Prolonged stress and worry</td><td>Heat and movement "burn" ojas</td><td>Sustained cortisol dampens immune function over time</td></tr>
+<tr><td>Under-eating or crash dieting</td><td>No raw material for the tissue chain</td><td>Protein and micronutrient deficits; loss of muscle mass</td></tr>
+<tr><td>Excess alcohol</td><td>Described as directly opposite to ojas in its qualities</td><td>Disrupted sleep architecture; liver load; gut permeability</td></tr>
+<tr><td>Overtraining</td><td>Tissue broken down faster than rebuilt</td><td>Suppressed immunity in the hours and days after very hard training</td></tr>
+<tr><td>Grief and isolation</td><td>Emotional depletion of the heart</td><td>Loneliness goes with raised inflammatory markers</td></tr>
+</tbody>
+</table>
+
+<h2 id="ojas-foods">Ojas-Building Foods \u2014 and Why They Work</h2>
+
+<p>The classical ojas foods are ghee, warm milk, dates, soaked almonds, basmati rice, saffron, honey in small amounts and ripe sweet fruit. There's a clear logic behind that list. Every item is nutrient-dense, easy to digest and calming rather than stimulating. Ojas foods are meant to be easy on digestion because, in the tissue-chain model, weak digestion starves everything downstream.</p>
+
+<ul>
+<li><strong>Soaked almonds</strong> \u2014 soaking and peeling makes them easier to digest. They provide protein, vitamin E and magnesium.</li>
+<li><strong>Dates</strong> \u2014 dense in carbohydrates and minerals. Useful when appetite is low and you need calories without volume.</li>
+<li><strong>Ghee</strong> \u2014 in Ayurveda, the carrier that takes nourishment deep into the tissues. In modern terms, a fat that helps absorb fat-soluble vitamins.</li>
+<li><strong>Warm spiced milk</strong> (or a fortified plant milk) \u2014 protein, calcium and a calming evening ritual. The ritual matters too: a consistent wind-down cue helps sleep.</li>
+</ul>
+
+<p>A caveat: these foods are heavy. If you're kapha-dominant or already carrying extra weight, rebuild ojas mainly through sleep and stress reduction, and use the foods sparingly.</p>
+
+<h2 id="rebuilding-plan">An 8-Week Plan to Rebuild Ojas</h2>
+
+<p>Rebuilding happens in a set order. There's no point adding nourishing foods if you still sleep five hours a night, so each phase depends on the one before it.</p>
+
+<table>
+<thead><tr><th>Weeks</th><th>Phase</th><th>What to do</th></tr></thead>
+<tbody>
+<tr><td>1\u20132</td><td>Stop the leak</td><td>Protect 7.5\u20138 hours in bed at consistent times. Cut alcohol. Drop the hardest training session of the week.</td></tr>
+<tr><td>3\u20134</td><td>Repair digestion</td><td>Eat three warm, regular meals with no grazing. Eat the largest meal at lunch. Add ginger before meals if your appetite is weak.</td></tr>
+<tr><td>5\u20136</td><td>Nourish</td><td>Add ojas foods: 5\u20136 soaked almonds and 2 dates in the morning, and warm spiced milk in the evening. Eat enough protein at every meal.</td></tr>
+<tr><td>7\u20138</td><td>Restore buffer</td><td>Add one genuinely restorative practice a day: a walk outdoors, slow breathing, unhurried time with people you like. This is where resilience starts to show.</td></tr>
+</tbody>
+</table>
+
+<div class="stat-callout"><span class="stat-number">8 weeks</span><span class="stat-label">Realistic minimum for noticeable change in resilience after a long period of depletion \u2014 full recovery often takes longer</span></div>
+
+<p>You'll probably notice sleep improving first, within the first two weeks. Emotional steadiness follows, then fewer colds, and changes to skin and energy come last. That order isn't mystical. The fastest-turnover systems respond first.</p>
+
+<p>If you're recovering from illness, pregnant or breastfeeding, or managing a diagnosed immune or metabolic condition, talk to your clinician before making significant changes to your diet or supplements.</p>`,
+  },
   { slug: "ama-accumulation-prevention", category: "Digestion", title: "Ama: Undigested Toxins and How to Prevent Accumulation", date: "March 20, 2026", excerpt: "Ama is the undigested residue that accumulates when agni is weak. Here is how to prevent it and clear it if it has already accumulated.", seoTitle: "Ama: Undigested Toxins and How to Prevent Accumulation", seoDescription: "Ama is the undigested residue that accumulates when agni is weak. Here is how to prevent it and clear it if it has already accumulated.", content: "<p>In Ayurvedic medicine, weak digestion creates a toxic residue called ama. Almost all disease in Ayurvedic understanding involves ama accumulation.</p>" },
   { slug: "food-combining-principles", category: "Digestion", title: "Food Combining: The Ayurvedic Principles of Compatible Foods", date: "March 19, 2026", excerpt: "Certain food combinations create digestive stress while others support clean digestion. Here is the complete guide to compatible food combinations.", seoTitle: "Food Combining: The Ayurvedic Principles of Compatible Foods", seoDescription: "Certain food combinations create digestive stress while others support clean digestion. Here is the complete guide to compatible food combinations.", content: "<p>Ayurvedic food combining is based on digestive compatibility. Some foods combine easily while others create digestive stress regardless of the quality of the individual foods.</p><div style=\"background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;\"><div style=\"font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;\">Ayurvedic food combining is not about nutrients. It is about the digestive environment each food creates \u2014 and whether that environment is compatible with what it is combined with.</div><div style=\"color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;\">Two perfectly healthy foods can become difficult to digest when combined. The issue is not the food \u2014 it is the chemistry of combination.</div></div><h2>Understanding Food Combinations</h2><p>Every food has specific properties. Some foods digest quickly, others slowly. Some require acidic conditions, others alkaline. Some create heat, others cooling. When two foods with incompatible digestive requirements are eaten together, the digestive system becomes confused. The fire (agni) that should transform one type of food cannot effectively transform both. The result is incomplete digestion and ama accumulation.</p><p>The classic example is milk with fruit. Milk is cooling and creamy. Sour fruit is heating and acidic. When combined, the acid curdles the milk in the stomach, creating a thick, difficult-to-digest mass. Neither the milk nor the fruit digests properly. The result is gas, bloating, and ama production. Yet each food alone is simple to digest. The problem is entirely the combination.</p><h2>The Primary Incompatible Combinations</h2><p>Milk with sour fruit is the most problematic. Milk with fish is equally incompatible \u2014 fish is heating and protein-dense, milk is cooling and fat-dense. The heating and cooling properties directly conflict. Honey should never be cooked or heated \u2014 high heat changes its molecular structure, creating substances Ayurveda considers toxic. Raw honey added to warm food is fine. Heated honey is problematic.</p><p>Cold drinks with meals should be avoided because they extinguish agni at the moment digestion needs to be strongest. Room-temperature or warm water is ideal. Heavy meals taken late in the evening tax the digestive system when it is naturally declining. The combination of heavy food plus weak evening agni produces ama.</p><div style=\"border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;\"><div style=\"display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;\"><div style=\"font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;\">Combination</div><div style=\"font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;\">Compatibility</div><div style=\"font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;\">Why</div><div style=\"font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;\">Instead</div></div><div style=\"display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;\"><div style=\"font-size:13px;font-weight:700;color:#2a1f14;\">Milk + fruit</div><div style=\"font-size:13px;color:#c0392b;font-weight:700;\">\u2717 Avoid</div><div style=\"font-size:13px;color:#4a3728;\">Sour fruit curdles milk in the stomach, producing ama</div><div style=\"font-size:13px;color:#4a3728;\">Milk alone or fruit alone, separated by an hour</div></div><div style=\"display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;\"><div style=\"font-size:13px;font-weight:700;color:#2a1f14;\">Fish + dairy</div><div style=\"font-size:13px;color:#c0392b;font-weight:700;\">\u2717 Avoid</div><div style=\"font-size:13px;color:#4a3728;\">Opposite properties \u2014 heating fish with cooling dairy creates digestive incompatibility</div><div style=\"font-size:13px;color:#4a3728;\">Ghee with fish is fine; cream sauces are not</div></div><div style=\"display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;\"><div style=\"font-size:13px;font-weight:700;color:#2a1f14;\">Honey + hot food</div><div style=\"font-size:13px;color:#c0392b;font-weight:700;\">\u2717 Avoid</div><div style=\"font-size:13px;color:#4a3728;\">Heating honey creates molecules Ayurveda considers toxic. Never cook honey.</div><div style=\"font-size:13px;color:#4a3728;\">Add honey after food cools to warm (not hot)</div></div><div style=\"display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;\"><div style=\"font-size:13px;font-weight:700;color:#2a1f14;\">Grains + protein</div><div style=\"font-size:13px;color:#2d5a47;font-weight:700;\">\u2713 Good</div><div style=\"font-size:13px;color:#4a3728;\">Complementary digestion rates; classic dhal and rice works for this reason</div><div style=\"font-size:13px;color:#4a3728;\">\u2014</div></div><div style=\"display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;\"><div style=\"font-size:13px;font-weight:700;color:#2a1f14;\">Cold drinks with meals</div><div style=\"font-size:13px;color:#c0392b;font-weight:700;\">\u2717 Always</div><div style=\"font-size:13px;color:#4a3728;\">Extinguishes agni \u2014 the digestive fire \u2014 at the moment it needs to be strongest</div><div style=\"font-size:13px;color:#4a3728;\">Room temp or warm water only with food</div></div></div></div><h2>Compatible Combinations</h2><p>Grains with legumes (like rice and dhal) work well because they have complementary digestion rates and create a complete protein. Cooked vegetables with grains support digestion. Ghee added to meals improves digestibility across combinations. The key principle is matching digestion times and digestive properties.</p><h2>The Practical Application</h2><p>Food combining does not require elaborate planning. The fundamental rule is simple: eat single foods when you can, and when you combine foods, do so with attention to their basic properties. Avoid the known problematic combinations. Allow space between meals so one meal fully digests before the next begins. This alone will transform digestion and reduce ama accumulation more effectively than any supplement.</p>" },
   { slug: "herbal-cooking-spices", category: "Digestion", title: "Herbal Cooking: Using Spices as Medicine in Your Kitchen", date: "March 18, 2026", excerpt: "Cooking spices are medicine. Here is how to use them intentionally to support digestion and health.", seoTitle: "Herbal Cooking: Using Spices as Medicine in Your Kitchen", seoDescription: "Cooking spices are medicine. Here is how to use them intentionally to support digestion and health.", content: "<p>Every cooking spice has significant medicinal properties. When used intentionally, they transform the nutritional and therapeutic value of meals.</p>" },
