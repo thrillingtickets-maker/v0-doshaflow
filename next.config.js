@@ -84,6 +84,16 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/blog/triphala-complete-guide',
+        destination: '/blog/triphala-benefits',
+        permanent: true,
+      },
+      {
+        source: '/blog/high-cortisol-symptoms',
+        destination: '/blog/signs-of-high-cortisol',
+        permanent: true,
+      },
+      {
         source: '/blog/why-do-i-wake-up-at-3am',
         destination: '/blog/why-you-wake-up-at-3am',
         permanent: true,

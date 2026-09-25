@@ -45,7 +45,7 @@ export const collections: GuideCollection[] = [
     description: "Calm an overstimulated nervous system and recover from chronic stress and burnout.",
     links: [
       { title: "How to Calm Your Nervous System", href: "/blog/how-to-calm-your-nervous-system" },
-      { title: "High Cortisol Symptoms", href: "/blog/high-cortisol-symptoms" },
+      { title: "Signs of High Cortisol", href: "/blog/signs-of-high-cortisol" },
       { title: "Nervous System Regulation", href: "/blog/nervous-system-regulation-ayurveda" },
       { title: "Healing After Chronic Stress", href: "/blog/healing-after-chronic-stress" },
       { title: "Best Herbs for Anxiety", href: "/blog/best-herbs-for-anxiety" },

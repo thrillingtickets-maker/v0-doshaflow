@@ -56,7 +56,6 @@ export const highlightMap: Record<string, string> = {
   "best-ayurvedic-tea-anxiety": "Anxiety",
   "best-morning-routine-for-energy": "Energy",
   "brain-fog-causes": "Fog",
-  "high-cortisol-symptoms": "Cortisol",
   "how-to-calm-your-nervous-system": "Calm",
   "why-you-feel-tired-all-the-time": "Tired",
   "best-ayurvedic-tea-digestion": "Tea",
