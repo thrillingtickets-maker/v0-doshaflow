@@ -13,6 +13,7 @@ export const metadata = {
     type: "website",
     url: "https://www.doshaflow.com/journal",
   },
+  alternates: { canonical: "https://www.doshaflow.com/journal" },
 }
 
 export default function JournalPage() {

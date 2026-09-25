@@ -4,6 +4,7 @@ import { Footer } from '@/components/footer'
 export const metadata = {
   title: 'Contact DoshaFlow',
   description: 'Get in touch with DoshaFlow. Questions about Ayurveda, the dosha system, or DoshaFlow?',
+  alternates: { canonical: "https://www.doshaflow.com/contact" },
 }
 
 export default function ContactPage() {

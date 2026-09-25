@@ -5,6 +5,7 @@ import { Footer } from "@/components/footer"
 export const metadata: Metadata = {
   title: "Privacy Policy — DoshaFlow",
   description: "Privacy policy for DoshaFlow. Learn how we collect, use, and protect your data.",
+  alternates: { canonical: "https://www.doshaflow.com/privacy" },
 }
 
 export default function PrivacyPage() {

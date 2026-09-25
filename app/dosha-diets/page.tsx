@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://www.doshaflow.com/dosha-diets",
   },
+  alternates: { canonical: "https://www.doshaflow.com/dosha-diets" },
 }
 
 export const dynamic = 'force-dynamic'

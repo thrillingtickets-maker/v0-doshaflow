@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://www.doshaflow.com/transparency",
   },
+  alternates: { canonical: "https://www.doshaflow.com/transparency" },
 }
 
 const sections = [
