@@ -131,7 +131,6 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
     { title: "Sleep Recovery Protocols", href: "/blog/ayurveda-for-insomnia" },
     { title: "Kapha Imbalance and Lethargy", href: "/kapha" },
     { title: "Burnout vs Depression", href: "/blog/nervous-system-burnout" },
-    { title: "Chronic Exhaustion", href: "/blog/ayurveda-burnout" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
   
@@ -228,7 +227,7 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
   ],
   "why-building": [
     { title: "Honest Beginner's Guide", href: "/blog/ayurveda-beginners-guide" },
-    { title: "Chronic Pain Changed My Perspective", href: "/blog/ayurveda-burnout" },
+    { title: "Signs of Nervous System Burnout \u2014 And the Ayurvedic Path Back", href: "/blog/nervous-system-burnout" },
     { title: "Retreat Journal", href: "/journal" },
     { title: "Ayurveda for Men", href: "/blog/ayurveda-for-men" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
