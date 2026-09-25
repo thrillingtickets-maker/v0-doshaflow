@@ -1,6 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: /_next/
-Disallow: /*?dpl=
-
 Sitemap: https://www.doshaflow.com/sitemap.xml
