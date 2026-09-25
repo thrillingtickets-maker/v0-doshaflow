@@ -5,6 +5,7 @@ import { Footer } from "@/components/footer"
 export const metadata: Metadata = {
   title: "Terms of Use — DoshaFlow",
   description: "Terms of use for DoshaFlow. Learn about our educational disclaimers and user terms.",
+  alternates: { canonical: "https://www.doshaflow.com/terms" },
 }
 
 export default function TermsPage() {

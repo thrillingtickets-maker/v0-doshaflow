@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://www.doshaflow.com/samples",
   },
+  alternates: { canonical: "https://www.doshaflow.com/samples" },
 }
 
 export default function SamplesLayout({
