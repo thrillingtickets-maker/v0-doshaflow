@@ -128,6 +128,21 @@ const nextConfig = {
         destination: '/blog/ayurveda-hormones-symptoms',
         permanent: true,
       },
+      {
+        source: '/blog/ayurveda-burnout',
+        destination: '/blog/nervous-system-burnout',
+        permanent: true,
+      },
+      {
+        source: '/blog/ayurveda-nervous-system-burnout',
+        destination: '/blog/nervous-system-burnout',
+        permanent: true,
+      },
+      {
+        source: '/blog/nervous-system-healing',
+        destination: '/blog/nervous-system-regulation-ayurveda',
+        permanent: true,
+      },
     ]
   },
 }

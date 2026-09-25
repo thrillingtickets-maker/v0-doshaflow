@@ -49,7 +49,7 @@ export const collections: GuideCollection[] = [
       { title: "Nervous System Regulation", href: "/blog/nervous-system-regulation-ayurveda" },
       { title: "Healing After Chronic Stress", href: "/blog/healing-after-chronic-stress" },
       { title: "Best Herbs for Anxiety", href: "/blog/best-herbs-for-anxiety" },
-      { title: "The Burnout Guide", href: "/blog/ayurveda-burnout" },
+      { title: "The Burnout Guide", href: "/blog/nervous-system-burnout" },
       { title: "How to Take Ashwagandha", href: "/blog/how-to-take-ashwagandha" },
     ],
   },
