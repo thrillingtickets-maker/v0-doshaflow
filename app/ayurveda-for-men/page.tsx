@@ -408,12 +408,12 @@ export default function AyurvedaForMenPage() {
 
             <div className="space-y-3">
               <p className="text-muted-foreground">
-                <Link href="/blog/mens-sexual-vitality" className="text-[#C97F3D] hover:underline">
+                <Link href="/blog/ayurveda-for-libido" className="text-[#C97F3D] hover:underline">
                   Men's Sexual Vitality: Supporting Shukra Tissue and Reproductive Health
                 </Link>
               </p>
               <p className="text-muted-foreground">
-                <Link href="/blog/stress-response-system" className="text-[#C97F3D] hover:underline">
+                <Link href="/blog/how-to-calm-your-nervous-system" className="text-[#C97F3D] hover:underline">
                   Your Stress Response System: Why Some People Recover Faster
                 </Link>
               </p>

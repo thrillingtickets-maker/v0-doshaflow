@@ -3,29 +3,34 @@ import { getAllPosts } from "@/lib/posts"
 import { CATEGORIES, categoryToSlug } from "@/lib/categories"
 
 export async function GET() {
-  const today = new Date().toISOString().split("T")[0]
+  const toIsoDate = (date: string) => {
+    const parsed = new Date(date)
+    return Number.isNaN(parsed.getTime()) ? undefined : parsed.toISOString().split("T")[0]
+  }
 
-  // Static pages with priorities for SEO
-  const staticPages = [
-    { loc: "https://www.doshaflow.com", lastmod: today, priority: "1.0" },
-    { loc: "https://www.doshaflow.com/quiz", lastmod: today, priority: "0.9" },
-    { loc: "https://www.doshaflow.com/about", lastmod: today, priority: "0.8" },
-    { loc: "https://www.doshaflow.com/blog", lastmod: today, priority: "0.8" },
-    { loc: "https://www.doshaflow.com/guides", lastmod: today, priority: "0.9" },
-    { loc: "https://www.doshaflow.com/journal", lastmod: today, priority: "0.9" },
-    { loc: "https://www.doshaflow.com/samples", lastmod: today, priority: "0.7" },
-    { loc: "https://www.doshaflow.com/vata", lastmod: today, priority: "0.8" },
-    { loc: "https://www.doshaflow.com/pitta", lastmod: today, priority: "0.8" },
-    { loc: "https://www.doshaflow.com/kapha", lastmod: today, priority: "0.8" },
-    { loc: "https://www.doshaflow.com/dosha-diets", lastmod: today, priority: "0.8" },
-    { loc: "https://www.doshaflow.com/ayurveda-for-men", lastmod: today, priority: "0.9" },
-    { loc: "https://www.doshaflow.com/ayurveda-for-women", lastmod: today, priority: "0.9" },
-    { loc: "https://www.doshaflow.com/start-here", lastmod: today, priority: "0.8" },
-    { loc: "https://www.doshaflow.com/faq", lastmod: today, priority: "0.6" },
-    { loc: "https://www.doshaflow.com/founder", lastmod: today, priority: "0.6" },
-    { loc: "https://www.doshaflow.com/contact", lastmod: today, priority: "0.5" },
-    { loc: "https://www.doshaflow.com/privacy", lastmod: today, priority: "0.3" },
-    { loc: "https://www.doshaflow.com/terms", lastmod: today, priority: "0.3" },
+  // Static pages with priorities for SEO. No lastmod: these have no reliable
+  // modification date, and a fake "today" value teaches crawlers to ignore it.
+  const staticPages: { loc: string; lastmod?: string; priority: string }[] = [
+    { loc: "https://www.doshaflow.com", priority: "1.0" },
+    { loc: "https://www.doshaflow.com/quiz", priority: "0.9" },
+    { loc: "https://www.doshaflow.com/about", priority: "0.8" },
+    { loc: "https://www.doshaflow.com/blog", priority: "0.8" },
+    { loc: "https://www.doshaflow.com/guides", priority: "0.9" },
+    { loc: "https://www.doshaflow.com/journal", priority: "0.9" },
+    { loc: "https://www.doshaflow.com/samples", priority: "0.7" },
+    { loc: "https://www.doshaflow.com/vata", priority: "0.8" },
+    { loc: "https://www.doshaflow.com/pitta", priority: "0.8" },
+    { loc: "https://www.doshaflow.com/kapha", priority: "0.8" },
+    { loc: "https://www.doshaflow.com/dosha-diets", priority: "0.8" },
+    { loc: "https://www.doshaflow.com/ayurveda-for-men", priority: "0.9" },
+    { loc: "https://www.doshaflow.com/ayurveda-for-women", priority: "0.9" },
+    { loc: "https://www.doshaflow.com/start-here", priority: "0.8" },
+    { loc: "https://www.doshaflow.com/faq", priority: "0.6" },
+    { loc: "https://www.doshaflow.com/founder", priority: "0.6" },
+    { loc: "https://www.doshaflow.com/transparency", priority: "0.6" },
+    { loc: "https://www.doshaflow.com/contact", priority: "0.5" },
+    { loc: "https://www.doshaflow.com/privacy", priority: "0.3" },
+    { loc: "https://www.doshaflow.com/terms", priority: "0.3" },
   ]
 
   // Dynamic blog articles from posts.ts - filter duplicates by slug
@@ -41,16 +46,24 @@ export async function GET() {
 
   const blogArticles = uniquePosts.map(post => ({
     loc: `https://www.doshaflow.com/blog/${post.slug}`,
-    lastmod: post.date ? new Date(post.date).toISOString().split("T")[0] : today,
+    lastmod: post.date ? toIsoDate(post.date) : undefined,
     priority: post.category === "Retreat Journal" ? "0.7" : "0.8",
   }))
 
-  // Blog category landing pages
-  const categoryPages = CATEGORIES.map((category) => ({
-    loc: `https://www.doshaflow.com/blog/category/${categoryToSlug(category)}`,
-    lastmod: today,
-    priority: "0.7",
-  }))
+  // Blog category landing pages: lastmod is the newest post in the category.
+  const categoryPages = CATEGORIES.map((category) => {
+    const newest = uniquePosts
+      .filter((post) => post.category === category)
+      .map((post) => toIsoDate(post.date))
+      .filter((date): date is string => Boolean(date))
+      .sort()
+      .at(-1)
+    return {
+      loc: `https://www.doshaflow.com/blog/category/${categoryToSlug(category)}`,
+      lastmod: newest,
+      priority: "0.7",
+    }
+  })
 
   // Combine all URLs
   const allUrls = [...staticPages, ...categoryPages, ...blogArticles]
@@ -58,8 +71,7 @@ export async function GET() {
   const urlEntries = allUrls
     .map(
       (entry) => `  <url>
-    <loc>${entry.loc}</loc>
-    <lastmod>${entry.lastmod}</lastmod>
+    <loc>${entry.loc}</loc>${entry.lastmod ? `\n    <lastmod>${entry.lastmod}</lastmod>` : ""}
     <priority>${entry.priority}</priority>
   </url>`,
     )

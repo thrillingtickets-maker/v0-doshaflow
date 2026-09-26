@@ -150,7 +150,7 @@ export default function DoshaDietsPage() {
               <div className="flex items-start gap-4 pb-4 border-b border-[#E0D5C5]">
                 <div className="flex-1">
                   <h3 className="font-medium text-foreground mb-2">
-                    <Link href="/blog/digestive-agni-fire" className="text-[#C97F3D] hover:underline">
+                    <Link href="/blog/how-to-improve-digestion-naturally" className="text-[#C97F3D] hover:underline">
                       Digestive Agni: The Core Principle of Ayurvedic Nutrition
                     </Link>
                   </h3>
