@@ -31,7 +31,6 @@ export const highlightMap: Record<string, string> = {
   "ashwagandha-benefits": "Ashwagandha",
   "ayurveda-30-days": "Ayurveda",
   "ayurveda-aging": "Aging",
-  "ayurveda-alcohol": "Alcohol",
   "ayurveda-alcohol-recovery": "Recovery",
   "ayurveda-beginners-guide": "Ayurveda",
   "ayurveda-coffee": "Coffee",
