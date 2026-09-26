@@ -221,7 +221,7 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
   "honest-beginners-guide": [
     { title: "Why I'm Building DoshaFlow", href: "/blog/why-im-building-doshaflow" },
     { title: "Is Ayurveda Safe?", href: "/transparency" },
-    { title: "Ayurveda for Men", href: "/blog/ayurveda-for-men" },
+    { title: "Ayurveda for Men: A Practical Guide to Doshas, Burnout, Sleep & Recovery", href: "/ayurveda-for-men" },
     { title: "Retreat Journal", href: "/journal" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
@@ -229,7 +229,7 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
     { title: "Honest Beginner's Guide", href: "/blog/ayurveda-beginners-guide" },
     { title: "Signs of Nervous System Burnout \u2014 And the Ayurvedic Path Back", href: "/blog/nervous-system-burnout" },
     { title: "Retreat Journal", href: "/journal" },
-    { title: "Ayurveda for Men", href: "/blog/ayurveda-for-men" },
+    { title: "Ayurveda for Men: A Practical Guide to Doshas, Burnout, Sleep & Recovery", href: "/ayurveda-for-men" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
   "is-ayurveda-safe": [

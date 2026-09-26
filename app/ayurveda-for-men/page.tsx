@@ -408,13 +408,13 @@ export default function AyurvedaForMenPage() {
 
             <div className="space-y-3">
               <p className="text-muted-foreground">
-                <Link href="/blog/mens-sexual-vitality" className="text-[#C97F3D] hover:underline">
-                  Men's Sexual Vitality: Supporting Shukra Tissue and Reproductive Health
+                <Link href="/blog/ayurveda-for-libido" className="text-[#C97F3D] hover:underline">
+                  Ayurveda and Libido: Understanding Shukra Dhatu and the Path to Sexual Vitality
                 </Link>
               </p>
               <p className="text-muted-foreground">
-                <Link href="/blog/stress-response-system" className="text-[#C97F3D] hover:underline">
-                  Your Stress Response System: Why Some People Recover Faster
+                <Link href="/blog/how-to-calm-your-nervous-system" className="text-[#C97F3D] hover:underline">
+                  How to Calm Your Nervous System Naturally: An Ayurvedic Guide
                 </Link>
               </p>
               <p className="text-muted-foreground">
