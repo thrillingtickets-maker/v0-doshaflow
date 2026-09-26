@@ -292,17 +292,12 @@ export default function AyurvedaForWomenPage() {
               </p>
               <p className="text-muted-foreground">
                 <Link href="/blog/ayurveda-pms" className="text-[#C97F3D] hover:underline">
-                  Supporting Your Female Cycle: Period Health and Cycle Awareness
-                </Link>
-              </p>
-              <p className="text-muted-foreground">
-                <Link href="/ayurveda-for-women" className="text-[#C97F3D] hover:underline">
-                  Birth Recovery and Postpartum: The Fourth Trimester in Ayurveda
+                  Natural PMS Relief: The Ayurvedic Approach by Dosha Type
                 </Link>
               </p>
               <p className="text-muted-foreground">
                 <Link href="/blog/ayurveda-for-menopause" className="text-[#C97F3D] hover:underline">
-                  Menopause Transition: Managing the Shift From Reproductive to Postmenopausal Years
+                  Ayurveda and Menopause: Navigating the Vata Shift with Nourishment and Wisdom
                 </Link>
               </p>
             </div>

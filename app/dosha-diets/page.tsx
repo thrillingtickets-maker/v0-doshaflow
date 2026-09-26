@@ -151,11 +151,11 @@ export default function DoshaDietsPage() {
                 <div className="flex-1">
                   <h3 className="font-medium text-foreground mb-2">
                     <Link href="/blog/how-to-improve-digestion-naturally" className="text-[#C97F3D] hover:underline">
-                      Digestive Agni: The Core Principle of Ayurvedic Nutrition
+                      How to Improve Digestion Naturally: The Ayurvedic Guide
                     </Link>
                   </h3>
                   <p className="text-sm text-muted-foreground">
-                    Understand how to assess and strengthen your digestive fire for better nutrient absorption.
+                    Digestion is the foundation of all health in Ayurveda. Here is the complete protocol for restoring and maintaining strong agni across your lifespan.
                   </p>
                 </div>
               </div>
