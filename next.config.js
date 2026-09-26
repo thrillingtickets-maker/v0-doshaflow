@@ -54,6 +54,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/blog/ayurveda-alcohol',
+        destination: '/blog/alcohol-ayurveda',
+        permanent: true,
+      },
+      {
         source: '/for-men',
         destination: '/ayurveda-for-men',
         permanent: true,
