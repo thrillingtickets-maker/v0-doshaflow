@@ -50,12 +50,12 @@ const nextConfig = {
       },
       {
         source: '/blog/alcohol-and-ayurveda',
-        destination: '/blog/alcohol-ayurveda',
+        destination: '/blog/ayurveda-alcohol',
         permanent: true,
       },
       {
-        source: '/blog/ayurveda-alcohol',
-        destination: '/blog/alcohol-ayurveda',
+        source: '/blog/alcohol-ayurveda',
+        destination: '/blog/ayurveda-alcohol',
         permanent: true,
       },
       {
@@ -105,7 +105,7 @@ const nextConfig = {
       },
       {
         source: '/blog/alcohol-and-sleep',
-        destination: '/blog/alcohol-ayurveda',
+        destination: '/blog/ayurveda-alcohol',
         permanent: true,
       },
       {
