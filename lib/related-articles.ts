@@ -131,6 +131,7 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
     { title: "Sleep Recovery Protocols", href: "/blog/ayurveda-for-insomnia" },
     { title: "Kapha Imbalance and Lethargy", href: "/kapha" },
     { title: "Burnout vs Depression", href: "/blog/nervous-system-burnout" },
+    { title: "Aging Gracefully: The Ayurvedic Approach to Longevity", href: "/blog/aging-gracefully" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
   
@@ -139,6 +140,8 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
     { title: "Why Am I Always Bloated", href: "/blog/why-am-i-always-bloated" },
     { title: "Ice Water and Digestion", href: "/blog/ayurveda-ice-water" },
     { title: "Best Herbs for Digestion", href: "/blog/best-ayurvedic-tea-digestion" },
+    { title: "Tongue Scraping Benefits", href: "/blog/tongue-scraping-benefits" },
+    { title: "Oil Pulling Benefits", href: "/blog/oil-pulling-benefits" },
     { title: "Pitta Dosha Guide", href: "/pitta" },
     { title: "Discover Your Dosha", href: "/quiz" },
   ],
@@ -146,6 +149,7 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
     { title: "Digestion and Vata", href: "/blog/ayurveda-for-ibs" },
     { title: "Ice Water Destroys Digestion", href: "/blog/ayurveda-ice-water" },
     { title: "Tea for Digestive Health", href: "/blog/best-ayurvedic-tea-digestion" },
+    { title: "Dosha Diet Plans", href: "/dosha-diets" },
     { title: "Kapha Dosha Guide", href: "/kapha" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
@@ -156,6 +160,7 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
     { title: "Burnout and Nervous System", href: "/blog/nervous-system-burnout" },
     { title: "Honest Beginner's Guide to Ayurveda", href: "/blog/ayurveda-beginners-guide" },
     { title: "Retreat Journal: Sobriety", href: "/blog/retreat-day-11" },
+    { title: "Ayurveda and Liver Health", href: "/blog/ayurveda-liver-health" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
   
@@ -165,6 +170,7 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
     { title: "Stress and Digestion", href: "/blog/ayurveda-for-stress" },
     { title: "Best Herbs for Anxiety", href: "/blog/best-herbs-for-anxiety" },
     { title: "Vata, Pitta, Kapha Guides", href: "/start-here" },
+    { title: "Why Cold Water Causes Bloating", href: "/blog/ayurveda-ice-water" },
     { title: "Discover Your Dosha", href: "/quiz" },
   ],
   
@@ -182,6 +188,7 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
     { title: "Kapha Dosha Guide", href: "/kapha" },
     { title: "Anxiety and Vata", href: "/blog/vata-anxiety-guide" },
     { title: "Sleep for Vata Types", href: "/blog/best-ayurvedic-tea-sleep" },
+    { title: "Doshas and Relationships", href: "/blog/doshas-and-relationships" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
   "pitta": [
@@ -196,6 +203,7 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
     { title: "Pitta Dosha Guide", href: "/pitta" },
     { title: "Weight Loss and Kapha", href: "/blog/kapha-weight-loss-guide" },
     { title: "Movement for Kapha", href: "/blog/ayurveda-exercise" },
+    { title: "Dosha Diet Plans", href: "/dosha-diets" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
   
@@ -204,6 +212,8 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
     { title: "Sleep and Recovery", href: "/blog/ayurveda-for-insomnia" },
     { title: "Stress Causes Pain", href: "/blog/ayurveda-for-stress" },
     { title: "Nervous System and Chronic Pain", href: "/blog/ayurveda-for-anxiety" },
+    { title: "Arthritis in Ayurveda", href: "/blog/ayurveda-for-arthritis" },
+    { title: "Ayurveda and Athletic Performance", href: "/blog/ayurveda-for-athletes" },
     { title: "Retreat Experience", href: "/journal" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],

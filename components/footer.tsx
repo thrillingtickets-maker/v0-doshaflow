@@ -61,6 +61,7 @@ export function Footer() {
           <div>
             <h4 className="font-medium text-foreground mb-4">Company</h4>
             <ul className="space-y-3">
+              <li><a href="/about" className="text-muted-foreground hover:text-foreground transition-colors text-sm">About DoshaFlow</a></li>
               <li><a href="/transparency" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Transparency</a></li>
               <li><a href="/faq" className="text-muted-foreground hover:text-foreground transition-colors text-sm">FAQ</a></li>
               <li><a href="/founder" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Meet the Founder</a></li>
