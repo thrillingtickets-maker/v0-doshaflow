@@ -16,9 +16,9 @@ export function Founder() {
           <span className="inline-block px-4 py-2 mb-6 text-sm font-medium tracking-wide uppercase bg-secondary text-secondary-foreground rounded-full">
             Meet the Founder
           </span>
-          <h2 className="font-serif text-4xl md:text-5xl font-medium text-foreground mb-6 text-balance">
+          <h1 className="font-serif text-4xl md:text-5xl font-medium text-foreground mb-6 text-balance">
             Built by someone who needed it first
-          </h2>
+          </h1>
         </motion.div>
 
         <motion.div
