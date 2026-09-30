@@ -259,6 +259,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/blog/ayurveda-gut-health',
+        destination: '/blog/ayurvedic-gut-health',
+        permanent: true,
+      },
+      {
         source: '/blog/gut-microbiome-ayurveda',
         destination: '/blog/ayurvedic-gut-health',
         permanent: true,
