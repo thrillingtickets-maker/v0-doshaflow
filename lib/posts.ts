@@ -2544,10 +2544,69 @@ export const posts: Post[] = [
     category: "Doshas",
     title: "Kapha Foods to Avoid: Why You Feel Heavy, Tired, and Stuck",
     date: "May 18, 2026",
-    excerpt: "The complete list of foods that aggravate Kapha dosha \u2014 dairy, wheat, sweets, cold food, and large portions. Why each one makes Kapha fatigue and weight gain worse.",
-    seoTitle: "Kapha Foods to Avoid: Why You Feel Heavy, Tired, and Stuck",
-    seoDescription: "The complete list of foods that aggravate Kapha dosha \u2014 dairy, wheat, sweets, cold food, and large portions. Why each one makes Kapha fatigue and weight gain",
-    content: `<p>Kapha dosha becomes imbalanced when fed heavy, cold, oily, and sweet foods. These foods increase the qualities that are already dominant in Kapha \u2014 heaviness, lethargy, sluggishness, and weight gain. The solution is to eat the opposite qualities: light, warm, stimulating, and dry.</p><h2>Dairy to Avoid</h2><p>Dairy is heavy, cold, and congesting. It increases Kapha mucus and sluggishness. If you consume dairy, use warm milk with spices like ginger and black pepper to make it less congesting. Better alternatives include herbal teas and warm broths.</p><h2>Wheat to Limit</h2><p>Wheat is heavy and mucus-forming. For Kapha types struggling with weight and congestion, barley and quinoa are lighter alternatives that don't create the same sluggishness.</p><h2>Sweets and Cold Foods</h2><p>Sugar increases Kapha directly. Cold foods slow digestion and reduce the metabolic fire. Room temperature or warm foods eaten in smaller portions, with warming spices like cayenne and ginger, support Kapha balance and steady weight.</p>`,
+    excerpt: "If you wake up groggy, crash after lunch and feel congested and slow, your plate may be adding weight you don\u2019t need. Here are the Kapha foods to avoid, why they aggravate Kapha, and the lighter swaps that help.",
+    seoTitle: "Kapha Foods to Avoid: What Makes You Heavy | DoshaFlow",
+    seoDescription: "Which foods aggravate Kapha dosha and why \u2014 heavy, cold, sweet and oily \u2014 plus lighter swaps that ease sluggishness, congestion and afternoon slumps.",
+    content: `
+<p>Kapha foods to avoid are the ones that share Kapha\u2019s qualities: heavy, cold, oily, sweet and slow. If you wake up groggy, crash after lunch, carry stubborn weight, deal with congestion or feel emotionally stuck, the food on your plate may be adding exactly the qualities you already have too much of.</p>
+<p>Kapha is the dosha of structure and stability \u2014 earth and water. In balance it gives stamina, calm and steady energy. Out of balance it becomes heaviness, lethargy, mucus and inertia. The goal isn\u2019t to starve Kapha; it\u2019s to stop piling on more weight, cold and sweetness than your body can move.</p>
+
+<h2 id="why-these-foods-aggravate-kapha">Why these foods aggravate Kapha</h2>
+<p>Ayurveda\u2019s rule is that like increases like. Kapha is heavy, cold, moist and slow, so foods with those qualities build it, and foods that are light, warm, dry and stimulating reduce it.</p>
+<p>In modern terms, a Kapha imbalance often looks like a slow metabolism day to day: big energy dips after meals, a tendency to gain weight easily, sluggish mornings, and a lot of mucus. The foods below tend to be calorie-dense, easy to overeat, quick to spike and drop blood sugar, or simply too heavy for a slow digestion to handle.</p>
+<div class="stat-callout"><span class="stat-number">2\u20133 weeks</span><span class="stat-label">Typical time before people notice lighter mornings after cutting Kapha-heavy foods</span></div>
+
+<h2 id="dairy">1. Heavy dairy: cheese, ice cream, yogurt, cold milk</h2>
+<p>Dairy is the classic Kapha food: heavy, cold, sweet and moist. Ayurveda links it to mucus and congestion. The research on dairy and mucus is mixed \u2014 milk doesn\u2019t appear to increase mucus production in most people, but many report that it thickens the feeling of phlegm in the throat.</p>
+<p>What\u2019s less debatable is density. Cheese and ice cream pack a lot of calories into small portions, and yogurt eaten cold at night is one of Ayurveda\u2019s specific warnings. If you keep dairy, favour small amounts of warm milk boiled with ginger, black pepper or turmeric, and choose lighter options like buttermilk or goat\u2019s milk.</p>
+
+<h2 id="wheat-and-refined-flour">2. Wheat, white bread and refined flour</h2>
+<p>Bread, pasta, pastries and baked goods are heavy and dense, and refined versions digest quickly into sugar. That combination \u2014 a big load followed by a blood-sugar drop \u2014 is a recipe for the post-lunch slump Kapha types know well.</p>
+<p>Lighter grains suit Kapha much better: barley, millet, buckwheat, quinoa and rye. They\u2019re drier and less dense, and whole-grain versions release energy more slowly.</p>
+
+<h2 id="sugar-and-sweets">3. Added sugar and sweet drinks</h2>
+<p>Sweet is Kapha\u2019s own taste, so sugar aggravates it directly. It\u2019s also the easiest way to overshoot calories without feeling full. Sweet drinks \u2014 juice, soda, sweetened coffees \u2014 are the worst offenders because liquid sugar hardly registers as food.</p>
+<p>If you want sweetness, Ayurveda\u2019s traditional exception for Kapha is a small amount of raw honey, which it considers drying and scraping. Keep it small, and never cook or heat honey in Ayurvedic practice.</p>
+
+<h2 id="fried-and-oily-foods">4. Fried and very oily foods</h2>
+<p>Fries, fried snacks, creamy sauces and heavy pastries add oiliness and heaviness to a dosha that already has plenty. They also slow stomach emptying, which is why a greasy lunch can leave you sluggish all afternoon. Use oil lightly \u2014 a little mustard or sunflower oil for cooking \u2014 and choose grilled, roasted, steamed or dry-saut\u00e9ed.</p>
+
+<h2 id="cold-foods">5. Cold and frozen foods</h2>
+<p>Iced drinks, smoothies and cold desserts add cold to a cold dosha. As with Vata, the hard evidence here is thin, but the pattern people report is consistent: warm food and warming spices make Kapha feel lighter and more awake. Ginger tea with a meal is a simple test.</p>
+
+<h2 id="heavy-fruits-and-nuts">6. Heavy, dense fruits, nuts and salt</h2>
+<p>Bananas, avocados, dates, coconut and large handfuls of nuts are nourishing, but dense. For Kapha, they\u2019re condiments rather than main events. Excess salt is also Kapha-aggravating because it encourages water retention \u2014 that puffy, heavy feeling in the face and ankles.</p>
+<p>Lighter fruits suit Kapha better: apples, pears, berries, pomegranate and cranberries.</p>
+
+<h2 id="how-you-eat">7. The biggest one: how much and when you eat</h2>
+<p>For Kapha, the quantity and timing of food often matter more than the specific foods. The main aggravators are large portions, eating when not hungry, grazing between meals, a heavy dinner, and eating late in the evening.</p>
+<p>Ayurveda recommends making lunch the main meal, when digestion is strongest, and keeping dinner light and early. It also advises waiting for real hunger rather than eating by habit. Many Kapha types do well on two proper meals and a light third, with no snacking. Unlike Vata, Kapha usually handles a longer gap between meals well.</p>
+
+<h2 id="quick-reference">Quick reference: what to swap</h2>
+<table>
+<thead><tr><th>Food or habit</th><th>Why it aggravates Kapha</th><th>Lighter swap</th></tr></thead>
+<tbody>
+<tr><td>Cheese, ice cream, cold yogurt</td><td>Heavy, cold, calorie-dense</td><td>Small warm milk with ginger; buttermilk</td></tr>
+<tr><td>White bread, pasta, pastries</td><td>Dense, quick to spike and drop blood sugar</td><td>Barley, millet, buckwheat, quinoa, rye</td></tr>
+<tr><td>Sweets, juice, soda</td><td>Sweet taste; easy to overeat</td><td>Fresh apple or berries; a little raw honey</td></tr>
+<tr><td>Fried food, creamy sauces</td><td>Oily and heavy; slows digestion</td><td>Grilled, roasted or steamed food, light oil</td></tr>
+<tr><td>Iced drinks, smoothies</td><td>Cold on top of cold</td><td>Ginger tea, warm water, warm spiced food</td></tr>
+<tr><td>Bananas, avocado, lots of nuts</td><td>Dense and heavy</td><td>Apples, pears, pomegranate; nuts as garnish</td></tr>
+<tr><td>Big late dinners, grazing</td><td>More food than a slow digestion can process</td><td>Main meal at lunch, light early dinner, no snacking</td></tr>
+</tbody>
+</table>
+
+<h2 id="what-to-eat-instead">What to eat instead</h2>
+<p>The Kapha-balancing plate is light, warm, dry and well spiced: lots of cooked vegetables, especially leafy greens, peppers, cabbage and asparagus; legumes such as lentils, black beans and chickpeas, which are drying and suit Kapha far better than they suit Vata; lighter grains; lean protein; and plenty of pungent, bitter and astringent tastes. Ginger, black pepper, mustard seed, turmeric, cinnamon and chilli are all Kapha\u2019s friends.</p>
+
+<h2 id="two-week-plan">A simple two-week plan</h2>
+<p>Change one thing at a time, so you learn what actually matters for you.</p>
+<p><strong>Days 1\u20133:</strong> Make lunch the biggest meal of the day. Keep dinner small and finish it by 7 p.m.</p>
+<p><strong>Days 4\u20137:</strong> Swap wheat and refined flour for a lighter grain at one meal a day. Cut sweet drinks entirely.</p>
+<p><strong>Days 8\u201314:</strong> Stop snacking between meals, eat only when genuinely hungry, and add ginger or black pepper to every meal. Move your body for 20 minutes after lunch \u2014 even a walk blunts the post-meal slump.</p>
+<p>Keep a one-line daily note on morning grogginess, afternoon energy, congestion and cravings. After three weeks, reintroduce one food at a time.</p>
+<p>If fatigue is persistent or severe, or you have unexplained weight gain, low mood, or feel cold all the time, see your doctor \u2014 thyroid and iron problems can look a lot like a Kapha imbalance and are worth ruling out.</p>
+`,
   },
   {
     slug: "vata-foods-to-avoid",
