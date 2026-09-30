@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server"
 import { getAllPosts } from "@/lib/posts"
 import { postLastModified } from "@/lib/post-lastmod"
+import { isNoindexSlug } from "@/lib/seo"
 import { CATEGORIES, categoryToSlug } from "@/lib/categories"
 
 export async function GET() {
@@ -45,7 +46,7 @@ export async function GET() {
     return true
   })
 
-  const blogArticles = uniquePosts.map(post => ({
+  const blogArticles = uniquePosts.filter(post => !isNoindexSlug(post.slug)).map(post => ({
     loc: `https://www.doshaflow.com/blog/${post.slug}`,
     lastmod: postLastModified[post.slug] ?? (post.date ? toIsoDate(post.date) : undefined),
     priority: post.category === "Retreat Journal" ? "0.7" : "0.8",
