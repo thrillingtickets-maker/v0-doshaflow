@@ -8,6 +8,7 @@ import { processArticleContent, splitArticleIntro } from "@/lib/process-article-
 import { calculateReadingTime, formatReadingTime } from "@/lib/reading-time"
 import { parsePostDate, formatPostDate } from "@/lib/dates"
 import { postLastModified } from "@/lib/post-lastmod"
+import { isNoindexSlug } from "@/lib/seo"
 import { RelatedReading } from "@/components/related-reading"
 import { ArrowLeft } from "lucide-react"
 import { notFound } from "next/navigation"
@@ -39,6 +40,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title,
     description,
     alternates: { canonical: url },
+    ...(isNoindexSlug(slug) ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       title,
       description,
