@@ -131,7 +131,7 @@ export const relatedArticleMap: Record<string, { title: string; href: string }[]
     { title: "Sleep Recovery Protocols", href: "/blog/ayurveda-for-insomnia" },
     { title: "Kapha Imbalance and Lethargy", href: "/kapha" },
     { title: "Burnout vs Depression", href: "/blog/nervous-system-burnout" },
-    { title: "Aging Gracefully: The Ayurvedic Approach to Longevity", href: "/blog/aging-gracefully" },
+    { title: "Aging Gracefully: The Ayurvedic Approach to Longevity", href: "/blog/ayurveda-aging" },
     { title: "Take the Dosha Quiz", href: "/quiz" },
   ],
   

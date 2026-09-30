@@ -27,7 +27,6 @@ export function getCategoryColor(category: string): string {
 
 // Map of articles with their highlight words
 export const highlightMap: Record<string, string> = {
-  "aging-gracefully": "Aging",
   "ashwagandha-benefits": "Ashwagandha",
   "ayurveda-30-days": "Ayurveda",
   "ayurveda-aging": "Aging",
@@ -35,7 +34,6 @@ export const highlightMap: Record<string, string> = {
   "ayurveda-beginners-guide": "Ayurveda",
   "ayurveda-coffee": "Coffee",
   "ayurveda-cold-smoothies": "Smoothies",
-  "ayurveda-cortisol-stress": "Cortisol",
   "ayurveda-energy": "Energy",
   "ayurveda-exercise": "Exercise",
   "ayurveda-for-ibs": "Gut",
@@ -98,7 +96,6 @@ export const highlightMap: Record<string, string> = {
   "retreat-day-4": "Day",
   "retreat-day-5": "Day",
   "retreat-day-6": "Day",
-  "signs-of-high-cortisol": "Cortisol",
   "stress-hair-loss-ayurveda": "Hair",
   "triphala-benefits": "Herbs",
   "vata-anxiety-guide": "Anxiety",
