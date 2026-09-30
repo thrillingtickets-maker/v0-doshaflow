@@ -1,5 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  async headers() {
+    return [
+      {
+        // Any host other than the production domain (e.g. *.vercel.app previews)
+        // must never be indexed.
+        source: '/:path*',
+        missing: [{ type: 'host', value: 'www.doshaflow.com' }],
+        headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }],
+      },
+    ]
+  },
   async redirects() {
     return [
       {
