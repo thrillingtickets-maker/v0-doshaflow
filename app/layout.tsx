@@ -17,7 +17,6 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://www.doshaflow.com'),
   title: 'DoshaFlow | Personalized Wellness for How Your Body Actually Feels',
   description: 'Meal plans, movement, digestion, and recovery — all adapted to your body and routine. Experience Ayurvedic wellness meets modern science.',
-  keywords: ['wellness', 'ayurveda', 'dosha', 'meal planning', 'digestion', 'workouts', 'personalized health'],
   generator: 'v0.app',
   alternates: {
     canonical: '/',

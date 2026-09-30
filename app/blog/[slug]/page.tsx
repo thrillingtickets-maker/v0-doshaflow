@@ -7,6 +7,7 @@ import { highlightMap } from "@/lib/article-colors"
 import { processArticleContent, splitArticleIntro } from "@/lib/process-article-content"
 import { calculateReadingTime, formatReadingTime } from "@/lib/reading-time"
 import { parsePostDate, formatPostDate } from "@/lib/dates"
+import { postLastModified } from "@/lib/post-lastmod"
 import { RelatedReading } from "@/components/related-reading"
 import { ArrowLeft } from "lucide-react"
 import { notFound } from "next/navigation"
@@ -32,6 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const title = post.seoTitle || `${post.title} | DoshaFlow Blog`
   const description = post.seoDescription || post.excerpt
   const url = `https://www.doshaflow.com/blog/${slug}`
+  const images = [post.heroImage ?? "/opengraph-image"]
 
   return {
     title,
@@ -43,11 +45,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       url,
       type: "article",
       siteName: "DoshaFlow",
+      images,
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
+      images,
     },
   }
 }
@@ -64,13 +68,15 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const { intro, body } = splitArticleIntro(processArticleContent(post.content))
 
   const url = `https://www.doshaflow.com/blog/${slug}`
-  const blogPostingSchema = {
+  const datePublished = new Date(parsePostDate(post.date)).toISOString()
+  const lastmod = postLastModified[slug]
+  const articleSchema = {
     "@context": "https://schema.org",
-    "@type": "BlogPosting",
+    "@type": "Article",
     headline: post.title,
     description: post.seoDescription || post.excerpt,
-    datePublished: new Date(parsePostDate(post.date)).toISOString(),
-    dateModified: new Date(parsePostDate(post.date)).toISOString(),
+    datePublished,
+    dateModified: lastmod ? new Date(lastmod).toISOString() : datePublished,
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     url,
     author: {
@@ -99,7 +105,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify([blogPostingSchema, breadcrumbSchema]) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([articleSchema, breadcrumbSchema]) }}
       />
       <Navigation />
       <main style={{ minHeight: "100vh", backgroundColor: "#fdf8f3" }}>

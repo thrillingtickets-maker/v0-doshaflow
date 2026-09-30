@@ -44,7 +44,7 @@ export function Footer() {
               <li><a href="/vata" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Vata Guide</a></li>
               <li><a href="/pitta" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Pitta Guide</a></li>
               <li><a href="/kapha" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Kapha Guide</a></li>
-              <li><a href="/blog?page=1" className="text-muted-foreground hover:text-foreground transition-colors text-sm">All Guides</a></li>
+              <li><a href="/blog" className="text-muted-foreground hover:text-foreground transition-colors text-sm">All Guides</a></li>
             </ul>
           </div>
 

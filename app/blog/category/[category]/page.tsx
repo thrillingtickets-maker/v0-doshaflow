@@ -4,7 +4,6 @@ import Link from "next/link"
 import { ArrowRight, ArrowLeft } from "lucide-react"
 import { getAllPosts } from "@/lib/posts"
 import { Navigation } from "@/components/navigation"
-import { Footer } from "@/components/footer"
 import {
   CATEGORIES,
   categoryToSlug,
@@ -167,7 +166,6 @@ export default async function BlogCategoryPage({ params }: { params: Promise<{ c
           </div>
         </section>
       </main>
-      <Footer />
     </>
   )
 }

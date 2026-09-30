@@ -7,6 +7,7 @@ import { calculateReadingTime, formatReadingTime } from "@/lib/reading-time"
 import { RelatedReading } from "@/components/related-reading"
 import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
+import { postLastModified } from "@/lib/post-lastmod"
 
 export const dynamic = "force-dynamic"
 
@@ -27,6 +28,14 @@ export const metadata = {
     description: DESCRIPTION,
     type: "article",
     url: "https://www.doshaflow.com/blog/dopamine-detox-vs-ayurveda",
+    siteName: "DoshaFlow",
+    images: ["/opengraph-image"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${TITLE} | DoshaFlow`,
+    description: DESCRIPTION,
+    images: ["/opengraph-image"],
   },
 }
 
@@ -103,11 +112,13 @@ const PAGE_URL = "https://www.doshaflow.com/blog/dopamine-detox-vs-ayurveda"
 const jsonLd = [
   {
     "@context": "https://schema.org",
-    "@type": "BlogPosting",
+    "@type": "Article",
     headline: TITLE,
     description: DESCRIPTION,
     datePublished: new Date(DATE).toISOString(),
-    dateModified: new Date(DATE).toISOString(),
+    dateModified: postLastModified["dopamine-detox-vs-ayurveda"]
+      ? new Date(postLastModified["dopamine-detox-vs-ayurveda"]).toISOString()
+      : new Date(DATE).toISOString(),
     mainEntityOfPage: { "@type": "WebPage", "@id": PAGE_URL },
     url: PAGE_URL,
     author: { "@type": "Person", name: "Alex Osborne", url: "https://www.doshaflow.com/founder" },
