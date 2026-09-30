@@ -6,7 +6,7 @@ export const postLastModified: Record<string, string> = {
   "ashwagandha-benefits": "2026-09-23",
   "ashwagandha-vs-brahmi": "2026-06-02",
   "ayurveda-30-days": "2026-05-31",
-  "ayurveda-alcohol-recovery": "2026-06-02",
+  "ayurveda-alcohol-recovery": "2026-09-29",
   "ayurveda-beginners-guide": "2026-09-23",
   "ayurveda-coffee": "2026-06-02",
   "ayurveda-cold-smoothies": "2026-05-31",
