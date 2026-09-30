@@ -259,8 +259,13 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/blog/ayurveda-gut-health',
+        destination: '/blog/ayurvedic-gut-health',
+        permanent: true,
+      },
+      {
         source: '/blog/gut-microbiome-ayurveda',
-        destination: '/blog/ayurveda-gut-health',
+        destination: '/blog/ayurvedic-gut-health',
         permanent: true,
       },
       {
@@ -381,6 +386,36 @@ const nextConfig = {
       {
         source: '/blog/ayurveda-for-women',
         destination: '/ayurveda-for-women',
+        permanent: true,
+      },
+      {
+        source: '/blog/ayurveda-for-gut-health',
+        destination: '/blog/ayurvedic-gut-health',
+        permanent: true,
+      },
+      {
+        source: '/blog/signs-of-high-cortisol',
+        destination: '/blog/high-cortisol-symptoms',
+        permanent: true,
+      },
+      {
+        source: '/blog/ayurveda-cortisol-stress',
+        destination: '/blog/how-to-reduce-cortisol-naturally',
+        permanent: true,
+      },
+      {
+        source: '/blog/ayurvedic-anti-ageing',
+        destination: '/blog/ayurveda-aging',
+        permanent: true,
+      },
+      {
+        source: '/blog/ayurveda-energy',
+        destination: '/blog/ayurveda-for-energy',
+        permanent: true,
+      },
+      {
+        source: '/blog/aging-gracefully',
+        destination: '/blog/ayurveda-aging',
         permanent: true,
       },
       {
