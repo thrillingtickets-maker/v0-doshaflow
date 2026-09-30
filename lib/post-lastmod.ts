@@ -15,6 +15,7 @@ export const postLastModified: Record<string, string> = {
   "ayurveda-for-energy": "2026-09-29",
   "ayurveda-for-ibs": "2026-06-05",
   "ayurveda-for-pcos": "2026-06-25",
+  "ayurveda-for-sobriety": "2026-09-29",
   "ayurveda-for-travel": "2026-06-05",
   "ayurveda-hormones-symptoms": "2026-06-25",
   "ayurveda-hormones-women": "2026-06-02",

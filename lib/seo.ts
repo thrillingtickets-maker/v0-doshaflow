@@ -13,6 +13,10 @@ export const NOINDEX_SLUGS: ReadonlySet<string> = new Set([
   "leaky-gut-ayurveda",
   "ayurveda-for-libido",
   "ayurveda-and-sex",
+  "ayurveda-depression-anxiety",
+  "ayurveda-for-eczema",
+  "thyroid-metabolism",
+  "chronic-pain-management",
 ])
 
 export function isNoindexSlug(slug: string): boolean {
