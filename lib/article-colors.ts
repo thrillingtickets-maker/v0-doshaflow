@@ -34,7 +34,6 @@ export const highlightMap: Record<string, string> = {
   "ayurveda-beginners-guide": "Ayurveda",
   "ayurveda-coffee": "Coffee",
   "ayurveda-cold-smoothies": "Smoothies",
-  "ayurveda-energy": "Energy",
   "ayurveda-exercise": "Exercise",
   "ayurveda-for-ibs": "Gut",
   "ayurveda-hormonal-balance": "Women",

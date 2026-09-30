@@ -409,6 +409,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/blog/ayurveda-energy',
+        destination: '/blog/ayurveda-for-energy',
+        permanent: true,
+      },
+      {
         source: '/blog/aging-gracefully',
         destination: '/blog/ayurveda-aging',
         permanent: true,
