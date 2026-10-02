@@ -51,7 +51,7 @@ export default function Home() {
             You're probably exhausted. Not lazy. Not weak. Exhausted.
           </p>
           <p className="text-lg md:text-xl text-foreground leading-relaxed font-medium">
-            Your nervous system is overloaded. Your digestion is struggling. Your sleep isn't restorative. Your stress never fully releases.
+            Your system feels overloaded. Your digestion is struggling. Your sleep isn't restorative. Your stress never fully releases.
           </p>
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed mt-6">
             Ayurveda doesn't ask you to optimize harder. It teaches you to recover better.

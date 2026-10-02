@@ -28,7 +28,7 @@ export function StartHereHero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto mb-6"
         >
-          Modern life has broken your nervous system. Ayurveda doesn't try to fix you—it teaches you how to recover.
+          Modern life can leave you overstimulated and depleted. Ayurveda doesn't try to fix you—it offers a framework for recovering better.
         </motion.p>
 
         {/* Descriptor */}

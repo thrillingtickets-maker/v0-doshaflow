@@ -3,6 +3,9 @@ import { Navigation } from "@/components/navigation"
 import { ArticleHero } from "@/components/article-hero"
 import { ArticleEmailCapture } from "@/components/article-email-capture"
 import { ArticleQuizCta } from "@/components/article-quiz-cta"
+import { SourcesEvidence } from "@/components/sources-evidence"
+import { getArticleSources } from "@/lib/article-sources"
+import { quizHrefForArticle } from "@/lib/analytics"
 import { highlightMap } from "@/lib/article-colors"
 import { processArticleContent, splitArticleIntro } from "@/lib/process-article-content"
 import { calculateReadingTime, formatReadingTime } from "@/lib/reading-time"
@@ -67,7 +70,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   
   const highlightWord = highlightMap[slug]
   const readingTime = calculateReadingTime(post.content)
-  const { intro, body } = splitArticleIntro(processArticleContent(post.content))
+  const quizHref = quizHrefForArticle(slug)
+  const { intro, body } = splitArticleIntro(
+    processArticleContent(post.content).replaceAll('href="/quiz"', `href="${quizHref}"`),
+  )
 
   const url = `https://www.doshaflow.com/blog/${slug}`
   const datePublished = new Date(parsePostDate(post.date)).toISOString()
@@ -494,7 +500,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           />
 
           {/* Inline Conversion CTA - after intro */}
-          <ArticleQuizCta />
+          <ArticleQuizCta sourceSlug={slug} />
 
           {body && (
             <div
@@ -503,6 +509,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               dangerouslySetInnerHTML={{ __html: body }}
             />
           )}
+
+          <SourcesEvidence sources={getArticleSources(slug)} />
 
           {/* Email Capture Section - near end, before related reading */}
           <ArticleEmailCapture articleTitle={post.title} />

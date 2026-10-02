@@ -3,13 +3,27 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 
-const testimonials = [
+// Only display testimonials from verified real users who have explicitly provided permission.
+// PLACEHOLDER: the entries below have no verified provenance (no consent record or source on file),
+// so they are marked verified: false and are NOT rendered publicly. Set verified: true only for a
+// real user whose written permission is on file.
+const testimonials: {
+  name: string
+  role: string
+  location: string
+  photo: string
+  betaTester: boolean
+  verified: boolean
+  content: string
+  dosha: string
+}[] = [
   {
     name: "Sarah Mitchell",
     role: "Yoga Instructor",
     location: "Portland, OR",
     photo: "/testimonials/sarah.png",
     betaTester: true,
+    verified: false,
     content: "I've taken probably a dozen wellness quizzes over the years and learned nothing. This one actually helped me understand why I'm always cold, why salads for lunch don't sit well, and why my anxiety tends to spike in autumn. 25 questions and I finally have a framework.",
     dosha: "Vata"
   },
@@ -19,6 +33,7 @@ const testimonials = [
     location: "Austin, TX",
     photo: "/testimonials/james.png",
     betaTester: true,
+    verified: false,
     content: "I'm a skeptic. I took this mostly out of curiosity. A couple weeks after adjusting when I eat and cutting the coffee before breakfast, my afternoon crashes eased up noticeably. Didn't expect that from a quiz.",
     dosha: "Pitta"
   },
@@ -28,6 +43,7 @@ const testimonials = [
     location: "Chicago, IL",
     photo: "/testimonials/maria.png",
     betaTester: true,
+    verified: false,
     content: "The quiz connected things about myself I'd never linked before — patterns around energy, motivation in the morning, and how I hold onto things emotionally. It felt thoughtful and specific rather than generic.",
     dosha: "Kapha"
   },
@@ -37,12 +53,16 @@ const testimonials = [
     location: "Denver, CO",
     photo: "/testimonials/david.png",
     betaTester: true,
+    verified: false,
     content: "No crystals, no vague advice, no 'drink more water.' Just a clear explanation of how my body tends to work and some practical things to try. Refreshingly straightforward.",
     dosha: "Vata-Pitta"
   },
 ]
 
 export function Testimonials() {
+  const verifiedTestimonials = testimonials.filter((t) => t.verified)
+  if (verifiedTestimonials.length === 0) return null
+
   return (
     <section className="px-6 py-24 md:py-32">
       <div className="max-w-6xl mx-auto">
@@ -68,7 +88,7 @@ export function Testimonials() {
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-6">
-          {testimonials.map((testimonial, index) => (
+          {verifiedTestimonials.map((testimonial, index) => (
             <motion.div
               key={testimonial.name}
               initial={{ opacity: 0, y: 30 }}

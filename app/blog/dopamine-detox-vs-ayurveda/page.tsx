@@ -465,7 +465,7 @@ export default function DopamineDetoxPage() {
             />
 
             {/* Inline Conversion CTA - after intro */}
-            <ArticleQuizCta />
+            <ArticleQuizCta sourceSlug="dopamine-detox-vs-ayurveda" />
 
             {body && (
               <div

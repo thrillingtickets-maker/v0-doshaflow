@@ -106,7 +106,7 @@ export default function AyurvedaForMenPage() {
               </p>
 
               <p className="mt-4">
-                The practices that move the needle fastest for this pattern: <Link href="/blog/ashwagandha-benefits" className="text-[#C97F3D] hover:underline">Ashwagandha</Link> nightly for the cortisol regulation and sleep quality. A <Link href="/blog/ayurvedic-morning-routine" className="text-[#C97F3D] hover:underline">consistent morning routine</Link> before the phone. Warm breakfast, eaten sitting down, before coffee. Reducing alcohol from several nights a week to significantly less.
+                The practices that move the needle fastest for this pattern: <Link href="/blog/ashwagandha-benefits" className="text-[#C97F3D] hover:underline">Ashwagandha</Link> nightly, which has been studied for perceived stress and sleep quality (results vary; check with a doctor if you take medication). A <Link href="/blog/ayurvedic-morning-routine" className="text-[#C97F3D] hover:underline">consistent morning routine</Link> before the phone. Warm breakfast, eaten sitting down, before coffee. Reducing alcohol from several nights a week to significantly less.
               </p>
 
               <p className="mt-4">
@@ -121,7 +121,7 @@ export default function AyurvedaForMenPage() {
             </h2>
 
             <p>
-              Ayurveda is a 5,000-year-old system of medicine from India. It's not alternative medicine in the sense of being unproven — it's pre-modern medicine, developed before the laboratory era, based on thousands of years of clinical observation. Much of it holds up under scrutiny. Some of it doesn't. Like any system, it's best used intelligently.
+              Ayurveda is a 5,000-year-old system of medicine from India. It's pre-modern medicine, developed before the laboratory era and based on centuries of traditional observation. Some of its practices have been studied and hold up reasonably well; many have limited or no modern evidence. Like any system, it's best used intelligently.
             </p>
 
             <p>

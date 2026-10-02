@@ -71,7 +71,7 @@ export const CATEGORY_INTROS: Record<Category, string> = {
   Doshas:
     "Your constitution decides what actually works for you. These guides break down vata, pitta, and kapha — how to tell which one you are, and what to change when one runs high.",
   Digestion:
-    "Ayurveda treats digestion as the root of most complaints. Straight guidance on bloating, gut health, elimination, and the foods and herbs that steady it.",
+    "Ayurveda traditionally places digestion at the centre of wellbeing. Straight guidance on bloating, gut health, elimination, and the foods and herbs that steady it.",
   Sleep:
     "Why you wake at 3am, why mornings are hard, and what to actually do about it. Practical routines and remedies for deeper, more consistent rest.",
   "Stress & Anxiety":
@@ -79,7 +79,7 @@ export const CATEGORY_INTROS: Record<Category, string> = {
   "Weight Loss":
     "Weight in Ayurveda isn't a calorie problem — it's a slow metabolism, heavy tissue, and a kapha system that holds on. Guides that work with your constitution instead of against it, so the changes actually stick.",
   "Skin & Hair":
-    "Your skin and hair report on what's happening underneath — digestion, hormones, heat, and stress. Guides that treat the cause instead of chasing symptoms with one more topical.",
+    "Your skin and hair report on what's happening underneath — digestion, hormones, heat, and stress. Guides that look at the whole picture instead of chasing symptoms with one more topical.",
   "Body & Systems":
     "Every organ has a job, and Ayurveda maps each one to dosha, agni, and the tissues it feeds. Practical guides to the heart, liver, joints, thyroid, immunity, and the systems that keep you running.",
   Herbs:
@@ -90,7 +90,7 @@ export const CATEGORY_INTROS: Record<Category, string> = {
   Editorial:
     "Opinion and commentary on modern wellness — what Ayurveda gets right, what the industry oversells, and where the honest line sits.",
   "Retreat Journal":
-    "First-person notes from Kerala — daily entries on the treatments, the food, and what a traditional Ayurvedic retreat is actually like.",
+    "First-person notes from Bengaluru — daily entries on the treatments, the food, and what a traditional Ayurvedic retreat is actually like.",
 }
 
 // Meta descriptions for category landing pages.
@@ -106,7 +106,7 @@ export const CATEGORY_META_DESCRIPTIONS: Record<Category, string> = {
   "Weight Loss":
     "Ayurvedic weight loss guides that work with your dosha — why generic diets fail, how to reset a sluggish metabolism, and what actually shifts stubborn kapha weight.",
   "Skin & Hair":
-    "Ayurvedic guides to skin and hair — acne, eczema, psoriasis, and hair loss — why the root cause is usually internal, and how to treat it that way.",
+    "Ayurvedic guides to skin and hair — acne, eczema, psoriasis, and hair loss — how Ayurveda traditionally links them to internal patterns, and when to see a dermatologist.",
   "Body & Systems":
     "Ayurvedic guides to the body's organs and systems — heart, liver, kidneys, joints, thyroid, immunity, and hormonal health — rooted in dosha and agni.",
   Herbs:
@@ -117,5 +117,5 @@ export const CATEGORY_META_DESCRIPTIONS: Record<Category, string> = {
   Editorial:
     "Essays and commentary on Ayurveda and modern wellness — what holds up, what gets oversold, and the honest middle ground.",
   "Retreat Journal":
-    "A first-person journal from a traditional Ayurvedic retreat in Kerala — daily entries on treatments, food, and what it's really like.",
+    "A first-person journal from a traditional Ayurvedic retreat in Bengaluru — daily entries on treatments, food, and what it's really like.",
 }

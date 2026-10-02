@@ -6,12 +6,12 @@ import Link from "next/link"
 const articles = [
   {
     title: "Why Am I Always Bloated?",
-    description: "Understand Ayurvedic causes of chronic bloating and proven remedies.",
+    description: "Understand how Ayurveda explains chronic bloating, plus practical approaches to try.",
     href: "/blog/why-am-i-always-bloated",
   },
   {
     title: "Best Ayurvedic Tea for Anxiety",
-    description: "Herbs and teas that calm the nervous system without sedation.",
+    description: "Herbs and teas traditionally used for calm, without heavy sedation.",
     href: "/blog/best-ayurvedic-tea-anxiety",
   },
   {
@@ -21,7 +21,7 @@ const articles = [
   },
   {
     title: "Ayurvedic Morning Routine",
-    description: "The daily ritual that transforms digestion, energy, and mental clarity.",
+    description: "A daily ritual that supports digestion, energy, and daily wellbeing.",
     href: "/blog/ayurvedic-morning-routine",
   },
 ]

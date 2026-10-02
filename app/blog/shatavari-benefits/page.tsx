@@ -606,7 +606,7 @@ export default function ShatavariBenefitsPage() {
             />
 
             {/* Inline Conversion CTA - after intro */}
-            <ArticleQuizCta />
+            <ArticleQuizCta sourceSlug="shatavari-benefits" />
 
             {body && (
               <div

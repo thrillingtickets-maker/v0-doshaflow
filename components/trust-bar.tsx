@@ -7,7 +7,7 @@ const signals = [
   { icon: ShieldCheck, label: "Privacy-first" },
   { icon: Lock, label: "No sale of personal data" },
   { icon: Server, label: "Secure infrastructure" },
-  { icon: BookOpen, label: "Research-backed content" },
+  { icon: BookOpen, label: "Evidence-aware content" },
   { icon: UserCheck, label: "Human-reviewed recommendations" },
 ]
 

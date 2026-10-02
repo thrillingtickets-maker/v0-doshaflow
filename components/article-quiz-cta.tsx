@@ -1,12 +1,13 @@
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
+import { quizHrefForArticle } from "@/lib/analytics"
 
 /**
  * Inline, editorial conversion CTA promoting the Dosha Quiz. Designed to sit
  * within long-form article copy (after the intro). Calm, premium tone and warm
  * DoshaFlow styling; responsive (button drops below the copy on narrow screens).
  */
-export function ArticleQuizCta() {
+export function ArticleQuizCta({ sourceSlug }: { sourceSlug?: string } = {}) {
   return (
     <aside
       aria-label="Take the Dosha Quiz"
@@ -50,7 +51,7 @@ export function ArticleQuizCta() {
         </p>
       </div>
       <Link
-        href="/quiz"
+        href={sourceSlug ? quizHrefForArticle(sourceSlug) : "/quiz"}
         style={{
           flexShrink: 0,
           display: "inline-flex",

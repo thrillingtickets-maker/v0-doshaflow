@@ -70,7 +70,7 @@ export default function KaphaPage() {
                 <li>Lethargy and low energy despite adequate sleep</li>
                 <li>Excessive sleep (oversleeping and still feeling tired)</li>
                 <li>Brain fog and difficulty thinking clearly</li>
-                <li>Depression, low mood, or lack of motivation</li>
+                <li>Low mood or lack of motivation (persistent low mood deserves professional support)</li>
                 <li>Slow digestion and weight gain after meals</li>
                 <li>Congestion, sinus problems, or mucus</li>
                 <li>Oily skin or acne</li>
@@ -141,7 +141,7 @@ export default function KaphaPage() {
               <div>
                 <h3 className="font-serif text-xl md:text-2xl text-foreground mb-3">Stimulating Herbs</h3>
                 <p>
-                  Guggul for metabolism and weight management. Garcinia for appetite regulation. Triphala for gentle digestive activation. Ginger and black pepper for warming. These herbs work best when combined with movement and lifestyle changes — they support, but don't replace, the need for physical activation.
+                  Guggul, traditionally used in Ayurveda for Kapha and metabolism (it can interact with medications). Triphala, traditionally used for gentle digestive support. Ginger and black pepper for warming. These herbs work best when combined with movement and lifestyle changes — they support, but don't replace, the need for physical activation.
                 </p>
               </div>
             </div>
@@ -157,10 +157,10 @@ export default function KaphaPage() {
                 <strong className="text-foreground">Week 1-2:</strong> Movement will be hard. Your body will resist. Push through this. Early waking will feel unnatural. Stick with it anyway.
               </p>
               <p>
-                <strong className="text-foreground">Week 3-4:</strong> You'll notice a slight increase in morning energy. Digestion will improve. You won't feel quite so heavy after meals.
+                <strong className="text-foreground">Week 3-4:</strong> Many people notice a little more morning energy and feel less heavy after meals. Individual responses vary.
               </p>
               <p>
-                <strong className="text-foreground">Month 2:</strong> The fog will begin to lift. You'll have more clarity and mental energy. Movement will feel easier, less forced.
+                <strong className="text-foreground">Month 2:</strong> For some people the fog begins to lift and movement feels easier. Persistent low mood or fatigue is worth discussing with a doctor.
               </p>
               <p>
                 <strong className="text-foreground">Month 3+:</strong> Weight will begin to shift. More importantly, you'll feel lighter internally — more energetic, more motivated, more present. And you'll understand that maintaining this requires ongoing commitment to movement and stimulation.

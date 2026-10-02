@@ -592,7 +592,7 @@ export default function WhyYouWakeUpAt3amPage() {
             />
 
             {/* Inline Conversion CTA - after intro */}
-            <ArticleQuizCta />
+            <ArticleQuizCta sourceSlug="why-you-wake-up-at-3am" />
 
             {body && (
               <div
