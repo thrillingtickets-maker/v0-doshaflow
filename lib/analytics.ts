@@ -15,6 +15,26 @@ export type EventProperties = Record<string, PropertyValue>
 const SLUG_PATTERN = /^[a-z0-9-]{1,120}$/
 const LANDING_KEY = "df_landing_page"
 
+type AnalyticsWindow = Window & {
+  va?: (...params: unknown[]) => void
+  vaq?: unknown[][]
+}
+
+/**
+ * `track()` silently drops events when `window.va` is undefined, and <Analytics />
+ * only creates it in its own mount effect, which runs after page effects
+ * (it renders after {children}). Mirror the library's queue stub so events
+ * fired on mount are buffered and flushed once the script loads.
+ */
+function ensureAnalyticsQueue() {
+  if (typeof window === "undefined") return
+  const w = window as AnalyticsWindow
+  if (w.va) return
+  w.va = (...params: unknown[]) => {
+    ;(w.vaq = w.vaq || []).push(params)
+  }
+}
+
 /**
  * Single entry point for product analytics. Events go to Vercel Web Analytics
  * (already mounted in app/layout.tsx). To add or swap a provider, change only
@@ -26,6 +46,7 @@ export function trackEvent(name: AnalyticsEvent, properties: EventProperties = {
     if (value !== undefined && value !== "") clean[key] = value
   }
   try {
+    ensureAnalyticsQueue()
     track(name, clean)
   } catch {
     // Analytics must never break the page.
