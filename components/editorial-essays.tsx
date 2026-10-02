@@ -32,7 +32,7 @@ export function EditorialEssays() {
     <section className="px-6 py-24 md:py-40">
       <div className="max-w-5xl mx-auto">
         {/* Section Title - Restrained */}
-        <div className="mb-24">
+        <div className="mb-10 md:mb-12">
           <h2 className="text-3xl md:text-4xl font-serif text-foreground mb-3">
             Editorial Essays
           </h2>
@@ -42,7 +42,7 @@ export function EditorialEssays() {
         </div>
 
         {/* Essays Grid - Slower, More Cinematic */}
-        <div className="grid grid-cols-1 gap-16 md:gap-20">
+        <div className="grid grid-cols-1 gap-12 md:gap-16">
           {editorialEssays.map((essay) => (
             <Link
               key={essay.slug}
