@@ -119,7 +119,11 @@ export default function VataPage() {
               <div>
                 <h3 className="font-serif text-xl md:text-2xl text-foreground mb-3">Food That Grounds</h3>
                 <p>
-                  Eat warm, cooked, grounding foods. Avoid raw, cold, and dry foods that increase Vata. Favor warm soups, stews, cooked grains, root vegetables, and warming spices (ginger, cinnamon, cumin). Eat at consistent times and don't skip meals — Vata needs consistent fuel to settle.
+                  Eat warm, cooked, grounding foods. Avoid raw, cold, and dry foods that increase Vata. Favor warm soups, stews, cooked grains, root vegetables, and warming spices (ginger, cinnamon, cumin). Eat at consistent times and don't skip meals — Vata needs consistent fuel to settle. For meal-by-meal guidance, see the{" "}
+                  <Link href="/blog/vata-diet-plan" className="text-[#C97F3D] hover:underline font-medium">
+                    Vata diet plan
+                  </Link>
+                  .
                 </p>
               </div>
 

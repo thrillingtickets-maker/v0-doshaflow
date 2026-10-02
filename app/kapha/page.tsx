@@ -120,7 +120,11 @@ export default function KaphaPage() {
               <div>
                 <h3 className="font-serif text-xl md:text-2xl text-foreground mb-3">Food That Activates</h3>
                 <p>
-                  Eat light, warming foods: mung beans, lentils, vegetables (especially cooked), whole grains, warming spices. Reduce heavy, sweet, oily foods. Don't eat when you're not hungry. Eat smaller portions at more regular intervals. Avoid dairy and cold foods. Focus on foods that activate digestion, not comfort foods that pile on weight.
+                  Eat light, warming foods: mung beans, lentils, vegetables (especially cooked), whole grains, warming spices. Reduce heavy, sweet, oily foods. Don't eat when you're not hungry. Eat smaller portions at more regular intervals. Avoid dairy and cold foods. Focus on foods that activate digestion, not comfort foods that pile on weight. For meal-by-meal guidance, see the{" "}
+                  <Link href="/blog/kapha-diet-plan" className="text-[#C97F3D] hover:underline font-medium">
+                    Kapha diet plan
+                  </Link>
+                  .
                 </p>
               </div>
 
