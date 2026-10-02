@@ -5,11 +5,11 @@ import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 
 export const metadata = {
-  title: "Retreat Journal — Dispatches from Kerala | DoshaFlow",
-  description: "Dispatches from an Ayurvedic retreat at Kerala, India.",
+  title: "Retreat Journal — Dispatches from Bengaluru | DoshaFlow",
+  description: "Dispatches from an Ayurvedic retreat in Bengaluru, India.",
   openGraph: {
-    title: "Retreat Journal — Dispatches from Kerala | DoshaFlow",
-    description: "Dispatches from an Ayurvedic retreat at Kerala, India.",
+    title: "Retreat Journal — Dispatches from Bengaluru | DoshaFlow",
+    description: "Dispatches from an Ayurvedic retreat in Bengaluru, India.",
     type: "website",
     url: "https://www.doshaflow.com/journal",
   },
@@ -40,7 +40,7 @@ export default function JournalPage() {
             Retreat Journal
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Dispatches from an Ayurvedic retreat at Kerala, India.
+            Dispatches from an Ayurvedic retreat in Bengaluru, India.
           </p>
         </div>
       </section>

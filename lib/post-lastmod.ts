@@ -39,7 +39,7 @@ export const postLastModified: Record<string, string> = {
   "ayurvedic-herbs-for-sleep": "2026-09-23",
   "ayurvedic-herbs-guide": "2026-10-02",
   "ayurvedic-morning-routine": "2026-06-02",
-  "ayurvedic-skin-guide": "2026-06-02",
+  "ayurvedic-skin-guide": "2026-10-02",
   "ayurvedic-sleep-hygiene": "2026-06-02",
   "ayurvedic-tea-guide": "2026-09-23",
   "ayurvedic-weight-loss": "2026-06-03",

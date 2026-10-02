@@ -91,7 +91,7 @@ export default function VataPage() {
                 For most people, Vata starts to go out of balance in their late twenties or thirties. For some, earlier. The pattern is predictable: you maintain it through willpower and stimulation (coffee, alcohol, screens) until one day the system just stops cooperating. You can't sleep no matter how tired you are. Your anxiety spikes without reason. Your digestion becomes unpredictable. You feel like you're running on fumes.
               </p>
               <p>
-                This is Vata imbalance. And conventional medicine has no framework for it because blood work comes back normal. The system isn't technically broken — it's just running in the wrong mode.
+                In Ayurvedic terms, this pattern is described as Vata imbalance. If symptoms like these persist, it&apos;s worth seeing a doctor to rule out medical causes, even if earlier tests came back normal. Ayurveda offers a traditional framework for thinking about these patterns, not a diagnosis.
               </p>
             </div>
           </section>
