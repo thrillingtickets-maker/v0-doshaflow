@@ -56,9 +56,61 @@ type QuizResult = {
 
 type ParsedQuiz = { ok: true; quiz: QuizResult | null } | { ok: false; reason: string }
 
-type KitMetadata = { tagIdsByName: Map<string, number>; fieldKeys: Set<string>; fetchedAt: number }
+type KitTag = { id: number; name: string }
+
+type KitMetadata = { tags: KitTag[]; fieldKeys: Set<string>; fetchedAt: number }
+
+type ResultTagMatch =
+  | { status: "matched"; tag: KitTag; exact: boolean }
+  | { status: "missing" }
+  | { status: "ambiguous"; candidates: string[] }
 
 let metadataCache: KitMetadata | null = null
+
+const DOSHA_WORDS = new Set(["vata", "pitta", "kapha"])
+const TRIDOSHIC_ALIASES = new Set(["tridoshic", "tridosha", "tri doshic", "tri dosha", "tridoshic balanced", "vata kapha pitta"])
+
+/**
+ * Reduces a Kit tag name to a canonical result key so existing tags match
+ * regardless of prefix, casing, separators, or dual-dosha word order:
+ * "Dosha: Vata-Pitta", "vata_pitta", "Pitta Vata type" all become "pitta vata".
+ */
+function canonicalTagKey(name: string): string | null {
+  const words = name
+    .toLowerCase()
+    .replace(/[^a-z]+/g, " ")
+    .split(" ")
+    .filter((word) => word && !["dosha", "doshas", "result", "type", "quiz", "prakriti", "constitution"].includes(word))
+  if (!words.length) return null
+  const phrase = words.join(" ")
+  if (TRIDOSHIC_ALIASES.has(phrase)) return "tridoshic"
+  if (!words.every((word) => DOSHA_WORDS.has(word))) return null
+  const unique = [...new Set(words)].sort()
+  return unique.length === 3 ? "tridoshic" : unique.join(" ")
+}
+
+function resultCanonicalKey(type: DoshaResultType) {
+  return type === "T" ? "tridoshic" : (canonicalTagKey(DOSHA_RESULT_LABELS[type]) as string)
+}
+
+/** Picks the existing Kit tag for a result: exact preferred name first, then a single unambiguous variant. */
+function matchResultTag(tags: KitTag[], type: DoshaResultType): ResultTagMatch {
+  const exact = tags.find((tag) => tag.name.trim().toLowerCase() === RESULT_TAG_NAMES[type].toLowerCase())
+  if (exact) return { status: "matched", tag: exact, exact: true }
+  const target = resultCanonicalKey(type)
+  const candidates = tags.filter((tag) => canonicalTagKey(tag.name) === target)
+  if (candidates.length === 1) return { status: "matched", tag: candidates[0], exact: false }
+  if (candidates.length > 1) return { status: "ambiguous", candidates: candidates.map((tag) => tag.name).slice(0, 10) }
+  return { status: "missing" }
+}
+
+/** Tag names are account configuration, not personal data, so dosha-like names are safe to log for diagnosis. */
+function doshaLikeTagNames(tags: KitTag[]) {
+  return tags
+    .map((tag) => tag.name)
+    .filter((name) => /vata|pitta|kapha|dosh/i.test(name))
+    .slice(0, 20)
+}
 
 function maskEmail(email: string) {
   const [local, domain] = email.split("@")
@@ -144,11 +196,32 @@ async function getKitMetadata(apiKey: string): Promise<KitMetadata> {
     kitGet<{ custom_fields?: { key: string }[] }>("/custom_fields", apiKey),
   ])
   metadataCache = {
-    tagIdsByName: new Map((tagsBody.tags ?? []).map((tag) => [tag.name.trim(), tag.id])),
+    tags: (tagsBody.tags ?? []).filter((tag) => typeof tag?.id === "number" && typeof tag?.name === "string"),
     fieldKeys: new Set((fieldsBody.custom_fields ?? []).map((field) => field.key)),
     fetchedAt: Date.now(),
   }
   return metadataCache
+}
+
+/**
+ * Adds one tag to an existing subscriber. Only the email is sent (no fields),
+ * so this call cannot overwrite the custom fields written by the form subscribe.
+ */
+async function applyTag(apiKey: string, tagId: number, email: string) {
+  const response = await fetch(`${KIT_API_BASE}/tags/${tagId}/subscribe`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", Accept: "application/json" },
+    body: JSON.stringify({ api_key: apiKey, email }),
+    signal: AbortSignal.timeout(KIT_LOOKUP_TIMEOUT_MS),
+    cache: "no-store",
+  })
+  const body = (await response.json().catch(() => null)) as KitSubscribeResponse | null
+  return {
+    ok: response.ok && Boolean(body?.subscription?.id),
+    status: response.status,
+    kitError: body?.error ?? null,
+    kitMessage: typeof body?.message === "string" ? body.message.slice(0, 200) : null,
+  }
 }
 
 /**
@@ -219,6 +292,7 @@ export async function POST(request: Request) {
 
   let kitFields: Record<string, string> | undefined
   let resultTagId: number | undefined
+  let resultTagName: string | undefined
   let resultTagIds = new Set<number>()
   let personalizationIssues: string[] = []
 
@@ -228,17 +302,27 @@ export async function POST(request: Request) {
       kitFields = Object.fromEntries(Object.entries(quiz.fields).filter(([key]) => metadata.fieldKeys.has(key)))
       const missingFields = Object.keys(quiz.fields).filter((key) => !metadata.fieldKeys.has(key))
       const missingCore = CORE_FIELD_KEYS.filter((key) => !metadata.fieldKeys.has(key))
-      resultTagId = metadata.tagIdsByName.get(RESULT_TAG_NAMES[quiz.resultType])
+      const match = matchResultTag(metadata.tags, quiz.resultType)
       resultTagIds = new Set(
-        DOSHA_RESULT_TYPES.map((type) => metadata.tagIdsByName.get(RESULT_TAG_NAMES[type])).filter(
-          (id): id is number => typeof id === "number",
-        ),
+        DOSHA_RESULT_TYPES.map((type) => matchResultTag(metadata.tags, type))
+          .filter((m): m is Extract<ResultTagMatch, { status: "matched" }> => m.status === "matched")
+          .map((m) => m.tag.id),
       )
       if (missingFields.length) logKit("custom_fields_missing", { email: maskedEmail, missingFields })
       if (missingCore.length) personalizationIssues.push("missing_core_fields")
-      if (!resultTagId) {
-        logKit("result_tag_missing", { email: maskedEmail, tagName: RESULT_TAG_NAMES[quiz.resultType] })
-        personalizationIssues.push("missing_result_tag")
+      if (match.status === "matched") {
+        resultTagId = match.tag.id
+        resultTagName = match.tag.name
+      } else {
+        logKit(match.status === "ambiguous" ? "result_tag_ambiguous" : "result_tag_missing", {
+          email: maskedEmail,
+          resultType: quiz.resultType,
+          expectedTagName: RESULT_TAG_NAMES[quiz.resultType],
+          ...(match.status === "ambiguous" ? { candidates: match.candidates } : {}),
+          totalTags: metadata.tags.length,
+          doshaLikeTags: doshaLikeTagNames(metadata.tags),
+        })
+        personalizationIssues.push(match.status === "ambiguous" ? "ambiguous_result_tag" : "missing_result_tag")
       }
     } catch (error) {
       logKit("metadata_lookup_failed", {
@@ -258,7 +342,6 @@ export async function POST(request: Request) {
         api_key: apiKey,
         email: normalizedEmail,
         ...(kitFields && Object.keys(kitFields).length ? { fields: kitFields } : {}),
-        ...(resultTagId ? { tags: [resultTagId] } : {}),
       }),
       signal: AbortSignal.timeout(KIT_TIMEOUT_MS),
       cache: "no-store",
@@ -295,12 +378,40 @@ export async function POST(request: Request) {
       subscriberState: subscription.subscriber?.state ?? null,
       resultType: quiz?.resultType ?? null,
       fieldsSent: kitFields ? Object.keys(kitFields) : [],
-      tagSent: Boolean(resultTagId),
     })
+
+    // Tagging runs only after the subscriber and fields are saved; any failure
+    // here is logged and reported as partial, never as a failed signup.
+    let tagApplied = false
+    if (quiz && resultTagId) {
+      try {
+        const tagResult = await applyTag(apiKey, resultTagId, normalizedEmail)
+        tagApplied = tagResult.ok
+        logKit(tagResult.ok ? "result_tag_applied" : "result_tag_failed", {
+          email: maskedEmail,
+          resultType: quiz.resultType,
+          tagId: resultTagId,
+          tagName: resultTagName,
+          status: tagResult.status,
+          ...(tagResult.ok ? {} : { kitError: tagResult.kitError, kitMessage: tagResult.kitMessage }),
+        })
+        if (!tagResult.ok) personalizationIssues.push("result_tag_failed")
+      } catch (error) {
+        logKit("result_tag_failed", {
+          email: maskedEmail,
+          resultType: quiz.resultType,
+          tagId: resultTagId,
+          tagName: resultTagName,
+          errorName: error instanceof Error ? error.name : "unknown",
+          errorMessage: error instanceof Error ? error.message.slice(0, 200) : null,
+        })
+        personalizationIssues.push("result_tag_failed")
+      }
+    }
 
     const subscriberId = subscription.subscriber?.id
     const apiSecret = process.env.KIT_API_SECRET
-    if (quiz && resultTagId && resultTagIds.size > 1) {
+    if (quiz && resultTagId && tagApplied && resultTagIds.size > 1) {
       if (!apiSecret) {
         logKit("stale_tag_cleanup_skipped", { email: maskedEmail, reason: "missing_api_secret" })
       } else if (!subscriberId) {
