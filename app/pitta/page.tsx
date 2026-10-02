@@ -120,7 +120,11 @@ export default function PittaPage() {
               <div>
                 <h3 className="font-serif text-xl md:text-2xl text-foreground mb-3">Food That Cools</h3>
                 <p>
-                  Eat cooling foods: leafy greens, coconut, cucumber, fresh fruit, cooling grains (basmati rice, oats). Reduce heating foods: spicy food, alcohol, red meat. Reduce alcohol especially — for Pitta, alcohol is particularly heating and inflammatory. Your digestion will improve noticeably when heating foods are reduced.
+                  Eat cooling foods: leafy greens, coconut, cucumber, fresh fruit, cooling grains (basmati rice, oats). Reduce heating foods: spicy food, alcohol, red meat. Reduce alcohol especially — for Pitta, alcohol is particularly heating and inflammatory. Your digestion will improve noticeably when heating foods are reduced. For meal-by-meal guidance and a full 7-day plan, see the{" "}
+                  <Link href="/blog/pitta-diet-plan" className="text-[#C97F3D] hover:underline font-medium">
+                    Pitta diet plan
+                  </Link>
+                  .
                 </p>
               </div>
 
