@@ -4472,38 +4472,88 @@ export const posts: Post[] = [
     category: "Editorial",
     title: "Ayurvedic Diet vs Keto: Why One Size Never Fits All",
     date: "April 14, 2026",
-    excerpt: "Keto works dramatically for some people and makes others worse. Ayurveda predicts exactly who \u2014 and explains why the same diet helps Kapha types and harms Vata types.",
-    seoTitle: "Ayurvedic Diet vs Keto: Why One Size Never Fits All",
-    seoDescription: "Keto works dramatically for some people and makes others worse. Ayurveda predicts exactly who \u2014 and explains why the same diet helps Kapha types and harms",
-    content: `<p>Keto has been one of the most popular dietary frameworks of the last decade. High fat, very low carbohydrate, moderate protein. The claimed benefits: weight loss, mental clarity, stable energy, reduced inflammation. For some people it produces dramatic results. For others it makes things meaningfully worse. Ayurveda would predict exactly this variation \u2014 and it would identify in advance which people it would help and which it would harm.</p><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
-  <div style="font-size:18px;font-style:italic;color:#4a3728;font-family:Georgia,serif;max-width:560px;margin:0 auto;line-height:1.7;">Keto works dramatically for some people and makes others worse. Ayurveda predicts exactly who \u2014 before they try it.</div>
-  <div style="color:#b5763a;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin-top:20px;">The same diet. Completely different outcomes. Dosha explains why.</div>
-</div><h2>The Keto Framework.</h2><p>Ketogenic eating shifts the body's primary fuel source from glucose to ketones from fat. The practical implementation: fat at 70-80% of calories, carbohydrates under 20-50g per day, moderate protein. In practice: meat, eggs, butter, cream, cheese, oils, and non-starchy vegetables. Almost no grains, fruit, legumes, or sweeteners.</p><h2>The Dosha Analysis.</h2><p>For Kapha types, keto is directionally correct: Kapha is the dosha that gains weight most easily, craves sweet and heavy food most strongly, and benefits most from metabolic stimulation and carbohydrate reduction. The Ayurvedic Kapha diet is low in grains, low in sugar, light, stimulating, and heavy on warming spices \u2014 substantially compatible with ketogenic principles. Keto is most likely to produce the dramatic results it is famous for in Kapha people and most likely to be sustainable for them. The limitation: classic keto is heavy on dairy (cheese, butter, cream), which is highly Kapha-aggravating. A Kapha-adapted keto approach would use ghee and coconut oil rather than dairy fat, with generous warming spices. For Pitta types, keto is mixed: Pitta has the strongest digestive capacity and a high-fat diet is generally well-tolerated. The mental clarity effects are often pronounced. The problem: classic keto is heavily animal-protein and dairy-based \u2014 red meat, bacon, heavy cream, aged cheeses are all heating and Pitta-aggravating. A Pitta-adapted keto using coconut oil and ghee rather than animal fat, with cooling vegetables and low spice levels, would capture metabolic benefits without Pitta aggravation. For Vata types, conventional keto is problematic: the Vata diet requires warmth, moisture, nourishment \u2014 qualities that support the naturally dry, irregular, depleted Vata constitution. Keto's elimination of grains, fruit, legumes, and most sweet-tasting foods removes a significant portion of the foods most beneficial for Vata. The dryness of a high-fat no-grain diet increases Vata's already-prominent dryness. Constipation \u2014 the most common Vata digestive complaint \u2014 is significantly worsened by very low carbohydrate eating in most Vata types. A Vata-adapted ketogenic approach would be higher in warming moist foods \u2014 avocado, nuts, coconut cream, warm soups with fat.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 16px;">
-    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Dosha</div>
-    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Keto compatibility</div>
-    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Main risk</div>
-    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Adaptation needed</div>
-  </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 16px;background:#faf7f2;border-bottom:1px solid #e0d5c5;align-items:center;">
-    <div style="font-size:14px;font-weight:700;color:#2a1f14;">Kapha</div>
-    <div style="font-size:13px;color:#2d5a47;font-weight:700;">\u2713 High</div>
-    <div style="font-size:13px;color:#4a3728;">Too much dairy fat</div>
-    <div style="font-size:13px;color:#4a3728;">Use ghee/coconut, not dairy</div>
-  </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 16px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;align-items:center;">
-    <div style="font-size:14px;font-weight:700;color:#2a1f14;">Pitta</div>
-    <div style="font-size:13px;color:#b5763a;font-weight:700;">~ Mixed</div>
-    <div style="font-size:13px;color:#4a3728;">Too much animal protein</div>
-    <div style="font-size:13px;color:#4a3728;">Cooling fats, mild spices</div>
-  </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 16px;background:#faf7f2;align-items:center;">
-    <div style="font-size:14px;font-weight:700;color:#2a1f14;">Vata</div>
-    <div style="font-size:13px;color:#c0392b;font-weight:700;">\u2717 Low</div>
-    <div style="font-size:13px;color:#4a3728;">Dryness, constipation</div>
-    <div style="font-size:13px;color:#4a3728;">Not recommended without modification</div>
-  </div>
-</div><h2>What Ayurveda Offers That Keto Does Not.</h2><p>Keto is a metabolic intervention with real physiological effects. What keto does not account for: the seasonal dimension (ketosis in winter is very different from ketosis in summer), the individual agni variation (a weak agni struggles to process high quantities of fat regardless of macronutrient ratios), and the psychological and constitutional dimensions of food beyond its metabolic effects. Ayurveda's position is not that keto is wrong \u2014 it is that any dietary framework applied universally will help some people and harm others, and that the question is always: for this person, in this season, in this current state? For a Kapha type in winter who wants to lose weight: a Kapha-adapted ketogenic diet is very close to what Ayurveda would prescribe. For a Vata type with anxiety, irregular digestion, and poor sleep: keto will likely make the anxiety, constipation, and sleep worse before it makes anything better.</p><div style="background-color: #f5ede1; padding: 24px; border-radius: 8px; margin-top: 40px; margin-bottom: 40px; border-left: 4px solid #c49a6c"><p style="margin-bottom: 16px; line-height: 1.75; font-weight: 500">Learn your dosha type</p><a href="/quiz" style="display: inline-block; background-color: #8a7a5a; color: #fdf8f3; padding: 12px 24px; border-radius: 24px; text-decoration: none; font-weight: 600; font-size: 14px">Take the Free Dosha Quiz \u2192</a></div>`,
+    excerpt: "Keto works well for some people and leaves others constipated, wired and miserable. Here\u2019s what the research says about keto, what Ayurveda says about eating for your type, where the two agree \u2014 and where they really don\u2019t.",
+    seoTitle: "Ayurveda vs Keto: Which Diet Fits Your Dosha? | DoshaFlow",
+    seoDescription: "Ayurveda vs keto: what each diet gets right, where they clash, how keto may suit Kapha but strain Vata, and what the evidence actually shows.",
+    content: `
+<p>Ayurveda vs keto looks like a clash between an ancient system and a modern one, but the more interesting question is simpler: why does keto work brilliantly for some people and badly for others? Some people lose weight, feel clear-headed and stop craving sugar. Others end up constipated, cold, anxious and sleeping badly within a fortnight.</p>
+<p>Ayurveda has a framework for that kind of variation \u2014 the idea that the same diet affects different constitutions differently. It isn\u2019t a scientific predictor, and no study has tested keto outcomes by dosha. But it\u2019s a useful lens for thinking about who keto is likely to suit, how to adapt it, and when to skip it entirely.</p>
+
+<h2 id="what-keto-is">What keto actually is</h2>
+<p>A ketogenic diet cuts carbohydrates so low that the body shifts from burning mainly glucose to burning fat and producing ketones. In practice that means roughly 70\u201380% of calories from fat, moderate protein, and very few carbs: meat, fish, eggs, butter, cheese, oils, nuts and non-starchy vegetables, with almost no grains, legumes, fruit or sugar.</p>
+<div class="stat-callout"><span class="stat-number">20\u201350 g</span><span class="stat-label">Typical daily carbohydrate limit on a standard ketogenic diet \u2014 about one large banana and a slice of bread</span></div>
+
+<h2 id="what-the-evidence-says">What the evidence says about keto</h2>
+<p><span class="evidence-badge evidence-badge--stronger" title="Evidence labels describe the basis for a claim, not a guarantee of effectiveness.">Modern Evidence \u2014 Stronger</span></p>
+<p class="evidence-note">Evidence labels describe the basis for a claim, not a guarantee of effectiveness.</p>
+<p>Keto has been studied a lot, and the honest summary is more modest than the hype:</p>
+<ul>
+<li><strong>Early weight loss is real but partly water.</strong> Cutting carbs empties stored glycogen, which holds water, so the scale drops quickly in the first couple of weeks.</li>
+<li><strong>It suppresses appetite for many people</strong>, which is a big part of why it works when it works.</li>
+<li><strong>At a year, it usually isn\u2019t better.</strong> Large trials comparing low-carb and low-fat diets have found similar average weight loss at 12 months \u2014 with enormous variation between individuals in both groups.</li>
+<li><strong>Common downsides:</strong> \u201cketo flu\u201d in the first week (headache, fatigue, irritability), constipation from low fibre, and a rise in LDL cholesterol in some people, occasionally a large one.</li>
+<li><strong>Medical keto is different.</strong> Supervised ketogenic diets are an established treatment for some forms of epilepsy. That\u2019s not the same as keto for weight loss.</li>
+</ul>
+<p>The takeaway: keto is one workable way to lose weight for people who find it easy to stick to. It isn\u2019t metabolically magic, and the biggest predictor of success is whether you can sustain it.</p>
+
+<h2 id="what-ayurveda-says">What Ayurveda says about diet</h2>
+<p><span class="evidence-badge evidence-badge--traditional" title="Evidence labels describe the basis for a claim, not a guarantee of effectiveness.">Traditional Ayurvedic Use</span></p>
+<p>Ayurveda doesn\u2019t count macronutrients. It thinks about food in terms of qualities \u2014 warm or cold, heavy or light, moist or dry \u2014 and how those qualities interact with your constitution and your digestive strength (agni). Its core principles are: eat mostly cooked, warm food; make lunch the main meal; eat at regular times; include all six tastes over the day; adjust for season; and match the diet to your dosha.</p>
+<p>That last point is the crucial difference. Keto is one prescription for everyone. Ayurveda says there is no single right diet \u2014 only the right diet for a particular person at a particular time.</p>
+
+<h2 id="where-they-agree">Where Ayurveda and keto agree</h2>
+<ul>
+<li><strong>Less sugar and refined flour.</strong> Both treat sweets, white bread and pastries as a problem for most people.</li>
+<li><strong>Less grazing.</strong> Ayurveda discourages constant snacking; keto\u2019s appetite suppression often produces the same result.</li>
+<li><strong>Real food over packaged food.</strong> Both favour cooking from whole ingredients.</li>
+<li><strong>Fat isn\u2019t the enemy.</strong> Ayurveda has always valued ghee and oils, long before low-fat diets went out of fashion.</li>
+</ul>
+
+<h2 id="where-they-clash">Where they really don\u2019t agree</h2>
+<ul>
+<li><strong>Grains, legumes and fruit.</strong> Rice, oats, mung dal, lentils and ripe fruit are staples of an Ayurvedic diet. Keto removes nearly all of them.</li>
+<li><strong>Heavy, cold, aged foods.</strong> Typical keto meals lean on cheese, cream, bacon and cold salads. Ayurveda considers many of these hard to digest, especially in quantity.</li>
+<li><strong>Rigidity.</strong> Keto works by staying under a strict carb limit. Ayurveda expects you to adjust what you eat with the season, your stress and your digestion.</li>
+</ul>
+
+<h2 id="keto-by-dosha">Keto through a dosha lens</h2>
+<p>This section is a traditional framework, not a proven predictor. It\u2019s best used as a set of hypotheses to test on yourself.</p>
+<p><strong>Kapha</strong> is the type Ayurveda describes as gaining weight easily, craving sweet and heavy food, and running slow. Cutting sugar and starch is broadly in line with the Kapha diet, so keto is most likely to feel good here. The adaptation: classic keto is very heavy on dairy, which Ayurveda considers Kapha-aggravating. A Kapha-friendly version leans on lean protein, cooked vegetables, warming spices and modest ghee rather than cheese and cream.</p>
+<p><strong>Pitta</strong> has strong digestion and usually handles fat well, and many Pitta types like the clarity of steady, low-sugar eating. The problem is that keto staples \u2014 red meat, bacon, aged cheese, chilli-heavy flavourings \u2014 are heating, and Pitta runs hot. A Pitta-friendly version uses cooling vegetables, coconut and ghee, more fish and eggs than red meat, and less spice. Watch for irritability and heartburn.</p>
+<p><strong>Vata</strong> is where keto most often goes wrong. Vata is described as dry, light, cold and irregular, and does best on warm, moist, grounding food \u2014 exactly the grains, root vegetables and fruit keto removes. The low fibre often worsens Vata\u2019s tendency to constipation, and very low carb intake can leave Vata types more anxious and sleeping worse. If a Vata type wants to cut carbs, a moderate approach usually works better than strict keto.</p>
+
+<table>
+<thead><tr><th>Dosha</th><th>Keto fit (traditional view)</th><th>Main risk</th><th>If you try it</th></tr></thead>
+<tbody>
+<tr><td>Kapha</td><td>Often good</td><td>Too much cheese and cream</td><td>Lean protein, cooked vegetables, warming spices, less dairy</td></tr>
+<tr><td>Pitta</td><td>Mixed</td><td>Heating foods: red meat, bacon, aged cheese, chilli</td><td>Cooling vegetables, fish and eggs, coconut and ghee, less spice</td></tr>
+<tr><td>Vata</td><td>Often poor</td><td>Constipation, dryness, anxiety, poor sleep</td><td>Moderate low-carb instead; keep rice, oats and root vegetables</td></tr>
+</tbody>
+</table>
+
+<h2 id="middle-path">A middle path: lower-carb, Ayurveda-style</h2>
+<p>For most people the useful parts of keto can be kept without the strictness:</p>
+<ul>
+<li>Cut sugar, sweet drinks and refined flour \u2014 this captures much of the benefit.</li>
+<li>Build meals around cooked vegetables, protein and a moderate portion of whole grains or legumes suited to your type.</li>
+<li>Make lunch the biggest meal and keep dinner lighter and earlier.</li>
+<li>Use ghee and good oils freely enough to stay satisfied.</li>
+<li>Cook with digestive spices \u2014 ginger, cumin, black pepper, turmeric.</li>
+</ul>
+<p>Kapha types can go further toward low-carb; Vata types should keep more warm starches; Pitta sits in between.</p>
+
+<h2 id="who-should-not">Who shouldn\u2019t start keto without medical advice</h2>
+<ul>
+<li>Anyone taking medication for diabetes \u2014 especially insulin or sulfonylureas, which can cause dangerous lows, or SGLT2 inhibitors, which carry a risk of ketoacidosis.</li>
+<li>Anyone who is pregnant or breastfeeding.</li>
+<li>Anyone with kidney disease, liver disease, gallbladder problems, or high LDL cholesterol or heart disease.</li>
+<li>Anyone with a history of disordered eating \u2014 strict food rules are rarely a good idea.</li>
+</ul>
+
+<h2 id="how-to-decide">How to decide what\u2019s right for you</h2>
+<p>If you\u2019re curious, treat it as a four-week experiment rather than a lifestyle. Start with the middle path for two weeks, and only go stricter if you feel well. Keep a short daily note on energy, sleep, mood, digestion and cravings. If constipation, anxiety or poor sleep creep in, that\u2019s a strong sign this approach doesn\u2019t suit you \u2014 whatever the scale says. And if you do go fully keto for more than a few weeks, ask your doctor to check your cholesterol.</p>
+<p>Not sure which dosha you are? <a href="/quiz">Take the free dosha quiz</a> first. Then go deeper with the <a href="/blog/kapha-diet-plan">Kapha diet plan</a>, the <a href="/blog/pitta-diet-plan">Pitta diet plan</a> or the <a href="/blog/vata-diet-plan">Vata diet plan</a>, and see <a href="/blog/ayurvedic-weight-loss">Ayurvedic weight loss</a> and <a href="/blog/ayurveda-intermittent-fasting">Ayurveda and intermittent fasting</a> for related approaches.</p>
+`,
   },
   {
     slug: "ghee-benefits-ayurveda",
