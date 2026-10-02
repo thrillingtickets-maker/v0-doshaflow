@@ -48,7 +48,7 @@ export default function AyurvedaForWomenPage() {
             </p>
 
             <p>
-              But almost every person who has taught me something meaningful about Ayurveda has been a woman. My practitioner in Kerala. The women at the retreat who were further along in their healing than I was. The researchers and writers who have done the deepest work integrating Ayurvedic principles with modern physiology. And the simple demographic reality: most of the people dealing with the specific things Ayurveda is best at — hormonal imbalance, chronic stress, sleep disruption, digestive issues, anxiety — are women.
+              But almost every person who has taught me something meaningful about Ayurveda has been a woman. My practitioner in Bengaluru. The women at the retreat who were further along in their healing than I was. The researchers and writers who have done the deepest work integrating Ayurvedic principles with modern physiology. And the simple demographic reality: most of the people dealing with the specific things Ayurveda is best at — hormonal imbalance, chronic stress, sleep disruption, digestive issues, anxiety — are women.
             </p>
 
             <p>
@@ -214,7 +214,7 @@ export default function AyurvedaForWomenPage() {
             </h3>
 
             <p>
-              The skin is Ayurveda's most legible diagnostic surface. Vata skin is dry, thin, and lines early — it needs oil, warmth, and hydration. Pitta skin is sensitive, reactive, and prone to breakouts and redness — it needs cooling, less heat, and anti-inflammatory foods. Kapha skin is oily, smooth, prone to cysts and congestion — it needs stimulation, less heaviness, and dry brushing.
+              In traditional Ayurvedic theory, the skin is one of the most visible reflections of your dosha pattern. Vata skin is dry, thin, and lines early — it needs oil, warmth, and hydration. Pitta skin is sensitive, reactive, and prone to breakouts and redness — it needs cooling, less heat, and anti-inflammatory foods. Kapha skin is oily, smooth, prone to cysts and congestion — it needs stimulation, less heaviness, and dry brushing.
             </p>
 
             <p>

@@ -91,7 +91,7 @@ export default function VataPage() {
                 For most people, Vata starts to go out of balance in their late twenties or thirties. For some, earlier. The pattern is predictable: you maintain it through willpower and stimulation (coffee, alcohol, screens) until one day the system just stops cooperating. You can't sleep no matter how tired you are. Your anxiety spikes without reason. Your digestion becomes unpredictable. You feel like you're running on fumes.
               </p>
               <p>
-                This is Vata imbalance. And conventional medicine has no framework for it because blood work comes back normal. The system isn't technically broken — it's just running in the wrong mode.
+                In Ayurvedic terms, this pattern is described as Vata imbalance. If symptoms like these persist, it&apos;s worth seeing a doctor to rule out medical causes, even if earlier tests came back normal. Ayurveda offers a traditional framework for thinking about these patterns, not a diagnosis.
               </p>
             </div>
           </section>
@@ -140,7 +140,7 @@ export default function VataPage() {
               <div>
                 <h3 className="font-serif text-xl md:text-2xl text-foreground mb-3">Herbs That Calm</h3>
                 <p>
-                  Ashwagandha for nervous system support and sleep. Brahmi for calming the mind. Triphala for gentle digestion. Sesame oil for grounding. These work best when used consistently over weeks, not as emergency measures.
+                  Ashwagandha, which has been studied for perceived stress and sleep. Brahmi for calming the mind. Triphala for gentle digestion. Sesame oil for grounding. These work best when used consistently over weeks, not as emergency measures.
                 </p>
               </div>
             </div>
@@ -156,10 +156,10 @@ export default function VataPage() {
                 <strong className="text-foreground">Week 1-2:</strong> You'll probably feel worse before better. The routine and early bedtime might feel restrictive. Stick with it.
               </p>
               <p>
-                <strong className="text-foreground">Week 3-4:</strong> Sleep will start to improve. You'll notice a slight reduction in daytime anxiety. Your digestion might shift — this is normal.
+                <strong className="text-foreground">Week 3-4:</strong> Many people notice sleep starting to settle and daytime restlessness easing slightly. Your digestion might shift. Individual responses vary.
               </p>
               <p>
-                <strong className="text-foreground">Month 2:</strong> The changes become more obvious. You're thinking more clearly. The anxiety has quieted noticeably. Your sleep is more reliable.
+                <strong className="text-foreground">Month 2:</strong> For some people the changes become more obvious: clearer thinking, a calmer baseline, more reliable sleep. If anxiety or sleep problems persist, talk to a healthcare professional.
               </p>
               <p>
                 <strong className="text-foreground">Month 3+:</strong> This is your new normal. The system has relearned how to rest. You understand your body in a different way. And you understand what happens when you stop — which gives you the choice to decide if it's worth it.

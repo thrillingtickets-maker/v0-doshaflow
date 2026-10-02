@@ -1,6 +1,8 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useRef, useState } from "react"
+import { trackEvent, getAttribution, sanitizeSourceSlug } from "@/lib/analytics"
+import { DOSHA_NAMES, DOSHA_PATTERN, DOSHA_PLAN, type DoshaKey } from "@/lib/dosha-plan"
 
 const questions = [
   // PHYSICAL CONSTITUTION
@@ -252,12 +254,12 @@ const results: Record<string, {
   V: {
     title: "Vata",
     subtitle: "Air & Space — The Creative",
-    description: "You are primarily Vata — the constitution of movement, creativity, and change. Your mind is quick and your energy electric. You think fast, feel deeply, and generate ideas that others can't keep up with. The challenge is landing. Vata out of balance becomes scattered, anxious, and depleted — your nervous system needs grounding the way a kite needs a string.",
+    description: "You are primarily Vata — the constitution of movement, creativity, and change. Your mind is quick and your energy electric. You think fast, feel deeply, and generate ideas that others can't keep up with. The challenge is landing. Vata out of balance is traditionally described as scattered, restless and depleted, needing grounding the way a kite needs a string.",
     strengths: ["Creative and visionary", "Quick to learn and adapt", "Enthusiastic and expressive", "Sensitive and intuitive"],
-    watchFor: ["Anxiety and racing thoughts", "Irregular sleep and digestion", "Exhaustion from overextension", "Tendency to start but not finish"],
+    watchFor: ["Racing thoughts and restlessness", "Irregular sleep and digestion", "Exhaustion from overextension", "Tendency to start but not finish"],
     diet: ["Warm, oily, nourishing foods", "Regular mealtimes (especially important for Vata)", "Ghee, sesame oil, root vegetables, soups", "Avoid cold, raw, and dry foods"],
     movement: ["Slow, grounding yoga (yin, restorative)", "Walking in nature", "Swimming", "Avoid intense or erratic exercise"],
-    herbs: ["Ashwagandha (nervous system)", "Brahmi (mental clarity)", "Triphala (digestion)", "Shatavari (nourishment)"],
+    herbs: ["Ashwagandha (traditionally for stress)", "Brahmi (mental clarity)", "Triphala (digestion)", "Shatavari (nourishment)"],
     kitColor: "#5a8fa3",
     kitLabel: "Vata Grounding Kit",
   },
@@ -266,10 +268,10 @@ const results: Record<string, {
     subtitle: "Fire & Water — The Achiever",
     description: "You are primarily Pitta — the constitution of transformation, ambition, and fire. You are focused, driven, and capable of extraordinary output. Your digestion is strong, your mind is sharp, and your standards are high. The challenge is heat. Pitta out of balance burns through everything — relationships, body, and patience. The medicine is release, not more intensity.",
     strengths: ["Sharp intellect and focus", "Natural leadership", "Strong digestion and metabolism", "Committed and decisive"],
-    watchFor: ["Irritability and anger under pressure", "Perfectionism and burnout", "Inflammation (skin, gut, joints)", "Difficulty switching off"],
+    watchFor: ["Irritability and anger under pressure", "Perfectionism and burnout", "Running hot (skin, digestion, temper)", "Difficulty switching off"],
     diet: ["Cooling, fresh, and sweet foods", "Coconut, cucumber, fennel, coriander", "Basmati rice, leafy greens, sweet fruits", "Avoid spicy, sour, and fermented foods"],
     movement: ["Moderate-intensity yoga", "Swimming and cycling", "Nature walks (not competitive)", "Avoid hot yoga or intense midday exercise"],
-    herbs: ["Shatavari (cooling)", "Amalaki (anti-inflammatory)", "Brahmi (calm focus)", "Rose (heart cooling)"],
+    herbs: ["Shatavari (cooling)", "Amalaki (traditionally cooling)", "Brahmi (calm focus)", "Rose (heart cooling)"],
     kitColor: "#b85c3a",
     kitLabel: "Pitta Cooling Kit",
   },
@@ -278,7 +280,7 @@ const results: Record<string, {
     subtitle: "Earth & Water — The Nurturer",
     description: "You are primarily Kapha — the constitution of strength, loyalty, and endurance. You are the person others rely on, the steady presence in a storm, the one who remembers and holds. Your capacity for love is enormous. The challenge is inertia. Kapha out of balance settles into heaviness — physical, emotional, and motivational. The medicine is stimulation, movement, and heat.",
     strengths: ["Deeply loyal and caring", "Calm under pressure", "Strong endurance and stamina", "Excellent long-term memory"],
-    watchFor: ["Sluggishness and low motivation", "Weight gain and water retention", "Attachment and difficulty with change", "Low mood or depression"],
+    watchFor: ["Sluggishness and low motivation", "Weight gain and water retention", "Attachment and difficulty with change", "Heavy or flat moods"],
     diet: ["Light, dry, spiced foods", "Millet, buckwheat, lentils, bitter greens", "Strong spices: ginger, black pepper, mustard seed", "Avoid dairy, heavy sweets, and cold food"],
     movement: ["Vigorous daily exercise (non-negotiable for Kapha)", "Brisk morning walks before eating", "Dynamic vinyasa yoga", "Strength training"],
     herbs: ["Trikatu (digestive fire)", "Guggul (metabolism)", "Ginger (stimulating)", "Honey (only Kapha-friendly sweetener)"],
@@ -290,7 +292,7 @@ const results: Record<string, {
     subtitle: "Air, Space & Fire — The Driven Creative",
     description: "You are Vata-Pitta — one of the most intellectually gifted and creatively ambitious constitutions. You have Vata's imagination and Pitta's drive, which means your ideas are both visionary and executable. The challenge: both doshas run hot and fast. You're prone to burning out from opposite directions — Vata exhausts from overstimulation, Pitta from overachievement. Grounding and cooling are your two most important practices.",
     strengths: ["Creative vision combined with focused execution", "Highly intelligent and quick", "Passionate and persuasive", "Adaptable under pressure"],
-    watchFor: ["Anxiety combined with irritability — a volatile mix", "Burnout from creative overwork", "Digestive irregularity that swings between Vata and Pitta patterns", "Sleep disrupted by both racing thoughts and early waking"],
+    watchFor: ["Restlessness combined with irritability", "Burnout from creative overwork", "Digestive irregularity that swings between Vata and Pitta patterns", "Sleep disrupted by both racing thoughts and early waking"],
     diet: ["Warm but not spicy — avoid extremes in either direction", "Ghee and cooling oils", "Sweet, bitter, and astringent tastes", "Regular mealtimes (Vata) with cooling foods (Pitta)"],
     movement: ["Moderate yoga — not too slow (Vata) or too intense (Pitta)", "Swimming is ideal for both", "Evening walks to cool Pitta and ground Vata"],
     herbs: ["Ashwagandha + Shatavari combination", "Brahmi (calms both doshas)", "Amalaki (cooling + nourishing)"],
@@ -300,9 +302,9 @@ const results: Record<string, {
   VK: {
     title: "Vata-Kapha",
     subtitle: "Air, Space & Earth — The Sensitive Nurturer",
-    description: "You are Vata-Kapha — a rare and interesting combination of the lightest and heaviest energies. You may feel like two different people: one anxious and scattered, the other slow and heavy. Your challenge is that Vata and Kapha seem contradictory, which can make you feel inconsistent or hard to understand. The key is warmth — warming, stimulating practices balance both doshas simultaneously.",
+    description: "You are Vata-Kapha — a rare and interesting combination of the lightest and heaviest energies. You may feel like two different people: one restless and scattered, the other slow and heavy. Your challenge is that Vata and Kapha seem contradictory, which can make you feel inconsistent or hard to understand. The key is warmth — warming, stimulating practices balance both doshas simultaneously.",
     strengths: ["Deep creativity with steady follow-through", "Intuitive and empathetic", "Strong memory combined with quick learning", "Grounded imagination"],
-    watchFor: ["Alternating anxiety and low mood", "Digestive problems that don't fit one pattern", "Pulling in two directions — wanting change (Vata) while resisting it (Kapha)", "Energy that's either too much or too little"],
+    watchFor: ["Alternating restlessness and heaviness", "Digestive problems that don't fit one pattern", "Pulling in two directions — wanting change (Vata) while resisting it (Kapha)", "Energy that's either too much or too little"],
     diet: ["Warm, lightly spiced food is your sweet spot", "Avoid cold/raw (Vata) AND heavy/sweet (Kapha)", "Soups and stews with ginger and cumin", "Regular mealtimes are essential"],
     movement: ["Warm, moderate yoga — neither too gentle nor too intense", "Morning movement to activate Kapha", "Walking in warm weather"],
     herbs: ["Trikatu (warming both doshas)", "Ashwagandha (steadying)", "Ginger tea daily"],
@@ -314,10 +316,10 @@ const results: Record<string, {
     subtitle: "Fire, Earth & Water — The Powerhouse",
     description: "You are Pitta-Kapha — one of the most physically powerful constitutions. You have Pitta's intensity and Kapha's endurance, which means you can go hard and sustain it. You're often the most capable person in the room and the one others rely on. The challenge is that both doshas resist release — Pitta through control, Kapha through attachment. Learning to let go is your central practice.",
     strengths: ["Exceptional physical and mental stamina", "Strong leadership and reliability", "Methodical and strategic", "Deep loyalty and commitment"],
-    watchFor: ["Stubbornness — both Pitta and Kapha resist change", "Weight gain combined with inflammation", "Slow metabolic accumulation over time", "Tendency to take on too much and carry it alone"],
+    watchFor: ["Stubbornness — both Pitta and Kapha resist change", "Weight gain combined with running hot", "Slow metabolic accumulation over time", "Tendency to take on too much and carry it alone"],
     diet: ["Light and cooling — avoid heavy, oily AND spicy foods", "Bitter greens, legumes, light grains", "Cooling spices: fennel, coriander, cumin", "Avoid dairy (Kapha) and spicy food (Pitta)"],
     movement: ["Regular vigorous exercise is essential", "Swimming and cycling ideal", "Avoid overheating (Pitta) but keep intensity high (Kapha)"],
-    herbs: ["Amalaki (cooling + light)", "Guggul (metabolism)", "Turmeric (anti-inflammatory)"],
+    herbs: ["Amalaki (cooling + light)", "Guggul (metabolism)", "Turmeric (traditionally warming)"],
     kitColor: "#7a4a3e",
     kitLabel: "Pitta-Kapha Balance Kit",
   },
@@ -375,6 +377,40 @@ export default function QuizPage() {
   const [loading, setLoading] = useState(false)
   const [copied, setCopied] = useState(false)
   const [hoveredCard, setHoveredCard] = useState<number | null>(null)
+  const [emailError, setEmailError] = useState("")
+  const startTimeRef = useRef<number | null>(null)
+  const emailCtaRef = useRef<HTMLDivElement | null>(null)
+  const pageViewTrackedRef = useRef(false)
+
+  useEffect(() => {
+    if (pageViewTrackedRef.current) return
+    pageViewTrackedRef.current = true
+    trackEvent("quiz_page_view", getAttribution())
+  }, [])
+
+  useEffect(() => {
+    if (!showResult || submitted) return
+    const node = emailCtaRef.current
+    if (!node) return
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          trackEvent("email_capture_view", { ...getAttribution(), dosha_result: type })
+          observer.disconnect()
+        }
+      },
+      { threshold: 0.5 },
+    )
+    observer.observe(node)
+    return () => observer.disconnect()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [showResult])
+
+  function handleStart() {
+    startTimeRef.current = Date.now()
+    trackEvent("quiz_start", getAttribution())
+    setShowIntro(false)
+  }
 
   const progress = Math.round((current / questions.length) * 100)
   const q = questions[current]
@@ -387,6 +423,11 @@ export default function QuizPage() {
       const newAnswers = [...answers, { dosha: q.answers[idx].dosha }]
       setAnswers(newAnswers)
       setSelected(null)
+      trackEvent("quiz_question_progress", {
+        question_number: current + 1,
+        total_questions: questions.length,
+        source_article: getAttribution().source_article,
+      })
       if (current + 1 >= questions.length) {
         setShowResult(true)
         const finalCounts = newAnswers.reduce(
@@ -394,18 +435,25 @@ export default function QuizPage() {
           {} as Record<string, number>
         )
         const finalResult = getResult(finalCounts.V || 0, finalCounts.P || 0, finalCounts.K || 0)
-        console.log("[v0] firing quiz-complete POST, result:", finalResult.result.title)
+        const completion = {
+          ...getAttribution(),
+          dosha_result: finalResult.type,
+          quiz_completion_time: startTimeRef.current
+            ? Math.round((Date.now() - startTimeRef.current) / 1000)
+            : undefined,
+        }
+        trackEvent("quiz_complete", completion)
+        trackEvent("quiz_result_view", completion)
         fetch("/api/quiz-complete", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             result: finalResult.result.title,
             email: email || undefined,
+            source: sanitizeSourceSlug(new URLSearchParams(window.location.search).get("source")),
             timestamp: new Date(),
           }),
-        })
-          .then((res) => console.log("[v0] quiz-complete response status:", res.status))
-          .catch((err) => console.log("[v0] quiz-complete fetch error:", err))
+        }).catch(() => {})
       } else {
         setCurrent(current + 1)
       }
@@ -420,20 +468,45 @@ export default function QuizPage() {
     ? getResult(counts.V || 0, counts.P || 0, counts.K || 0)
     : { type: "", vPct: 0, pPct: 0, kPct: 0, result: results.V }
 
-  async function handleSubmit() {
-    if (!email || !email.includes("@")) return
+  async function handleSubmit(event?: React.FormEvent) {
+    event?.preventDefault()
+    if (loading || submitted) return
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      setEmailError("Please enter a valid email address.")
+      return
+    }
+    setEmailError("")
     setLoading(true)
     try {
-      await fetch("/api/subscribe", {
+      const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email }),
       })
+      if (!res.ok) {
+        const data = await res.json().catch(() => null)
+        setEmailError(typeof data?.error === "string" ? data.error : "Something went wrong. Please try again.")
+        return
+      }
+      trackEvent("email_capture_submit", { ...getAttribution(), dosha_result: type })
       setSubmitted(true)
     } catch {
+      setEmailError("Something went wrong. Please try again.")
+    } finally {
       setLoading(false)
     }
   }
+
+  const ranked = (
+    [
+      { key: "V" as DoshaKey, pct: vPct },
+      { key: "P" as DoshaKey, pct: pPct },
+      { key: "K" as DoshaKey, pct: kPct },
+    ]
+  ).sort((a, b) => b.pct - a.pct)
+  const dominant = ranked[0].key
+  const secondary = ranked[1].key
+  const plan = DOSHA_PLAN[dominant]
 
   return (
     <>
@@ -469,6 +542,12 @@ export default function QuizPage() {
         .result-description { font-size: 1rem; line-height: 1.8; color: #2c2218; margin-bottom: 1.5rem; }
         .result-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem; }
         .result-card { background: white; border: 1px solid #e0d8cc; border-radius: 1rem; padding: 1.25rem; }
+        .result-card-text { font-size: 0.88rem; line-height: 1.6; color: #5a4a3a; margin: 0; }
+        .result-card-highlight { border-color: #b5763a; background: #fbf5ec; }
+        .result-card ol { padding-left: 1.1rem; margin: 0; font-size: 0.88rem; line-height: 1.6; color: #5a4a3a; }
+        .result-card ol li { margin-bottom: 0.35rem; }
+        .result-disclaimer { font-size: 0.85rem; line-height: 1.6; color: #e8d9c5; text-align: center; margin: 0 0 1.5rem; }
+        .email-error { font-size: 0.85rem; margin-top: 0.75rem; font-weight: 600; }
         .result-card h4 { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #7a5c3e; margin-bottom: 0.75rem; }
         .result-card ul { list-style: none; padding: 0; margin: 0; }
         .result-card ul li { font-size: 0.83rem; color: #2c2218; padding: 0.2rem 0; border-bottom: 1px solid #f5f0e8; line-height: 1.4; }
@@ -590,7 +669,10 @@ export default function QuizPage() {
                 <p className="intro-desc">
                   This free dosha quiz walks through 25 quick questions across body, mind, digestion, sleep, and stress to reveal your Ayurvedic body type — whether you're Vata, Pitta, Kapha, or a combination — with a full percentage breakdown and personalized recommendations.
                 </p>
-                <button className="start-btn" onClick={() => setShowIntro(false)}>
+                <p style={{ fontSize: "0.85rem", color: "#7a6a58", lineHeight: 1.6, marginTop: "-0.5rem", marginBottom: "1.5rem" }}>
+                  An educational tool, not a medical assessment. No email needed to see your results.
+                </p>
+                <button className="start-btn" onClick={handleStart}>
                   Start My Free Dosha Quiz →
                 </button>
                 <div style={{ fontSize: "0.8rem", color: "#a89880", marginTop: "1rem", letterSpacing: "0.05em" }}>
@@ -696,13 +778,13 @@ export default function QuizPage() {
           ) : (
             <>
               <div className="result-header">
-                <div className="result-tag" style={{ background: result.kitColor }}>Your Constitution</div>
+                <div className="result-tag" style={{ background: result.kitColor }}>Your DoshaFlow Profile</div>
                 <div className="result-title">{result.title}</div>
                 <div className="result-subtitle">{result.subtitle}</div>
               </div>
 
               <div className="dosha-bars">
-                <h3>Your Dosha Breakdown</h3>
+                <h3>Your Dosha Percentages</h3>
                 <div className="dosha-bar-row">
                   <div className="dosha-bar-label"><span>Vata (Air & Space)</span><span className="dosha-bar-pct">{vPct}%</span></div>
                   <div className="dosha-bar-track"><div className="dosha-bar-fill" style={{ width: `${vPct}%`, background: "#5a8fa3" }} /></div>
@@ -721,52 +803,89 @@ export default function QuizPage() {
 
               <div className="result-grid">
                 <div className="result-card">
-                  <h4>Your Strengths</h4>
+                  <h4>Dominant Pattern: {DOSHA_NAMES[dominant]}</h4>
+                  <p className="result-card-text">{DOSHA_PATTERN[dominant]}</p>
+                </div>
+                <div className="result-card">
+                  <h4>Secondary Pattern: {DOSHA_NAMES[secondary]}</h4>
+                  <p className="result-card-text">{DOSHA_PATTERN[secondary]}</p>
+                </div>
+                <div className="result-card">
+                  <h4>Your Strongest Tendencies</h4>
                   <ul>{result.strengths.map((s, i) => <li key={i}>{s}</li>)}</ul>
                 </div>
                 <div className="result-card">
-                  <h4>Watch For</h4>
+                  <h4>What May Throw You Off Balance</h4>
                   <ul>{result.watchFor.map((s, i) => <li key={i}>{s}</li>)}</ul>
                 </div>
                 <div className="result-card">
-                  <h4>Diet Principles</h4>
+                  <h4>Morning Routine</h4>
+                  <ul>{plan.morning.map((s, i) => <li key={i}>{s}</li>)}</ul>
+                </div>
+                <div className="result-card">
+                  <h4>Food Suggestions</h4>
                   <ul>{result.diet.map((s, i) => <li key={i}>{s}</li>)}</ul>
+                </div>
+                <div className="result-card">
+                  <h4>Sleep Suggestions</h4>
+                  <ul>{plan.sleep.map((s, i) => <li key={i}>{s}</li>)}</ul>
+                </div>
+                <div className="result-card">
+                  <h4>Stress-Support Habits</h4>
+                  <ul>{plan.stress.map((s, i) => <li key={i}>{s}</li>)}</ul>
                 </div>
                 <div className="result-card">
                   <h4>Movement</h4>
                   <ul>{result.movement.map((s, i) => <li key={i}>{s}</li>)}</ul>
                 </div>
+                <div className="result-card result-card-highlight">
+                  <h4>Three Things to Try This Week</h4>
+                  <ol>{plan.thisWeek.map((s, i) => <li key={i}>{s}</li>)}</ol>
+                </div>
               </div>
 
               <div className="result-card" style={{ marginBottom: "1.5rem" }}>
-                <h4>Key Herbs for Your Type</h4>
+                <h4>Herbs Traditionally Used for Your Type</h4>
                 <ul style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem", listStyle: "none", padding: 0, margin: 0 }}>
                   {result.herbs.map((h, i) => (
                     <li key={i} style={{ background: "#f5f0e8", border: "1px solid #e0d8cc", borderRadius: "2rem", padding: "0.2rem 0.7rem", fontSize: "0.8rem", color: "#7a5c3e", fontWeight: 600 }}>{h}</li>
                   ))}
                 </ul>
+                <p className="result-card-text" style={{ marginTop: "0.75rem" }}>
+                  Check with a doctor or pharmacist before taking any herbal supplement, especially if you are pregnant, breastfeeding or take medication.
+                </p>
               </div>
 
-              <div className="kit-cta" style={{ background: `linear-gradient(135deg, ${result.kitColor} 0%, ${result.kitColor}cc 100%)` }}>
-                <h3>Get your {result.kitLabel}</h3>
-                <p>A personalized 7-day meal guide, movement program, daily rituals, and herbal recommendations — built for your {result.title} constitution.</p>
+              <p className="result-disclaimer">
+                Your result describes traditional Ayurvedic tendencies for education and self-understanding. It is not a medical assessment or diagnosis.
+              </p>
+
+              <div className="kit-cta" ref={emailCtaRef} style={{ background: `linear-gradient(135deg, ${result.kitColor} 0%, ${result.kitColor}cc 100%)` }}>
+                <h3>Email me my complete DoshaFlow plan</h3>
+                <p>Save your results and receive a printable routine with food, sleep and stress-support suggestions for your profile.</p>
                 {!submitted ? (
-                  <div className="email-row">
+                  <form className="email-row" onSubmit={handleSubmit} noValidate>
+                    <label htmlFor="quiz-email" className="sr-only">Email address</label>
                     <input
+                      id="quiz-email"
                       type="email"
+                      autoComplete="email"
                       className="email-input"
                       placeholder="Your email address"
                       value={email}
                       onChange={e => setEmail(e.target.value)}
+                      aria-invalid={emailError ? true : undefined}
+                      aria-describedby={emailError ? "quiz-email-error" : undefined}
                     />
-                    <button className="kit-btn" style={{ color: result.kitColor }} onClick={handleSubmit} disabled={loading}>
-                      {loading ? "..." : "Send my kit →"}
+                    <button type="submit" className="kit-btn" style={{ color: result.kitColor }} disabled={loading}>
+                      {loading ? "Sending..." : "Email my plan"}
                     </button>
-                  </div>
+                  </form>
                 ) : (
-                  <div className="success-note">You're on the list — your kit is coming.</div>
+                  <div className="success-note" role="status">Done. Your DoshaFlow plan is on its way to your inbox.</div>
                 )}
-                <p className="privacy-note">No spam. Just your personalized report.</p>
+                {emailError && <p id="quiz-email-error" className="email-error" role="alert">{emailError}</p>}
+                <p className="privacy-note">Optional. Your full results are already shown above. Unsubscribe anytime.</p>
               </div>
 
               <div className="share-row">
@@ -800,7 +919,7 @@ export default function QuizPage() {
                 </button>
               </div>
 
-              <button className="retake-btn" onClick={() => { setShowIntro(true); setCurrent(0); setAnswers([]); setSelected(null); setShowResult(false); setEmail(""); setSubmitted(false); }}>
+              <button className="retake-btn" onClick={() => { setShowIntro(true); setCurrent(0); setAnswers([]); setSelected(null); setShowResult(false); setEmail(""); setEmailError(""); setSubmitted(false); startTimeRef.current = null; }}>
                 Retake the quiz
               </button>
             </>

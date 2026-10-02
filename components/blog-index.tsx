@@ -411,7 +411,7 @@ function BlogContent({ page: currentPage }: { page: number }) {
                     >
                       <div>
                         <div style={{ fontSize: "10px", fontStyle: "italic", color: "#b5763a", marginBottom: "12px" }}>
-                          📍 Kerala · Featured
+                          📍 Bengaluru · Featured
                         </div>
                         <h2 style={{ fontSize: "28px", fontWeight: 700, lineHeight: 1.3, marginBottom: "16px", color: "#1a1a1a", fontStyle: "italic" }}>
                           <Link href={`/blog/${featured.slug}`} style={{ color: "inherit", textDecoration: "none" }}>
@@ -452,7 +452,7 @@ function BlogContent({ page: currentPage }: { page: number }) {
                         textAlign: "center",
                         padding: "24px",
                       }}>
-                        [Featured image: Kerala retreat scene]
+                        [Featured image: Bengaluru retreat scene]
                       </div>
                     </article>
                   )
@@ -570,7 +570,7 @@ function BlogContent({ page: currentPage }: { page: number }) {
                         color: "#b5763a",
                         marginBottom: "8px",
                       }}>
-                        📍 Kerala
+                        📍 Bengaluru
                       </div>
                     )}
                     <time style={{

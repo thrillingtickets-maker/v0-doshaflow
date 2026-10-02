@@ -7,13 +7,13 @@ const doshaCards = [
   {
     title: "Vata",
     subtitle: "Air & Ether",
-    description: "Anxiety, sleep, digestion, dry skin",
+    description: "Variable energy, lighter sleep, irregular digestion, dryness",
     href: "/vata",
   },
   {
     title: "Pitta",
     subtitle: "Fire & Water",
-    description: "Inflammation, anger, overwork, skin flares",
+    description: "Heat, intensity, strong appetite, overwork",
     href: "/pitta",
   },
   {

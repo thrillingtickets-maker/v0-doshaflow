@@ -222,3 +222,65 @@ html {
     @apply text-lg;
   }
 }
+
+/* Evidence labels, safety notes and sources (shared by React components and article HTML) */
+.evidence-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  margin: 0 6px 6px 0;
+  border-radius: 999px;
+  border: 1px solid #e0d5c5;
+  background: #faf6f0;
+  color: #6b5640;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 1.6;
+  white-space: nowrap;
+  cursor: help;
+}
+.evidence-badge::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: currentColor;
+}
+.evidence-badge--stronger { color: #2d5a47; border-color: #c9dbd1; background: #f1f6f3; }
+.evidence-badge--emerging { color: #8a5a22; border-color: #ead7bd; background: #fbf5ec; }
+.evidence-badge--traditional { color: #7a4a2e; border-color: #e6d3c3; background: #faf3ee; }
+.evidence-badge--founder { color: #5a5048; border-color: #ddd5cc; background: #f6f3f0; }
+.evidence-note {
+  font-size: 14px !important;
+  line-height: 1.6 !important;
+  color: #7a6a58 !important;
+  font-style: italic;
+}
+.safety-note {
+  margin: 24px 0;
+  padding: 16px 20px;
+  border-radius: 10px;
+  border: 1px solid #ead7bd;
+  background: #fbf5ec;
+  color: #4a3728;
+  font-size: 15px;
+  line-height: 1.7;
+}
+.sources-evidence {
+  margin-top: 48px;
+  padding: 24px 28px;
+  border-radius: 12px;
+  border: 1px solid #e8d9c5;
+  background: #faf6f0;
+}
+.sources-evidence__title { font-size: 18px; font-weight: 700; color: #2c1a0e; margin: 0 0 8px; }
+.sources-evidence__empty { margin: 0; color: #7a6a58; font-size: 15px; line-height: 1.6; }
+.sources-evidence__list { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 14px; }
+.sources-evidence__study { margin: 0; font-weight: 600; color: #2c1a0e; font-size: 15px; }
+.sources-evidence__meta, .sources-evidence__note { margin: 2px 0 0; color: #7a6a58; font-size: 14px; }
+.sources-evidence__links { margin: 4px 0 0; display: flex; gap: 12px; font-size: 14px; }
+.sources-evidence__links a { color: #b5763a; text-decoration: underline; }

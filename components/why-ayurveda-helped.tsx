@@ -32,7 +32,7 @@ export function WhyAyurvedaHelped() {
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed mb-8 font-light">
-            My burnout wasn't a personal failure. It was my nervous system telling me that modern life had broken my capacity to rest. My digestion wasn't weak. It was struggling because I was eating in a state of stress. My sleep wasn't defective. It was poor because my circadian rhythm had been obliterated by inconsistent schedules and constant stimulation.
+            My burnout wasn't a personal failure. It felt like my whole system telling me that modern life had worn down my capacity to rest. My digestion wasn't weak. It was struggling because I was eating in a state of stress. My sleep wasn't defective. It was poor because my circadian rhythm had been obliterated by inconsistent schedules and constant stimulation.
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed mb-8 font-light">

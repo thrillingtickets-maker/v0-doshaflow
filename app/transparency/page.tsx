@@ -29,15 +29,14 @@ const sections = [
     id: "founder",
     title: "Founder Information",
     body: [
-      "DoshaFlow was founded by Alex Osborne, Founder — someone who needed it first, not a doctor or a credentialed Ayurvedic practitioner, and we don't claim otherwise. Alex built DoshaFlow after personal burnout and time spent at an Ayurvedic retreat in Kerala, India — frustrated with how wellness advice was either vague mysticism or aggressive optimization.",
-      "The platform was built after a personal experience at an Ayurvedic retreat in Kerala, India, and a frustration with how Ayurveda is often marketed in the West.",
+      "DoshaFlow was founded by Alex Osborne, Founder — someone who needed it first, not a doctor or a credentialed Ayurvedic practitioner, and we don't claim otherwise. Alex built DoshaFlow after personal burnout and time spent at an Ayurvedic retreat in Bengaluru, India — frustrated with how wellness advice was either vague mysticism or aggressive optimization, and with how Ayurveda is often marketed in the West.",
     ],
   },
   {
     id: "methodology",
     title: "Methodology",
     body: [
-      "Our recommendations follow a consistent, transparent process: (1) a structured dosha assessment, (2) a review of your lifestyle patterns, (3) an evidence review weighing tradition against current research, (4) personalized educational suggestions, and (5) a clear pointer to professional consultation when appropriate.",
+      "Our recommendations follow a consistent, transparent process: (1) a structured Ayurvedic wellness assessment (a self-reflection tool, not a medical diagnosis or clinical assessment), (2) a review of your lifestyle patterns, (3) an evidence review weighing tradition against current research, (4) personalized educational suggestions, and (5) a clear pointer to professional consultation when appropriate.",
       "Guidance is educational and general. It is not a diagnosis, prescription, or treatment plan.",
     ],
   },
@@ -84,7 +83,8 @@ const sections = [
     id: "standards",
     title: "Product Recommendation Standards",
     body: [
-      "We recommend products based on quality, third-party testing where available, ingredient transparency, and fit with the educational guidance we provide.",
+      "DoshaFlow does not currently manufacture, source, or test its own supplements. When we recommend third-party products, we look for quality, ingredient transparency, and independent testing where the brand publishes it.",
+      "If DoshaFlow launches its own products, our product standard will require independent third-party testing, published batch results, and transparent sourcing. We will describe those systems here only once they are actually in place.",
       "For supplements and botanicals, we encourage you to consult a qualified healthcare professional before use, especially if you take medication or have a health condition.",
     ],
   },

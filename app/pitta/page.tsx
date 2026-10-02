@@ -68,7 +68,7 @@ export default function PittaPage() {
                 <li>Burnout and exhaustion despite adequate sleep</li>
                 <li>Acid reflux, heartburn, or sensitive digestion</li>
                 <li>Skin issues: rashes, acne, rosacea, eczema</li>
-                <li>Inflammation throughout the body</li>
+                <li>A sense of heat: redness, flushing, or skin and gut irritation</li>
                 <li>Early waking (4-5am) with racing mind</li>
                 <li>Irritability and impatience disproportionate to circumstances</li>
                 <li>Body temperature running hot, heavy sweating</li>
@@ -92,7 +92,7 @@ export default function PittaPage() {
                 The conditions that aggravate Pitta are now celebrated: constant striving, competitive environments, high intensity, the pressure to optimize everything. Pitta people are naturally good at these environments, so they thrive — until they don't. The body keeps score. Inflammation accumulates. The nervous system learns to run hot constantly. And then the system begins to fail.
               </p>
               <p>
-                The typical Pitta burnout manifests as high cortisol, digestive inflammation, skin problems, and an irritability that seems disconnected from circumstances. Again, blood work comes back normal. But you're not normal. You're on fire.
+                In Ayurvedic terms, Pitta burnout tends to show up as feeling wired and driven, digestive heat, skin flare-ups, and an irritability that seems disconnected from circumstances. Again, blood work comes back normal. But you're not normal. You're on fire.
               </p>
             </div>
           </section>
@@ -141,7 +141,7 @@ export default function PittaPage() {
               <div>
                 <h3 className="font-serif text-xl md:text-2xl text-foreground mb-3">Cooling Herbs</h3>
                 <p>
-                  Brahmi for mental cooling and reducing inflammation. Ashwagandha for managing cortisol and heat. Cooling coconut and cilantro as part of diet. These work best when combined with lifestyle changes — herbs alone won't cool a heated system.
+                  Brahmi, traditionally used for mental cooling. Ashwagandha, which has been studied for perceived stress (results vary, and it is not suitable for everyone). Cooling coconut and cilantro as part of diet. These work best when combined with lifestyle changes — herbs alone won't cool a heated system.
                 </p>
               </div>
             </div>
@@ -157,10 +157,10 @@ export default function PittaPage() {
                 <strong className="text-foreground">Week 1-2:</strong> Reducing intensity will feel wrong. You'll feel like you're falling behind. You're probably not. Stick with it.
               </p>
               <p>
-                <strong className="text-foreground">Week 3-4:</strong> Digestion will improve. Acid reflux will begin to ease. You'll notice the irritability is slightly less sharp.
+                <strong className="text-foreground">Week 3-4:</strong> Many people notice digestion settling and irritability feeling slightly less sharp. Persistent reflux deserves a doctor's assessment.
               </p>
               <p>
-                <strong className="text-foreground">Month 2:</strong> Sleep will deepen. The early waking will begin to resolve. Your skin will often clear noticeably as inflammation reduces.
+                <strong className="text-foreground">Month 2:</strong> Sleep may deepen and early waking may ease. Some people notice calmer skin. Individual responses vary.
               </p>
               <p>
                 <strong className="text-foreground">Month 3+:</strong> You'll recognize yourself again. The burnout has lifted. You have capacity and patience you forgot existed. And you understand now that maintaining this requires ongoing commitment to cooling and release.

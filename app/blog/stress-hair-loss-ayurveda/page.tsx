@@ -477,7 +477,7 @@ export default function StressHairLossPage() {
             />
 
             {/* Inline Conversion CTA - after intro */}
-            <ArticleQuizCta />
+            <ArticleQuizCta sourceSlug="stress-hair-loss-ayurveda" />
 
             {body && (
               <div
