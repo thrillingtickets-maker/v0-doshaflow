@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react"
 import { trackEvent, getAttribution, sanitizeSourceSlug } from "@/lib/analytics"
 import { DOSHA_NAMES, DOSHA_PATTERN, DOSHA_PLAN, type DoshaKey } from "@/lib/dosha-plan"
+import { classifyDoshaResult } from "@/lib/dosha-result"
 
 const questions = [
   // PHYSICAL CONSTITUTION
@@ -342,26 +343,7 @@ function getResult(v: number, p: number, k: number) {
   const vPct = Math.round((v / total) * 100)
   const pPct = Math.round((p / total) * 100)
   const kPct = Math.round((k / total) * 100)
-
-  const sorted = [
-    { key: "V", pct: vPct },
-    { key: "P", pct: pPct },
-    { key: "K", pct: kPct },
-  ].sort((a, b) => b.pct - a.pct)
-
-  const [first, second] = sorted
-  const gap = first.pct - second.pct
-  const allClose = sorted[0].pct - sorted[2].pct <= 15
-
-  let type: string
-  if (allClose) {
-    type = "T"
-  } else if (gap >= 15) {
-    type = first.key
-  } else {
-    const combo = [first.key, second.key].sort().join("")
-    type = combo === "PV" ? "VP" : combo === "KV" ? "VK" : combo === "KP" ? "PK" : first.key
-  }
+  const type: string = classifyDoshaResult(vPct, pPct, kPct)
 
   return { type, vPct, pPct, kPct, result: results[type] }
 }
@@ -374,6 +356,7 @@ export default function QuizPage() {
   const [showResult, setShowResult] = useState(false)
   const [email, setEmail] = useState("")
   const [submitted, setSubmitted] = useState(false)
+  const [personalized, setPersonalized] = useState(false)
   const [loading, setLoading] = useState(false)
   const [copied, setCopied] = useState(false)
   const [hoveredCard, setHoveredCard] = useState<number | null>(null)
@@ -477,18 +460,36 @@ export default function QuizPage() {
     }
     setEmailError("")
     setLoading(true)
+    const attribution = getAttribution()
     try {
       const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({
+          email,
+          result_type: type,
+          primary_dosha: DOSHA_NAMES[dominant],
+          secondary_dosha: DOSHA_NAMES[secondary],
+          vata_percentage: vPct,
+          pitta_percentage: pPct,
+          kapha_percentage: kPct,
+          source_article: attribution.source_article,
+          utm_source: attribution.utm_source,
+          utm_medium: attribution.utm_medium,
+          utm_campaign: attribution.utm_campaign,
+        }),
       })
+      const data = await res.json().catch(() => null)
       if (!res.ok) {
-        const data = await res.json().catch(() => null)
         setEmailError(typeof data?.error === "string" ? data.error : "Something went wrong. Please try again.")
         return
       }
-      trackEvent("email_capture_submit", { ...getAttribution(), dosha_result: type })
+      trackEvent("email_capture_submit", {
+        ...attribution,
+        dosha_result: type,
+        personalized: data?.personalized === true,
+      })
+      setPersonalized(data?.personalized === true)
       setSubmitted(true)
     } catch {
       setEmailError("Something went wrong. Please try again.")
@@ -882,7 +883,11 @@ export default function QuizPage() {
                     </button>
                   </form>
                 ) : (
-                  <div className="success-note" role="status">Done. Your DoshaFlow plan is on its way to your inbox.</div>
+                  <div className="success-note" role="status">
+                    {personalized
+                      ? "Done. Your DoshaFlow plan is on its way to your inbox."
+                      : "Done. Check your inbox to confirm your subscription."}
+                  </div>
                 )}
                 {emailError && <p id="quiz-email-error" className="email-error" role="alert">{emailError}</p>}
                 <p className="privacy-note">Optional. Your full results are already shown above. Unsubscribe anytime.</p>
