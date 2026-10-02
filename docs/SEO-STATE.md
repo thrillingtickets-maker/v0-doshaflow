@@ -29,5 +29,6 @@ Read this before changing robots.txt, the sitemap, redirects, post slugs, or noi
 ## Pending (owner decides timing)
 - Merge remaining overlaps in one batch: why-am-i-always-tired / why-am-i-always-exhausted / why-you-feel-tired-all-the-time, and ayurvedic-gut-healing into ayurvedic-gut-health.
 - About 30 meta descriptions are over 160 characters; fix them in the same batch.
-- Keep expanding indexable posts under 700 words, thinnest first.
-- Check Search Console around October 14-21, 2026: "Crawled - currently not indexed" should fall and indexed pages should rise. No structural changes before then.
+- Improve existing posts selectively, prioritizing pages with Search Console impressions or clear search intent. Word count is not the goal: expand a page only when the topic deserves a standalone page and the expansion adds real value; otherwise merge, redirect, or leave it concise. Personal journal entries can stay short.
+- Recheck Search Console around October 14-21, 2026 for early signs of recrawling and reindexing. Improvement is not guaranteed in that window. Use Validate fix when the underlying issue has been addressed, not based on counts alone. No structural changes before then.
+- Review the 18 noindexed medical-condition posts individually using Search Console data. Some may be rewritten to the evidence standard and re-indexed; others merged or removed. The blanket noindex is a temporary measure, not permanent policy.
