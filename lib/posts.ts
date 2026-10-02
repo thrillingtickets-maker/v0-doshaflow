@@ -2548,53 +2548,82 @@ export const posts: Post[] = [
     category: "Tea",
     title: "Best Tea for Bloating: Ayurvedic Teas That Actually Work by Dosha",
     date: "May 28, 2026",
-    excerpt: "The best teas for bloating depend on the type \u2014 CCF tea for Vata gas, fennel for Pitta inflammation, trikatu for Kapha heaviness. The Ayurvedic guide to fixing bloating for good.",
-    seoTitle: "Best Tea for Bloating: Ayurvedic Teas That Work by Dosha",
-    seoDescription: "The best teas for bloating depend on the type \u2014 CCF tea for Vata gas, fennel for Pitta inflammation, trikatu for Kapha heaviness. The Ayurvedic guide to",
-    content: `<p>If you deal with chronic bloating, trapped gas, and that heavy, distended feeling after almost every meal, you have probably tried a dozen "digestive" teas that did nothing. The reason is simple: the best tea for bloating is not one single tea. Bloating is one of the most common complaints in Ayurveda, and the right remedy depends entirely on your dosha type, because different doshas create bloating through different mechanisms \u2014 so an ayurvedic tea for bloating that soothes one type can actually make another worse.</p>
-<p>This guide matches the best ayurvedic tea for bloating to each dosha and each pattern of digestive discomfort: gassy, mobile bloating (Vata), sharp, inflamed bloating (Pitta), and heavy, sluggish bloating (Kapha). Find your type below, or take the quiz first to know for sure.</p>
-<div style="background:#f0ebe2;border-radius:12px;padding:32px;margin:48px 0;text-align:center;"><p style="margin:0 0 6px;font-size:12px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Free Dosha Quiz</p><p style="margin:0 0 16px;font-size:22px;font-weight:600;color:#2c1a0e;font-family:Georgia,serif;">Not sure which type of bloating is yours?</p><p style="margin:0 0 24px;font-size:16px;color:#5a4a38;line-height:1.6;">The right tea depends on your dominant dosha. Take the free dosha quiz \u2014 25 questions, about 3 minutes, no email required to start \u2014 then match your result to the teas below.</p><a href="/quiz" style="display:inline-block;background:#b5763a;color:#fff;text-decoration:none;font-weight:600;padding:14px 32px;border-radius:9999px;">Take the Free Dosha Quiz</a></div><div style="background:#f0ebe2;border-radius:12px;padding:40px;margin:48px 0;text-align:center;">
-  <div style="font-size:48px;font-weight:700;color:#8c7055;font-family:Georgia,serif;">CCF</div>
-  <div style="color:#b5763a;font-size:14px;letter-spacing:0.1em;text-transform:uppercase;margin:8px 0;">Cumin \u00b7 Coriander \u00b7 Fennel \u2014 Ayurveda's foundational digestive tea</div>
-  <div style="color:#8a7a6a;font-size:15px;margin-top:16px;max-width:520px;margin-left:auto;margin-right:auto;">Equal parts of three seeds, simmered 10 minutes, strained. Works across all three doshas. Reduces gas and bloating, stimulates agni, clears ama. The single recipe that has existed in Ayurvedic medicine for over a thousand years because it works for almost everyone.</div>
-</div><h2>CCF Tea for Vata Bloating</h2><p>Vata bloating is caused by irregular digestion and gas accumulation. CCF tea (Cumin, Coriander, Fennel) is the classical Ayurvedic remedy. The combination of warming spices ignites digestive fire while the fennel reduces gas. Drink 30 minutes before meals.</p><h2>Fennel for Pitta Bloating</h2><p>Pitta bloating comes from excess heat and inflammation in the digestive tract. Fennel is cooling and reduces inflammation. Pure fennel tea after meals soothes the irritated digestive system.</p><h2>Trikatu for Kapha Bloating</h2><p>Kapha bloating is heaviness and sluggish digestion. Trikatu (ginger, black pepper, long pepper) is warming and stimulating. This combination creates the digestive movement needed to prevent Kapha stagnation.</p><div style="border:1px solid #e0d5c5;border-radius:8px;overflow:hidden;margin:40px 0;">
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:#2a1f14;padding:12px 20px;">
-    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Tea</div>
-    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Best for</div>
-    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Dosha</div>
-    <div style="font-size:11px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">When to drink</div>
-  </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
-    <div style="font-size:13px;font-weight:700;color:#2a1f14;">CCF tea</div>
-    <div style="font-size:13px;color:#4a3728;">Gas, general bloating, sluggish digestion</div>
-    <div style="font-size:13px;color:#4a3728;">All doshas</div>
-    <div style="font-size:13px;color:#4a3728;">After meals or between meals</div>
-  </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
-    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Ginger tea</div>
-    <div style="font-size:13px;color:#4a3728;">Nausea, heavy digestion, cold-type bloating</div>
-    <div style="font-size:13px;color:#4a3728;">Vata, Kapha</div>
-    <div style="font-size:13px;color:#4a3728;">Before meals or first thing</div>
-  </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;border-bottom:1px solid #e0d5c5;">
-    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Fennel tea</div>
-    <div style="font-size:13px;color:#4a3728;">Post-meal gas, cramping, acid reflux</div>
-    <div style="font-size:13px;color:#4a3728;">Pitta, Vata</div>
-    <div style="font-size:13px;color:#4a3728;">After meals, especially dinner</div>
-  </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#f5f0e8;border-bottom:1px solid #e0d5c5;">
-    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Peppermint tea</div>
-    <div style="font-size:13px;color:#4a3728;">Spasm, sharp pain, IBS-type bloating</div>
-    <div style="font-size:13px;color:#4a3728;">Pitta</div>
-    <div style="font-size:13px;color:#4a3728;">When symptomatic</div>
-  </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;padding:14px 20px;background:#faf7f2;">
-    <div style="font-size:13px;font-weight:700;color:#2a1f14;">Licorice root</div>
-    <div style="font-size:13px;color:#4a3728;">Inflammation, gut lining repair, acid</div>
-    <div style="font-size:13px;color:#4a3728;">Vata, Pitta</div>
-    <div style="font-size:13px;color:#4a3728;">Morning, short-term use only</div>
-  </div>
-</div>`
+    excerpt: "Not all bloating is the same, and neither are the teas that help. Here\u2019s how to match fennel, ginger, peppermint, CCF and chamomile to the kind of bloating you actually have \u2014 and when bloating needs a doctor, not a tea.",
+    seoTitle: "Best Tea for Bloating: Ayurvedic Teas by Type | DoshaFlow",
+    seoDescription: "The best teas for bloating \u2014 fennel, ginger, peppermint, CCF \u2014 matched to your bloating type, plus what the evidence says and when to see a doctor.",
+    content: `
+<p>The best tea for bloating depends on what kind of bloating you have. Gassy, crampy bloating that moves around responds to different herbs than heavy, sluggish fullness after a big meal, and both differ from bloating that comes with heartburn and a burning stomach. Ayurveda maps these patterns to the three doshas, and the mapping turns out to be a practical way to choose a tea.</p>
+<p>A cup of tea won\u2019t fix the cause of chronic bloating. But the right one, at the right time, can genuinely ease it \u2014 and a few of these herbs have better evidence behind them than most people expect.</p>
+
+<div style="background:#f0ebe2;border-radius:12px;padding:32px;margin:48px 0;text-align:center;"><p style="margin:0 0 6px;font-size:12px;letter-spacing:0.1em;color:#b5763a;text-transform:uppercase;">Free Dosha Quiz</p><p style="margin:0 0 16px;font-size:22px;font-weight:600;color:#2c1a0e;font-family:Georgia,serif;">Which dosha drives your digestion?</p><p style="margin:0 0 24px;font-size:16px;color:#5a4a38;line-height:1.6;">Take the free dosha quiz \u2014 25 questions, about 3 minutes, no email required to start.</p><a href="/quiz" style="display:inline-block;background:#b5763a;color:#fff;text-decoration:none;font-weight:600;padding:14px 32px;border-radius:9999px;">Take the Free Dosha Quiz</a></div>
+
+<h2 id="three-kinds-of-bloating">The three kinds of bloating</h2>
+<p><strong>Gassy, crampy, moving bloating (Vata).</strong> Trapped wind, gurgling, cramps that shift around, often with constipation or irregular bowels. Worse with raw food, beans, cold drinks, eating on the go, and stress.</p>
+<p><strong>Burning, acidic bloating (Pitta).</strong> Fullness with heartburn, acid reflux, a hot or sour stomach, sometimes loose stools. Worse with spicy food, alcohol, coffee, fried food, and skipped meals.</p>
+<p><strong>Heavy, slow bloating (Kapha).</strong> A full, heavy, sleepy feeling that lingers for hours after eating, often with little appetite the next morning. Worse with large portions, dairy, sweets, heavy dinners, and eating when not hungry.</p>
+<p>Many people have a mix. Pick the tea that matches your most common pattern, and adjust from there.</p>
+
+<h2 id="fennel">Fennel: the all-rounder for gas</h2>
+<p><span class="evidence-badge evidence-badge--traditional" title="Evidence labels describe the basis for a claim, not a guarantee of effectiveness.">Traditional Ayurvedic Use</span></p>
+<p class="evidence-note">Evidence labels describe the basis for a claim, not a guarantee of effectiveness.</p>
+<p>Fennel seeds are the classic remedy for gas across many traditions \u2014 in India they\u2019re chewed after meals for exactly this reason. They\u2019re mildly sweet and gently cooling, which makes fennel the rare bloating tea that suits all three doshas, including Pitta. The modern research is limited mostly to lab studies and small trials, so treat this as well-tolerated tradition rather than proven treatment.</p>
+<p><strong>How to make it:</strong> lightly crush 1 teaspoon of fennel seeds and steep in just-boiled water for 10 minutes, covered. Drink after meals.</p>
+
+<h2 id="ginger">Ginger: for slow, heavy digestion</h2>
+<p><span class="evidence-badge evidence-badge--emerging" title="Evidence labels describe the basis for a claim, not a guarantee of effectiveness.">Modern Evidence \u2014 Emerging</span></p>
+<p>Ginger is warming and stimulating, which is why Ayurveda reaches for it for Vata gas and Kapha heaviness. It has good evidence for nausea, and some studies suggest it helps the stomach empty more efficiently \u2014 useful when food seems to sit there for hours.</p>
+<p><strong>How to make it:</strong> simmer 4\u20135 thin slices of fresh ginger in a mug and a half of water for 10 minutes. Best 15\u201320 minutes before a meal, or just after.</p>
+<p><strong>Skip it if</strong> your bloating comes with heartburn \u2014 ginger can make Pitta-type burning worse.</p>
+
+<h2 id="peppermint">Peppermint: the best-studied option</h2>
+<p><span class="evidence-badge evidence-badge--stronger" title="Evidence labels describe the basis for a claim, not a guarantee of effectiveness.">Modern Evidence \u2014 Stronger</span></p>
+<p>Peppermint has the strongest evidence of any herb on this list: enteric-coated peppermint oil capsules have repeatedly reduced bloating and abdominal pain in people with irritable bowel syndrome. Peppermint relaxes the smooth muscle of the gut, which helps trapped gas move.</p>
+<p>Two honest caveats. First, most of that research uses concentrated oil capsules, not tea; the tea is gentler and less studied. Second, peppermint also relaxes the valve at the top of the stomach, so it can make heartburn and reflux worse. Great for crampy Vata bloating; often a poor choice for Pitta.</p>
+<p><strong>How to make it:</strong> 1 heaped teaspoon of dried peppermint, steeped for 5\u20137 minutes.</p>
+
+<h2 id="ccf-tea">CCF tea: the Ayurvedic after-meal blend</h2>
+<p><span class="evidence-badge evidence-badge--traditional" title="Evidence labels describe the basis for a claim, not a guarantee of effectiveness.">Traditional Ayurvedic Use</span></p>
+<p>Cumin, coriander and fennel in equal parts is the traditional Ayurvedic digestive tea. Cumin is warming, coriander and fennel are cooling, so the blend is considered balanced for all types. The evidence for the blend itself is mostly traditional, but it\u2019s mild, cheap, and a good daily habit after the main meal.</p>
+<p><strong>How to make it:</strong> half a teaspoon each of whole cumin, coriander and fennel seeds, simmered in two cups of water for 5\u201310 minutes. Strain and sip warm.</p>
+
+<h2 id="chamomile">Chamomile: when stress drives the bloating</h2>
+<p><span class="evidence-badge evidence-badge--emerging" title="Evidence labels describe the basis for a claim, not a guarantee of effectiveness.">Modern Evidence \u2014 Emerging</span></p>
+<p>If your bloating flares when you\u2019re anxious or rushed, the gut\u2013brain connection is part of the picture. Chamomile is calming, gently anti-spasmodic and cooling, which makes it a good evening choice for Pitta and Vata types. Avoid it if you\u2019re allergic to ragweed or daisies.</p>
+
+<h2 id="trikatu">For heavy Kapha bloating: a pinch of pepper</h2>
+<p><span class="evidence-badge evidence-badge--traditional" title="Evidence labels describe the basis for a claim, not a guarantee of effectiveness.">Traditional Ayurvedic Use</span></p>
+<p>For slow, heavy, Kapha-type fullness, Ayurveda uses trikatu \u2014 a blend of ginger, black pepper and long pepper. A simple kitchen version: ginger tea with a small pinch of black pepper. It\u2019s strongly heating, so use small amounts, and skip it entirely if you have reflux, ulcers or Pitta-type burning.</p>
+
+<h2 id="match-the-tea">Matching the tea to your bloating</h2>
+<table>
+<thead><tr><th>Your bloating</th><th>Best teas</th><th>Avoid</th></tr></thead>
+<tbody>
+<tr><td>Gassy, crampy, moving (Vata)</td><td>Fennel, peppermint, CCF, ginger</td><td>Iced drinks, carbonated drinks</td></tr>
+<tr><td>Burning, acidic, with heartburn (Pitta)</td><td>Fennel, chamomile, coriander, CCF</td><td>Peppermint, ginger, black pepper, coffee</td></tr>
+<tr><td>Heavy, slow, sleepy (Kapha)</td><td>Ginger, ginger with black pepper, CCF</td><td>Sweet, milky drinks after meals</td></tr>
+</tbody>
+</table>
+
+<h2 id="tea-is-half-the-answer">Tea is half the answer</h2>
+<p>Most chronic bloating comes from how and what you eat, and tea works best alongside a few changes:</p>
+<ul>
+<li>Eat sitting down, slowly, and stop at about three-quarters full.</li>
+<li>Cook vegetables rather than eating big raw salads, especially if you\u2019re Vata-prone.</li>
+<li>Swap cold drinks with meals for warm water or tea.</li>
+<li>Leave 3\u20134 hours between meals rather than grazing.</li>
+<li>Notice your trigger foods. Beans, onions, garlic, wheat, apples and some sweeteners cause gas in many people. If bloating is constant, a short, structured low-FODMAP trial with a dietitian can identify yours.</li>
+</ul>
+
+<h2 id="two-week-plan">A two-week bloating experiment</h2>
+<p><strong>Week 1:</strong> pick the tea that matches your pattern and drink one cup after your main meal every day. Change nothing else.</p>
+<p><strong>Week 2:</strong> keep the tea and add two habits from the list above \u2014 usually eating slowly and swapping cold drinks for warm.</p>
+<p>Rate your bloating from 1 to 10 each evening. If a tea helps, you\u2019ll usually notice within the first week.</p>
+
+<h2 id="when-to-see-a-doctor">When bloating needs a doctor, not a tea</h2>
+<p>See a doctor promptly if bloating is persistent or getting worse, especially with any of these: unintended weight loss, blood in your stool, a lasting change in bowel habits, difficulty swallowing, persistent vomiting, severe pain, or feeling full very quickly. Women who have bloating on most days for more than a few weeks should get it checked, as persistent bloating can occasionally be an early sign of ovarian problems. And if you\u2019re over 50 with new digestive symptoms, don\u2019t wait.</p>
+
+<p>Go deeper with <a href="/blog/why-am-i-always-bloated">why you\u2019re always bloated</a>, the <a href="/blog/best-ayurvedic-tea-digestion">best Ayurvedic teas for digestion</a>, <a href="/blog/food-combining-principles">Ayurvedic food combining</a>, and the full <a href="/blog/ayurvedic-tea-guide">Ayurvedic tea guide</a>.</p>
+`,
   },
   {
     slug: "ayurvedic-skin-guide",
