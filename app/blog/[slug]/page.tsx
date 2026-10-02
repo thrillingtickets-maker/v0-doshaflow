@@ -417,6 +417,20 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               background: rgba(196, 154, 108, 0.04);
             }
 
+            @media (max-width: 640px) {
+              article div table {
+                display: block;
+                max-width: 100%;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+              }
+              article div table th,
+              article div table td {
+                padding: 10px 12px;
+                min-width: 120px;
+              }
+            }
+
             /* Stat callout styling if present */
             article div .stat-callout {
               display: flex;

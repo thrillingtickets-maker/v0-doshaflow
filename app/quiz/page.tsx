@@ -470,6 +470,7 @@ export default function QuizPage() {
 
   async function handleSubmit(event?: React.FormEvent) {
     event?.preventDefault()
+    if (loading || submitted) return
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       setEmailError("Please enter a valid email address.")
       return
@@ -482,7 +483,11 @@ export default function QuizPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email }),
       })
-      if (!res.ok) throw new Error("subscribe failed")
+      if (!res.ok) {
+        const data = await res.json().catch(() => null)
+        setEmailError(typeof data?.error === "string" ? data.error : "Something went wrong. Please try again.")
+        return
+      }
       trackEvent("email_capture_submit", { ...getAttribution(), dosha_result: type })
       setSubmitted(true)
     } catch {

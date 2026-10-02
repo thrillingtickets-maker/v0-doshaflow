@@ -19,7 +19,7 @@ export function SourcesEvidence({ sources = [] }: { sources?: ArticleSource[] })
         Sources &amp; Evidence
       </h2>
       {sources.length === 0 ? (
-        <p className="sources-evidence__empty">Sources are currently being reviewed for this article.</p>
+        <p className="sources-evidence__empty">Sources for specific scientific claims in this article are currently being reviewed.</p>
       ) : (
         <ol className="sources-evidence__list">
           {sources.map((source) => (
