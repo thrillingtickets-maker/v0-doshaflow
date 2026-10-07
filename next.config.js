@@ -434,6 +434,21 @@ const nextConfig = {
         destination: '/blog/retreat-day-:day',
         permanent: true,
       },
+      {
+        source: '/blog/ayurveda-for-sleep',
+        destination: '/blog/ayurveda-for-insomnia',
+        permanent: true,
+      },
+      {
+        source: '/blog/cant-sleep-when-exhausted',
+        destination: '/blog/ayurveda-for-insomnia',
+        permanent: true,
+      },
+      {
+        source: '/blog/i-cant-lose-weight',
+        destination: '/blog/ayurvedic-weight-loss',
+        permanent: true,
+      },
     ]
   },
 }
