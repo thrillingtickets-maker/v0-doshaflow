@@ -74,7 +74,6 @@ export const highlightMap: Record<string, string> = {
   "nervous-system-regulation-ayurveda": "Safe",
   "post-vacation-fatigue": "Vacation",
   "quiet-health-habits": "Quiet",
-  "i-cant-lose-weight": "Weight",
   "i-have-no-energy": "Energy",
   "im-burned-out": "Burnout",
   "kapha-diet-plan": "Kapha",
