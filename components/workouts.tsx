@@ -91,7 +91,7 @@ export function Workouts() {
               Not everyone thrives on the same workout. Your dosha influences how your body responds to different types of movement.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              DoshaFlow creates workout routines and walking goals that match your constitution — helping you feel energized rather than exhausted after exercise.
+              DoshaFlow suggests types of movement and walking habits that suit your constitution — helping you feel energized rather than exhausted after exercise.
             </p>
           </motion.div>
         </div>

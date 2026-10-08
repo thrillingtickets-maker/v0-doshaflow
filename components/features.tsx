@@ -13,13 +13,13 @@ const features = [
   {
     icon: Footprints,
     title: "Movement & Walking",
-    description: "Workouts and walking routines designed around your energy levels and body type. Whether you need grounding exercises or energizing flows, we adapt to you.",
+    description: "Workouts and walking routines designed around your energy levels and body type. Whether you need grounding exercises or energizing flows, the guidance is matched to your type.",
     tag: "MOVEMENT"
   },
   {
     icon: Activity,
-    title: "Digestion Tracking",
-    description: "Log and understand your digestive patterns. Track bloating, energy, and gut health to identify what works for your unique system.",
+    title: "Digestion Guidance",
+    description: "Understand your digestive patterns through an Ayurvedic lens, and learn the habits people often use to ease bloating and low energy.",
     tag: "TRACKING"
   },
   {
@@ -48,7 +48,7 @@ export function Features() {
             <span className="text-balance">Wellness that adapts to you</span>
           </h2>
           <p className="max-w-2xl mx-auto text-lg text-muted-foreground leading-relaxed">
-            Your body is unique. Your wellness routine should be too. DoshaFlow combines ancient Ayurvedic wisdom with modern tracking to create a personalized health experience.
+            Your body is unique. Your wellness routine should be too. DoshaFlow combines traditional Ayurvedic guidance with an evidence-aware approach to create personalized wellness guidance.
           </p>
         </motion.div>
 
