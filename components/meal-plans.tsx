@@ -5,11 +5,11 @@ import { Check } from "lucide-react"
 
 const mealPlanFeatures = [
   "Personalized to your dosha type",
-  "Weekly meal guides with recipes",
+  "Free 7-day diet plans for each dosha",
   "Seasonal ingredient recommendations",
-  "Shopping lists generated automatically",
-  "Adjust for dietary restrictions",
-  "Track how meals affect your energy"
+  "Foods to favor and foods to reduce",
+  "Simple swaps for everyday meals",
+  "Notice how meals affect your energy"
 ]
 
 export function MealPlans() {

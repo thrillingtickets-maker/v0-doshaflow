@@ -26,13 +26,13 @@ export function DigestiveTracking() {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-2 mb-6 text-sm font-medium tracking-wide uppercase bg-primary/10 text-primary rounded-full">
-            Digestion Tracking
+            Digestion
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-medium text-foreground mb-6">
             Understand your gut
           </h2>
           <p className="max-w-2xl mx-auto text-lg text-muted-foreground leading-relaxed">
-            Track how different foods affect your digestion, energy, and overall wellbeing. Identify patterns and make informed choices about what you eat.
+            Learn to notice how different foods affect your digestion, energy, and overall wellbeing. Spot patterns and make informed choices about what you eat.
           </p>
         </motion.div>
 

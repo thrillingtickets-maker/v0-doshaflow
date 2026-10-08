@@ -20,7 +20,7 @@ export function Hero() {
             transition={{ duration: 0.8 }}
           >
             <span className="inline-block px-4 py-2 mb-8 text-sm font-medium tracking-wide uppercase bg-secondary text-secondary-foreground rounded-full">
-              Ayurveda meets modern science
+              Traditional Ayurveda, evidence-aware
             </span>
           </motion.div>
 
@@ -39,8 +39,8 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground leading-relaxed mb-12"
           >
-            Take the free dosha quiz to discover your Ayurvedic body type, then get personalized meal plans,
-            movement, digestion, and recovery guidance adapted to your body and routine.
+            Take the free dosha quiz to discover your Ayurvedic body type, then get educational guidance on food,
+            movement, digestion, and recovery matched to your type.
           </motion.p>
 
           <motion.p
@@ -97,11 +97,11 @@ export function Hero() {
             </span>
             <span className="flex items-center gap-2">
               <span className="w-2 h-2 bg-primary rounded-full" />
-              Movement routines
+              Movement guidance
             </span>
             <span className="flex items-center gap-2">
               <span className="w-2 h-2 bg-primary rounded-full" />
-              Digestion tracking
+              Digestion guidance
             </span>
           </motion.div>
         </div>
