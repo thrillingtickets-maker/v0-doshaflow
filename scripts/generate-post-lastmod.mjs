@@ -29,6 +29,8 @@ const NON_CONTENT_COMMITS = {
   "b538fd8": "contextual internal links + quiz CTA links",
   "24344ec": "link retargeting after stub cleanup",
   "c143011": "link relabeling",
+  "a75a12c": "Vata/Kapha diet-plan contextual links",
+  "0f97f6d": "Pitta diet-plan contextual links",
 }
 
 const git = (...args) => execFileSync("git", args, { maxBuffer: 1 << 30, encoding: "utf8" })

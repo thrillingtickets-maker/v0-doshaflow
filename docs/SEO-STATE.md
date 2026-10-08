@@ -22,6 +22,7 @@ Read this before changing robots.txt, the sitemap, redirects, post slugs, or noi
 - Prefer expanding weak articles in place (same slug) over creating new posts or new URLs.
 - Four articles render from hardcoded routes and ignore lib/posts.ts content: why-you-wake-up-at-3am, dopamine-detox-vs-ayurveda, shatavari-benefits, stress-hair-loss-ayurveda. Edit their page.tsx files instead.
 - Sources live in lib/article-sources.ts. Only add sources verified against PubMed/DOI. Never fabricate a citation.
+- After any change to a post's article text, re-run scripts/generate-post-lastmod.mjs so the sitemap's lastmod reflects it.
 
 ## History
 - Late Sept 2026: Google Search Console showed about 152 "Crawled - currently not indexed" pages and indexed pages falling from about 225 (July) to about 100. Response: removed 42 one-sentence stub posts, merged duplicate hub posts and topic clusters, removed duplicate journal pages, fixed sitemap lastmod dates, expanded thin posts in place.
