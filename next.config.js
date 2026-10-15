@@ -449,6 +449,76 @@ const nextConfig = {
         destination: '/blog/ayurvedic-weight-loss',
         permanent: true,
       },
+      {
+        source: '/blog/building-doshaflow-safety-sourcing-personalization',
+        destination: '/blog/why-im-building-doshaflow',
+        permanent: true,
+      },
+      {
+        source: '/blog/burnout-vs-depression',
+        destination: '/blog/nervous-system-burnout',
+        permanent: true,
+      },
+      {
+        source: '/blog/burnout-vs-depression-ayurveda',
+        destination: '/blog/nervous-system-burnout',
+        permanent: true,
+      },
+      {
+        source: '/blog/digital-burnout-symptoms',
+        destination: '/blog/overstimulation-ayurveda',
+        permanent: true,
+      },
+      {
+        source: '/blog/how-to-buy-ayurvedic-supplements-safely',
+        destination: '/blog/ayurvedic-herb-safety',
+        permanent: true,
+      },
+      {
+        source: '/blog/im-burned-out',
+        destination: '/blog/nervous-system-burnout',
+        permanent: true,
+      },
+      {
+        source: '/blog/nervous-system-dysregulation-ayurveda',
+        destination: '/blog/nervous-system-regulation-ayurveda',
+        permanent: true,
+      },
+      {
+        source: '/blog/nervous-system-reset-ayurveda',
+        destination: '/blog/how-to-calm-your-nervous-system',
+        permanent: true,
+      },
+      {
+        source: '/blog/pitta-foods-to-avoid',
+        destination: '/blog/pitta-diet-plan',
+        permanent: true,
+      },
+      {
+        source: '/blog/tired-but-wired-at-night',
+        destination: '/blog/ayurveda-for-insomnia',
+        permanent: true,
+      },
+      {
+        source: '/blog/what-happens-ayurvedic-retreat-day-3',
+        destination: '/blog/retreat-day-3',
+        permanent: true,
+      },
+      {
+        source: '/blog/what-western-wellness-gets-wrong-about-ayurveda',
+        destination: '/blog/ayurveda-vs-western-medicine',
+        permanent: true,
+      },
+      {
+        source: '/blog/why-am-i-anxious-at-night',
+        destination: '/blog/ayurveda-for-anxiety',
+        permanent: true,
+      },
+      {
+        source: '/blog/why-ashwagandha-burnout-modern',
+        destination: '/blog/ashwagandha-benefits',
+        permanent: true,
+      },
     ]
   },
 }
