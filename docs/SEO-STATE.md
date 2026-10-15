@@ -17,6 +17,7 @@ Read this before changing robots.txt, the sitemap, redirects, post slugs, or noi
 - Never leave a live post whose slug is also a redirect source; the redirect wins and the post becomes unreachable.
 - When removing or merging a post, delete it from lib/posts.ts, add a permanent redirect to the best surviving page, and update every internal link to point straight at the final URL.
 - The alcohol article lives at /blog/ayurveda-alcohol; /blog/alcohol-ayurveda redirects to it. Leave this as is.
+- Before deleting any post, add its redirect in the same PR. In October 2026, 17 previously deleted posts were found returning 404 with no redirect and had to be fixed afterwards.
 
 ## Content rules
 - Prefer expanding weak articles in place (same slug) over creating new posts or new URLs.
