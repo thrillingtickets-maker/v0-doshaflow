@@ -112,6 +112,8 @@ export const ARTICLE_SOURCES: Record<string, ArticleSource[]> = {
   "adrenal-fatigue-ayurveda": [CADEGIANI_KATER_2016, CHANDRASEKHAR_2012, SALVE_2019],
   "how-to-reduce-cortisol-naturally": [CHANDRASEKHAR_2012, SALVE_2019, BJORNSSON_2020],
   "best-ayurvedic-tea-anxiety": [AMSTERDAM_2009, JAMSHIDI_COHEN_2017, CHANDRASEKHAR_2012, BJORNSSON_2020],
+  "ayurvedic-tea-guide": [AMSTERDAM_2009, JAMSHIDI_COHEN_2017, VILJOEN_2014],
+  "best-ayurvedic-tea-sleep": [AMSTERDAM_2009, CHANDRASEKHAR_2012],
   "tulsi-benefits": [JAMSHIDI_COHEN_2017],
   "best-tea-for-bloating": [ALAMMAR_2019, WU_2008, VILJOEN_2014],
   "best-tea-for-vata": [VILJOEN_2014, WU_2008, JAMSHIDI_COHEN_2017, AMSTERDAM_2009, CHANDRASEKHAR_2012],
