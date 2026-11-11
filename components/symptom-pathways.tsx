@@ -10,7 +10,7 @@ const pathways = [
     description: "Your nervous system needs restoration, not optimization.",
     links: [
       { label: "Sleep guide", href: "/blog/best-ayurvedic-tea-sleep" },
-      { label: "Energy through Ayurveda", href: "/blog/why-am-i-always-tired" },
+      { label: "Energy through Ayurveda", href: "/blog/why-you-feel-tired-all-the-time" },
       { label: "Take the quiz", href: "/quiz" },
     ],
   },

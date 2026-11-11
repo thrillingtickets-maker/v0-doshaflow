@@ -100,7 +100,6 @@ export const highlightMap: Record<string, string> = {
   "vata-foods-to-avoid": "Vata",
   "vata-morning-routine": "Morning",
   "why-am-i-always-bloated": "Bloating",
-  "why-am-i-always-tired": "Tired",
   "why-men-burn-out": "Vata",
   "why-im-building-doshaflow": "Safety",
 }

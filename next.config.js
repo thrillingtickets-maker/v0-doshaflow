@@ -40,7 +40,7 @@ const nextConfig = {
       },
       {
         source: '/blog/i-have-no-energy',
-        destination: '/blog/why-am-i-always-exhausted',
+        destination: '/blog/why-you-feel-tired-all-the-time',
         permanent: true,
       },
       // Redirect /doshas/* to the correct route (e.g., /doshas/vata -> /vata)
@@ -261,7 +261,7 @@ const nextConfig = {
       },
       {
         source: '/blog/mineral-deficiencies-signs',
-        destination: '/blog/why-am-i-always-tired',
+        destination: '/blog/why-you-feel-tired-all-the-time',
         permanent: true,
       },
       {
@@ -421,7 +421,7 @@ const nextConfig = {
       },
       {
         source: '/blog/ayurveda-energy',
-        destination: '/blog/ayurveda-for-energy',
+        destination: '/blog/why-you-feel-tired-all-the-time',
         permanent: true,
       },
       {
@@ -517,6 +517,26 @@ const nextConfig = {
       {
         source: '/blog/why-ashwagandha-burnout-modern',
         destination: '/blog/ashwagandha-benefits',
+        permanent: true,
+      },
+      {
+        source: '/blog/why-am-i-always-tired',
+        destination: '/blog/why-you-feel-tired-all-the-time',
+        permanent: true,
+      },
+      {
+        source: '/blog/why-am-i-always-exhausted',
+        destination: '/blog/why-you-feel-tired-all-the-time',
+        permanent: true,
+      },
+      {
+        source: '/blog/ayurveda-for-energy',
+        destination: '/blog/why-you-feel-tired-all-the-time',
+        permanent: true,
+      },
+      {
+        source: '/blog/vata-nervous-system-running-on-empty',
+        destination: '/blog/signs-of-vata-imbalance',
         permanent: true,
       },
     ]
