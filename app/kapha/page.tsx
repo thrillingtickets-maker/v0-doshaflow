@@ -184,7 +184,7 @@ export default function KaphaPage() {
                 </Link>
               </p>
               <p className="text-muted-foreground">
-                <Link href="/blog/why-am-i-always-tired" className="text-[#C97F3D] hover:underline font-medium">
+                <Link href="/blog/why-you-feel-tired-all-the-time" className="text-[#C97F3D] hover:underline font-medium">
                   Why You Sleep Too Much and Still Feel Tired
                 </Link>
               </p>
