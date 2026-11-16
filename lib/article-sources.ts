@@ -3,7 +3,7 @@ import type { ArticleSource } from "@/components/sources-evidence"
 /**
  * Verified sources per article slug. Add an entry only after checking it
  * against the original publication (title, journal, year, PubMed/DOI link).
- * Articles without an entry show "Sources are currently being reviewed".
+ * Articles without an entry render no Sources & Evidence section.
  */
 const CHANDRASEKHAR_2012: ArticleSource = {
   title:
