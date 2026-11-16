@@ -63,7 +63,7 @@ export const collections: GuideCollection[] = [
       { title: "Leaky Gut & Ayurveda", href: "/blog/leaky-gut-ayurveda" },
       { title: "Improve Digestion Naturally", href: "/blog/how-to-improve-digestion-naturally" },
       { title: "Ayurveda for Gut Health", href: "/blog/ayurvedic-gut-health" },
-      { title: "Best Spices for Digestion", href: "/blog/best-spices-for-digestion" },
+      { title: "Ayurvedic Herbs for Digestion", href: "/blog/ayurvedic-herbs-guide#digestion" },
     ],
   },
   {
@@ -85,12 +85,7 @@ export const collections: GuideCollection[] = [
     title: "Herbs",
     description: "Evidence-informed guides to the most useful Ayurvedic herbs and how to use them well.",
     links: [
-      { title: "Turmeric", href: "/blog/turmeric-benefits" },
-      { title: "Tulsi", href: "/blog/tulsi-benefits" },
-      { title: "Moringa", href: "/blog/moringa-benefits" },
-      { title: "Amla", href: "/blog/amla-benefits" },
-      { title: "Fennel", href: "/blog/fennel-benefits" },
-      { title: "Ginger", href: "/blog/ginger-benefits" },
+      { title: "The Ayurvedic Herb Guide", href: "/blog/ayurvedic-herbs-guide" },
       { title: "Shatavari", href: "/blog/shatavari-benefits" },
       { title: "Ashwagandha", href: "/blog/ashwagandha-benefits" },
     ],
@@ -142,7 +137,7 @@ export const goals: GoalLink[] = [
 // Curated "most-read" guides (no view tracking in the dataset).
 export const popularSlugs: string[] = [
   "how-to-take-ashwagandha",
-  "turmeric-benefits",
+  "ayurvedic-herbs-guide",
   "why-am-i-always-bloated",
   "best-ayurvedic-tea-sleep",
   "ayurveda-for-anxiety",
