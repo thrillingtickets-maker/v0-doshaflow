@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server"
 import { getAllPosts } from "@/lib/posts"
 import { postLastModified } from "@/lib/post-lastmod"
+import { staticLastModified } from "@/lib/static-lastmod"
 import { isNoindexSlug } from "@/lib/seo"
 import { CATEGORIES, categoryToSlug } from "@/lib/categories"
 
@@ -10,9 +11,9 @@ export async function GET() {
     return Number.isNaN(parsed.getTime()) ? undefined : parsed.toISOString().split("T")[0]
   }
 
-  // Static pages with priorities for SEO. No lastmod: these have no reliable
-  // modification date, and a fake "today" value teaches crawlers to ignore it.
-  const staticPages: { loc: string; lastmod?: string; priority: string }[] = [
+  // Static pages. lastmod is the last commit touching the route's own files
+  // (lib/static-lastmod.ts), never a fake "today" value.
+  const staticPageList: { loc: string; priority: string }[] = [
     { loc: "https://www.doshaflow.com", priority: "1.0" },
     { loc: "https://www.doshaflow.com/quiz", priority: "0.9" },
     { loc: "https://www.doshaflow.com/about", priority: "0.8" },
@@ -34,6 +35,10 @@ export async function GET() {
     { loc: "https://www.doshaflow.com/privacy", priority: "0.3" },
     { loc: "https://www.doshaflow.com/terms", priority: "0.3" },
   ]
+  const staticPages = staticPageList.map((page) => ({
+    ...page,
+    lastmod: staticLastModified[page.loc.replace(/^https:\/\/www\.doshaflow\.com\/?/, "")],
+  }))
 
   // Dynamic blog articles from posts.ts - filter duplicates by slug
   const allPosts = getAllPosts()
