@@ -98,15 +98,6 @@ const VILJOEN_2014: ArticleSource = {
     "Systematic review of randomized trials. Ginger improved nausea symptoms compared with placebo, without a significant effect on vomiting. The authors rated the overall quality of evidence as low.",
 }
 
-const KONGKEAW_2014: ArticleSource = {
-  title: "Meta-analysis of randomized controlled trials on cognitive effects of Bacopa monnieri extract",
-  journal: "Journal of Ethnopharmacology",
-  year: 2014,
-  pubmedUrl: "https://pubmed.ncbi.nlm.nih.gov/24252493/",
-  evidenceNote:
-    "Meta-analysis of randomized trials (437 participants) of brahmi extract taken for 12 weeks or more. Found modest improvements in speed of attention; the authors called for larger trials before drawing firm conclusions.",
-}
-
 export const ARTICLE_SOURCES: Record<string, ArticleSource[]> = {
   "ashwagandha-benefits": [CHANDRASEKHAR_2012, SALVE_2019, BJORNSSON_2020],
   "adrenal-fatigue-ayurveda": [CADEGIANI_KATER_2016, CHANDRASEKHAR_2012, SALVE_2019],
@@ -114,10 +105,8 @@ export const ARTICLE_SOURCES: Record<string, ArticleSource[]> = {
   "best-ayurvedic-tea-anxiety": [AMSTERDAM_2009, JAMSHIDI_COHEN_2017, CHANDRASEKHAR_2012, BJORNSSON_2020],
   "ayurvedic-tea-guide": [AMSTERDAM_2009, JAMSHIDI_COHEN_2017, VILJOEN_2014],
   "best-ayurvedic-tea-sleep": [AMSTERDAM_2009, CHANDRASEKHAR_2012],
-  "tulsi-benefits": [JAMSHIDI_COHEN_2017],
   "best-tea-for-bloating": [ALAMMAR_2019, WU_2008, VILJOEN_2014],
   "best-tea-for-vata": [VILJOEN_2014, WU_2008, JAMSHIDI_COHEN_2017, AMSTERDAM_2009, CHANDRASEKHAR_2012],
-  "ashwagandha-vs-brahmi": [CHANDRASEKHAR_2012, SALVE_2019, KONGKEAW_2014],
   "how-to-take-ashwagandha": [CHANDRASEKHAR_2012, SALVE_2019],
 }
 

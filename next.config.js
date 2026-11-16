@@ -13,6 +13,30 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      ...[
+        'tulsi-benefits',
+        'turmeric-benefits',
+        'ginger-benefits',
+        'cumin-benefits',
+        'cardamom-benefits',
+        'fennel-benefits',
+        'amla-benefits',
+        'moringa-benefits',
+        'neem-benefits',
+        'what-are-adaptogens',
+        'best-spices-for-digestion',
+        'ghee-benefits-ayurveda',
+        'kitchari-benefits',
+      ].map((slug) => ({
+        source: `/blog/${slug}`,
+        destination: '/blog/ayurvedic-herbs-guide',
+        permanent: true,
+      })),
+      ...['mens-guide-to-ashwagandha', 'ashwagandha-vs-brahmi'].map((slug) => ({
+        source: `/blog/${slug}`,
+        destination: '/blog/ashwagandha-benefits',
+        permanent: true,
+      })),
       {
         source: '/blog/heart-health-circulation',
         destination: '/blog/ayurveda-for-heart-health',
@@ -131,7 +155,7 @@ const nextConfig = {
       },
       {
         source: '/blog/brahmi-benefits',
-        destination: '/blog/ashwagandha-vs-brahmi',
+        destination: '/blog/ashwagandha-benefits',
         permanent: true,
       },
       {
@@ -246,7 +270,7 @@ const nextConfig = {
       },
       {
         source: '/blog/herbal-cooking-spices',
-        destination: '/blog/best-spices-for-digestion',
+        destination: '/blog/ayurvedic-herbs-guide',
         permanent: true,
       },
       {
@@ -256,7 +280,7 @@ const nextConfig = {
       },
       {
         source: '/blog/fat-soluble-vitamins',
-        destination: '/blog/ghee-benefits-ayurveda',
+        destination: '/blog/ayurvedic-herbs-guide',
         permanent: true,
       },
       {
