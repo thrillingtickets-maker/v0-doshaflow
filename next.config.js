@@ -106,7 +106,7 @@ const nextConfig = {
       },
       {
         source: '/blog/dopamine-exhaustion-ayurveda',
-        destination: '/blog/modern-wellness-rest',
+        destination: '/blog/dopamine-detox-vs-ayurveda',
         permanent: true,
       },
       {
